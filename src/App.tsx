@@ -17,6 +17,7 @@ const Contact = lazy(() => import('./pages/Contact'))
 const ServiceDetail = lazy(() => import('./pages/ServiceDetail'))
 const Blog = lazy(() => import('./pages/Blog'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
+const NotFound = lazy(() => import('./pages/NotFound'))
 
 // Loading component
 const Loading = () => (
@@ -115,6 +116,9 @@ function App() {
             <Route path="/layanan/pagar-besi" element={<Navigate to="/layanan-las-bekasi/jasa-pembuatan-pagar-besi-bekasi" replace />} />
             <Route path="/layanan/teralis" element={<Navigate to="/layanan-las-bekasi/jasa-pembuatan-teralis-bekasi" replace />} />
             <Route path="/layanan/railing-tangga" element={<Navigate to="/layanan-las-bekasi/jasa-pembuatan-railing-tangga-bekasi" replace />} />
+            
+            {/* 404 Page - Must be last */}
+            <Route path="*" element={<NotFound />} />
         </Routes>
           <Suspense fallback={<Loading />}>
         <WhatsAppButton />
