@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
           <article className="hero-text">
             <header>
               <p className="hero-subtitle" aria-label="Tagline">Jasa Las Bekasi Terpercaya</p>
-              <h1 id="hero-title">Bengkel Las Bekasi #1 - Bengkel Las Mandiri</h1>
+              <div className="hero-title" id="hero-title" role="heading" aria-level={1}>Bengkel Las Bekasi #1 - Bengkel Las Mandiri</div>
               <p className="hero-description" role="doc-subtitle">
                 Spesialis Las Listrik, Konstruksi Baja & Aksesori Rumah di Bekasi
               </p>

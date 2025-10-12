@@ -29,7 +29,7 @@ const Home: React.FC = () => {
     <div className="home">
       <Helmet>
         <title>Bengkel Las Mandiri - Jasa Las Profesional & Berkualitas di Bekasi</title>
-        <meta name="description" content="Jasa las profesional di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis & konstruksi baja. Material SNI, garansi resmi. ☎ 0852-1207-8467" />
+        <meta name="description" content="Jasa las Bekasi sejak 1999. Spesialis kanopi, pagar, teralis & konstruksi baja. Material SNI, garansi. ☎ 0852-1207-8467" />
         <meta name="keywords" content="bengkel las bekasi, jasa las bekasi, las listrik bekasi, kanopi bekasi, pagar besi bekasi, teralis bekasi, railing tangga bekasi" />
         
         {/* Open Graph / Facebook */}

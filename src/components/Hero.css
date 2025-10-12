@@ -25,7 +25,8 @@
   letter-spacing: 0.5px;
 }
 
-.hero-text h1 {
+.hero-text h1,
+.hero-text .hero-title {
   font-size: 2.5rem;
   font-weight: 700;
   color: #333;

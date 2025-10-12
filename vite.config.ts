@@ -37,10 +37,30 @@ export default defineConfig({
     },
     rollupOptions: {
       output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          helmet: ['react-helmet-async'],
-          icons: ['lucide-react']
+        manualChunks: (id) => {
+          // More aggressive code splitting for better INP
+          if (id.includes('node_modules')) {
+            if (id.includes('react') || id.includes('react-dom')) {
+              return 'react-vendor'
+            }
+            if (id.includes('react-router')) {
+              return 'router'
+            }
+            if (id.includes('react-helmet')) {
+              return 'helmet'
+            }
+            if (id.includes('lucide')) {
+              return 'icons'
+            }
+            return 'vendor'
+          }
+          // Split large components
+          if (id.includes('components/Portfolio')) {
+            return 'portfolio'
+          }
+          if (id.includes('components/FAQ')) {
+            return 'faq'
+          }
         },
         // Optimize chunk filenames
         chunkFileNames: 'assets/js/[name]-[hash].js',
@@ -50,7 +70,9 @@ export default defineConfig({
     },
     // Optimize bundle size
     reportCompressedSize: false,
-    chunkSizeWarningLimit: 1000
+    chunkSizeWarningLimit: 500,
+    // Reduce initial bundle size for better INP
+    cssCodeSplit: true
   },
   // Global esbuild optimization (for dev mode)
   esbuild: {

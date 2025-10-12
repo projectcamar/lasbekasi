@@ -59,6 +59,12 @@ const Footer: React.FC = () => {
                 <a href="https://www.tiktok.com/@lasbekasi" target="_blank" rel="noopener noreferrer external" aria-label="TikTok Bengkel Las Mandiri">
                   TikTok
                 </a>
+                <a href="https://twitter.com/lasbekasi" target="_blank" rel="noopener noreferrer external" aria-label="Twitter/X Bengkel Las Mandiri">
+                  Twitter
+                </a>
+                <a href="https://www.linkedin.com/company/bengkel-las-mandiri-bekasi" target="_blank" rel="noopener noreferrer external" aria-label="LinkedIn Bengkel Las Mandiri">
+                  LinkedIn
+                </a>
               </div>
             </div>
           </div>
