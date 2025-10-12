@@ -29,7 +29,7 @@ const Home: React.FC = () => {
     <div className="home">
       <Helmet>
         <title>Bengkel Las Mandiri - Jasa Las Profesional & Berkualitas di Bekasi</title>
-        <meta name="description" content="Jasa las profesional di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis, railing tangga & konstruksi baja. Material SNI, garansi resmi. ☎ 0852-1207-8467" />
+        <meta name="description" content="Jasa las profesional di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis & konstruksi baja. Material SNI, garansi resmi. ☎ 0852-1207-8467" />
         <meta name="keywords" content="bengkel las bekasi, jasa las bekasi, las listrik bekasi, kanopi bekasi, pagar besi bekasi, teralis bekasi, railing tangga bekasi" />
         
         {/* Open Graph / Facebook */}
@@ -59,14 +59,14 @@ const Home: React.FC = () => {
               "@context": "https://schema.org",
               "@type": "LocalBusiness",
               "name": "Bengkel Las Mandiri",
-              "image": "/images/bengkel-las-mandiri.jpg",
-              "description": "Jasa las profesional & terpercaya di Bekasi. Spesialis kanopi, pagar besi, teralis, railing tangga & konstruksi besi.",
+              "image": "https://lasbekasi.com/og-image.jpg",
+              "description": "Jasa las profesional & terpercaya di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis, railing tangga & konstruksi baja.",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "Jalan Raya Bekasi",
+                "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
                 "addressLocality": "Bekasi",
                 "addressRegion": "Jawa Barat",
-                "postalCode": "17111",
+                "postalCode": "17320",
                 "addressCountry": "ID"
               },
               "geo": {
@@ -93,7 +93,9 @@ const Home: React.FC = () => {
               },
               "sameAs": [
                 "https://facebook.com/lasbekasi",
-                "https://instagram.com/lasbekasi"
+                "https://instagram.com/lasbekasi",
+                "https://www.youtube.com/@bengkellasmandiribekasiofficial",
+                "https://www.tiktok.com/@lasbekasi"
               ]
             }
           `}
