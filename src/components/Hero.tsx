@@ -37,7 +37,9 @@ const Hero: React.FC = () => {
             <img 
               src={heroImage}
               alt="Workshop Bengkel Las Bekasi dengan peralatan las modern dan hasil pekerjaan berkualitas" 
-              loading="eager" 
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
               width="600" 
               height="400"
               className="hero-img"
