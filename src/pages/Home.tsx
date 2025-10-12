@@ -52,7 +52,23 @@ const Home: React.FC = () => {
         <meta name="geo.placename" content="Bekasi" />
         <link rel="canonical" href="https://lasbekasi.com/" />
         
-        {/* Structured Data / Schema.org */}
+        {/* BreadcrumbList Schema for Better Sitelinks */}
+        <script type="application/ld+json">
+          {`
+            {
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": [{
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://lasbekasi.com/"
+              }]
+            }
+          `}
+        </script>
+
+        {/* LocalBusiness Schema */}
         <script type="application/ld+json">
           {`
             {
