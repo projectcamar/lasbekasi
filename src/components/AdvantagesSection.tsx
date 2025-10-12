@@ -61,12 +61,12 @@ const AdvantagesSection: React.FC = () => {
           })}
         </div>
         
-        <div className="advantages-cta" style={{ textAlign: 'center', marginTop: '40px' }}>
-          <p style={{ fontSize: '18px', marginBottom: '20px' }}>
+        <div className="advantages-cta">
+          <p>
             Ingin mengetahui lebih lanjut tentang <Link to="/layanan-las-bekasi">layanan las kami</Link>? 
             Atau lihat <Link to="/album-bengkel-las-mandiri">portfolio pekerjaan kami</Link> yang telah dipercaya oleh ribuan pelanggan.
           </p>
-          <Link to="/kontak-bengkel-las-bekasi" className="btn-primary" style={{ display: 'inline-block', padding: '12px 30px', backgroundColor: '#ff6b35', color: 'white', textDecoration: 'none', borderRadius: '5px' }}>
+          <Link to="/kontak-bengkel-las-bekasi" className="btn-primary">
             Hubungi Kami Sekarang
           </Link>
         </div>

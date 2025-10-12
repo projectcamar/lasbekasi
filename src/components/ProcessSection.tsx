@@ -46,12 +46,12 @@ const ProcessSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="process-cta" style={{ textAlign: 'center', marginTop: '40px' }}>
-          <p style={{ fontSize: '18px', marginBottom: '20px' }}>
+        <div className="process-cta">
+          <p>
             Lihat berbagai pilihan <Link to="/layanan-las-bekasi">jasa las kami</Link> atau 
             langsung <Link to="/kontak-bengkel-las-bekasi">hubungi kami</Link> untuk konsultasi gratis.
           </p>
-          <p style={{ fontSize: '16px', color: '#666' }}>
+          <p>
             Kami melayani area <strong>Bekasi Timur</strong>, <strong>Bekasi Barat</strong>, 
             <strong> Bekasi Utara</strong>, <strong>Bekasi Selatan</strong>, <strong>Cikarang</strong>, 
             dan sekitarnya dengan harga terjangkau dan kualitas terbaik.

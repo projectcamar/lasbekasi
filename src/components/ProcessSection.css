@@ -47,8 +47,48 @@
   font-size: 1.3rem;
   font-weight: 600;
   color: #333;
-  margin: 0;
+  margin: 0 0 0.5rem 0;
   line-height: 1.4;
+}
+
+.step-content p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+.process-cta {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2rem;
+  background: #f8f9fa;
+  border-radius: 15px;
+}
+
+.process-cta p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.process-cta p a {
+  color: #ff6b35;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.process-cta p a:hover {
+  color: #e55a28;
+  border-bottom: 1px solid #e55a28;
+}
+
+.process-cta p strong {
+  color: #333;
+  font-weight: 600;
 }
 
 /* Mobile styles */
@@ -103,5 +143,13 @@
   
   .step-content p {
     font-size: 0.8rem;
+  }
+
+  .process-cta {
+    padding: 1.5rem 1rem;
+  }
+
+  .process-cta p {
+    font-size: 0.95rem;
   }
 }

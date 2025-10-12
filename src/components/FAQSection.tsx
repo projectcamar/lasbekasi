@@ -103,19 +103,19 @@ const FAQSection: React.FC = () => {
           ))}
         </div>
         
-        <div className="faq-cta" style={{ textAlign: 'center', marginTop: '40px', padding: '30px', backgroundColor: '#f8f8f8', borderRadius: '10px' }}>
-          <h3 style={{ marginBottom: '15px' }}>Masih Ada Pertanyaan?</h3>
-          <p style={{ fontSize: '16px', marginBottom: '20px' }}>
+        <div className="faq-cta">
+          <h3>Masih Ada Pertanyaan?</h3>
+          <p>
             Hubungi tim kami untuk konsultasi gratis dan dapatkan penawaran harga terbaik untuk kebutuhan las Anda.
           </p>
-          <div style={{ display: 'flex', gap: '15px', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <Link to="/kontak-bengkel-las-bekasi" className="btn-primary" style={{ display: 'inline-block', padding: '12px 30px', backgroundColor: '#ff6b35', color: 'white', textDecoration: 'none', borderRadius: '5px' }}>
+          <div className="faq-cta-buttons">
+            <Link to="/kontak-bengkel-las-bekasi" className="btn-primary">
               Hubungi Kami
             </Link>
-            <Link to="/layanan-las-bekasi" className="btn-secondary" style={{ display: 'inline-block', padding: '12px 30px', backgroundColor: 'transparent', border: '2px solid #ff6b35', color: '#ff6b35', textDecoration: 'none', borderRadius: '5px' }}>
+            <Link to="/layanan-las-bekasi" className="btn-secondary">
               Lihat Layanan
             </Link>
-            <Link to="/album-bengkel-las-mandiri" className="btn-secondary" style={{ display: 'inline-block', padding: '12px 30px', backgroundColor: 'transparent', border: '2px solid #ff6b35', color: '#ff6b35', textDecoration: 'none', borderRadius: '5px' }}>
+            <Link to="/album-bengkel-las-mandiri" className="btn-secondary">
               Lihat Portfolio
             </Link>
           </div>

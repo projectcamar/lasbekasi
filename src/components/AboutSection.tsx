@@ -37,11 +37,11 @@ const AboutSection: React.FC = () => {
               Bekasi Barat, Bekasi Utara, Bekasi Selatan, dan sekitarnya dengan harga las termurah tanpa mengorbankan kualitas.
             </p>
             
-            <div style={{ marginTop: '20px' }}>
-              <Link to="/tentang-kami" className="btn-secondary" style={{ display: 'inline-block', padding: '10px 25px', backgroundColor: 'transparent', border: '2px solid #ff6b35', color: '#ff6b35', textDecoration: 'none', borderRadius: '5px', marginRight: '10px' }}>
+            <div className="about-cta-buttons">
+              <Link to="/tentang-kami" className="btn-secondary">
                 Selengkapnya Tentang Kami
               </Link>
-              <Link to="/kontak-bengkel-las-bekasi" className="btn-primary" style={{ display: 'inline-block', padding: '10px 25px', backgroundColor: '#ff6b35', color: 'white', textDecoration: 'none', borderRadius: '5px' }}>
+              <Link to="/kontak-bengkel-las-bekasi" className="btn-primary">
                 Konsultasi Gratis
               </Link>
             </div>

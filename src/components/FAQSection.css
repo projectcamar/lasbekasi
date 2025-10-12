@@ -99,6 +99,84 @@
   padding-top: 1rem;
 }
 
+.answer-content p a {
+  color: #ff6b35;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+
+.answer-content p a:hover {
+  color: #e55a28;
+  border-bottom: 1px solid #e55a28;
+}
+
+.faq-cta {
+  text-align: center;
+  margin-top: 3rem;
+  padding: 2.5rem 2rem;
+  background: #f8f9fa;
+  border-radius: 15px;
+  border: 2px solid #e5e7eb;
+}
+
+.faq-cta h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.faq-cta > p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+.faq-cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.faq-cta-buttons .btn-primary,
+.faq-cta-buttons .btn-secondary {
+  display: inline-block;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border: 2px solid #ff6b35;
+}
+
+.faq-cta-buttons .btn-primary {
+  background: #ff6b35;
+  color: white;
+}
+
+.faq-cta-buttons .btn-primary:hover {
+  background: #e55a28;
+  border-color: #e55a28;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 107, 53, 0.3);
+}
+
+.faq-cta-buttons .btn-secondary {
+  background: transparent;
+  color: #ff6b35;
+}
+
+.faq-cta-buttons .btn-secondary:hover {
+  background: #ff6b35;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(255, 107, 53, 0.3);
+}
+
 /* Mobile styles */
 @media (max-width: 768px) {
   .faq-section {
@@ -120,6 +198,28 @@
   .answer-content p {
     font-size: 0.95rem;
   }
+
+  .faq-cta {
+    padding: 2rem 1.5rem;
+  }
+
+  .faq-cta h3 {
+    font-size: 1.5rem;
+  }
+
+  .faq-cta > p {
+    font-size: 1rem;
+  }
+
+  .faq-cta-buttons {
+    flex-direction: column;
+  }
+
+  .faq-cta-buttons .btn-primary,
+  .faq-cta-buttons .btn-secondary {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -134,5 +234,17 @@
   
   .answer-content {
     padding: 0 1.25rem 1rem 1.25rem;
+  }
+
+  .faq-cta {
+    padding: 1.5rem 1rem;
+  }
+
+  .faq-cta h3 {
+    font-size: 1.3rem;
+  }
+
+  .faq-cta > p {
+    font-size: 0.95rem;
   }
 }
