@@ -63,36 +63,14 @@
     
     <title>Bengkel Las Bekasi - Jasa Las Profesional & Berkualitas #1</title>
     
-    <!-- Google Analytics 4 (GA4) -->
+    <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BR85RR2ZHX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      
-      // Configure GA4 with enhanced measurement
-      gtag('config', 'G-BR85RR2ZHX', {
-        page_path: window.location.pathname,
-        send_page_view: true,
-        // Enhanced measurement
-        cookie_flags: 'SameSite=None;Secure',
-        anonymize_ip: true,
-        // Custom parameters
-        site_name: 'Bengkel Las Mandiri',
-        site_category: 'Construction Services'
-      });
-      
-      // Track outbound links
-      document.addEventListener('click', function(e) {
-        var target = e.target.closest('a');
-        if (target && target.hostname !== window.location.hostname) {
-          gtag('event', 'click', {
-            event_category: 'outbound',
-            event_label: target.href,
-            transport_type: 'beacon'
-          });
-        }
-      });
+
+      gtag('config', 'G-BR85RR2ZHX');
     </script>
     
     <!-- Schema.org Structured Data -->
