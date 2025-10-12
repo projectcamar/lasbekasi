@@ -71,6 +71,8 @@ const ClientsSection: React.FC = () => {
                   <img 
                     src={client.logo} 
                     alt={client.name}
+                    loading="lazy"
+                    decoding="async"
                     className="logo-image"
                   />
                 </div>

@@ -1908,6 +1908,8 @@ Tersedia pilihan warna natural oak, walnut, atau white. Chat untuk konsultasi de
                   <img 
                     src={product.image} 
                     alt={product.name}
+                    loading="lazy"
+                    decoding="async"
                     style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                   />
                 ) : (
@@ -1965,6 +1967,8 @@ Tersedia pilihan warna natural oak, walnut, atau white. Chat untuk konsultasi de
                     <img 
                       src={selectedProduct.image} 
                       alt={selectedProduct.name}
+                      loading="lazy"
+                      decoding="async"
                       style={{ width: '100%', maxWidth: '500px', height: 'auto', borderRadius: '8px', marginBottom: '20px' }}
                     />
                   </div>
