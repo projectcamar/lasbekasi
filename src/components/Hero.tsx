@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
               src={heroImage}
               alt="Workshop Bengkel Las Bekasi dengan peralatan las modern dan hasil pekerjaan berkualitas" 
               loading="eager"
-              fetchpriority="high"
+              fetchPriority="high"
               decoding="async"
               width="600" 
               height="400"
