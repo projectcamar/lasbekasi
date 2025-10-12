@@ -1,11 +1,15 @@
 import React, { useState } from 'react'
 import { MessageCircle, X } from 'lucide-react'
+import { trackWhatsAppClick } from '../utils/analytics'
 import './WhatsAppButton.css'
 
 const WhatsAppButton: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   const handleWhatsAppClick = () => {
+    // Track WhatsApp click
+    trackWhatsAppClick('floating_button')
+    
     const whatsappMessage = `Halo Bapak Maman Toha, saya tertarik dengan layanan Bengkel Las Mandiri. Bisa minta informasi lebih lanjut?`
     const whatsappUrl = `https://wa.me/6285212078467?text=${encodeURIComponent(whatsappMessage)}`
     window.open(whatsappUrl, '_blank')
