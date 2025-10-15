@@ -5,9 +5,9 @@ import App from './App.tsx'
 // Mark body as React loaded to hide static SEO content
 document.body.classList.add('react-loaded')
 
-// Ultra-fast rendering - no delays
+// Ultra-fast rendering with immediate critical content
 const rootElement = document.getElementById('root')!
 const root = createRoot(rootElement)
 
-// Render immediately - no delays
+// Render immediately for fastest FCP
 root.render(<App />)

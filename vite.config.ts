@@ -42,7 +42,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: (id) => {
-          // Critical path optimization - keep essential chunks small
+          // Ultra-aggressive chunk splitting to reduce unused JS
           if (id.includes('node_modules')) {
             if (id.includes('react') || id.includes('react-dom')) {
               return 'react-vendor'
@@ -58,22 +58,15 @@ export default defineConfig({
             }
             return 'vendor'
           }
-          // Split components by priority for progressive loading
+          // Split by criticality to minimize initial bundle
           if (id.includes('components/Header') || id.includes('components/Hero')) {
             return 'critical'
           }
           if (id.includes('components/AboutSection') || id.includes('components/ServicesSection')) {
             return 'above-fold'
           }
-          if (id.includes('components/Portfolio')) {
-            return 'portfolio'
-          }
-          if (id.includes('components/FAQ')) {
-            return 'faq'
-          }
-          if (id.includes('pages/')) {
-            return 'pages'
-          }
+          // Everything else goes to lazy chunks
+          return 'lazy'
         },
         // Optimize chunk filenames for better caching
         chunkFileNames: 'assets/js/[name]-[hash].js',
@@ -83,7 +76,7 @@ export default defineConfig({
     },
     // Ultra-aggressive bundle optimization
     reportCompressedSize: false,
-    chunkSizeWarningLimit: 150, // Ultra-small chunks
+    chunkSizeWarningLimit: 80, // Ultra-small chunks for better performance
     // Reduce initial bundle size for better INP
     cssCodeSplit: true,
     // Enable source maps for debugging (disable in production)
