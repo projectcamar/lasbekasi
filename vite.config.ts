@@ -65,6 +65,10 @@ export default defineConfig({
           if (id.includes('components/AboutSection') || id.includes('components/ServicesSection')) {
             return 'above-fold'
           }
+          // SEO pages go to separate chunks
+          if (id.includes('pages/JasaLas') || id.includes('pages/BengkelLas')) {
+            return 'seo-pages'
+          }
           // Everything else goes to lazy chunks
           return 'lazy'
         },
@@ -76,7 +80,7 @@ export default defineConfig({
     },
     // Ultra-aggressive bundle optimization
     reportCompressedSize: false,
-    chunkSizeWarningLimit: 80, // Ultra-small chunks for better performance
+    chunkSizeWarningLimit: 50, // Ultra-small chunks for better performance
     // Reduce initial bundle size for better INP
     cssCodeSplit: true,
     // Enable source maps for debugging (disable in production)

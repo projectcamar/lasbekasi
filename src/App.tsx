@@ -19,7 +19,7 @@ const Blog = lazy(() => import('./pages/Blog'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
-// SEO Landing Pages
+// SEO Landing Pages - Lazy load only when needed
 const JasaLasPagar = lazy(() => import('./pages/JasaLasPagar'))
 const JasaLasKanopi = lazy(() => import('./pages/JasaLasKanopi'))
 const JasaLasTralis = lazy(() => import('./pages/JasaLasTralis'))
