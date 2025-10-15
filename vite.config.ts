@@ -42,7 +42,7 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks: (id) => {
-          // More aggressive code splitting for better INP
+          // Critical path optimization - keep essential chunks small
           if (id.includes('node_modules')) {
             if (id.includes('react') || id.includes('react-dom')) {
               return 'react-vendor'
@@ -58,25 +58,36 @@ export default defineConfig({
             }
             return 'vendor'
           }
-          // Split large components
+          // Split components by priority for progressive loading
+          if (id.includes('components/Header') || id.includes('components/Hero')) {
+            return 'critical'
+          }
+          if (id.includes('components/AboutSection') || id.includes('components/ServicesSection')) {
+            return 'above-fold'
+          }
           if (id.includes('components/Portfolio')) {
             return 'portfolio'
           }
           if (id.includes('components/FAQ')) {
             return 'faq'
           }
+          if (id.includes('pages/')) {
+            return 'pages'
+          }
         },
-        // Optimize chunk filenames
+        // Optimize chunk filenames for better caching
         chunkFileNames: 'assets/js/[name]-[hash].js',
         entryFileNames: 'assets/js/[name]-[hash].js',
         assetFileNames: 'assets/[ext]/[name]-[hash].[ext]'
       }
     },
-    // Optimize bundle size
+    // Optimize bundle size for faster loading
     reportCompressedSize: false,
-    chunkSizeWarningLimit: 500,
+    chunkSizeWarningLimit: 300, // Reduced from 500 for better performance
     // Reduce initial bundle size for better INP
-    cssCodeSplit: true
+    cssCodeSplit: true,
+    // Enable source maps for debugging (disable in production)
+    sourcemap: false
   },
   // Global esbuild optimization (for dev mode)
   esbuild: {

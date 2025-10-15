@@ -1,6 +1,6 @@
+import React, { Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
-import { Suspense, lazy } from 'react'
 import { Analytics } from '@vercel/analytics/react'
 import './App.css'
 
@@ -8,7 +8,7 @@ import './App.css'
 import WhatsAppButton from './components/WhatsAppButton'
 import Breadcrumb from './components/Breadcrumb'
 
-// Lazy load pages
+// Lazy load pages with priority batching
 const Home = lazy(() => import('./pages/Home'))
 const About = lazy(() => import('./pages/About'))
 const Services = lazy(() => import('./pages/Services'))
@@ -19,6 +19,14 @@ const Blog = lazy(() => import('./pages/Blog'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
+// Preload critical routes
+const preloadCriticalRoutes = () => {
+  // Preload Home page components
+  import('./pages/Home')
+  import('./components/Header')
+  import('./components/Hero')
+}
+
 // Loading component
 const Loading = () => (
   <div className="loading-spinner">
@@ -28,6 +36,16 @@ const Loading = () => (
 )
 
 function App() {
+  // Preload critical resources on app start
+  React.useEffect(() => {
+    // Preload critical routes after initial render
+    const timer = setTimeout(() => {
+      preloadCriticalRoutes()
+    }, 100)
+    
+    return () => clearTimeout(timer)
+  }, [])
+
   return (
     <HelmetProvider>
       <Router>

@@ -48,15 +48,35 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
     <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     
-    <!-- Preload critical assets -->
+    <!-- Preload critical assets for faster loading -->
     <link rel="modulepreload" href="/src/main.tsx" />
+    <link rel="modulepreload" href="/src/App.tsx" />
+    <link rel="modulepreload" href="/src/pages/Home.tsx" />
+    <link rel="modulepreload" href="/src/components/Header.tsx" />
+    <link rel="modulepreload" href="/src/components/Hero.tsx" />
+    
+    <!-- Preload critical CSS -->
     <link rel="preload" as="style" href="/src/index.css" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="/src/index.css" /></noscript>
+    <link rel="preload" as="style" href="/src/App.css" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+      <link rel="stylesheet" href="/src/index.css" />
+      <link rel="stylesheet" href="/src/App.css" />
+    </noscript>
+    
+    <!-- Preload critical images -->
+    <link rel="preload" as="image" href="/images/bengkel-las-mandiri.jpg" />
+    <link rel="preload" as="image" href="/images/kanopi-bekasi.jpg" />
+    <link rel="preload" as="image" href="/images/pagar-besi-bekasi.jpg" />
     
     <!-- Preload fonts with display swap -->
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    
+    <!-- Resource hints for better performance -->
+    <link rel="prefetch" href="/src/components/AboutSection.tsx" />
+    <link rel="prefetch" href="/src/components/ServicesSection.tsx" />
     
     <!-- PWA -->
     <link rel="manifest" href="/site.webmanifest" />

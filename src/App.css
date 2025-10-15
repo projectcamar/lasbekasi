@@ -215,7 +215,7 @@ section {
   border: 0;
 }
 
-/* Loading spinners */
+/* Enhanced Loading States */
 .section-loading {
   min-height: 200px;
   display: flex;
@@ -224,6 +224,7 @@ section {
   background: #f8f9fa;
   border-radius: 8px;
   margin: 1rem 0;
+  padding: 2rem;
 }
 
 .section-spinner {
@@ -233,6 +234,55 @@ section {
   border-top: 4px solid #ff6b35;
   border-radius: 50%;
   animation: spin 1s linear infinite;
+}
+
+/* Skeleton Loading Animation */
+.skeleton-loader {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.skeleton-line {
+  height: 20px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.skeleton-line.short {
+  width: 60%;
+}
+
+.skeleton-line:last-child {
+  margin-bottom: 0;
+}
+
+/* Progressive loading animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.section-loaded {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
 }
 
 @keyframes spin {
