@@ -1,123 +1,111 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
-import './Blog.css'
 import { Helmet } from 'react-helmet-async'
 
-interface BlogPost {
-  slug: string
-  title: string
-  excerpt: string
-  date: string
-  author: string
-  category: string
-}
-
 const Blog: React.FC = () => {
-  const blogPosts: BlogPost[] = [
-    {
-      slug: 'cari-bengkel-las-bekasi',
-      title: 'Cari Bengkel Las Bekasi Murah, Berkualitas, dan Terpercaya?',
-      excerpt: 'Bengkel Las Mandiri adalah solusi terbaik untuk kebutuhan konstruksi baja Anda. Dengan pengalaman 20+ tahun sejak 1999, kami siap melayani berbagai proyek dengan kualitas terbaik.',
-      date: '11 Oktober 2025',
-      author: 'Admin',
-      category: 'Bengkel Las'
-    },
-    {
-      slug: 'jasa-tukang-las-cikarang',
-      title: 'Jasa Tukang Las Cikarang - Profesional dan Terpercaya',
-      excerpt: 'Mencari jasa tukang las di Cikarang? Kami melayani berbagai kebutuhan pengelasan untuk rumah, kantor, dan industri di wilayah Cikarang dengan harga kompetitif dan hasil berkualitas.',
-      date: '11 Oktober 2025',
-      author: 'Admin',
-      category: 'Jasa Las'
-    },
-    {
-      slug: 'jasa-tukang-las-setu',
-      title: 'Jasa Tukang Las Setu - Cepat, Rapi, dan Berkualitas',
-      excerpt: 'Layanan jasa tukang las profesional di Setu dan sekitarnya. Melayani pembuatan kanopi, pagar, tralis, railing tangga, dan berbagai konstruksi baja lainnya dengan pengerjaan cepat dan rapi.',
-      date: '11 Oktober 2025',
-      author: 'Admin',
-      category: 'Jasa Las'
-    },
-    {
-      slug: 'jasa-tukang-las-bekasi',
-      title: 'Jasa Tukang Las Bekasi - Berpengalaman dan Bergaransi',
-      excerpt: 'Jasa tukang las terpercaya di Bekasi untuk berbagai kebutuhan konstruksi baja. Dikerjakan oleh tenaga ahli berpengalaman dengan material berkualitas SNI dan harga yang kompetitif.',
-      date: '11 Oktober 2025',
-      author: 'Admin',
-      category: 'Jasa Las'
-    },
-    {
-      slug: 'jasa-kanopi-bekasi',
-      title: 'Jasa Pasang Kanopi Bekasi - Harga Borongan Tukang Kanopi Terpercaya 2025',
-      excerpt: 'Jasa pasang kanopi Bekasi terpercaya ✓ Harga mulai 350rb/m² ✓ Material SNI ✓ Garansi resmi. Alderon, Polycarbonate, Spandek, Kaca Tempered. Survey & konsultasi GRATIS! Pengalaman 20+ tahun.',
-      date: '15 Januari 2025',
-      author: 'Bengkel Las Mandiri',
-      category: 'Layanan Las'
-    }
-  ]
-
   return (
-    <div className="blog-page">
+    <div className="blog">
       <Helmet>
-        <title>Blog - Bengkel Las Mandiri | Tips dan Artikel Seputar Konstruksi Baja</title>
-        <meta name="description" content="Baca artikel, tips, dan informasi terbaru seputar jasa las, konstruksi baja, kanopi, pagar, tralis, dan produk furniture industrial di Bekasi dan sekitarnya." />
-        <meta name="keywords" content="blog bengkel las, artikel las bekasi, tips konstruksi baja, jasa tukang las, informasi pengelasan" />
-        <link rel="canonical" href="https://www.lasbekasi.com/blog" />
-        
-        {/* Open Graph */}
-        <meta property="og:title" content="Blog Bengkel Las Mandiri - Tips dan Artikel Konstruksi Baja" />
-        <meta property="og:description" content="Baca artikel, tips, dan informasi terbaru seputar jasa las, konstruksi baja, kanopi, pagar, tralis, dan furniture industrial di Bekasi." />
-        <meta property="og:url" content="https://www.lasbekasi.com/blog" />
-        <meta property="og:type" content="website" />
-        
-        {/* Twitter Card */}
-        <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Blog Bengkel Las Mandiri - Tips dan Artikel Konstruksi Baja" />
-        <meta name="twitter:description" content="Baca artikel, tips, dan informasi terbaru seputar jasa las, konstruksi baja, kanopi, pagar, tralis, dan furniture industrial." />
-        
-        <meta name="robots" content="index, follow" />
+        <title>Blog Bengkel Las | Tips & Panduan Las Besi, Kanopi & Pagar</title>
+        <meta name="description" content="Blog bengkel las dengan tips dan panduan lengkap tentang las besi, kanopi, pagar, dan konstruksi baja. Informasi terbaru seputar jasa las Bekasi." />
+        <meta name="keywords" content="blog bengkel las, tips las besi, panduan kanopi, cara pasang pagar, konstruksi baja, jasa las bekasi" />
+        <link rel="canonical" href="https://lasbekasi.com/blog" />
       </Helmet>
-      
-      <Header />
-      
-      <section className="blog-hero">
-        <div className="container">
-          <h1>Blog Bengkel Las Mandiri</h1>
-          <p>Artikel, tips, dan informasi terbaru seputar jasa las dan konstruksi baja</p>
-        </div>
-      </section>
 
-      <section className="blog-content">
-        <div className="container">
+      <div className="container">
+        <header className="page-header">
+          <h1>Blog Bengkel Las | Tips & Panduan Las Besi, Kanopi & Pagar</h1>
+          <p className="page-subtitle">Informasi Terbaru Seputar Jasa Las dan Konstruksi Baja</p>
+        </header>
+
+        <section className="blog-content">
           <div className="blog-grid">
-            {blogPosts.map((post) => (
-              <article key={post.slug} className="blog-card">
-                <div className="blog-card-header">
-                  <span className="blog-category">{post.category}</span>
-                  <span className="blog-date">{post.date}</span>
-                </div>
-                <div className="blog-card-body">
-                  <h2>{post.title}</h2>
-                  <p>{post.excerpt}</p>
-                </div>
-                <div className="blog-card-footer">
-                  <span className="blog-author">Oleh {post.author}</span>
-                  <Link to={`/blog/${post.slug}`} className="blog-read-more">
-                    Baca Selengkapnya →
-                  </Link>
-                </div>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+            <article className="blog-post">
+              <h2>Cara Memilih Bengkel Las yang Bagus</h2>
+              <p className="post-meta">15 Oktober 2025 | Tips & Panduan</p>
+              <p>Memilih bengkel las yang bagus adalah langkah penting untuk mendapatkan hasil pengerjaan yang berkualitas. Berikut tips memilih bengkel las terpercaya...</p>
+              <a href="/blog/cara-memilih-bengkel-las-yang-bagus" className="btn-outline">Baca Selengkapnya</a>
+            </article>
 
-      <Footer />
+            <article className="blog-post">
+              <h2>Perbedaan Las Listrik dan Las Karbit</h2>
+              <p className="post-meta">12 Oktober 2025 | Teknik Las</p>
+              <p>Las listrik dan las karbit adalah dua teknik las yang berbeda. Mari kita bahas perbedaan keduanya dan kapan sebaiknya digunakan...</p>
+              <a href="/blog/perbedaan-las-listrik-dan-las-karbit" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+
+            <article className="blog-post">
+              <h2>Jenis Jenis Pagar Besi yang Populer</h2>
+              <p className="post-meta">10 Oktober 2025 | Produk & Layanan</p>
+              <p>Pagar besi memiliki berbagai jenis dan desain. Berikut jenis-jenis pagar besi yang populer dan cocok untuk rumah Anda...</p>
+              <a href="/blog/jenis-jenis-pagar-besi-yang-populer" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+
+            <article className="blog-post">
+              <h2>Cara Pasang Kanopi Baja Ringan</h2>
+              <p className="post-meta">8 Oktober 2025 | Panduan Instalasi</p>
+              <p>Kanopi baja ringan adalah solusi praktis untuk melindungi area outdoor. Berikut panduan lengkap cara pasang kanopi baja ringan...</p>
+              <a href="/blog/cara-pasang-kanopi-baja-ringan" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+
+            <article className="blog-post">
+              <h2>Tips Memilih Tukang Las</h2>
+              <p className="post-meta">5 Oktober 2025 | Tips & Panduan</p>
+              <p>Memilih tukang las yang tepat sangat penting untuk mendapatkan hasil pengerjaan yang berkualitas. Berikut tips memilih tukang las...</p>
+              <a href="/blog/tips-memilih-tukang-las" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+
+            <article className="blog-post">
+              <h2>Kelebihan Pagar Besi Dibanding Kayu</h2>
+              <p className="post-meta">3 Oktober 2025 | Perbandingan</p>
+              <p>Pagar besi dan pagar kayu memiliki kelebihan masing-masing. Mari kita bandingkan kelebihan pagar besi dibanding kayu...</p>
+              <a href="/blog/kelebihan-pagar-besi-dibanding-kayu" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+
+            <article className="blog-post">
+              <h2>Cara Perawatan Pagar Besi</h2>
+              <p className="post-meta">1 Oktober 2025 | Perawatan</p>
+              <p>Pagar besi memerlukan perawatan yang tepat agar tetap awet dan tidak berkarat. Berikut cara perawatan pagar besi yang benar...</p>
+              <a href="/blog/cara-perawatan-pagar-besi" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+
+            <article className="blog-post">
+              <h2>Ide Desain Pagar Minimalis</h2>
+              <p className="post-meta">28 September 2025 | Desain & Inspirasi</p>
+              <p>Pagar minimalis menjadi tren untuk rumah modern. Berikut ide desain pagar minimalis yang bisa menjadi inspirasi untuk rumah Anda...</p>
+              <a href="/blog/ide-desain-pagar-minimalis" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+
+            <article className="blog-post">
+              <h2>Model Kanopi Rumah Minimalis</h2>
+              <p className="post-meta">25 September 2025 | Desain & Inspirasi</p>
+              <p>Kanopi rumah minimalis memberikan perlindungan sekaligus estetika. Berikut model kanopi rumah minimalis yang populer...</p>
+              <a href="/blog/model-kanopi-rumah-minimalis" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+
+            <article className="blog-post">
+              <h2>Inspirasi Pagar Industrial</h2>
+              <p className="post-meta">22 September 2025 | Desain & Inspirasi</p>
+              <p>Pagar industrial memberikan kesan modern dan kokoh. Berikut inspirasi pagar industrial yang bisa menjadi pilihan untuk rumah Anda...</p>
+              <a href="/blog/inspirasi-pagar-industrial" className="btn-outline">Baca Selengkapnya</a>
+            </article>
+          </div>
+        </section>
+
+        <section className="cta-section">
+          <h2>Butuh Jasa Las Profesional?</h2>
+          <p>Hubungi kami sekarang untuk konsultasi gratis dan penawaran harga terbaik!</p>
+          <div className="cta-buttons">
+            <a href="https://wa.me/6285212078467" className="btn-primary">
+              WhatsApp Sekarang
+            </a>
+            <a href="tel:+6285212078467" className="btn-secondary">
+              Telepon Langsung
+            </a>
+          </div>
+        </section>
+      </div>
     </div>
   )
 }
 
 export default Blog
-
