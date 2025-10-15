@@ -1,4 +1,4 @@
-import React, { Suspense, lazy } from 'react'
+import { Suspense, lazy } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { HelmetProvider } from 'react-helmet-async'
 import { Analytics } from '@vercel/analytics/react'
@@ -19,13 +19,8 @@ const Blog = lazy(() => import('./pages/Blog'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
 const NotFound = lazy(() => import('./pages/NotFound'))
 
-// Preload critical routes
-const preloadCriticalRoutes = () => {
-  // Preload Home page components
-  import('./pages/Home')
-  import('./components/Header')
-  import('./components/Hero')
-}
+// No preloading - let everything load naturally
+// This prevents the "pause" effect you're experiencing
 
 // Loading component
 const Loading = () => (
@@ -36,15 +31,8 @@ const Loading = () => (
 )
 
 function App() {
-  // Preload critical resources on app start
-  React.useEffect(() => {
-    // Preload critical routes after initial render
-    const timer = setTimeout(() => {
-      preloadCriticalRoutes()
-    }, 100)
-    
-    return () => clearTimeout(timer)
-  }, [])
+  // No preloading - let everything load naturally
+  // This prevents the "pause" effect you're experiencing
 
   return (
     <HelmetProvider>

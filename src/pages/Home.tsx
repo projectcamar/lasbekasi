@@ -1,14 +1,14 @@
-import React, { Suspense, lazy, useState, useEffect, useRef } from 'react'
+import React, { Suspense, lazy } from 'react'
 import { Helmet } from 'react-helmet-async'
 
-// Critical components loaded immediately
+// Load critical and above-fold components immediately - NO LAZY LOADING
 import Header from '../components/Header'
 import Hero from '../components/Hero'
+import AboutSection from '../components/AboutSection'
+import ServicesSection from '../components/ServicesSection'
 
-// Lazy loaded components with priority batching
-const AboutSection = lazy(() => import('../components/AboutSection'))
+// Only lazy load below-fold components
 const ClientsSection = lazy(() => import('../components/ClientsSection'))
-const ServicesSection = lazy(() => import('../components/ServicesSection'))
 const AdvantagesSection = lazy(() => import('../components/AdvantagesSection'))
 const ProcessSection = lazy(() => import('../components/ProcessSection'))
 const PromoSection = lazy(() => import('../components/PromoSection'))
@@ -17,82 +17,14 @@ const TestimonialSection = lazy(() => import('../components/TestimonialSection')
 const ContactSection = lazy(() => import('../components/ContactSection'))
 const Footer = lazy(() => import('../components/Footer'))
 
-// Enhanced loading component with skeleton
+// Simple loading component
 const SectionLoading = () => (
   <div className="section-loading">
-    <div className="skeleton-loader">
-      <div className="skeleton-line"></div>
-      <div className="skeleton-line short"></div>
-      <div className="skeleton-line"></div>
-    </div>
+    <div className="spinner"></div>
   </div>
 )
 
-// Progressive loading hook
-const useProgressiveLoading = () => {
-  const [loadedSections, setLoadedSections] = useState<Set<string>>(new Set())
-  const observerRef = useRef<IntersectionObserver | null>(null)
-
-  useEffect(() => {
-    // Start loading critical sections immediately
-    const criticalSections = ['about', 'services']
-    setLoadedSections(new Set(criticalSections))
-
-    // Setup intersection observer for progressive loading
-    observerRef.current = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const sectionId = entry.target.getAttribute('data-section')
-            if (sectionId) {
-              setLoadedSections(prev => new Set([...prev, sectionId]))
-            }
-          }
-        })
-      },
-      { 
-        rootMargin: '100px 0px',
-        threshold: 0.1 
-      }
-    )
-
-    return () => {
-      if (observerRef.current) {
-        observerRef.current.disconnect()
-      }
-    }
-  }, [])
-
-  return { loadedSections, observerRef }
-}
-
 const Home: React.FC = () => {
-  const { loadedSections, observerRef } = useProgressiveLoading()
-
-  // Preload critical resources
-  useEffect(() => {
-    // Preload critical images
-    const criticalImages = [
-      '/images/bengkel-las-mandiri.jpg',
-      '/images/kanopi-bekasi.jpg',
-      '/images/pagar-besi-bekasi.jpg'
-    ]
-    
-    criticalImages.forEach(src => {
-      const link = document.createElement('link')
-      link.rel = 'preload'
-      link.as = 'image'
-      link.href = src
-      document.head.appendChild(link)
-    })
-
-    // Preload critical fonts
-    const fontLink = document.createElement('link')
-    fontLink.rel = 'preload'
-    fontLink.href = 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'
-    fontLink.as = 'style'
-    document.head.appendChild(fontLink)
-  }, [])
 
   return (
     <div className="home">
@@ -186,172 +118,37 @@ const Home: React.FC = () => {
           `}
         </script>
       </Helmet>
-      {/* Critical Above-the-fold content loads immediately */}
+      {/* Load critical content immediately - NO lazy loading */}
       <Header />
       <Hero />
+      <AboutSection />
+      <ServicesSection />
       
-      {/* Progressive loading with priority batching */}
-      <div 
-        data-section="about" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('about') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('about') && (
-          <Suspense fallback={<SectionLoading />}>
-            <AboutSection />
-          </Suspense>
-        )}
-      </div>
-
-      <div 
-        data-section="services" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('services') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('services') && (
-          <Suspense fallback={<SectionLoading />}>
-            <ServicesSection />
-          </Suspense>
-        )}
-      </div>
-
-      {/* Secondary sections load on scroll */}
-      <div 
-        data-section="clients" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('clients') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('clients') && (
-          <Suspense fallback={<SectionLoading />}>
-            <ClientsSection />
-          </Suspense>
-        )}
-      </div>
-
-      <div 
-        data-section="advantages" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('advantages') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('advantages') && (
-          <Suspense fallback={<SectionLoading />}>
-            <AdvantagesSection />
-          </Suspense>
-        )}
-      </div>
-
-      <div 
-        data-section="process" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('process') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('process') && (
-          <Suspense fallback={<SectionLoading />}>
-            <ProcessSection />
-          </Suspense>
-        )}
-      </div>
-
-      <div 
-        data-section="promo" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('promo') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('promo') && (
-          <Suspense fallback={<SectionLoading />}>
-            <PromoSection />
-          </Suspense>
-        )}
-      </div>
-
-      <div 
-        data-section="faq" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('faq') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('faq') && (
-          <Suspense fallback={<SectionLoading />}>
-            <FAQSection />
-          </Suspense>
-        )}
-      </div>
-
-      <div 
-        data-section="testimonial" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('testimonial') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('testimonial') && (
-          <Suspense fallback={<SectionLoading />}>
-            <TestimonialSection />
-          </Suspense>
-        )}
-      </div>
-
-      <div 
-        data-section="contact" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('contact') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('contact') && (
-          <Suspense fallback={<SectionLoading />}>
-            <ContactSection />
-          </Suspense>
-        )}
-      </div>
-
-      {/* Footer loads last */}
-      <div 
-        data-section="footer" 
-        ref={(el) => {
-          if (el && observerRef.current) {
-            observerRef.current.observe(el)
-          }
-        }}
-        className={loadedSections.has('footer') ? 'section-loaded' : ''}
-      >
-        {loadedSections.has('footer') && (
-          <Suspense fallback={<SectionLoading />}>
-            <Footer />
-          </Suspense>
-        )}
-      </div>
+      {/* Only lazy load below-fold content */}
+      <Suspense fallback={<SectionLoading />}>
+        <ClientsSection />
+      </Suspense>
+      <Suspense fallback={<SectionLoading />}>
+        <AdvantagesSection />
+      </Suspense>
+      <Suspense fallback={<SectionLoading />}>
+        <ProcessSection />
+      </Suspense>
+      <Suspense fallback={<SectionLoading />}>
+        <PromoSection />
+      </Suspense>
+      <Suspense fallback={<SectionLoading />}>
+        <FAQSection />
+      </Suspense>
+      <Suspense fallback={<SectionLoading />}>
+        <TestimonialSection />
+      </Suspense>
+      <Suspense fallback={<SectionLoading />}>
+        <ContactSection />
+      </Suspense>
+      <Suspense fallback={<SectionLoading />}>
+        <Footer />
+      </Suspense>
     </div>
   )
 }

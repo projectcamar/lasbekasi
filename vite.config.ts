@@ -81,9 +81,9 @@ export default defineConfig({
         assetFileNames: 'assets/[ext]/[name]-[hash].[ext]'
       }
     },
-    // Optimize bundle size for faster loading
+    // Ultra-aggressive bundle optimization
     reportCompressedSize: false,
-    chunkSizeWarningLimit: 300, // Reduced from 500 for better performance
+    chunkSizeWarningLimit: 150, // Ultra-small chunks
     // Reduce initial bundle size for better INP
     cssCodeSplit: true,
     // Enable source maps for debugging (disable in production)

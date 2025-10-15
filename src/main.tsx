@@ -5,18 +5,9 @@ import App from './App.tsx'
 // Mark body as React loaded to hide static SEO content
 document.body.classList.add('react-loaded')
 
-// Performance optimization: Use requestIdleCallback for non-critical rendering
+// Ultra-fast rendering - no delays
 const rootElement = document.getElementById('root')!
 const root = createRoot(rootElement)
 
-// Render app with priority scheduling
-if ('requestIdleCallback' in window) {
-  requestIdleCallback(() => {
-    root.render(<App />)
-  })
-} else {
-  // Fallback for browsers without requestIdleCallback
-  setTimeout(() => {
-    root.render(<App />)
-  }, 0)
-}
+// Render immediately - no delays
+root.render(<App />)
