@@ -115,7 +115,7 @@
 }
 
 .dropdown-toggle {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 4px;
   background: none;
@@ -126,9 +126,10 @@
   font-weight: 500;
   color: #333;
   text-decoration: none;
-  line-height: 1.6;
+  line-height: normal;
   transition: color 0.3s ease;
   position: relative;
+  vertical-align: middle;
 }
 
 .dropdown-toggle:hover {
