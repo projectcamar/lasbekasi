@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { Phone, Mail, MapPin, Send } from 'lucide-react'
 import './Contact.css'
+import { generateBreadcrumbSchema } from '../utils/schema'
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -16,6 +17,14 @@ const Contact: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [])
+  
+  const baseUrl = 'https://lasbekasi.com'
+  const pageUrl = `${baseUrl}/kontak-bengkel-las-bekasi`
+  
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Beranda', url: baseUrl },
+    { name: 'Kontak', url: pageUrl }
+  ])
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -41,12 +50,11 @@ const Contact: React.FC = () => {
         <title>Kontak Kami - Hubungi Bengkel Las Mandiri Bekasi | Konsultasi Gratis</title>
         <meta name="description" content="Hubungi Bengkel Las Mandiri Bekasi untuk konsultasi gratis. WhatsApp: 0852-1207-8467, Email: info@lasbekasi.com. Survey GRATIS wilayah Bekasi dan Jabodetabek." />
         <meta name="keywords" content="kontak bengkel las bekasi, hubungi bengkel las mandiri, nomor bengkel las bekasi, konsultasi gratis las bekasi, alamat bengkel las bekasi" />
-        <link rel="canonical" href="https://www.lasbekasi.com/kontak-bengkel-las-bekasi" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Kontak Bengkel Las Mandiri - Konsultasi Gratis Bekasi" />
         <meta property="og:description" content="Hubungi kami untuk konsultasi gratis. WA: 0852-1207-8467, Email: info@lasbekasi.com. Survey GRATIS!" />
-        <meta property="og:url" content="https://www.lasbekasi.com/kontak-bengkel-las-bekasi" />
+        <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
         
         {/* Twitter Card */}
@@ -54,7 +62,16 @@ const Contact: React.FC = () => {
         <meta name="twitter:title" content="Kontak Bengkel Las Mandiri Bekasi" />
         <meta name="twitter:description" content="Konsultasi gratis jasa las Bekasi. WA: 0852-1207-8467" />
         
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        
+        {/* Canonical URL - CRITICAL for avoiding duplicate content */}
+        <link rel="canonical" href={pageUrl} />
+        
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
       </Helmet>
       
       <Header />

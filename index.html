@@ -132,14 +132,26 @@
       gtag('config', 'G-BR85RR2ZHX');
     </script>
     
-    <!-- Schema.org Structured Data -->
+    <!-- Enhanced Schema.org Structured Data -->
+    <!-- Note: Full schema with geo-targeting will be loaded by React for better performance -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
+      "@id": "https://lasbekasi.com/#business",
       "name": "Bengkel Las Mandiri",
-      "image": "https://lasbekasi.com/og-image.jpg",
-      "description": "Jasa las profesional & terpercaya di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis, railing tangga & konstruksi baja.",
+      "alternateName": ["Bengkel Las Bekasi", "Jasa Las Bekasi", "Las Bekasi"],
+      "description": "Bengkel las profesional di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis, railing tangga & konstruksi baja. Material SNI, tenaga ahli berpengalaman 20+ tahun.",
+      "image": [
+        "https://lasbekasi.com/og-image.jpg",
+        "https://lasbekasi.com/images/bengkel-las-mandiri.jpg"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://lasbekasi.com/android-chrome-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
@@ -155,19 +167,127 @@
       },
       "url": "https://lasbekasi.com",
       "telephone": "+6285212078467",
-      "priceRange": "Rp$$",
-      "openingHoursSpecification": {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        "opens": "08:00",
-        "closes": "20:00"
-      },
+      "email": "info@lasbekasi.com",
+      "priceRange": "Rp 350.000 - Rp 2.000.000",
+      "currenciesAccepted": "IDR",
+      "paymentAccepted": "Cash, Transfer Bank, QRIS",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+          "opens": "08:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "08:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "08:00",
+          "closes": "20:00"
+        }
+      ],
       "sameAs": [
         "https://facebook.com/lasbekasi",
         "https://instagram.com/lasbekasi",
         "https://www.youtube.com/@bengkellasmandiribekasiofficial",
         "https://www.tiktok.com/@lasbekasi"
-      ]
+      ],
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Bekasi Barat, Bekasi"
+        },
+        {
+          "@type": "City",
+          "name": "Bekasi Timur, Bekasi"
+        },
+        {
+          "@type": "City",
+          "name": "Bekasi Selatan, Bekasi"
+        },
+        {
+          "@type": "City",
+          "name": "Bekasi Utara, Bekasi"
+        },
+        {
+          "@type": "City",
+          "name": "Cikarang, Bekasi"
+        },
+        {
+          "@type": "City",
+          "name": "Cibitung, Bekasi"
+        },
+        {
+          "@type": "City",
+          "name": "Setu, Bekasi"
+        }
+      ],
+      "founder": {
+        "@type": "Person",
+        "name": "Maman Toha",
+        "jobTitle": "Founder & Owner"
+      },
+      "foundingDate": "1999",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "250",
+        "bestRating": "5",
+        "worstRating": "1"
+      }
+    }
+    </script>
+    
+    <!-- Organization Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://lasbekasi.com/#organization",
+      "name": "Bengkel Las Mandiri",
+      "alternateName": "Bengkel Las Bekasi",
+      "url": "https://lasbekasi.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://lasbekasi.com/android-chrome-512x512.png",
+        "width": "512",
+        "height": "512"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+6285212078467",
+        "contactType": "Customer Service",
+        "areaServed": "ID",
+        "availableLanguage": ["Indonesian"]
+      }
+    }
+    </script>
+    
+    <!-- WebSite Schema for Sitelinks Search Box -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://lasbekasi.com/#website",
+      "url": "https://lasbekasi.com",
+      "name": "Bengkel Las Mandiri Bekasi",
+      "description": "Jasa las profesional di Bekasi - Kanopi, Pagar, Teralis, Konstruksi Baja",
+      "publisher": {
+        "@id": "https://lasbekasi.com/#organization"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://lasbekasi.com/?s={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
     }
     </script>
     

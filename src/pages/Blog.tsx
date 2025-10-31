@@ -1,14 +1,33 @@
 import React from 'react'
 import { Helmet } from 'react-helmet-async'
+import { generateBreadcrumbSchema } from '../utils/schema'
 
 const Blog: React.FC = () => {
+  const baseUrl = 'https://lasbekasi.com'
+  const pageUrl = `${baseUrl}/blog`
+  
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Beranda', url: baseUrl },
+    { name: 'Blog', url: pageUrl }
+  ])
+
   return (
     <div className="blog">
       <Helmet>
         <title>Blog Bengkel Las | Tips & Panduan Las Besi, Kanopi & Pagar</title>
         <meta name="description" content="Blog bengkel las dengan tips dan panduan lengkap tentang las besi, kanopi, pagar, dan konstruksi baja. Informasi terbaru seputar jasa las Bekasi." />
         <meta name="keywords" content="blog bengkel las, tips las besi, panduan kanopi, cara pasang pagar, konstruksi baja, jasa las bekasi" />
-        <link rel="canonical" href="https://lasbekasi.com/blog" />
+        
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        
+        {/* Canonical URL - CRITICAL for avoiding duplicate content */}
+        <link rel="canonical" href={pageUrl} />
+        
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
       </Helmet>
 
       <div className="container">

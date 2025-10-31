@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { generateBreadcrumbSchema } from '../utils/schema'
 import { 
   Umbrella, 
   Building2, 
@@ -140,6 +141,15 @@ const Services: React.FC = () => {
     }
   ]
 
+  // Generate schemas
+  const baseUrl = 'https://lasbekasi.com'
+  const pageUrl = `${baseUrl}/layanan-las-bekasi`
+  
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Beranda', url: baseUrl },
+    { name: 'Layanan Las Bekasi', url: pageUrl }
+  ])
+
   return (
     <div className="services-page">
       <Helmet>
@@ -151,15 +161,23 @@ const Services: React.FC = () => {
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Jasa Las Bekasi - Layanan Bengkel Las Profesional & Terpercaya" />
         <meta property="og:description" content="Bengkel Las Mandiri menyediakan berbagai jasa las profesional di Bekasi dengan pengalaman 20+ tahun. Spesialis kanopi, pagar besi, teralis & konstruksi baja. Hubungi kami untuk konsultasi gratis!" />
-        <meta property="og:url" content="https://www.lasbekasi.com/layanan-las-bekasi" />
+        <meta property="og:url" content={pageUrl} />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Jasa Las Bekasi - Layanan Bengkel Las Profesional & Terpercaya" />
         <meta name="twitter:description" content="Bengkel Las Mandiri menyediakan berbagai jasa las profesional di Bekasi dengan pengalaman 20+ tahun. Spesialis kanopi, pagar besi, teralis & konstruksi baja. Hubungi kami untuk konsultasi gratis!" />
         
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.lasbekasi.com/layanan-las-bekasi" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        
+        {/* Canonical URL - CRITICAL for avoiding duplicate content */}
+        <link rel="canonical" href={pageUrl} />
+        
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
       </Helmet>
       <Header />
       <section className="services-hero">

@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import ConsultationModal from '../components/ConsultationModal'
 import { ArrowLeft, CheckCircle, Clock, Star, Calculator, X, MessageCircle } from 'lucide-react'
 import './ServiceDetail.css'
+import { generateBreadcrumbSchema, generateServiceSchema } from '../utils/schema'
 
 const ServiceDetail: React.FC = () => {
   const { serviceSlug } = useParams<{ serviceSlug: string }>()
@@ -974,20 +975,57 @@ const ServiceDetail: React.FC = () => {
     process: [],
     benefits: []
   }
+  
+  // Generate schemas
+  const baseUrl = 'https://lasbekasi.com'
+  const pageUrl = `${baseUrl}/layanan-las-bekasi/jasa-pembuatan-${cleanSlug}-bekasi`
+  
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Beranda', url: baseUrl },
+    { name: 'Layanan Las Bekasi', url: `${baseUrl}/layanan-las-bekasi` },
+    { name: `Jasa ${service.title}`, url: pageUrl }
+  ])
+  
+  const serviceSchema = generateServiceSchema(
+    `Jasa Pembuatan ${service.title} Bekasi`,
+    `${service.description} Harga mulai dari ${service.price || 'Hubungi kami'}. Pengalaman 20+ tahun, material SNI, garansi resmi.`,
+    pageUrl,
+    service.price
+  )
 
   return (
     <div className="service-detail-page">
       <Helmet>
-        <title>{service.title} - Bengkel Las Mandiri | Jasa {service.title} Terbaik di Bogor</title>
-        <meta name="description" content={`${service.description} Harga mulai dari ${service.price}. 15+ tahun pengalaman, kualitas SNI terjamin, harga kompetitif. Konsultasi gratis!`} />
-        <meta name="keywords" content={`${service.title}, bengkel las, jasa ${service.title}, harga ${service.title}, ${service.title} bogor, ${service.title} jakarta, konstruksi besi, Bengkel Las Mandiri`} />
-        <meta property="og:title" content={`${service.title} - Bengkel Las Mandiri`} />
-        <meta property="og:description" content={`${service.description} Harga mulai dari ${service.price}. 15+ tahun pengalaman, kualitas SNI terjamin.`} />
+        <title>Jasa {service.title} Bekasi - Bengkel Las Mandiri | Harga Terjangkau & Bergaransi</title>
+        <meta name="description" content={`${service.description} Harga mulai dari ${service.price || 'Hubungi kami'}. Pengalaman 20+ tahun, material SNI, garansi resmi. Melayani seluruh Bekasi. ☎ 0852-1207-8467`} />
+        <meta name="keywords" content={`jasa ${service.title.toLowerCase()} bekasi, ${service.title.toLowerCase()} bekasi, harga ${service.title.toLowerCase()} bekasi, tukang ${service.title.toLowerCase()} bekasi, bengkel las bekasi, jasa las bekasi`} />
+        
+        {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
+        <meta property="og:title" content={`Jasa ${service.title} Bekasi - Bengkel Las Mandiri`} />
+        <meta property="og:description" content={`${service.description} Harga mulai dari ${service.price || 'Hubungi kami'}. Konsultasi gratis!`} />
+        <meta property="og:url" content={pageUrl} />
+        
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${service.title} - Bengkel Las Mandiri`} />
-        <meta name="twitter:description" content={`${service.description} Harga mulai dari ${service.price}. 15+ tahun pengalaman, kualitas SNI terjamin.`} />
-        <link rel="canonical" href={`https://lasbekasi.com/layanan-las-bekasi/jasa-pembuatan-${cleanSlug}-bekasi`} />
+        <meta name="twitter:title" content={`Jasa ${service.title} Bekasi - Bengkel Las Mandiri`} />
+        <meta name="twitter:description" content={service.description} />
+        
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        
+        {/* Canonical URL - CRITICAL for avoiding duplicate content */}
+        <link rel="canonical" href={pageUrl} />
+        
+        {/* Breadcrumb Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+        
+        {/* Service Schema */}
+        <script type="application/ld+json">
+          {JSON.stringify(serviceSchema)}
+        </script>
       </Helmet>
       <Header />
       
