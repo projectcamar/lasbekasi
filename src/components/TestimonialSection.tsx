@@ -106,7 +106,7 @@ const TestimonialSection: React.FC = () => {
               />
               <div className="star-overlay">
                 {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
-                  <Star key={i} size={20} fill="#ff6b35" color="#ff6b35" />
+                  <Star key={i} size={14} fill="#fff" color="#fff" />
                 ))}
               </div>
             </div>
