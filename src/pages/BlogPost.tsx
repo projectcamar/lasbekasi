@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './BlogPost.css'
 import { Helmet } from 'react-helmet-async'
+import { generateBreadcrumbSchema, generateArticleSchema } from '../utils/schema'
 
 interface BlogPostData {
   slug: string
@@ -1231,6 +1232,25 @@ Jangan tunda proyek kanopi Anda! Konsultasikan kebutuhan Anda dengan ahlinya.
   }
 
   const post = slug ? blogPosts[slug] : null
+  
+  // Generate schemas for valid posts
+  const baseUrl = 'https://lasbekasi.com'
+  const pageUrl = slug ? `${baseUrl}/blog/${slug}` : ''
+  
+  const breadcrumbSchema = post ? generateBreadcrumbSchema([
+    { name: 'Beranda', url: baseUrl },
+    { name: 'Blog', url: `${baseUrl}/blog` },
+    { name: post.title, url: pageUrl }
+  ]) : null
+  
+  const articleSchema = post ? generateArticleSchema(
+    post.title,
+    post.metaDescription,
+    pageUrl,
+    post.date,
+    post.date,
+    post.author
+  ) : null
 
   if (!post) {
     return (
@@ -1253,6 +1273,29 @@ Jangan tunda proyek kanopi Anda! Konsultasikan kebutuhan Anda dengan ahlinya.
         <title>{post.title} - Blog Bengkel Las Mandiri</title>
         <meta name="description" content={post.metaDescription} />
         <meta name="keywords" content={`${post.category}, jasa las bekasi, bengkel las, ${post.title}`} />
+        <meta name="author" content={post.author} />
+        <meta name="article:published_time" content={post.date} />
+        <meta name="article:author" content={post.author} />
+        
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        
+        {/* Canonical URL - CRITICAL for avoiding duplicate content */}
+        <link rel="canonical" href={pageUrl} />
+        
+        {/* Breadcrumb Schema */}
+        {breadcrumbSchema && (
+          <script type="application/ld+json">
+            {JSON.stringify(breadcrumbSchema)}
+          </script>
+        )}
+        
+        {/* Article Schema */}
+        {articleSchema && (
+          <script type="application/ld+json">
+            {JSON.stringify(articleSchema)}
+          </script>
+        )}
       </Helmet>
       
       <Header />

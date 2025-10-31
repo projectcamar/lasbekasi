@@ -1,5 +1,11 @@
 import React, { Suspense, lazy } from 'react'
 import { Helmet } from 'react-helmet-async'
+import { 
+  generateEnhancedLocalBusinessSchema,
+  generateOrganizationSchema,
+  generateWebSiteSchema,
+  generateBreadcrumbSchema
+} from '../utils/schema'
 
 // Load critical and above-fold components immediately - NO LAZY LOADING
 import Header from '../components/Header'
@@ -26,96 +32,61 @@ const SectionLoading = () => (
 
 const Home: React.FC = () => {
 
+  // Generate schemas
+  const baseUrl = 'https://lasbekasi.com'
+  const localBusinessSchema = generateEnhancedLocalBusinessSchema(baseUrl)
+  const organizationSchema = generateOrganizationSchema(baseUrl)
+  const websiteSchema = generateWebSiteSchema(baseUrl)
+  const breadcrumbSchema = generateBreadcrumbSchema([
+    { name: 'Beranda', url: baseUrl }
+  ])
+
   return (
     <div className="home">
       <Helmet>
         <title>Bengkel Las Bekasi | Jasa Las Besi & Kanopi Terdekat #1</title>
-        <meta name="description" content="Bengkel Las Bekasi terpercaya sejak 1999. Jasa las pagar, kanopi, tralis & konstruksi baja. Harga murah, material SNI, garansi. ☎ 0852-1207-8467" />
-        <meta name="keywords" content="bengkel las bekasi, jasa las bekasi, tukang las bekasi, bengkel las terdekat, jasa las pagar bekasi, jasa las kanopi bekasi, jasa las tralis bekasi, harga jasa las per meter, jasa las murah bekasi" />
+        <meta name="description" content="Bengkel Las Bekasi terpercaya sejak 1999 melayani seluruh area Bekasi. Jasa las pagar, kanopi, tralis & konstruksi baja. Material SNI, garansi resmi. ☎ 0852-1207-8467" />
+        <meta name="keywords" content="bengkel las bekasi, jasa las bekasi, tukang las bekasi, bengkel las terdekat, jasa las pagar bekasi, jasa las kanopi bekasi, jasa las tralis bekasi, harga jasa las per meter, jasa las murah bekasi, bengkel las cikarang, bengkel las cibitung, bengkel las setu" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:title" content="Bengkel Las Mandiri - Jasa Las Profesional Bekasi" />
-        <meta property="og:description" content="Jasa las profesional & terpercaya di Bekasi. Pengerjaan rapi, berpengalaman 7+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi besi." />
-        <meta property="og:image" content="/images/bengkel-las-mandiri.jpg" />
-        <meta property="og:url" content="https://lasbekasi.com/" />
+        <meta property="og:description" content="Jasa las profesional & terpercaya di Bekasi sejak 1999. Pengerjaan rapi, berpengalaman 20+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi besi." />
+        <meta property="og:image" content={`${baseUrl}/og-image.jpg`} />
+        <meta property="og:url" content={`${baseUrl}/`} />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Bengkel Las Mandiri - Jasa Las Profesional Bekasi" />
-        <meta name="twitter:description" content="Jasa las profesional & terpercaya di Bekasi. Pengerjaan rapi, berpengalaman 7+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi besi." />
-        <meta name="twitter:image" content="/images/bengkel-las-mandiri.jpg" />
+        <meta name="twitter:description" content="Jasa las profesional & terpercaya di Bekasi sejak 1999. Pengerjaan rapi, berpengalaman 20+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi besi." />
+        <meta name="twitter:image" content={`${baseUrl}/og-image.jpg`} />
         
         {/* Additional SEO tags */}
-        <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow" />
         <meta name="geo.region" content="ID-JB" />
         <meta name="geo.placename" content="Bekasi" />
-        <link rel="canonical" href="https://lasbekasi.com/" />
+        <meta name="geo.position" content="-6.2349;106.9896" />
+        <meta name="ICBM" content="-6.2349, 106.9896" />
         
-        {/* BreadcrumbList Schema for Better Sitelinks */}
+        {/* Canonical URL - CRITICAL for avoiding duplicate content */}
+        <link rel="canonical" href={`${baseUrl}/`} />
+        
+        {/* Enhanced Schema.org Structured Data with Geo-Targeting */}
         <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Beranda",
-                "item": "https://lasbekasi.com/"
-              }]
-            }
-          `}
+          {JSON.stringify(localBusinessSchema)}
         </script>
 
-        {/* LocalBusiness Schema */}
         <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "LocalBusiness",
-              "name": "Bengkel Las Mandiri",
-              "image": "https://lasbekasi.com/og-image.jpg",
-              "description": "Jasa las profesional & terpercaya di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis, railing tangga & konstruksi baja.",
-              "address": {
-                "@type": "PostalAddress",
-                "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
-                "addressLocality": "Bekasi",
-                "addressRegion": "Jawa Barat",
-                "postalCode": "17320",
-                "addressCountry": "ID"
-              },
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "-6.2349",
-                "longitude": "106.9896"
-              },
-              "url": "https://lasbekasi.com",
-              "telephone": "+6285212078467",
-              "priceRange": "Rp$$",
-              "openingHoursSpecification": {
-                "@type": "OpeningHoursSpecification",
-                "dayOfWeek": [
-                  "Monday",
-                  "Tuesday",
-                  "Wednesday",
-                  "Thursday",
-                  "Friday",
-                  "Saturday",
-                  "Sunday"
-                ],
-                "opens": "08:00",
-                "closes": "20:00"
-              },
-              "sameAs": [
-                "https://facebook.com/lasbekasi",
-                "https://instagram.com/lasbekasi",
-                "https://www.youtube.com/@bengkellasmandiribekasiofficial",
-                "https://www.tiktok.com/@lasbekasi"
-              ]
-            }
-          `}
+          {JSON.stringify(organizationSchema)}
+        </script>
+
+        <script type="application/ld+json">
+          {JSON.stringify(websiteSchema)}
+        </script>
+
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
         </script>
       </Helmet>
       {/* Load critical content immediately - NO lazy loading */}
