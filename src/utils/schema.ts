@@ -211,7 +211,7 @@ export const generateEnhancedLocalBusinessSchema = (url: string = 'https://lasbe
       'https://instagram.com/lasbekasi',
       'https://www.youtube.com/@bengkellasmandiribekasiofficial',
       'https://www.tiktok.com/@lasbekasi',
-      'https://www.google.com/maps/place/Bengkel+Las+Mandiri+Bekasi'
+      'https://maps.app.goo.gl/R468JEVwRXQZKyzd6'
     ],
     'hasOfferCatalog': {
       '@type': 'OfferCatalog',

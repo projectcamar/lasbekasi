@@ -73,7 +73,7 @@ const Footer: React.FC = () => {
         <div className="footer-bottom">
           <p>Copyright © 2025. All rights reserved.</p>
           <div className="footer-links">
-            <a href="https://maps.google.com/?q=Bengkel+Las+Mandiri+Bekasi" target="_blank" rel="noopener noreferrer external">Google Maps</a>
+            <a href="https://maps.app.goo.gl/R468JEVwRXQZKyzd6" target="_blank" rel="noopener noreferrer external">Google Maps</a>
             <span>|</span>
             <a href="https://www.tokopedia.com/lasbekasi" target="_blank" rel="noopener noreferrer external">Tokopedia</a>
             <span>|</span>

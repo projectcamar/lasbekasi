@@ -78,7 +78,7 @@ const PromoSection: React.FC = () => {
               </div>
             </div>
             
-            <a href="tel:+628158869459" className="btn-promo">
+            <a href="tel:+6285212078467" className="btn-promo">
               <Phone size={20} />
               Hubungi Kami
             </a>
