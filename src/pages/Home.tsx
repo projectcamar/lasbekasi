@@ -4,7 +4,8 @@ import {
   generateEnhancedLocalBusinessSchema,
   generateOrganizationSchema,
   generateWebSiteSchema,
-  generateBreadcrumbSchema
+  generateBreadcrumbSchema,
+  generateSiteNavigationSchema
 } from '../utils/schema'
 
 // Load critical and above-fold components immediately - NO LAZY LOADING
@@ -37,6 +38,7 @@ const Home: React.FC = () => {
   const localBusinessSchema = generateEnhancedLocalBusinessSchema(baseUrl)
   const organizationSchema = generateOrganizationSchema(baseUrl)
   const websiteSchema = generateWebSiteSchema(baseUrl)
+  const siteNavigationSchema = generateSiteNavigationSchema(baseUrl)
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Beranda', url: baseUrl }
   ])
@@ -44,21 +46,22 @@ const Home: React.FC = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Bengkel Las Bekasi | Jasa Las Besi & Kanopi Terdekat #1</title>
-        <meta name="description" content="Bengkel Las Bekasi terpercaya sejak 1999 melayani seluruh area Bekasi. Jasa las pagar, kanopi, tralis & konstruksi baja. Material SNI, garansi resmi. ☎ 0852-1207-8467" />
-        <meta name="keywords" content="bengkel las bekasi, jasa las bekasi, tukang las bekasi, bengkel las terdekat, jasa las pagar bekasi, jasa las kanopi bekasi, jasa las tralis bekasi, harga jasa las per meter, jasa las murah bekasi, bengkel las cikarang, bengkel las cibitung, bengkel las setu" />
+        <title>Las Bekasi - Jasa Las Profesional #1 Sejak 1999 | Bengkel Las Mandiri</title>
+        <meta name="description" content="Las Bekasi ⭐ Jasa las profesional terpercaya sejak 1999. Spesialis kanopi, pagar, teralis & konstruksi baja di seluruh area Bekasi. Material SNI, garansi resmi, harga terjangkau. ☎ 0852-1207-8467" />
+        <meta name="keywords" content="las bekasi, jasa las bekasi, bengkel las bekasi, tukang las bekasi, bengkel las terdekat, las bekasi terdekat, jasa las pagar bekasi, jasa las kanopi bekasi, jasa las tralis bekasi, harga jasa las per meter, jasa las murah bekasi, bengkel las cikarang, bengkel las cibitung, bengkel las mandiri" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Bengkel Las Mandiri - Jasa Las Profesional Bekasi" />
-        <meta property="og:description" content="Jasa las profesional & terpercaya di Bekasi sejak 1999. Pengerjaan rapi, berpengalaman 20+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi besi." />
+        <meta property="og:title" content="Las Bekasi - Jasa Las Profesional #1 | Bengkel Las Mandiri" />
+        <meta property="og:description" content="Las Bekasi ⭐ Jasa las profesional & terpercaya sejak 1999. Pengerjaan rapi, berpengalaman 25+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi baja." />
         <meta property="og:image" content={`${baseUrl}/og-image.jpg`} />
         <meta property="og:url" content={`${baseUrl}/`} />
+        <meta property="og:site_name" content="Las Bekasi" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Bengkel Las Mandiri - Jasa Las Profesional Bekasi" />
-        <meta name="twitter:description" content="Jasa las profesional & terpercaya di Bekasi sejak 1999. Pengerjaan rapi, berpengalaman 20+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi besi." />
+        <meta name="twitter:title" content="Las Bekasi - Jasa Las Profesional #1 | Bengkel Las Mandiri" />
+        <meta name="twitter:description" content="Las Bekasi ⭐ Jasa las profesional & terpercaya sejak 1999. Pengerjaan rapi, berpengalaman 25+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi baja." />
         <meta name="twitter:image" content={`${baseUrl}/og-image.jpg`} />
         
         {/* Additional SEO tags */}
@@ -83,6 +86,10 @@ const Home: React.FC = () => {
 
         <script type="application/ld+json">
           {JSON.stringify(websiteSchema)}
+        </script>
+
+        <script type="application/ld+json">
+          {JSON.stringify(siteNavigationSchema)}
         </script>
 
         <script type="application/ld+json">
