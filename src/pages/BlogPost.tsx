@@ -2,6 +2,7 @@ import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import RelatedProducts from '../components/RelatedProducts'
 import './BlogPost.css'
 import { Helmet } from 'react-helmet-async'
 import { generateBreadcrumbSchema, generateArticleSchema } from '../utils/schema'
@@ -1377,6 +1378,8 @@ Jangan tunda proyek kanopi Anda! Konsultasikan kebutuhan Anda dengan ahlinya.
           </div>
         </div>
       </article>
+
+      <RelatedProducts />
 
       <Footer />
     </div>
