@@ -153,9 +153,10 @@ export const generateEnhancedLocalBusinessSchema = (url: string = 'https://lasbe
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
     '@id': `${url}/#business`,
-    'name': 'Bengkel Las Mandiri',
-    'alternateName': ['Bengkel Las Bekasi', 'Jasa Las Bekasi', 'Las Bekasi'],
-    'description': 'Bengkel las profesional di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis, railing tangga & konstruksi baja. Material SNI, tenaga ahli berpengalaman 20+ tahun, harga kompetitif, garansi resmi.',
+    'name': 'Las Bekasi',
+    'legalName': 'Bengkel Las Mandiri',
+    'alternateName': ['Bengkel Las Bekasi', 'Jasa Las Bekasi', 'Bengkel Las Mandiri', 'lasbekasi.com', 'Las Bekasi Terdekat'],
+    'description': 'Las Bekasi - Bengkel las profesional terpercaya di Bekasi sejak 1999. Spesialis kanopi, pagar besi, teralis, railing tangga & konstruksi baja. Material SNI, tenaga ahli berpengalaman 25+ tahun, harga kompetitif, garansi resmi.',
     'image': [
       `${url}/og-image.jpg`,
       `${url}/images/bengkel-las-mandiri.jpg`
@@ -286,8 +287,9 @@ export const generateOrganizationSchema = (url: string = 'https://lasbekasi.com'
     '@context': 'https://schema.org',
     '@type': 'Organization',
     '@id': `${url}/#organization`,
-    'name': 'Bengkel Las Mandiri',
-    'alternateName': 'Bengkel Las Bekasi',
+    'name': 'Las Bekasi',
+    'legalName': 'Bengkel Las Mandiri',
+    'alternateName': ['Bengkel Las Bekasi', 'Bengkel Las Mandiri', 'Jasa Las Bekasi', 'lasbekasi.com', 'Las Bekasi Terdekat'],
     'url': url,
     'logo': {
       '@type': 'ImageObject',
@@ -295,7 +297,8 @@ export const generateOrganizationSchema = (url: string = 'https://lasbekasi.com'
       'width': '512',
       'height': '512'
     },
-    'description': 'Bengkel las profesional terpercaya di Bekasi sejak 1999',
+    'description': 'Las Bekasi - Bengkel las profesional terpercaya di Bekasi sejak 1999. Spesialis kanopi, pagar, teralis, dan konstruksi baja.',
+    'slogan': 'Las Bekasi Terpercaya Sejak 1999',
     'address': {
       '@type': 'PostalAddress',
       'streetAddress': 'Jl. Raya Setu Cibitung - Bekasi, Telajung',
@@ -315,8 +318,14 @@ export const generateOrganizationSchema = (url: string = 'https://lasbekasi.com'
       'https://facebook.com/lasbekasi',
       'https://instagram.com/lasbekasi',
       'https://www.youtube.com/@bengkellasmandiribekasiofficial',
-      'https://www.tiktok.com/@lasbekasi'
-    ]
+      'https://www.tiktok.com/@lasbekasi',
+      'https://maps.app.goo.gl/R468JEVwRXQZKyzd6'
+    ],
+    'brand': {
+      '@type': 'Brand',
+      'name': 'Las Bekasi',
+      'slogan': 'Bengkel Las Terpercaya Sejak 1999'
+    }
   }
 }
 
@@ -327,8 +336,10 @@ export const generateWebSiteSchema = (url: string = 'https://lasbekasi.com') => 
     '@type': 'WebSite',
     '@id': `${url}/#website`,
     'url': url,
-    'name': 'Bengkel Las Mandiri Bekasi',
-    'description': 'Jasa las profesional di Bekasi - Kanopi, Pagar, Teralis, Konstruksi Baja',
+    'name': 'Las Bekasi',
+    'alternateName': ['Bengkel Las Mandiri Bekasi', 'Jasa Las Bekasi', 'lasbekasi.com'],
+    'description': 'Las Bekasi - Jasa las profesional di Bekasi sejak 1999. Spesialis kanopi, pagar, teralis, dan konstruksi baja.',
+    'inLanguage': 'id-ID',
     'publisher': {
       '@id': `${url}/#organization`
     },
@@ -339,6 +350,11 @@ export const generateWebSiteSchema = (url: string = 'https://lasbekasi.com') => 
         'urlTemplate': `${url}/?s={search_term_string}`
       },
       'query-input': 'required name=search_term_string'
+    },
+    'about': {
+      '@type': 'Thing',
+      'name': 'Jasa Las Bekasi',
+      'description': 'Layanan jasa las profesional untuk kanopi, pagar, teralis, dan konstruksi baja di Bekasi'
     }
   }
 }
@@ -434,5 +450,80 @@ export const generateFAQSchema = (faqs: Array<{ question: string; answer: string
         'text': faq.answer
       }
     }))
+  }
+}
+
+// SiteNavigationElement schema for sitelinks
+export const generateSiteNavigationSchema = (url: string = 'https://lasbekasi.com') => {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    'name': 'Las Bekasi - Site Navigation',
+    'description': 'Main navigation for Las Bekasi website',
+    'itemListElement': [
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 1,
+        'name': 'Tentang Kami',
+        'description': 'Profil Bengkel Las Mandiri Bekasi sejak 1999',
+        'url': `${url}/tentang-kami`
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 2,
+        'name': 'Layanan Las Bekasi',
+        'description': 'Semua layanan jasa las profesional di Bekasi',
+        'url': `${url}/layanan-las-bekasi`
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 3,
+        'name': 'Jasa Kanopi Bekasi',
+        'description': 'Pembuatan kanopi minimalis berkualitas',
+        'url': `${url}/layanan-las-bekasi/jasa-pembuatan-kanopi-bekasi`
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 4,
+        'name': 'Jasa Pagar Besi Bekasi',
+        'description': 'Pembuatan pagar besi minimalis dan klasik',
+        'url': `${url}/layanan-las-bekasi/jasa-pembuatan-pagar-besi-bekasi`
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 5,
+        'name': 'Jasa Teralis Bekasi',
+        'description': 'Pembuatan teralis jendela anti maling',
+        'url': `${url}/layanan-las-bekasi/jasa-pembuatan-teralis-bekasi`
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 6,
+        'name': 'Konstruksi Baja Bekasi',
+        'description': 'Jasa konstruksi baja ringan dan berat',
+        'url': `${url}/layanan-las-bekasi/jasa-konstruksi-baja-bekasi`
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 7,
+        'name': 'Portfolio Las Bekasi',
+        'description': 'Galeri hasil pekerjaan Bengkel Las Mandiri',
+        'url': `${url}/album-bengkel-las-mandiri`
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 8,
+        'name': 'Blog Las Bekasi',
+        'description': 'Artikel tips dan informasi seputar jasa las',
+        'url': `${url}/blog`
+      },
+      {
+        '@type': 'SiteNavigationElement',
+        'position': 9,
+        'name': 'Kontak Las Bekasi',
+        'description': 'Hubungi kami untuk konsultasi gratis',
+        'url': `${url}/kontak-bengkel-las-bekasi`
+      }
+    ]
   }
 }
