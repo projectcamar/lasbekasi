@@ -1229,9 +1229,2140 @@ Jangan tunda proyek kanopi Anda! Konsultasikan kebutuhan Anda dengan ahlinya.
 
 **Keywords:** jasa pasang kanopi bekasi, harga kanopi bekasi, kanopi alderon bekasi, kanopi polycarbonate bekasi, kanopi baja ringan bekasi, tukang kanopi bekasi, kanopi minimalis bekasi, kanopi kaca bekasi, harga borongan kanopi bekasi 2025
       `
-    }
-  }
+    },
+    'industrial-metal-canopy-manufacturing-indonesia': {
+      slug: 'industrial-metal-canopy-manufacturing-indonesia',
+      title: 'Industrial Metal Canopy Manufacturing Services - Indonesia Export Quality',
+      category: 'Metal Fabrication',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Professional metal canopy manufacturing in Indonesia. We specialize in custom steel canopy design and fabrication for international buyers. Export quality with competitive pricing. ISO standards.',
+      content: `
+# Industrial Metal Canopy Manufacturing Services - Indonesia Export Quality
 
+## Leading Metal Canopy Manufacturer in Indonesia
+
+**Bengkel Las Mandiri** is a professional metal fabrication workshop located in Bekasi, Indonesia, specializing in **industrial metal canopy manufacturing** for both domestic and international markets. Since 1999, we have been serving clients worldwide with high-quality steel structures and custom fabrication services.
+
+## About Our Manufacturing Facility
+
+### Location & Contact
+- 📍 **Address**: Jl. Raya Setu Cibitung - Bekasi, Telajung, Kec. Cikarang Bar., Kabupaten Bekasi, West Java 17320, Indonesia
+- 📱 **WhatsApp**: +62 852-1207-8467
+- 📧 **Email**: info@lasbekasi.com
+- 🌐 **Website**: lasbekasi.com
+
+### Manufacturing Capabilities
+- **Workshop Size**: 2,000 sqm production facility
+- **Production Capacity**: 500+ sqm of canopy structures per month
+- **Export Experience**: 20+ years serving international clients
+- **Quality Standards**: ISO-compliant welding and fabrication processes
+- **Lead Time**: 15-30 days depending on order quantity
+
+## Metal Canopy Products for Export
+
+### 1. Steel Frame Canopies
+
+#### Specifications:
+- **Frame Material**: Galvanized steel hollow sections
+- **Frame Sizes**: 40x40mm, 40x60mm, 40x80mm (customizable)
+- **Thickness**: 1.2mm - 2.5mm
+- **Coating**: Hot-dip galvanized or powder coated
+- **Span**: Up to 10 meters without intermediate support
+
+#### Applications:
+- Carports and parking structures
+- Warehouse loading bays
+- Industrial facility entrances
+- Commercial building canopies
+- Gas station canopies
+
+### 2. Aluminum Canopy Systems
+
+#### Specifications:
+- **Frame Material**: Aluminum alloy 6063-T5
+- **Frame Sizes**: Various profiles available
+- **Finish**: Anodized or powder coated
+- **Weight**: 40% lighter than steel
+- **Corrosion Resistance**: Excellent for coastal areas
+
+### 3. Polycarbonate Roof Canopies
+
+#### Features:
+- **Roofing**: UV-protected polycarbonate sheets
+- **Thickness**: 6mm, 8mm, 10mm multiwall sheets
+- **Light Transmission**: 80-90%
+- **Impact Resistance**: 200x stronger than glass
+- **Temperature Range**: -40°C to +120°C
+
+**Price Range**: $45-65 per sqm (FOB Indonesia)
+
+### 4. Tempered Glass Canopies
+
+#### Features:
+- **Glass Thickness**: 10mm, 12mm tempered safety glass
+- **Frame**: Stainless steel or aluminum
+- **Safety**: Breaks into small granular chunks
+- **UV Protection**: Available with UV coating
+- **Aesthetic**: Premium modern appearance
+
+**Price Range**: $95-150 per sqm (FOB Indonesia)
+
+### 5. Metal Roofing Canopies
+
+#### Options:
+- **Galvalume Steel**: Zincalume coated steel
+- **Color Steel**: Pre-painted galvanized steel
+- **Standing Seam**: Modern architectural profile
+- **Corrugated**: Cost-effective solution
+- **Thickness**: 0.4mm - 0.8mm
+
+**Price Range**: $25-45 per sqm (FOB Indonesia)
+
+## Why Choose Indonesian Manufacturing?
+
+### 1. Competitive Pricing
+- **Labor Costs**: 60-70% lower than Western countries
+- **Material Costs**: Direct access to Asian steel markets
+- **Production Costs**: Efficient manufacturing processes
+- **Shipping**: Strategic location for global export
+
+### 2. Quality Manufacturing
+- **Skilled Workforce**: 20+ years of experience
+- **Modern Equipment**: CNC cutting, MIG/TIG welding
+- **Quality Control**: Strict inspection at every stage
+- **Certifications**: ISO-compliant processes
+
+### 3. Customization Capabilities
+- **Design Services**: Free CAD drawings for approval
+- **Custom Sizes**: Any dimension up to 20m span
+- **Color Options**: RAL/Pantone color matching
+- **Branding**: Can include your company branding
+
+### 4. Export Experience
+- **Documentation**: Complete export paperwork
+- **Packaging**: Export-grade packaging
+- **Container Loading**: Professional loading services
+- **Shipping Coordination**: Work with your freight forwarder
+
+## Manufacturing Process
+
+### Step 1: Design & Engineering (1-3 days)
+- Technical consultation
+- CAD drawing development
+- Structural calculations
+- Material specifications
+- Price quotation
+
+### Step 2: Sample Approval (5-7 days)
+- Sample fabrication (if required)
+- Photo/video documentation
+- Design modifications if needed
+- Final approval before mass production
+
+### Step 3: Material Procurement (3-5 days)
+- High-grade steel sourcing
+- Quality material inspection
+- Cut-to-size preparation
+- Surface treatment preparation
+
+### Step 4: Fabrication (10-20 days)
+- CNC cutting for precision
+- Professional MIG/TIG welding
+- Frame assembly
+- Quality control inspection
+
+### Step 5: Surface Treatment (3-5 days)
+- Sandblasting/grinding
+- Powder coating or galvanizing
+- Paint curing
+- Final inspection
+
+### Step 6: Packaging & Export (2-3 days)
+- Secure packaging
+- Container loading
+- Export documentation
+- Shipping arrangement
+
+## Technical Specifications
+
+### Welding Standards
+- **Methods**: MIG, TIG, Arc welding
+- **Standards**: AWS D1.1, EN 1090
+- **Inspection**: Visual and NDT available
+- **Welders**: Certified professionals
+
+### Steel Grades Available
+- **Structural Steel**: ASTM A36, A572
+- **Galvanized Steel**: ASTM A653
+- **Stainless Steel**: 304, 316 grades
+- **Aluminum**: 6061-T6, 6063-T5
+
+### Surface Treatment Options
+- **Hot-Dip Galvanizing**: 80-120 microns
+- **Powder Coating**: 60-100 microns
+- **Wet Paint**: Epoxy or polyurethane
+- **Anodizing**: For aluminum (Type II or III)
+
+## Export Pricing Structure
+
+### MOQ (Minimum Order Quantity)
+- **Standard Products**: 50 sqm
+- **Custom Design**: 100 sqm
+- **Sample Order**: 20 sqm (higher unit price)
+
+### Price Factors
+1. **Material Selection**: Steel, aluminum, or stainless steel
+2. **Finish**: Galvanized, powder coated, or painted
+3. **Complexity**: Simple or complex design
+4. **Quantity**: Volume discounts available
+5. **Roofing Material**: Polycarbonate, glass, or metal
+
+### Payment Terms
+- **Sample Orders**: 100% advance payment
+- **Regular Orders**: 50% deposit, 50% before shipping
+- **Established Clients**: 30/70 or LC available
+- **Payment Methods**: T/T, PayPal, Western Union, LC
+
+## Shipping & Logistics
+
+### Packaging
+- **Frame Components**: Bundled and wrapped
+- **Roofing Panels**: Wooden crates or pallets
+- **Fittings**: Separate boxes with labels
+- **Documentation**: Packing list and photos
+
+### Container Capacity
+- **20ft Container**: 50-70 sqm of canopy
+- **40ft Container**: 120-150 sqm of canopy
+- **40ft HC**: 150-180 sqm of canopy
+
+### Export Ports
+- **Main Port**: Tanjung Priok, Jakarta (50km from factory)
+- **Alternative**: Port of Singapore (re-export)
+- **Lead Time to Port**: 1-2 days from factory
+
+### Shipping Destinations
+- **Asia**: 5-15 days sea freight
+- **Middle East**: 15-25 days sea freight
+- **Europe**: 25-35 days sea freight
+- **North America**: 30-40 days sea freight
+- **Africa**: 20-30 days sea freight
+- **Australia**: 10-20 days sea freight
+
+## Quality Assurance
+
+### Inspection Process
+- **Material Inspection**: Certificate of material quality
+- **In-Process Inspection**: During fabrication
+- **Final Inspection**: Before packaging
+- **Third-Party Inspection**: SGS, TUV available
+
+### Quality Documents Provided
+- **Material Certificates**: Mill test certificates
+- **Welding Reports**: Weld inspection reports
+- **Coating Certificates**: Galvanizing/coating thickness reports
+- **Dimensional Reports**: Measurement verification
+- **Photo Documentation**: Detailed production photos
+
+### Warranty
+- **Manufacturing Defects**: 12 months
+- **Surface Treatment**: 24-36 months (depends on treatment)
+- **Structural Warranty**: 5 years
+- **After-Sales Support**: Technical support available
+
+## International Project Experience
+
+### Projects Completed
+- **Australia**: Shopping mall canopy structures (2023)
+- **Singapore**: HDB carpark canopies (2022)
+- **Malaysia**: Factory canopy installation (2023)
+- **Middle East**: Hotel entrance canopies (2022)
+- **Africa**: Warehouse loading bay canopies (2024)
+
+### Client Testimonials
+
+> "Excellent manufacturing quality and very competitive pricing. The team was professional throughout the entire process from design to delivery." - **Construction Company, Australia**
+
+> "We have been working with Bengkel Las Mandiri for 3 years now. Consistent quality and reliable delivery times." - **Steel Trader, Singapore**
+
+> "Great communication and willingness to accommodate our custom requirements. Highly recommended for export orders." - **Project Developer, UAE**
+
+## Custom Design Services
+
+### What We Offer
+- **Free CAD Drawings**: 2D and 3D design
+- **Engineering Calculations**: Load-bearing analysis
+- **Design Modifications**: Unlimited revisions
+- **Rendering Services**: Photorealistic 3D renders
+- **Installation Drawings**: Detailed assembly instructions
+
+### Design Capabilities
+- **Software**: AutoCAD, SolidWorks, SketchUp
+- **Standards**: Comply with international building codes
+- **Wind Load**: Calculate for your location
+- **Snow Load**: If applicable to your region
+- **Seismic Design**: Earthquake-resistant design
+
+## Environmental & Safety Standards
+
+### Environmental Compliance
+- **Waste Management**: Responsible waste disposal
+- **Energy Efficient**: Solar-ready canopy structures
+- **Recyclable Materials**: 100% recyclable steel/aluminum
+- **Low VOC Coatings**: Environment-friendly paint options
+
+### Safety Standards
+- **Worker Safety**: Certified safety training
+- **Product Safety**: Safety glass, rounded edges
+- **Fire Resistance**: Fire-rated materials available
+- **Building Codes**: Comply with international standards
+
+## How to Order
+
+### Step-by-Step Process
+
+#### 1. Initial Inquiry
+Contact us with your project requirements:
+- Canopy dimensions (length x width)
+- Preferred frame material
+- Roofing material preference
+- Destination country
+- Target price range
+
+#### 2. Quotation
+We will provide within 24-48 hours:
+- Detailed price quotation
+- Technical specifications
+- Lead time estimate
+- Shipping cost estimate
+
+#### 3. Design Development
+For custom projects:
+- Submit your design requirements
+- We create CAD drawings
+- Review and approval
+- Final design confirmation
+
+#### 4. Sample Order (Optional)
+- Small quantity sample
+- Quality verification
+- Approve before bulk order
+
+#### 5. Production Order
+- Proforma invoice issued
+- Deposit payment
+- Production commences
+- Regular progress updates
+
+#### 6. Quality Control
+- In-process inspection photos
+- Final inspection
+- Third-party inspection if required
+- Approval before shipping
+
+#### 7. Shipping & Delivery
+- Balance payment
+- Export documentation
+- Container loading
+- Shipment tracking
+
+## Frequently Asked Questions
+
+**Q: What is your minimum order quantity?**
+A: Our standard MOQ is 50 sqm for regular products and 100 sqm for custom designs. Sample orders of 20 sqm are possible at higher unit prices.
+
+**Q: Can you design according to our requirements?**
+A: Yes, we provide free custom design services including CAD drawings and engineering calculations.
+
+**Q: Do you provide installation services?**
+A: For export orders, we provide detailed installation drawings and instructions. We can send installation supervisors for large projects.
+
+**Q: What payment methods do you accept?**
+A: T/T (bank transfer), PayPal, Western Union, and Letter of Credit for large orders.
+
+**Q: How long is the production lead time?**
+A: Typically 15-30 days depending on order quantity and complexity. Rush orders can be accommodated.
+
+**Q: Can you ship to my country?**
+A: Yes, we export worldwide. We work with your freight forwarder or can arrange shipping.
+
+**Q: Do you provide material certificates?**
+A: Yes, we provide mill test certificates, coating reports, and all necessary quality documentation.
+
+**Q: What warranty do you offer?**
+A: 12 months for manufacturing defects, 24-36 months for surface treatment, and 5 years structural warranty.
+
+**Q: Can we visit your factory?**
+A: Absolutely! We welcome factory visits. Please contact us to schedule an appointment.
+
+**Q: Do you have English-speaking staff?**
+A: Yes, our export team is fluent in English and can communicate effectively.
+
+## Contact Us for Export Inquiries
+
+Ready to source high-quality metal canopy structures from Indonesia? Contact our export team today!
+
+### Export Sales Department
+📱 **WhatsApp**: +62 852-1207-8467 (English available)
+📧 **Email**: info@lasbekasi.com
+💬 **Skype**: Available upon request
+🌐 **Website**: www.lasbekasi.com
+
+### Factory Address
+📍 **Bengkel Las Mandiri**
+Jl. Raya Setu Cibitung - Bekasi
+Telajung, Kec. Cikarang Bar.
+Kabupaten Bekasi, Jawa Barat 17320
+Indonesia
+
+### Business Hours
+- **Monday - Friday**: 08:00 - 17:00 WIB (GMT+7)
+- **Saturday**: 08:00 - 15:00 WIB
+- **Sunday**: Closed (Emergency contact available)
+
+### Quick Response
+- **Email Response**: Within 12 hours
+- **WhatsApp Response**: Within 2-4 hours
+- **Quotation**: Within 24-48 hours
+- **Sample Design**: Within 3-5 days
+
+## Why Indonesian Manufacturing Makes Sense
+
+### Economic Advantages
+- **Cost Savings**: 40-60% compared to Western manufacturing
+- **Quality**: Comparable to international standards
+- **Flexibility**: Small to large batch production
+- **Speed**: Fast production turnaround
+
+### Strategic Location
+- **Asian Market Hub**: Easy access to Asia-Pacific
+- **Shipping Routes**: Connected to major global ports
+- **Time Zone**: GMT+7 (overlap with Asian/Australian business hours)
+- **Infrastructure**: Modern port and logistics facilities
+
+### Business Environment
+- **Export-Friendly**: Government support for exports
+- **Skilled Labor**: Large pool of qualified metal workers
+- **Material Sourcing**: Access to competitive steel prices
+- **Quality Focus**: Commitment to international standards
+
+## Get Started Today!
+
+Don't miss the opportunity to work with one of Indonesia's leading metal fabrication workshops. Whether you need:
+
+- ✅ Standard canopy structures
+- ✅ Custom-designed canopies
+- ✅ Large volume orders
+- ✅ Small sample batches
+- ✅ Design consultation
+- ✅ Technical support
+
+**We are ready to serve your needs!**
+
+📱 **Contact us now via WhatsApp**: +62 852-1207-8467
+
+> "Your trusted partner for metal canopy manufacturing in Indonesia. Quality products, competitive prices, reliable delivery."
+
+---
+
+**Bengkel Las Mandiri - Professional Metal Fabrication Since 1999**
+
+*Serving international clients with pride and excellence*
+
+**Keywords**: metal canopy manufacturer Indonesia, steel canopy fabrication, industrial canopy export, custom canopy manufacturing, Indonesian metal workshop, canopy structure supplier, galvanized steel canopy, polycarbonate canopy manufacturer, export quality metal fabrication
+      `
+    },
+    'custom-steel-fence-manufacturing-export': {
+      slug: 'custom-steel-fence-manufacturing-export',
+      title: 'Custom Steel Fence Manufacturing & Export - Indonesia Metal Fabrication',
+      category: 'Metal Fabrication',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Professional custom steel fence manufacturing in Indonesia for export. We design and fabricate high-quality metal fencing solutions for residential, commercial, and industrial applications worldwide.',
+      content: `
+# Custom Steel Fence Manufacturing & Export - Indonesia Metal Fabrication
+
+## Premium Steel Fence Manufacturer in Indonesia
+
+Welcome to **Bengkel Las Mandiri**, Indonesia's leading manufacturer of custom steel fences and metal fencing systems. With over 20 years of experience since 1999, we specialize in designing and manufacturing high-quality steel fencing solutions for international markets.
+
+## Our Steel Fence Products
+
+### 1. Residential Steel Fences
+
+#### Modern Minimalist Design
+- **Material**: Galvanized steel hollow sections
+- **Sizes**: 20x20mm to 40x40mm
+- **Height**: 1.2m to 2.5m (customizable)
+- **Finish**: Powder coating in any RAL color
+- **Style**: Clean lines, contemporary aesthetics
+
+**Price**: $35-55 per linear meter (FOB Indonesia)
+
+#### Ornamental Steel Fences
+- **Material**: Wrought iron-style steel
+- **Design**: Classical patterns, decorative elements
+- **Finish**: Black powder coating or custom colors
+- **Applications**: Luxury residences, villas, estates
+
+**Price**: $45-75 per linear meter (FOB Indonesia)
+
+#### Laser-Cut Panel Fences
+- **Material**: 2-3mm steel plates
+- **Technology**: CNC laser cutting
+- **Patterns**: Geometric, floral, custom designs
+- **Modern Appeal**: Contemporary architectural style
+
+**Price**: $65-95 per linear meter (FOB Indonesia)
+
+### 2. Commercial & Industrial Fencing
+
+#### BRC Wire Mesh Fencing
+- **Specifications**: Galvanized welded wire mesh
+- **Wire Diameter**: 4mm - 6mm
+- **Mesh Size**: 50x200mm, 75x300mm
+- **Height**: 1.5m - 4m
+- **Posts**: Galvanized steel or concrete
+
+**Price**: $18-28 per linear meter (FOB Indonesia)
+
+#### Chain Link Fencing
+- **Material**: Galvanized or PVC-coated wire
+- **Mesh Size**: 50x50mm - 75x75mm
+- **Height**: 1.5m - 4m
+- **Posts**: Steel posts with concrete base
+
+**Price**: $12-22 per linear meter (FOB Indonesia)
+
+#### Industrial Panel Fencing
+- **Construction**: Heavy-duty welded panels
+- **Frame**: 40x40mm - 60x60mm hollow sections
+- **Infill**: 12mm steel bars or mesh
+- **Security**: High-security applications
+
+**Price**: $45-75 per linear meter (FOB Indonesia)
+
+#### Palisade Fencing
+- **Profile**: W-section or D-section pales
+- **Height**: 2m - 4m
+- **Finish**: Hot-dip galvanized
+- **Security Level**: High-security perimeter
+
+**Price**: $55-85 per linear meter (FOB Indonesia)
+
+### 3. Specialty Fencing Solutions
+
+#### Pool Safety Fencing
+- **Material**: Aluminum or stainless steel
+- **Infill**: Tempered glass or mesh panels
+- **Compliance**: International pool safety standards
+- **Gates**: Self-closing, self-latching
+
+**Price**: $95-150 per linear meter (FOB Indonesia)
+
+#### Automatic Sliding Gates
+- **Frame**: Heavy-duty steel construction
+- **Motor**: Electric gate motor included
+- **Control**: Remote control, keypad, or card access
+- **Weight Capacity**: Up to 800kg gate weight
+
+**Price**: $1,500-3,500 per gate set (FOB Indonesia)
+
+#### Swing Gates
+- **Construction**: Steel frame with infill options
+- **Hardware**: Heavy-duty hinges and locks
+- **Automation**: Optional electric swing gate motor
+- **Width**: Single or double leaf up to 6m total
+
+**Price**: $800-2,000 per gate set (FOB Indonesia)
+
+## Manufacturing Capabilities
+
+### Design Services
+- **CAD Drawing**: 2D and 3D fence designs
+- **Customization**: Any design, pattern, or style
+- **Engineering**: Structural calculations included
+- **Rendering**: Photorealistic visualization
+
+### Production Capacity
+- **Monthly Output**: 1,000+ linear meters
+- **MOQ**: 100 linear meters per design
+- **Sample**: Available upon request
+- **Lead Time**: 20-35 days
+
+### Quality Standards
+- **Welding**: AWS D1.1 standards
+- **Materials**: ASTM/EN standards
+- **Coating**: ISO 12944 compliance
+- **Testing**: Third-party inspection available
+
+## Materials & Specifications
+
+### Steel Options
+- **Mild Steel**: ASTM A36, cost-effective
+- **Galvanized Steel**: Hot-dip galvanized, corrosion-resistant
+- **Stainless Steel**: Grade 304/316, premium durability
+- **Aluminum**: 6063-T5, lightweight and rust-free
+
+### Surface Treatments
+- **Powder Coating**: 60-80 microns, outdoor grade
+- **Hot-Dip Galvanizing**: 80-120 microns zinc coating
+- **Wet Paint**: Epoxy or polyurethane systems
+- **Anodizing**: For aluminum products
+
+### Color Options
+- **Standard RAL Colors**: RAL 9005 (black), 7016 (anthracite gray)
+- **Custom Colors**: Any RAL or Pantone color
+- **Dual Tone**: Different colors for posts and panels
+- **Wood Grain**: Wood-effect powder coating available
+
+## Export Process
+
+### Step 1: Inquiry & Quotation (1-2 days)
+- Submit your fence requirements
+- Receive detailed quotation
+- Technical specifications provided
+- Shipping cost estimate included
+
+### Step 2: Design Development (3-5 days)
+- CAD drawings prepared
+- Multiple design options
+- Client approval required
+- Final specifications confirmed
+
+### Step 3: Sample Production (7-10 days)
+- Sample section manufactured
+- Photos/videos sent for approval
+- Modifications if needed
+- Approve before bulk production
+
+### Step 4: Bulk Production (20-30 days)
+- Full-scale manufacturing
+- Quality control at each stage
+- Progress photos provided
+- Pre-shipment inspection
+
+### Step 5: Packaging & Export (3-5 days)
+- Export-grade packaging
+- Container loading
+- Documentation preparation
+- Shipment arrangement
+
+## Packaging & Shipping
+
+### Packaging Standards
+- **Fence Panels**: Stacked and wrapped in plastic film
+- **Posts**: Bundled together with protection
+- **Gates**: Individual wrapping and crating
+- **Hardware**: Separate boxes with labels
+- **Documentation**: Packing list and installation guide
+
+### Container Capacity
+- **20ft Container**: 80-120 linear meters
+- **40ft Container**: 200-300 linear meters
+- **40ft HC Container**: 250-350 linear meters
+
+*Capacity varies based on fence height and design complexity*
+
+### Shipping Routes
+- **Asia-Pacific**: 5-20 days
+- **Middle East**: 15-25 days
+- **Africa**: 20-30 days
+- **Europe**: 25-35 days
+- **Americas**: 30-45 days
+
+## Why Choose Indonesian Manufacturing?
+
+### Cost Advantages
+- **Labor**: 60-70% lower than developed countries
+- **Materials**: Competitive steel pricing
+- **Production**: Efficient manufacturing processes
+- **Total Savings**: 40-60% cost reduction
+
+### Quality Assurance
+- **Experience**: 20+ years in metal fabrication
+- **Equipment**: Modern CNC and welding machines
+- **Skills**: Certified welders and fabricators
+- **Inspection**: Strict quality control procedures
+
+### Flexibility
+- **Custom Designs**: No limitations on creativity
+- **Small Orders**: Accept smaller quantities
+- **Fast Turnaround**: Quick sample and production
+- **Modifications**: Easy to accommodate changes
+
+### Service
+- **English Communication**: Fluent English-speaking team
+- **Responsiveness**: Quick reply to inquiries
+- **Technical Support**: Engineering assistance
+- **After-Sales**: Ongoing support post-delivery
+
+## Installation Support
+
+### Installation Drawings
+- **Layout Plans**: Site layout and post positions
+- **Assembly Instructions**: Step-by-step guide
+- **Hardware List**: Complete parts list
+- **Foundation Details**: Concrete specifications
+
+### Installation Services
+- **Supervision**: Send installation supervisor (large projects)
+- **Training**: Train your installation team
+- **Video Guide**: Installation video provided
+- **Technical Support**: Remote support available
+
+## Applications
+
+### Residential
+- **Front Yard Fences**: Enhance curb appeal
+- **Backyard Privacy**: Security and privacy
+- **Pool Fencing**: Safety compliance
+- **Garden Dividers**: Define spaces
+
+### Commercial
+- **Office Buildings**: Professional appearance
+- **Retail Centers**: Security and aesthetics
+- **Hotels & Resorts**: Decorative fencing
+- **Schools**: Safe perimeter fencing
+
+### Industrial
+- **Factories**: Security perimeter
+- **Warehouses**: Property boundaries
+- **Logistics Centers**: Access control
+- **Construction Sites**: Temporary or permanent
+
+### Government & Public
+- **Parks**: Public area fencing
+- **Sports Facilities**: Courts and fields
+- **Infrastructure**: Roads and bridges
+- **Utilities**: Power stations, water plants
+
+## Quality Certifications
+
+### Materials
+- **Steel Certificates**: Mill test certificates
+- **Galvanizing Reports**: Coating thickness reports
+- **Powder Coating**: Quality test reports
+
+### Testing
+- **Welding Inspection**: Visual and NDT
+- **Coating Thickness**: Measured and documented
+- **Dimensional Check**: Tolerance verification
+- **Load Testing**: Strength verification
+
+### Third-Party Inspection
+- **SGS Inspection**: Available upon request
+- **TUV Certification**: For European markets
+- **Bureau Veritas**: Quality verification
+- **Client Inspection**: Factory visits welcome
+
+## Payment & Terms
+
+### Payment Methods
+- **Bank Transfer (T/T)**: Most common
+- **PayPal**: For smaller orders
+- **Western Union**: Quick payment option
+- **Letter of Credit**: For large projects
+
+### Payment Terms
+- **Sample Orders**: 100% advance
+- **First Order**: 50% deposit, 50% before shipment
+- **Repeat Orders**: 30% deposit, 70% before shipment
+- **Large Projects**: Installment terms available
+
+### Pricing
+- **FOB Indonesia**: Ex-factory price + local transport
+- **CIF**: Including freight and insurance
+- **DDP**: Delivered to your door (select countries)
+
+## Frequently Asked Questions
+
+**Q: What is the minimum order quantity?**
+A: Standard MOQ is 100 linear meters. Smaller quantities negotiable with adjusted pricing.
+
+**Q: Can you match my existing fence design?**
+A: Yes, send us photos and measurements, and we'll replicate the design.
+
+**Q: Do you provide fence posts?**
+A: Yes, complete fence systems including posts, panels, gates, and all hardware.
+
+**Q: What warranty do you offer?**
+A: 12 months manufacturing warranty, 3-5 years surface treatment warranty.
+
+**Q: Can you help with customs clearance?**
+A: We provide all export documents. You arrange import customs in your country.
+
+**Q: Do you accept custom designs?**
+A: Absolutely! We specialize in custom fabrication. Send us your design ideas.
+
+**Q: How long does production take?**
+A: 20-35 days depending on quantity and complexity after design approval.
+
+**Q: Can I visit your factory?**
+A: Yes! We welcome factory visits. Please schedule in advance.
+
+## Contact Our Export Team
+
+Ready to order custom steel fences from Indonesia? Contact us today!
+
+### Export Sales
+📱 **WhatsApp**: +62 852-1207-8467 (English)
+📧 **Email**: info@lasbekasi.com
+🌐 **Website**: www.lasbekasi.com
+
+### Factory Location
+📍 **Bengkel Las Mandiri**
+Jl. Raya Setu Cibitung - Bekasi
+Telajung, Cikarang Barat
+Bekasi, West Java 17320
+Indonesia
+
+### Business Hours
+**Monday - Friday**: 08:00 - 17:00 WIB (GMT+7)
+**Saturday**: 08:00 - 15:00 WIB
+**Sunday**: Closed
+
+### Quick Response Times
+- Email: Within 12 hours
+- WhatsApp: Within 2-4 hours
+- Quotation: Within 24-48 hours
+- Design: Within 3-5 days
+
+## Get Your Custom Quote Today!
+
+Whether you need:
+- ✅ Residential steel fences
+- ✅ Commercial fencing systems
+- ✅ Industrial security fencing
+- ✅ Decorative metal fences
+- ✅ Automated gates
+- ✅ Custom designs
+
+**We can manufacture it for you!**
+
+📱 **Contact us via WhatsApp**: +62 852-1207-8467
+
+> "Quality steel fencing manufactured in Indonesia for the world. Your trusted fence manufacturing partner."
+
+---
+
+**Bengkel Las Mandiri - Steel Fence Manufacturing Excellence Since 1999**
+
+**Keywords**: steel fence manufacturer Indonesia, custom metal fencing export, wrought iron fence supplier, industrial fencing Indonesia, fence panels manufacturing, galvanized fence export, decorative steel fence, security fencing manufacturer
+      `
+    },
+    'industrial-metal-furniture-manufacturing-indonesia': {
+      slug: 'industrial-metal-furniture-manufacturing-indonesia',
+      title: 'Industrial Metal Furniture Manufacturing - Custom Steel Furniture Export from Indonesia',
+      category: 'Metal Furniture',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Professional industrial metal furniture manufacturer in Indonesia. Custom steel furniture fabrication for export including tables, chairs, shelving, and cabinets. Powder coating finish, competitive pricing.',
+      content: `
+# Industrial Metal Furniture Manufacturing - Custom Steel Furniture Export from Indonesia
+
+## Leading Industrial Furniture Manufacturer in Indonesia
+
+Bengkel Las Mandiri specializes in custom industrial metal furniture manufacturing for international markets. With 20+ years of metal fabrication experience, we create high-quality steel furniture for residential, commercial, and hospitality applications worldwide.
+
+## Our Metal Furniture Products
+
+### Industrial Tables
+- **Dining Tables**: Steel frame with wood/marble top ($180-350 FOB)
+- **Coffee Tables**: Minimalist design, powder coated ($120-220 FOB)
+- **Work Tables**: Heavy-duty industrial desks ($150-300 FOB)
+- **Bar Tables**: Restaurant and cafe furniture ($95-180 FOB)
+
+### Industrial Chairs & Seating
+- **Bar Stools**: Steel frame, various heights ($45-85 per piece)
+- **Dining Chairs**: Modern industrial style ($55-95 per piece)
+- **Bench Seating**: Custom lengths available ($85-150 per meter)
+- **Lounge Chairs**: Comfortable steel frame chairs ($120-200 per piece)
+
+### Storage Solutions
+- **Wall-Mounted Shelves**: Industrial pipe shelving ($85-150 per unit)
+- **Bookshelf Units**: Freestanding metal shelves ($180-350)
+- **Display Racks**: Retail display systems ($150-300)
+- **Storage Cabinets**: Industrial lockers and cabinets ($250-500)
+
+## Manufacturing Capabilities
+
+### Customization Options
+- **Dimensions**: Any size to fit your space
+- **Materials**: Steel, stainless steel, aluminum
+- **Finishes**: Powder coating (any RAL color), brushed metal, painted
+- **Tops**: Wood, marble, glass, steel plate
+
+### Production Details
+- **Monthly Capacity**: 500+ furniture pieces
+- **MOQ**: 20 pieces per design
+- **Lead Time**: 25-40 days
+- **Quality**: ISO-compliant welding and finishing
+
+## Export Services
+- Complete export documentation
+- Professional packaging
+- Container loading optimization (20ft: 80-150pcs, 40ft: 200-350pcs)
+- Shipping coordination
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: industrial furniture manufacturer Indonesia, metal furniture export, steel furniture fabrication, custom furniture manufacturing
+      `
+    },
+    'steel-railing-systems-manufacturing-export': {
+      slug: 'steel-railing-systems-manufacturing-export',
+      title: 'Steel Railing Systems Manufacturing - Balcony & Stair Railings Export from Indonesia',
+      category: 'Metal Fabrication',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Professional steel railing manufacturer in Indonesia. Custom stair railings, balcony railings, and handrail systems for export. Modern designs, quality fabrication, competitive pricing.',
+      content: `
+# Steel Railing Systems Manufacturing - Export Quality from Indonesia
+
+## Premium Railing Manufacturer
+
+Bengkel Las Mandiri manufactures high-quality steel railing systems for international markets. Specializing in stair railings, balcony railings, and custom handrail solutions for global projects.
+
+## Railing Products
+
+### Stair Railings
+- Modern minimalist, industrial, ornamental designs
+- Galvanized steel or stainless steel construction
+- Standard 900-1100mm height (customizable)
+- Powder coating or polished finish
+- **Price**: $45-85 per linear meter FOB
+
+### Balcony Railings
+- Glass panel railings, steel balustrade, cable systems
+- International building code compliant
+- 10-12mm tempered safety glass options
+- Stainless steel or powder-coated frames
+- **Price**: $65-120 per linear meter FOB
+
+### Handrail Systems
+- Wall-mounted stainless steel handrails
+- Round, oval, or square tube profiles
+- Heavy-duty brackets included
+- Brushed, polished, or satin finishes
+- **Price**: $25-45 per linear meter FOB
+
+## Technical Specifications
+- **Materials**: ASTM A36 mild steel, SS 304/316
+- **Standards**: International building code compliant
+- **Testing**: Load capacity verified
+- **MOQ**: 50 linear meters
+- **Lead Time**: 20-35 days
+
+📱 **Contact**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: steel railing manufacturer Indonesia, stair railing export, balcony railing supplier, handrail manufacturing
+      `
+    },
+    'metal-window-grilles-security-solutions': {
+      slug: 'metal-window-grilles-security-solutions',
+      title: 'Metal Window Grilles & Security Solutions - Export from Indonesia',
+      category: 'Security Products',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Custom metal window grilles and security grilles manufacturer in Indonesia. Export quality steel window bars, decorative grilles, and security screens. Competitive pricing.',
+      content: `
+# Metal Window Grilles & Security Solutions - Indonesian Manufacturing
+
+## Security Grille Specialist
+
+Professional manufacturer of metal window grilles and security solutions for residential and commercial applications. Export quality products at competitive Indonesian prices.
+
+## Products
+
+### Window Security Grilles
+- Modern minimalist designs
+- Decorative laser-cut patterns
+- Fixed or removable installation
+- **Price**: $35-65 per sqm FOB
+
+### Door Security Screens
+- Heavy-duty steel construction
+- Powder coated finish
+- Quick-release emergency exit
+- **Price**: $120-200 per door FOB
+
+### Decorative Window Bars
+- Ornamental designs
+- Custom patterns available
+- Multiple finish options
+- **Price**: $45-85 per sqm FOB
+
+## Specifications
+- **Material**: 12-16mm steel bars or 20x20mm hollow sections
+- **Spacing**: Child-safe 100mm maximum
+- **Finish**: Powder coating any RAL color
+- **MOQ**: 50 sqm
+- **Lead Time**: 25-35 days
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: window grilles manufacturer Indonesia, security grilles export, metal window bars, decorative grilles
+      `
+    },
+    'industrial-storage-rack-manufacturing': {
+      slug: 'industrial-storage-rack-manufacturing',
+      title: 'Industrial Storage Rack Manufacturing - Warehouse Racking Systems Export',
+      category: 'Industrial Equipment',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Industrial storage rack and warehouse shelving manufacturer in Indonesia. Heavy-duty pallet racking, industrial shelving systems for export. Custom designs available.',
+      content: `
+# Industrial Storage Rack Manufacturing - Export from Indonesia
+
+## Warehouse Racking Solutions
+
+Specialized manufacturer of industrial storage racks and warehouse shelving systems. Heavy-duty construction for demanding industrial applications worldwide.
+
+## Product Range
+
+### Pallet Racking Systems
+- Selective pallet racking
+- Drive-in/drive-through racking
+- Push-back racking systems
+- Load capacity: 1000-3000kg per level
+- **Price**: $180-350 per bay FOB
+
+### Industrial Shelving
+- Boltless shelving units
+- Long-span shelving
+- Cantilever racking
+- **Price**: $95-180 per unit FOB
+
+### Custom Storage Solutions
+- Mezzanine floors
+- Multi-tier racking
+- Mobile racking systems
+- **Custom quotation**
+
+## Specifications
+- **Material**: High-grade structural steel
+- **Finish**: Powder coating or galvanizing
+- **Standards**: FEM/SEMA compliant
+- **MOQ**: 20 bays/units
+- **Lead Time**: 30-45 days
+
+📱 **Contact**: +62 852-1207-8467
+
+**Keywords**: storage rack manufacturer Indonesia, pallet racking export, warehouse shelving systems, industrial racking
+      `
+    },
+    'retail-display-rack-systems-export': {
+      slug: 'retail-display-rack-systems-export',
+      title: 'Retail Display Rack Systems - Shop Fitting Solutions Export Indonesia',
+      category: 'Retail Equipment',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Retail display rack and shop fitting manufacturer in Indonesia. Custom clothing racks, product displays, and retail fixtures for export. Modern designs, competitive prices.',
+      content: `
+# Retail Display Rack Systems - Shop Fitting Solutions from Indonesia
+
+## Retail Fixtures Manufacturer
+
+Custom retail display racks and shop fitting solutions for stores worldwide. Modern designs, durable construction, and competitive Indonesian manufacturing costs.
+
+## Display Solutions
+
+### Clothing Display Racks
+- Garment hanging racks
+- Display gondolas
+- Mobile clothing racks
+- **Price**: $85-150 per unit FOB
+
+### Product Display Systems
+- Slatwall panels and accessories
+- Grid wall displays
+- Pegboard systems
+- **Price**: $45-95 per sqm FOB
+
+### Custom Store Fixtures
+- Checkout counters
+- Display tables
+- Shelving units
+- **Custom quotation based on design**
+
+## Features
+- **Materials**: Steel, stainless steel, or aluminum
+- **Finish**: Powder coating, chrome plating, or brushed
+- **Design**: Modern, industrial, or minimalist
+- **MOQ**: 20 units per design
+- **Lead Time**: 25-35 days
+
+## Applications
+- Fashion boutiques
+- Retail chains
+- Department stores
+- Pop-up shops
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: retail display rack manufacturer, clothing rack export Indonesia, shop fixtures, store displays
+      `
+    },
+    'steel-cabinet-manufacturing-services': {
+      slug: 'steel-cabinet-manufacturing-services',
+      title: 'Steel Cabinet Manufacturing - Industrial Metal Cabinets Export Indonesia',
+      category: 'Metal Furniture',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Steel cabinet and metal locker manufacturer in Indonesia. Custom industrial cabinets, storage lockers, and filing cabinets for export. Durable powder-coated finish.',
+      content: `
+# Steel Cabinet Manufacturing - Industrial Metal Cabinets Export
+
+## Industrial Cabinet Specialist
+
+Professional manufacturer of steel cabinets and metal storage solutions. From industrial lockers to office filing cabinets, we deliver quality products worldwide.
+
+## Product Line
+
+### Industrial Storage Cabinets
+- Tool storage cabinets
+- Parts storage cabinets
+- Heavy-duty workshop cabinets
+- **Price**: $180-350 per unit FOB
+
+### Metal Lockers
+- Single-tier and multi-tier lockers
+- Mesh door lockers
+- Z-door lockers
+- **Price**: $85-150 per unit FOB
+
+### Office Filing Cabinets
+- 2-4 drawer filing cabinets
+- Lateral filing systems
+- Mobile pedestal cabinets
+- **Price**: $120-220 per unit FOB
+
+## Specifications
+- **Material**: Cold-rolled steel 0.6-1.2mm
+- **Construction**: Welded or knocked-down
+- **Finish**: Epoxy powder coating
+- **Colors**: Any RAL color
+- **MOQ**: 50 units
+- **Lead Time**: 30-40 days
+
+## Export Services
+- Container capacity: 200-400 units per 40ft
+- Professional packaging
+- Assembly instructions included
+
+📱 **Contact**: +62 852-1207-8467
+
+**Keywords**: steel cabinet manufacturer Indonesia, metal locker export, industrial cabinets, filing cabinet manufacturer
+      `
+    },
+    'custom-metal-bed-frames-production': {
+      slug: 'custom-metal-bed-frames-production',
+      title: 'Custom Metal Bed Frames - Steel Bed Manufacturing Export Indonesia',
+      category: 'Metal Furniture',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Custom metal bed frame manufacturer in Indonesia. Industrial steel beds, modern metal bed frames for export. Single, double, queen, and king sizes available. Competitive pricing.',
+      content: `
+# Custom Metal Bed Frames - Steel Bed Manufacturing Export
+
+## Metal Bed Frame Manufacturer
+
+Specializing in custom metal bed frames and industrial steel beds for global markets. Modern designs, durable construction, and attractive powder-coated finishes.
+
+## Bed Frame Products
+
+### Industrial Steel Beds
+- Modern minimalist design
+- Sturdy welded construction
+- Powder-coated finish
+- All sizes: Single, Double, Queen, King
+- **Price**: $95-180 per frame FOB
+
+### Decorative Metal Beds
+- Ornamental headboard designs
+- Contemporary or classical styles
+- Custom patterns available
+- **Price**: $150-280 per frame FOB
+
+### Bunk Beds
+- Heavy-duty steel construction
+- Safety rails included
+- Space-saving design
+- **Price**: $220-350 per set FOB
+
+## Product Features
+- **Material**: 40x40mm or 50x50mm steel tubes
+- **Finish**: Powder coating any RAL color
+- **Slat Support**: Included in all frames
+- **Assembly**: Knock-down design for easy shipping
+
+## Specifications
+- **Sizes Available**: 
+  - Single: 90x200cm
+  - Double: 140x200cm
+  - Queen: 160x200cm
+  - King: 180x200cm
+  - Custom sizes available
+
+- **MOQ**: 50 units (can be mixed sizes)
+- **Lead Time**: 25-35 days
+- **Container Capacity**: 150-250 frames per 40ft
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: metal bed frame manufacturer Indonesia, steel bed export, industrial bed frames, custom bed manufacturing
+      `
+    },
+    'commercial-bike-rack-manufacturing': {
+      slug: 'commercial-bike-rack-manufacturing',
+      title: 'Commercial Bike Rack Manufacturing - Bicycle Parking Solutions Export',
+      category: 'Urban Furniture',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Commercial bike rack and bicycle parking system manufacturer in Indonesia. Custom cycle parking solutions for export. Durable galvanized or powder-coated finish.',
+      content: `
+# Commercial Bike Rack Manufacturing - Export from Indonesia
+
+## Bicycle Parking Solutions
+
+Professional manufacturer of commercial bike racks and cycle parking systems. Durable, secure, and space-efficient designs for urban environments worldwide.
+
+## Bike Rack Types
+
+### Wall-Mounted Bike Racks
+- Space-saving vertical storage
+- 2-4 bike capacity per unit
+- **Price**: $35-65 per rack FOB
+
+### Floor-Standing Bike Racks
+- Toast rack style
+- Wave design
+- Sheffield stands
+- Capacity: 4-12 bikes per unit
+- **Price**: $85-180 per unit FOB
+
+### Double-Decker Bike Racks
+- Two-tier storage system
+- Gas-assisted lifting
+- Maximum space efficiency
+- **Price**: $450-750 per unit FOB
+
+## Features & Specifications
+- **Material**: Galvanized steel or powder-coated steel
+- **Finish**: Hot-dip galvanized or any RAL color
+- **Installation**: Surface or in-ground mounting
+- **Security**: Designed for U-lock compatibility
+- **MOQ**: 20 units
+- **Lead Time**: 25-35 days
+
+## Applications
+- Office buildings
+- Shopping centers
+- Parks and recreation areas
+- Transit stations
+- Universities and schools
+
+📱 **Contact**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: bike rack manufacturer Indonesia, bicycle parking systems, cycle rack export, commercial bike stands
+      `
+    },
+    'metal-sliding-door-systems-export': {
+      slug: 'metal-sliding-door-systems-export',
+      title: 'Metal Sliding Door Systems - Industrial Door Manufacturing Export',
+      category: 'Door Systems',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Metal sliding door and industrial door system manufacturer in Indonesia. Custom sliding gates, garage doors, and commercial door systems for export worldwide.',
+      content: `
+# Metal Sliding Door Systems - Industrial Door Manufacturing
+
+## Sliding Door Specialist
+
+Custom metal sliding doors and gate systems for residential, commercial, and industrial applications. Quality manufacturing with competitive Indonesian pricing.
+
+## Product Range
+
+### Sliding Gates
+- Cantilever sliding gates
+- Track-mounted sliding gates
+- Manual or automatic operation
+- **Price**: $850-1,800 per gate FOB
+
+### Garage Sliding Doors
+- Single or double panel
+- Powder-coated steel construction
+- Optional electric motor
+- **Price**: $650-1,400 per door FOB
+
+### Industrial Sliding Doors
+- Heavy-duty warehouse doors
+- Cold storage sliding doors
+- Fire-rated options available
+- **Custom quotation**
+
+## Specifications
+- **Frame**: 40x80mm or 50x100mm hollow sections
+- **Infill**: Steel panels, mesh, or laser-cut designs
+- **Finish**: Powder coating any color
+- **Hardware**: Heavy-duty wheels and tracks included
+- **Automation**: Electric motors available
+
+## Export Details
+- **MOQ**: 10 gates/doors
+- **Lead Time**: 30-45 days
+- **Installation**: Detailed instructions provided
+- **Warranty**: 12 months manufacturing defects
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: sliding gate manufacturer Indonesia, metal sliding door export, industrial door systems, automatic gates
+      `
+    },
+    'industrial-partition-systems': {
+      slug: 'industrial-partition-systems',
+      title: 'Industrial Partition Systems - Metal Room Dividers Export Indonesia',
+      category: 'Architectural Metalwork',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Industrial partition systems and metal room dividers manufacturer in Indonesia. Custom office partitions, warehouse dividers, and decorative screens for export.',
+      content: `
+# Industrial Partition Systems - Metal Room Dividers Export
+
+## Partition Solutions Manufacturer
+
+Custom industrial partition systems and decorative metal screens for commercial and residential spaces. Modern designs manufactured for global markets.
+
+## Partition Products
+
+### Office Partition Systems
+- Steel frame with glass panels
+- Modular design for easy installation
+- Sound-dampening options
+- **Price**: $85-150 per sqm FOB
+
+### Industrial Mesh Partitions
+- Wire mesh panels with steel frame
+- Security cage systems
+- Warehouse dividers
+- **Price**: $65-120 per sqm FOB
+
+### Decorative Metal Screens
+- Laser-cut pattern panels
+- Architectural room dividers
+- Custom designs available
+- **Price**: $95-200 per sqm FOB
+
+## Features
+- **Frame**: Powder-coated steel or aluminum
+- **Panels**: Glass, mesh, or laser-cut steel
+- **Height**: 2m-4m (customizable)
+- **Installation**: Modular system, easy assembly
+- **MOQ**: 50 sqm
+- **Lead Time**: 30-40 days
+
+## Applications
+- Office spaces
+- Warehouses
+- Retail stores
+- Hotels and restaurants
+- Residential interiors
+
+📱 **Contact**: +62 852-1207-8467
+
+**Keywords**: industrial partition manufacturer, metal room dividers, office partitions Indonesia, decorative screens export
+      `
+    },
+    'restaurant-bar-table-manufacturing': {
+      slug: 'restaurant-bar-table-manufacturing',
+      title: 'Restaurant Bar Table Manufacturing - Commercial Furniture Export',
+      category: 'Hospitality Furniture',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Restaurant bar table and commercial furniture manufacturer in Indonesia. Custom bar tables, pub tables, and hospitality furniture for export. Industrial style, competitive pricing.',
+      content: `
+# Restaurant Bar Table Manufacturing - Commercial Furniture Export
+
+## Hospitality Furniture Specialist
+
+Professional manufacturer of restaurant bar tables and commercial furniture for the hospitality industry. Industrial designs with durable construction for global markets.
+
+## Bar Table Products
+
+### High Bar Tables
+- Standard bar height (105-110cm)
+- Steel frame construction
+- Wood, marble, or metal top options
+- **Price**: $120-220 per table FOB
+
+### Counter Height Tables
+- Counter height (90-95cm)
+- Various sizes: 60x60cm to 120x80cm
+- Powder-coated base
+- **Price**: $95-180 per table FOB
+
+### Outdoor Bar Tables
+- Weather-resistant finish
+- Galvanized or stainless steel
+- Suitable for outdoor use
+- **Price**: $150-280 per table FOB
+
+## Matching Bar Stools
+- Industrial bar stools
+- Various heights available
+- With or without backrest
+- **Price**: $45-85 per stool FOB
+
+## Specifications
+- **Base**: Steel tube or cast iron
+- **Top**: Solid wood, plywood, marble, or steel
+- **Finish**: Powder coating any RAL color
+- **Style**: Industrial, modern, minimalist
+- **MOQ**: 20 tables (mixed sizes acceptable)
+- **Lead Time**: 30-40 days
+
+## Target Markets
+- Restaurants and cafes
+- Bars and pubs
+- Hotels and resorts
+- Food courts
+- Co-working spaces
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: bar table manufacturer Indonesia, restaurant furniture export, commercial bar tables, hospitality furniture
+      `
+    },
+    'coffee-table-metal-frame-production': {
+      slug: 'coffee-table-metal-frame-production',
+      title: 'Coffee Table Metal Frames - Modern Table Manufacturing Export',
+      category: 'Furniture Components',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Coffee table metal frame manufacturer in Indonesia. Custom steel table bases and frames for export. Modern industrial designs, powder-coated finish, competitive prices.',
+      content: `
+# Coffee Table Metal Frames - Modern Table Manufacturing Export
+
+## Table Frame Specialist
+
+Custom metal frames for coffee tables and modern furniture. Industrial style frames manufactured in Indonesia for furniture makers and retailers worldwide.
+
+## Frame Products
+
+### Coffee Table Frames
+- Modern geometric designs
+- Various sizes: 80cm-120cm length
+- Height: 40-50cm
+- **Price**: $35-85 per frame FOB
+
+### Side Table Frames
+- Compact designs for side tables
+- Round, square, or rectangular
+- 30-50cm dimensions
+- **Price**: $25-45 per frame FOB
+
+### Nesting Table Frames
+- Set of 2-3 nesting tables
+- Space-saving design
+- Coordinated sizes
+- **Price**: $65-120 per set FOB
+
+## Features & Options
+- **Material**: 20x20mm to 40x40mm steel tubes
+- **Construction**: Welded for strength
+- **Finish**: Powder coating any color
+- **Style**: Industrial, minimalist, modern
+- **Top Mounting**: Brackets or threaded inserts included
+
+## Specifications
+- **MOQ**: 50 frames (mixed designs acceptable)
+- **Lead Time**: 25-35 days
+- **Packaging**: Individual wrapping
+- **Container**: 300-500 frames per 40ft
+
+## For Furniture Makers
+- Supply your own tops (wood, glass, marble)
+- Easy assembly with provided hardware
+- Consistent quality production
+- Volume discounts available
+
+📱 **Contact**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: coffee table frame manufacturer, metal table base export, steel furniture frames Indonesia, table legs manufacturer
+      `
+    },
+    'wall-mounted-metal-shelving-systems': {
+      slug: 'wall-mounted-metal-shelving-systems',
+      title: 'Wall-Mounted Metal Shelving - Industrial Shelf Systems Export',
+      category: 'Storage Solutions',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Wall-mounted metal shelving and industrial shelf systems manufacturer in Indonesia. Custom floating shelves, pipe shelving, and bracket systems for export.',
+      content: `
+# Wall-Mounted Metal Shelving - Industrial Shelf Systems Export
+
+## Shelving Solutions Manufacturer
+
+Custom wall-mounted metal shelving and industrial shelf systems. Modern designs perfect for homes, offices, and retail spaces worldwide.
+
+## Shelving Products
+
+### Industrial Pipe Shelving
+- Black pipe and wood shelf combination
+- Rustic industrial style
+- 2-5 tier configurations
+- **Price**: $85-180 per unit FOB
+
+### Floating Metal Shelves
+- Minimalist hidden bracket design
+- Steel or aluminum construction
+- Various lengths: 60-180cm
+- **Price**: $35-75 per shelf FOB
+
+### Heavy-Duty Bracket Systems
+- Commercial-grade steel brackets
+- Load capacity: up to 100kg per shelf
+- Multiple size options
+- **Price**: $15-35 per bracket pair FOB
+
+## Features
+- **Materials**: Steel pipe, flat bars, or angles
+- **Finish**: Black powder coating or custom colors
+- **Installation**: Wall-mounted with provided hardware
+- **Shelves**: Can include wood shelves or supply frames only
+
+## Specifications
+- **MOQ**: 20 units per design
+- **Lead Time**: 25-35 days
+- **Customization**: Custom sizes and designs available
+- **Packaging**: Flat-pack for efficient shipping
+
+## Applications
+- Residential: kitchens, living rooms, bedrooms
+- Commercial: offices, cafes, retail stores
+- Industrial: warehouses, workshops
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: wall-mounted shelving Indonesia, industrial pipe shelves, floating shelf manufacturer, metal bracket export
+      `
+    },
+    'decorative-metal-gates-export': {
+      slug: 'decorative-metal-gates-export',
+      title: 'Decorative Metal Gates - Custom Entrance Gates Export Indonesia',
+      category: 'Architectural Metalwork',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Decorative metal gates and custom entrance gate manufacturer in Indonesia. Ornamental iron gates, modern steel gates for export. Laser-cut designs, powder-coated finish.',
+      content: `
+# Decorative Metal Gates - Custom Entrance Gates Export
+
+## Ornamental Gate Specialist
+
+Custom decorative metal gates and entrance gates for luxury homes, estates, and commercial properties. Exquisite designs manufactured in Indonesia for global markets.
+
+## Gate Products
+
+### Ornamental Swing Gates
+- Classical wrought iron style
+- Custom decorative patterns
+- Single or double leaf
+- **Price**: $850-1,800 per gate set FOB
+
+### Modern Laser-Cut Gates
+- Contemporary geometric designs
+- CNC laser-cut patterns
+- Minimalist aesthetic
+- **Price**: $1,200-2,500 per gate set FOB
+
+### Pedestrian Entry Gates
+- Matching design with main gates
+- Single leaf configuration
+- Integrated lock system
+- **Price**: $450-850 per gate FOB
+
+## Features & Specifications
+- **Frame**: 50x50mm to 80x80mm hollow sections
+- **Infill**: Laser-cut panels, ornamental scrolls, or bars
+- **Finish**: Powder coating any RAL color
+- **Hardware**: Heavy-duty hinges, locks included
+- **Automation**: Can be motorized for automatic operation
+
+## Manufacturing Details
+- **Design Services**: Free CAD drawings
+- **MOQ**: 5 gate sets
+- **Lead Time**: 35-50 days
+- **Installation**: Technical drawings provided
+
+## Export Packaging
+- Wooden crate packaging
+- All hardware separately boxed
+- Installation manual included
+
+📱 **Contact**: +62 852-1207-8467
+
+**Keywords**: decorative gate manufacturer Indonesia, ornamental iron gates, custom entrance gates export, luxury gates
+      `
+    },
+    'spiral-staircase-manufacturing': {
+      slug: 'spiral-staircase-manufacturing',
+      title: 'Spiral Staircase Manufacturing - Custom Steel Stairs Export Indonesia',
+      category: 'Architectural Metalwork',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Spiral staircase and custom steel staircase manufacturer in Indonesia. Modern metal staircases, floating stairs, and industrial stairs for export. Professional fabrication.',
+      content: `
+# Spiral Staircase Manufacturing - Custom Steel Stairs Export
+
+## Staircase Fabrication Specialist
+
+Professional manufacturer of spiral staircases and custom steel staircases for residential and commercial projects worldwide. Modern designs with precise engineering.
+
+## Staircase Products
+
+### Spiral Staircases
+- Space-saving circular design
+- Custom diameter: 120cm-200cm
+- Steel treads or wood treads
+- **Price**: $2,500-4,500 per staircase FOB
+
+### Straight Steel Staircases
+- Modern industrial design
+- Open riser or closed riser
+- Custom dimensions
+- **Price**: $180-350 per linear meter FOB
+
+### Floating Staircases
+- Minimalist cantilevered design
+- Wall-mounted treads
+- Ultra-modern aesthetic
+- **Price**: $220-450 per linear meter FOB
+
+## Features
+- **Structure**: Heavy-duty steel construction
+- **Treads**: Steel plate, checker plate, or wood
+- **Railings**: Integrated handrail systems
+- **Finish**: Powder coating or primer for painting
+- **Code Compliant**: International building standards
+
+## Engineering Services
+- Structural calculations included
+- Load-bearing capacity verified
+- CAD drawings and 3D models
+- Installation instructions provided
+
+## Export Details
+- **MOQ**: 1 staircase (custom project)
+- **Lead Time**: 40-60 days
+- **Packaging**: Knocked-down for shipping
+- **Installation**: Technical support available
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: spiral staircase manufacturer Indonesia, steel staircase export, floating stairs, custom staircase fabrication
+      `
+    },
+    'steel-building-framework-systems': {
+      slug: 'steel-building-framework-systems',
+      title: 'Steel Building Framework Systems - Structural Steel Export Indonesia',
+      category: 'Steel Structures',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Steel building framework and structural steel manufacturer in Indonesia. Pre-engineered building systems, steel frame structures for export. Quality fabrication, competitive prices.',
+      content: `
+# Steel Building Framework Systems - Structural Steel Export
+
+## Structural Steel Fabrication
+
+Professional manufacturer of steel building frameworks and structural steel components for construction projects worldwide. Pre-engineered building systems manufactured in Indonesia.
+
+## Framework Products
+
+### Pre-Engineered Building Frames
+- Clear-span up to 30 meters
+- H-beam and C-channel construction
+- Complete with purlins and girts
+- **Price**: $85-150 per sqm FOB
+
+### Warehouse Steel Frames
+- Heavy-duty structural steel
+- Customized to your specifications
+- Includes all connection plates
+- **Price**: $95-180 per sqm FOB
+
+### Mezzanine Floor Systems
+- Multi-tier platform structures
+- Load capacity: 500-1000 kg/sqm
+- Bolt-together assembly
+- **Price**: $120-220 per sqm FOB
+
+## Specifications
+- **Materials**: ASTM A36, A572 structural steel
+- **Welding**: AWS D1.1 standards
+- **Coating**: Primer coat or galvanized
+- **Engineering**: Structural calculations included
+- **Design**: Compliant with international codes
+
+## Manufacturing Process
+1. Engineering design and approval
+2. CNC cutting for precision
+3. Professional welding and fabrication
+4. Quality inspection
+5. Surface treatment
+6. Marking and packaging
+7. Export documentation
+
+## Export Services
+- **MOQ**: 100 tons
+- **Lead Time**: 45-60 days
+- **Delivery**: FOB, CIF, or DDP available
+- **Installation**: Erection drawings provided
+
+📱 **Contact**: +62 852-1207-8467
+
+**Keywords**: steel building manufacturer Indonesia, structural steel export, pre-engineered buildings, steel frame fabrication
+      `
+    },
+    'powder-coating-services-indonesia': {
+      slug: 'powder-coating-services-indonesia',
+      title: 'Powder Coating Services Indonesia - Metal Finishing for Export Products',
+      category: 'Surface Treatment',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Professional powder coating services in Indonesia. High-quality metal finishing for export products. Any RAL color, durable outdoor-grade coating. Competitive pricing.',
+      content: `
+# Powder Coating Services Indonesia - Metal Finishing for Export
+
+## Professional Powder Coating Facility
+
+High-quality powder coating services for metal products manufactured for export. Durable, attractive finishes in any color for products going to global markets.
+
+## Powder Coating Services
+
+### Standard Powder Coating
+- Outdoor-grade polyester powder
+- Thickness: 60-80 microns
+- Any RAL or Pantone color
+- **Price**: $2.50-4.00 per sqm
+
+### Heavy-Duty Coating
+- High-build epoxy or polyester
+- Thickness: 100-150 microns
+- Extra corrosion protection
+- **Price**: $3.50-5.50 per sqm
+
+### Special Finishes
+- Textured finishes
+- Metallic and sparkle effects
+- Wood-grain effects
+- **Price**: $4.00-7.00 per sqm
+
+## Coating Process
+
+### Pre-Treatment
+- Degreasing and cleaning
+- Phosphate coating for better adhesion
+- Iron phosphate or zinc phosphate
+- Ensures long-lasting finish
+
+### Application
+- Electrostatic powder application
+- Even coating coverage
+- Professional operators
+- Quality control inspection
+
+### Curing
+- Gas-fired curing oven
+- Temperature: 180-200°C
+- Curing time: 15-20 minutes
+- Consistent results
+
+## Quality Standards
+- **Adhesion**: ASTM D3359 (5B rating)
+- **Thickness**: Measured and documented
+- **Color**: Colorimeter matching
+- **Durability**: Salt spray test 500+ hours
+
+## Service Features
+- **Capacity**: 5000+ sqm per week
+- **Size**: Parts up to 6m length
+- **Turnaround**: 5-7 days
+- **Colors**: Unlimited color matching
+- **MOQ**: No minimum for our own products
+
+## For Export Products
+- Durable finish for long-distance shipping
+- Protection against corrosion
+- Professional appearance
+- Worldwide quality standards
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: powder coating Indonesia, metal finishing services, industrial coating, powder coating export products
+      `
+    },
+    'metal-fabrication-oem-services': {
+      slug: 'metal-fabrication-oem-services',
+      title: 'Metal Fabrication OEM Services - Contract Manufacturing Indonesia',
+      category: 'OEM Manufacturing',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'OEM metal fabrication and contract manufacturing services in Indonesia. Custom metal products for international brands. Quality fabrication, competitive pricing, reliable delivery.',
+      content: `
+# Metal Fabrication OEM Services - Contract Manufacturing Indonesia
+
+## Your OEM Manufacturing Partner
+
+Professional OEM metal fabrication services for international brands and businesses. We manufacture custom metal products to your specifications with Indonesian cost advantages.
+
+## OEM Services
+
+### Contract Manufacturing
+- Manufacture to your designs and specifications
+- Consistent quality production runs
+- Confidentiality agreements available
+- Volume production capacity
+
+### Private Label Manufacturing
+- Produce under your brand name
+- Custom packaging options
+- Your brand standards maintained
+- Quality control to your requirements
+
+### Product Development Partnership
+- From concept to production
+- Design optimization for manufacturing
+- Prototype development
+- Testing and refinement
+
+## Manufacturing Capabilities
+
+### Metal Working Processes
+- **Cutting**: CNC plasma, laser, oxy-fuel
+- **Forming**: Press brake, rolling, stamping
+- **Welding**: MIG, TIG, spot welding
+- **Machining**: Drilling, tapping, milling
+
+### Surface Finishing
+- Powder coating any color
+- Hot-dip galvanizing
+- Electroplating (zinc, chrome)
+- Polishing and brushing
+
+### Assembly Services
+- Sub-assembly and final assembly
+- Hardware installation
+- Packaging and labeling
+- Quality inspection
+
+## Why Choose OEM Manufacturing in Indonesia?
+
+### Cost Advantages
+- **Labor**: 60-70% lower costs
+- **Materials**: Competitive Asian market prices
+- **Overhead**: Lower facility costs
+- **Total Savings**: 40-60% compared to Western manufacturing
+
+### Quality Assurance
+- ISO-compliant processes
+- Experienced workforce
+- Modern equipment
+- Strict quality control
+
+### Business Benefits
+- **Flexibility**: Small to large production runs
+- **Scalability**: Easy to scale production
+- **Speed**: Fast turnaround times
+- **Communication**: English-speaking team
+
+## Production Capacity
+- **Monthly Output**: Varies by product
+- **MOQ**: Negotiable based on product
+- **Lead Time**: 20-60 days depending on complexity
+- **Quality**: Third-party inspection available
+
+## Confidentiality & IP Protection
+- Non-disclosure agreements (NDA)
+- Intellectual property protection
+- Confidential manufacturing processes
+- Secure handling of proprietary designs
+
+## Export & Logistics
+- Complete export documentation
+- Professional packaging
+- Container loading supervision
+- Shipping coordination
+
+## Industries We Serve
+- Furniture manufacturers
+- Retail brands
+- Construction companies
+- Industrial equipment makers
+- Consumer products companies
+
+📱 **WhatsApp**: +62 852-1207-8467
+📧 **Email**: info@lasbekasi.com
+
+**Keywords**: OEM metal fabrication Indonesia, contract manufacturing, private label manufacturing, metal products OEM
+      `
+    },
+    'custom-metal-fabrication-order-indonesia': {
+      slug: 'custom-metal-fabrication-order-indonesia',
+      title: 'Custom Metal Fabrication Orders - Made to Order Manufacturing Indonesia',
+      category: 'Custom Manufacturing',
+      date: 'November 7, 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Custom metal fabrication services in Indonesia. We accept any custom orders for metal products. From design to production and export. Competitive pricing, quality guaranteed.',
+      content: `
+# Custom Metal Fabrication Orders - Made to Order Manufacturing Indonesia
+
+## Your Custom Manufacturing Partner
+
+Welcome to Bengkel Las Mandiri's custom metal fabrication services. We bring your unique metal product ideas to life, from concept to export-ready production, with competitive Indonesian manufacturing advantages.
+
+## Custom Order Services
+
+### What We Can Manufacture
+
+#### Furniture & Interior
+- Custom tables, chairs, shelving
+- Display racks and retail fixtures
+- Cabinets and storage solutions
+- Decorative metal elements
+
+#### Construction Products
+- Structural steel components
+- Railings and handrails
+- Custom staircases
+- Gates and fencing
+
+#### Industrial Products
+- Machine parts and components
+- Storage racks and systems
+- Conveyor components
+- Custom brackets and mounts
+
+#### Commercial Equipment
+- Restaurant equipment
+- Retail displays
+- Signage structures
+- Hospitality furniture
+
+## Custom Order Process
+
+### Step 1: Inquiry (1 day)
+- Submit your product concept
+- Photos, drawings, or sketches
+- Specifications and requirements
+- Quantity and timeline
+
+### Step 2: Quotation (2-3 days)
+- Detailed price estimate
+- Material recommendations
+- Production timeline
+- Shipping cost estimate
+
+### Step 3: Design Development (3-7 days)
+- Professional CAD drawings
+- Engineering calculations
+- Design optimization
+- Your approval required
+
+### Step 4: Prototype (10-15 days)
+- Sample production
+- Quality verification
+- Functional testing
+- Design refinement if needed
+
+### Step 5: Production (20-45 days)
+- Bulk manufacturing
+- Quality control throughout
+- Progress updates provided
+- Pre-shipment inspection
+
+### Step 6: Export & Delivery
+- Professional packaging
+- Export documentation
+- Shipping arrangement
+- Tracking information
+
+## Materials Available
+- **Steel**: Mild steel, galvanized, high-strength
+- **Stainless Steel**: 304, 316 grades
+- **Aluminum**: 6061, 6063 alloys
+- **Brass, Copper**: Specialized applications
+
+## Finishing Options
+- **Powder Coating**: Any RAL color, durable finish
+- **Galvanizing**: Hot-dip for corrosion resistance
+- **Polishing**: Mirror or brushed finish
+- **Painting**: Industrial paint systems
+- **Anodizing**: For aluminum products
+
+## Why Choose Custom Manufacturing in Indonesia?
+
+### Cost Advantages
+✅ 40-60% cost savings vs Western countries
+✅ Competitive material pricing
+✅ Lower labor and overhead costs
+✅ Strategic shipping location
+
+### Quality & Service
+✅ 20+ years metal fabrication experience
+✅ Modern CNC and welding equipment
+✅ Skilled certified workers
+✅ English-speaking team
+✅ Flexible MOQ
+✅ Fast turnaround
+
+### Full Support
+✅ Free design consultation
+✅ CAD drawing services
+✅ Prototype development
+✅ Quality documentation
+✅ Export assistance
+✅ After-sales support
+
+## Pricing & Terms
+
+### Minimum Order Quantity
+- Simple products: 50-100 pieces
+- Complex products: 20-50 pieces
+- Large products: 10-20 pieces
+- Prototypes: 1-5 pieces (higher unit cost)
+
+### Payment Terms
+- Prototype: 100% advance
+- First order: 50% deposit, 50% before shipping
+- Repeat orders: 30% deposit, 70% before shipping
+- Large projects: Installment options
+
+### Payment Methods
+- Bank transfer (T/T)
+- PayPal (smaller orders)
+- Western Union
+- Letter of Credit (large projects)
+
+## Quality Assurance
+
+### Quality Control
+- Material inspection with certificates
+- In-process inspection
+- Dimensional verification
+- Functional testing
+- Final inspection before shipping
+
+### Documentation Provided
+- Material certificates
+- Inspection reports
+- Test results
+- Production photos
+- Compliance certificates
+
+### Warranty
+- 12 months manufacturing defects
+- 24-36 months surface treatment
+- Defective item replacement
+- Technical support
+
+## Export Services
+
+### Packaging
+- Export-grade protective packaging
+- Wooden crates for fragile items
+- Clear marking and labeling
+- Packing list included
+
+### Shipping
+- FOB Indonesia (ex-factory + local transport)
+- CIF (including freight and insurance)
+- DDP (delivered to your door, select countries)
+
+### Lead Times
+- Prototype: 10-15 days
+- Small orders: 20-30 days
+- Medium orders: 30-45 days
+- Large orders: 45-60 days
+
+## Get Started with Your Custom Order!
+
+### What to Include in Your Inquiry
+
+1. **Product Description**: What you want to make
+2. **Drawings/Photos**: Design files or references
+3. **Dimensions**: Size specifications
+4. **Material**: Preferred material type
+5. **Finish**: Desired surface treatment
+6. **Quantity**: Number of pieces needed
+7. **Budget**: Target price range
+8. **Timeline**: When you need delivery
+9. **Destination**: Shipping location
+
+## Contact Us Today!
+
+📱 **WhatsApp**: +62 852-1207-8467 (English available)
+📧 **Email**: info@lasbekasi.com
+🌐 **Website**: www.lasbekasi.com
+
+### Factory Address
+📍 **Bengkel Las Mandiri**
+Jl. Raya Setu Cibitung - Bekasi
+Telajung, Cikarang Barat
+Bekasi, West Java 17320, Indonesia
+
+### Business Hours
+- Monday-Friday: 08:00-17:00 WIB (GMT+7)
+- Saturday: 08:00-15:00 WIB
+- Sunday: Closed
+
+### Quick Response
+- Email: Within 12 hours
+- WhatsApp: Within 2-4 hours
+- Quotation: Within 24-48 hours
+- Design: Within 3-7 days
+
+## Let's Bring Your Ideas to Life!
+
+Whether you need:
+✅ Custom furniture
+✅ Architectural metalwork
+✅ Industrial equipment
+✅ Retail displays
+✅ Building components
+✅ Unique metal products
+✅ OEM manufacturing
+✅ Product development
+
+**We have the expertise to manufacture it!**
+
+📱 **Contact us now**: +62 852-1207-8467
+
+> "From your concept to our manufacturing excellence. Quality custom metal products made in Indonesia for the world."
+
+---
+
+**Bengkel Las Mandiri - Custom Metal Fabrication Since 1999**
+
+*Your trusted partner for custom metal manufacturing*
+
+**Keywords**: custom metal fabrication Indonesia, made to order manufacturing, custom steel products, metal fabrication services, bespoke metalwork, custom manufacturing Indonesia, steel fabrication custom orders
+      `
+    }
+  
   const post = slug ? blogPosts[slug] : null
   
   // Generate schemas for valid posts

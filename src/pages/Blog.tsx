@@ -36,11 +36,103 @@ const Blog: React.FC = () => {
 
       <div className="blog-hero">
         <h1>Blog Bengkel Las</h1>
-        <p>Tips & Panduan Las Besi, Kanopi, Pagar dan Konstruksi Baja</p>
+        <p>Tips & Panduan Las Besi, Kanopi, Pagar dan Konstruksi Baja | Metal Fabrication Articles</p>
       </div>
 
       <section className="blog-content">
         <div className="blog-grid">
+          {/* English Articles for International Buyers */}
+          <div className="blog-card">
+            <div className="blog-card-header">
+              <span className="blog-category">Metal Fabrication</span>
+              <span className="blog-date">7 Nov 2025</span>
+            </div>
+            <div className="blog-card-body">
+              <h2>Industrial Metal Canopy Manufacturing - Indonesia Export Quality</h2>
+              <p>Professional metal canopy manufacturing in Indonesia. Custom steel canopy design and fabrication for international buyers...</p>
+            </div>
+            <div className="blog-card-footer">
+              <span className="blog-author">Bengkel Las Mandiri</span>
+              <a href="/blog/industrial-metal-canopy-manufacturing-indonesia" className="blog-read-more">Read More →</a>
+            </div>
+          </div>
+
+          <div className="blog-card">
+            <div className="blog-card-header">
+              <span className="blog-category">Metal Fabrication</span>
+              <span className="blog-date">7 Nov 2025</span>
+            </div>
+            <div className="blog-card-body">
+              <h2>Custom Steel Fence Manufacturing & Export - Indonesia</h2>
+              <p>Professional custom steel fence manufacturing in Indonesia for export. High-quality metal fencing solutions for residential, commercial, and industrial...</p>
+            </div>
+            <div className="blog-card-footer">
+              <span className="blog-author">Bengkel Las Mandiri</span>
+              <a href="/blog/custom-steel-fence-manufacturing-export" className="blog-read-more">Read More →</a>
+            </div>
+          </div>
+
+          <div className="blog-card">
+            <div className="blog-card-header">
+              <span className="blog-category">Metal Furniture</span>
+              <span className="blog-date">7 Nov 2025</span>
+            </div>
+            <div className="blog-card-body">
+              <h2>Industrial Metal Furniture Manufacturing - Custom Steel Furniture Export</h2>
+              <p>Professional industrial metal furniture manufacturer. Custom steel furniture fabrication for export including tables, chairs, shelving...</p>
+            </div>
+            <div className="blog-card-footer">
+              <span className="blog-author">Bengkel Las Mandiri</span>
+              <a href="/blog/industrial-metal-furniture-manufacturing-indonesia" className="blog-read-more">Read More →</a>
+            </div>
+          </div>
+
+          <div className="blog-card">
+            <div className="blog-card-header">
+              <span className="blog-category">Custom Manufacturing</span>
+              <span className="blog-date">7 Nov 2025</span>
+            </div>
+            <div className="blog-card-body">
+              <h2>Custom Metal Fabrication Orders - Made to Order Manufacturing Indonesia</h2>
+              <p>Custom metal fabrication services in Indonesia. We accept any custom orders for metal products. From design to production and export...</p>
+            </div>
+            <div className="blog-card-footer">
+              <span className="blog-author">Bengkel Las Mandiri</span>
+              <a href="/blog/custom-metal-fabrication-order-indonesia" className="blog-read-more">Read More →</a>
+            </div>
+          </div>
+
+          <div className="blog-card">
+            <div className="blog-card-header">
+              <span className="blog-category">Metal Fabrication</span>
+              <span className="blog-date">7 Nov 2025</span>
+            </div>
+            <div className="blog-card-body">
+              <h2>Steel Railing Systems Manufacturing - Balcony & Stair Railings Export</h2>
+              <p>Professional steel railing manufacturer. Custom stair railings, balcony railings, and handrail systems for export...</p>
+            </div>
+            <div className="blog-card-footer">
+              <span className="blog-author">Bengkel Las Mandiri</span>
+              <a href="/blog/steel-railing-systems-manufacturing-export" className="blog-read-more">Read More →</a>
+            </div>
+          </div>
+
+          <div className="blog-card">
+            <div className="blog-card-header">
+              <span className="blog-category">Retail Equipment</span>
+              <span className="blog-date">7 Nov 2025</span>
+            </div>
+            <div className="blog-card-body">
+              <h2>Retail Display Rack Systems - Shop Fitting Solutions Export</h2>
+              <p>Retail display rack and shop fitting manufacturer. Custom clothing racks, product displays, and retail fixtures for export...</p>
+            </div>
+            <div className="blog-card-footer">
+              <span className="blog-author">Bengkel Las Mandiri</span>
+              <a href="/blog/retail-display-rack-systems-export" className="blog-read-more">Read More →</a>
+            </div>
+          </div>
+
+          {/* Indonesian Articles */}
           <div className="blog-card">
             <div className="blog-card-header">
               <span className="blog-category">Bengkel Las</span>
@@ -52,7 +144,7 @@ const Blog: React.FC = () => {
             </div>
             <div className="blog-card-footer">
               <span className="blog-author">Admin</span>
-              <a href="/blog/cari-bengkel-las-bekasi" className="blog-read-more">Baca Selengkapnya ?</a>
+              <a href="/blog/cari-bengkel-las-bekasi" className="blog-read-more">Baca Selengkapnya →</a>
             </div>
           </div>
 
@@ -67,7 +159,7 @@ const Blog: React.FC = () => {
             </div>
             <div className="blog-card-footer">
               <span className="blog-author">Admin</span>
-              <a href="/blog/jasa-tukang-las-cikarang" className="blog-read-more">Baca Selengkapnya ?</a>
+              <a href="/blog/jasa-tukang-las-cikarang" className="blog-read-more">Baca Selengkapnya →</a>
             </div>
           </div>
 
@@ -82,7 +174,7 @@ const Blog: React.FC = () => {
             </div>
             <div className="blog-card-footer">
               <span className="blog-author">Admin</span>
-              <a href="/blog/jasa-tukang-las-setu" className="blog-read-more">Baca Selengkapnya ?</a>
+              <a href="/blog/jasa-tukang-las-setu" className="blog-read-more">Baca Selengkapnya →</a>
             </div>
           </div>
 
@@ -97,7 +189,7 @@ const Blog: React.FC = () => {
             </div>
             <div className="blog-card-footer">
               <span className="blog-author">Admin</span>
-              <a href="/blog/jasa-tukang-las-bekasi" className="blog-read-more">Baca Selengkapnya ?</a>
+              <a href="/blog/jasa-tukang-las-bekasi" className="blog-read-more">Baca Selengkapnya →</a>
             </div>
           </div>
 
@@ -108,11 +200,11 @@ const Blog: React.FC = () => {
             </div>
             <div className="blog-card-body">
               <h2>Jasa Pasang Kanopi Bekasi - Harga Borongan Terpercaya 2025</h2>
-              <p>Jasa Pasang Kanopi Bekasi dengan harga borongan mulai 350rb/m?. Material SNI, garansi resmi, tenaga profesional...</p>
+              <p>Jasa Pasang Kanopi Bekasi dengan harga borongan mulai 350rb/m². Material SNI, garansi resmi, tenaga profesional...</p>
             </div>
             <div className="blog-card-footer">
               <span className="blog-author">Bengkel Las Mandiri</span>
-              <a href="/blog/jasa-kanopi-bekasi" className="blog-read-more">Baca Selengkapnya ?</a>
+              <a href="/blog/jasa-kanopi-bekasi" className="blog-read-more">Baca Selengkapnya →</a>
             </div>
           </div>
         </div>
