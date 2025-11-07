@@ -7,20 +7,22 @@ const AboutSection: React.FC = () => {
     <section className="about-section" id="tentang">
       <div className="container">
         <div className="section-header">
-          <div className="section-subtitle">Bengkel Las Terbaik di Bekasi</div>
-          <h2>Bengkel Las Profesional & Terpercaya di Bekasi</h2>
+          <div className="section-subtitle">Las Bekasi Terpercaya Sejak 1999</div>
+          <h2>Bengkel Las Bekasi - Jasa Las Profesional di Bekasi</h2>
         </div>
         
         <div className="about-content">
           <div className="about-text">
             <p>
-              Bengkel Las Mandiri di Bekasi, yang dipimpin oleh Bapak Maman Toha, adalah bengkel las profesional 
-              yang telah berdiri sejak tahun 1999. Dengan pengalaman lebih dari 20 tahun dalam jasa las listrik 
-              dan konstruksi baja, kami telah menjadi bengkel las terpercaya di Bekasi dan sekitarnya.
+              <strong><Link to="/bengkel-las-bekasi">Las Bekasi</Link></strong> (Bengkel Las Mandiri) adalah <strong>bengkel las di Bekasi</strong> yang 
+              telah berdiri sejak tahun 1999, dipimpin oleh Bapak Maman Toha. Dengan pengalaman lebih dari 25 tahun 
+              dalam <strong>jasa las Bekasi</strong>, kami telah menjadi <strong><Link to="/bengkel-las-bekasi">bengkel las terpercaya di Bekasi</Link></strong> 
+              dengan ribuan proyek sukses di seluruh area Bekasi Timur, Bekasi Barat, Bekasi Utara, Bekasi Selatan, 
+              Cikarang, Cibitung, dan sekitarnya.
             </p>
             
             <p>
-              Sebagai spesialis las di Bekasi, kami menyediakan berbagai <Link to="/layanan-las-bekasi">layanan las berkualitas tinggi</Link> termasuk:
+              Sebagai spesialis <strong>jasa las di Bekasi</strong>, kami menyediakan berbagai <Link to="/layanan-las-bekasi">layanan las berkualitas tinggi</Link> termasuk:
               <Link to="/layanan-las-bekasi/jasa-pembuatan-kanopi-bekasi"> pembuatan kanopi minimalis</Link>, 
               <Link to="/layanan-las-bekasi/jasa-pembuatan-pagar-besi-bekasi"> pagar besi tempa</Link>, 
               <Link to="/layanan-las-bekasi/jasa-pembuatan-teralis-bekasi"> teralis jendela anti maling</Link>, 

@@ -46,22 +46,22 @@ const Home: React.FC = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Las Bekasi - Jasa Las Profesional #1 Sejak 1999 | Bengkel Las Mandiri</title>
-        <meta name="description" content="Las Bekasi ⭐ Jasa las profesional terpercaya sejak 1999. Spesialis kanopi, pagar, teralis & konstruksi baja di seluruh area Bekasi. Material SNI, garansi resmi, harga terjangkau. ☎ 0852-1207-8467" />
-        <meta name="keywords" content="las bekasi, jasa las bekasi, bengkel las bekasi, tukang las bekasi, bengkel las terdekat, las bekasi terdekat, jasa las pagar bekasi, jasa las kanopi bekasi, jasa las tralis bekasi, harga jasa las per meter, jasa las murah bekasi, bengkel las cikarang, bengkel las cibitung, bengkel las mandiri" />
+        <title>Las Bekasi - Bengkel Las Terpercaya #1 di Bekasi Sejak 1999</title>
+        <meta name="description" content="Las Bekasi ⭐ Bengkel las #1 di Bekasi sejak 1999. Jasa kanopi, pagar, teralis & konstruksi baja. Tukang las profesional berpengalaman 25+ tahun. Harga murah, gratis survey! ☎ 0852-1207-8467" />
+        <meta name="keywords" content="las bekasi, bengkel las bekasi, jasa las bekasi, tukang las bekasi, las bekasi terdekat, jasa las di bekasi, bengkel las di bekasi, harga las bekasi, las murah bekasi, kanopi bekasi, pagar bekasi, teralis bekasi, jasa las panggilan bekasi, bengkel las mandiri bekasi" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="Las Bekasi - Jasa Las Profesional #1 | Bengkel Las Mandiri" />
-        <meta property="og:description" content="Las Bekasi ⭐ Jasa las profesional & terpercaya sejak 1999. Pengerjaan rapi, berpengalaman 25+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi baja." />
+        <meta property="og:title" content="Las Bekasi - Bengkel Las #1 di Bekasi Sejak 1999" />
+        <meta property="og:description" content="Las Bekasi ⭐ Bengkel las terpercaya di Bekasi. Jasa kanopi, pagar, teralis & konstruksi baja. Tukang ahli 25+ tahun. Harga murah, gratis survey!" />
         <meta property="og:image" content={`${baseUrl}/og-image.jpg`} />
         <meta property="og:url" content={`${baseUrl}/`} />
         <meta property="og:site_name" content="Las Bekasi" />
         
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Las Bekasi - Jasa Las Profesional #1 | Bengkel Las Mandiri" />
-        <meta name="twitter:description" content="Las Bekasi ⭐ Jasa las profesional & terpercaya sejak 1999. Pengerjaan rapi, berpengalaman 25+ tahun, harga bersaing. Spesialis kanopi, pagar, teralis & konstruksi baja." />
+        <meta name="twitter:title" content="Las Bekasi - Bengkel Las #1 di Bekasi Sejak 1999" />
+        <meta name="twitter:description" content="Las Bekasi ⭐ Bengkel las terpercaya di Bekasi. Jasa kanopi, pagar, teralis & konstruksi baja. Harga murah, gratis survey!" />
         <meta name="twitter:image" content={`${baseUrl}/og-image.jpg`} />
         
         {/* Additional SEO tags */}

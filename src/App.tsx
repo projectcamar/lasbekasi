@@ -24,6 +24,7 @@ const JasaLasPagar = lazy(() => import('./pages/JasaLasPagar'))
 const JasaLasKanopi = lazy(() => import('./pages/JasaLasKanopi'))
 const JasaLasTralis = lazy(() => import('./pages/JasaLasTralis'))
 const BengkelLasJakarta = lazy(() => import('./pages/BengkelLasJakarta'))
+const BengkelLasBekasiPage = lazy(() => import('./pages/BengkelLasBekasiPage'))
 
 // No preloading - let everything load naturally
 // This prevents the "pause" effect you're experiencing
@@ -120,6 +121,14 @@ function App() {
             } />
             
             {/* SEO Landing Pages */}
+            <Route path="/bengkel-las-bekasi" element={
+              <>
+                <Suspense fallback={<Loading />}>
+                  <Breadcrumb />
+                </Suspense>
+                <BengkelLasBekasiPage />
+              </>
+            } />
             <Route path="/jasa-las-pagar-bekasi" element={
               <>
                 <Suspense fallback={<Loading />}>
