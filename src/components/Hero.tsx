@@ -10,18 +10,20 @@ const Hero: React.FC = () => {
         <div className="hero-content">
           <article className="hero-text">
             <header>
-              <p className="hero-subtitle" aria-label="Tagline">Jasa Las Bekasi Terpercaya</p>
-              <div className="hero-title" id="hero-title" role="heading" aria-level={1}>Bengkel Las Bekasi #1 - Bengkel Las Mandiri</div>
+              <p className="hero-subtitle" aria-label="Tagline">Bengkel Las Terpercaya di Bekasi</p>
+              <div className="hero-title" id="hero-title" role="heading" aria-level={1}>Las Bekasi #1 - Jasa Las Profesional Sejak 1999</div>
               <p className="hero-description" role="doc-subtitle">
-                Spesialis Las Listrik, Konstruksi Baja & Aksesori Rumah di Bekasi
+                Jasa Las Bekasi: Kanopi, Pagar, Teralis, Railing & Konstruksi Baja
               </p>
             </header>
             <div className="hero-body">
               <p role="contentinfo">
-                Melayani jasa las profesional di Bekasi untuk pembuatan kanopi minimalis, 
-                pagar besi, teralis jendela, konstruksi baja, railing tangga stainless, 
-                dan berbagai kebutuhan las berkualitas tinggi dengan harga terjangkau. 
-                Pengalaman 20+ tahun melayani area Bekasi dan sekitarnya.
+                <strong>Las Bekasi</strong> melayani jasa las profesional di seluruh area Bekasi. 
+                Spesialis pembuatan kanopi minimalis, pagar besi, teralis anti maling, railing tangga stainless, 
+                dan konstruksi baja berkualitas tinggi. <strong>Bengkel las Bekasi</strong> terpercaya dengan 
+                pengalaman 25+ tahun, tukang las bersertifikat, material SNI, dan harga murah. 
+                Gratis survey & konsultasi untuk wilayah Bekasi Timur, Bekasi Barat, Bekasi Utara, 
+                Bekasi Selatan, Cikarang, dan sekitarnya.
               </p>
               <nav className="hero-actions" aria-label="Primary navigation">
                 <Link to="/layanan-las-bekasi" className="btn-primary" role="button" aria-label="Lihat semua layanan las">

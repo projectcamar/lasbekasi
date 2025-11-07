@@ -19,6 +19,7 @@ const Footer: React.FC = () => {
             <h4>Menu</h4>
             <ul>
               <li><Link to="/">Home</Link></li>
+              <li><Link to="/bengkel-las-bekasi">Bengkel Las Bekasi</Link></li>
               <li><Link to="/tentang-kami">Tentang</Link></li>
               <li><Link to="/layanan-las-bekasi">Layanan</Link></li>
               <li><Link to="/album-bengkel-las-mandiri">Katalog</Link></li>

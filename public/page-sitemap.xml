@@ -47,6 +47,13 @@
   
   <!-- SEO Landing Pages -->
   <url>
+    <loc>https://lasbekasi.com/bengkel-las-bekasi</loc>
+    <lastmod>2025-11-07T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  
+  <url>
     <loc>https://lasbekasi.com/jasa-las-pagar-bekasi</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>

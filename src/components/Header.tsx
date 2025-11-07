@@ -48,6 +48,7 @@ const Header: React.FC = () => {
           
           <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
             <ul className="nav-list">
+              <li><Link to="/bengkel-las-bekasi" className="nav-link">Bengkel Las Bekasi</Link></li>
               <li><Link to="/tentang-kami" className="nav-link">Tentang Kami</Link></li>
               <li className="nav-dropdown" ref={dropdownRef}>
                 <button 
