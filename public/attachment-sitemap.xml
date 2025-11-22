@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <!-- Images and Attachments -->
+  <url>
+    <loc>https://lasbekasi.com/</loc>
+    <lastmod>2025-01-22T13:39:38.152Z</lastmod>
+    <image:image>
+      <image:loc>https://lasbekasi.com/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.jpg</image:loc>
+      <image:title>Bengkel Las Mandiri - Jasa Las Profesional di Bekasi</image:title>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://lasbekasi.com/album-bengkel-las-mandiri</loc>
+    <lastmod>2025-01-22T13:39:38.152Z</lastmod>
+    <image:image>
+      <image:loc>https://lasbekasi.com/src/assets/Meja-makan-industrial-mejamakan.png</image:loc>
+      <image:title>Meja Makan Industrial Custom</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lasbekasi.com/src/assets/Meja-Kerja-Rak-Meja-Belajar-custom.png</image:loc>
+      <image:title>Meja Kerja Rak Meja Belajar Custom</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lasbekasi.com/src/assets/Kabinet-Lemari-industrial.png</image:loc>
+      <image:title>Kabinet Lemari Industrial</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lasbekasi.com/src/assets/Bench-corner-kursi-sudut-kursi-santai.png</image:loc>
+      <image:title>Bench Corner Kursi Sudut Kursi Santai</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lasbekasi.com/src/assets/gantungan-baju-industrial.png</image:loc>
+      <image:title>Gantungan Baju Industrial</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lasbekasi.com/src/assets/rak-besi.png</image:loc>
+      <image:title>Rak Besi Industrial</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://lasbekasi.com/src/assets/rak-gantung-industrial.png</image:loc>
+      <image:title>Rak Gantung Industrial</image:title>
+    </image:image>
+  </url>
+</urlset>

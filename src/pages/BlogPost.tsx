@@ -1556,12 +1556,72 @@ Jangan tunda proyek kanopi Anda! Konsultasikan kebutuhan Anda dengan ahlinya.
     )
   }
 
+  const postUrl = `https://lasbekasi.com/blog/${post.slug}`
+
+  // Generate structured data for blog post
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": post.title,
+    "description": post.metaDescription,
+    "author": {
+      "@type": "Organization",
+      "name": "Bengkel Las Mandiri"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "Bengkel Las Mandiri",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://lasbekasi.com/og-image.jpg"
+      }
+    },
+    "datePublished": post.date,
+    "dateModified": post.date,
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": postUrl
+    }
+  }
+
   return (
     <div className="blog-post-page">
       <Helmet>
         <title>{post.title} - Blog Bengkel Las Mandiri</title>
         <meta name="description" content={post.metaDescription} />
         <meta name="keywords" content={`${post.category}, jasa las bekasi, bengkel las, ${post.title}`} />
+        
+        {/* Robots Meta Tags - Critical for indexing */}
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content={post.title} />
+        <meta property="og:description" content={post.metaDescription} />
+        <meta property="og:url" content={postUrl} />
+        <meta property="og:type" content="article" />
+        <meta property="og:image" content="https://lasbekasi.com/og-image.jpg" />
+        <meta property="article:published_time" content={post.date} />
+        <meta property="article:author" content="Bengkel Las Mandiri" />
+        <meta property="article:section" content={post.category} />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={post.title} />
+        <meta name="twitter:description" content={post.metaDescription} />
+        
+        {/* Geographic Meta Tags */}
+        <meta name="geo.region" content="ID-JB" />
+        <meta name="geo.placename" content="Bekasi" />
+        
+        {/* Canonical URL - Must match actual URL exactly */}
+        <link rel="canonical" href={postUrl} />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
       </Helmet>
       
       <Header />

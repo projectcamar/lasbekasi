@@ -975,19 +975,94 @@ const ServiceDetail: React.FC = () => {
     benefits: []
   }
 
+  // Generate structured data for SEO
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": service.title,
+    "provider": {
+      "@type": "LocalBusiness",
+      "name": "Bengkel Las Mandiri",
+      "image": "https://lasbekasi.com/og-image.jpg",
+      "telephone": "+6285212078467",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
+        "addressLocality": "Bekasi",
+        "addressRegion": "Jawa Barat",
+        "postalCode": "17320",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-6.2349",
+        "longitude": "106.9896"
+      },
+      "priceRange": "Rp$$",
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "08:00",
+        "closes": "20:00"
+      },
+      "url": "https://lasbekasi.com"
+    },
+    "description": service.description,
+    "areaServed": {
+      "@type": "City",
+      "name": "Bekasi"
+    },
+    "offers": {
+      "@type": "Offer",
+      "price": service.price,
+      "priceCurrency": "IDR",
+      "availability": "https://schema.org/InStock",
+      "url": `https://lasbekasi.com/layanan-las-bekasi/jasa-pembuatan-${cleanSlug}-bekasi`
+    }
+  }
+
+  const serviceUrl = `https://lasbekasi.com/layanan-las-bekasi/${serviceSlug}`
+
   return (
     <div className="service-detail-page">
       <Helmet>
-        <title>{service.title} - Bengkel Las Mandiri | Jasa {service.title} Terbaik di Bogor</title>
-        <meta name="description" content={`${service.description} Harga mulai dari ${service.price}. 15+ tahun pengalaman, kualitas SNI terjamin, harga kompetitif. Konsultasi gratis!`} />
-        <meta name="keywords" content={`${service.title}, bengkel las, jasa ${service.title}, harga ${service.title}, ${service.title} bogor, ${service.title} jakarta, konstruksi besi, Bengkel Las Mandiri`} />
-        <meta property="og:title" content={`${service.title} - Bengkel Las Mandiri`} />
-        <meta property="og:description" content={`${service.description} Harga mulai dari ${service.price}. 15+ tahun pengalaman, kualitas SNI terjamin.`} />
+        <title>{service.title} Bekasi - Bengkel Las Mandiri | Jasa {service.title} Terbaik di Bekasi</title>
+        <meta name="description" content={`${service.description} Harga mulai dari ${service.price}. 20+ tahun pengalaman sejak 1999, kualitas SNI terjamin, harga kompetitif. Konsultasi gratis! Hubungi 0852-1207-8467`} />
+        <meta name="keywords" content={`${service.title} bekasi, jasa ${service.title} bekasi, bengkel las bekasi, ${service.title.toLowerCase()} bekasi, harga ${service.title.toLowerCase()}, bengkel las mandiri bekasi`} />
+        
+        {/* Robots Meta Tags - Critical for indexing */}
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:title" content={`${service.title} Bekasi - Bengkel Las Mandiri`} />
+        <meta property="og:description" content={`${service.description} Harga mulai dari ${service.price}. 20+ tahun pengalaman, kualitas SNI terjamin.`} />
         <meta property="og:type" content="website" />
+        <meta property="og:url" content={serviceUrl} />
+        <meta property="og:image" content="https://lasbekasi.com/og-image.jpg" />
+        <meta property="og:locale" content="id_ID" />
+        <meta property="og:site_name" content="Bengkel Las Mandiri" />
+        
+        {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${service.title} - Bengkel Las Mandiri`} />
-        <meta name="twitter:description" content={`${service.description} Harga mulai dari ${service.price}. 15+ tahun pengalaman, kualitas SNI terjamin.`} />
-        <link rel="canonical" href={`https://lasbekasi.com/layanan-las-bekasi/jasa-pembuatan-${cleanSlug}-bekasi`} />
+        <meta name="twitter:title" content={`${service.title} Bekasi - Bengkel Las Mandiri`} />
+        <meta name="twitter:description" content={`${service.description} Harga mulai dari ${service.price}. 20+ tahun pengalaman, kualitas SNI terjamin.`} />
+        <meta name="twitter:image" content="https://lasbekasi.com/og-image.jpg" />
+        
+        {/* Geographic Meta Tags */}
+        <meta name="geo.region" content="ID-JB" />
+        <meta name="geo.placename" content="Bekasi" />
+        <meta name="geo.position" content="-6.2349;106.9896" />
+        <meta name="ICBM" content="-6.2349, 106.9896" />
+        
+        {/* Canonical URL */}
+        <link rel="canonical" href={serviceUrl} />
+        
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
       </Helmet>
       <Header />
       

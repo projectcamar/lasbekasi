@@ -41,20 +41,27 @@ const Contact: React.FC = () => {
         <title>Kontak Kami - Hubungi Bengkel Las Mandiri Bekasi | Konsultasi Gratis</title>
         <meta name="description" content="Hubungi Bengkel Las Mandiri Bekasi untuk konsultasi gratis. WhatsApp: 0852-1207-8467, Email: info@lasbekasi.com. Survey GRATIS wilayah Bekasi dan Jabodetabek." />
         <meta name="keywords" content="kontak bengkel las bekasi, hubungi bengkel las mandiri, nomor bengkel las bekasi, konsultasi gratis las bekasi, alamat bengkel las bekasi" />
-        <link rel="canonical" href="https://www.lasbekasi.com/kontak-bengkel-las-bekasi" />
+        <link rel="canonical" href="https://lasbekasi.com/kontak-bengkel-las-bekasi" />
         
         {/* Open Graph */}
         <meta property="og:title" content="Kontak Bengkel Las Mandiri - Konsultasi Gratis Bekasi" />
         <meta property="og:description" content="Hubungi kami untuk konsultasi gratis. WA: 0852-1207-8467, Email: info@lasbekasi.com. Survey GRATIS!" />
-        <meta property="og:url" content="https://www.lasbekasi.com/kontak-bengkel-las-bekasi" />
+        <meta property="og:url" content="https://lasbekasi.com/kontak-bengkel-las-bekasi" />
         <meta property="og:type" content="website" />
         
+        {/* Robots Meta Tags - Critical for indexing */}
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        
         {/* Twitter Card */}
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kontak Bengkel Las Mandiri Bekasi" />
         <meta name="twitter:description" content="Konsultasi gratis jasa las Bekasi. WA: 0852-1207-8467" />
         
-        <meta name="robots" content="index, follow" />
+        {/* Geographic Meta Tags */}
+        <meta name="geo.region" content="ID-JB" />
+        <meta name="geo.placename" content="Bekasi" />
       </Helmet>
       
       <Header />

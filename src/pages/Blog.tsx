@@ -12,6 +12,30 @@ const Blog: React.FC = () => {
         <title>Blog Bengkel Las Mandiri - Tips & Panduan Konstruksi Baja</title>
         <meta name="description" content="Blog Bengkel Las Mandiri berisi tips, panduan, dan informasi terbaru seputar konstruksi baja, kanopi, pagar, dan jasa las profesional di Bekasi." />
         <meta name="keywords" content="blog bengkel las, tips konstruksi baja, panduan kanopi, jasa las bekasi, blog las mandiri" />
+        
+        {/* Robots Meta Tags - Critical for indexing */}
+        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="bingbot" content="index, follow" />
+        
+        {/* Open Graph */}
+        <meta property="og:title" content="Blog Bengkel Las Mandiri - Tips & Panduan Konstruksi Baja" />
+        <meta property="og:description" content="Blog Bengkel Las Mandiri berisi tips, panduan, dan informasi terbaru seputar konstruksi baja, kanopi, pagar, dan jasa las profesional di Bekasi." />
+        <meta property="og:url" content="https://lasbekasi.com/blog" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://lasbekasi.com/og-image.jpg" />
+        
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Blog Bengkel Las Mandiri" />
+        <meta name="twitter:description" content="Tips, panduan, dan informasi terbaru seputar konstruksi baja dan jasa las profesional di Bekasi." />
+        
+        {/* Geographic Meta Tags */}
+        <meta name="geo.region" content="ID-JB" />
+        <meta name="geo.placename" content="Bekasi" />
+        
+        {/* Canonical URL - Must match actual URL exactly */}
+        <link rel="canonical" href="https://lasbekasi.com/blog" />
       </Helmet>
       
       <Header />
