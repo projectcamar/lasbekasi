@@ -5,7 +5,7 @@
 }
 
 .blog-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #ff6b35 0%, #f7931e 100%);
   color: white;
   padding: 40px 20px 60px;
   text-align: center;
@@ -61,7 +61,7 @@
 }
 
 .blog-category {
-  background: #667eea;
+  background: #ff6b35;
   color: white;
   padding: 5px 15px;
   border-radius: 20px;
@@ -107,14 +107,14 @@
 }
 
 .blog-read-more {
-  color: #667eea;
+  color: #ff6b35;
   font-weight: 600;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .blog-read-more:hover {
-  color: #764ba2;
+  color: #f7931e;
 }
 
 @media (max-width: 768px) {
