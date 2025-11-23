@@ -1,0 +1,60 @@
+name: Auto-Indexing
+
+on:
+  schedule:
+    # Run daily at 9 AM WIB (2 AM UTC)
+    - cron: '0 2 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'public/**/*.xml'
+      - 'scripts/auto-indexing.mjs'
+
+jobs:
+  auto-indexing:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+      
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Install XML parser
+        run: npm install xml2js jsonwebtoken
+      
+      - name: Generate indexing requests
+        run: npm run generate-indexing-requests
+        continue-on-error: true
+      
+      - name: Ping Google with sitemap
+        run: |
+          curl -s "https://www.google.com/ping?sitemap=https://lasbekasi.com/sitemap.xml" || echo "Google ping failed"
+          curl -s "https://www.bing.com/ping?sitemap=https://lasbekasi.com/sitemap.xml" || echo "Bing ping failed"
+      
+      - name: Commit generated files
+        if: github.event_name == 'push'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add BULK_INDEXING_URLS.txt auto-indexing.html AUTO_INDEXING_INSTRUCTIONS.md || true
+          git diff --staged --quiet || git commit -m "chore: auto-update indexing files [skip ci]"
+          git push || echo "No changes to commit"
+      
+      - name: Summary
+        run: |
+          echo "## Auto-Indexing Summary" >> $GITHUB_STEP_SUMMARY
+          echo "- Generated indexing files" >> $GITHUB_STEP_SUMMARY
+          echo "- Pinged Google and Bing with sitemap" >> $GITHUB_STEP_SUMMARY
+          echo "- Check BULK_INDEXING_URLS.txt for URL list" >> $GITHUB_STEP_SUMMARY
+
+

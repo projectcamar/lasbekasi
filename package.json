@@ -9,7 +9,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "generate-sitemap": "node scripts/generate-sitemap.mjs",
-    "prebuild": "npm run generate-sitemap"
+    "prebuild": "npm run generate-sitemap",
+    "auto-indexing": "node scripts/auto-indexing.mjs",
+    "generate-indexing-requests": "node scripts/auto-indexing-alternative.mjs",
+    "generate-static-pages": "node scripts/generate-static-pages.mjs"
   },
   "overrides": {
     "react": "^19.1.1",
