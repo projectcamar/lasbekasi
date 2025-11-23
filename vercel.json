@@ -147,6 +147,11 @@
         }
       ]
     }
+  ],
+  "crons": [
+    {
+      "path": "/api/cron/update-sitemap",
+      "schedule": "0 2 * * *"
+    }
   ]
 }
-

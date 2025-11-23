@@ -1,0 +1,67 @@
+name: Auto Update Sitemap
+
+on:
+  schedule:
+    # Run every day at 9 AM WIB (2 AM UTC)
+    - cron: '0 2 * * *'
+  # Also allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  update-sitemap:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: bengkel-keluarga/package-lock.json
+      
+      - name: Install dependencies
+        working-directory: bengkel-keluarga
+        run: npm ci
+      
+      - name: Generate sitemap
+        working-directory: bengkel-keluarga
+        run: npm run generate-sitemap
+      
+      - name: Check for changes
+        id: verify-changed-files
+        run: |
+          if [ -n "$(git status --porcelain bengkel-keluarga/public/*.xml)" ]; then
+            echo "changed=true" >> $GITHUB_OUTPUT
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
+      
+      - name: Commit and push changes
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add bengkel-keluarga/public/*.xml
+          git commit -m "🤖 Auto-update sitemap - $(date +'%Y-%m-%d %H:%M:%S')"
+          git push
+      
+      - name: Trigger Vercel deployment (optional)
+        if: steps.verify-changed-files.outputs.changed == 'true'
+        run: |
+          echo "Sitemap updated! Vercel will auto-deploy on next push."
+        # Uncomment below if you want to trigger Vercel deployment via API
+        # env:
+        #   VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
+        #   VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
+        #   VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+        # run: |
+        #   curl -X POST "https://api.vercel.com/v1/deployments" \
+        #     -H "Authorization: Bearer $VERCEL_TOKEN" \
+        #     -H "Content-Type: application/json" \
+        #     -d "{\"projectId\":\"$VERCEL_PROJECT_ID\"}"
+
