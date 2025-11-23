@@ -79,7 +79,7 @@ const ContactSection: React.FC = () => {
                     <li>Cibitung</li>
                   </ul>
                 </div>
-                <a href="https://maps.google.com/?q=Bengkel+Las+Mandiri+Bekasi" target="_blank" rel="noopener noreferrer" className="map-link">
+                <a href="https://maps.google.com/?q=Bengkel+Las+Mandiri+Bekasi" target="_blank" rel="noopener noreferrer nofollow" className="map-link">
                   Lihat di Google Maps
                 </a>
               </div>

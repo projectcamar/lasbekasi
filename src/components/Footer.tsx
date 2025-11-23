@@ -47,22 +47,22 @@ const Footer: React.FC = () => {
             <div className="footer-social">
               <h4>Ikuti Kami</h4>
               <div className="social-links">
-                <a href="https://facebook.com/lasbekasi" target="_blank" rel="noopener noreferrer external" aria-label="Facebook Bengkel Las Mandiri">
+                <a href="https://facebook.com/lasbekasi" target="_blank" rel="noopener noreferrer nofollow" aria-label="Facebook Bengkel Las Mandiri">
                   Facebook
                 </a>
-                <a href="https://instagram.com/lasbekasi" target="_blank" rel="noopener noreferrer external" aria-label="Instagram Bengkel Las Mandiri">
+                <a href="https://instagram.com/lasbekasi" target="_blank" rel="noopener noreferrer nofollow" aria-label="Instagram Bengkel Las Mandiri">
                   Instagram
                 </a>
-                <a href="https://www.youtube.com/@bengkellasmandiribekasiofficial" target="_blank" rel="noopener noreferrer external" aria-label="YouTube Bengkel Las Mandiri">
+                <a href="https://www.youtube.com/@bengkellasmandiribekasiofficial" target="_blank" rel="noopener noreferrer nofollow" aria-label="YouTube Bengkel Las Mandiri">
                   YouTube
                 </a>
-                <a href="https://www.tiktok.com/@lasbekasi" target="_blank" rel="noopener noreferrer external" aria-label="TikTok Bengkel Las Mandiri">
+                <a href="https://www.tiktok.com/@lasbekasi" target="_blank" rel="noopener noreferrer nofollow" aria-label="TikTok Bengkel Las Mandiri">
                   TikTok
                 </a>
-                <a href="https://twitter.com/lasbekasi" target="_blank" rel="noopener noreferrer external" aria-label="Twitter/X Bengkel Las Mandiri">
+                <a href="https://twitter.com/lasbekasi" target="_blank" rel="noopener noreferrer nofollow" aria-label="Twitter/X Bengkel Las Mandiri">
                   Twitter
                 </a>
-                <a href="https://www.linkedin.com/company/bengkel-las-mandiri-bekasi" target="_blank" rel="noopener noreferrer external" aria-label="LinkedIn Bengkel Las Mandiri">
+                <a href="https://www.linkedin.com/company/bengkel-las-mandiri-bekasi" target="_blank" rel="noopener noreferrer nofollow" aria-label="LinkedIn Bengkel Las Mandiri">
                   LinkedIn
                 </a>
               </div>
@@ -73,11 +73,9 @@ const Footer: React.FC = () => {
         <div className="footer-bottom">
           <p>Copyright © 2025. All rights reserved.</p>
           <div className="footer-links">
-            <a href="https://maps.google.com/?q=Bengkel+Las+Mandiri+Bekasi" target="_blank" rel="noopener noreferrer external">Google Maps</a>
+            <a href="https://maps.google.com/?q=Bengkel+Las+Mandiri+Bekasi" target="_blank" rel="noopener noreferrer nofollow">Google Maps</a>
             <span>|</span>
-            <a href="https://www.tokopedia.com/lasbekasi" target="_blank" rel="noopener noreferrer external">Tokopedia</a>
-            <span>|</span>
-            <a href="https://shopee.co.id/lasbekasi" target="_blank" rel="noopener noreferrer external">Shopee</a>
+            <a href="https://shopee.co.id/lasbekasi" target="_blank" rel="noopener noreferrer nofollow">Shopee</a>
           </div>
         </div>
       </div>

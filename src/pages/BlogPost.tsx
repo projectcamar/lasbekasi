@@ -2294,7 +2294,7 @@ Kunjungi [jasa las pagar Bekasi](https://lasbekasi.com/jasa-las-pagar-bekasi) un
               }
               
               if (trimmedLine.startsWith('# ')) {
-                return <h1 key={index} className="content-h1">{trimmedLine.substring(2)}</h1>
+                return <h2 key={index} className="content-h2">{trimmedLine.substring(2)}</h2>
               } else if (trimmedLine.startsWith('## ')) {
                 return <h2 key={index} className="content-h2">{trimmedLine.substring(3)}</h2>
               } else if (trimmedLine.startsWith('### ')) {
