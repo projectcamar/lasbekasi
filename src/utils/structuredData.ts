@@ -32,7 +32,18 @@ export const generateOrganizationSchema = () => {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Bengkel Las Mandiri",
-    "alternateName": "Las Bekasi",
+    "alternateName": [
+      "Las Bekasi",
+      "Bengkel Las Bekasi",
+      "Jasa Las Bekasi",
+      "Tukang Las Bekasi",
+      "Tukang Las Setu",
+      "Tukang Las Cikarang",
+      "Bengkel Las Setu",
+      "Bengkel Las Cikarang",
+      "Jasa Las Setu",
+      "Jasa Las Cikarang"
+    ],
     "url": "https://lasbekasi.com",
     "logo": "https://lasbekasi.com/android-chrome-512x512.png",
     "image": "https://lasbekasi.com/og-image.jpg",
@@ -77,7 +88,14 @@ export const generateWebSiteSchema = () => {
     "@context": "https://schema.org",
     "@type": "WebSite",
     "name": "Bengkel Las Mandiri - Las Bekasi",
-    "alternateName": "Las Bekasi",
+    "alternateName": [
+      "Las Bekasi",
+      "Bengkel Las Bekasi",
+      "Jasa Las Bekasi",
+      "Tukang Las Bekasi",
+      "Tukang Las Setu",
+      "Tukang Las Cikarang"
+    ],
     "url": "https://lasbekasi.com",
     "description": "Bengkel Las Bekasi terpercaya sejak 1999. Jasa las pagar, kanopi, tralis & konstruksi baja profesional di Bekasi.",
     "publisher": {

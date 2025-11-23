@@ -2,6 +2,8 @@ import React from 'react'
 import { useParams, Link } from 'react-router-dom'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import AuthorCard from '../components/AuthorCard'
+import BlogCTACard from '../components/BlogCTACard'
 import './BlogPost.css'
 import { Helmet } from 'react-helmet-async'
 
@@ -1536,6 +1538,618 @@ Jangan tunda proyek kanopi Anda! Konsultasikan kebutuhan Anda dengan ahlinya.
 
 **Keywords:** jasa pasang kanopi bekasi, harga kanopi bekasi, kanopi alderon bekasi, kanopi polycarbonate bekasi, kanopi baja ringan bekasi, tukang kanopi bekasi, kanopi minimalis bekasi, kanopi kaca bekasi, harga borongan kanopi bekasi 2025
       `
+    },
+    'tukang-las-listrik-bekasi-murah': {
+      slug: 'tukang-las-listrik-bekasi-murah',
+      title: 'Tukang Las Listrik Bekasi Murah & Profesional - Harga Terjangkau 2025',
+      category: 'Jasa Las',
+      date: '23 November 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Tukang las listrik Bekasi murah dan profesional. Jasa las listrik untuk kanopi, pagar, tralis dengan harga terjangkau. Hubungi 0852-1207-8467 untuk konsultasi gratis.',
+      content: `
+# Tukang Las Listrik Bekasi Murah & Profesional - Harga Terjangkau 2025
+
+Mencari **tukang las listrik Bekasi** yang murah, profesional, dan terpercaya? Bengkel Las Mandiri adalah solusi terbaik untuk kebutuhan jasa las listrik Anda di Bekasi dan sekitarnya.
+
+## Mengapa Pilih Tukang Las Listrik Bekasi?
+
+**Las listrik** adalah teknik pengelasan yang menggunakan arus listrik untuk menyambungkan logam. Teknik ini sangat cocok untuk berbagai kebutuhan konstruksi seperti pembuatan kanopi, pagar besi, tralis, railing tangga, dan konstruksi baja lainnya.
+
+### Keunggulan Las Listrik:
+- ✅ **Hasil Rapi & Kuat** - Sambungan lebih kuat dan rapi dibanding las karbit
+- ✅ **Efisien & Cepat** - Proses pengerjaan lebih cepat
+- ✅ **Tahan Lama** - Hasil las lebih tahan terhadap korosi
+- ✅ **Fleksibel** - Cocok untuk berbagai jenis material besi dan baja
+
+## Layanan Tukang Las Listrik Bekasi
+
+Bengkel Las Mandiri menyediakan berbagai layanan jasa las listrik profesional:
+
+### 🏠 Konstruksi Rumah
+- **[Jasa Las Kanopi Bekasi](https://lasbekasi.com/jasa-las-kanopi-bekasi)** - Kanopi minimalis dengan berbagai material
+- **[Jasa Las Pagar Bekasi](https://lasbekasi.com/jasa-las-pagar-bekasi)** - Pagar besi minimalis dan tempa
+- **[Jasa Las Tralis Bekasi](https://lasbekasi.com/jasa-las-tralis-bekasi)** - Tralis jendela dan pintu anti maling
+- Railing tangga dan balkon
+- Pintu garasi sliding
+
+### 🏢 Konstruksi Komersial
+- Konstruksi baja untuk ruko dan perkantoran
+- Kanopi untuk area parkir
+- Pagar perimeter untuk pabrik
+
+## Harga Tukang Las Listrik Bekasi
+
+Harga jasa las listrik di Bekasi bervariasi tergantung:
+- **Jenis pekerjaan** (kanopi, pagar, tralis, dll)
+- **Material yang digunakan** (besi hollow, baja ringan, dll)
+- **Luas area** yang akan dikerjakan
+- **Kompleksitas desain**
+
+### Estimasi Harga:
+- **Kanopi**: Mulai Rp 350.000/m²
+- **Pagar Besi**: Mulai Rp 350.000/meter
+- **Tralis**: Mulai Rp 250.000/meter
+- **Railing Tangga**: Mulai Rp 400.000/meter
+
+*Harga dapat berubah sesuai kondisi lapangan dan survey*
+
+## Mengapa Pilih Bengkel Las Mandiri?
+
+### ✅ Pengalaman 20+ Tahun
+Berdiri sejak 1999, kami telah mengerjakan ribuan proyek las listrik di Bekasi dan sekitarnya.
+
+### ✅ Tenaga Ahli Profesional
+Tim tukang las kami adalah tenaga ahli bersertifikat dengan pengalaman bertahun-tahun.
+
+### ✅ Material Berkualitas SNI
+Semua material yang kami gunakan memenuhi standar SNI dan bergaransi.
+
+### ✅ Harga Kompetitif
+Harga terjangkau tanpa mengorbankan kualitas pekerjaan.
+
+### ✅ Survey & Konsultasi GRATIS
+Kami menyediakan survey lokasi dan konsultasi gratis untuk wilayah Bekasi.
+
+## Wilayah Layanan
+
+Kami melayani jasa tukang las listrik di seluruh wilayah Bekasi:
+- Bekasi Barat, Bekasi Timur, Bekasi Utara, Bekasi Selatan
+- Cikarang, Setu, Cibitung, Tambun
+- Dan seluruh Jabodetabek
+
+## Hubungi Kami Sekarang!
+
+Butuh jasa tukang las listrik Bekasi yang murah dan profesional? Hubungi Bengkel Las Mandiri sekarang!
+
+📱 **WhatsApp**: 0852-1207-8467
+🌐 **Website**: [lasbekasi.com](https://lasbekasi.com)
+📍 **Alamat**: Jl. Raya Setu Cibitung - Bekasi, Telajung, Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat 17320
+
+Kunjungi juga halaman [Layanan Las Bekasi](https://lasbekasi.com/layanan-las-bekasi) untuk melihat semua layanan kami.
+      `
+    },
+    'biaya-pembuatan-pagar-rumah-bekasi': {
+      slug: 'biaya-pembuatan-pagar-rumah-bekasi',
+      title: 'Biaya Pembuatan Pagar Rumah Bekasi - Harga Terbaru 2025',
+      category: 'Tips & Panduan',
+      date: '23 November 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Biaya pembuatan pagar rumah Bekasi terbaru 2025. Harga pagar besi minimalis mulai Rp 350.000/meter. Konsultasi gratis hubungi 0852-1207-8467.',
+      content: `
+# Biaya Pembuatan Pagar Rumah Bekasi - Harga Terbaru 2025
+
+Pagar rumah adalah elemen penting untuk keamanan dan estetika rumah Anda. Jika Anda sedang mencari informasi **biaya pembuatan pagar rumah Bekasi**, artikel ini akan memberikan panduan lengkap tentang harga dan faktor-faktor yang mempengaruhinya.
+
+## Faktor yang Mempengaruhi Biaya Pagar Rumah
+
+### 1. **Jenis Material**
+- **Besi Hollow**: Harga lebih ekonomis, mulai Rp 350.000/meter
+- **Besi Tempa**: Harga lebih mahal karena proses tempa, mulai Rp 500.000/meter
+- **Baja Ringan**: Ringan dan tahan karat, mulai Rp 400.000/meter
+
+### 2. **Tinggi Pagar**
+- Pagar standar (1.5-2 meter): Harga normal
+- Pagar tinggi (>2 meter): Harga lebih mahal karena material lebih banyak
+
+### 3. **Desain & Model**
+- **Pagar Minimalis**: Harga lebih terjangkau
+- **Pagar Tempa**: Harga lebih mahal karena proses custom
+- **Pagar dengan Ornamen**: Harga tertinggi
+
+### 4. **Finishing**
+- **Cat Biasa**: Termasuk dalam harga dasar
+- **Cat Epoxy**: Tambahan biaya Rp 50.000-100.000/meter
+- **Powder Coating**: Tambahan biaya Rp 100.000-150.000/meter
+
+## Daftar Harga Pagar Rumah Bekasi 2025
+
+### Paket Pagar Besi Minimalis
+| Jenis | Harga per Meter | Keterangan |
+|-------|----------------|------------|
+| Pagar Hollow 4x4 | Rp 350.000 | Material standar |
+| Pagar Hollow 4x6 | Rp 400.000 | Lebih kuat |
+| Pagar Tempa Minimalis | Rp 500.000 | Desain custom |
+| Pagar Tempa Full | Rp 750.000 | Ornamen lengkap |
+
+### Biaya Tambahan:
+- **Pondasi**: Rp 150.000-300.000/meter (jika diperlukan)
+- **Pengecatan**: Rp 50.000-150.000/meter (tergantung jenis cat)
+- **Pintu Pagar**: Rp 2.000.000-5.000.000 (tergantung ukuran)
+
+## Tips Menghemat Biaya Pagar Rumah
+
+1. **Pilih Material yang Tepat**
+   - Untuk budget terbatas: Pilih besi hollow standar
+   - Untuk jangka panjang: Investasi pagar tempa lebih tahan lama
+
+2. **Desain Minimalis**
+   - Desain minimalis lebih murah dibanding desain kompleks
+   - Tetap cantik dan modern
+
+3. **Survey Lokasi**
+   - Survey gratis membantu menghitung biaya akurat
+   - Hindari biaya tambahan yang tidak terduga
+
+4. **Negosiasi Harga**
+   - Untuk proyek besar (>50 meter), harga bisa dinegosiasi
+   - DP 50% biasanya cukup untuk memulai pekerjaan
+
+## Proses Pemesanan Pagar Rumah
+
+1. **Konsultasi & Survey** - GRATIS
+2. **Penawaran Harga** - RAB lengkap dan transparan
+3. **Kesepakatan & DP** - DP 50% untuk memulai pekerjaan
+4. **Pengerjaan** - 3-7 hari kerja (tergantung luas)
+5. **Finishing & Serah Terima** - Pelunasan saat selesai
+
+## Rekomendasi Bengkel Las Bekasi
+
+**[Bengkel Las Mandiri](https://lasbekasi.com/tentang-kami)** adalah pilihan terbaik untuk pembuatan pagar rumah di Bekasi:
+
+- ✅ **Pengalaman 20+ Tahun** - Sejak 1999
+- ✅ **Harga Kompetitif** - Transparan tanpa biaya tersembunyi
+- ✅ **Material SNI** - Berkualitas dan bergaransi
+- ✅ **Survey GRATIS** - Wilayah Bekasi dan sekitarnya
+
+Lihat [Portfolio Pagar Rumah](https://lasbekasi.com/album-bengkel-las-mandiri) kami untuk inspirasi desain.
+
+## Hubungi Kami
+
+📱 **WhatsApp**: 0852-1207-8467
+🌐 **Website**: [lasbekasi.com](https://lasbekasi.com)
+📍 **Alamat**: Jl. Raya Setu Cibitung - Bekasi, Telajung, Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat 17320
+
+Konsultasi gratis untuk mendapatkan penawaran harga terbaik!
+      `
+    },
+    'model-pagar-besi-minimalis-terbaru': {
+      slug: 'model-pagar-besi-minimalis-terbaru',
+      title: 'Model Pagar Besi Minimalis Terbaru 2025 - Inspirasi Desain Modern',
+      category: 'Tips & Panduan',
+      date: '23 November 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Koleksi model pagar besi minimalis terbaru 2025. Inspirasi desain pagar modern untuk rumah minimalis. Lihat portfolio dan konsultasi gratis.',
+      content: `
+# Model Pagar Besi Minimalis Terbaru 2025 - Inspirasi Desain Modern
+
+Pagar besi minimalis menjadi pilihan populer untuk rumah modern karena desainnya yang clean, elegan, dan mudah dirawat. Artikel ini akan memberikan inspirasi **model pagar besi minimalis terbaru 2025** yang sedang tren.
+
+## Tren Model Pagar Besi Minimalis 2025
+
+### 1. **Pagar Minimalis Horizontal**
+Desain dengan garis horizontal yang memberikan kesan modern dan luas. Cocok untuk rumah minimalis kontemporer.
+
+**Keunggulan:**
+- ✅ Tampilan modern dan elegan
+- ✅ Mudah dibersihkan
+- ✅ Cocok untuk berbagai gaya rumah
+
+### 2. **Pagar Minimalis Vertikal**
+Garis vertikal memberikan kesan tinggi dan mewah. Sangat cocok untuk rumah dengan halaman terbatas.
+
+**Keunggulan:**
+- ✅ Memberikan kesan tinggi
+- ✅ Privasi lebih baik
+- ✅ Desain timeless
+
+### 3. **Pagar Minimalis dengan Geometri**
+Kombinasi bentuk geometri sederhana seperti kotak, lingkaran, atau segitiga memberikan kesan modern dan unik.
+
+**Keunggulan:**
+- ✅ Desain unik dan menarik
+- ✅ Tetap minimalis
+- ✅ Bisa dikustomisasi
+
+### 4. **Pagar Minimalis Hitam**
+Warna hitam memberikan kesan elegan dan modern. Sangat populer untuk rumah minimalis kontemporer.
+
+**Keunggulan:**
+- ✅ Tampilan premium
+- ✅ Mudah dipadukan dengan warna lain
+- ✅ Tidak mudah terlihat kotor
+
+### 5. **Pagar Minimalis dengan Railing**
+Kombinasi pagar dengan railing memberikan kesan mewah dan modern. Cocok untuk rumah 2 lantai.
+
+**Keunggulan:**
+- ✅ Tampilan mewah
+- ✅ Keamanan lebih baik
+- ✅ Desain modern
+
+## Tips Memilih Model Pagar Minimalis
+
+### 1. **Sesuaikan dengan Gaya Rumah**
+- Rumah minimalis: Pilih desain clean dan sederhana
+- Rumah modern: Pilih desain dengan aksen geometri
+- Rumah klasik: Pilih desain dengan sedikit ornamen
+
+### 2. **Pertimbangkan Privasi**
+- Jika butuh privasi: Pilih pagar vertikal atau dengan railing
+- Jika ingin tetap terbuka: Pilih pagar horizontal
+
+### 3. **Pertimbangkan Budget**
+- **Ekonomis**: Pagar hollow minimalis (Rp 350.000/meter)
+- **Menengah**: Pagar tempa minimalis (Rp 500.000/meter)
+- **Premium**: Pagar custom dengan finishing premium (Rp 750.000+/meter)
+
+### 4. **Pertimbangkan Perawatan**
+- Pagar minimalis lebih mudah dirawat
+- Pilih finishing yang tahan cuaca (powder coating atau cat epoxy)
+
+## Material untuk Pagar Minimalis
+
+### 1. **Besi Hollow**
+- Ukuran: 4x4cm, 4x6cm, 4x8cm
+- Ketebalan: 1.2mm - 2.0mm
+- Cocok untuk: Pagar minimalis ekonomis
+
+### 2. **Besi Tempa**
+- Proses: Custom tempa
+- Cocok untuk: Pagar minimalis dengan ornamen
+- Harga: Lebih mahal tapi lebih tahan lama
+
+### 3. **Baja Ringan**
+- Ringan dan tahan karat
+- Cocok untuk: Pagar minimalis modern
+- Harga: Menengah
+
+## Konsultasi Desain Pagar Minimalis
+
+**[Bengkel Las Mandiri](https://lasbekasi.com/kontak-bengkel-las-bekasi)** siap membantu mewujudkan pagar minimalis impian Anda:
+
+- ✅ **Konsultasi GRATIS** - Diskusi desain sesuai kebutuhan
+- ✅ **3D Rendering** - Visualisasi desain sebelum pengerjaan
+- ✅ **Custom Design** - Desain sesuai keinginan Anda
+- ✅ **Portfolio Lengkap** - Lihat [katalog pagar minimalis](https://lasbekasi.com/album-bengkel-las-mandiri)
+
+## Hubungi Kami
+
+📱 **WhatsApp**: 0852-1207-8467
+🌐 **Website**: [lasbekasi.com](https://lasbekasi.com)
+📍 **Alamat**: Jl. Raya Setu Cibitung - Bekasi, Telajung, Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat 17320
+
+Lihat juga [Jasa Las Pagar Bekasi](https://lasbekasi.com/jasa-las-pagar-bekasi) untuk informasi lengkap tentang layanan pembuatan pagar.
+      `
+    },
+    'tukang-las-kanopi-setu-bekasi': {
+      slug: 'tukang-las-kanopi-setu-bekasi',
+      title: 'Tukang Las Kanopi Setu Bekasi - Profesional & Terpercaya',
+      category: 'Jasa Las',
+      date: '23 November 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Tukang las kanopi Setu Bekasi profesional. Jasa pasang kanopi Setu dengan harga murah dan material berkualitas. Hubungi 0852-1207-8467.',
+      content: `
+# Tukang Las Kanopi Setu Bekasi - Profesional & Terpercaya
+
+Mencari **tukang las kanopi Setu Bekasi** yang profesional dan terpercaya? Bengkel Las Mandiri melayani jasa pembuatan dan pemasangan kanopi di wilayah Setu, Bekasi dengan pengalaman 20+ tahun.
+
+## Tentang Layanan Kami di Setu
+
+Bengkel Las Mandiri berlokasi di **Jl. Raya Setu Cibitung - Bekasi, Telajung**, sangat strategis untuk melayani kebutuhan kanopi di wilayah Setu dan sekitarnya. Kami telah mengerjakan ratusan proyek kanopi di Setu dengan tingkat kepuasan klien yang tinggi.
+
+## Layanan Tukang Las Kanopi Setu
+
+Kami menyediakan berbagai layanan kanopi untuk kebutuhan Anda:
+
+### 🏠 Kanopi Rumah
+- **Kanopi Carport** - Melindungi kendaraan dari panas dan hujan
+- **Kanopi Teras** - Area bersantai yang nyaman
+- **Kanopi Balkon** - Tambahan ruang outdoor
+- **Kanopi Pintu Masuk** - Memberikan kesan mewah
+
+### 🏢 Kanopi Komersial
+- **Kanopi Ruko** - Untuk area parkir atau teras
+- **Kanopi Kantor** - Area parkir karyawan
+- **Kanopi Pabrik** - Area loading/unloading
+
+## Jenis Kanopi yang Kami Tawarkan
+
+### 1. **Kanopi Alderon**
+Material premium dengan daya tahan hingga 25 tahun. Anti bocor dan anti karat.
+
+**Harga**: Rp 650.000 - Rp 850.000/m²
+
+### 2. **Kanopi Polycarbonate**
+Material transparan yang memberikan pencahayaan alami. Ringan dan tahan benturan.
+
+**Harga**: Rp 550.000 - Rp 750.000/m²
+
+### 3. **Kanopi Solartuff**
+Material premium dengan UV Protection 99%. Garansi 10 tahun.
+
+**Harga**: Rp 850.000 - Rp 1.050.000/m²
+
+### 4. **Kanopi Spandek**
+Material ekonomis namun tetap berkualitas. Tahan karat dan kuat.
+
+**Harga**: Rp 350.000 - Rp 450.000/m²
+
+### 5. **Kanopi Kaca Tempered**
+Material premium untuk tampilan mewah dan modern.
+
+**Harga**: Rp 1.200.000 - Rp 1.500.000/m²
+
+## Rangka Kanopi
+
+### 1. **Rangka Baja Ringan**
+- Ringan dan anti karat
+- Cocok untuk kanopi standar
+- Harga: Mulai Rp 350.000/m² (termasuk atap)
+
+### 2. **Rangka Besi Hollow**
+- Sangat kuat dan kokoh
+- Cocok untuk kanopi besar
+- Harga: Mulai Rp 560.000/m² (termasuk atap)
+
+### 3. **Rangka Baja WF**
+- Kekuatan maksimal
+- Cocok untuk bentang lebar (>8 meter)
+- Harga: Mulai Rp 600.000/m² (termasuk atap)
+
+## Mengapa Pilih Bengkel Las Mandiri?
+
+### ✅ Lokasi Strategis
+Berada di Setu, kami sangat mudah dijangkau untuk proyek di Setu dan sekitarnya.
+
+### ✅ Pengalaman 20+ Tahun
+Sejak 1999, kami telah mengerjakan ribuan proyek kanopi di Bekasi.
+
+### ✅ Tenaga Ahli Profesional
+Tim tukang las kami berpengalaman dan tersertifikat.
+
+### ✅ Material Berkualitas SNI
+Semua material memenuhi standar SNI dan bergaransi.
+
+### ✅ Harga Kompetitif
+Harga terjangkau dengan kualitas premium.
+
+### ✅ Survey & Konsultasi GRATIS
+Survey lokasi gratis untuk wilayah Setu dan sekitarnya.
+
+## Proses Pemesanan
+
+1. **Konsultasi** - Hubungi kami via WhatsApp atau telepon
+2. **Survey Lokasi** - Tim kami akan survey lokasi GRATIS
+3. **Penawaran Harga** - RAB lengkap dan transparan
+4. **Kesepakatan** - DP 50% untuk memulai pekerjaan
+5. **Pengerjaan** - 3-7 hari kerja (tergantung luas)
+6. **Serah Terima** - Pelunasan saat pekerjaan selesai
+
+## Wilayah Layanan
+
+Kami melayani jasa tukang las kanopi di:
+- **Setu** - Area utama
+- **Cikarang** - Cikarang Barat, Timur, Selatan, Utara
+- **Cibitung** - Dan sekitarnya
+- **Bekasi** - Seluruh wilayah Bekasi
+- **Jabodetabek** - Dengan penyesuaian biaya mobilisasi
+
+## Hubungi Kami
+
+📱 **WhatsApp**: 0852-1207-8467
+🌐 **Website**: [lasbekasi.com](https://lasbekasi.com)
+📍 **Alamat**: Jl. Raya Setu Cibitung - Bekasi, Telajung, Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat 17320
+
+Kunjungi juga [Jasa Las Kanopi Bekasi](https://lasbekasi.com/jasa-las-kanopi-bekasi) untuk informasi lengkap tentang layanan kanopi kami.
+      `
+    },
+    'harga-pagar-besi-minimalis-bekasi': {
+      slug: 'harga-pagar-besi-minimalis-bekasi',
+      title: 'Harga Pagar Besi Minimalis Bekasi Terbaru 2025 - Lengkap & Update',
+      category: 'Tips & Panduan',
+      date: '23 November 2025',
+      author: 'Bengkel Las Mandiri',
+      metaDescription: 'Harga pagar besi minimalis Bekasi terbaru 2025. Daftar harga lengkap mulai Rp 350.000/meter. Konsultasi gratis hubungi 0852-1207-8467.',
+      content: `
+# Harga Pagar Besi Minimalis Bekasi Terbaru 2025 - Lengkap & Update
+
+Informasi lengkap tentang **harga pagar besi minimalis Bekasi** terbaru 2025. Artikel ini akan memberikan panduan harga yang akurat dan transparan untuk membantu Anda merencanakan budget pembuatan pagar.
+
+## Daftar Harga Pagar Besi Minimalis Bekasi 2025
+
+### Paket Pagar Hollow Minimalis
+
+| Jenis Material | Ukuran | Harga per Meter | Keterangan |
+|----------------|--------|-----------------|------------|
+| Hollow 4x4 | 1.2mm | Rp 350.000 | Standar |
+| Hollow 4x6 | 1.4mm | Rp 400.000 | Lebih kuat |
+| Hollow 4x8 | 1.6mm | Rp 450.000 | Premium |
+| Hollow 5x10 | 2.0mm | Rp 550.000 | Extra kuat |
+
+### Paket Pagar Tempa Minimalis
+
+| Jenis | Harga per Meter | Keterangan |
+|-------|----------------|------------|
+| Tempa Minimalis | Rp 500.000 | Desain sederhana |
+| Tempa dengan Ornamen | Rp 650.000 | Dengan aksen |
+| Tempa Full Ornamen | Rp 750.000 | Ornamen lengkap |
+
+### Paket Pagar Baja Ringan
+
+| Jenis | Harga per Meter | Keterangan |
+|-------|----------------|------------|
+| Baja Ringan Standar | Rp 400.000 | Ringan & tahan karat |
+| Baja Ringan Premium | Rp 500.000 | Kualitas lebih baik |
+
+## Biaya Tambahan
+
+### 1. **Pondasi**
+- Pondasi beton: Rp 150.000-300.000/meter
+- Pondasi batu kali: Rp 100.000-200.000/meter
+
+### 2. **Pengecatan**
+- Cat biasa: Rp 50.000/meter (termasuk dalam harga dasar)
+- Cat epoxy: Rp 75.000/meter (tambahan)
+- Powder coating: Rp 100.000-150.000/meter (tambahan)
+
+### 3. **Pintu Pagar**
+- Pintu pagar sliding: Rp 2.000.000-4.000.000
+- Pintu pagar dorong: Rp 2.500.000-5.000.000
+- Pintu pagar otomatis: Rp 5.000.000-10.000.000
+
+### 4. **Aksesoris**
+- Gembok pagar: Rp 200.000-500.000
+- Handle pintu: Rp 150.000-300.000
+- Engsel premium: Rp 300.000-600.000
+
+## Faktor yang Mempengaruhi Harga
+
+### 1. **Tinggi Pagar**
+- Pagar 1.5 meter: Harga standar
+- Pagar 2 meter: +20% dari harga standar
+- Pagar >2 meter: +30-50% dari harga standar
+
+### 2. **Panjang Pagar**
+- <20 meter: Harga normal
+- 20-50 meter: Dapat diskon 5-10%
+- >50 meter: Dapat diskon 10-15%
+
+### 3. **Lokasi**
+- Area mudah dijangkau: Harga normal
+- Area sulit dijangkau: +10-20% biaya mobilisasi
+
+### 4. **Kompleksitas Desain**
+- Desain sederhana: Harga normal
+- Desain kompleks: +20-30% dari harga standar
+
+## Tips Menghemat Biaya Pagar
+
+1. **Pilih Material yang Tepat**
+   - Untuk budget terbatas: Pilih hollow 4x4 standar
+   - Untuk jangka panjang: Investasi pagar tempa
+
+2. **Desain Minimalis**
+   - Desain minimalis lebih murah
+   - Tetap cantik dan modern
+
+3. **Survey Lokasi**
+   - Survey gratis membantu menghitung biaya akurat
+   - Hindari biaya tambahan yang tidak terduga
+
+4. **Negosiasi untuk Proyek Besar**
+   - Proyek >50 meter bisa dapat diskon
+   - DP 50% biasanya cukup
+
+## Contoh Perhitungan Biaya
+
+**Contoh**: Pagar rumah 30 meter, tinggi 2 meter, material hollow 4x6
+
+- Material & jasa: 30m × Rp 400.000 = Rp 12.000.000
+- Pondasi: 30m × Rp 200.000 = Rp 6.000.000
+- Pengecatan: 30m × Rp 50.000 = Rp 1.500.000
+- **Total**: Rp 19.500.000
+
+*Harga dapat berubah sesuai kondisi lapangan*
+
+## Konsultasi Harga Gratis
+
+**[Bengkel Las Mandiri](https://lasbekasi.com/kontak-bengkel-las-bekasi)** menyediakan konsultasi harga gratis untuk membantu Anda merencanakan budget:
+
+- ✅ **Survey GRATIS** - Pengukuran akurat
+- ✅ **RAB Lengkap** - Rincian biaya transparan
+- ✅ **Konsultasi Material** - Rekomendasi sesuai budget
+- ✅ **Harga Kompetitif** - Tanpa biaya tersembunyi
+
+## Hubungi Kami
+
+📱 **WhatsApp**: 0852-1207-8467
+🌐 **Website**: [lasbekasi.com](https://lasbekasi.com)
+📍 **Alamat**: Jl. Raya Setu Cibitung - Bekasi, Telajung, Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat 17320
+
+Lihat [Portfolio Pagar Minimalis](https://lasbekasi.com/album-bengkel-las-mandiri) kami untuk inspirasi desain, atau kunjungi [Jasa Las Pagar Bekasi](https://lasbekasi.com/jasa-las-pagar-bekasi) untuk informasi lengkap.
+      `
+    },
+    'tukang-las-pintu-besi-minimalis-bekasi': {
+      slug: 'tukang-las-pintu-besi-minimalis-bekasi',
+      title: 'Tukang Las Pintu Besi Minimalis Bekasi - Profesional & Terpercaya',
+      category: 'Jasa Las',
+      date: '23 November 2025',
+      author: 'Maman Toha',
+      metaDescription: 'Tukang las pintu besi minimalis Bekasi profesional. Jasa pembuatan pintu besi minimalis dengan harga murah dan material berkualitas. Hubungi 0852-1207-8467.',
+      content: `
+# Tukang Las Pintu Besi Minimalis Bekasi - Profesional & Terpercaya
+
+Pintu besi minimalis menjadi pilihan populer untuk rumah modern karena desainnya yang elegan, kuat, dan tahan lama. **Bengkel Las Mandiri** menyediakan jasa tukang las pintu besi minimalis Bekasi dengan pengalaman 30+ tahun dan material berkualitas SNI.
+
+## Key Points
+
+- ✅ **Desain Minimalis Modern** - Pintu besi dengan desain clean dan elegan
+- ✅ **Material Berkualitas SNI** - Besi hollow atau tempa dengan ketebalan optimal
+- ✅ **Finishing Premium** - Cat epoxy atau powder coating tahan cuaca
+- ✅ **Harga Kompetitif** - Mulai Rp 2.500.000 per pintu
+- ✅ **Pengerjaan Cepat** - 3-5 hari kerja untuk 1 pintu
+- ✅ **Garansi Resmi** - Garansi konstruksi dan finishing
+
+Untuk informasi lengkap tentang [jasa pembuatan pintu besi](https://lasbekasi.com/layanan-las-bekasi/jasa-pembuatan-pintu-besi-bekasi), kunjungi halaman layanan kami.
+      `
+    },
+    'bengkel-las-relling-balkon-minimalis-bekasi': {
+      slug: 'bengkel-las-relling-balkon-minimalis-bekasi',
+      title: 'Bengkel Las Relling Balkon Minimalis Bekasi - Harga Terjangkau 2025',
+      category: 'Jasa Las',
+      date: '23 November 2025',
+      author: 'Maman Toha',
+      metaDescription: 'Bengkel las relling balkon minimalis Bekasi dengan harga terjangkau. Jasa pembuatan railing balkon minimalis modern. Hubungi 0852-1207-8467.',
+      content: `
+# Bengkel Las Relling Balkon Minimalis Bekasi - Harga Terjangkau 2025
+
+Railing balkon minimalis adalah elemen penting untuk keamanan dan estetika rumah 2 lantai. **Bengkel Las Mandiri** adalah bengkel las relling balkon minimalis Bekasi terpercaya dengan pengalaman 30+ tahun mengerjakan berbagai proyek railing balkon.
+
+## Key Points
+
+- ✅ **Desain Minimalis Modern** - Railing balkon dengan desain clean dan modern
+- ✅ **Material Stainless Steel** - Tahan karat dan tahan lama
+- ✅ **Tinggi Standar Keamanan** - Sesuai standar SNI untuk keamanan
+- ✅ **Harga Terjangkau** - Mulai Rp 400.000 per meter
+- ✅ **Pengerjaan Profesional** - Tim ahli dengan pengalaman puluhan tahun
+- ✅ **Survey GRATIS** - Survey lokasi gratis untuk wilayah Bekasi
+
+Lihat [jasa pembuatan railing balkon](https://lasbekasi.com/layanan-las-bekasi/jasa-pembuatan-railing-balkon-bekasi) untuk informasi lengkap dan [portfolio railing balkon](https://lasbekasi.com/album-bengkel-las-mandiri) untuk inspirasi desain.
+      `
+    },
+    'jual-pagar-besi-murah-minimalis-bekasi': {
+      slug: 'jual-pagar-besi-murah-minimalis-bekasi',
+      title: 'Jual Pagar Besi Murah Minimalis Bekasi - Harga Terbaik 2025',
+      category: 'Jasa Las',
+      date: '23 November 2025',
+      author: 'Maman Toha',
+      metaDescription: 'Jual pagar besi murah minimalis Bekasi dengan harga terbaik 2025. Pagar besi minimalis mulai Rp 350.000/meter. Konsultasi gratis hubungi 0852-1207-8467.',
+      content: `
+# Jual Pagar Besi Murah Minimalis Bekasi - Harga Terbaik 2025
+
+Mencari **pagar besi murah minimalis Bekasi** dengan kualitas terbaik? Bengkel Las Mandiri menjual dan memasang pagar besi minimalis dengan harga kompetitif mulai Rp 350.000 per meter. Kami menggunakan material berkualitas SNI dan pengerjaan profesional.
+
+## Key Points
+
+- ✅ **Harga Terjangkau** - Mulai Rp 350.000/meter untuk pagar hollow minimalis
+- ✅ **Material SNI** - Besi hollow atau tempa berkualitas tinggi
+- ✅ **Desain Minimalis** - Clean, modern, dan mudah dirawat
+- ✅ **Pemasangan Profesional** - Tim ahli dengan pengalaman 30+ tahun
+- ✅ **Finishing Berkualitas** - Cat epoxy atau powder coating tahan cuaca
+- ✅ **Survey GRATIS** - Survey lokasi gratis untuk wilayah Bekasi
+
+Kunjungi [jasa las pagar Bekasi](https://lasbekasi.com/jasa-las-pagar-bekasi) untuk informasi lengkap atau [portfolio pagar minimalis](https://lasbekasi.com/album-bengkel-las-mandiri) untuk melihat hasil pekerjaan kami.
+      `
     }
   }
 
@@ -1618,6 +2232,34 @@ Jangan tunda proyek kanopi Anda! Konsultasikan kebutuhan Anda dengan ahlinya.
         {/* Canonical URL - Must match actual URL exactly */}
         <link rel="canonical" href={postUrl} />
         
+        {/* BreadcrumbList Schema for Better Sitelinks */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Beranda",
+                "item": "https://lasbekasi.com/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Blog",
+                "item": "https://lasbekasi.com/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": post.title,
+                "item": postUrl
+              }
+            ]
+          })}
+        </script>
+        
         {/* Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
@@ -1687,20 +2329,36 @@ Jangan tunda proyek kanopi Anda! Konsultasikan kebutuhan Anda dengan ahlinya.
             })}
           </div>
 
-          <div className="blog-post-footer">
-            <div className="cta-box">
-              <h3>Tertarik dengan layanan kami?</h3>
-              <p>Hubungi kami sekarang untuk konsultasi gratis!</p>
-              <a 
-                href="https://wa.me/6285212078467?text=Halo, saya ingin konsultasi tentang jasa las"
-                className="cta-button"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                📱 WhatsApp: 0852-1207-8467
-              </a>
+          {/* CTA Card with Countdown */}
+          <BlogCTACard />
+
+          {/* Internal Linking Section for SEO */}
+          <div className="blog-related-links">
+            <h3>Layanan Terkait</h3>
+            <div className="related-links-grid">
+              <Link to="/layanan-las-bekasi" className="related-link">
+                Layanan Las Bekasi
+              </Link>
+              <Link to="/jasa-las-kanopi-bekasi" className="related-link">
+                Jasa Las Kanopi Bekasi
+              </Link>
+              <Link to="/jasa-las-pagar-bekasi" className="related-link">
+                Jasa Las Pagar Bekasi
+              </Link>
+              <Link to="/jasa-las-tralis-bekasi" className="related-link">
+                Jasa Las Tralis Bekasi
+              </Link>
+              <Link to="/kontak-bengkel-las-bekasi" className="related-link">
+                Kontak Bengkel Las Bekasi
+              </Link>
+              <Link to="/tentang-kami" className="related-link">
+                Tentang Bengkel Las Mandiri
+              </Link>
             </div>
           </div>
+
+          {/* Author Card */}
+          <AuthorCard />
         </div>
       </article>
 

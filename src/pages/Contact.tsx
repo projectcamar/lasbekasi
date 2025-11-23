@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import { Phone, Mail, MapPin, Send } from 'lucide-react'
+import { generateBreadcrumbList } from '../utils/structuredData'
 import './Contact.css'
 
 const Contact: React.FC = () => {
@@ -62,6 +63,14 @@ const Contact: React.FC = () => {
         {/* Geographic Meta Tags */}
         <meta name="geo.region" content="ID-JB" />
         <meta name="geo.placename" content="Bekasi" />
+        
+        {/* BreadcrumbList Schema for Better Sitelinks */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateBreadcrumbList([
+            { name: "Beranda", item: "https://lasbekasi.com/", position: 1 },
+            { name: "Kontak", item: "https://lasbekasi.com/kontak-bengkel-las-bekasi", position: 2 }
+          ]))}
+        </script>
       </Helmet>
       
       <Header />

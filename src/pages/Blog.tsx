@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import './Blog.css'
 import { Helmet } from 'react-helmet-async'
+import { generateBreadcrumbList } from '../utils/structuredData'
 
 const Blog: React.FC = () => {
   return (
@@ -36,6 +37,14 @@ const Blog: React.FC = () => {
         
         {/* Canonical URL - Must match actual URL exactly */}
         <link rel="canonical" href="https://lasbekasi.com/blog" />
+        
+        {/* BreadcrumbList Schema for Better Sitelinks */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateBreadcrumbList([
+            { name: "Beranda", item: "https://lasbekasi.com/", position: 1 },
+            { name: "Blog", item: "https://lasbekasi.com/blog", position: 2 }
+          ]))}
+        </script>
       </Helmet>
       
       <Header />
@@ -147,6 +156,142 @@ const Blog: React.FC = () => {
               <div className="blog-card-footer">
                 <span className="blog-author">Bengkel Las Mandiri</span>
                 <Link to="/blog/cari-bengkel-las-bekasi" className="blog-read-more">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
+            </div>
+
+            <div className="blog-card">
+              <div className="blog-card-header">
+                <span className="blog-category">Jasa Las</span>
+                <span className="blog-date">23 Nov 2025</span>
+              </div>
+              <div className="blog-card-body">
+                <h2>Tukang Las Listrik Bekasi Murah & Profesional</h2>
+                <p>Tukang las listrik Bekasi murah dan profesional. Jasa las listrik untuk kanopi, pagar, tralis dengan harga terjangkau.</p>
+              </div>
+              <div className="blog-card-footer">
+                <span className="blog-author">Bengkel Las Mandiri</span>
+                <Link to="/blog/tukang-las-listrik-bekasi-murah" className="blog-read-more">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
+            </div>
+
+            <div className="blog-card">
+              <div className="blog-card-header">
+                <span className="blog-category">Tips & Panduan</span>
+                <span className="blog-date">23 Nov 2025</span>
+              </div>
+              <div className="blog-card-body">
+                <h2>Biaya Pembuatan Pagar Rumah Bekasi</h2>
+                <p>Biaya pembuatan pagar rumah Bekasi terbaru 2025. Harga pagar besi minimalis mulai Rp 350.000/meter dengan konsultasi gratis.</p>
+              </div>
+              <div className="blog-card-footer">
+                <span className="blog-author">Bengkel Las Mandiri</span>
+                <Link to="/blog/biaya-pembuatan-pagar-rumah-bekasi" className="blog-read-more">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
+            </div>
+
+            <div className="blog-card">
+              <div className="blog-card-header">
+                <span className="blog-category">Tips & Panduan</span>
+                <span className="blog-date">23 Nov 2025</span>
+              </div>
+              <div className="blog-card-body">
+                <h2>Model Pagar Besi Minimalis Terbaru 2025</h2>
+                <p>Koleksi model pagar besi minimalis terbaru 2025. Inspirasi desain pagar modern untuk rumah minimalis dengan berbagai pilihan.</p>
+              </div>
+              <div className="blog-card-footer">
+                <span className="blog-author">Bengkel Las Mandiri</span>
+                <Link to="/blog/model-pagar-besi-minimalis-terbaru" className="blog-read-more">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
+            </div>
+
+            <div className="blog-card">
+              <div className="blog-card-header">
+                <span className="blog-category">Jasa Las</span>
+                <span className="blog-date">23 Nov 2025</span>
+              </div>
+              <div className="blog-card-body">
+                <h2>Tukang Las Kanopi Setu Bekasi</h2>
+                <p>Tukang las kanopi Setu Bekasi profesional. Jasa pasang kanopi Setu dengan harga murah dan material berkualitas SNI.</p>
+              </div>
+              <div className="blog-card-footer">
+                <span className="blog-author">Bengkel Las Mandiri</span>
+                <Link to="/blog/tukang-las-kanopi-setu-bekasi" className="blog-read-more">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
+            </div>
+
+            <div className="blog-card">
+              <div className="blog-card-header">
+                <span className="blog-category">Tips & Panduan</span>
+                <span className="blog-date">23 Nov 2025</span>
+              </div>
+              <div className="blog-card-body">
+                <h2>Harga Pagar Besi Minimalis Bekasi Terbaru 2025</h2>
+                <p>Harga pagar besi minimalis Bekasi terbaru 2025. Daftar harga lengkap mulai Rp 350.000/meter dengan konsultasi gratis.</p>
+              </div>
+              <div className="blog-card-footer">
+                <span className="blog-author">Bengkel Las Mandiri</span>
+                <Link to="/blog/harga-pagar-besi-minimalis-bekasi" className="blog-read-more">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
+            </div>
+
+            <div className="blog-card">
+              <div className="blog-card-header">
+                <span className="blog-category">Jasa Las</span>
+                <span className="blog-date">23 Nov 2025</span>
+              </div>
+              <div className="blog-card-body">
+                <h2>Tukang Las Pintu Besi Minimalis Bekasi</h2>
+                <p>Tukang las pintu besi minimalis Bekasi profesional. Jasa pembuatan pintu besi minimalis dengan harga murah dan material berkualitas SNI.</p>
+              </div>
+              <div className="blog-card-footer">
+                <span className="blog-author">Maman Toha</span>
+                <Link to="/blog/tukang-las-pintu-besi-minimalis-bekasi" className="blog-read-more">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
+            </div>
+
+            <div className="blog-card">
+              <div className="blog-card-header">
+                <span className="blog-category">Jasa Las</span>
+                <span className="blog-date">23 Nov 2025</span>
+              </div>
+              <div className="blog-card-body">
+                <h2>Bengkel Las Relling Balkon Minimalis Bekasi</h2>
+                <p>Bengkel las relling balkon minimalis Bekasi dengan harga terjangkau. Jasa pembuatan railing balkon minimalis modern dengan material berkualitas.</p>
+              </div>
+              <div className="blog-card-footer">
+                <span className="blog-author">Maman Toha</span>
+                <Link to="/blog/bengkel-las-relling-balkon-minimalis-bekasi" className="blog-read-more">
+                  Baca Selengkapnya →
+                </Link>
+              </div>
+            </div>
+
+            <div className="blog-card">
+              <div className="blog-card-header">
+                <span className="blog-category">Jasa Las</span>
+                <span className="blog-date">23 Nov 2025</span>
+              </div>
+              <div className="blog-card-body">
+                <h2>Jual Pagar Besi Murah Minimalis Bekasi</h2>
+                <p>Jual pagar besi murah minimalis Bekasi dengan harga terbaik 2025. Pagar besi minimalis mulai Rp 350.000/meter dengan kualitas SNI.</p>
+              </div>
+              <div className="blog-card-footer">
+                <span className="blog-author">Maman Toha</span>
+                <Link to="/blog/jual-pagar-besi-murah-minimalis-bekasi" className="blog-read-more">
                   Baca Selengkapnya →
                 </Link>
               </div>

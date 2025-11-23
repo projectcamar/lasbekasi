@@ -137,6 +137,50 @@
   margin: 40px 0;
 }
 
+/* Related Links Section for Internal Linking */
+.blog-related-links {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  margin: 40px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.blog-related-links h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid #ff6b35;
+}
+
+.related-links-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.related-link {
+  display: block;
+  padding: 12px 20px;
+  background: #f8f9fa;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.related-link:hover {
+  background: #ff6b35;
+  color: white;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.3);
+  border-color: #ff6b35;
+}
+
 .blog-post-footer {
   margin-top: 40px;
 }
@@ -233,6 +277,24 @@
   .cta-button {
     padding: 12px 30px;
     font-size: 1rem;
+  }
+
+  .blog-related-links {
+    padding: 25px 20px;
+  }
+
+  .blog-related-links h3 {
+    font-size: 1.3rem;
+  }
+
+  .related-links-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+
+  .related-link {
+    padding: 10px 15px;
+    font-size: 0.95rem;
   }
 }
 

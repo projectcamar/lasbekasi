@@ -169,6 +169,16 @@ const generatePostSitemap = () => {
     { slug: 'jasa-tukang-las-setu', date: '2025-10-11T00:00:00.000Z' },
     { slug: 'jasa-kanopi-bekasi', date: '2025-01-15T00:00:00.000Z' },
     { slug: 'cari-bengkel-las-bekasi', date: '2025-10-11T00:00:00.000Z' },
+    // New articles - November 2025
+    { slug: 'tukang-las-listrik-bekasi-murah', date: '2025-11-23T00:00:00.000Z' },
+    { slug: 'biaya-pembuatan-pagar-rumah-bekasi', date: '2025-11-23T00:00:00.000Z' },
+    { slug: 'model-pagar-besi-minimalis-terbaru', date: '2025-11-23T00:00:00.000Z' },
+    { slug: 'tukang-las-kanopi-setu-bekasi', date: '2025-11-23T00:00:00.000Z' },
+    { slug: 'harga-pagar-besi-minimalis-bekasi', date: '2025-11-23T00:00:00.000Z' },
+    // New articles with reusable components - November 2025
+    { slug: 'tukang-las-pintu-besi-minimalis-bekasi', date: '2025-11-23T00:00:00.000Z' },
+    { slug: 'bengkel-las-relling-balkon-minimalis-bekasi', date: '2025-11-23T00:00:00.000Z' },
+    { slug: 'jual-pagar-besi-murah-minimalis-bekasi', date: '2025-11-23T00:00:00.000Z' },
   ];
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>

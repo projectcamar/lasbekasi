@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import PortfolioSection from '../components/PortfolioSection'
+import { generateBreadcrumbList } from '../utils/structuredData'
 
 const Portfolio: React.FC = () => {
   return (
@@ -34,6 +35,14 @@ const Portfolio: React.FC = () => {
         
         {/* Canonical URL - Must match actual URL exactly */}
         <link rel="canonical" href="https://lasbekasi.com/album-bengkel-las-mandiri" />
+        
+        {/* BreadcrumbList Schema for Better Sitelinks */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateBreadcrumbList([
+            { name: "Beranda", item: "https://lasbekasi.com/", position: 1 },
+            { name: "Portfolio", item: "https://lasbekasi.com/album-bengkel-las-mandiri", position: 2 }
+          ]))}
+        </script>
       </Helmet>
       
       <Header />

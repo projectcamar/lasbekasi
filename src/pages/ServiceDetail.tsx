@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import Footer from '../components/Footer'
 import ConsultationModal from '../components/ConsultationModal'
 import { ArrowLeft, CheckCircle, Clock, Star, Calculator, X, MessageCircle } from 'lucide-react'
+import { generateBreadcrumbList } from '../utils/structuredData'
 import './ServiceDetail.css'
 
 const ServiceDetail: React.FC = () => {
@@ -1058,6 +1059,15 @@ const ServiceDetail: React.FC = () => {
         
         {/* Canonical URL */}
         <link rel="canonical" href={serviceUrl} />
+        
+        {/* BreadcrumbList Schema for Better Sitelinks */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateBreadcrumbList([
+            { name: "Beranda", item: "https://lasbekasi.com/", position: 1 },
+            { name: "Layanan Las Bekasi", item: "https://lasbekasi.com/layanan-las-bekasi", position: 2 },
+            { name: serviceData[cleanSlug || '']?.title || "Detail Layanan", item: serviceUrl, position: 3 }
+          ]))}
+        </script>
         
         {/* Structured Data */}
         <script type="application/ld+json">
