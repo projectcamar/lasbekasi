@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import AboutSection from '../components/AboutSection'
+import { generateBreadcrumbList } from '../utils/structuredData'
 
 const About: React.FC = () => {
   // Scroll to top when component mounts
@@ -71,6 +72,14 @@ const About: React.FC = () => {
         <meta name="geo.placename" content="Bekasi" />
         
         <link rel="canonical" href="https://lasbekasi.com/tentang-kami" />
+        
+        {/* BreadcrumbList Schema for Better Sitelinks */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateBreadcrumbList([
+            { name: "Beranda", item: "https://lasbekasi.com/", position: 1 },
+            { name: "Tentang Kami", item: "https://lasbekasi.com/tentang-kami", position: 2 }
+          ]))}
+        </script>
         
         {/* Structured Data */}
         <script type="application/ld+json">

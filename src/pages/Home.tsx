@@ -1,5 +1,12 @@
 import React, { Suspense, lazy } from 'react'
 import { Helmet } from 'react-helmet-async'
+import { 
+  generateBreadcrumbList, 
+  generateOrganizationSchema, 
+  generateWebSiteSchema,
+  generateLocalBusinessSchema,
+  generateMainNavigationSchema
+} from '../utils/structuredData'
 
 // Load critical and above-fold components immediately - NO LAZY LOADING
 import Header from '../components/Header'
@@ -55,18 +62,9 @@ const Home: React.FC = () => {
         
         {/* BreadcrumbList Schema for Better Sitelinks */}
         <script type="application/ld+json">
-          {`
-            {
-              "@context": "https://schema.org",
-              "@type": "BreadcrumbList",
-              "itemListElement": [{
-                "@type": "ListItem",
-                "position": 1,
-                "name": "Beranda",
-                "item": "https://lasbekasi.com/"
-              }]
-            }
-          `}
+          {JSON.stringify(generateBreadcrumbList([
+            { name: "Beranda", item: "https://lasbekasi.com/", position: 1 }
+          ]))}
         </script>
 
         {/* LocalBusiness Schema */}
@@ -116,6 +114,26 @@ const Home: React.FC = () => {
               ]
             }
           `}
+        </script>
+
+        {/* Organization Schema with Sitelinks Searchbox */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateOrganizationSchema())}
+        </script>
+
+        {/* WebSite Schema with Sitelinks Searchbox */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateWebSiteSchema())}
+        </script>
+
+        {/* LocalBusiness Schema (Enhanced for Sitelinks) */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateLocalBusinessSchema())}
+        </script>
+
+        {/* Main Navigation Schema (Helps Google understand site structure) */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateMainNavigationSchema())}
         </script>
       </Helmet>
       {/* Load critical content immediately - NO lazy loading */}

@@ -89,6 +89,7 @@ const generatePageSitemap = () => {
   ];
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="${BASE_URL}/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Homepage -->
 ${generateUrlEntry(`${BASE_URL}${pages[0].path}`, getDateByChangeFreq(pages[0].changefreq), pages[0].changefreq, pages[0].priority)}
@@ -134,6 +135,7 @@ const generateServiceSitemap = () => {
 
   const lastmod = getMonthlyDate();
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="${BASE_URL}/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Service Detail Pages -->
 `;
@@ -170,6 +172,7 @@ const generatePostSitemap = () => {
   ];
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="${BASE_URL}/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Blog Posts -->
 `;
@@ -196,6 +199,7 @@ const generateSitemapIndex = () => {
   ];
 
   let xml = `<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="${BASE_URL}/sitemap.xsl"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 `;
 

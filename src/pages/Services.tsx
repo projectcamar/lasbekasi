@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import { generateBreadcrumbList } from '../utils/structuredData'
 import { 
   Umbrella, 
   Building2, 
@@ -168,6 +169,14 @@ const Services: React.FC = () => {
         <meta name="geo.placename" content="Bekasi" />
         
         <link rel="canonical" href="https://lasbekasi.com/layanan-las-bekasi" />
+        
+        {/* BreadcrumbList Schema for Better Sitelinks */}
+        <script type="application/ld+json">
+          {JSON.stringify(generateBreadcrumbList([
+            { name: "Beranda", item: "https://lasbekasi.com/", position: 1 },
+            { name: "Layanan Las Bekasi", item: "https://lasbekasi.com/layanan-las-bekasi", position: 2 }
+          ]))}
+        </script>
         
         {/* Structured Data */}
         <script type="application/ld+json">
