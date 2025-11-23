@@ -68,8 +68,52 @@ const TestimonialSection: React.FC = () => {
     setCurrentIndex(index)
   }
 
+  // Generate JSON-LD structured data for current testimonial
+  const currentTestimonial = testimonials[currentIndex]
+  const reviewStructuredData = {
+    "@context": "https://schema.org",
+    "@type": "Review",
+    "author": {
+      "@type": "Person",
+      "name": currentTestimonial.name
+    },
+    "datePublished": currentTestimonial.date,
+    "itemReviewed": {
+      "@type": "LocalBusiness",
+      "@id": "https://lasbekasi.com/#business",
+      "name": "Bengkel Las Mandiri",
+      "image": "https://lasbekasi.com/og-image.jpg",
+      "telephone": "+6285212078467",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
+        "addressLocality": "Bekasi",
+        "addressRegion": "Jawa Barat",
+        "postalCode": "17320",
+        "addressCountry": "ID"
+      },
+      "priceRange": "$$",
+      "url": "https://lasbekasi.com"
+    },
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": currentTestimonial.rating.toString(),
+      "bestRating": "5",
+      "worstRating": "1"
+    },
+    "reviewBody": currentTestimonial.text,
+    "publisher": {
+      "@type": "Organization",
+      "name": "Bengkel Las Mandiri"
+    }
+  }
+
   return (
-    <section className="testimonial-section" id="testimonial" itemScope itemType="https://schema.org/Organization">
+    <section className="testimonial-section" id="testimonial">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewStructuredData) }}
+      />
       <div className="container">
         <div className="section-header">
           <div className="section-subtitle">Testimoni Pelanggan</div>
@@ -78,34 +122,18 @@ const TestimonialSection: React.FC = () => {
         </div>
         
         <div className="testimonial-slider">
-          <div className="testimonial-slide" itemProp="review" itemScope itemType="https://schema.org/Review">
-            <meta itemProp="datePublished" content={testimonials[currentIndex].date} />
-            
-            {/* Item being reviewed - REQUIRED */}
-            <div itemProp="itemReviewed" itemScope itemType="https://schema.org/LocalBusiness">
-              <meta itemProp="name" content="Bengkel Las Mandiri" />
-              <meta itemProp="image" content="https://www.lasbekasi.com/favicon-192x192.png" />
-              <meta itemProp="telephone" content="+6285212078467" />
-              <meta itemProp="address" content="Jl. Raya Setu Cibitung - Bekasi, Telajung, Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat 17320" />
-              <meta itemProp="priceRange" content="$$" />
-            </div>
-            
-            <div itemProp="reviewRating" itemScope itemType="https://schema.org/Rating">
-              <meta itemProp="ratingValue" content={testimonials[currentIndex].rating.toString()} />
-              <meta itemProp="bestRating" content="5" />
-            </div>
-            
+          <div className="testimonial-slide">
             <div className="testimonial-avatar">
               <img 
-                src={testimonials[currentIndex].avatar} 
-                alt={`Foto ${testimonials[currentIndex].name} - Pelanggan Bengkel Las Bekasi`}
+                src={currentTestimonial.avatar} 
+                alt={`Foto ${currentTestimonial.name} - Pelanggan Bengkel Las Bekasi`}
                 className="avatar-image"
                 loading="lazy"
                 width="150"
                 height="150"
               />
               <div className="star-overlay">
-                {[...Array(testimonials[currentIndex].rating)].map((_, i) => (
+                {[...Array(currentTestimonial.rating)].map((_, i) => (
                   <Star key={i} size={20} fill="#ff6b35" color="#ff6b35" />
                 ))}
               </div>
@@ -113,15 +141,15 @@ const TestimonialSection: React.FC = () => {
             
             <div className="testimonial-content">
               <div className="testimonial-header">
-                <h3 className="testimonial-name" itemProp="author" itemScope itemType="https://schema.org/Person">
-                  <span itemProp="name">{testimonials[currentIndex].name}</span>
-                  <span className="testimonial-role">{testimonials[currentIndex].role}</span>
+                <h3 className="testimonial-name">
+                  <span>{currentTestimonial.name}</span>
+                  <span className="testimonial-role">{currentTestimonial.role}</span>
                 </h3>
                 <div className="testimonial-location">
-                  <span itemProp="locationCreated">{testimonials[currentIndex].location}</span>
+                  <span>{currentTestimonial.location}</span>
                 </div>
               </div>
-              <p className="testimonial-text" itemProp="reviewBody">"{testimonials[currentIndex].text}"</p>
+              <p className="testimonial-text">"{currentTestimonial.text}"</p>
             </div>
           </div>
           
