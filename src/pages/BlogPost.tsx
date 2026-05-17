@@ -9,6 +9,7 @@ import ServiceAreasSection from '../components/ServiceAreasSection'
 import AuthorCard from '../components/AuthorCard'
 import { getPostBySlug, BLOG_POSTS } from '../data/blog'
 import { ALL_PRODUCTS } from '../data/products'
+import { INITIAL_TESTIMONIALS } from '../data/testimonials'
 import { getBlogPostContentLocalized, type BlogSection } from '../data/blogContent'
 import { convertIDRToUSD, convertIDRToCurrency } from '../utils/currencyConverter'
 import { generateBlogPostingSchema } from '../utils/structuredData'
@@ -83,6 +84,7 @@ const BlogPost: React.FC = () => {
   const [newsletterSubmitted, setNewsletterSubmitted] = useState(false)
   const [newsletterLoading, setNewsletterLoading] = useState(false)
   const [linkCopied, setLinkCopied] = useState(false)
+  const [widgetReviews, setWidgetReviews] = useState<any[]>([])
   
   const post = slug ? getPostBySlug(slug) : undefined
   const isIndonesian = language === 'id'
@@ -106,6 +108,19 @@ const BlogPost: React.FC = () => {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [slug])
+
+  useEffect(() => {
+    const savedVisitorReviews = localStorage.getItem('MANDIRI_visitor_reviews')
+    let visitorList: any[] = []
+    if (savedVisitorReviews) {
+      try {
+        visitorList = JSON.parse(savedVisitorReviews)
+      } catch (e) {
+        console.error('Error parsing visitor reviews', e)
+      }
+    }
+    setWidgetReviews([...visitorList, ...INITIAL_TESTIMONIALS])
+  }, [])
 
   useEffect(() => {
     if (post?.customContent?.language) {
@@ -318,6 +333,39 @@ const BlogPost: React.FC = () => {
                     ))}
                 </div>
             </div>
+
+            {widgetReviews.length > 0 && (
+              <div className="mandiri-post__sidebar-box mandiri-post__sidebar-box--reviews" style={{ borderTop: '3px solid #FF5E14' }}>
+                <h4 className="mandiri-post__sidebar-title" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '15px' }}>
+                  <span>{language === 'id' ? 'Testimoni Mandiri Steel' : 'Customer Reviews'}</span>
+                  <span style={{ fontSize: '13px', color: '#ffb800', fontWeight: 'bold', display: 'flex', alignItems: 'center', gap: '3px' }}>
+                    ★ 5.0
+                  </span>
+                </h4>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                  {widgetReviews.slice(0, 5).map((item) => (
+                    <div key={item.id} style={{ background: '#f8f9fa', border: '1px solid #eef0f2', borderRadius: '8px', padding: '12px', transition: 'transform 0.2s ease' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '6px' }}>
+                        <strong style={{ fontSize: '12px', color: '#1a1a2e', fontWeight: 'bold' }}>{item.name}</strong>
+                        <span style={{ fontSize: '10px', color: '#888' }}>{item.date}</span>
+                      </div>
+                      <div style={{ display: 'flex', gap: '2px', color: '#ffb800', fontSize: '11px', marginBottom: '6px' }}>
+                        {Array.from({ length: item.rating }).map((_, i) => <span key={i}>★</span>)}
+                      </div>
+                      <p style={{ fontSize: '11px', color: '#4a4a5a', fontStyle: 'italic', margin: '0 0 8px 0', lineHeight: '1.4' }}>
+                        "{item.comment.length > 85 ? `${item.comment.slice(0, 85)}...` : item.comment}"
+                      </p>
+                      <span style={{ display: 'inline-block', fontSize: '9px', fontWeight: '700', background: '#eaecee', padding: '2px 8px', borderRadius: '4px', color: '#475569', textTransform: 'capitalize' }}>
+                        {item.projectType}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+                <Link to="/testimonials" style={{ display: 'block', textAlign: 'center', marginTop: '15px', fontSize: '11px', fontWeight: '800', color: '#FF5E14', textDecoration: 'none', transition: 'color 0.2s ease' }} onMouseEnter={(e) => e.currentTarget.style.textDecoration = 'underline'} onMouseLeave={(e) => e.currentTarget.style.textDecoration = 'none'}>
+                  {language === 'id' ? 'Lihat Semua Ulasan →' : 'View All Reviews →'}
+                </Link>
+              </div>
+            )}
           </aside>
         </div>
       </main>
