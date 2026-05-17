@@ -97,21 +97,26 @@
 }
 
 .mandiri-post__section {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .mandiri-post__heading {
     font-size: 2rem;
     font-weight: 700;
     color: #111;
-    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mandiri-post__section:first-of-type .mandiri-post__heading:first-child {
+    margin-top: 0;
 }
 
 .mandiri-post__text {
     font-size: 1.15rem;
     line-height: 1.8;
     color: #333;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
 }
 
 .mandiri-post__text b, .mandiri-post__text strong {

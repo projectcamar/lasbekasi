@@ -229,8 +229,6 @@ const BlogPost: React.FC = () => {
               </section>
             ))}
 
-            <ServiceAreasSection language={language} />
-            
             <div className="mandiri-post__author-wrap">
               <AuthorCard 
                 name="Maman Toha" 
