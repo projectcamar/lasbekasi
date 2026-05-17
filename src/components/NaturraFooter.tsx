@@ -33,6 +33,7 @@ const footerTranslations = {
         license: "Image License",
         about: "About",
         blog: "Blog",
+        testimonials: "Testimonials",
         home: "Home"
     },
     id: {
@@ -54,6 +55,7 @@ const footerTranslations = {
         license: "Lisensi Gambar",
         about: "Tentang",
         blog: "Blog",
+        testimonials: "Testimoni",
         home: "Beranda"
     },
     ar: {
@@ -233,6 +235,7 @@ const NaturraFooter: React.FC = () => {
                         <Link to="/about">{t.about}</Link>
                         <Link to="/products">{t.services}</Link>
                         <Link to="/blog">{t.blog}</Link>
+                        <Link to="/testimonials">{t.testimonials || 'Testimoni'}</Link>
                         <Link to="/partnership">{t.contact}</Link>
                     </div>
                 </div>

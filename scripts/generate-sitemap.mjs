@@ -59,14 +59,28 @@ const readFileSafe = async (filePath) => {
 
 const parseBlogPosts = (source) => {
   const posts = []
-  // More robust regex that handles multiline and various spacing
-  const regex = /{\s*["']?id["']?:\s*(\d+)[^}]*?["']?slug["']?:\s*['"]([^'"]+)['"][^}]*?["']?title["']?:\s*['"]([^'"]+)['"][^}]*?["']?image["']?:\s*['"]([^'"]+)['"][^}]*?["']?date["']?:\s*['"]([^'"]+)['"][^}]*?}/gs
+  // Matches "id": 1, "title": "Tips Pemula Bengkel Las", "slug": "jasa-bengkel-las-setu-tips-pemula"
+  const regex = /"id":\s*(\d+),\s*"title":\s*["']([^"']+)["'],\s*"slug":\s*["']([^"']+)["']/g
   let match
   let count = 0
   while ((match = regex.exec(source))) {
-    const [, id, slug, title, image, dateString] = match
+    const id = parseInt(match[1])
+    const title = match[2]
+    const slug = match[3]
+    
+    // Scan excerpt, image and date
+    const startIdx = match.index
+    const endIdx = source.indexOf('},', startIdx) === -1 ? source.length : source.indexOf('},', startIdx)
+    const postSnippet = source.substring(startIdx, endIdx + 100)
+    
+    const imageMatch = /"image":\s*"([^"]+)"/.exec(postSnippet)
+    const dateMatch = /"date":\s*"([^"]+)"/.exec(postSnippet)
+    
+    const image = imageMatch ? imageMatch[1] : ''
+    const dateString = dateMatch ? dateMatch[1] : new Date().toISOString()
+    
     posts.push({
-      id: parseInt(id),
+      id,
       slug,
       title: escapeXml(title),
       image: escapeXml(image),
@@ -131,51 +145,71 @@ const parseProductImageMap = (source) => {
 
 const parseProducts = (source, imageMap) => {
   const products = []
-  const regex = /{[^}]*?id:\s*(\d+)[^}]*?slug:\s*'([^']+)'[^}]*?name:\s*'([^']+)'[^}]*?image:\s*([a-zA-Z0-9_]+)[^}]*?}/g
+  // Match products: id: 1, slug: 'kanopi-minimalis-alderon', name: 'Kanopi Minimalis Alderon'
+  const regex = /id:\s*(\d+),\s*slug:\s*['"]([^'"]+)['"],\s*name:\s*['"]([^'"]+)['"]/g
   let match
   while ((match = regex.exec(source))) {
-    const [, id, slug, name] = match
-    const filename = imageMap[slug]
-    const imageUrl = filename ? `${BASE_URL}/assets/${filename}` : ''
-
+    const id = parseInt(match[1])
+    const slug = match[2]
+    const name = match[3]
+    
+    // For images, let's map them dynamically or parse
+    // image variable name
+    let imageVar = 'kanopiImage'
+    if (slug.includes('pagar')) imageVar = 'pagarImage'
+    if (slug.includes('teralis')) imageVar = 'teralisImage'
+    if (slug.includes('railing')) imageVar = 'railingImage'
+    if (slug.includes('konstruksi')) imageVar = 'konstruksiImage'
+    if (slug.includes('stainless')) imageVar = 'stainlessImage'
+    
+    // Map image variable name to Unsplash URL
+    const mapOfImages = {
+      kanopiImage: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80',
+      pagarImage: 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80',
+      teralisImage: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+      railingImage: 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80',
+      konstruksiImage: 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80',
+      stainlessImage: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80'
+    }
+    
     products.push({
-      id: parseInt(id),
+      id,
       slug,
       name: escapeXml(name),
       rawName: name,
       loc: `${BASE_URL}/product/${slug}`,
       changefreq: 'monthly',
       priority: 0.6,
-      image: imageUrl ? escapeXml(imageUrl) : ''
+      image: escapeXml(mapOfImages[imageVar] || '')
     })
   }
   return products
 }
 
 const curatedSearchKeywords = [
-  'cocoa powder distributor',
-  'indonesian cocoa beans',
-  'premium fermented cocoa',
-  'bulk cloves supplier',
-  'indonesian spices export',
-  'lal pari cloves grade',
-  'cocopeat block supplier',
-  'coconut husk medium',
-  'low ec cocopeat',
-  'agricultural commodity indonesia',
-  'cocoa powder alkalized',
-  'cocoa powder natural',
-  'cloves grade a supplier',
-  'cocopeat 5kg block',
-  'bulk agricultural export',
-  'natural spices supplier indonesia',
-  'cocoa bean supplier bekasi',
-  'cloves exporter indonesia',
-  'cocopeat horticulture grade',
-  'organic growing medium cocopeat',
-  'naturra extal commodity',
-  'naturra extal cocoa',
-  'naturra extal cloves'
+  'bengkel las bekasi',
+  'bengkel las mandiri bekasi',
+  'bengkel las terdekat',
+  'jasa pasang kanopi bekasi',
+  'kanopi minimalis alderon',
+  'kanopi minimalis alderon bekasi',
+  'harga kanopi minimalis per meter',
+  'kanopi kaca tempered',
+  'kanopi kaca tempered bekasi',
+  'pagar minimalis modern',
+  'pagar minimalis modern bekasi',
+  'pagar besi tempa klasik',
+  'pagar besi tempa klasik bekasi',
+  'teralis jendela minimalis',
+  'teralis jendela minimalis bekasi',
+  'railing tangga minimalis',
+  'railing tangga minimalis bekasi',
+  'konstruksi baja wf',
+  'konstruksi baja wf bekasi',
+  'pintu pagar stainless steel',
+  'tukang las panggilan bekasi',
+  'bengkel las maman toha',
+  'bengkel las murah bekasi'
 ]
 
 const toTitleCase = (str) => str.replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substring(1).toLowerCase())
@@ -201,11 +235,11 @@ const buildSearchQueryEntries = (products, lastModified) => {
     const titleSlug = toTitleCase(slugWords)
 
     addQuery(unescapedName)
-    addQuery(`${unescapedName} price`)
-    addQuery(`${unescapedName} Naturra Extal`)
-    addQuery(`${titleSlug} commodity`)
-    addQuery(`premium ${slugWords}`)
-    addQuery(`${slugWords} bulk supplier`)
+    addQuery(`${unescapedName} bekasi`)
+    addQuery(`${unescapedName} murah`)
+    addQuery(`${unescapedName} terdekat`)
+    addQuery(`jasa pasang ${slugWords}`)
+    addQuery(`bengkel las ${slugWords}`)
   })
 
   const queries = Array.from(map.values()).slice(0, 60)
@@ -272,6 +306,7 @@ const buildStaticPages = async () => {
     { loc: `${BASE_URL}/about`, file: 'src/pages/About.tsx', changefreq: 'monthly', priority: 0.7 },
     { loc: `${BASE_URL}/custom-order`, file: 'src/pages/CustomOrder.tsx', changefreq: 'monthly', priority: 0.7 },
     { loc: `${BASE_URL}/partnership`, file: 'src/pages/Partnership.tsx', changefreq: 'monthly', priority: 0.7 },
+    { loc: `${BASE_URL}/testimonials`, file: 'src/pages/Testimonials.tsx', changefreq: 'daily', priority: 0.85 },
     { loc: `${BASE_URL}/terms-of-service`, file: 'src/pages/TermsOfService.tsx', changefreq: 'yearly', priority: 0.4 },
     { loc: `${BASE_URL}/shipping-information`, file: 'src/pages/ShippingInformation.tsx', changefreq: 'yearly', priority: 0.4 },
     { loc: `${BASE_URL}/search`, file: 'src/pages/SearchResults.tsx', changefreq: 'monthly', priority: 0.4 },
@@ -338,7 +373,7 @@ const buildLanguageAlternates = (loc, explicitAlternates) => {
 const generateSitemapIndex = (sitemaps) => {
   const header = '<?xml version="1.0" encoding="UTF-8"?>'
   const stylesheet = '<?xml-stylesheet type="text/xsl" href="/sitemap-index.xsl"?>'
-  const comment = '<!-- Generated by Naturra Extal Sitemap Generator, this is an XML Sitemap Index, meant for consumption by search engines. -->'
+  const comment = '<!-- Generated by Mandiri Steel Sitemap Generator, this is an XML Sitemap Index, meant for consumption by search engines. -->'
   const openTag = '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
   const closeTag = '</sitemapindex>'
 

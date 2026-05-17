@@ -110,6 +110,16 @@ const AdminDashboard: React.FC = () => {
                         </div>
                     </div>
 
+                    <div id="admin-testimonial-card" className="stat-card clickable" onClick={() => navigate('/admin/blog?tab=testimonials')}>
+                        <div className="stat-icon" style={{ color: '#FF5E14' }}>
+                            <Users size={28} />
+                        </div>
+                        <div className="stat-info">
+                            <h3>Testimonial Manager</h3>
+                            <div className="stat-value">Manage Reviews</div>
+                        </div>
+                    </div>
+
                     <div className="stat-card">
                         <div className="stat-icon">
                             <LayoutDashboard size={28} />

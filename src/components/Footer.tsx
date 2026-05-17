@@ -213,6 +213,7 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
               <li><Link to={getLinkWithLanguage("/products", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Layanan' : 'Services'}</Link></li>
               <li><Link to={getLinkWithLanguage("/about", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Tentang Kami' : 'About Us'}</Link></li>
               <li><Link to={getLinkWithLanguage("/blog", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Blog & Tips' : 'Blog'}</Link></li>
+              <li><Link to={getLinkWithLanguage("/testimonials", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Testimoni & Review' : 'Testimonials'}</Link></li>
               <li><Link to={getLinkWithLanguage("/custom-order", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Konsultasi Jasa" : "Custom Order"}</Link></li>
               <li><Link to={getLinkWithLanguage("/partnership", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Program Kemitraan" : "Partnership"}</Link></li>
               <li><Link to={getLinkWithLanguage("/terms-of-service", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Syarat & Ketentuan" : "Terms of Service"}</Link></li>

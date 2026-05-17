@@ -1,0 +1,415 @@
+/* Premium Testimonials CSS styling */
+
+.testimonials-page {
+    background-color: #fafbfc;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+    color: #333;
+}
+
+/* Hero Section with premium dark green steel-fabrication-themed gradient */
+.testimonials-hero {
+    background: linear-gradient(135deg, #022c1b 0%, #004D2C 100%);
+    color: #fff;
+    padding: 100px 20px 80px 20px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonials-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle at 70% 30%, rgba(255, 94, 20, 0.15) 0%, transparent 60%);
+    pointer-events: none;
+}
+
+.testimonials-hero__container {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.testimonials-hero__eyebrow {
+    color: #FF5E14;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+}
+
+.testimonials-hero__title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+    letter-spacing: -0.5px;
+}
+
+.testimonials-hero__desc {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Layout container */
+.testimonials-main {
+    padding: 60px 20px;
+}
+
+.testimonials-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    gap: 40px;
+}
+
+/* Success Banner */
+.success-banner {
+    background-color: #ecfdf5;
+    border: 1px solid #a7f3d0;
+    color: #065f46;
+    padding: 16px 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    font-size: 14px;
+    font-weight: 600;
+    animation: fadeIn 0.4s ease-out;
+}
+
+/* Testimonials Grid */
+.testimonials-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Review Cards */
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid #f0f2f5;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-card.visitor-highlight {
+    border-left: 4px solid #FF5E14;
+}
+
+.testimonial-card__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 12px;
+    gap: 15px;
+}
+
+.testimonial-card__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.testimonial-card__author {
+    font-size: 16px;
+    font-weight: 700;
+    color: #1a202c;
+    margin: 0;
+}
+
+.testimonial-card__date {
+    font-size: 12px;
+    color: #a0aec0;
+}
+
+.testimonial-card__badge {
+    background-color: #f7fafc;
+    border: 1px solid #e2e8f0;
+    color: #4a5568;
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.testimonial-card__stars {
+    display: flex;
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.star-filled {
+    color: #FF5E14;
+    fill: #FF5E14;
+}
+
+.star-empty {
+    color: #e2e8f0;
+    fill: #e2e8f0;
+}
+
+.testimonial-card__comment {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #4a5568;
+    font-style: italic;
+    margin: 0 0 20px 0;
+}
+
+/* Owner Responses */
+.testimonial-card__response {
+    background-color: #f8fafc;
+    border-left: 3px solid #004D2C;
+    padding: 16px;
+    border-radius: 0 8px 8px 0;
+    margin-top: 10px;
+}
+
+.testimonial-card__response-heading {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #004D2C;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.testimonial-card__response-text {
+    font-size: 13.5px;
+    line-height: 1.5;
+    color: #2d3748;
+    margin: 0;
+}
+
+/* Sidebar Styling */
+.testimonials-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+/* Program Card (GBP Star Strategy) */
+.program-card {
+    background: linear-gradient(135deg, #004D2C 0%, #00361e 100%);
+    color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 8px 30px rgba(0, 77, 44, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.program-card__stars {
+    display: flex;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.program-card__title {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 0 0 12px 0;
+    letter-spacing: -0.3px;
+    color: #fff;
+}
+
+.program-card__body {
+    font-size: 13.5px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.85);
+    margin: 0 0 20px 0;
+}
+
+.program-card__btn {
+    background-color: #FF5E14;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(255, 94, 20, 0.3);
+}
+
+.program-card__btn:hover {
+    background-color: #e04b08;
+    transform: translateY(-1px);
+}
+
+.program-card__hint {
+    font-size: 11px;
+    color: rgba(255, 255, 255, 0.6);
+    margin: 12px 0 0 0;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* Interactive visitor review form */
+.review-form-card {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid #f0f2f5;
+}
+
+.review-form-card__title {
+    font-size: 18px;
+    font-weight: 800;
+    color: #1a202c;
+    margin: 0 0 20px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.review-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.form-group label {
+    font-size: 12px;
+    font-weight: 700;
+    color: #4a5568;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 14px;
+    background-color: #fff;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #004D2C;
+    box-shadow: 0 0 0 3px rgba(0, 77, 44, 0.08);
+}
+
+/* Star rating interactive selector */
+.star-rating-selector {
+    display: flex;
+    gap: 6px;
+    padding: 4px 0;
+}
+
+.clickable {
+    cursor: pointer;
+    transition: transform 0.15s ease;
+}
+
+.clickable:hover {
+    transform: scale(1.15);
+}
+
+.submit-review-btn {
+    background-color: #004D2C;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    box-shadow: 0 4px 12px rgba(0, 77, 44, 0.15);
+    margin-top: 6px;
+}
+
+.submit-review-btn:hover {
+    background-color: #00361e;
+    transform: translateY(-1px);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive grid rules */
+@media (max-width: 992px) {
+    .testimonials-container {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .testimonials-sidebar {
+        position: static;
+    }
+    
+    .testimonials-hero__title {
+        font-size: 2.2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .testimonials-hero {
+        padding: 80px 16px 50px 16px;
+    }
+    .testimonials-hero__title {
+        font-size: 1.8rem;
+    }
+    .testimonials-main {
+        padding: 30px 12px;
+    }
+    .testimonial-card__header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+    .testimonial-card__badge {
+        align-self: flex-start;
+    }
+}

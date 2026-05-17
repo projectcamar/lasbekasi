@@ -23,6 +23,7 @@ const Blog = lazy(() => import('./pages/Blog'))
 const BlogPost = lazy(() => import('./pages/BlogPost'))
 const CustomOrder = lazy(() => import('./pages/CustomOrder'))
 const Partnership = lazy(() => import('./pages/Partnership'))
+const Testimonials = lazy(() => import('./pages/Testimonials'))
 
 // Admin Pages
 const AdminLogin = lazy(() => import('./pages/AdminLogin'))
@@ -106,6 +107,11 @@ function App() {
               <Route path="/blog/:slug" element={
                 <Suspense fallback={<Loading />}>
                   <BlogPost />
+                </Suspense>
+              } />
+              <Route path="/testimonials" element={
+                <Suspense fallback={<Loading />}>
+                  <Testimonials />
                 </Suspense>
               } />
               <Route path="/custom-order" element={

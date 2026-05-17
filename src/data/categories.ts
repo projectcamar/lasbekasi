@@ -1,23 +1,30 @@
-// Centralized categories for consistency across all pages
+// Centralized categories for consistency across all pages (Steel Fabrication / Bengkel Las Mandiri)
 export const CATEGORIES = [
-  'New Arrivals',
-  'Cocoa Powder',
-  'Indonesian Cloves',
-  'Cocopeat Media',
-  'Spices & Herbs',
-  'Sustainable Growing',
-  'Essential Oils',
-  'Export Quality',
+  'Kanopi',
+  'Pagar',
+  'Teralis',
+  'Railing',
+  'Konstruksi',
+  'Stainless Steel',
+  'Premium',
+  'Keamanan',
+  'Interior',
+  'Industri',
+  'Layanan Utama',
+  'Best Seller',
 ] as const
 
 export const CATEGORY_MAP: { [key: string]: string } = {
-  'new-arrivals': 'New Arrivals',
-  'cocoa-powder': 'Cocoa Powder',
-  'indonesian-cloves': 'Indonesian Cloves',
-  'cocopeat-media': 'Cocopeat Media',
-  'spices-herbs': 'Spices & Herbs',
-  'sustainable-growing': 'Sustainable Growing',
-  'essential-oils': 'Essential Oils',
-  'export-quality': 'Export Quality',
+  'kanopi': 'Kanopi',
+  'pagar': 'Pagar',
+  'teralis': 'Teralis',
+  'railing': 'Railing',
+  'konstruksi': 'Konstruksi Baja',
+  'stainless-steel': 'Stainless Steel',
+  'premium': 'Premium',
+  'keamanan': 'Keamanan Jendela & Pintu',
+  'interior': 'Railing Interior',
+  'industri': 'Konstruksi Industri',
+  'layanan-utama': 'Layanan Utama',
+  'best-seller': 'Best Seller',
 }
-

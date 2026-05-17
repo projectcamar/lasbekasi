@@ -8,14 +8,14 @@ import { NATURRA_PRODUCTS } from '../data/naturraProducts'
 import './NaturraHeader.css'
 
 const translations = {
-  en: { home: 'Home', about: 'About Us', blog: 'Blog', products: 'Services', contactUs: 'Free Consultation', search: 'Search' },
-  id: { home: 'Beranda', about: 'Tentang Kami', blog: 'Blog', products: 'Layanan', contactUs: 'Konsultasi Gratis', search: 'Cari' },
-  ar: { home: 'الرئيسية', about: 'من نحن', blog: 'مدونة', products: 'خدماتنا', contactUs: 'استشارة مجانية', search: 'بحث' },
-  zh: { home: '首页', about: '关于我们', blog: '博客', products: '服务', contactUs: '免费咨询', search: '搜索' },
-  ja: { home: 'ホーム', about: '私たちについて', blog: 'ブログ', products: 'サービス', contactUs: '無料相談', search: '検索' },
-  es: { home: 'Inicio', about: 'Sobre Nosotros', blog: 'Blog', products: 'Servicios', contactUs: 'Consulta Gratis', search: 'Buscar' },
-  fr: { home: 'Accueil', about: 'À Propos', blog: 'Blog', products: 'Services', contactUs: 'Consultation Gratuite', search: 'Recherche' },
-  ko: { home: '홈', about: '회사 소개', blog: '블로그', products: '서비스', contactUs: '무료 상담', search: '검색' }
+  en: { home: 'Home', about: 'About Us', blog: 'Blog', testimonials: 'Testimonials', products: 'Services', contactUs: 'Free Consultation', search: 'Search' },
+  id: { home: 'Beranda', about: 'Tentang Kami', blog: 'Blog', testimonials: 'Testimoni', products: 'Layanan', contactUs: 'Konsultasi Gratis', search: 'Cari' },
+  ar: { home: 'الرئيسية', about: 'من نحن', blog: 'مدونة', testimonials: 'آراء العملاء', products: 'خدماتنا', contactUs: 'استشارة مجانية', search: 'بحث' },
+  zh: { home: '首页', about: '关于我们', blog: '博客', testimonials: '客户评价', products: '服务', contactUs: '免费咨询', search: '搜索' },
+  ja: { home: 'ホーム', about: '私たちについて', blog: 'ブログ', testimonials: 'お客様の声', products: 'サービス', contactUs: '無料相談', search: '検索' },
+  es: { home: 'Inicio', about: 'Sobre Nosotros', blog: 'Blog', testimonials: 'Testimonios', products: 'Servicios', contactUs: 'Consulta Gratis', search: 'Buscar' },
+  fr: { home: 'Accueil', about: 'À Propos', blog: 'Blog', testimonials: 'Témoignages', products: 'Services', contactUs: 'Consultation Gratuite', search: 'Recherche' },
+  ko: { home: '홈', about: '회사 소개', blog: '블로그', testimonials: '이용 후기', products: '서비스', contactUs: '무료 상담', search: '검색' }
 }
 
 interface NaturraHeaderProps {
@@ -177,6 +177,7 @@ const NaturraHeader: React.FC<NaturraHeaderProps> = ({ isIndonesian = false, lan
     { to: '/about', label: t.about },
     { to: '/products', label: t.products },
     { to: '/blog', label: t.blog },
+    { to: '/testimonials', label: t.testimonials || 'Testimoni' },
   ]
 
   return (

@@ -9,13 +9,11 @@ Disallow: /eng/
 Allow: /
 Allow: /about
 Allow: /blog
-Allow: /contact-us
-Allow: /shop
-Allow: /search
+Allow: /testimonials
+Allow: /products
 Allow: /custom-order
 Allow: /partnership
 Allow: /terms-of-service
-Allow: /shipping-information
 
 # Allow product pages (canonical versions)
 Allow: /product/
@@ -26,4 +24,4 @@ Disallow: /admin/
 Disallow: /private/
 
 # Sitemap location
-Sitemap: https://mangala-living.com/sitemap.xml
+Sitemap: https://lasbekasi.com/sitemap.xml

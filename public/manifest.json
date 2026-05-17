@@ -1,13 +1,13 @@
 {
-  "name": "Naturra Extal International - Agricultural Commodity Trading",
-  "short_name": "Naturra Extal",
-  "description": "Naturra Extal is a premium Indonesian agricultural commodity trader and exporter. Specializing in Cocoa, Spices, and Cocopeat since 1999.",
+  "name": "Bengkel Las Mandiri Bekasi - Jasa Las & Konstruksi Baja",
+  "short_name": "Mandiri Steel",
+  "description": "Bengkel Las Bekasi terpercaya sejak 1999. Jasa las pagar, kanopi, tralis, railing, pintu dorong & konstruksi baja. Material SNI & Bergaransi.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait-primary",
   "background_color": "#ffffff",
-  "theme_color": "#004D2C",
+  "theme_color": "#1a1a2e",
   "lang": "id",
   "categories": [
     "business",

@@ -6,9 +6,10 @@ import {
     FileText, AlertCircle, Loader2, Check, X,
     Sparkles, Eye, Settings, Globe, Image,
     Terminal, ExternalLink, RefreshCw,
-    ChevronLeft, ChevronRight
+    ChevronLeft, ChevronRight, Star, MessageSquare
 } from 'lucide-react'
 import { BLOG_POSTS, type BlogPost } from '../data/blog'
+import { INITIAL_TESTIMONIALS, type Testimonial } from '../data/testimonials'
 import type { LanguageCode } from '../utils/languageManager'
 import { BlogContentEditor } from '../components/BlogContentEditor'
 import './Admin.css'
@@ -17,11 +18,13 @@ import { getAdminUser } from '../utils/adminAuth'
 
 
 const AdminBlogManager: React.FC = () => {
-    const [view, setView] = useState<'list' | 'editor'>('list')
+    const [view, setView] = useState<'list' | 'editor' | 'testimonials'>('list')
     const { currentStep, nextStep } = useTutorial()
 
     const [posts, setPosts] = useState<BlogPost[]>([])
     const [selectedPostIds, setSelectedPostIds] = useState<number[]>([])
+    const [adminTestimonials, setAdminTestimonials] = useState<Testimonial[]>([])
+    const [testimonialSearchTerm, setTestimonialSearchTerm] = useState('')
 
     // Auto-sync view with tutorial steps
     useEffect(() => {
@@ -37,6 +40,61 @@ const AdminBlogManager: React.FC = () => {
             setAiPrompt(prev => prev || 'make me random spices article topic could be anything');
         }
     }, [currentStep]);
+
+    // Sync view with URL query param tab=testimonials
+    useEffect(() => {
+        const queryParams = new URLSearchParams(window.location.search)
+        const tab = queryParams.get('tab')
+        if (tab === 'testimonials') {
+            setView('testimonials')
+        }
+    }, [])
+
+    // Load admin testimonials
+    useEffect(() => {
+        const savedVisitorReviews = localStorage.getItem('MANDIRI_visitor_reviews')
+        const deletedInitialIds = JSON.parse(localStorage.getItem('MANDIRI_deleted_initial_ids') || '[]')
+        
+        let visitorList: Testimonial[] = []
+        if (savedVisitorReviews) {
+            try {
+                visitorList = JSON.parse(savedVisitorReviews)
+            } catch (e) {
+                console.error(e)
+            }
+        }
+        
+        const activeInitial = INITIAL_TESTIMONIALS.filter(t => !deletedInitialIds.includes(t.id))
+        setAdminTestimonials([...visitorList, ...activeInitial])
+    }, [view])
+
+    const handleDeleteTestimonial = (id: string) => {
+        const confirmDelete = window.confirm('Apakah Anda yakin ingin menghapus testimoni ini?')
+        if (!confirmDelete) return
+
+        // 1. Remove from visitor reviews
+        const savedVisitorReviews = localStorage.getItem('MANDIRI_visitor_reviews')
+        if (savedVisitorReviews) {
+            try {
+                const visitorList = JSON.parse(savedVisitorReviews) as Testimonial[]
+                const updatedList = visitorList.filter(item => item.id !== id)
+                localStorage.setItem('MANDIRI_visitor_reviews', JSON.stringify(updatedList))
+            } catch (e) {
+                console.error(e)
+            }
+        }
+
+        // 2. Mark initial review as deleted
+        const deletedInitialIds = JSON.parse(localStorage.getItem('MANDIRI_deleted_initial_ids') || '[]')
+        if (!deletedInitialIds.includes(id)) {
+            deletedInitialIds.push(id)
+            localStorage.setItem('MANDIRI_deleted_initial_ids', JSON.stringify(deletedInitialIds))
+        }
+
+        // Update active state
+        setAdminTestimonials(prev => prev.filter(item => item.id !== id))
+        setMessage({ type: 'success', text: 'Testimoni berhasil dihapus!' })
+    }
 
     const [searchTerm, setSearchTerm] = useState('')
     const [isSaving, setIsSaving] = useState(false)
@@ -888,7 +946,7 @@ const AdminBlogManager: React.FC = () => {
     return (
         <div className="admin-dashboard admin-blog-manager">
             <Helmet>
-                <title>{view === 'list' ? 'Blog Manager' : 'Edit Post'} | Mandiri Admin</title>
+                <title>{view === 'list' ? 'Blog Manager' : view === 'testimonials' ? 'Testimonial Manager' : 'Edit Post'} | Mandiri Admin</title>
             </Helmet>
 
             <header className="admin-header">
@@ -896,7 +954,7 @@ const AdminBlogManager: React.FC = () => {
                     <button onClick={() => view === 'list' ? navigate('/admin/dashboard') : setView('list')} className="back-link">
                         <ArrowLeft size={18} />
                     </button>
-                    <h1>{view === 'list' ? 'BLOG MANAGER' : 'EDIT ARTICLE'}</h1>
+                    <h1>{view === 'list' ? 'BLOG MANAGER' : view === 'testimonials' ? 'TESTIMONIAL MANAGER' : 'EDIT ARTICLE'}</h1>
                 </div>
 
                 <div className="admin-user-nav">
@@ -905,6 +963,8 @@ const AdminBlogManager: React.FC = () => {
                             {isSaving ? <Loader2 className="animate-spin" size={16} /> : <Save size={16} />}
                             <span>{isSaving ? 'Deploying...' : 'Deploy Changes'}</span>
                         </button>
+                    ) : view === 'testimonials' ? (
+                        <span style={{ fontSize: '0.85rem', color: '#888', fontWeight: 600 }}>Real-time Sync Active</span>
                     ) : (
                         <button id="admin-save-btn" onClick={handleSavePost} className="save-btn">
                             <Check size={16} />
@@ -1130,7 +1190,165 @@ const AdminBlogManager: React.FC = () => {
 
 
 
-                {view === 'list' ? (
+                {view !== 'editor' && (
+                    <div className="admin-tab-bar" style={{ display: 'flex', gap: '10px', marginBottom: '24px', borderBottom: '1px solid #e2e8f0', paddingBottom: '12px' }}>
+                        <button 
+                            className={`tab-btn ${view === 'list' ? 'active' : ''}`}
+                            onClick={() => setView('list')}
+                            style={{
+                                padding: '8px 16px',
+                                border: 'none',
+                                borderRadius: '6px',
+                                backgroundColor: view === 'list' ? '#004D2C' : 'transparent',
+                                color: view === 'list' ? '#fff' : '#4a5568',
+                                fontWeight: 700,
+                                cursor: 'pointer',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '6px'
+                            }}
+                        >
+                            📰 Blog Posts
+                        </button>
+                        <button 
+                            className={`tab-btn ${view === 'testimonials' ? 'active' : ''}`}
+                            onClick={() => setView('testimonials')}
+                            style={{
+                                padding: '8px 16px',
+                                border: 'none',
+                                borderRadius: '6px',
+                                backgroundColor: view === 'testimonials' ? '#004D2C' : 'transparent',
+                                color: view === 'testimonials' ? '#fff' : '#4a5568',
+                                fontWeight: 700,
+                                cursor: 'pointer',
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '6px'
+                            }}
+                        >
+                            💬 Customer Testimonials
+                        </button>
+                    </div>
+                )}
+
+                {view === 'testimonials' ? (
+                    <div className="admin-testimonials-view" style={{ animation: 'fadeIn 0.5s ease-out' }}>
+                        <div className="admin-stats-bar" style={{ display: 'flex', gap: '20px', padding: '16px', backgroundColor: '#fff', borderRadius: '8px', boxShadow: '0 2px 8px rgba(0,0,0,0.02)', marginBottom: '24px' }}>
+                            <div className="stat-item">
+                                <span className="stat-label" style={{ fontSize: '12px', fontWeight: 700, color: '#666', textTransform: 'uppercase' }}>Total Testimonials</span>
+                                <span className="stat-count" style={{ fontSize: '20px', fontWeight: 800, color: '#004D2C', display: 'block', marginTop: '4px' }}>{adminTestimonials.length}</span>
+                            </div>
+                            <div className="stat-divider" style={{ width: '1px', backgroundColor: '#e2e8f0' }}></div>
+                            <div className="stat-item">
+                                <span className="stat-label" style={{ fontSize: '12px', fontWeight: 700, color: '#666', textTransform: 'uppercase' }}>5-Star Reviews</span>
+                                <span className="stat-count" style={{ fontSize: '20px', fontWeight: 800, color: '#FF5E14', display: 'block', marginTop: '4px' }}>{adminTestimonials.filter(t => t.rating === 5).length}</span>
+                            </div>
+                            <div className="stat-divider" style={{ width: '1px', backgroundColor: '#e2e8f0' }}></div>
+                            <div className="stat-item">
+                                <span className="stat-label" style={{ fontSize: '12px', fontWeight: 700, color: '#666', textTransform: 'uppercase' }}>Visitor Comments</span>
+                                <span className="stat-count" style={{ fontSize: '20px', fontWeight: 800, color: '#3182ce', display: 'block', marginTop: '4px' }}>{adminTestimonials.filter(t => t.isVisitorComment).length}</span>
+                            </div>
+                        </div>
+
+                        <div className="manager-toolbar" style={{ display: 'flex', justifyContent: 'space-between', gap: '20px', marginBottom: '20px', alignItems: 'center' }}>
+                            <div className="search-box" style={{ flex: 1, position: 'relative', display: 'flex', alignItems: 'center' }}>
+                                <Search size={18} style={{ position: 'absolute', left: '12px', color: '#a0aec0' }} />
+                                <input
+                                    type="text"
+                                    placeholder="Search testimonials by name or category..."
+                                    value={testimonialSearchTerm}
+                                    onChange={(e) => setTestimonialSearchTerm(e.target.value)}
+                                    style={{
+                                        width: '100%',
+                                        padding: '12px 16px 12px 40px',
+                                        border: '1px solid #e2e8f0',
+                                        borderRadius: '8px',
+                                        fontSize: '14px',
+                                        outline: 'none',
+                                        backgroundColor: '#fff'
+                                    }}
+                                />
+                            </div>
+                        </div>
+
+                        {/* Testimonials List */}
+                        <div className="testimonials-table-container" style={{ backgroundColor: '#fff', borderRadius: '12px', boxShadow: '0 4px 20px rgba(0,0,0,0.02)', border: '1px solid #f0f2f5', overflow: 'hidden' }}>
+                            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+                                <thead>
+                                    <tr style={{ backgroundColor: '#f8fafc', borderBottom: '1px solid #edf2f7' }}>
+                                        <th style={{ padding: '16px 20px', fontSize: '12px', fontWeight: 700, color: '#4a5568', textTransform: 'uppercase' }}>Customer</th>
+                                        <th style={{ padding: '16px 20px', fontSize: '12px', fontWeight: 700, color: '#4a5568', textTransform: 'uppercase' }}>Rating & Project</th>
+                                        <th style={{ padding: '16px 20px', fontSize: '12px', fontWeight: 700, color: '#4a5568', textTransform: 'uppercase' }}>Comment & Response</th>
+                                        <th style={{ padding: '16px 20px', fontSize: '12px', fontWeight: 700, color: '#4a5568', textTransform: 'uppercase', textAlign: 'center' }}>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {adminTestimonials
+                                        .filter(t => t.name.toLowerCase().includes(testimonialSearchTerm.toLowerCase()) || t.projectType.toLowerCase().includes(testimonialSearchTerm.toLowerCase()))
+                                        .map(item => (
+                                            <tr key={item.id} style={{ borderBottom: '1px solid #edf2f7', transition: 'background-color 0.2s' }} className="table-row-hover">
+                                                <td style={{ padding: '20px', verticalAlign: 'top', minWidth: '150px' }}>
+                                                    <div style={{ fontWeight: 700, color: '#1a202c', fontSize: '14px' }}>{item.name}</div>
+                                                    <div style={{ fontSize: '11px', color: '#a0aec0', marginTop: '4px' }}>{item.date}</div>
+                                                    {item.isVisitorComment && (
+                                                        <span style={{ display: 'inline-block', backgroundColor: '#ebf8ff', color: '#2b6cb0', fontSize: '10px', fontWeight: 800, padding: '2px 6px', borderRadius: '4px', marginTop: '8px', textTransform: 'uppercase' }}>Visitor</span>
+                                                    )}
+                                                </td>
+                                                <td style={{ padding: '20px', verticalAlign: 'top', minWidth: '180px' }}>
+                                                    <div style={{ display: 'flex', gap: '2px', marginBottom: '6px' }}>
+                                                        {Array.from({ length: 5 }).map((_, idx) => (
+                                                            <Star key={idx} size={14} className={idx < item.rating ? 'star-filled' : 'star-empty'} style={{ color: idx < item.rating ? '#FF5E14' : '#e2e8f0', fill: idx < item.rating ? '#FF5E14' : '#e2e8f0' }} />
+                                                        ))}
+                                                    </div>
+                                                    <span style={{ display: 'inline-block', backgroundColor: '#f7fafc', border: '1px solid #e2e8f0', color: '#4a5568', padding: '3px 8px', borderRadius: '4px', fontSize: '11px', fontWeight: 700 }}>
+                                                        {item.projectType}
+                                                    </span>
+                                                </td>
+                                                <td style={{ padding: '20px', verticalAlign: 'top' }}>
+                                                    <p style={{ margin: '0 0 10px 0', fontSize: '14px', fontStyle: 'italic', color: '#4a5568', lineHeight: 1.5 }}>
+                                                        "{item.comment}"
+                                                    </p>
+                                                    {item.response && (
+                                                        <div style={{ backgroundColor: '#f8fafc', borderLeft: '3px solid #004D2C', padding: '10px 14px', borderRadius: '0 6px 6px 0', marginTop: '8px' }}>
+                                                            <div style={{ fontSize: '11px', fontWeight: 800, color: '#004D2C', marginBottom: '4px', textTransform: 'uppercase', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                                                                <MessageSquare size={10} />
+                                                                Bapak Maman Toha (Owner):
+                                                            </div>
+                                                            <p style={{ margin: 0, fontSize: '12.5px', color: '#2d3748', lineHeight: 1.4 }}>{item.response}</p>
+                                                        </div>
+                                                    )}
+                                                </td>
+                                                <td style={{ padding: '20px', verticalAlign: 'middle', textAlign: 'center' }}>
+                                                    <button
+                                                        onClick={() => handleDeleteTestimonial(item.id)}
+                                                        style={{
+                                                            padding: '8px 12px',
+                                                            backgroundColor: '#fff5f5',
+                                                            border: '1px solid #fed7d7',
+                                                            color: '#e53e3e',
+                                                            borderRadius: '6px',
+                                                            cursor: 'pointer',
+                                                            display: 'inline-flex',
+                                                            alignItems: 'center',
+                                                            gap: '6px',
+                                                            fontSize: '13px',
+                                                            fontWeight: 600,
+                                                            transition: 'all 0.2s',
+                                                            borderWidth: '1px'
+                                                        }}
+                                                        className="admin-delete-btn"
+                                                    >
+                                                        <Trash2 size={14} />
+                                                        <span>Delete</span>
+                                                    </button>
+                                                </td>
+                                            </tr>
+                                        ))}
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                ) : view === 'list' ? (
                     <div className="admin-blog-list-view">
                         <div className="admin-stats-bar">
                             <div className="stat-item">

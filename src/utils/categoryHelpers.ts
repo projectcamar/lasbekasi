@@ -9,10 +9,18 @@ import { CATEGORY_MAP } from '../data/categories'
  * Reverse map: category name -> slug
  */
 const REVERSE_CATEGORY_MAP: { [key: string]: string } = {
-  'Cocoa': 'cocoa-products',
-  'Cloves': 'cloves-products',
-  'Cocopeat': 'cocopeat-products',
-  'Agricultural Commodities': 'commodity-export-bekasi',
+  'Kanopi': 'kanopi',
+  'Pagar': 'pagar',
+  'Teralis': 'teralis',
+  'Railing': 'railing',
+  'Konstruksi Baja': 'konstruksi',
+  'Stainless Steel': 'stainless-steel',
+  'Premium': 'premium',
+  'Keamanan Jendela & Pintu': 'keamanan',
+  'Railing Interior': 'interior',
+  'Konstruksi Industri': 'industri',
+  'Layanan Utama': 'layanan-utama',
+  'Best Seller': 'best-seller',
 }
 
 /**
