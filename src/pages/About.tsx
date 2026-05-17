@@ -288,12 +288,79 @@ const About: React.FC = () => {
 
     const t = ABOUT_TRANSLATIONS[language] ?? ABOUT_TRANSLATIONS.id
 
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": language === 'id' ? "Beranda" : "Home",
+                "item": "https://lasbekasi.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": language === 'id' ? "Tentang Kami" : "About Us",
+                "item": "https://lasbekasi.com/about"
+            }
+        ]
+    };
+
+    const aboutPageSchema = {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": t.metaTitle,
+        "description": t.heroDesc,
+        "url": "https://lasbekasi.com/about",
+        "mainEntity": {
+            "@type": ["HomeAndConstructionBusiness", "LocalBusiness", "GeneralContractor"],
+            "name": "Bengkel Las Mandiri",
+            "url": "https://lasbekasi.com/",
+            "telephone": "+6285212078467",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
+                "addressLocality": "Cikarang Barat",
+                "addressRegion": "Jawa Barat",
+                "postalCode": "17320",
+                "addressCountry": "ID"
+            }
+        }
+    };
+
+    const founderSchema = {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Bapak Maman Toha",
+        "gender": "Male",
+        "jobTitle": language === 'id' ? "Pemilik & Kepala Bengkel" : "Owner & Workshop Head",
+        "worksFor": {
+            "@type": "HomeAndConstructionBusiness",
+            "name": "Bengkel Las Mandiri",
+            "url": "https://lasbekasi.com/"
+        },
+        "description": language === 'id' 
+            ? "Bapak Maman Toha adalah pendiri, pemilik, sekaligus kepala mekanik las di Bengkel Las Mandiri Bekasi sejak tahun 1999."
+            : "Mr. Maman Toha is the founder, owner, and welding workshop head at Mandiri Steel Bekasi since 1999.",
+        "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&q=80"
+    };
+
     return (
         <div className="mandiri-about">
             <Helmet>
                 <title>{t.metaTitle}</title>
                 <meta name="description" content={t.metaDesc} />
                 <link rel="canonical" href="https://lasbekasi.com/about" />
+                <script type="application/ld+json">
+                    {JSON.stringify(breadcrumbSchema)}
+                </script>
+                <script type="application/ld+json">
+                    {JSON.stringify(aboutPageSchema)}
+                </script>
+                <script type="application/ld+json">
+                    {JSON.stringify(founderSchema)}
+                </script>
             </Helmet>
 
             <Header />

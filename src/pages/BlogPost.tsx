@@ -177,6 +177,31 @@ const BlogPost: React.FC = () => {
   const localizedUrls = generateLocalizedUrls(location.pathname, location.search)
   const blogSchema = generateBlogPostingSchema(post)
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": language === 'id' ? "Beranda" : "Home",
+        "item": "https://lasbekasi.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://lasbekasi.com/blog"
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "name": post.title,
+        "item": `https://lasbekasi.com/blog/${post.slug}`
+      }
+    ]
+  };
+
   return (
     <div className="mandiri-post">
       <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction }}>
@@ -185,6 +210,7 @@ const BlogPost: React.FC = () => {
         <meta property="og:type" content="article" />
         <meta property="og:image" content={post.image} />
         <script type="application/ld+json">{JSON.stringify(blogSchema)}</script>
+        <script type="application/ld+json">{JSON.stringify(breadcrumbSchema)}</script>
         {localizedUrls.alternates.map(alt => (
           <link key={alt.hrefLang} rel="alternate" hrefLang={alt.hrefLang} href={alt.href} />
         ))}

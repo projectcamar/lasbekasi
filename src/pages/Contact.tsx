@@ -435,6 +435,67 @@ const Contact: React.FC = () => {
   const localeMeta = generateLanguageSpecificMeta(language)
   const localizedUrls = generateLocalizedUrls(location.pathname, location.search)
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": language === 'id' ? "Beranda" : "Home",
+        "item": "https://lasbekasi.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": language === 'id' ? "Hubungi Kami" : "Contact Us",
+        "item": "https://lasbekasi.com/contact"
+      }
+    ]
+  };
+
+  const contactPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": t.meta.title,
+    "description": t.meta.description,
+    "url": "https://lasbekasi.com/contact",
+    "mainEntity": {
+      "@type": ["HomeAndConstructionBusiness", "LocalBusiness", "GeneralContractor"],
+      "name": "Bengkel Las Mandiri",
+      "telephone": "+6285212078467",
+      "email": "info@lasbekasi.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
+        "addressLocality": "Cikarang Barat",
+        "addressRegion": "Jawa Barat",
+        "postalCode": "17320",
+        "addressCountry": "ID"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": -6.2088,
+        "longitude": 107.1602
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "17:00"
+        }
+      ]
+    }
+  };
+
   return (
     <div className="contact-page">
       <Helmet
@@ -442,6 +503,12 @@ const Contact: React.FC = () => {
       >
         <title>{t.meta.title}</title>
         <meta name="description" content={t.meta.description} />
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(contactPageSchema)}
+        </script>
         <meta name="keywords" content={t.meta.keywords} />
         <meta httpEquiv="content-language" content={localeMeta.lang} />
         <link rel="canonical" href={localizedUrls.canonical} />

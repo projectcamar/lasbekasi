@@ -54,21 +54,18 @@ const NaturraHeader: React.FC<NaturraHeaderProps> = ({ isIndonesian = false, lan
   }
 
   const getCurrentLanguageDisplay = () => {
-    const urlLang = getCurrentLanguageFromUrl()
-    if (urlLang) return urlLang.toUpperCase()
-    return isIndonesian ? 'ID' : 'EN'
+    return currentLangCode.toUpperCase()
   }
 
   const getCurrentFlag = () => {
-    const urlLang = getCurrentLanguageFromUrl() || language
-    if (urlLang === 'id') return 'flag-id'
-    if (urlLang === 'ar') return 'flag-ar'
-    if (urlLang === 'zh') return 'flag-zh'
-    if (urlLang === 'ja') return 'flag-ja'
-    if (urlLang === 'es') return 'flag-es'
-    if (urlLang === 'fr') return 'flag-fr'
-    if (urlLang === 'ko') return 'flag-ko'
-    return isIndonesian ? 'flag-id' : 'flag-us'
+    if (currentLangCode === 'id') return 'flag-id'
+    if (currentLangCode === 'ar') return 'flag-ar'
+    if (currentLangCode === 'zh') return 'flag-zh'
+    if (currentLangCode === 'ja') return 'flag-ja'
+    if (currentLangCode === 'es') return 'flag-es'
+    if (currentLangCode === 'fr') return 'flag-fr'
+    if (currentLangCode === 'ko') return 'flag-ko'
+    return 'flag-us'
   }
 
   const toggleLanguage = () => setIsLanguageOpen(!isLanguageOpen)

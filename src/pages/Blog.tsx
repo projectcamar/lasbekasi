@@ -52,6 +52,50 @@ const Blog: React.FC = () => {
   const formatPageNumber = (value: number) =>
     new Intl.NumberFormat(paginationTexts.numberLocale).format(value)
 
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": language === 'id' ? "Beranda" : "Home",
+        "item": "https://lasbekasi.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Blog",
+        "item": "https://lasbekasi.com/blog"
+      }
+    ]
+  };
+
+  const blogSchema = {
+    "@context": "https://schema.org",
+    "@type": "Blog",
+    "name": "Mandiri Steel Blog",
+    "description": "Tips Konstruksi & Inspirasi Desain Las Bekasi",
+    "url": "https://lasbekasi.com/blog",
+    "publisher": {
+      "@type": "HomeAndConstructionBusiness",
+      "name": "Bengkel Las Mandiri",
+      "url": "https://lasbekasi.com/"
+    },
+    "blogPost": posts.map(post => ({
+      "@type": "BlogPosting",
+      "headline": post.title,
+      "description": post.excerpt,
+      "image": post.image,
+      "datePublished": post.date,
+      "author": {
+        "@type": "Person",
+        "name": post.author || "Bapak Maman Toha"
+      },
+      "url": `https://lasbekasi.com/blog/${post.slug}`
+    }))
+  };
+
   return (
     <div className="mandiri-blog">
       <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
@@ -66,6 +110,12 @@ const Blog: React.FC = () => {
         ))}
         {prevUrl && <link rel="prev" href={localizedUrls.canonical + `?page=${currentPage - 1}`} />}
         {nextUrl && <link rel="next" href={localizedUrls.canonical + `?page=${currentPage + 1}`} />}
+        <script type="application/ld+json">
+          {JSON.stringify(breadcrumbSchema)}
+        </script>
+        <script type="application/ld+json">
+          {JSON.stringify(blogSchema)}
+        </script>
       </Helmet>
 
       <NaturraHeader isIndonesian={isIndonesian} language={language} />

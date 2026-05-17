@@ -163,23 +163,27 @@ export const detectLanguageFromIP = async (): Promise<LanguageCode | null> => {
     const chineseCountries = ['CN', 'TW', 'HK', 'SG', 'MO']
     const arabicCountries = ['SA', 'AE', 'KW', 'QA', 'OM', 'BH', 'EG', 'JO', 'LB', 'SY', 'IQ', 'YE', 'MA', 'DZ', 'TN', 'LY', 'SD', 'PS']
     
+    let resolvedLang: LanguageCode | null = null
     if (countryCode === 'ID') {
-      return 'id'
+      resolvedLang = 'id'
     } else if (countryCode === 'KR') {
-      return 'ko'
+      resolvedLang = 'ko'
     } else if (countryCode === 'JP') {
-      return 'ja'
+      resolvedLang = 'ja'
     } else if (frenchCountries.includes(countryCode)) {
-      return 'fr'
+      resolvedLang = 'fr'
     } else if (spanishCountries.includes(countryCode)) {
-      return 'es'
+      resolvedLang = 'es'
     } else if (chineseCountries.includes(countryCode)) {
-      return 'zh'
+      resolvedLang = 'zh'
     } else if (arabicCountries.includes(countryCode)) {
-      return 'ar'
+      resolvedLang = 'ar'
     }
     
-    return null
+    if (resolvedLang) {
+      storeLanguage(resolvedLang)
+    }
+    return resolvedLang
   } catch (error) {
     console.log('IP detection failed')
     return null

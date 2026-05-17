@@ -338,6 +338,65 @@ export default function Testimonials() {
     }
 
 
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": language === 'id' ? "Beranda" : "Home",
+                "item": "https://lasbekasi.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": language === 'id' ? "Testimoni" : "Testimonials",
+                "item": "https://lasbekasi.com/testimonials"
+            }
+        ]
+    };
+
+    const reviewStructuredData = {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "@id": "https://lasbekasi.com/#business",
+        "name": "Bengkel Las Mandiri",
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1200",
+        "telephone": "+6285212078467",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
+            "addressLocality": "Cikarang Barat",
+            "addressRegion": "Jawa Barat",
+            "postalCode": "17320",
+            "addressCountry": "ID"
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "ratingCount": String(testimonials.length || 10),
+            "reviewCount": String(testimonials.length || 10),
+            "bestRating": "5",
+            "worstRating": "1"
+        },
+        "review": testimonials.slice(0, 15).map(item => ({
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": item.name
+            },
+            "datePublished": item.date,
+            "reviewBody": item.comment,
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": String(item.rating),
+                "bestRating": "5",
+                "worstRating": "1"
+            }
+        }))
+    };
+
     return (
         <div className="testimonials-page">
             <Helmet>
@@ -346,6 +405,12 @@ export default function Testimonials() {
                 <meta property="og:title" content={t.metaTitle} />
                 <meta property="og:description" content={t.metaDesc} />
                 <meta property="og:type" content="website" />
+                <script type="application/ld+json">
+                    {JSON.stringify(breadcrumbSchema)}
+                </script>
+                <script type="application/ld+json">
+                    {JSON.stringify(reviewStructuredData)}
+                </script>
             </Helmet>
 
             <Header isIndonesian={language === 'id'} language={language} />

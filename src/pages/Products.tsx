@@ -26,12 +26,67 @@ const Products: React.FC = () => {
         ? ALL_PRODUCTS
         : ALL_PRODUCTS.filter(p => p.categories.some(cat => cat.includes(activeCategory)))
 
+    const breadcrumbSchema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": language === 'id' ? "Beranda" : "Home",
+                "item": "https://lasbekasi.com/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": language === 'id' ? "Layanan" : "Services",
+                "item": "https://lasbekasi.com/products"
+            }
+        ]
+    };
+
+    const itemListSchema = {
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "name": t.pageTitle || 'Katalog Jasa Las Bekasi - Mandiri Steel',
+        "description": t.metaDescription || 'Katalog hasil pengerjaan kanopi, pagar, teralis, dan konstruksi baja dari Mandiri Steel Bekasi.',
+        "numberOfItems": ALL_PRODUCTS.length,
+        "itemListElement": ALL_PRODUCTS.map((product, index) => ({
+            "@type": "ListItem",
+            "position": index + 1,
+            "item": {
+                "@type": "Product",
+                "name": product.name,
+                "description": product.name + " - Jasa Las berkualitas oleh Bengkel Las Mandiri",
+                "image": product.image,
+                "url": `https://lasbekasi.com/products#product-${product.id}`,
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Bengkel Las Mandiri"
+                },
+                "offers": {
+                    "@type": "Offer",
+                    "price": "450000",
+                    "priceCurrency": "IDR",
+                    "availability": "https://schema.org/InStock",
+                    "priceValidUntil": "2026-12-31"
+                }
+            }
+        }))
+    };
+
     return (
         <div className="mandiri-products">
             <Helmet>
                 <title>{t.pageTitle || 'Katalog Jasa Las Bekasi - Mandiri Steel'}</title>
                 <meta name="description" content={t.metaDescription || 'Lihat katalog hasil pengerjaan kanopi, pagar, teralis, dan konstruksi baja dari Mandiri Steel Bekasi.'} />
                 <link rel="canonical" href="https://lasbekasi.com/products" />
+                <script type="application/ld+json">
+                    {JSON.stringify(breadcrumbSchema)}
+                </script>
+                <script type="application/ld+json">
+                    {JSON.stringify(itemListSchema)}
+                </script>
             </Helmet>
 
             <Header />
