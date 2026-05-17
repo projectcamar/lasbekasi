@@ -5,22 +5,23 @@ import NaturraFooter from '../components/NaturraFooter'
 import './NaturraProducts.css'
 
 import { NATURRA_PRODUCTS } from '../data/naturraProducts'
-import { useLanguage } from '../utils/languageContext.tsx'
+import { useLanguage } from '../utils/languageContext'
 import { NATURRA_PRODUCTS_TRANSLATIONS } from '../utils/productsTranslations'
 import { ALL_PRODUCT_TRANSLATIONS } from '../data/productTranslations'
 import type { LanguageCode } from '../utils/languageManager'
 
 const NaturraProducts: React.FC = () => {
     const { language } = useLanguage() as { language: LanguageCode }
-    const t = NATURRA_PRODUCTS_TRANSLATIONS[language] || NATURRA_PRODUCTS_TRANSLATIONS.en
-    const detailTranslations = ALL_PRODUCT_TRANSLATIONS[language] || ALL_PRODUCT_TRANSLATIONS.en
+    const t = NATURRA_PRODUCTS_TRANSLATIONS[language] || NATURRA_PRODUCTS_TRANSLATIONS.id
+    const detailTranslations = ALL_PRODUCT_TRANSLATIONS[language] || ALL_PRODUCT_TRANSLATIONS.id
     const [activeCategory, setActiveCategory] = useState('all')
 
     const CATEGORIES = [
-        { key: 'all', label: t.allProducts },
-        { key: 'cocoa', label: t.cocoaProducts },
-        { key: 'cloves', label: t.clovesProducts },
-        { key: 'cocopeat', label: t.cocopeatProducts },
+        { key: 'all', label: t.allProducts || 'Semua Layanan' },
+        { key: 'kanopi', label: t.cocoaProducts || 'Kanopi' },
+        { key: 'pagar', label: t.clovesProducts || 'Pagar & Gerbang' },
+        { key: 'teralis', label: t.cocopeatProducts || 'Teralis & Railing' },
+        { key: 'konstruksi', label: t.cocopeatDetailTitle || 'Konstruksi Baja' },
     ]
 
     const filteredProducts = activeCategory === 'all'
@@ -36,16 +37,15 @@ const NaturraProducts: React.FC = () => {
     }
 
     const getLocalizedSpec = (_product: any, spec: string, _index: number) => {
-        // You could also localize specs here if needed, or keep as is
         return spec
     }
 
     return (
         <div className="naturra-products">
             <Helmet>
-                <title>{t.pageTitle}</title>
-                <meta name="description" content={t.metaDescription} />
-                <link rel="canonical" href="https://naturraextal.com/products" />
+                <title>{t.pageTitle || 'Katalog Jasa Las Bekasi - Bengkel Las Mandiri'}</title>
+                <meta name="description" content={t.metaDescription || 'Lihat katalog hasil pengerjaan kanopi, pagar, teralis, dan konstruksi baja dari Bengkel Las Mandiri Bekasi.'} />
+                <link rel="canonical" href="https://lasbekasi.com/products" />
             </Helmet>
 
             <NaturraHeader />
@@ -53,14 +53,14 @@ const NaturraProducts: React.FC = () => {
             {/* ===== HERO ===== */}
             <section className="naturra-products__hero">
                 <div className="naturra-products__hero-inner">
-                    <h1 className="naturra-products__hero-title">{t.heroTitle}</h1>
+                    <h1 className="naturra-products__hero-title">{t.heroTitle || 'Katalog Layanan & Produk'}</h1>
                     <p className="naturra-products__hero-subtitle">
-                        {t.heroSubtitle}
+                        {t.heroSubtitle || 'Kami menyediakan berbagai solusi konstruksi besi dan stainless steel berkualitas untuk keindahan dan keamanan hunian Anda.'}
                     </p>
                 </div>
             </section>
 
-            {/* ===== CATEGORY TABS (Barry Callebaut style) ===== */}
+            {/* ===== CATEGORY TABS ===== */}
             <div className="naturra-products__tabs">
                 <div className="naturra-products__tabs-inner">
                     {CATEGORIES.map(cat => (
@@ -75,12 +75,12 @@ const NaturraProducts: React.FC = () => {
                 </div>
             </div>
 
-            {/* ===== MAIN CONTENT WITH SIDEBAR (Barry Callebaut layout) ===== */}
+            {/* ===== MAIN CONTENT ===== */}
             <div className="naturra-products__content">
                 {/* Sidebar Filters */}
                 <aside className="naturra-products__sidebar">
                     <div className="naturra-products__filter-group">
-                        <h3 className="naturra-products__filter-title">{t.filterTitleCategory}</h3>
+                        <h3 className="naturra-products__filter-title">{t.filterTitleCategory || 'Kategori Jasa'}</h3>
                         {CATEGORIES.map(cat => (
                             <label
                                 key={cat.key}
@@ -98,23 +98,25 @@ const NaturraProducts: React.FC = () => {
                     </div>
 
                     <div className="naturra-products__filter-group">
-                        <h3 className="naturra-products__filter-title">{t.filterTitleHS}</h3>
+                        <h3 className="naturra-products__filter-title">{t.qualityTitle || 'Material Unggulan'}</h3>
                         <div className="naturra-products__filter-option">
-                            <span>1805.00.0 — {t.hsPure}</span>
+                            <span>Besi Hollow SNI</span>
                         </div>
                         <div className="naturra-products__filter-option">
-                            <span>1806.00.0 — {t.hsSweet}</span>
+                            <span>Alderon UPVC</span>
+                        </div>
+                        <div className="naturra-products__filter-option">
+                            <span>Stainless Steel 304</span>
                         </div>
                     </div>
 
                     <div className="naturra-products__filter-group">
-                        <h3 className="naturra-products__filter-title">{t.filterTitleApps}</h3>
-                        <div className="naturra-products__filter-option"><span>{t.appConf}</span></div>
-                        <div className="naturra-products__filter-option"><span>{t.appBak}</span></div>
-                        <div className="naturra-products__filter-option"><span>{t.appBev}</span></div>
-                        <div className="naturra-products__filter-option"><span>{t.appHort}</span></div>
-                        <div className="naturra-products__filter-option"><span>{t.appPharm}</span></div>
-                        <div className="naturra-products__filter-option"><span>{t.appInd}</span></div>
+                        <h3 className="naturra-products__filter-title">{t.originTitle || 'Area Layanan'}</h3>
+                        <div className="naturra-products__filter-option"><span>Bekasi Kota</span></div>
+                        <div className="naturra-products__filter-option"><span>Cikarang</span></div>
+                        <div className="naturra-products__filter-option"><span>Tambun</span></div>
+                        <div className="naturra-products__filter-option"><span>Cibitung</span></div>
+                        <div className="naturra-products__filter-option"><span>Setu</span></div>
                     </div>
                 </aside>
 
@@ -141,19 +143,19 @@ const NaturraProducts: React.FC = () => {
                                 </div>
                                 <div className="naturra-products__card-actions">
                                     <a
-                                        href="https://wa.me/6289513957752"
+                                        href="https://wa.me/6285212078467"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="naturra-products__card-btn naturra-products__card-btn--primary"
                                     >
-                                        {t.inquire}
+                                        {t.inquire || 'Tanya Harga'}
                                         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17" /></svg>
                                     </a>
                                     <a
-                                        href="mailto:hello@naturraextal.com"
+                                        href="mailto:info@lasbekasi.com"
                                         className="naturra-products__card-btn naturra-products__card-btn--secondary"
                                     >
-                                        {t.email}
+                                        {t.email || 'Email'}
                                     </a>
                                 </div>
                             </div>
@@ -164,13 +166,13 @@ const NaturraProducts: React.FC = () => {
 
             {/* ===== DETAILED PRODUCT SECTIONS ===== */}
 
-            {/* Cocoa Detail */}
+            {/* Kanopi Detail */}
             <section className="naturra-products__detail-section">
                 <div className="naturra-products__detail-inner">
                     <div className="naturra-products__detail-image">
                         <img
-                            src="https://images.unsplash.com/photo-1613919920110-394ffdc5bfaa?auto=format&fit=crop&q=80&w=800"
-                            alt="Premium Indonesian Cocoa Beans"
+                            src="https://images.unsplash.com/photo-1628744448839-497746416629?w=800&q=80"
+                            alt="Spesialis Kanopi Bekasi"
                             loading="lazy"
                         />
                     </div>
@@ -183,32 +185,32 @@ const NaturraProducts: React.FC = () => {
                         <ul className="naturra-products__detail-specs-list">
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                HS 1805.00.0 — {t.hsPure}
+                                Kanopi Alderon Double & Single Layer
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                HS 1806.00.0 — {t.hsSweet}
+                                Kanopi Kaca Tempered & Polycarbonate
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                {t.originTitle}
+                                Rangka Hollow Galvanis Anti Karat
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                {t.qualityTitle}
+                                Garansi Kebocoran dan Kekuatan Struktur
                             </li>
                         </ul>
                     </div>
                 </div>
             </section>
 
-            {/* Cloves Detail */}
+            {/* Pagar Detail */}
             <section className="naturra-products__detail-section">
                 <div className="naturra-products__detail-inner reverse">
                     <div className="naturra-products__detail-image">
                         <img
-                            src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&q=80"
-                            alt="Premium Indonesian Cloves"
+                            src="https://images.unsplash.com/photo-1505322033502-1f4385692e6a?w=800&q=80"
+                            alt="Pagar Besi Bekasi"
                             loading="lazy"
                         />
                     </div>
@@ -221,32 +223,32 @@ const NaturraProducts: React.FC = () => {
                         <ul className="naturra-products__detail-specs-list">
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                Hand-picked from Maluku &amp; North Sulawesi
+                                Material Besi Hollow SNI & Besi Tempa
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                High essential oil (eugenol) content
+                                Finishing Cat Spray dengan Warna Custom
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                Whole cloves, stems, and essential oil available
+                                Pilihan Pintu Geser, Lipat, atau Ayun
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                Culinary, pharmaceutical &amp; industrial grade
+                                Kualitas Pengelasan Halus dan Presisi
                             </li>
                         </ul>
                     </div>
                 </div>
             </section>
 
-            {/* Cocopeat Detail */}
+            {/* Konstruksi Detail */}
             <section className="naturra-products__detail-section">
                 <div className="naturra-products__detail-inner">
                     <div className="naturra-products__detail-image">
                         <img
-                            src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
-                            alt="Indonesian Cocopeat"
+                            src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80"
+                            alt="Konstruksi Baja Bekasi"
                             loading="lazy"
                         />
                     </div>
@@ -259,19 +261,19 @@ const NaturraProducts: React.FC = () => {
                         <ul className="naturra-products__detail-specs-list">
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                Sourced from Surabaya, East Java
+                                Pengerjaan Struktur Baja WF (Wide Flange)
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                Eco-friendly &amp; sustainable growing medium
+                                Mezanin Besi untuk Ruko dan Kantor
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                Available in 5kg blocks and loose bulk
+                                Lapangan Futsal & Canopy Area Parkir Luas
                             </li>
                             <li>
                                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><polyline points="20 6 9 17 4 12" /></svg>
-                                Washed, buffered, low EC
+                                Tim Ahli Berpengalaman di Bekasi
                             </li>
                         </ul>
                     </div>
@@ -282,26 +284,26 @@ const NaturraProducts: React.FC = () => {
             <section className="naturra-products__cta">
                 <div className="naturra-products__cta-inner">
                     <h2 className="naturra-products__cta-title">
-                        {t.ctaTitle}
+                        {t.ctaTitle || 'Tertarik dengan Layanan Kami?'}
                     </h2>
                     <p className="naturra-products__cta-desc">
-                        {t.ctaDesc}
+                        {t.ctaDesc || 'Hubungi kami untuk konsultasi gratis dan survei lokasi di wilayah Bekasi dan sekitarnya.'}
                     </p>
                     <div className="naturra-products__cta-actions">
                         <a
-                            href="https://wa.me/6289513957752"
+                            href="https://wa.me/6285212078467"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="naturra-products__cta-btn naturra-products__cta-btn--white"
                         >
-                            {t.whatsappUs}
+                            {t.whatsappUs || 'WhatsApp Kami'}
                             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17" /></svg>
                         </a>
                         <a
-                            href="mailto:hello@naturraextal.com"
+                            href="mailto:info@lasbekasi.com"
                             className="naturra-products__cta-btn naturra-products__cta-btn--outline"
                         >
-                            {t.emailUs}
+                            {t.emailUs || 'Email Kami'}
                         </a>
                     </div>
                 </div>

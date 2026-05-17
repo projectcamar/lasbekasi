@@ -1,303 +1,349 @@
-/* Blog Page Styles */
+/* ============================================
+   MANDIRI STEEL - BLOG LISTING STYLES
+   Design: Industrial & Informative
+   ============================================ */
 
-/* Hero Section */
-.blog-hero {
-  position: relative;
-  width: 100%;
-  height: 400px;
-  overflow: hidden;
+.mandiri-blog {
+    background: #fff;
 }
 
-.blog-hero-image {
-  position: relative;
-  width: 100%;
-  height: 100%;
+/* ---- HERO ---- */
+.mandiri-blog__hero {
+    position: relative;
+    height: 400px;
+    margin-top: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.blog-hero-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
+.mandiri-blog__hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.blog-hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+.mandiri-blog__hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.blog-hero-content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  z-index: 2;
-  width: 100%;
+.mandiri-blog__hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.7));
 }
 
-.blog-hero-title {
-  font-size: 4rem;
-  font-weight: 300;
-  color: white;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  margin: 0;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+.mandiri-blog__hero-content {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #fff;
+    padding: 0 2rem;
 }
 
-/* Blog Content Section */
-.blog-content-section {
-  padding: 80px 0;
-  background: #ffffff;
+.mandiri-blog__hero-title {
+    font-size: 3.5rem;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+    letter-spacing: -0.02em;
 }
 
-.blog-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 20px;
+.mandiri-blog__hero-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    font-weight: 500;
 }
 
-.blog-main-title {
-  font-size: 2.5rem;
-  font-weight: 300;
-  text-align: center;
-  margin-bottom: 60px;
-  color: #2c3e50;
-  letter-spacing: 0.05em;
+/* ---- INTRO ---- */
+.mandiri-blog__intro {
+    padding: 5rem 0;
+    background: #f9f9f9;
 }
 
-/* Blog Grid */
-.blog-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
-  margin-bottom: 60px;
+.mandiri-blog__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
-.blog-card {
-  background: #fff;
-  transition: all 0.3s ease;
-  position: relative;
-  overflow: hidden;
+.mandiri-blog__intro-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
 }
 
-.blog-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+.mandiri-blog__intro-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 1.5rem;
+    line-height: 1.2;
 }
 
-.blog-card-link {
-  text-decoration: none;
-  color: inherit;
-  display: block;
+.mandiri-blog__intro-paragraph {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #555;
 }
 
-.blog-card-image {
-  position: relative;
-  width: 100%;
-  height: 250px;
-  overflow: hidden;
+.mandiri-blog__intro-bullets {
+    display: grid;
+    gap: 1.5rem;
 }
 
-.blog-card-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transition: transform 0.5s ease;
+.mandiri-blog__bullet {
+    display: flex;
+    gap: 1rem;
 }
 
-.blog-card:hover .blog-card-image img {
-  transform: scale(1.1);
+.mandiri-blog__bullet-dot {
+    width: 12px;
+    height: 12px;
+    background: #004D2C;
+    margin-top: 6px;
+    flex-shrink: 0;
 }
 
-.blog-card-badge {
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  background: rgba(255, 255, 255, 0.95);
-  color: #2c3e50;
-  padding: 6px 16px;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  z-index: 1;
+.mandiri-blog__bullet-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 0.25rem 0;
 }
 
-.blog-card-content {
-  padding: 25px 20px;
+.mandiri-blog__bullet-desc {
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
 }
 
-.blog-card-category {
-  display: inline-block;
-  color: #7f8c8d;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.1em;
-  margin-bottom: 12px;
+/* ---- FEED ---- */
+.mandiri-blog__feed {
+    padding: 5rem 0;
 }
 
-.blog-card-title {
-  font-size: 1.1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #2c3e50;
-  margin: 0;
-  transition: color 0.3s ease;
+.mandiri-blog__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
 }
 
-.blog-card:hover .blog-card-title {
-  color: #8B7355;
+.mandiri-blog__card {
+    background: #fff;
+    border: 1px solid #eee;
+    transition: all 0.3s;
 }
 
-/* Pagination */
-.blog-pagination {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-  margin-top: 60px;
-  flex-wrap: wrap;
+.mandiri-blog__card:hover {
+    box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+    border-color: #004D2C;
+    transform: translateY(-5px);
 }
 
-.pagination-ellipsis {
-  padding: 10px 8px;
-  color: #636e72;
-  font-weight: 600;
-  user-select: none;
-  cursor: default;
+.mandiri-blog__card-image {
+    position: relative;
+    height: 280px;
+    overflow: hidden;
 }
 
-.pagination-btn {
-  padding: 10px 20px;
-  border: 1px solid #ddd;
-  background: #fff;
-  color: #2c3e50;
-  font-size: 0.9rem;
-  font-weight: 500;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  letter-spacing: 0.05em;
-  
+.mandiri-blog__card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s;
 }
 
-.pagination-btn:hover {
-  background: #2c2c2c;
-  color: #fff;
-  border-color: #2c2c2c;
+.mandiri-blog__card:hover .mandiri-blog__card-image img {
+    transform: scale(1.05);
 }
 
-.pagination-btn.active {
-  background: #2c2c2c;
-  color: #fff;
-  border-color: #2c2c2c;
+.mandiri-blog__card-category {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #004D2C;
+    color: #fff;
+    font-size: 0.75rem;
+    font-weight: 700;
+    padding: 6px 12px;
+    text-transform: uppercase;
 }
 
-.pagination-prev,
-.pagination-next {
-  text-transform: capitalize;
+.mandiri-blog__card-body {
+    padding: 2rem;
 }
 
-/* Responsive Design */
-@media (max-width: 1200px) {
-  .blog-grid {
+.mandiri-blog__card-meta {
+    font-size: 0.85rem;
+    color: #999;
+    margin-bottom: 0.75rem;
+}
+
+.mandiri-blog__card-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 1rem 0;
+    line-height: 1.3;
+}
+
+.mandiri-blog__card-title a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.mandiri-blog__card-excerpt {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.mandiri-blog__card-link {
+    font-weight: 700;
+    color: #004D2C;
+    text-decoration: none;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mandiri-blog__card-link:after {
+    content: '→';
+}
+
+/* ---- PAGINATION ---- */
+.mandiri-blog__pagination {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.mandiri-blog__pagination-btn {
+    padding: 0.75rem 1.5rem;
+    border: 1px solid #eee;
+    color: #111;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.mandiri-blog__pagination-btn.disabled {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.mandiri-blog__pagination-numbers {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.mandiri-blog__pagination-num {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eee;
+    text-decoration: none;
+    color: #111;
+    font-weight: 600;
+}
+
+.mandiri-blog__pagination-num.active {
+    background: #004D2C;
+    color: #fff;
+    border-color: #004D2C;
+}
+
+/* ---- ARCHIVE ---- */
+.mandiri-blog__archive {
+    margin-top: 5rem;
+    border-top: 1px solid #eee;
+    padding-top: 3rem;
+}
+
+.mandiri-blog__archive-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 0;
+}
+
+.mandiri-blog__archive-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+}
+
+.mandiri-blog__archive-grid {
+    margin-top: 2rem;
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
-  }
+    gap: 1rem;
+}
+
+.mandiri-blog__archive-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid #f5f5f5;
+    text-decoration: none;
+    transition: background 0.2s;
+}
+
+.mandiri-blog__archive-item:hover {
+    background: #f9f9f9;
+}
+
+.mandiri-blog__archive-date {
+    font-size: 0.75rem;
+    color: #999;
+    margin-bottom: 0.25rem;
+}
+
+.mandiri-blog__archive-link-title {
+    font-size: 0.9rem;
+    color: #333;
+    font-weight: 500;
+    line-height: 1.4;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 1024px) {
+    .mandiri-blog__intro-grid { grid-template-columns: 1fr; gap: 2rem; }
+    .mandiri-blog__archive-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 768px) {
-  .blog-hero {
-    height: 300px;
-  }
-
-  .blog-hero-title {
-    font-size: 2.5rem;
-  }
-
-  .blog-content-section {
-    padding: 50px 0;
-  }
-
-  .blog-main-title {
-    font-size: 1.8rem;
-    margin-bottom: 40px;
-  }
-
-  .blog-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 20px;
-  }
-
-  .blog-card-image {
-    height: 200px;
-  }
-
-  .blog-pagination {
-    flex-wrap: wrap;
-    gap: 6px;
-    justify-content: center;
-  }
-
-  .pagination-btn {
-    padding: 8px 15px;
-    font-size: 0.85rem;
-    min-width: 40px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .pagination-number {
-    display: inline-flex !important;
-  }
-
-  .pagination-ellipsis {
-    display: inline-block !important;
-    padding: 8px 4px;
-  }
+    .mandiri-blog__hero { height: 300px; margin-top: 80px; }
+    .mandiri-blog__hero-title { font-size: 2.5rem; }
+    .mandiri-blog__grid { grid-template-columns: 1fr; }
+    .mandiri-blog__card-image { height: 220px; }
 }
 
 @media (max-width: 480px) {
-  .blog-hero-title {
-    font-size: 2rem;
-    letter-spacing: 0.1em;
-  }
-
-  .blog-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .blog-card-image {
-    height: 220px;
-  }
-
-  .blog-pagination {
-    flex-wrap: wrap;
-    gap: 6px;
-    justify-content: center;
-  }
-
-  .pagination-btn {
-    padding: 8px 12px;
-    font-size: 0.8rem;
-    min-width: 36px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .pagination-number {
-    display: inline-flex !important;
-  }
-
-  .pagination-ellipsis {
-    display: inline-block !important;
-    padding: 8px 4px;
-  }
+    .mandiri-blog__archive-grid { grid-template-columns: 1fr; }
 }
-
-

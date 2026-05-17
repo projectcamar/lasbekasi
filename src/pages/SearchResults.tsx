@@ -38,137 +38,137 @@ const SEARCH_TRANSLATIONS: Record<
     loading: 'Memuat...',
     headingWithQuery: (query) => `Hasil Pencarian untuk "${query}"`,
     headingWithoutQuery: 'Hasil Pencarian',
-    subtitle: 'Telusuri agricultural commodities custom Naturra Extal dengan kata kunci favorit Anda.',
+    subtitle: 'Cari dan temukan layanan las, kanopi, pagar, dan konstruksi besi kustom dari Mandiri Steel Bekasi.',
     languageAdjusting: 'Menyesuaikan preferensi bahasa…',
-    resultsCount: (count) => `${count} produk ditemukan`,
-    noResultsWithQuery: (query) => `Tidak ada produk ditemukan untuk "${query}". Coba kata kunci lain.`,
-    noResultsWithoutQuery: 'Tidak ada produk ditemukan.',
+    resultsCount: (count) => `${count} hasil ditemukan`,
+    noResultsWithQuery: (query) => `Tidak ada layanan ditemukan untuk "${query}". Coba kata kunci lain.`,
+    noResultsWithoutQuery: 'Tidak ada produk atau layanan ditemukan.',
     sortDefault: 'Urutkan: Relevansi',
     sortPriceLow: 'Harga: Rendah ke Tinggi',
     sortPriceHigh: 'Harga: Tinggi ke Rendah',
     home: 'Beranda',
-    pageTitle: (query) => (query ? `Pencarian: ${query} - Naturra Extal` : 'Pencarian - Naturra Extal'),
+    pageTitle: (query) => (query ? `Pencarian: ${query} - Mandiri Steel` : 'Pencarian - Mandiri Steel'),
     metaDescription: (query, hasQuery) =>
-      hasQuery ? `Hasil pencarian untuk ${query}` : 'Hasil pencarian produk Naturra Extal.'
+      hasQuery ? `Hasil pencarian untuk "${query}" - Mandiri Steel` : 'Cari layanan pengelasan & fabrikasi baja berkualitas di Mandiri Steel.'
   },
   en: {
     loading: 'Loading...',
     headingWithQuery: (query) => `Search Results for "${query}"`,
     headingWithoutQuery: 'Search Results',
-    subtitle: 'Discover Naturra Extal industrial custom furniture based on your preferred keywords.',
+    subtitle: 'Search and find custom welding, canopy, gate, and structural steel fabrication services by Mandiri Steel Bekasi.',
     languageAdjusting: 'Adjusting language preference…',
     resultsCount: (count) => `${count} results found`,
-    noResultsWithQuery: (query) => `No products found for "${query}". Try a different search term.`,
-    noResultsWithoutQuery: 'No products found.',
+    noResultsWithQuery: (query) => `No services found for "${query}". Try a different search term.`,
+    noResultsWithoutQuery: 'No services found.',
     sortDefault: 'Sort by: Relevance',
     sortPriceLow: 'Price: Low to High',
     sortPriceHigh: 'Price: High to Low',
     home: 'Home',
-    pageTitle: (query) => (query ? `Search: ${query} - Naturra Extal` : 'Search - Naturra Extal'),
+    pageTitle: (query) => (query ? `Search: ${query} - Mandiri Steel` : 'Search - Mandiri Steel'),
     metaDescription: (query, hasQuery) =>
-      hasQuery ? `Search results for ${query}` : 'Search results for Naturra Extal products.'
+      hasQuery ? `Search results for "${query}" - Mandiri Steel` : 'Search premium welding and custom steel fabrication services by Mandiri Steel.'
   },
   ar: {
     loading: 'جارٍ التحميل...',
     headingWithQuery: (query) => `نتائج البحث عن "${query}"`,
     headingWithoutQuery: 'نتائج البحث',
-    subtitle: 'اكتشف أثاث Naturra Extal الصناعي المخصص حسب كلماتك المفتاحية المفضلة.',
+    subtitle: 'ابحث واعثر على خدمات اللحام المخصصة، المظلات، البوابات، وتصنيع الفولاذ الهيكلي من مانديري ستيل.',
     languageAdjusting: 'جارٍ ضبط تفضيل اللغة…',
     resultsCount: (count) => `${count} نتيجة`,
-    noResultsWithQuery: (query) => `لم يتم العثور على منتجات لـ "${query}". جرّب مصطلحاً آخر.`,
-    noResultsWithoutQuery: 'لم يتم العثور على منتجات.',
+    noResultsWithQuery: (query) => `لم يتم العثور على خدمات لـ "${query}". جرّب مصطلحاً آخر.`,
+    noResultsWithoutQuery: 'لم يتم العثور على خدمات.',
     sortDefault: 'ترتيب: الصلة',
     sortPriceLow: 'السعر: من الأقل إلى الأعلى',
     sortPriceHigh: 'السعر: من الأعلى إلى الأقل',
     home: 'الصفحة الرئيسية',
-    pageTitle: (query) => (query ? `بحث: ${query} - Naturra Extal` : 'بحث - Naturra Extal'),
+    pageTitle: (query) => (query ? `بحث: ${query} - مانديري ستيل` : 'بحث - مانديري ستيل'),
     metaDescription: (query, hasQuery) =>
-      hasQuery ? `نتائج البحث عن ${query}` : 'نتائج البحث عن منتجات Naturra Extal.'
+      hasQuery ? `نتائج البحث عن ${query} - مانديري ستيل` : 'ابحث عن خدمات اللحام الممتازة وتصنيع الفولاذ المخصص من مانديري ستيل.'
   },
   zh: {
     loading: '加载中...',
     headingWithQuery: (query) => `搜索 “${query}” 的结果`,
     headingWithoutQuery: '搜索结果',
-    subtitle: '根据关键词探索 Naturra Extal 的工业风定制家具。',
+    subtitle: '搜索并查找勿加泗 Mandiri Steel 提供的定制焊接、雨棚、大门和钢结构制造服务。',
     languageAdjusting: '正在调整语言偏好…',
     resultsCount: (count) => `共找到 ${count} 个结果`,
-    noResultsWithQuery: (query) => `未找到与 “${query}” 匹配的产品。请尝试其他关键词。`,
-    noResultsWithoutQuery: '未找到产品。',
+    noResultsWithQuery: (query) => `未找到与 “${query}” 匹配的定制服务。请尝试其他关键词。`,
+    noResultsWithoutQuery: '未找到定制服务。',
     sortDefault: '排序：相关度',
     sortPriceLow: '价格：从低到高',
     sortPriceHigh: '价格：从高到低',
     home: '首页',
-    pageTitle: (query) => (query ? `搜索: ${query} - Naturra Extal` : '搜索 - Naturra Extal'),
+    pageTitle: (query) => (query ? `搜索: ${query} - Mandiri Steel` : '搜索 - Mandiri Steel'),
     metaDescription: (query, hasQuery) =>
-      hasQuery ? `关于 ${query} 的搜索结果` : 'Naturra Extal 产品的搜索结果。'
+      hasQuery ? `关于 ${query} 的搜索结果 - Mandiri Steel` : '搜索勿加泗 Mandiri Steel 提供的定制焊接与钢结构制造服务。'
   },
   ja: {
     loading: '読み込み中...',
     headingWithQuery: (query) => `「${query}」の検索結果`,
     headingWithoutQuery: '検索結果',
-    subtitle: 'お好みのキーワードで Naturra Extal の工業系カスタム家具を見つけましょう。',
+    subtitle: 'Bekasi の Mandiri Steel が提供するカスタム溶接、キャノピー、ゲート、鉄骨構造物製造サービスを検索して見つけましょう。',
     languageAdjusting: '言語設定を調整しています…',
     resultsCount: (count) => `${count} 件が見つかりました`,
-    noResultsWithQuery: (query) => `「${query}」に一致する商品は見つかりませんでした。別のキーワードでお試しください。`,
-    noResultsWithoutQuery: '商品が見つかりません。',
+    noResultsWithQuery: (query) => `「${query}」に一致するサービスは見つかりませんでした。別のキーワードでお試しください。`,
+    noResultsWithoutQuery: 'サービスが見つかりません。',
     sortDefault: '並び替え: 関連度',
     sortPriceLow: '価格: 低い順',
     sortPriceHigh: '価格: 高い順',
     home: 'ホーム',
-    pageTitle: (query) => (query ? `検索: ${query} - Naturra Extal` : '検索 - Naturra Extal'),
+    pageTitle: (query) => (query ? `検索: ${query} - Mandiri Steel` : '検索 - Mandiri Steel'),
     metaDescription: (query, hasQuery) =>
-      hasQuery ? `${query} の検索結果` : 'Naturra Extal の商品の検索結果。'
+      hasQuery ? `${query} の検索結果 - Mandiri Steel` : 'Bekasi の Mandiri Steel が提供するプレミアム溶接およびカスタム鋼構造物製造サービス。'
   },
   es: {
     loading: 'Cargando...',
     headingWithQuery: (query) => `Resultados de búsqueda para "${query}"`,
     headingWithoutQuery: 'Resultados de búsqueda',
-    subtitle: 'Descubre los muebles industriales personalizados de Naturra Extal según tus palabras clave.',
+    subtitle: 'Busque y encuentre servicios de soldadura personalizada, doseles, portones y fabricación de acero estructural de Mandiri Steel Bekasi.',
     languageAdjusting: 'Ajustando la preferencia de idioma…',
     resultsCount: (count) => `${count} resultados encontrados`,
-    noResultsWithQuery: (query) => `No se encontraron productos para "${query}". Intenta con otro término.`,
-    noResultsWithoutQuery: 'No se encontraron productos.',
+    noResultsWithQuery: (query) => `No se encontraron servicios para "${query}". Intenta con otro término.`,
+    noResultsWithoutQuery: 'No se encontraron servicios.',
     sortDefault: 'Ordenar por: Relevancia',
     sortPriceLow: 'Precio: de menor a mayor',
     sortPriceHigh: 'Precio: de mayor a menor',
     home: 'Inicio',
-    pageTitle: (query) => (query ? `Búsqueda: ${query} - Naturra Extal` : 'Búsqueda - Naturra Extal'),
+    pageTitle: (query) => (query ? `Búsqueda: ${query} - Mandiri Steel` : 'Búsqueda - Mandiri Steel'),
     metaDescription: (query, hasQuery) =>
-      hasQuery ? `Resultados de búsqueda para ${query}` : 'Resultados de búsqueda de productos Naturra Extal.'
+      hasQuery ? `Resultados de búsqueda para ${query} - Mandiri Steel` : 'Busque servicios premium de soldadura y fabricación de acero de Mandiri Steel.'
   },
   fr: {
     loading: 'Chargement...',
     headingWithQuery: (query) => `Résultats de recherche pour « ${query} »`,
     headingWithoutQuery: 'Résultats de recherche',
-    subtitle: 'Découvrez le mobilier industriel sur mesure Naturra Extal selon vos mots-clés préférés.',
+    subtitle: 'Recherchez et trouvez des services de soudage sur mesure, d\'auvents, de portails et de fabrication d\'acier de Mandiri Steel Bekasi.',
     languageAdjusting: 'Ajustement de la langue…',
     resultsCount: (count) => `${count} résultats trouvés`,
-    noResultsWithQuery: (query) => `Aucun produit trouvé pour « ${query} ». Essayez un autre terme de recherche.`,
-    noResultsWithoutQuery: 'Aucun produit trouvé.',
+    noResultsWithQuery: (query) => `Aucun service trouvé pour « ${query} ». Essayez un autre terme de recherche.`,
+    noResultsWithoutQuery: 'Aucun service trouvé.',
     sortDefault: 'Trier par : Pertinence',
     sortPriceLow: 'Prix : du plus bas au plus élevé',
     sortPriceHigh: 'Prix : du plus élevé au plus bas',
     home: 'Accueil',
-    pageTitle: (query) => (query ? `Recherche : ${query} - Naturra Extal` : 'Recherche - Naturra Extal'),
+    pageTitle: (query) => (query ? `Recherche : ${query} - Mandiri Steel` : 'Recherche - Mandiri Steel'),
     metaDescription: (query, hasQuery) =>
-      hasQuery ? `Résultats de recherche pour ${query}` : 'Résultats de recherche des produits Naturra Extal.'
+      hasQuery ? `Résultats de recherche pour ${query} - Mandiri Steel` : 'Recherchez des services de soudure personnalisés et de fabrication d\'acier de Mandiri Steel.'
   },
   ko: {
     loading: '로딩 중...',
     headingWithQuery: (query) => `"${query}" 검색 결과`,
     headingWithoutQuery: '검색 결과',
-    subtitle: '원하는 키워드로 Naturra Extal 산업용 맞춤 가구를 찾아보세요.',
+    subtitle: 'Bekasi의 Mandiri Steel이 제공하는 맞춤형 용접, 캐노피, 대문 및 철골 구조물 제작 서비스를 검색해 보세요.',
     languageAdjusting: '언어 환경을 조정하는 중…',
     resultsCount: (count) => `${count}개의 결과`,
-    noResultsWithQuery: (query) => `"${query}"에 대한 상품이 없습니다. 다른 검색어를 시도해 주세요.`,
-    noResultsWithoutQuery: '상품을 찾을 수 없습니다.',
+    noResultsWithQuery: (query) => `"${query}"에 대한 서비스가 없습니다. 다른 검색어를 시도해 주세요.`,
+    noResultsWithoutQuery: '서비스를 찾을 수 없습니다.',
     sortDefault: '정렬: 관련도',
     sortPriceLow: '가격: 낮은 순',
     sortPriceHigh: '가격: 높은 순',
     home: '홈',
-    pageTitle: (query) => (query ? `검색: ${query} - Naturra Extal` : '검색 - Naturra Extal'),
+    pageTitle: (query) => (query ? `검색: ${query} - Mandiri Steel` : '검색 - Mandiri Steel'),
     metaDescription: (query, hasQuery) =>
-      hasQuery ? `${query} 검색 결과` : 'Naturra Extal 상품 검색 결과.'
+      hasQuery ? `${query} 검색 결과 - Mandiri Steel` : 'Bekasi Mandiri Steel의 프리미엄 맞춤형 용접 및 철강 제조 서비스 검색 결과.'
   }
 }
 
@@ -471,14 +471,14 @@ function SearchResults() {
               return (
                 <Link
                   key={product.id}
-                  to={`/product/${product.slug}`}
+                  to="/products"
                   className="product-card"
                 >
                   <div className="product-image">
                     <img
                       src={product.image}
-                      alt={`${translatedName} - Agricultural Commodities ${product.category} Search Results Naturra Extal`}
-                      title={`${translatedName} - ${product.category} Agricultural Commodities - Naturra Extal`}
+                      alt={`${translatedName} - Jasa Las & Konstruksi ${product.category} Mandiri Steel Bekasi`}
+                      title={`${translatedName} - ${product.category} Mandiri Steel Bekasi`}
                       loading="lazy"
                       width="300"
                       height="200"

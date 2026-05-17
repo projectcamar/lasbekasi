@@ -1,74 +1,66 @@
 export const PRODUCT_DESCRIPTIONS_ES: Record<string, any> = {
-    'cocoa-powder-pure': {
-        name: 'Cacao en Polvo Puro',
-        caption: 'Cacao en Polvo Puro de Indonesia | Naturra Extal Internacional',
-        shortCaption: 'Cacao en Polvo Puro - HS 1805.00.0',
-        description: `Premium pure cocoa powder (HS 1805.00.0) sourced from the finest Indonesian beans. Ideal for global confectionery and industrial food manufacturing.`,
-        metaDescription: 'Cacao en Polvo Puro Premium de Indonesia | Naturra Extal',
-        imageAlt: 'Cacao en Polvo Puro de Naturra Extal'
+    'kanopi-minimalis-alderon': {
+        name: 'Toldilla Alderon Minimalista',
+        caption: 'Toldilla Alderon Minimalista Bekasi | Mandiri Steel',
+        shortCaption: 'Toldilla Alderon - Fresca y Duradera',
+        description: `Las toldillas con techos Alderon son la mejor opción para el clima cálido de Bekasi. El material UPVC de Alderon reduce muy bien el calor y el ruido de la lluvia.`,
+        metaDescription: 'Servicio de instalación de toldillas Alderon Bekasi | Mandiri Steel',
+        imageAlt: 'Toldilla Alderon por Mandiri Steel'
     },
-    'cocoa-powder-sweetened': {
-        name: 'Cacao en Polvo Endulzado',
-        caption: 'Mezcla de Cacao en Polvo Endulzado | Calidad de Exportación Naturra Extal',
-        shortCaption: 'Cacao en Polvo Endulzado - HS 1806.00.0',
-        description: `Balanced blend of premium cocoa and sweetener (HS 1806.00.0), ready for international food applications.`,
-        metaDescription: 'Cacao en Polvo Endulzado - HS 1806.00.0 | Naturra Extal',
-        imageAlt: 'Cacao en Polvo Endulzado de Naturra Extal'
+    'kanopi-kaca-tempered': {
+        name: 'Toldilla de Vidrio Templado',
+        caption: 'Toldilla de Vidrio Templado de Lujo | Diseño Exclusivo por Mandiri Steel',
+        shortCaption: 'Toldilla de Vidrio - Moderna y Lujosa',
+        description: `Aporta una impresión lujosa y moderna a su hogar. Nuestras toldillas de vidrio templado utilizan vidrio de 8 mm o 10 mm de espesor, seguro y robusto.`,
+        metaDescription: 'Servicio de fabricación de toldillas de vidrio templado Bekasi | Mandiri Steel',
+        imageAlt: 'Toldilla de vidrio templado por Mandiri Steel'
     },
-    'cocoa-beans-raw': {
-        name: 'Granos de Cacao (Crudos)',
-        caption: 'Granos de Cacao Fermentados de Sulawesi y Sumatra | Naturra Extal',
-        shortCaption: 'Granos de Cacao Crudos - Fermentado Premium',
-        description: `Hand-selected raw cocoa beans from Indonesia, fermented and sun-dried for a rich flavor profile.`,
-        metaDescription: 'Granos de Cacao Fermentados de Indonesia | Naturra Extal',
-        imageAlt: 'Granos de Cacao de Naturra Extal'
+    'pagar-minimalis-modern': {
+        name: 'Cerca Moderna Minimalista',
+        caption: 'Cerca de Hierro Minimalista Bekasi | Mandiri Steel',
+        shortCaption: 'Cerca Minimalista - Segura y Estética',
+        description: `Nuestras cercas minimalistas están diseñadas para proporcionar la máxima seguridad sin comprometer la estética. Uso de hierro hueco galvanizado resistente al óxido.`,
+        metaDescription: 'Taller de soldadura de cercas minimalistas Bekasi | Mandiri Steel',
+        imageAlt: 'Cerca de hierro moderna minimalista por Mandiri Steel'
     },
-    'cocoa-butter': {
-        name: 'Manteca de Cacao',
-        caption: 'Manteca de Cacao Pura de Indonesia | Naturra Extal',
-        shortCaption: 'Manteca de Cacao Pura - Extracción Premium',
-        description: `High-quality cocoa butter extracted from premium Indonesian beans for chocolate, cosmetics, and pharmaceuticals.`,
-        metaDescription: 'Manteca de Cacao Pura de Indonesia | Calidad Premium | Naturra Extal',
-        imageAlt: 'Manteca de Cacao de Naturra Extal'
+    'pagar-besi-tempa-klasik': {
+        name: 'Cerca de Hierro Forjado Clásica',
+        caption: 'Cerca de Lujo de Hierro Forjado Clásica | Mandiri Steel Bekasi',
+        shortCaption: 'Cerca Clásica - Ornamentos de Lujo',
+        description: `La elección ideal para casas de estilo clásico o mediterráneo. Nuestras cercas de hierro forjado utilizan hierro macizo con diversos ornamentos.`,
+        metaDescription: 'Servicio de fabricación de cercas de hierro forjado clásicas Bekasi | Mandiri Steel',
+        imageAlt: 'Cerca de hierro forjado clásica por Mandiri Steel'
     },
-    'cloves-whole': {
-        name: 'Clavo de Olor (Entero)',
-        caption: 'Clavo de Olor Premium de Indonesia | Naturra Extal',
-        shortCaption: 'Clavo Entero Premium - Alto Contenido de Aceite',
-        description: `Premium hand-picked whole cloves from the Spice Islands, ensuring high eugenol content and intense aroma.`,
-        metaDescription: 'Clavo de Olor Premium de Indonesia | Naturra Extal',
-        imageAlt: 'Clavo de Olor de Naturra Extal'
+    'teralis-jendela-minimalis': {
+        name: 'Reja de Ventana Minimalista',
+        caption: 'Reja de Ventana Antirrobo Bekasi | Mandiri Steel',
+        shortCaption: 'Reja de Ventana - Seguridad Primaria',
+        description: `Nuestras rejas de ventana sirven como seguridad adicional para su hogar. Fabricadas en hierro macizo robusto o tubos huecos.`,
+        metaDescription: 'Servicio de instalación de rejas de ventana Bekasi | Mandiri Steel',
+        imageAlt: 'Reja de ventana minimalista por Mandiri Steel'
     },
-    'cloves-stems': {
-        name: 'Tallos de Clavo',
-        caption: 'Tallos de Clavo para Uso Industrial | Naturra Extal',
-        shortCaption: 'Tallos de Clavo - Suministro Industrial',
-        description: `Quality clove stems ideal for essential oil extraction and industrial applications.`,
-        metaDescription: 'Tallos de Clavo de Olor de Indonesia | Naturra Extal',
-        imageAlt: 'Tallos de Clavo de Naturra Extal'
+    'railing-tangga-minimalis': {
+        name: 'Barandilla de Escalera Minimalista',
+        caption: 'Barandilla de Escalera y Balcón Bekasi | Mandiri Steel',
+        shortCaption: 'Barandilla - Robusta y Segura',
+        description: `Las barandillas de escalera son elementos decorativos interiores. Ofrecemos barandillas con una combinación de hierro y pasamanos de madera.`,
+        metaDescription: 'Taller de soldadura de barandillas Bekasi | Mandiri Steel',
+        imageAlt: 'Barandilla de escalera moderna minimalista por Mandiri Steel'
     },
-    'clove-oil': {
-        name: 'Aceite Esencial de Clavo',
-        caption: 'Aceite Esencial de Clavo Puro | Alto Eugenol | Naturra Extal',
-        shortCaption: 'Aceite de Clavo - Grado Farmacéutico',
-        description: `Steam-distilled pure clove essential oil meeting international quality standards for multiple industries.`,
-        metaDescription: 'Aceite Esencial de Clavo Puro de Indonesia | Naturra Extal',
-        imageAlt: 'Aceite de Clavo de Naturra Extal'
+    'konstruksi-baja-wf': {
+        name: 'Construcción en Acero WF',
+        caption: 'Estructura de Acero WF para Almacenes y Fábricas | Mandiri Steel',
+        shortCaption: 'Construcción en Acero - Fuerza Industrial',
+        description: `Realizamos trabajos de construcción en acero para almacenes, fábricas, canchas de fútbol o entrepisos domésticos. Uso de acero WF o H-Beam.`,
+        metaDescription: 'Servicio de construcción en acero WF Bekasi | Mandiri Steel',
+        imageAlt: 'Proyecto de construcción en acero por Mandiri Steel'
     },
-    'cocopeat-block': {
-        name: 'Bloque de Cocopeat (5kg)',
-        caption: 'Bloque de Cocopeat Comprimido - Ecológico | Naturra Extal',
-        shortCaption: 'Bloque de Cocopeat - 5kg Comprimido',
-        description: `Eco-friendly growing medium with low EC levels, providing excellent water retention for horticulture.`,
-        metaDescription: 'Bloque de Cocopeat Comprimido 5kg | Naturra Extal',
-        imageAlt: 'Cocopeat de Naturra Extal'
-    },
-    'cocopeat-loose': {
-        name: 'Cocopeat Suelto',
-        caption: 'Embalaje a Granel de Cocopeat | Agricultura | Naturra Extal',
-        shortCaption: 'Cocopeat Suelto - Lavado y Tamponado',
-        description: `High-quality loose cocopeat in bulk packaging, washed and buffered for optimal plant growth.`,
-        metaDescription: 'Cocopeat Suelto de Indonesia | Naturra Extal',
-        imageAlt: 'Cocopeat Suelto de Naturra Extal'
+    'pintu-pagar-stainless-steel': {
+        name: 'Portón de Acero Inoxidable',
+        caption: 'Cerca de Acero Inoxidable Antióxido | Mandiri Steel Bekasi',
+        shortCaption: 'Cerca Inox - Resistente al Óxido',
+        description: `Para quienes desean una cerca sin mantenimiento e inoxidable de por vida, los portones de acero inoxidable son la solución. Usamos acero grado 304.`,
+        metaDescription: 'Servicio de fabricación de cercas de acero inoxidable Bekasi | Mandiri Steel',
+        imageAlt: 'Portón de acero inoxidable por Mandiri Steel'
     }
 }

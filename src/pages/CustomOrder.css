@@ -1,447 +1,254 @@
-.custom-order-page {
-  background: #fff;
+/* ============================================
+   MANDIRI STEEL - CUSTOM ORDER STYLES
+   Design: Precision & Professional Construction
+   ============================================ */
+
+.mandiri-custom {
+    background: #fff;
 }
 
-/* Hero Section */
-.custom-order-hero {
-  position: relative;
-  height: 400px;
-  margin-top: 100px;
-  overflow: hidden;
+/* ---- HERO ---- */
+.mandiri-custom__hero {
+    position: relative;
+    height: 400px;
+    margin-top: 108px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.custom-order-hero-image {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+.mandiri-custom__hero-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.custom-order-hero-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.mandiri-custom__hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.custom-order-hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.4);
+.mandiri-custom__hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
 }
 
-.custom-order-hero-content {
-  position: relative;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1;
+.mandiri-custom__hero-title {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 800;
+    text-align: center;
+    padding: 0 2rem;
 }
 
-.custom-order-hero-title {
-  font-size: 3.5rem;
-  font-weight: 600;
-  color: #fff;
-  text-align: center;
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
-  margin: 0;
+/* ---- MESSAGE ---- */
+.mandiri-custom__message {
+    padding: 6rem 0;
 }
 
-/* Message Section */
-.custom-order-message-section {
-  background: #fff;
-  padding: 80px 0;
+.mandiri-custom__container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
 }
 
-.custom-order-message-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 0 40px;
+.mandiri-custom__message-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
 }
 
-.custom-order-message-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 60px;
-  align-items: center;
+.mandiri-custom__message-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 2rem;
+    line-height: 1.2;
 }
 
-.custom-order-message-text {
-  padding-right: 20px;
+.mandiri-custom__message-body p {
+    font-size: 1.15rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 1.5rem;
 }
 
-.custom-order-message-title {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #2c2c2c;
-  margin: 0 0 30px 0;
-  letter-spacing: 0.02em;
+.mandiri-custom__message-image img {
+    width: 100%;
+    height: auto;
+    box-shadow: 20px 20px 0 #004D2C;
 }
 
-.custom-order-message-body {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+/* ---- IDEAS ---- */
+.mandiri-custom__ideas {
+    padding: 6rem 0;
+    background: #f9f9f9;
 }
 
-.custom-order-message-paragraph {
-  font-size: 1rem;
-  line-height: 1.8;
-  color: #666;
-  margin: 0;
+.mandiri-custom__ideas-card {
+    background: #fff;
+    padding: 4rem;
+    border: 1px solid #eee;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-.custom-order-message-image-wrapper {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  min-height: 400px;
+.mandiri-custom__ideas-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 1.5rem;
 }
 
-.custom-order-message-image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  
-  transition: transform 0.3s ease;
+.mandiri-custom__ideas-intro {
+    font-size: 1.25rem;
+    font-weight: 600;
+    color: #004D2C;
+    margin-bottom: 1.5rem;
+    line-height: 1.5;
 }
 
-.custom-order-message-image-wrapper:hover .custom-order-message-image {
-  transform: scale(1.05);
+.mandiri-custom__ideas-desc {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #555;
 }
 
-/* Ideas Section */
-.custom-order-ideas-section {
-  background: #f9f9f9;
-  padding: 80px 0;
+/* ---- PROCESS ---- */
+.mandiri-custom__process {
+    padding: 6rem 0;
 }
 
-.custom-order-ideas-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 40px;
-  text-align: center;
+.mandiri-custom__process-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #111;
+    text-align: center;
+    margin-bottom: 4rem;
 }
 
-.custom-order-ideas-title {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #2c2c2c;
-  margin: 0 0 20px 0;
+.mandiri-custom__process-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
 }
 
-.custom-order-ideas-intro {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #666;
-  margin: 0 0 40px 0;
+.mandiri-custom__step {
+    text-align: center;
 }
 
-.custom-order-ideas-description {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #666;
-  margin: 0 0 40px 0;
+.mandiri-custom__step-icon {
+    width: 80px;
+    height: 80px;
+    background: #e8f5e8;
+    color: #004D2C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 auto 1.5rem;
 }
 
-/* Process Section */
-.custom-order-process-section {
-  background: #fff;
-  padding: 80px 0 100px 0;
+.mandiri-custom__step-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #111;
+    margin-bottom: 1rem;
 }
 
-.custom-order-process-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 40px;
+.mandiri-custom__step-desc {
+    font-size: 0.95rem;
+    color: #666;
+    line-height: 1.6;
 }
 
-.custom-order-process-main-title {
-  font-size: 2.2rem;
-  font-weight: 600;
-  color: #2c2c2c;
-  text-align: center;
-  margin: 0 0 60px 0;
+/* ---- CTA ---- */
+.mandiri-custom__cta {
+    padding: 6rem 0;
+    background: #111;
+    color: #fff;
 }
 
-.custom-order-process-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 60px 80px;
+.mandiri-custom__cta-card {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.custom-order-process-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+.mandiri-custom__cta-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
 }
 
-.custom-order-process-icon {
-  color: #2c2c2c;
-  margin-bottom: 20px;
+.mandiri-custom__cta-intro {
+    font-size: 1.2rem;
+    color: #999;
+    margin-bottom: 3rem;
 }
 
-.custom-order-process-item-title {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #2c2c2c;
-  margin: 0 0 12px 0;
+.mandiri-custom__workshop {
+    margin-bottom: 3rem;
+    padding: 2rem;
+    border: 1px solid rgba(255,255,255,0.1);
 }
 
-.custom-order-process-item-description {
-  font-size: 1rem;
-  line-height: 1.7;
-  color: #666;
-  margin: 0;
+.mandiri-custom__workshop h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #004D2C;
 }
 
-/* CTA Section */
-.custom-order-cta-section {
-  background: #f9f9f9;
-  padding: 80px 0;
+.mandiri-custom__phone {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 1rem;
 }
 
-.custom-order-cta-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 40px;
-  text-align: center;
+.mandiri-custom__cta-desc {
+    font-size: 1rem;
+    color: #777;
+    margin-bottom: 3rem;
 }
 
-.custom-order-cta-title {
-  font-size: 2rem;
-  font-weight: 600;
-  color: #2c2c2c;
-  margin: 0 0 20px 0;
+.mandiri-custom__btn {
+    display: inline-block;
+    background: #004D2C;
+    color: #fff;
+    padding: 1.25rem 3rem;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.3s;
 }
 
-.custom-order-cta-intro {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #666;
-  margin: 0 0 40px 0;
+.mandiri-custom__btn:hover {
+    background: #00663a;
+    transform: scale(1.05);
 }
 
-.custom-order-locations {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 30px;
-}
-
-.custom-order-location {
-  text-align: center;
-  max-width: 500px;
-}
-
-.custom-order-location h3 {
-  font-size: 1.3rem;
-  font-weight: 600;
-  color: #2c2c2c;
-  margin: 0 0 10px 0;
-}
-
-.custom-order-location p {
-  font-size: 1rem;
-  color: #666;
-  margin: 0;
-}
-
-.custom-order-location a {
-  color: #2c2c2c;
-  text-decoration: underline;
-  transition: color 0.3s ease;
-}
-
-.custom-order-location a:hover {
-  color: #8B7355;
-}
-
-.custom-order-cta-description {
-  font-size: 1.05rem;
-  line-height: 1.8;
-  color: #666;
-  margin: 0 0 40px 0;
-}
-
-.custom-order-cta-buttons {
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.custom-order-btn {
-  display: inline-block;
-  padding: 14px 40px;
-  background: #2c2c2c;
-  color: #fff;
-  text-decoration: none;
-  font-size: 0.9rem;
-  font-weight: 600;
-  letter-spacing: 0.05em;
-  transition: all 0.3s ease;
-  border: 2px solid #2c2c2c;
-}
-
-.custom-order-btn:hover {
-  background: #8B7355;
-  border-color: #8B7355;
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-
-/* Responsive Design */
-@media (max-width: 968px) {
-  .custom-order-message-content {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .custom-order-message-text {
-    padding-right: 0;
-  }
-
-  .custom-order-process-grid {
-    gap: 50px 60px;
-  }
+/* ---- RESPONSIVE ---- */
+@media (max-width: 1024px) {
+    .mandiri-custom__message-grid { grid-template-columns: 1fr; gap: 3rem; }
+    .mandiri-custom__process-grid { grid-template-columns: repeat(2, 1fr); gap: 3rem; }
 }
 
 @media (max-width: 768px) {
-  .custom-order-hero {
-    height: 300px;
-    margin-top: 80px;
-  }
-
-  .custom-order-hero-title {
-    font-size: 2.5rem;
-  }
-
-  .custom-order-message-section {
-    padding: 60px 0;
-  }
-
-  .custom-order-message-container {
-    padding: 0 20px;
-  }
-
-  .custom-order-message-title {
-    font-size: 1.6rem;
-    margin-bottom: 25px;
-  }
-
-  .custom-order-message-image-wrapper {
-    min-height: 300px;
-  }
-
-  .custom-order-ideas-section {
-    padding: 60px 0;
-  }
-
-  .custom-order-ideas-container {
-    padding: 0 20px;
-  }
-
-  .custom-order-ideas-title {
-    font-size: 1.6rem;
-  }
-
-  .custom-order-process-section {
-    padding: 60px 0 80px 0;
-  }
-
-  .custom-order-process-container {
-    padding: 0 20px;
-  }
-
-  .custom-order-process-main-title {
-    font-size: 1.8rem;
-    margin-bottom: 50px;
-  }
-
-  .custom-order-process-grid {
-    grid-template-columns: 1fr;
-    gap: 40px;
-  }
-
-  .custom-order-process-icon {
-    margin-bottom: 15px;
-  }
-
-  .custom-order-cta-section {
-    padding: 60px 0;
-  }
-
-  .custom-order-cta-container {
-    padding: 0 20px;
-  }
-
-  .custom-order-cta-title {
-    font-size: 1.6rem;
-  }
-
-  .custom-order-locations {
-    grid-template-columns: 1fr;
-    gap: 30px;
-  }
-
-  .custom-order-cta-buttons {
-    flex-direction: column;
-  }
-
-  .custom-order-btn {
-    width: 100%;
-  }
+    .mandiri-custom__hero { height: 300px; margin-top: 80px; }
+    .mandiri-custom__hero-title { font-size: 2.5rem; }
+    .mandiri-custom__ideas-card { padding: 2rem; }
 }
 
 @media (max-width: 480px) {
-  .custom-order-hero {
-    height: 250px;
-  }
-
-  .custom-order-hero-title {
-    font-size: 2rem;
-  }
-
-  .custom-order-message-title {
-    font-size: 1.4rem;
-  }
-
-  .custom-order-message-paragraph {
-    font-size: 0.95rem;
-  }
-
-  .custom-order-ideas-title {
-    font-size: 1.4rem;
-  }
-
-  .custom-order-cta-title {
-    font-size: 1.4rem;
-  }
-
-  .custom-order-location h3 {
-    font-size: 1.1rem;
-  }
-
-  .custom-order-location p {
-    font-size: 0.9rem;
-  }
-
-  .custom-order-process-main-title {
-    font-size: 1.5rem;
-  }
-
-  .custom-order-process-item-title {
-    font-size: 1.1rem;
-  }
-
-  .custom-order-process-icon svg {
-    width: 40px;
-    height: 40px;
-  }
+    .mandiri-custom__process-grid { grid-template-columns: 1fr; }
 }
-

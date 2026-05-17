@@ -1,74 +1,66 @@
 export const PRODUCT_DESCRIPTIONS_JA: Record<string, any> = {
-    'cocoa-powder-pure': {
-        name: '純ココアパウダー',
-        caption: 'プレミアムインドネシア産純ココアパウダー | Naturra Extal',
-        shortCaption: '純ココアパウダー - HS 1805.00.0',
-        description: `Premium pure cocoa powder (HS 1805.00.0) sourced from the finest Indonesian beans. Ideal for global confectionery and industrial food manufacturing.`,
-        metaDescription: 'プレミアムインドネシア産純ココアパウダー | Naturra Extal',
-        imageAlt: 'Naturra Extal ココアパウダー'
+    'kanopi-minimalis-alderon': {
+        name: 'シンプル Alderon キャノピー',
+        caption: 'ブカシのシンプル Alderon キャノピー | Mandiri Steel',
+        shortCaption: 'Alderon キャノピー - 涼しくて丈夫',
+        description: `Alderon 屋根のキャノピーは、ブカシの暑い気候に最適です。Alderon の UPVC 素材は熱と雨音を非常によく軽減します。高品質な角鉄フレームを使用しています。`,
+        metaDescription: 'ブカシの Alderon キャノピー設置サービス | Mandiri Steel',
+        imageAlt: 'Mandiri Steel による Alderon キャノピー'
     },
-    'cocoa-powder-sweetened': {
-        name: '味付きココアパウダー',
-        caption: '味付きココアパウダーブレンド | Naturra Extal 輸出品質',
-        shortCaption: '味付きココアパウダー - HS 1806.00.0',
-        description: `Balanced blend of premium cocoa and sweetener (HS 1806.00.0), ready for international food applications.`,
-        metaDescription: '味付きココアパウダー - HS 1806.00.0 | Naturra Extal',
-        imageAlt: 'Naturra Extal ココアパウダー'
+    'kanopi-kaca-tempered': {
+        name: '強化ガラスキャノピー',
+        caption: '豪華な強化ガラスキャノピー | Mandiri Steel 独占デザイン',
+        shortCaption: 'ガラスキャノピー - モダンで豪華',
+        description: `住まいに豪華でモダンな印象を与えます。当社の強化ガラスキャノピーは、安全で強力な厚さ 8mm または 10mm のガラスを使用しています。`,
+        metaDescription: 'ブカシの強化ガラスキャノピー製造サービス | Mandiri Steel',
+        imageAlt: 'Mandiri Steel による強化ガラスキャノピー'
     },
-    'cocoa-beans-raw': {
-        name: 'カカオ豆 (生)',
-        caption: 'スラウェシ・スマトラ島産発酵済みカカオ豆 | Naturra Extal',
-        shortCaption: '生カカオ豆 - プレミアム発酵',
-        description: `Hand-selected raw cocoa beans from Indonesia, fermented and sun-dried for a rich flavor profile.`,
-        metaDescription: 'インドネシア産発酵済みカカオ豆 | Naturra Extal',
-        imageAlt: 'Naturra Extal カカオ豆'
+    'pagar-minimalis-modern': {
+        name: 'モダンなシンプルフェンス',
+        caption: 'ブカシのシンプル鉄製フェンス | Mandiri Steel',
+        shortCaption: 'シンプルフェンス - 安全で美的な',
+        description: `当社のシンプルフェンスは、美観を損なうことなく最大限のセキュリティを提供するように設計されています。防錆亜鉛メッキ角鉄素材を使用。`,
+        metaDescription: 'ブカシのシンプルフェンス溶接店 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel によるモダンなシンプル鉄製フェンス'
     },
-    'cocoa-butter': {
-        name: 'カカオバター',
-        caption: '純インドネシア産カカオバター | 食品・化粧品グレード | Naturra Extal',
-        shortCaption: '純カカオバター - プレミアム抽出',
-        description: `High-quality cocoa butter extracted from premium Indonesian beans for chocolate, cosmetics, and pharmaceuticals.`,
-        metaDescription: 'インドネシア産カカオバター | プレミアムグレード | Naturra Extal',
-        imageAlt: 'Naturra Extal カカオバター'
+    'pagar-besi-tempa-klasik': {
+        name: 'クラシックな錬鉄製フェンス',
+        caption: 'クラシックな豪華錬鉄製フェンス | ブカシ Mandiri Steel',
+        shortCaption: 'クラシックフェンス - 豪華な装飾',
+        description: `クラシックまたは地中海スタイルの住宅に最適です。当社の錬鉄製フェンスは、さまざまな装飾を施したソリッド鉄素材を使用しています。`,
+        metaDescription: 'ブカシのクラシック錬鉄製フェンス製造サービス | Mandiri Steel',
+        imageAlt: 'Mandiri Steel によるクラシックな錬鉄製フェンス'
     },
-    'cloves-whole': {
-        name: 'クローブ (ホール)',
-        caption: 'マルク・北スラウェシ産プレミアムクローブ | Naturra Extal',
-        shortCaption: 'プレミアムホールクローブ - 高オイル含有',
-        description: `Premium hand-picked whole cloves from the Spice Islands, ensuring high eugenol content and intense aroma.`,
-        metaDescription: 'インドネシア産プレミアムクローブ | Naturra Extal',
-        imageAlt: 'Naturra Extal クローブ'
+    'teralis-jendela-minimalis': {
+        name: 'シンプルな窓格子',
+        caption: 'ブカシの防犯用窓格子 | Mandiri Steel',
+        shortCaption: '窓格子 - 第一の防犯',
+        description: `当社の窓格子は、住まいの追加のセキュリティとして機能します。強力なソリッド鉄または角管で作られています。`,
+        metaDescription: 'ブカシの窓格子設置サービス | Mandiri Steel',
+        imageAlt: 'Mandiri Steel によるシンプルな窓格子'
     },
-    'cloves-stems': {
-        name: 'クローブステム (茎)',
-        caption: '工業用クローブステム | Naturra Extal',
-        shortCaption: 'クローブステム - 産業用バルク供給',
-        description: `Quality clove stems ideal for essential oil extraction and industrial applications.`,
-        metaDescription: 'インドネシア産クローブステム | Naturra Extal',
-        imageAlt: 'Naturra Extal クローブステム'
+    'railing-tangga-minimalis': {
+        name: 'シンプルな階段手すり',
+        caption: 'ブカシのシンプルな階段とバルコニーの手すり | Mandiri Steel',
+        shortCaption: '階段手すり - 頑丈で安全',
+        description: `階段手すりはインテリアの装飾要素です。鉄材と木製ハンドレールを組み合わせた階段手すりを提供しています。`,
+        metaDescription: 'ブカシの階段手すり溶接店 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel によるモダンなシンプルな階段手すり'
     },
-    'clove-oil': {
-        name: 'クローブ精油',
-        caption: '純クローブ精油 | 高オイゲノール含有 | Naturra Extal',
-        shortCaption: 'クローブオイル - 医薬品・食品グレード',
-        description: `Steam-distilled pure clove essential oil meeting international quality standards for multiple industries.`,
-        metaDescription: '純インドネシア産クローブ精油 | Naturra Extal',
-        imageAlt: 'Naturra Extal クローブ精油'
+    'konstruksi-baja-wf': {
+        name: 'WF 鋼構造工事',
+        caption: '倉庫および工場用 WF 鋼構造 | Mandiri Steel',
+        shortCaption: '鋼構造 - 工業的強度',
+        description: `倉庫、工場、フットサルコート、または家庭用ロフトの鋼構造工事を承ります。WF または H 形鋼を使用します。`,
+        metaDescription: 'ブカシの WF 鋼構造サービス | Mandiri Steel',
+        imageAlt: 'Mandiri Steel による鋼構造プロジェクト'
     },
-    'cocopeat-block': {
-        name: 'ココピートブロック (5kg)',
-        caption: '5kg圧縮ココピートブロック - 低EC環境対応型 | Naturra Extal',
-        shortCaption: 'ココピートブロック - 5kg圧縮',
-        description: `Eco-friendly growing medium with low EC levels, providing excellent water retention for horticulture.`,
-        metaDescription: '5kg圧縮ココピートブロック | 低EC環境対応型 | Naturra Extal',
-        imageAlt: 'Naturra Extal ココピート'
-    },
-    'cocopeat-loose': {
-        name: 'バラ詰めココピート',
-        caption: 'バラ詰めココピートパッケージ | 農業・園芸用 | Naturra Extal',
-        shortCaption: 'バラ詰めココピート - 洗浄・緩衝済み',
-        description: `High-quality loose cocopeat in bulk packaging, washed and buffered for optimal plant growth.`,
-        metaDescription: 'インドネシア産ココピート | 農業・園芸用 | Naturra Extal',
-        imageAlt: 'Naturra Extal ココピート'
+    'pintu-pagar-stainless-steel': {
+        name: 'ステンレス製ゲート',
+        caption: '防錆ステンレス製フェンス | ブカシ Mandiri Steel',
+        shortCaption: 'ステンレスフェンス - 防錆',
+        description: `メンテナンスフリーで永久に防錆のフェンスをご希望の方には、ステンレス製ゲートが最適です。本物の 304 グレードのステンレスを使用しています。`,
+        metaDescription: 'ブカシのステンレス製フェンス製造サービス | Mandiri Steel',
+        imageAlt: 'Mandiri Steel によるステンレス製ゲート'
     }
 }

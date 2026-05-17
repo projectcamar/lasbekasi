@@ -72,8 +72,8 @@ const TermsOfService: React.FC = () => {
         <div className="terms-hero-image">
           <img
             src={heroImage}
-            alt="Terms of Service - Syarat dan Ketentuan Naturra Extal agricultural commodities"
-            title="Terms of Service - Terms and Conditions for Naturra Extal Products"
+            alt="Terms of Service - Syarat dan Ketentuan Bengkel Las Mandiri Steel Bekasi"
+            title="Terms of Service - Terms and Conditions for Bengkel Las Mandiri Steel"
             loading="eager"
             fetchPriority="high"
             width="1920"
@@ -348,7 +348,7 @@ const TermsOfService: React.FC = () => {
             <section className="terms-section">
               <h2>{t.sections.findUs.title}</h2>
               <div className="workshop-info">
-                <h3>Naturra Extal</h3>
+                <h3>Bengkel Las Mandiri Steel</h3>
                 <div style={{ marginBottom: '16px' }}>
                   <strong style={{ color: '#8B7355', display: 'block', marginBottom: '8px' }}>
                     {t.sections.findUs.workshopLabel}
@@ -376,8 +376,8 @@ const TermsOfService: React.FC = () => {
                   </a>
                 </p>
                 <p className="workshop-email">
-                  <a href="mailto:hello@naturraextal.com" style={{ color: '#8B7355', textDecoration: 'underline' }}>
-                    naturraextal@gmail.com
+                  <a href="mailto:info@lasbekasi.com" style={{ color: '#8B7355', textDecoration: 'underline' }}>
+                    info@lasbekasi.com
                   </a>
                 </p>
                 <p className="workshop-hours">

@@ -17,7 +17,7 @@ const NaturraHome: React.FC = () => {
     const { language, setLanguage } = useLanguage()
     const videoRef = useRef<HTMLVideoElement>(null)
 
-    // IP detection for first visit... (logic same)
+    // IP detection for first visit
     useEffect(() => {
         const stored = getStoredLanguage()
         const urlLang = getCurrentLanguage(location.pathname, location.search)
@@ -47,21 +47,30 @@ const NaturraHome: React.FC = () => {
     const localeMeta = generateLanguageSpecificMeta(language)
     const localizedUrls = generateLocalizedUrls(location.pathname, location.search)
 
-    const socialImage = 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?q=80&w=1200'
+    const socialImage = '/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp'
+
+    // SEO Helper
+    const pageTitle = language === 'id' 
+        ? "Bengkel Las Bekasi #1 - Bengkel Las Mandiri | Jasa Las Terpercaya Sejak 1999"
+        : `${t.heroTitle.replace(/<br\/>/g, ' ')} | Mandiri Steel Bekasi`;
+    
+    const pageDesc = language === 'id'
+        ? "Bengkel Las Bekasi terpercaya sejak 1999. Jasa las pagar, kanopi, tralis & konstruksi baja. Harga murah, material SNI, garansi. Hubungi Bapak Maman Toha."
+        : t.heroDesc;
 
     return (
         <div className="naturra-home">
 
             <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
-                <title>Naturra Extal International | Premium Indonesian Commodity Trading</title>
-                <meta name="description" content="CV Naturra Extal International - Leaders in Indonesian agricultural commodity trading. Premium cocoa, cloves, and cocopeat sourced directly from Indonesian farmers." />
+                <title>{pageTitle}</title>
+                <meta name="description" content={pageDesc} />
                 <meta httpEquiv="content-language" content={localeMeta.lang} />
                 <link rel="canonical" href={localizedUrls.canonical} />
                 {localizedUrls.alternates.map((alternate) => (
                     <link key={`home-hreflang-${alternate.hrefLang}`} rel="alternate" hrefLang={alternate.hrefLang} href={alternate.href} />
                 ))}
-                <meta property="og:title" content="Naturra Extal International | Premium Indonesian Commodity Trading" />
-                <meta property="og:description" content="Leaders in Indonesian agricultural commodity trading. Premium cocoa, cloves, and cocopeat sourced directly from Indonesian farmers." />
+                <meta property="og:title" content={pageTitle} />
+                <meta property="og:description" content={pageDesc} />
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={localizedUrls.canonical} />
                 <meta property="og:image" content={socialImage} />
@@ -115,19 +124,19 @@ const NaturraHome: React.FC = () => {
             <section className="naturra-home__stats">
                 <div className="naturra-home__stats-inner">
                     <div className="naturra-home__stat">
-                        <div className="naturra-home__stat-number">3+</div>
+                        <div className="naturra-home__stat-number">25+</div>
                         <div className="naturra-home__stat-label">{t.stat1}</div>
                     </div>
                     <div className="naturra-home__stat">
-                        <div className="naturra-home__stat-number">100%</div>
+                        <div className="naturra-home__stat-number">1000+</div>
                         <div className="naturra-home__stat-label">{t.stat2}</div>
                     </div>
                     <div className="naturra-home__stat">
-                        <div className="naturra-home__stat-number">Global</div>
+                        <div className="naturra-home__stat-number">100%</div>
                         <div className="naturra-home__stat-label">{t.stat3}</div>
                     </div>
                     <div className="naturra-home__stat">
-                        <div className="naturra-home__stat-number">Premium</div>
+                        <div className="naturra-home__stat-number">Murah</div>
                         <div className="naturra-home__stat-label">{t.stat4}</div>
                     </div>
                 </div>
@@ -138,8 +147,8 @@ const NaturraHome: React.FC = () => {
                 <div className="naturra-home__heritage-inner">
                     <div className="naturra-home__heritage-image">
                         <img
-                            src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?auto=format&fit=crop&q=80&w=800"
-                            alt="Indonesian cloves and spices"
+                            src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                            alt="Workshop Bengkel Las Mandiri di Bekasi"
                             loading="lazy"
                         />
                         <div className="naturra-home__heritage-image-accent" />
@@ -197,8 +206,8 @@ const NaturraHome: React.FC = () => {
                         <Link to="/products" className="naturra-home__product-card">
                             <img
                                 className="naturra-home__product-card-image"
-                                src="https://images.unsplash.com/photo-1582218155981-0675ea108dca?w=800&q=80"
-                                alt="Indonesian Cocoa Products"
+                                src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                                alt="Kanopi Minimalis Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
                             />
                             <div className="naturra-home__product-card-body">
@@ -218,8 +227,8 @@ const NaturraHome: React.FC = () => {
                         <Link to="/products" className="naturra-home__product-card">
                             <img
                                 className="naturra-home__product-card-image"
-                                src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80"
-                                alt="Indonesian Cloves - Cengkeh"
+                                src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                                alt="Pagar Besi Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
                             />
                             <div className="naturra-home__product-card-body">
@@ -239,8 +248,8 @@ const NaturraHome: React.FC = () => {
                         <Link to="/products" className="naturra-home__product-card">
                             <img
                                 className="naturra-home__product-card-image"
-                                src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=600&q=80"
-                                alt="Cocopeat - Coconut Coir"
+                                src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                                alt="Konstruksi Baja Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
                             />
                             <div className="naturra-home__product-card-body">
@@ -264,8 +273,8 @@ const NaturraHome: React.FC = () => {
                 <div className="naturra-home__sustainability-inner">
                     <div className="naturra-home__sustainability-image">
                         <img
-                            src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
-                            alt="Sustainable farming practices"
+                            src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                            alt="Keunggulan Bengkel Las Mandiri Bekasi"
                             loading="lazy"
                         />
                         <span className="naturra-home__sustainability-badge">{t.sustainBadge}</span>
@@ -308,7 +317,7 @@ const NaturraHome: React.FC = () => {
                         </p>
                         <div className="naturra-home__cta-actions">
                             <a
-                                href="https://wa.me/628951395752"
+                                href="https://wa.me/6285212078467"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="naturra-home__cta-btn naturra-home__cta-btn--primary"
@@ -317,7 +326,7 @@ const NaturraHome: React.FC = () => {
                                 <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M7 17L17 7M17 7H7M17 7V17" /></svg>
                             </a>
                             <a
-                                href="mailto:naturraextal@gmail.com"
+                                href="mailto:info@lasbekasi.com"
                                 className="naturra-home__cta-btn naturra-home__cta-btn--secondary"
                             >
                                 {t.ctaBtn2}
@@ -331,14 +340,14 @@ const NaturraHome: React.FC = () => {
                                 <Mail size={24} />
                             </div>
                             <h4 className="naturra-home__cta-card-title">{t.emailTitle}</h4>
-                            <p className="naturra-home__cta-card-desc">naturraextal@gmail.com</p>
+                            <p className="naturra-home__cta-card-desc">info@lasbekasi.com</p>
                         </div>
                         <div className="naturra-home__cta-card">
                             <div className="naturra-home__cta-card-icon">
                                 <MessageCircle size={24} />
                             </div>
                             <h4 className="naturra-home__cta-card-title">{t.waTitle}</h4>
-                            <p className="naturra-home__cta-card-desc">+62 895-1395-7752</p>
+                            <p className="naturra-home__cta-card-desc">+62 852-1207-8467</p>
                         </div>
                         <div className="naturra-home__cta-card">
                             <div className="naturra-home__cta-card-icon">
@@ -352,7 +361,7 @@ const NaturraHome: React.FC = () => {
                                 <Building2 size={24} />
                             </div>
                             <h4 className="naturra-home__cta-card-title">{t.corpTitle}</h4>
-                            <p className="naturra-home__cta-card-desc">CV Naturra Extal International</p>
+                            <p className="naturra-home__cta-card-desc">Bengkel Las Mandiri</p>
                         </div>
                     </div>
                 </div>

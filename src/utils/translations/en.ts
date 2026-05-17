@@ -1,133 +1,132 @@
 export const en = {
         // ─────────────────────────── Cover Page ───────────────────────────
-        title1: 'Naturra',
-        title2: 'EXTAL',
-        subtitle: 'Premium Agricultural Commodities Catalog 2025',
-        tagline: 'Over 25 Years of Expertise in International Commodity Trading & Export',
+        title1: 'Welding',
+        title2: 'MANDIRI',
+        subtitle: 'Welding Services & Steel Construction Catalog 2025',
+        tagline: 'Over 25 Years of Expertise in Welding Services & Steel Construction',
         since: 'Since 1999',
-        workshop: 'Export & Distribution Center Bekasi',
+        workshop: 'Bengkel Las Mandiri Bekasi Workshop',
         address: 'Jl. Raya Setu Cibitung, Bekasi, West Java 17320',
-        copyright: '© 2025 Naturra Extal. All Rights Reserved.',
+        copyright: '© 2025 Bengkel Las Mandiri. All Rights Reserved.',
 
         // ─────────────────────────── Welcome Page ───────────────────────────
-        welcomeTitle: 'Welcome to Naturra Extal',
-        welcomeSubtitle: 'Indonesia\'s Trusted Agricultural Commodity Export Partner',
+        welcomeTitle: 'Welcome to Bengkel Las Mandiri',
+        welcomeSubtitle: 'Your Trusted Partner for Welding & Steel Construction in Bekasi',
 
-        welcomeIntro: 'Thank you for downloading the official Naturra Extal 2025 catalog. We are proud to present our premium Agricultural Commodities collection, sourced directly from the finest Indonesian farms to meet the needs of global industries.',
+        welcomeIntro: 'Thank you for visiting Bengkel Las Mandiri. We are proud to present our professional welding services that have served thousands of customers in Bekasi and surrounding areas since 1999.',
 
-        welcomePara1: 'For over 25 years, Naturra Extal has been a strategic partner for international buyers, food & beverage industries, and the global horticulture sector. We are not just commodity traders—we are partners who understand the supply chain, international quality standards, and the importance of sustainable harvests.',
-        welcomePara2: 'Based in the industrial hub of Bekasi, our operations team works with a network of farmers across the archipelago. From premium cocoa beans in Sulawesi to aromatic cloves in Maluku, every product we handle undergoes a strict selection and quality control process to ensure the best export standards.',
-        welcomePara3: 'Our commodity collection includes: Cocoa Powder (Pure & Sweetened) with HS 1805/1806 standards, Grade A Cloves with high eugenol content, and Cocopeat Blocks as a sustainable and eco-friendly growing medium.',
+        welcomePara1: 'For more than 25 years, Bengkel Las Mandiri has been a strategic partner for homeowners, contractors, and property developers in Bekasi. We are not just an ordinary welding shop—we are a team of experts who understand aesthetics, structural strength, and the quality of iron materials.',
+        welcomePara2: 'Based in Cikarang Barat, Bekasi, our expert team is led directly by Mr. Maman Toha. From minimalist canopy fabrication to heavy steel construction, every job we handle goes through precision welding and strict quality control to ensure the best results.',
+        welcomePara3: 'Our flagship services include: Canopies (Alderon, Spandek, Polycarbonate), Minimalist & Wrought Iron Fences, Burglary-Proof Window Trellises, Stainless Steel Stair Railings, and Steel Construction for commercial buildings.',
 
-        welcomePara4: 'We understand that every client has unique specifications. Therefore, in addition to the ready stock you see in this catalog, we also serve custom processing and packaging requests. Our Bekasi facility is equipped for sorting, grading, and packaging according to your target country\'s standards.',
+        welcomePara4: 'We understand that every home has unique design needs. Therefore, we serve custom designs according to your wishes. Our workshop in Bekasi is equipped with modern welding equipment to handle various types of iron and stainless steel materials.',
 
-        welcomePara5: 'Our prices are factory direct—no middleman markup. With an efficient operational system in Bekasi, we ensure a stable supply chain and competitive pricing for our long-term partners worldwide.',
+        welcomePara5: 'The prices we offer are direct workshop prices—no middlemen. With efficient workmanship and good material management, we ensure sturdy work results at prices that remain affordable for our customers.',
 
-        welcomeCTA: 'Contact us today for a free consultation, discuss your commodity needs, or visit our facilities in Bekasi to see our quality standards firsthand.',
+        welcomeCTA: 'Contact us today for a free consultation and site survey in the Bekasi area, or visit our workshop to see examples of our work results.',
 
-        welcomeSignature: 'Best regards,',
-        welcomeTeam: 'Naturra Extal Team',
+        welcomeSignature: 'Sincerely,',
+        welcomeTeam: 'Mr. Maman Toha & Mandiri Steel Team',
 
         // ─────────────────────────── Why Choose Us Page ───────────────────────────
-        whyChooseTitle: 'Why Choose Naturra Extal?',
-        whyChooseSubtitle: '6 Strategic Advantages of Naturra Extal',
+        whyChooseTitle: 'Why Choose Bengkel Las Mandiri?',
+        whyChooseSubtitle: '6 Strategic Advantages of Our Welding Services',
 
-        reason1Title: '1. Guaranteed Premium Export Quality',
-        reason1Desc: 'Every commodity we handle passes through 3 stages of Quality Control: Field Inspection, Processing Audit, and Final Export Validation. We guarantee moisture, cleanliness, and product freshness according to international regulations and buyer specifications.',
+        reason1Title: '1. SNI Standard Quality Material',
+        reason1Desc: 'We only use high-quality SNI standard iron with appropriate thickness. Neat and strong welding results and the use of high-quality anti-rust paint ensure the durability of our products.',
 
-        reason2Title: '2. 25+ Years of Export Experience',
-        reason2Desc: 'Our team has deep knowledge of logistics, HS Codes (1805/1806), export regulations, and phytosanitary standards. We ensure complete documentation and a smooth export process from Indonesia to all continents.',
+        reason2Title: '2. 25+ Years of Experience',
+        reason2Desc: 'Since 1999, we have handled various welding projects ranging from residential to factories. This experience guarantees timely execution and the right technical solutions for your every need.',
 
-        reason3Title: '3. Solid Network of Farmers',
-        reason3Desc: 'We work directly with thousands of farmers in Sulawesi, Maluku, and Java. This direct sourcing relationship allows us to maintain quality at the source and provide the best prices without involving many intermediaries.',
+        reason3Title: '3. Professional Welders',
+        reason3Desc: 'Our team consists of experienced welders who are experts in various welding techniques (electric welding, argon/stainless welding). Our work is known to be smooth, precise, and sturdy.',
 
-        reason4Title: '4. Processing Facilities in Bekasi',
-        reason4Desc: 'Our operational center in Bekasi serves as a strategic distribution hub. Equipped with export-standard sorting and packaging facilities, we are ready to handle bulk orders of up to 50-100 tons per month with consistent quality.',
+        reason4Title: '4. Workshop in Bekasi',
+        reason4Desc: 'Our operational center is located in a strategic location in Cikarang Barat, Bekasi. This facilitates coordination, fast site surveys, and efficient delivery for the entire Bekasi area and its surroundings.',
 
-        reason5Title: '5. Transparent & Stable Supply Chain',
-        reason5Desc: 'Supply stability is our priority. We manage inventory strictly to ensure on-time delivery, especially for long-term contracts. Stock updates and shipping status are available in real-time for our partners.',
+        reason5Title: '5. Work Warranty',
+        reason5Desc: 'Customer satisfaction is our priority. We provide a warranty for every result of our work. If there are deficiencies or complaints, our team is ready to make repairs quickly.',
 
-        reason6Title: '6. Commitment to Sustainability',
-        reason6Desc: 'Naturra Extal is committed to Sustainable Agriculture. We educate farmers on environmentally friendly and fair farming practices, ensuring the sustainability of the commodity industry for future generations.',
+        reason6Title: '6. Honest & Competitive Prices',
+        reason6Desc: 'We provide transparent price offers based on work volume and material types. There are no hidden costs, and we always strive to provide the best prices in Bekasi.',
 
         // ─────────────────────────── Product Categories ───────────────────────────
-        categories: 'Commodity Categories',
-        categoriesDesc: 'Premium Indonesian Harvest for the Global Market',
+        categories: 'Service Categories',
+        categoriesDesc: 'Quality Welding & Steel Construction Solutions for Your Home & Business',
 
         // ─────────────────────────── Pricing Guide ───────────────────────────
-        pricingTitle: 'Pricing & Logistics Guide',
-        pricingSubtitle: 'Transparency in Every International Transaction',
+        pricingTitle: 'Pricing & Ordering Guide',
+        pricingSubtitle: 'Price Transparency for Welding Services in Bekasi',
 
-        pricingNote1: '• Commodity prices follow the global market index (London/New York Exchange) and are subject to change at any time.',
-        pricingNote2: '• Our quotations are FOB (Free On Board) Jakarta or CIF (Cost, Insurance, and Freight) upon request.',
-        pricingNote3: '• MOQ (Minimum Order Quantity) varies between 500kg up to 1 Container Load depending on the commodity type.',
-        pricingNote4: '• SGS or Sucofindo inspection can be performed upon request with costs borne by the buyer.',
-        pricingNote5: '• Payment System: L/C (Letter of Credit) At Sight or T/T (Telegraphic Transfer) according to contract agreement.',
-        pricingNote6: '• Volume Discount: Available for annual contracts or bulk orders above 20 tons.',
+        pricingNote1: '• Welding service prices are calculated per meter (m2 or m1) depending on product type and design.',
+        pricingNote2: '• Our quotation includes survey fees, materials, installation services, and transportation for the Bekasi area.',
+        pricingNote3: '• DP (Down Payment) is made at the time of ordering and final payment after the work is completed.',
+        pricingNote4: '• Custom designs can be submitted by customers or chosen from our design catalog.',
+        pricingNote5: '• Processing time generally ranges from 7-14 working days depending on the volume of work.',
+        pricingNote6: '• Special Discount: Available for housing projects or work volumes above 50 meters.',
 
         // ─────────────────────────── Material Excellence ───────────────────────────
-        materialTitle: 'Quality Standards & Certification',
-        materialSubtitle: 'Ensuring Product Excellence from Indonesia',
+        materialTitle: 'Material Standards & Workmanship',
+        materialSubtitle: 'Ensuring the Strength and Beauty of Welding Products',
 
-        material1Title: 'Cocoa Beans & Powder',
-        material1Desc: 'Our cocoa beans originate from South/Southeast Sulawesi, known for their strong aroma and high fat content. We process them into Cocoa Powder (Pure 100% and Sweetened) with HS 1805/1806 standards for the beverage and confectionery industries.',
+        material1Title: 'SNI Hollow & Pipe Iron',
+        material1Desc: 'We use black or galvanized hollow iron (anti-rust) with various sizes according to structural strength needs. Material thickness is always honestly informed to customers.',
 
-        material2Title: 'Grade A Cloves',
-        material2Desc: 'Selection of cloves from Maluku and North Sulawesi. Through solar drying and manual sorting to ensure moisture content below 12% and high eugenol oil. Suitable for the pharmaceutical, cosmetic, and premium culinary industries.',
+        material2Title: 'Stainless Steel & Ornaments',
+        material2Desc: 'For stair railings and luxury fences, we use the best grade stainless steel that will not rust forever. Various elegant classic wrought iron ornaments are also available.',
 
-        material3Title: 'Cocopeat Blocks & Bulk',
-        material3Desc: 'Organic growing medium processed from high-quality coconut husks in East Java. Available in 5kg blocks that have been washed to lower EC (Electrical Conductivity) levels, making it ideal for plant growth.',
+        material3Title: 'Quality Canopy Roofs',
+        material3Desc: 'Various choices of canopy roofs ranging from Alderon (cool & not noisy), Spandek, Polycarbonate, to tempered glass roofs for a modern and luxurious look.',
 
-        material4Title: 'Documentation & Compliance',
-        material4Desc: 'We provide complete export documentation: Bill of Lading, Invoice, Packing List, Certificate of Origin (COO), Phytosanitary Certificate, and Health Certificate to ensure smooth customs in the destination country.',
+        material4Title: 'Finishing & Anti-Rust Paint',
+        material4Desc: 'Every product goes through a cleaning and coating process with anti-rust base paint (meni) before finishing color paint, ensuring the product is not easily porous and the color stays durable.',
 
         // ─────────────────────────── Contact & Order ───────────────────────────
-        contactTitle: 'Contact Us & Start Partnership',
-        contactSubtitle: 'Our Expert Team is Ready to Serve Your Global Inquiries',
+        contactTitle: 'Contact Us & Free Consultation',
+        contactSubtitle: 'Mr. Maman Toha is Ready to Serve Your Welding Needs',
 
-        contactInfo: 'For quotation, product specifications, or facility visits:',
+        contactInfo: 'For survey requests, price offers, or design consultation:',
 
         whatsappTitle: 'WhatsApp & Direct Call',
-        whatsappNumber: '+6289513957752',
-        whatsappHours: 'Monday - Saturday: 08.00 - 17.00 WIB',
-        whatsappResponse: 'Response time: 1-3 hours (Global Support)',
+        whatsappNumber: '+62 852-1207-8467',
+        whatsappHours: 'Every Day: 08:00 - 20:00 WIB',
+        whatsappResponse: 'Fast Response: Free Consultation & Survey',
 
         emailTitle: 'Official Email',
-        emailGeneral: 'hello@naturraextal.com',
-        emailSales: 'sales@naturraextal.com',
-        emailNote: 'For official quotation, contracts, and partnership',
+        emailGeneral: 'info@lasbekasi.com',
+        emailSales: 'sales@lasbekasi.com',
+        emailNote: 'For official quotation requests and project partnerships',
 
-        addressTitle: 'Operational Office & Facility',
-        addressFull1: 'Naturra Extal Export Center',
+        addressTitle: 'Workshop Location',
+        addressFull1: 'Bengkel Las Mandiri (Mandiri Steel)',
         addressFull2: 'Jl. Raya Setu Cibitung, Telajung',
-        addressFull3: 'Kec. Cikarang Barat, Kabupaten Bekasi',
+        addressFull3: 'Cikarang Barat, Bekasi Regency',
         addressFull4: 'West Java 17320, Indonesia',
-        addressNote: 'Strategically located near Tanjung Priok Port, Jakarta',
+        addressNote: 'Strategic Location in Cikarang Barat - Near Industrial Area',
 
-        visitTitle: 'Facility Visit',
-        visitDesc: 'Our sorting and packaging facilities are open for partnership audits and visits. Contact our team at least 3 days before your planned visit.',
+        visitTitle: 'Workshop Visit',
+        visitDesc: 'Please visit our workshop to see materials and the processing directly. Contact us beforehand to confirm your presence.',
 
-        websiteTitle: 'Digital Portal',
-        website: 'www.naturraextal.com',
-        websiteNote: 'Check technical specs, HS codes, and the latest commodity price updates',
+        websiteTitle: 'Official Website',
+        website: 'www.lasbekasi.com',
+        websiteNote: 'Check our work catalog and latest project updates',
 
-        exportExp: '• Export Destinations: Asia, Europe, Middle East, USA',
-        workshopSize: '• Hub Capacity: 100+ Tons Monthly Processing Capacity',
-        projectDone: '• Track Record: Trusted since 1999',
+        exportExp: '• Service Area: Entire Bekasi Area, Cikarang, Tambun, Cibitung',
+        workshopSize: '• Capacity: Capable of Handling Residential & Factory Projects',
+        projectDone: '• Experience: Trusted Since 1999',
 
         // ─────────────────────────── Status & Labels ───────────────────────────
-        viewOnline: 'View online →',
-        productsAvailable: 'products available',
-        continued: '(cont.)',
+        viewOnline: 'View Details →',
+        productsAvailable: 'services available',
+        continued: '(continued)',
 
         // ─────────────────────────── Currency ───────────────────────────
-        currency: 'USD',
-        currencySymbol: '$',
+        currency: 'IDR',
+        currencySymbol: 'Rp',
         priceFormat: 'Starting from',
 
         // ─────────────────────────── Call to Actions ───────────────────────────
-        cta1: '• WhatsApp us for an instant quotation',
-        cta2: '• Visit our facility in Bekasi for a quality audit',
-        cta3: '• Explore technical specs at www.naturraextal.com',
+        cta1: '• WhatsApp for free consultation',
+        cta2: '• Schedule a site survey in Bekasi',
+        cta3: '• View portfolio at www.lasbekasi.com',
 };
-

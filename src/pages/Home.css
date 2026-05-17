@@ -1,0 +1,620 @@
+/* ============================================
+   MANDIRI STEEL - HOME PAGE STYLES
+   Design: Modern Construction Portfolio
+   ============================================ */
+
+/* ---- HERO SECTION ---- */
+.mandiri-home__hero {
+    position: relative;
+    min-height: calc(100vh - 140px);
+    max-height: 650px;
+    display: flex;
+    align-items: flex-start;
+    padding-top: 6rem;
+    margin-top: 108px;
+    overflow: hidden;
+    background: #1a1a1a;
+}
+
+.mandiri-home__hero-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+}
+
+.mandiri-home__hero-bg img,
+.mandiri-home__hero-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    background: #000;
+}
+
+.mandiri-home__hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.1) 100%);
+    z-index: 1;
+}
+
+.mandiri-home__hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.mandiri-home__hero-text {
+    max-width: 600px;
+    color: #fff;
+}
+
+.mandiri-home__hero-eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.mandiri-home__hero-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.15;
+    margin: 0 0 1.5rem 0;
+    color: #fff;
+}
+
+.mandiri-home__hero-title strong {
+    font-weight: 700;
+}
+
+.mandiri-home__hero-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 2rem;
+    max-width: 480px;
+}
+
+.mandiri-home__hero-actions {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.mandiri-home__hero-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.85rem;
+    padding: 0.875rem 2.5rem;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.mandiri-home__hero-btn--primary {
+    background: #004D2C;
+    color: #fff;
+}
+
+.mandiri-home__hero-btn--primary:hover {
+    background: #00663a;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 77, 44, 0.3);
+}
+
+.mandiri-home__hero-btn--secondary {
+    background: transparent;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.mandiri-home__hero-btn--secondary:hover {
+    border-color: #fff;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* ---- STATS BAR ---- */
+.mandiri-home__stats {
+    background: #111;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.mandiri-home__stats-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.mandiri-home__stat {
+    text-align: center;
+    color: #fff;
+}
+
+.mandiri-home__stat-number {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: #004D2C;
+}
+
+.mandiri-home__stat-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+/* ---- HERITAGE / ABOUT PREVIEW ---- */
+.mandiri-home__heritage {
+    padding: 7rem 0;
+    background: #fff;
+}
+
+.mandiri-home__heritage-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 6rem;
+    align-items: center;
+}
+
+.mandiri-home__heritage-image {
+    position: relative;
+    box-shadow: 20px 20px 0 #f0f0f0;
+}
+
+.mandiri-home__heritage-image img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+}
+
+.mandiri-home__heritage-eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #004D2C;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.mandiri-home__heritage-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.75rem;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #111;
+    margin: 0 0 1.5rem 0;
+}
+
+.mandiri-home__heritage-title strong {
+    font-weight: 700;
+}
+
+.mandiri-home__heritage-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 2.5rem;
+}
+
+.mandiri-home__heritage-features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    margin-top: 2rem;
+}
+
+.mandiri-home__heritage-feature {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.mandiri-home__heritage-feature-icon {
+    width: 32px;
+    height: 32px;
+    background: #e8f5e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #004D2C;
+    flex-shrink: 0;
+    border-radius: 50%;
+}
+
+.mandiri-home__heritage-feature-text {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #222;
+}
+
+/* ---- WHO WE ARE / GRID SECTION ---- */
+.mandiri-home__grid {
+    padding: 7rem 0;
+    background: #f8f9fa;
+}
+
+.mandiri-home__grid-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.mandiri-home__section-eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #004D2C;
+    margin-bottom: 0.75rem;
+    display: block;
+}
+
+.mandiri-home__section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #111;
+    margin: 0 0 3.5rem 0;
+}
+
+.mandiri-home__section-title strong {
+    font-weight: 700;
+}
+
+.mandiri-home__product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.mandiri-home__product-card {
+    background: #fff;
+    overflow: hidden;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    border: 1px solid #eee;
+}
+
+.mandiri-home__product-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+    border-color: #004D2C;
+}
+
+.mandiri-home__product-card-image {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    display: block;
+}
+
+.mandiri-home__product-card-body {
+    padding: 1.75rem;
+}
+
+.mandiri-home__product-card-tag {
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.65rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #004D2C;
+    background: #e8f5e8;
+    padding: 4px 10px;
+    margin-bottom: 1rem;
+}
+
+.mandiri-home__product-card-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 0.75rem 0;
+}
+
+.mandiri-home__product-card-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #666;
+    margin: 0 0 1.5rem 0;
+}
+
+.mandiri-home__product-card-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #004D2C;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: gap 0.3s;
+}
+
+.mandiri-home__product-card:hover .mandiri-home__product-card-link {
+    gap: 10px;
+}
+
+/* ---- SUSTAINABILITY BANNER ---- */
+.mandiri-home__sustainability {
+    padding: 7rem 0;
+    background: #fff;
+}
+
+.mandiri-home__sustainability-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.mandiri-home__sustainability-image {
+    position: relative;
+    order: 2;
+}
+
+.mandiri-home__sustainability-image img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    display: block;
+    box-shadow: -20px 20px 0 #004D2C;
+}
+
+.mandiri-home__sustainability-badge {
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+    background: #111;
+    color: #fff;
+    padding: 0.75rem 1.25rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+}
+
+.mandiri-home__sustainability-content h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 300;
+    color: #111;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.3;
+}
+
+.mandiri-home__sustainability-content h3 strong {
+    font-weight: 700;
+}
+
+.mandiri-home__sustainability-content p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #444;
+    margin-bottom: 2rem;
+}
+
+.mandiri-home__sustainability-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.mandiri-home__sustainability-list li {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.9rem;
+    color: #222;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+}
+
+.mandiri-home__sustainability-list li svg {
+    width: 18px;
+    height: 18px;
+    color: #004D2C;
+    flex-shrink: 0;
+}
+
+/* ---- CTA / CONTACT SECTION ---- */
+.mandiri-home__cta {
+    background: #111;
+    padding: 6rem 0;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+
+.mandiri-home__cta-inner {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 5rem;
+    align-items: center;
+}
+
+.mandiri-home__cta-eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 1.25rem;
+    display: block;
+}
+
+.mandiri-home__cta-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3rem;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 0 1.5rem 0;
+    line-height: 1.2;
+}
+
+.mandiri-home__cta-title strong {
+    color: #004D2C;
+}
+
+.mandiri-home__cta-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 2.5rem;
+    max-width: 500px;
+}
+
+.mandiri-home__cta-actions {
+    display: flex;
+    gap: 1.25rem;
+}
+
+.mandiri-home__cta-btn {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 1rem 2.5rem;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.mandiri-home__cta-btn--primary {
+    background: #004D2C;
+    color: #fff;
+}
+
+.mandiri-home__cta-btn--primary:hover {
+    background: #00663a;
+    transform: scale(1.05);
+}
+
+.mandiri-home__cta-btn--secondary {
+    background: #222;
+    color: #fff;
+}
+
+.mandiri-home__cta-btn--secondary:hover {
+    background: #333;
+}
+
+.mandiri-home__cta-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.mandiri-home__cta-card {
+    background: #1a1a1a;
+    padding: 1.75rem;
+    border: 1px solid #222;
+    transition: border-color 0.3s;
+}
+
+.mandiri-home__cta-card:hover {
+    border-color: #004D2C;
+}
+
+.mandiri-home__cta-card-icon {
+    color: #004D2C;
+    margin-bottom: 1rem;
+}
+
+.mandiri-home__cta-card-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.mandiri-home__cta-card-desc {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    color: #999;
+    margin: 0;
+}
+
+/* ---- RESPONSIVE ---- */
+@media (max-width: 1200px) {
+    .mandiri-home__hero-title { font-size: 3rem; }
+    .mandiri-home__heritage-inner, 
+    .mandiri-home__sustainability-inner,
+    .mandiri-home__cta-inner { gap: 3rem; }
+}
+
+@media (max-width: 1024px) {
+    .mandiri-home__hero { min-height: 600px; }
+    .mandiri-home__product-grid { gap: 1.5rem; }
+    .mandiri-home__cta-inner { grid-template-columns: 1fr; }
+    .mandiri-home__stats-inner { gap: 3rem; }
+}
+
+@media (max-width: 768px) {
+    .mandiri-home__hero { margin-top: 80px; min-height: 500px; }
+    .mandiri-home__hero-title { font-size: 2.25rem; }
+    .mandiri-home__hero-actions { flex-direction: column; align-items: stretch; }
+    .mandiri-home__stats-inner { flex-wrap: wrap; gap: 2rem; }
+    .mandiri-home__heritage-inner, 
+    .mandiri-home__sustainability-inner { grid-template-columns: 1fr; }
+    .mandiri-home__sustainability-image { order: -1; }
+    .mandiri-home__product-grid { grid-template-columns: 1fr; }
+    .mandiri-home__cta-title { font-size: 2.25rem; }
+}
+
+@media (max-width: 480px) {
+    .mandiri-home__cta-cards { grid-template-columns: 1fr; }
+    .mandiri-home__sustainability-list { grid-template-columns: 1fr; }
+}

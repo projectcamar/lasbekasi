@@ -98,16 +98,16 @@ const SingaporeLanguageModal: React.FC = () => {
       >
         <div className="sg-lang-modal-header">
           <div className="sg-lang-badge">
-            <div>Naturra EXPORT &amp; INTERNATIONAL</div>
-            <div className="sg-lang-badge-zh">Naturra出口与国际</div>
+            <div>Mandiri Steel EXPORT &amp; INTERNATIONAL</div>
+            <div className="sg-lang-badge-zh">Mandiri Steel出口与国际</div>
           </div>
           <h2 id="sg-lang-modal-title">
             <div>Welcome Singapore buyer!</div>
             <div className="sg-lang-title-zh">欢迎新加坡买家！</div>
           </h2>
           <p className="sg-lang-subtitle">
-            <div>Welcome to Naturra Extal. Please choose your preferred language for this site.</div>
-            <div className="sg-lang-subtitle-zh">欢迎来到Naturra Extal。请选择您偏好的网站语言。</div>
+            <div>Welcome to Mandiri Steel. Please choose your preferred language for this site.</div>
+            <div className="sg-lang-subtitle-zh">欢迎来到Mandiri Steel。请选择您偏好的网站语言。</div>
           </p>
         </div>
 

@@ -1,74 +1,66 @@
 export const PRODUCT_DESCRIPTIONS_ZH: Record<string, any> = {
-    'cocoa-powder-pure': {
-        name: '纯可可粉',
-        caption: '优质印尼纯可可粉 | Naturra Extal 国际',
-        shortCaption: '纯可可粉 - HS 1805.00.0',
-        description: `Premium pure cocoa powder (HS 1805.00.0) sourced from the finest Indonesian beans. Ideal for global confectionery and industrial food manufacturing.`,
-        metaDescription: '优质印尼纯可可粉 - HS 1805.00.0 | Naturra Extal',
-        imageAlt: 'Naturra Extal 纯可可粉'
+    'kanopi-minimalis-alderon': {
+        name: '简约 Alderon 雨篷',
+        caption: '勿加泗简约 Alderon 雨篷 | Mandiri Steel',
+        shortCaption: 'Alderon 雨篷 - 凉爽耐用',
+        description: `采用 Alderon 屋顶的雨篷是应对勿加泗炎热天气的最佳选择。Alderon 的 UPVC 材料能够很好地减少热量和雨水噪音。我们使用优质的方铁架。`,
+        metaDescription: '勿加泗 Alderon 雨篷安装服务 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 制作的 Alderon 雨篷'
     },
-    'cocoa-powder-sweetened': {
-        name: '加糖可可粉',
-        caption: '加糖可可粉混合物 | Naturra Extal 出口品质',
-        shortCaption: '加糖可可粉 - HS 1806.00.0',
-        description: `Balanced blend of premium cocoa and sweetener (HS 1806.00.0), ready for international food applications.`,
-        metaDescription: '加糖可可粉混合物 - HS 1806.00.0 | Naturra Extal',
-        imageAlt: 'Naturra Extal 加糖可可粉'
+    'kanopi-kaca-tempered': {
+        name: '钢化玻璃雨篷',
+        caption: '豪华钢化玻璃雨篷 | Mandiri Steel 独家设计',
+        shortCaption: '玻璃雨篷 - 现代豪华',
+        description: `为您的家提供豪华现代的印象。我们的钢化玻璃雨篷使用 8 毫米或 10 毫米厚的玻璃，既安全又坚固。`,
+        metaDescription: '勿加泗钢化玻璃雨篷制造服务 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 制作的钢化玻璃雨篷'
     },
-    'cocoa-beans-raw': {
-        name: '可可豆 (原豆)',
-        caption: '来自苏拉威西和苏门答腊的发酵原豆 | Naturra Extal',
-        shortCaption: '原可可豆 - 优质发酵',
-        description: `Hand-selected raw cocoa beans from Indonesia, fermented and sun-dried for a rich flavor profile.`,
-        metaDescription: '印尼发酵原可可豆 | Naturra Extal',
-        imageAlt: 'Naturra Extal 原可可豆'
+    'pagar-minimalis-modern': {
+        name: '现代简约围栏',
+        caption: '勿加泗简约铁艺围栏 | Mandiri Steel',
+        shortCaption: '简约围栏 - 安全美观',
+        description: `我们的简约围栏旨在提供最大的安全性而不牺牲美观。使用防锈镀锌方铁材料。`,
+        metaDescription: '勿加泗简约围栏焊接店 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 制作的现代简约铁艺围栏'
     },
-    'cocoa-butter': {
-        name: '可可脂',
-        caption: '纯正印尼可可脂 | 食品及化妆品级 | Naturra Extal',
-        shortCaption: '纯可可脂 - 优质萃取',
-        description: `High-quality cocoa butter extracted from premium Indonesian beans for chocolate, cosmetics, and pharmaceuticals.`,
-        metaDescription: '纯正印尼可可脂 | 食品及化妆品级 | Naturra Extal',
-        imageAlt: 'Naturra Extal 纯可可脂'
+    'pagar-besi-tempa-klasik': {
+        name: '经典锻铁围栏',
+        caption: '经典豪华锻铁围栏 | 勿加泗 Mandiri Steel',
+        shortCaption: '经典围栏 - 豪华装饰',
+        description: `经典或地中海风格住宅的理想选择。我们的锻铁围栏使用实心铁材料和各种装饰件。`,
+        metaDescription: '勿加泗经典锻铁围栏制造服务 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 制作的经典锻铁围栏'
     },
-    'cloves-whole': {
-        name: '丁香 (整粒)',
-        caption: '来自马鲁古和北苏拉威西的优质丁香 | Naturra Extal',
-        shortCaption: '优质整粒丁香 - 高含油量',
-        description: `Premium hand-picked whole cloves from the Spice Islands, ensuring high eugenol content and intense aroma.`,
-        metaDescription: '优质印尼整粒丁香 | 马鲁古和苏拉威西产地 | Naturra Extal',
-        imageAlt: 'Naturra Extal 优质丁香'
+    'teralis-jendela-minimalis': {
+        name: '简约窗户护栏',
+        caption: '勿加泗防盗窗护栏 | Mandiri Steel',
+        shortCaption: '窗户护栏 - 首要安全',
+        description: `我们的窗户护栏为您的家提供额外的安全保护。由坚固的实心铁或方管制成。`,
+        metaDescription: '勿加泗窗户护栏安装服务 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 制作的简约窗户护栏'
     },
-    'cloves-stems': {
-        name: '丁香棒',
-        caption: '工业用丁香棒 | Naturra Extal',
-        shortCaption: '丁香棒 - 工业批量采购',
-        description: `Quality clove stems ideal for essential oil extraction and industrial applications.`,
-        metaDescription: '印尼丁香棒 | 工业用批量供应 | Naturra Extal',
-        imageAlt: 'Naturra Extal 丁香棒'
+    'railing-tangga-minimalis': {
+        name: '简约楼梯扶手',
+        caption: '勿加泗简约楼梯和阳台扶手 | Mandiri Steel',
+        shortCaption: '楼梯扶手 - 坚固安全',
+        description: `楼梯扶手是室内的装饰元素。我们提供结合了铁材和木质扶手的楼梯扶手。`,
+        metaDescription: '勿加泗楼梯扶手焊接店 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 制作的现代简约楼梯扶手'
     },
-    'clove-oil': {
-        name: '丁香精油',
-        caption: '纯正丁香精油 | 高丁香酚含量 | Naturra Extal',
-        shortCaption: '丁香油 - 医药及食品级',
-        description: `Steam-distilled pure clove essential oil meeting international quality standards for multiple industries.`,
-        metaDescription: '纯正印尼丁香精油 | 高丁香酚含量 | Naturra Extal',
-        imageAlt: 'Naturra Extal 丁香精油'
+    'konstruksi-baja-wf': {
+        name: 'WF 钢结构工程',
+        caption: '仓库和工厂用 WF 钢结构 | Mandiri Steel',
+        shortCaption: '钢结构 - 工业强度',
+        description: `我们为仓库、工厂、五人制足球场或家庭阁楼提供钢结构工程。使用 WF 或 H 型钢。`,
+        metaDescription: '勿加泗 WF 钢结构服务 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 的钢结构工程项目'
     },
-    'cocopeat-block': {
-        name: '椰糠块 (5kg)',
-        caption: '5kg 压缩椰糠块 - 低 EC 环保型 | Naturra Extal',
-        shortCaption: '椰糠块 - 5kg 压缩版',
-        description: `Eco-friendly growing medium with low EC levels, providing excellent water retention for horticulture.`,
-        metaDescription: '5kg 压缩椰糠块 | 环保型低 EC 介质 | Naturra Extal',
-        imageAlt: 'Naturra Extal 椰糠块'
-    },
-    'cocopeat-loose': {
-        name: '散装椰糠',
-        caption: '散装椰糠包装 | 农业与园艺 | Naturra Extal',
-        shortCaption: '散装椰糠 - 已洗涤和缓冲',
-        description: `High-quality loose cocopeat in bulk packaging, washed and buffered for optimal plant growth.`,
-        metaDescription: '大宗散装椰糠 | 农业与园艺专用 | Naturra Extal',
-        imageAlt: 'Naturra Extal 散装椰糠'
+    'pintu-pagar-stainless-steel': {
+        name: '不锈钢大门',
+        caption: '防锈不锈钢围栏 | 勿加泗 Mandiri Steel',
+        shortCaption: '不锈钢围栏 - 防锈',
+        description: `对于想要免维护且永久防锈的围栏的客户，不锈钢大门是理想方案。我们使用正宗 304 级不锈钢。`,
+        metaDescription: '勿加泗不锈钢围栏制造服务 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 制作的不锈钢大门'
     }
 }

@@ -1,74 +1,66 @@
 export const PRODUCT_DESCRIPTIONS_FR: Record<string, any> = {
-    'cocoa-powder-pure': {
-        name: 'Poudre de Cacao Pure',
-        caption: 'Poudre de Cacao Pure d\'Indonésie | Naturra Extal International',
-        shortCaption: 'Poudre de Cacao Pure - HS 1805.00.0',
-        description: `Premium pure cocoa powder (HS 1805.00.0) sourced from the finest Indonesian beans. Ideal for global confectionery and industrial food manufacturing.`,
-        metaDescription: 'Poudre de Cacao Pure d\'Indonésie | Naturra Extal',
-        imageAlt: 'Poudre de Cacao de Naturra Extal'
+    'kanopi-minimalis-alderon': {
+        name: 'Auvent Alderon Minimaliste',
+        caption: 'Auvent Alderon Minimaliste Bekasi | Mandiri Steel',
+        shortCaption: 'Auvent Alderon - Frais & Durable',
+        description: `Les auvents avec toitures Alderon sont le meilleur choix pour le climat chaud de Bekasi. Le matériau UPVC d'Alderon réduit très bien la chaleur et le bruit de la pluie.`,
+        metaDescription: 'Service d\'installation d\'auvent Alderon Bekasi | Mandiri Steel',
+        imageAlt: 'Auvent Alderon par Mandiri Steel'
     },
-    'cocoa-powder-sweetened': {
-        name: 'Poudre de Cacao Sucrée',
-        caption: 'Mélange de Poudre de Cacao Sucrée | Qualité Export Naturra Extal',
-        shortCaption: 'Poudre de Cacao Sucrée - HS 1806.00.0',
-        description: `Balanced blend of premium cocoa and sweetener (HS 1806.00.0), ready for international food applications.`,
-        metaDescription: 'Poudre de Cacao Sucrée - HS 1806.00.0 | Naturra Extal',
-        imageAlt: 'Poudre de Cacao Sucrée de Naturra Extal'
+    'kanopi-kaca-tempered': {
+        name: 'Auvent en Verre Trempé',
+        caption: 'Auvent en Verre Trempé de Luxe | Design Exclusif par Mandiri Steel',
+        shortCaption: 'Auvent en Verre - Moderne & Luxueux',
+        description: `Apporte une impression de luxe et de modernité à votre maison. Nos auvents en verre trempé utilisent du verre de 8 mm ou 10 mm d'épaisseur, sûr et robuste.`,
+        metaDescription: 'Service de fabrication d\'auvents en verre trempé Bekasi | Mandiri Steel',
+        imageAlt: 'Auvent en verre trempé par Mandiri Steel'
     },
-    'cocoa-beans-raw': {
-        name: 'Fèves de Cacao (Brutes)',
-        caption: 'Fèves de Cacao Fermentées de Sulawesi et Sumatra | Naturra Extal',
-        shortCaption: 'Fèves de Cacao Brutes - Fermentation Premium',
-        description: `Hand-selected raw cocoa beans from Indonesia, fermented and sun-dried for a rich flavor profile.`,
-        metaDescription: 'Fèves de Cacao Fermentées d\'Indonésie | Naturra Extal',
-        imageAlt: 'Fèves de Cacao de Naturra Extal'
+    'pagar-minimalis-modern': {
+        name: 'Clôture Moderne Minimaliste',
+        caption: 'Clôture en Fer Minimaliste Bekasi | Mandiri Steel',
+        shortCaption: 'Clôture Minimaliste - Sûre & Esthétique',
+        description: `Nos clôtures minimalistes sont conçues pour offrir une sécurité maximale sans compromettre l'esthétique. Utilisation de fer creux galvanisé antirouille.`,
+        metaDescription: 'Atelier de soudure de clôtures minimalistes Bekasi | Mandiri Steel',
+        imageAlt: 'Clôture en fer moderne minimaliste par Mandiri Steel'
     },
-    'cocoa-butter': {
-        name: 'Beurre de Cacao',
-        caption: 'Beurre de Cacao Pur d\'Indonésie | Naturra Extal',
-        shortCaption: 'Beurre de Cacao Pur - Extraction Premium',
-        description: `High-quality cocoa butter extracted from premium Indonesian beans for chocolate, cosmetics, and pharmaceuticals.`,
-        metaDescription: 'Beurre de Cacao Pur d\'Indonésie | Qualité Premium | Naturra Extal',
-        imageAlt: 'Beurre de Cacao de Naturra Extal'
+    'pagar-besi-tempa-klasik': {
+        name: 'Clôture en Fer Forgé Classique',
+        caption: 'Clôture de Luxe en Fer Forgé Classique | Mandiri Steel Bekasi',
+        shortCaption: 'Clôture Classique - Ornements de Luxe',
+        description: `Le choix idéal pour les maisons de style classique ou méditerranéen. Nos clôtures en fer forgé utilisent du fer plein avec divers ornements.`,
+        metaDescription: 'Service de fabrication de clôtures en fer forgé classiques Bekasi | Mandiri Steel',
+        imageAlt: 'Clôture en fer forgé classique par Mandiri Steel'
     },
-    'cloves-whole': {
-        name: 'Clous de Girofle (Entiers)',
-        caption: 'Clous de Girofle Premium d\'Indonésie | Naturra Extal',
-        shortCaption: 'Clous de Girofle Entiers - Teneur Élevée en Huile',
-        description: `Premium hand-picked whole cloves from the Spice Islands, ensuring high eugenol content and intense aroma.`,
-        metaDescription: 'Clous de Girofle Premium d\'Indonésie | Naturra Extal',
-        imageAlt: 'Clous de Girofle de Naturra Extal'
+    'teralis-jendela-minimalis': {
+        name: 'Grille de Fenêtre Minimaliste',
+        caption: 'Grille de Fenêtre Anti-Intrusion Bekasi | Mandiri Steel',
+        shortCaption: 'Grille de Fenêtre - Sécurité Primaire',
+        description: `Nos grilles de fenêtres servent de sécurité supplémentaire pour votre maison. Fabriquées en fer plein robuste ou en tubes creux.`,
+        metaDescription: 'Service d\'installation de grilles de fenêtre Bekasi | Mandiri Steel',
+        imageAlt: 'Grille de fenêtre minimaliste par Mandiri Steel'
     },
-    'cloves-stems': {
-        name: 'Griffes de Girofle',
-        caption: 'Griffes de Girofle pour Usage Industriel | Naturra Extal',
-        shortCaption: 'Griffes de Girofle - Fourniture Industrielle',
-        description: `Quality clove stems ideal for essential oil extraction and industrial applications.`,
-        metaDescription: 'Griffes de Girofle d\'Indonésie | Naturra Extal',
-        imageAlt: 'Griffes de Girofle de Naturra Extal'
+    'railing-tangga-minimalis': {
+        name: 'Garde-corps d\'Escalier Minimaliste',
+        caption: 'Garde-corps d\'Escalier et Balcon Bekasi | Mandiri Steel',
+        shortCaption: 'Garde-corps - Robuste & Sûr',
+        description: `Les garde-corps d'escalier sont des éléments décoratifs intérieurs. Nous proposons des garde-corps avec une combinaison de fer et de mains courantes en bois.`,
+        metaDescription: 'Atelier de soudure de garde-corps Bekasi | Mandiri Steel',
+        imageAlt: 'Garde-corps d\'escalier moderne minimaliste par Mandiri Steel'
     },
-    'clove-oil': {
-        name: 'Huile Essentielle de Girofle',
-        caption: 'Huile de Girofle Pure | Teneur Élevée en Eugénol | Naturra Extal',
-        shortCaption: 'Huile de Girofle - Qualité Pharmaceutique',
-        description: `Steam-distilled pure clove essential oil meeting international quality standards for multiple industries.`,
-        metaDescription: 'Huile Essentielle de Girofle Pure d\'Indonésie | Naturra Extal',
-        imageAlt: 'Huile de Girofle de Naturra Extal'
+    'konstruksi-baja-wf': {
+        name: 'Construction Métallique WF',
+        caption: 'Structure Métallique WF pour Entrepôts et Usines | Mandiri Steel',
+        shortCaption: 'Construction en Acier - Force Industrielle',
+        description: `Nous réalisons des travaux de construction métallique pour entrepôts, usines, terrains de futsal ou mezzanines domestiques. Utilisation d'acier WF ou H-Beam.`,
+        metaDescription: 'Service de construction métallique WF Bekasi | Mandiri Steel',
+        imageAlt: 'Projet de construction métallique par Mandiri Steel'
     },
-    'cocopeat-block': {
-        name: 'Bloc de Cocopeat (5kg)',
-        caption: 'Bloc de Cocopeat Compressé - Écologique | Naturra Extal',
-        shortCaption: 'Bloc de Cocopeat - 5kg Compressé',
-        description: `Eco-friendly growing medium with low EC levels, providing excellent water retention for horticulture.`,
-        metaDescription: 'Bloc de Cocopeat Compressé 5kg | Naturra Extal',
-        imageAlt: 'Cocopeat de Naturra Extal'
-    },
-    'cocopeat-loose': {
-        name: 'Cocopeat en Vrac',
-        caption: 'Emballage en Vrac de Cocopeat | Agriculture | Naturra Extal',
-        shortCaption: 'Cocopeat en Vrac - Lavé et Tamponné',
-        description: `High-quality loose cocopeat in bulk packaging, washed and buffered for optimal plant growth.`,
-        metaDescription: 'Cocopeat en Vrac d\'Indonésie | Naturra Extal',
-        imageAlt: 'Cocopeat de Naturra Extal'
+    'pintu-pagar-stainless-steel': {
+        name: 'Portail en Acier Inoxydable',
+        caption: 'Clôture en Inox Antirouille | Mandiri Steel Bekasi',
+        shortCaption: 'Clôture Inox - Résistant à la Rouille',
+        description: `Pour ceux qui veulent une clôture sans entretien et inoxydable à vie, les portails en inox sont la solution. Nous utilisons de l'inox grade 304.`,
+        metaDescription: 'Service de fabrication de clôtures en inox Bekasi | Mandiri Steel',
+        imageAlt: 'Portail en acier inoxydable par Mandiri Steel'
     }
 }

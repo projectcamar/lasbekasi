@@ -45,10 +45,10 @@ export const PRODUCT_DESCRIPTIONS: Record<string, MultiLanguageDescription> = ne
       const translations = ALL_PRODUCT_TRANSLATIONS[lang as LanguageCode] || ALL_PRODUCT_TRANSLATIONS.en
       const data = translations[slug] || {
         name: slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
-        caption: `Premium Agricultural Commodity from Naturra Extal`,
+        caption: `Premium Steel Fabrication & Welding Services by Mandiri Steel`,
         shortCaption: slug,
-        description: `Premium agricultural commodity sourced by Naturra Extal.`,
-        metaDescription: `Premium agricultural commodity from Naturra Extal.`,
+        description: `Premium custom welding fabrication services by Bengkel Las Mandiri Steel Bekasi.`,
+        metaDescription: `High quality iron work, canopy, and minimalist fence fabrication by Mandiri Steel Bekasi.`,
         imageAlt: slug
       }
       result[lang] = data

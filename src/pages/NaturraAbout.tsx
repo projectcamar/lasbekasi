@@ -27,244 +27,244 @@ const ABOUT_TRANSLATIONS: Record<LanguageCode, {
     contactFollow: string
 }> = {
     id: {
-        metaTitle: 'Tentang Kami | CV Naturra Extal International',
-        metaDesc: 'Pelajari tentang CV Naturra Extal International — perusahaan perdagangan komoditas pertanian Indonesia yang mengkhususkan diri dalam cocoa, cengkeh, dan cocopeat.',
+        metaTitle: 'Tentang Kami | Bengkel Las Mandiri Bekasi',
+        metaDesc: 'Bengkel Las Mandiri Bekasi - Jasa las terpercaya sejak 1999. Spesialis kanopi, pagar, teralis, dan konstruksi baja di Bekasi.',
         eyebrow: 'Tentang Kami',
-        heroDesc: 'CV Naturra Extal International adalah perusahaan perdagangan komoditas Indonesia yang menjembatani warisan pertanian Indonesia yang kaya dengan pasar global. Kami mengkhususkan diri dalam pengadaan cocoa premium, cengkeh, dan cocopeat langsung dari petani Indonesia — memastikan kualitas, keberlanjutan, dan praktik perdagangan yang adil dari hulu ke ekspor.',
-        sourcedTitle: 'BERSUMBER LANGSUNG DARI PETANI',
-        sourcedDesc: 'Indonesia adalah produsen cocoa terbesar ketiga di dunia dan rumah bagi beberapa cengkeh dan produk kelapa terbaik. Di Naturra Extal, kami bekerja langsung dengan komunitas petani di seluruh kepulauan Indonesia, memotong perantara untuk memastikan petani mendapatkan kompensasi yang adil sementara klien kami mendapatkan komoditas berkualitas tertinggi dengan harga kompetitif.',
-        diversityTitle: 'KEANEKARAGAMAN KOMODITAS INDONESIA',
-        diversitySubtitle: 'Jaringan pengadaan kami tersebar di seluruh wilayah pertanian utama Indonesia',
+        heroDesc: 'Bengkel Las Mandiri (Mandiri Steel) adalah bengkel las profesional di Bekasi yang telah melayani kebutuhan konstruksi besi dan stainless steel selama lebih dari 25 tahun. Kami berkomitmen memberikan hasil pekerjaan yang kokoh, estetik, dan berkualitas tinggi untuk setiap pelanggan kami.',
+        sourcedTitle: 'PENGALAMAN LEBIH DARI 25 TAHUN',
+        sourcedDesc: 'Didirikan sejak tahun 1999 oleh Bapak Maman Toha, Bengkel Las Mandiri telah tumbuh menjadi salah satu bengkel las paling terpercaya di wilayah Bekasi. Kami memulai perjalanan dari bengkel kecil dan kini telah menangani ribuan proyek mulai dari kanopi rumah tinggal hingga konstruksi baja pabrik besar.',
+        diversityTitle: 'LAYANAN UNGGULAN KAMI',
+        diversitySubtitle: 'Solusi lengkap untuk kebutuhan eksterior dan interior bangunan Anda',
         regions: [
-            { name: 'Sulawesi', desc: 'Wilayah penghasil cocoa terbesar di Indonesia, bertanggung jawab atas lebih dari 60% produksi cocoa nasional. Cocoa Sulawesi dikenal dengan profil rasa yang khas dan kaya.' },
-            { name: 'Jawa Timur', desc: 'Rumah perkebunan cocoa premium dan fasilitas pengolahan utama. Jawa Timur juga menjadi pusat pengadaan cocopeat kami.' },
-            { name: 'Maluku', desc: 'Kepulauan Rempah legendaris — tempat lahirnya perdagangan cengkeh global. Cengkeh Maluku sangat dihargai di seluruh dunia karena kandungan minyak esensial yang luar biasa.' },
-            { name: 'Sulawesi Utara', desc: 'Wilayah penghasil cocoa dan cengkeh yang signifikan. Tanah vulkanik memperkaya profil rasa komoditas yang ditanam di sini.' },
-            { name: 'Surabaya', desc: 'Hub logistik dan pemasok cocopeat utama kami. Lokasi pelabuhan strategis Surabaya membuatnya ideal untuk ekspor komoditas.' },
-            { name: 'Sumatera', desc: 'Kaya akan produksi cocoa dan kelapa. Geografi Sumatera yang beragam mendukung pembuatan cocopeat berkualitas tinggi.' },
+            { name: 'Kanopi Minimalis', desc: 'Pembuatan kanopi dengan berbagai pilihan atap seperti Alderon, Spandek, dan Polycarbonate dengan rangka besi yang kokoh.' },
+            { name: 'Pagar & Gerbang', desc: 'Jasa pembuatan pagar minimalis, pagar tempa klasik, hingga pagar stainless steel dengan desain yang bisa dicustom.' },
+            { name: 'Teralis Jendela', desc: 'Pengaman jendela dengan berbagai motif yang memberikan keamanan ekstra tanpa mengurangi keindahan rumah.' },
+            { name: 'Railing Tangga', desc: 'Railing tangga dan balkon dengan kombinasi material besi, kayu, atau stainless steel untuk interior yang elegan.' },
+            { name: 'Konstruksi Baja', desc: 'Pengerjaan struktur baja WF atau H-Beam untuk gudang, pabrik, lapangan futsal, atau dak mezanin rumah.' },
+            { name: 'Service & Perbaikan', desc: 'Layanan perbaikan dan pengecatan ulang produk las lama Anda agar kembali kuat dan terlihat seperti baru.' },
         ],
-        journeyEyebrow: 'Merangkul Keberlanjutan',
-        journeyHeading: ['PERJALANAN KAMI', 'DARI PERTANIAN KE', 'PASAR GLOBAL'],
-        journeyDesc: 'Di Naturra Extal, setiap komoditas yang kami perdagangkan melalui proses jaminan kualitas yang ketat. Dari seleksi hati-hati di tingkat pertanian, melalui pengeringan dan pengolahan yang tepat, hingga pemeriksaan kualitas akhir sebelum ekspor — kami memastikan setiap pengiriman memenuhi standar internasional.',
-        processTitle: 'PROSES DARI PERTANIAN KE EKSPOR',
-        processSubtitle: 'Rantai pasokan kami yang dikontrol kualitas memastikan komoditas premium di setiap langkah',
+        journeyEyebrow: 'Kualitas & Integritas',
+        journeyHeading: ['HASIL KERJA KOKOH', 'HARGA BENGKEL', 'LANGSUNG'],
+        journeyDesc: 'Di Bengkel Las Mandiri, setiap sambungan las kami kerjakan dengan teliti. Kami memastikan setiap material yang digunakan sesuai dengan kesepakatan spesifikasi. Kejujuran ketebalan besi dan kualitas cat anti karat adalah kunci kepercayaan pelanggan kepada kami selama puluhan tahun.',
+        processTitle: 'PROSES PENGERJAAN KAMI',
+        processSubtitle: 'Alur kerja profesional untuk menjamin ketepatan waktu dan kualitas hasil',
         steps: [
-            { label: 'Pengadaan', desc: 'Kemitraan langsung dengan petani Indonesia di seluruh wilayah pertanian utama' },
-            { label: 'Seleksi', desc: 'Penilaian kualitas yang ketat memastikan hanya komoditas premium yang dipilih' },
-            { label: 'Pengolahan', desc: 'Pengeringan, pembersihan, dan pengolahan yang tepat sesuai standar internasional' },
-            { label: 'Ekspor', desc: 'Pengemasan yang telah diperiksa kualitasnya dan pengiriman global dengan dokumentasi lengkap' },
+            { label: 'Survei & Konsultasi', desc: 'Tim kami datang ke lokasi untuk pengukuran dan mendiskusikan desain yang diinginkan' },
+            { label: 'Penawaran Harga', desc: 'Kami memberikan rincian biaya yang transparan berdasarkan volume dan material pilihan' },
+            { label: 'Pengerjaan Workshop', desc: 'Proses pengelasan dan perakitan dilakukan di workshop kami oleh tenaga ahli profesional' },
+            { label: 'Pemasangan', desc: 'Finishing dan pemasangan di lokasi pelanggan dengan rapi dan pembersihan area kerja' },
         ],
-        contactCompany: 'Perusahaan', contactContact: 'Kontak', contactFollow: 'Ikuti Kami',
+        contactCompany: 'Workshop', contactContact: 'Hubungi Kami', contactFollow: 'Portofolio',
     },
     en: {
-        metaTitle: 'About Us | CV Naturra Extal International',
-        metaDesc: 'Learn about CV Naturra Extal International — Indonesian agricultural commodity trading company specializing in cocoa, cloves and cocopeat.',
+        metaTitle: 'About Us | Bengkel Las Mandiri Bekasi',
+        metaDesc: 'Bengkel Las Mandiri Bekasi - Trusted welding services since 1999. Specialists in canopies, fences, trellises, and steel construction in Bekasi.',
         eyebrow: 'About Us',
-        heroDesc: 'CV Naturra Extal International is an Indonesian commodity trading company that bridges the gap between Indonesia\'s rich agricultural heritage and the global market. We specialize in sourcing premium cocoa, cloves (cengkeh), and cocopeat directly from Indonesian farmers — ensuring quality, sustainability, and fair trade practices from farm to export.',
-        sourcedTitle: 'SOURCED DIRECTLY FROM THE FARMERS',
-        sourcedDesc: 'Indonesia is the third-largest cocoa producer in the world and home to some of the finest cloves and coconut products. At Naturra Extal, we work directly with farming communities across the Indonesian archipelago, cutting out middlemen to ensure farmers receive fair compensation while our clients receive the highest quality commodities at competitive prices.',
-        diversityTitle: 'INDONESIA COMMODITY DIVERSITY',
-        diversitySubtitle: 'Our sourcing network spans across Indonesia\'s key agricultural regions',
+        heroDesc: 'Bengkel Las Mandiri (Mandiri Steel) is a professional welding workshop in Bekasi that has served iron and stainless steel construction needs for more than 25 years. We are committed to providing sturdy, aesthetic, and high-quality work for each of our customers.',
+        sourcedTitle: 'OVER 25 YEARS OF EXPERIENCE',
+        sourcedDesc: 'Founded since 1999 by Mr. Maman Toha, Bengkel Las Mandiri has grown to become one of the most trusted welding workshops in the Bekasi area. We started our journey from a small workshop and have now handled thousands of projects from residential canopies to large factory steel constructions.',
+        diversityTitle: 'OUR FEATURED SERVICES',
+        diversitySubtitle: 'Complete solutions for your building\'s exterior and interior needs',
         regions: [
-            { name: 'Sulawesi', desc: 'Indonesia\'s largest cocoa-producing region, responsible for over 60% of national cocoa output. Sulawesi cocoa is known for its distinct flavor profile with mild acidity and rich chocolate notes.' },
-            { name: 'East Java', desc: 'Home to premium cocoa estates and major processing facilities. East Java also serves as our cocopeat sourcing hub.' },
-            { name: 'Maluku', desc: 'The legendary Spice Islands — birthplace of the global clove trade. Maluku cloves are prized worldwide for their exceptional essential oil content.' },
-            { name: 'North Sulawesi', desc: 'A significant cocoa and clove producing region with ideal climate conditions. The volcanic soil enriches the flavor profiles of commodities grown here.' },
-            { name: 'Surabaya', desc: 'Our key logistics and cocopeat supplier hub. Surabaya\'s strategic port location makes it ideal for commodity processing and export operations.' },
-            { name: 'Sumatra', desc: 'Rich in both cocoa and coconut production. Sumatra\'s diverse geography supports high-quality cocopeat manufacturing and artisanal cocoa farming.' },
+            { name: 'Minimalist Canopy', desc: 'Fabrication of canopies with various roof options such as Alderon, Spandek, and Polycarbonate with sturdy iron frames.' },
+            { name: 'Fence & Gate', desc: 'Services for minimalist fences, classic wrought iron fences, to stainless steel fences with custom designs.' },
+            { name: 'Window Trellis', desc: 'Window security with various motifs providing extra safety without compromising home beauty.' },
+            { name: 'Stair Railing', desc: 'Stair and balcony railings with a combination of iron, wood, or stainless steel materials for an elegant interior.' },
+            { name: 'Steel Construction', desc: 'Structural work using WF or H-Beam steel for warehouses, factories, futsal courts, or home mezzanines.' },
+            { name: 'Service & Repair', desc: 'Repair and repainting services for your old welding products to make them strong again and look like new.' },
         ],
-        journeyEyebrow: 'Embracing Sustainability',
-        journeyHeading: ['OUR JOURNEY', 'FROM FARM TO', 'GLOBAL MARKET'],
-        journeyDesc: 'At Naturra Extal, every commodity we trade goes through a rigorous quality assurance process. From careful selection at the farm level, through proper drying and processing, to final quality checks before export — we ensure that every shipment meets international standards.',
-        processTitle: 'FARM TO EXPORT PROCESS',
-        processSubtitle: 'Our quality-controlled supply chain ensures premium commodities at every step',
+        journeyEyebrow: 'Quality & Integrity',
+        journeyHeading: ['STURDY WORK RESULTS', 'DIRECT WORKSHOP', 'PRICING'],
+        journeyDesc: 'At Bengkel Las Mandiri, every weld joint is carefully worked on. We ensure that every material used matches the agreed specifications. Honesty in iron thickness and anti-rust paint quality is the key to our customers\' trust for decades.',
+        processTitle: 'OUR WORK PROCESS',
+        processSubtitle: 'Professional workflow to ensure timely delivery and quality results',
         steps: [
-            { label: 'Sourcing', desc: 'Direct partnerships with Indonesian farmers across key agricultural regions' },
-            { label: 'Selection', desc: 'Rigorous quality grading and selection ensuring only premium commodities' },
-            { label: 'Processing', desc: 'Proper drying, cleaning, and processing following international standards' },
-            { label: 'Export', desc: 'Quality-checked packaging and global shipping with full documentation' },
+            { label: 'Survey & Consultation', desc: 'Our team visits the location for measurement and to discuss the desired design' },
+            { label: 'Price Quotation', desc: 'We provide transparent cost details based on volume and chosen materials' },
+            { label: 'Workshop Production', desc: 'The welding and assembly process is carried out in our workshop by professional experts' },
+            { label: 'Installation', desc: 'Finishing and installation at the customer site with neatness and work area cleaning' },
         ],
-        contactCompany: 'Company', contactContact: 'Contact', contactFollow: 'Follow Us',
+        contactCompany: 'Workshop', contactContact: 'Contact Us', contactFollow: 'Portfolio',
     },
     ar: {
-        metaTitle: 'من نحن | CV Naturra Extal International',
-        metaDesc: 'تعرف على CV Naturra Extal International — شركة تجارة سلع زراعية إندونيسية متخصصة في الكاكاو والقرنفل وجوز الهند.',
+        metaTitle: 'من نحن | مانديري ستيل بيكاسي',
+        metaDesc: 'مانديري ستيل بيكاسي - خدمات لحام موثوقة منذ عام 1999. متخصصون في المظلات والأسوار والتعريشات والمنشآت الفولاذية في بيكاسي.',
         eyebrow: 'من نحن',
-        heroDesc: 'CV Naturra Extal International شركة تجارة سلع إندونيسية تجسر الفجوة بين الإرث الزراعي الغني لإندونيسيا والسوق العالمية. نتخصص في تزويد الكاكاو الفاخر والقرنفل (cengkeh) وجوز الهند مباشرة من المزارعين الإندونيسيين.',
-        sourcedTitle: 'مُوَرَّد مباشرةً من المزارعين',
-        sourcedDesc: 'إندونيسيا ثالث أكبر منتج للكاكاو في العالم. في Naturra Extal نعمل مع مجتمعات المزارعين مباشرةً عبر الأرخبيل الإندونيسي، مما يضمن للمزارعين عائداً عادلاً وللعملاء أعلى جودة بأسعار تنافسية.',
-        diversityTitle: 'تنوع السلع الإندونيسية',
-        diversitySubtitle: 'تمتد شبكة توريدنا عبر مناطق زراعية رئيسية في إندونيسيا',
+        heroDesc: 'مانديري ستيل (Mandiri Steel) هي ورشة لحام احترافية في بيكاسي تخدم احتياجات إنشاءات الحديد والستانلس ستيل لأكثر من 25 عامًا. نحن ملتزمون بتقديم عمل متين وجمالي وعالي الجودة لكل من عملائنا.',
+        sourcedTitle: 'أكثر من 25 عامًا من الخبرة',
+        sourcedDesc: 'تأسست مانديري ستيل في عام 1999 على يد السيد مامان توها، ونمت لتصبح واحدة من أكثر ورش اللحام موثوقية في منطقة بيكاسي. بدأنا رحلتنا من ورشة صغيرة وقمنا الآن بمعالجة آلاف المشاريع من مظلات سكنية إلى منشآت فولاذية للمصانع الكبيرة.',
+        diversityTitle: 'خدماتنا المميزة',
+        diversitySubtitle: 'حلول كاملة لاحتياجات مبناك الخارجية والداخلية',
         regions: [
-            { name: 'سولاويزي', desc: 'أكبر منطقة منتجة للكاكاو في إندونيسيا، وتتميز بنكهة فريدة وحموضة خفيفة ونكهة شوكولاتة غنية.' },
-            { name: 'جاوة الشرقية', desc: 'موطن مزارع الكاكاو الفاخرة ومرافق المعالجة الرئيسية، وهي أيضاً مركز توريد جوز الهند لدينا.' },
-            { name: 'ملوكو', desc: 'جزر التوابل الأسطورية — مهد تجارة القرنفل العالمية. يُقدَّر قرنفل ملوكو لمحتواه العالي من الزيوت الأساسية.' },
-            { name: 'شمال سولاويزي', desc: 'منطقة مهمة لإنتاج الكاكاو والقرنفل. تثري التربة البركانية نكهات السلع المزروعة هنا.' },
-            { name: 'سورابايا', desc: 'مركز لوجستي رئيسي لدينا. يجعل موقع ميناء سورابايا الاستراتيجي منها مثاليةً لعمليات التصدير.' },
-            { name: 'سومطرة', desc: 'غنية بإنتاج الكاكاو وجوز الهند. تدعم جغرافية سومطرة المتنوعة تصنيع جوز الهند عالي الجودة.' },
+            { name: 'مظلة بسيطة', desc: 'تصنيع مظلات بخيارات سقف متنوعة مثل الديرون، وسبانديك، وبولي كربونات بإطارات حديدية متينة.' },
+            { name: 'سياج وبوابة', desc: 'خدمات الأسوار البسيطة، والأسوار الحديد المشغول الكلاسيكية، إلى الأسوار الستانلس ستيل بتصاميم مخصصة.' },
+            { name: 'تعريشة نافذة', desc: 'أمن النوافذ بزخارف متنوعة توفر أمانًا إضافيًا دون المساس بجمال المنزل.' },
+            { name: 'درابزين درج', desc: 'درابزين السلالم والبلكونات بمزيج من مواد الحديد أو الخشب أو الستانلس ستيل لتصميم داخلي أنيق.' },
+            { name: 'إنشاءات فولاذية', desc: 'أعمال هيكلية باستخدام فولاذ WF أو H-Beam للمستودعات أو المصانع أو ملاعب كرة القدم أو الميزانين المنزلي.' },
+            { name: 'خدمة وإصلاح', desc: 'خدمات إصلاح وإعادة طلاء لمنتجات اللحام القديمة الخاصة بك لجعلها قوية مرة أخرى وتبدو كأنها جديدة.' },
         ],
-        journeyEyebrow: 'نحتضن الاستدامة',
-        journeyHeading: ['رحلتنا', 'من المزرعة إلى', 'السوق العالمية'],
-        journeyDesc: 'في Naturra Extal، يمر كل سلعة نتداولها بعملية ضمان جودة صارمة. من الاختيار الدقيق على مستوى المزرعة، مروراً بالتجفيف والمعالجة الصحيحة، وصولاً إلى فحوصات الجودة النهائية قبل التصدير.',
-        processTitle: 'عملية من المزرعة إلى التصدير',
-        processSubtitle: 'تضمن سلسلة التوريد المُحكمة منتجاتٍ متميزة في كل خطوة',
+        journeyEyebrow: 'الجودة والنزاهة',
+        journeyHeading: ['نتائج عمل متينة', 'ورشة عمل مباشرة', 'التسعير'],
+        journeyDesc: 'في مانديري ستيل، يتم العمل على كل وصلة لحام بعناية. نحن نضمن أن كل مادة مستخدمة تطابق المواصفات المتفق عليها. الصدق في سمك الحديد وجودة الطلاء المضاد للصدأ هو مفتاح ثقة عملائنا لعقود.',
+        processTitle: 'عملية عملنا',
+        processSubtitle: 'سير عمل احترافي لضمان التسليم في الوقت المحدد ونتائج عالية الجودة',
         steps: [
-            { label: 'التوريد', desc: 'شراكات مباشرة مع المزارعين الإندونيسيين عبر المناطق الزراعية الرئيسية' },
-            { label: 'الانتقاء', desc: 'تصنيف وانتقاء دقيق للجودة يضمن اختيار السلع الفاخرة فحسب' },
-            { label: 'المعالجة', desc: 'تجفيف وتنظيف ومعالجة صحيحة وفق المعايير الدولية' },
-            { label: 'التصدير', desc: 'تغليف مضمون الجودة وشحن عالمي بتوثيق كامل' },
+            { label: 'معاينة واستشارة', desc: 'فريقنا يزور الموقع للقياس ومناقشة التصميم المطلوب' },
+            { label: 'عرض سعر', desc: 'نحن نقدم تفاصيل تكلفة شفافة بناءً على الحجم والمواد المختارة' },
+            { label: 'إنتاج الورشة', desc: 'تتم عملية اللحام والتجميع في ورشتنا على يد خبراء محترفين' },
+            { label: 'تركيب', desc: 'التشطيب والتركيب في موقع العميل مع الترتيب وتنظيف منطقة العمل' },
         ],
-        contactCompany: 'الشركة', contactContact: 'اتصل بنا', contactFollow: 'تابعنا',
+        contactCompany: 'الورشة', contactContact: 'اتصل بنا', contactFollow: 'المعرض',
     },
     zh: {
-        metaTitle: '关于我们 | CV Naturra Extal International',
-        metaDesc: '了解 CV Naturra Extal International — 印度尼西亚农业商品贸易公司，专注于可可、丁香和椰糠。',
+        metaTitle: '关于我们 | 勿加泗 Mandiri Steel',
+        metaDesc: '勿加泗 Mandiri Steel - 自 1999 年以来值得信赖的焊接服务。勿加泗雨棚、围栏、护栏和钢结构专家。',
         eyebrow: '关于我们',
-        heroDesc: 'CV Naturra Extal International 是一家印度尼西亚商品贸易公司，连接印尼丰富的农业资源与全球市场。我们专注于直接向印尼农民采购优质可可、丁香和椰糠，确保从农场到出口的全程质量、可持续性与公平贸易。',
-        sourcedTitle: '直接从农民处采购',
-        sourcedDesc: '印度尼西亚是全球第三大可可生产国，也是优质丁香和椰糠产品的主要产地。Naturra Extal 直接与印尼各地的农民合作，省去中间商，确保农民获得公平报酬，同时客户以具竞争力的价格获得最高品质的商品。',
-        diversityTitle: '印度尼西亚商品多样性',
-        diversitySubtitle: '我们的采购网络覆盖印度尼西亚各主要农业产区',
+        heroDesc: 'Mandiri Steel 是一家位于勿加泗的专业焊接工场，服务钢铁和不锈钢建筑需求超过 25 年。我们致力于为每一位客户提供坚固、美观且高质量的作品。',
+        sourcedTitle: '超过 25 年的经验',
+        sourcedDesc: 'Mandiri Steel 由 Maman Toha 先生于 1999 年创立，已发展成为勿加泗地区最受信任的焊接工场之一。我们从一个小工场开始，现在已经处理了数千个项目，从住宅雨棚到大型工厂钢结构。',
+        diversityTitle: '我们的特色服务',
+        diversitySubtitle: '为您建筑的外部和内部需求提供完整的解决方案',
         regions: [
-            { name: '苏拉威西', desc: '印度尼西亚最大的可可产区，占全国可可产量的60%以上，以独特的口感和醇厚的巧克力风味著称。' },
-            { name: '东爪哇', desc: '优质可可庄园和主要加工设施的所在地，同时也是我们的椰糠主要采购基地。' },
-            { name: '马鲁古', desc: '传奇香料群岛——全球丁香贸易的发源地。马鲁古丁香因其卓越的精油含量而享誉全球。' },
-            { name: '北苏拉威西', desc: '重要的可可和丁香产区，气候条件得天独厚。火山土壤赋予当地商品独特的风味特征。' },
-            { name: '泗水', desc: '我们的核心物流和椰糠供应枢纽。泗水的战略性港口位置使其成为商品处理和出口的理想之地。' },
-            { name: '苏门答腊', desc: '可可和椰子产量丰富，多样的地理条件支持高质量椰糠生产和精品可可农业。' },
+            { name: '简约雨棚', desc: '采用坚固铁架，提供 Alderon、钢板和聚碳酸酯等多种顶面选择的雨棚制造。' },
+            { name: '围栏与大门', desc: '简约围栏、经典锻铁围栏到不锈钢围栏的定制设计服务。' },
+            { name: '窗户护栏', desc: '各种花型的窗户安全护栏，在提供额外安全的同时不影响家居美观。' },
+            { name: '楼梯扶手', desc: '结合铁、木或不锈钢材质的楼梯和阳台扶手，打造优雅的室内空间。' },
+            { name: '钢结构', desc: '为仓库、工厂、五人制足球场或家庭阁楼提供 WF 或 H 型钢结构工程。' },
+            { name: '维修服务', desc: '为您旧有的焊接产品提供维修和重新喷漆服务，使其恢复坚固，焕然一新。' },
         ],
-        journeyEyebrow: '践行可持续发展',
-        journeyHeading: ['我们的旅程', '从农场到', '全球市场'],
-        journeyDesc: '在 Naturra Extal，我们交易的每种商品都经过严格的质量保证流程。从农场层面的精心挑选、适当的干燥和加工处理，到出口前的最终质量检查——我们确保每批货物符合国际标准。',
-        processTitle: '从农场到出口的流程',
-        processSubtitle: '我们严格的质量控制供应链确保每一步都提供优质商品',
+        journeyEyebrow: '品质与诚信',
+        journeyHeading: ['坚固的工作成果', '工厂直营', '定价'],
+        journeyDesc: '在 Mandiri Steel，每一个焊接接头都经过精心加工。我们确保使用的每种材料都符合约定的规格。对钢铁厚度和防锈漆质量的诚实是我们几十年来赢得客户信任的关键。',
+        processTitle: '我们的工作流程',
+        processSubtitle: '专业的流程确保及时交付和优质结果',
         steps: [
-            { label: '采购', desc: '与印度尼西亚主要农业产区的农民直接建立合作伙伴关系' },
-            { label: '精选', desc: '严格的质量分级和筛选，确保只有优质商品通过' },
-            { label: '加工', desc: '按照国际标准进行适当的干燥、清洁和加工处理' },
-            { label: '出口', desc: '经质量检验的包装和全文件记录的全球运输服务' },
+            { label: '测量与咨询', desc: '我们的团队上门进行测量并讨论所需的设计' },
+            { label: '价格报价', desc: '我们根据工程量和所选材料提供透明的成本详情' },
+            { label: '工厂生产', desc: '焊接和组装过程由专业专家在我们的工场进行' },
+            { label: '安装', desc: '在客户现场进行精加工和安装，并清理工作区域' },
         ],
-        contactCompany: '公司', contactContact: '联系我们', contactFollow: '关注我们',
+        contactCompany: '工场', contactContact: '联系我们', contactFollow: '案例展示',
     },
     ja: {
-        metaTitle: '会社概要 | CV Naturra Extal International',
-        metaDesc: 'CV Naturra Extal Internationalについて — ココア、クローブ、ヤシ繊維を専門とするインドネシアの農産物商社。',
-        eyebrow: '会社概要',
-        heroDesc: 'CV Naturra Extal Internationalは、インドネシアの豊かな農業遺産と世界市場を結ぶ商社です。インドネシアの農家から直接、プレミアムカカオ、クローブ（丁子）、ヤシ繊維（ココピート）を調達し、農場から輸出まで品質・持続可能性・公正取引を確保しています。',
-        sourcedTitle: '農家から直接調達',
-        sourcedDesc: 'インドネシアは世界第3位のカカオ生産国であり、最高品質のクローブやココナッツ製品の産地でもあります。Naturra Extalはインドネシア全域の農家と直接連携し、中間業者を排除することで農家への公正な報酬と、クライアントへの最高品質の商品を競争力ある価格で実現しています。',
-        diversityTitle: 'インドネシア産品の多様性',
-        diversitySubtitle: '私たちの調達ネットワークはインドネシアの主要農業地域全体に広がっています',
+        metaTitle: '私たちについて | ブカシ Mandiri Steel',
+        metaDesc: 'ブカシ Mandiri Steel - 1999年以来の信頼される溶接サービス。ブカシでのキャノピー、フェンス、格子、鉄骨構造の専門家。',
+        eyebrow: '私たちについて',
+        heroDesc: 'Mandiri Steel は、25年以上にわたり鉄およびステンレス鋼の建築ニーズに応えてきたブカシのプロフェッショナルな溶接ワークショップです。私たちは、すべてのお客様に頑丈で美しく、高品質な作品を提供することにコミットしています。',
+        sourcedTitle: '25年以上の経験',
+        sourcedDesc: '1999年にママン・トハ氏によって設立された Mandiri Steel は、ブカシ地域で最も信頼される溶接ワークショップの一つに成長しました。小さなワークショップから始まり、現在では住宅用キャノピーから大規模工場の鉄骨構造まで、数千のプロジェクトを手掛けています。',
+        diversityTitle: '主なサービス',
+        diversitySubtitle: '建物のエクステリアおよびインテリアのニーズに応える完全なソリューション',
         regions: [
-            { name: 'スラウェシ', desc: 'インドネシア最大のカカオ産地で、全国生産量の60%以上を占めます。スラウェシ産カカオは柔らかな酸味とリッチなコクが国際市場で高く評価されています。' },
-            { name: '東ジャワ', desc: '高品質なカカオ農園と主要加工施設が集まる地域。ココピートの主要調達拠点でもあります。' },
-            { name: 'マルク', desc: '伝説のスパイス諸島——世界のクローブ貿易発祥の地。マルク産クローブは精油含有量の高さと芳醇な香りで世界中から珍重されています。' },
-            { name: '北スラウェシ', desc: 'カカオとクローブの重要産地で、理想的な気候条件を誇ります。火山性土壌が商品の独特な風味を育みます。' },
-            { name: 'スラバヤ', desc: '当社の主要物流・ココピート供給拠点。戦略的な港湾位置が輸出オペレーションに最適です。' },
-            { name: 'スマトラ', desc: 'カカオとココナッツの産地として豊かな多様な地形が高品質ココピート生産と職人的カカオ栽培を支えています。' },
+            { name: 'シンプルキャノピー', desc: '頑丈な鉄製フレームを使用した、アルデロン、スパンデック、ポリカーボネートなどの多様な屋根材のキャノピー製作。' },
+            { name: 'フェンス・門扉', desc: 'シンプルフェンス、クラシックな錬鉄製フェンスからステンレス製フェンスまでのカスタムデザインサービス。' },
+            { name: '窓格子', desc: '住まいの美しさを損なうことなく、追加の安全性を提供する多様なモチーフの窓格子。' },
+            { name: '階段手すり', desc: 'エレガントなインテリアのための、鉄、木、またはステンレス素材を組み合わせた階段およびバルコニーの手すり。' },
+            { name: '鉄骨構造', desc: '倉庫、工場、フットサルコート、または住宅用ロフトのためのWFまたはH鋼を使用した構造工事。' },
+            { name: '修理・メンテナンス', desc: '古い溶接製品を再び頑丈にし、新品のように見せるための修理および再塗装サービス。' },
         ],
-        journeyEyebrow: '持続可能性への取り組み',
-        journeyHeading: ['私たちの歩み', '農場から', '世界市場へ'],
-        journeyDesc: 'Naturra Extalでは、すべての取引において厳格な品質保証プロセスを経ています。農場での丁寧な選別から適切な乾燥・加工処理、輸出前の最終品質検査まで、あらゆる出荷が国際基準を満たすよう取り組んでいます。',
-        processTitle: '農場から輸出までのプロセス',
-        processSubtitle: '品質管理されたサプライチェーンがすべての段階でプレミアム商品を保証します',
+        journeyEyebrow: '品質と誠実さ',
+        journeyHeading: ['頑丈な施工結果', 'ワークショップ直販', '価格設定'],
+        journeyDesc: 'Mandiri Steel では、すべての溶接箇所が丁寧に加工されています。使用されるすべての材料が合意された仕様と一致することを保証します。鉄の厚さと防錆塗料の品質に対する誠実さが、数十年にわたるお客様の信頼の鍵です。',
+        processTitle: '施工プロセス',
+        processSubtitle: 'タイムリーな納品と高品質な結果を保証するためのプロフェッショナルなワークフロー',
         steps: [
-            { label: '調達', desc: '主要農業地域のインドネシア農家との直接パートナーシップ' },
-            { label: '選別', desc: 'プレミアム商品のみを確保する厳格な品質グレーディングと選別' },
-            { label: '加工', desc: '国際標準に従った適切な乾燥・洗浄・加工処理' },
-            { label: '輸出', desc: '品質検査済みパッケージングと完全な書類を備えたグローバル輸送' },
+            { label: '調査・相談', desc: '当社のチームが現場を訪問し、測定と希望のデザインについての相談を行います' },
+            { label: '見積もり', desc: '出来高と選択された材料に基づいて、透明性のある費用詳細を提供します' },
+            { label: '製作', desc: '溶接および組み立て工程は、当社のワークショップでプロの専門家によって行われます' },
+            { label: '設置', desc: '現場での仕上げと設置を行い、作業エリアの清掃を徹底します' },
         ],
-        contactCompany: '会社情報', contactContact: 'お問い合わせ', contactFollow: 'フォローする',
+        contactCompany: '工房', contactContact: 'お問い合わせ', contactFollow: '実績紹介',
     },
     es: {
-        metaTitle: 'Sobre Nosotros | CV Naturra Extal International',
-        metaDesc: 'Conozca CV Naturra Extal International — empresa de comercio de materias primas agrícolas de Indonesia especializada en cacao, clavo y cocopeat.',
+        metaTitle: 'Sobre Nosotros | Mandiri Steel Bekasi',
+        metaDesc: 'Mandiri Steel Bekasi - Servicios de soldadura de confianza desde 1999. Especialistas en marquesinas, cercas, rejas y estructuras de acero en Bekasi.',
         eyebrow: 'Sobre Nosotros',
-        heroDesc: 'CV Naturra Extal International es una empresa comercializadora de materias primas de Indonesia que conecta el rico patrimonio agrícola del país con el mercado global. Nos especializamos en el abastecimiento de cacao premium, clavo (cengkeh) y cocopeat directamente de agricultores indonesios.',
-        sourcedTitle: 'ORIGEN DIRECTO DEL AGRICULTOR',
-        sourcedDesc: 'Indonesia es el tercer mayor productor de cacao del mundo. En Naturra Extal trabajamos directamente con comunidades agrícolas en todo el archipiélago indonesio, eliminando intermediarios para garantizar una compensación justa a los agricultores y la más alta calidad para nuestros clientes.',
-        diversityTitle: 'DIVERSIDAD DE MATERIAS PRIMAS INDONESIAS',
-        diversitySubtitle: 'Nuestra red de abastecimiento abarca las principales regiones agrícolas de Indonesia',
+        heroDesc: 'Mandiri Steel es un taller de soldadura profesional en Bekasi que ha atendido necesidades de construcción de hierro y acero inoxidable durante más de 25 años. Estamos comprometidos a brindar un trabajo sólido, estético y de alta calidad para cada uno de nuestros clientes.',
+        sourcedTitle: 'MÁS DE 25 AÑOS DE EXPERIENCIA',
+        sourcedDesc: 'Fundado desde 1999 por el Sr. Maman Toha, Mandiri Steel ha crecido hasta convertirse en uno de los talleres de soldadura más confiables en el área de Bekasi. Comenzamos nuestro viaje desde un pequeño taller y ahora hemos manejado miles de proyectos, desde marquesinas residenciales hasta grandes estructuras de acero para fábricas.',
+        diversityTitle: 'NUESTROS SERVICIOS DESTACADOS',
+        diversitySubtitle: 'Soluciones completas para las necesidades exteriores e interiores de su edificio',
         regions: [
-            { name: 'Sulawesi', desc: 'La mayor región productora de cacao de Indonesia, responsable de más del 60% de la producción nacional, con un perfil de sabor diferenciado.' },
-            { name: 'Java Oriental', desc: 'Sede de las principales fincas de cacao y plantas de procesamiento. También es nuestro principal centro de cocopeat.' },
-            { name: 'Maluku', desc: 'Las legendarias Islas de las Especias — cuna del comercio mundial del clavo. El clavo de Maluku es apreciado en todo el mundo por su extraordinario contenido de aceite esencial.' },
-            { name: 'Sulawesi del Norte', desc: 'Región productora de cacao y clavo de gran relevancia. El suelo volcánico enriquece los perfiles de sabor de los cultivos.' },
-            { name: 'Surabaya', desc: 'Nuestro hub logístico y de cocopeat. La ubicación estratégica del puerto de Surabaya la hace ideal para las exportaciones.' },
-            { name: 'Sumatra', desc: 'Rica en producción de cacao y coco. La diversa geografía de Sumatra sostiene una manufactura de cocopeat de alta calidad.' },
+            { name: 'Marquesina Minimalista', desc: 'Fabricación de marquesinas con diversas opciones de techado como Alderon, Spandek y Policarbonato con marcos de hierro robustos.' },
+            { name: 'Cerca y Portón', desc: 'Servicios para cercas minimalistas, cercas de hierro forjado clásicas, hasta cercas de acero inoxidable con diseños personalizados.' },
+            { name: 'Reja de Ventana', desc: 'Seguridad para ventanas con diversos motivos que brindan seguridad adicional sin comprometer la belleza del hogar.' },
+            { name: 'Pasamanos de Escalera', desc: 'Barandillas de escaleras y balcones con una combinación de materiales de hierro, madera o acero inoxidable para un interior elegante.' },
+            { name: 'Estructura de Acero', desc: 'Trabajo estructural con acero WF o H-Beam para almacenes, fábricas, canchas de fútbol o entrepisos domésticos.' },
+            { name: 'Servicio y Reparación', desc: 'Servicios de reparación y repintado para sus productos de soldadura antiguos para que vuelvan a ser resistentes y luzcan como nuevos.' },
         ],
-        journeyEyebrow: 'Comprometidos con la Sostenibilidad',
-        journeyHeading: ['NUESTRO VIAJE', 'DEL CAMPO AL', 'MERCADO GLOBAL'],
-        journeyDesc: 'En Naturra Extal, cada materia prima que comercializamos pasa por un riguroso proceso de aseguramiento de la calidad. Desde la selección cuidadosa en la finca hasta los controles finales antes de la exportación.',
-        processTitle: 'PROCESO DEL CAMPO A LA EXPORTACIÓN',
-        processSubtitle: 'Nuestra cadena de suministro controlada garantiza materias primas premium en cada paso',
+        journeyEyebrow: 'Calidad e Integridad',
+        journeyHeading: ['RESULTADOS SÓLIDOS', 'TALLER DIRECTO', 'PRECIOS'],
+        journeyDesc: 'En Mandiri Steel, cada unión de soldadura se trabaja cuidadosamente. Nos aseguramos de que cada material utilizado coincida con las especificaciones acordadas. La honestidad en el grosor del hierro y la calidad de la pintura antioxidante es la clave de la confianza de nuestros clientes durante décadas.',
+        processTitle: 'NUESTRO PROCESO DE TRABAJO',
+        processSubtitle: 'Flujo de trabajo profesional para garantizar la entrega oportuna y resultados de calidad',
         steps: [
-            { label: 'Abastecimiento', desc: 'Alianzas directas con agricultores indonesios en las principales regiones agrícolas' },
-            { label: 'Selección', desc: 'Clasificación y selección rigurosa para asegurar solo materias primas premium' },
-            { label: 'Procesamiento', desc: 'Secado, limpieza y procesamiento según estándares internacionales' },
-            { label: 'Exportación', desc: 'Embalaje con control de calidad y envíos globales con documentación completa' },
+            { label: 'Levantamiento y Consulta', desc: 'Nuestro equipo visita el lugar para medir y discutir el diseño deseado' },
+            { label: 'Cotización de Precio', desc: 'Brindamos detalles de costos transparentes basados en el volumen y los materiales elegidos' },
+            { label: 'Producción en Taller', desc: 'El proceso de soldadura y ensamblaje se realiza en nuestro taller por expertos profesionales' },
+            { label: 'Instalación', desc: 'Acabado e instalación en el sitio del cliente con pulcritud y limpieza del área de trabajo' },
         ],
-        contactCompany: 'Empresa', contactContact: 'Contacto', contactFollow: 'Síguenos',
+        contactCompany: 'Taller', contactContact: 'Contáctenos', contactFollow: 'Portafolio',
     },
     fr: {
-        metaTitle: 'À propos | CV Naturra Extal International',
-        metaDesc: 'Découvrez CV Naturra Extal International — entreprise indonésienne de négoce de matières premières agricoles spécialisée dans le cacao, les clous de girofle et le cocopeat.',
-        eyebrow: 'À propos de nous',
-        heroDesc: 'CV Naturra Extal International est une société de négoce de matières premières en Indonésie qui fait le lien entre le riche patrimoine agricole du pays et le marché mondial. Nous nous spécialisons dans l\'approvisionnement direct de cacao premium, de clous de girofle et de cocopeat auprès des agriculteurs indonésiens.',
-        sourcedTitle: 'APPROVISIONNEMENT DIRECT AUPRÈS DES AGRICULTEURS',
-        sourcedDesc: 'L\'Indonésie est le troisième producteur mondial de cacao. Chez Naturra Extal, nous travaillons directement avec les communautés agricoles de tout l\'archipel indonésien, en éliminant les intermédiaires pour garantir une juste rémunération aux agriculteurs.',
-        diversityTitle: 'DIVERSITÉ DES MATIÈRES PREMIÈRES INDONÉSIENNES',
-        diversitySubtitle: 'Notre réseau d\'approvisionnement couvre les principales régions agricoles d\'Indonésie',
+        metaTitle: 'À Propos de Nous | Mandiri Steel Bekasi',
+        metaDesc: 'Mandiri Steel Bekasi - Services de soudure de confiance depuis 1999. Spécialistes des auvents, clôtures, grilles et structures en acier à Bekasi.',
+        eyebrow: 'À Propos de Nous',
+        heroDesc: 'Mandiri Steel est un atelier de soudure professionnel à Bekasi qui répond aux besoins de construction en fer et en acier inoxydable depuis plus de 25 ans. Nous nous engageons à fournir un travail robuste, esthétique et de haute qualité pour chacun de nos clients.',
+        sourcedTitle: 'PLUS DE 25 ANS D\'EXPÉRIENCE',
+        sourcedDesc: 'Fondé en 1999 par M. Maman Toha, Mandiri Steel est devenu l\'un des ateliers de soudure les plus fiables de la région de Bekasi. Nous avons commencé notre parcours dans un petit atelier et avons maintenant réalisé des milliers de projets, des auvents résidentiels aux grandes structures métalliques d\'usines.',
+        diversityTitle: 'NOS SERVICES VEDETTES',
+        diversitySubtitle: 'Solutions complètes pour les besoins extérieurs et intérieurs de votre bâtiment',
         regions: [
-            { name: 'Sulawesi', desc: 'La plus grande région de production de cacao en Indonésie, avec plus de 60 % de la production nationale. Connue pour son profil de saveur distinctif.' },
-            { name: 'Java Oriental', desc: 'Siège des principales plantations de cacao et installations de transformation. Aussi notre principal pôle d\'approvisionnement en cocopeat.' },
-            { name: 'Moluques', desc: 'Les légendaires Îles aux Épices — berceau du commerce mondial des clous de girofle. Le girofle des Moluques est reconnu pour sa haute teneur en huile essentielle.' },
-            { name: 'Sulawesi du Nord', desc: 'Région productrice importante de cacao et de girofle. Le sol volcanique enrichit les profils aromatiques des produits cultivés ici.' },
-            { name: 'Surabaya', desc: 'Notre hub logistique et de cocopeat. La position portuaire stratégique de Surabaya la rend idéale pour les opérations d\'exportation.' },
-            { name: 'Sumatra', desc: 'Riche en production de cacao et de noix de coco. La géographie diversifiée soutient une fabrication de cocopeat de haute qualité.' },
+            { name: 'Auvent Minimaliste', desc: 'Fabrication d\'auvents avec diverses options de toiture comme l\'Alderon, le Spandek et le Polycarbonate avec des cadres en fer robustes.' },
+            { name: 'Clôture et Portail', desc: 'Services pour clôtures minimalistes, clôtures classiques en fer forgé, jusqu\'aux clôtures en acier inoxydable avec des designs sur mesure.' },
+            { name: 'Grille de Fenêtre', desc: 'Sécurité des fenêtres avec divers motifs offrant une sécurité supplémentaire sans compromettre la beauté de la maison.' },
+            { name: 'Garde-corps d\'Escalier', desc: 'Rampes d\'escaliers et de balcons avec une combinaison de fer, de bois ou d\'acier inoxydable pour un intérieur élégant.' },
+            { name: 'Structure en Acier', desc: 'Travaux structurels utilisant de l\'acier WF ou H-Beam pour les entrepôts, usines, terrains de futsal ou mezzanines domestiques.' },
+            { name: 'Service et Réparation', desc: 'Services de réparation et de remise en peinture de vos anciens produits de soudure pour les rendre à nouveau solides et comme neufs.' },
         ],
-        journeyEyebrow: 'En faveur de la durabilité',
-        journeyHeading: ['NOTRE VOYAGE', 'DE LA FERME AU', 'MARCHÉ MONDIAL'],
-        journeyDesc: 'Chez Naturra Extal, chaque matière première que nous négocions passe par un processus rigoureux d\'assurance qualité. De la sélection soigneuse au niveau de la ferme jusqu\'aux contrôles de qualité finaux avant exportation.',
-        processTitle: 'PROCESSUS DE LA FERME À L\'EXPORT',
-        processSubtitle: 'Notre chaîne d\'approvisionnement contrôlée garantit des matières premières premium à chaque étape',
+        journeyEyebrow: 'Qualité et Intégrité',
+        journeyHeading: ['RÉSULTATS ROBUSTES', 'ATELIER DIRECT', 'TARIFICATION'],
+        journeyDesc: 'Chez Mandiri Steel, chaque joint de soudure est soigneusement travaillé. Nous veillons à ce que chaque matériau utilisé corresponde aux spécifications convenues. L\'honnêteté sur l\'épaisseur du fer et la qualité de la peinture antirouille est la clé de la confiance de nos clients depuis des décennies.',
+        processTitle: 'NOTRE PROCESSUS DE TRAVAIL',
+        processSubtitle: 'Flux de travail professionnel pour garantir une livraison rapide et des résultats de qualité',
         steps: [
-            { label: 'Approvisionnement', desc: 'Partenariats directs avec les agriculteurs indonésiens dans les principales régions agricoles' },
-            { label: 'Sélection', desc: 'Tri et sélection rigoureux garantissant uniquement des matières premières premium' },
-            { label: 'Traitement', desc: 'Séchage, nettoyage et traitement appropriés selon les normes internationales' },
-            { label: 'Export', desc: 'Emballage contrôlé et expédition mondiale avec documentation complète' },
+            { label: 'Relevé et Consultation', desc: 'Notre équipe se rend sur place pour les mesures et discuter du design souhaité' },
+            { label: 'Devis', desc: 'Nous fournissons des détails de coûts transparents basés sur le volume et les matériaux choisis' },
+            { label: 'Production en Atelier', desc: 'Le processus de soudure et d\'assemblage est réalisé dans notre atelier par des experts professionnels' },
+            { label: 'Installation', desc: 'Finition et installation chez le client avec soin et nettoyage de la zone de travail' },
         ],
-        contactCompany: 'Entreprise', contactContact: 'Contact', contactFollow: 'Suivez-nous',
+        contactCompany: 'Atelier', contactContact: 'Contactez-nous', contactFollow: 'Portfolio',
     },
     ko: {
-        metaTitle: '회사 소개 | CV Naturra Extal International',
-        metaDesc: 'CV Naturra Extal International 소개 — 코코아, 정향, 코코피트를 전문으로 하는 인도네시아 농산물 거래 회사.',
+        metaTitle: '회사 소개 | 브카시 Mandiri Steel',
+        metaDesc: '브카시 Mandiri Steel - 1999년부터 신뢰받는 용접 서비스. 브카시 내 캐노피, 펜스, 방범창 및 강구조물 전문가.',
         eyebrow: '회사 소개',
-        heroDesc: 'CV Naturra Extal International은 인도네시아의 풍요로운 농업 유산과 글로벌 시장을 연결하는 인도네시아 원자재 무역 회사입니다. 인도네시아 농부들로부터 직접 프리미엄 코코아, 정향(cengkeh), 코코피트를 조달하며, 농장에서 수출에 이르기까지 품질과 지속 가능성, 공정 거래를 보장합니다.',
-        sourcedTitle: '농부로부터 직접 조달',
-        sourcedDesc: '인도네시아는 세계 3위의 코코아 생산국이자 최고품질의 정향 및 코코넛 제품 산지입니다. Naturra Extal은 인도네시아 전역의 농민 공동체와 직접 협력하여 중간 상인을 없애고, 농민에게는 공정한 보상을, 고객에게는 경쟁력 있는 가격의 최고 품질 원자재를 제공합니다.',
-        diversityTitle: '인도네시아 원자재의 다양성',
-        diversitySubtitle: '저희 조달 네트워크는 인도네시아의 주요 농업 지역에 걸쳐 있습니다',
+        heroDesc: 'Mandiri Steel은 25년 이상 철제 및 스테인리스 스틸 건축 수요를 충족해 온 브카시의 전문 용접 워크숍입니다. 우리는 모든 고객에게 견고하고 심미적이며 고품질의 작업물을 제공하기 위해 최선을 다하고 있습니다.',
+        sourcedTitle: '25년 이상의 경험',
+        sourcedDesc: '1999년 마만 토하(Maman Toha) 씨에 의해 설립된 Mandiri Steel은 브카시 지역에서 가장 신뢰받는 용접 워크숍 중 하나로 성장했습니다. 작은 작업실에서 시작하여 현재는 주거용 캐노피부터 대형 공장 강구조물에 이르기까지 수천 개의 프로젝트를 수행했습니다.',
+        diversityTitle: '주요 서비스',
+        diversitySubtitle: '건물 외부 및 내부 요구 사항에 대한 완벽한 솔루션',
         regions: [
-            { name: '술라웨시', desc: '전국 코코아 생산량의 60% 이상을 차지하는 인도네시아 최대 코코아 산지. 은은한 산미와 풍부한 초콜릿 풍미로 유명합니다.' },
-            { name: '동부 자바', desc: '프리미엄 코코아 농장과 주요 가공시설이 위치하며, 코코피트 조달의 주요 거점이기도 합니다.' },
-            { name: '말루쿠', desc: '전설의 향신료 섬 — 세계 정향 무역의 발상지. 말루쿠 정향은 탁월한 에센셜 오일 함량으로 전 세계에서 귀하게 여깁니다.' },
-            { name: '북부 술라웨시', desc: '코코아·정향 주산지로 이상적인 기후 조건을 보유합니다. 화산성 토양이 재배 원자재에 독특한 풍미를 더합니다.' },
-            { name: '수라바야', desc: '핵심 물류 및 코코피트 공급 거점. 수라바야의 전략적 항구 위치는 수출 운영에 최적입니다.' },
-            { name: '수마트라', desc: '코코아·코코넛 생산이 풍부하며, 고품질 코코피트 제조와 아티산 코코아 농업을 지원하는 다양한 지형을 갖추고 있습니다.' },
+            { name: '미니멀 캐노피', desc: '견고한 철제 프레임과 알데론, 스판덱, 폴리카보네이트 등 다양한 지붕 옵션을 갖춘 캐노피 제작.' },
+            { name: '펜스 및 대문', desc: '미니멀 펜스, 클래식 단조 철제 펜스부터 맞춤형 디자인의 스테인리스 스틸 펜스까지 제공.' },
+            { name: '창문 방범창', desc: '주택의 아름다움을 해치지 않으면서도 추가적인 보안을 제공하는 다양한 문양의 방범창.' },
+            { name: '계단 난간', desc: '철제, 목재 또는 스테인리스 소재를 결합하여 우아한 인테리어를 완성하는 계단 및 발코니 난간.' },
+            { name: '강구조물', desc: '창고, 공장, 풋살 경기장 또는 주택용 복층을 위한 WF 또는 H빔 구조물 공사.' },
+            { name: '수리 및 유지보수', desc: '오래된 용접 제품을 다시 튼튼하고 새것처럼 보이게 하는 수리 및 재도장 서비스.' },
         ],
-        journeyEyebrow: '지속 가능성을 실천하며',
-        journeyHeading: ['우리의 여정', '농장에서', '글로벌 시장까지'],
-        journeyDesc: 'Naturra Extal에서 거래하는 모든 원자재는 엄격한 품질 보증 절차를 거칩니다. 농장 단계의 신중한 선별부터 적절한 건조 및 가공, 수출 전 최종 품질 검사까지 — 모든 선적이 국제 기준을 충족하도록 보장합니다.',
-        processTitle: '농장에서 수출까지의 프로세스',
-        processSubtitle: '품질이 통제된 공급망으로 모든 단계에서 프리미엄 원자재를 보장합니다',
+        journeyEyebrow: '품질과 정직',
+        journeyHeading: ['견고한 시공 결과', '워크숍 직접 거래', '합리적 가격'],
+        journeyDesc: 'Mandiri Steel에서는 모든 용접 연결 부위를 정성껏 작업합니다. 사용되는 모든 자재가 합의된 사양과 일치하는지 확인합니다. 철제 두께와 방청 페인트 품질에 대한 정직함은 수십 년간 고객의 신뢰를 받아온 비결입니다.',
+        processTitle: '작업 프로세스',
+        processSubtitle: '적기 납품과 고품질 결과를 보장하기 위한 전문적인 워크플로우',
         steps: [
-            { label: '조달', desc: '주요 농업 지역 인도네시아 농부들과의 직접 파트너십' },
-            { label: '선별', desc: '프리미엄 원자재만을 확보하는 엄격한 품질 등급 분류 및 선별' },
-            { label: '가공', desc: '국제 기준에 따른 적절한 건조, 세척 및 가공 처리' },
-            { label: '수출', desc: '품질 검사된 포장 및 완전한 서류를 갖춘 글로벌 운송 서비스' },
+            { label: '실측 및 상담', desc: '당사 팀이 현장을 방문하여 실측하고 원하는 디자인에 대해 논의합니다' },
+            { label: '견적 산출', desc: '물량과 선택한 자재를 바탕으로 투명한 비용 상세 정보를 제공합니다' },
+            { label: '워크숍 제작', desc: '용접 및 조립 공정은 워크숍에서 숙련된 전문가에 의해 진행됩니다' },
+            { label: '설치', desc: '현장 마감 및 설치를 진행하며 작업 구역을 깔끔하게 정리합니다' },
         ],
-        contactCompany: '회사', contactContact: '연락처', contactFollow: '팔로우하기',
+        contactCompany: '공방', contactContact: '문의하기', contactFollow: '포트폴리오',
     },
 }
 
@@ -286,14 +286,14 @@ const NaturraAbout: React.FC = () => {
         detectLanguageFromIP().then(ipLang => { if (ipLang && !getStoredLanguage()) setLanguage(ipLang) })
     }, [])
 
-    const t = ABOUT_TRANSLATIONS[language] ?? ABOUT_TRANSLATIONS.en
+    const t = ABOUT_TRANSLATIONS[language] ?? ABOUT_TRANSLATIONS.id
 
     return (
         <div className="naturra-about">
             <Helmet>
                 <title>{t.metaTitle}</title>
                 <meta name="description" content={t.metaDesc} />
-                <link rel="canonical" href="https://naturraextal.com/about" />
+                <link rel="canonical" href="https://lasbekasi.com/about" />
             </Helmet>
 
             <NaturraHeader />
@@ -302,7 +302,7 @@ const NaturraAbout: React.FC = () => {
             <section className="naturra-about__hero">
                 <div className="naturra-about__hero-inner">
                     <span className="naturra-about__hero-eyebrow">{t.eyebrow}</span>
-                    <h1 className="naturra-about__hero-title">Naturra Extal<br />International</h1>
+                    <h1 className="naturra-about__hero-title">Bengkel Las<br />Mandiri</h1>
                     <p className="naturra-about__hero-desc">{t.heroDesc}</p>
                 </div>
             </section>
@@ -311,7 +311,7 @@ const NaturraAbout: React.FC = () => {
             <section className="naturra-about__sourcing">
                 <div className="naturra-about__sourcing-inner">
                     <div className="naturra-about__sourcing-image">
-                        <img src="https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=800&q=80" alt="Indonesian farmers harvesting commodities" loading="lazy" />
+                        <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80" alt="Bengkel Las Mandiri Workshop" loading="lazy" />
                     </div>
                     <div className="naturra-about__sourcing-text">
                         <h2>{t.sourcedTitle}</h2>
@@ -334,9 +334,9 @@ const NaturraAbout: React.FC = () => {
                         ))}
                     </div>
                     <div className="naturra-about__image-row">
-                        <img src="https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=600&q=80" alt="Cocoa beans drying" loading="lazy" />
-                        <img src="https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80" alt="Indonesian spices and cloves" loading="lazy" />
-                        <img src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80" alt="Agricultural landscape Indonesia" loading="lazy" />
+                        <img src="https://images.unsplash.com/photo-1628744448839-497746416629?w=600&q=80" alt="Kanopi Minimalis" loading="lazy" />
+                        <img src="https://images.unsplash.com/photo-1505322033502-1f4385692e6a?w=600&q=80" alt="Pagar Besi Bekasi" loading="lazy" />
+                        <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=600&q=80" alt="Konstruksi Baja WF" loading="lazy" />
                     </div>
                 </div>
             </section>
@@ -344,7 +344,7 @@ const NaturraAbout: React.FC = () => {
             {/* OUR JOURNEY */}
             <section className="naturra-about__journey">
                 <div className="naturra-about__journey-bg">
-                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200" alt="Sustainable Indonesian agriculture" loading="lazy" />
+                    <img src="https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&q=80&w=1200" alt="Bengkel Las Mandiri Bekasi Experience" loading="lazy" />
                 </div>
                 <div className="naturra-about__journey-overlay" />
                 <div className="naturra-about__journey-inner">
@@ -382,19 +382,19 @@ const NaturraAbout: React.FC = () => {
                 <div className="naturra-about__contact-inner">
                     <div className="naturra-about__contact-col">
                         <h4>{t.contactCompany}</h4>
-                        <p>CV Naturra Extal International</p>
-                        <p>Indonesia</p>
+                        <p>Bengkel Las Mandiri</p>
+                        <p>Bekasi, Indonesia</p>
                     </div>
                     <div className="naturra-about__contact-col">
                         <h4>{t.contactContact}</h4>
-                        <a href="mailto:naturraextal@gmail.com">naturraextal@gmail.com</a>
-                        <a href="https://wa.me/628951395752" target="_blank" rel="noopener noreferrer">+62 895-1395-7752 (WhatsApp)</a>
+                        <a href="mailto:info@lasbekasi.com">info@lasbekasi.com</a>
+                        <a href="https://wa.me/6285212078467" target="_blank" rel="noopener noreferrer">+62 852-1207-8467 (Bapak Maman)</a>
                     </div>
                     <div className="naturra-about__contact-col">
                         <h4>{t.contactFollow}</h4>
                         <div className="naturra-about__contact-social">
-                            <a href="https://wa.me/628951395752" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-                            <a href="mailto:naturraextal@gmail.com">Email</a>
+                            <a href="https://wa.me/6285212078467" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+                            <a href="mailto:info@lasbekasi.com">Email</a>
                         </div>
                     </div>
                 </div>

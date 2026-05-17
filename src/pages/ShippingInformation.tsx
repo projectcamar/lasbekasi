@@ -5,7 +5,6 @@ import { Clock, MapPin, Phone, Mail, Globe } from 'lucide-react'
 import Footer from '../components/Footer'
 import NaturraHeader from '../components/NaturraHeader'
 import ServiceAreasSection from '../components/ServiceAreasSection'
-// Premium Agricultural Commodity Images
 const heroImage = 'https://images.unsplash.com/photo-1586528116311-ad866efd92bf?w=1920&q=80'
 import { generateLanguageSpecificMeta, generateLocalizedUrls } from '../utils/seo'
 import { trackWhatsAppClick } from '../utils/whatsappTracking'
@@ -53,51 +52,51 @@ type ShippingTranslation = {
 const SHIPPING_TRANSLATIONS: Record<LanguageCode, ShippingTranslation> = {
   en: {
     meta: {
-      title: 'Shipping Information - Naturra Extal',
+      title: 'Delivery & On-site Installation - Mandiri Steel',
       description:
-        'Complete information about agricultural commodity shipping from Naturra Extal. Shipping times, vessel procedures, and international export procedures.',
-      keywords: 'agricultural shipping, commodity export, cocoa export, cloves shipping, cocopeat logistics'
+        'Complete information about local delivery, transportation, and professional on-site installation of steel gates, canopies, and metal fabrications by Mandiri Steel Bekasi.',
+      keywords: 'welding delivery, canopy installation, steel gate delivery, local pickup truck, Jabodetabek delivery'
     },
-    heroTitle: 'Shipping Information',
+    heroTitle: 'Delivery & Installation',
     mainSection: {
-      title: 'Shipping from Indonesia to Worldwide',
+      title: 'Local Delivery & Professional Installation',
       paragraph:
-        'We ship from the port of Tanjung Priok, Jakarta, Indonesia. Shipping to most international ports takes approximately four weeks from Indonesia.'
+        'We serve the entire Jabodetabek region (Jakarta, Bogor, Depok, Tangerang, Bekasi). Every custom canopy, gate, railing, or steel fabrication is delivered safely and installed by our experienced welders.'
     },
     timesSection: {
-      title: 'Shipping Times to Major World Ports',
+      title: 'Estimated Delivery & Installation Timelines',
       items: [
-        { region: 'USA West Coast Ports', duration: '4 weeks' },
-        { region: 'USA East Coast Ports', duration: '4-5 weeks' },
-        { region: 'U.K. Ports', duration: '3-4 weeks' },
-        { region: 'European Ports', duration: '3-4 weeks' },
-        { region: 'Middle Eastern Ports', duration: '3-4 weeks' },
-        { region: 'Asian Ports', duration: '2-3 weeks' }
+        { region: 'Bekasi Regency & City', duration: '1-2 Days (On-site Installation)' },
+        { region: 'East & North Jakarta', duration: '1-2 Days (On-site Installation)' },
+        { region: 'South & West Jakarta', duration: '2-3 Days (On-site Installation)' },
+        { region: 'Depok & Bogor', duration: '2-3 Days (On-site Installation)' },
+        { region: 'Tangerang Regency & City', duration: '3-4 Days (On-site Installation)' },
+        { region: 'Outside Jabodetabek (West Java)', duration: 'By Agreement / Special Handling' }
       ]
     },
     containerSection: {
-      title: 'Shipping Volume by Containers',
+      title: 'Transport & Logistics Vehicles',
       description:
-        "Our shipping volumes are by 20' (twenty foot) & 40' (forty foot) & 40'HC (forty foot high cube) containers."
+        'We operate our own fleet of customized pick-up trucks (Suzuki Carry / Daihatsu Gran Max / L300) equipped with protective racks to transport heavy steel gates, delicate structural components, and polycarbonate/alderon canopy sheets without damage.'
     },
     pricingSection: {
-      title: 'Shipping Cost Information',
+      title: 'Delivery & Installation Cost',
       paragraphs: [
-        'All of our shipping quotes include document fees, local handling and trucking fees, port loading fees and all other local charges levied in the packing and delivery of your container to your port.',
-        "D.D.C fees (Document & Destination Charge) levied by the port of destination are not included. Some international ports charge a D.D.C fee upon the arrival and handling of your shipment in your local port. Check with your customs department for more information on D.D.C charges."
+        'For projects within Bekasi and surrounding areas, local delivery and on-site standard installation are completely FREE as part of our package deal.',
+        'For deliveries outside Bekasi (such as Tangerang, West Jakarta, or Bogor), a small transport fuel subsidy may apply depending on the size and complexity of the project. Please consult with our team when requesting a quote.'
       ]
     },
     responsibilitySection: {
-      title: 'Shipping Responsibility',
+      title: 'Safety & Workmanship Guarantee',
       paragraphs: [
-        'We are not a cargo company and we are not responsible for any damage caused by shipping and handling of your order by the cargo companies that handle our shipments. Although we have our own cargo companies, we do highly recommend that you use your own cargo company with an agent in your local area.',
-        "If you don't have a cargo company, we can suggest a few companies to choose from. However, we accept no responsibility for the reliability or quality of service from any cargo company.",
-        'We are in very good cooperation with many reliable freight forwarders and shipping lines. In the event no shipping is specified, we are free to appoint shipping in the best interest of customers.'
+        'We take full responsibility for the safety of your products during transport. Any paint scratches or minor transport damage will be immediately corrected on-site during the installation phase.',
+        'Our team of professional welders will perform precision welding, anchoring, and alignment. We stand behind our work with a structural warranty on all installed products.',
+        'We work closely with local building inspectors and neighborhood representatives when required. If no specific delivery method is chosen, we reserve the right to coordinate the safest transport route for the customer\'s benefit.'
       ]
     },
     contactSection: {
-      title: 'For More Information',
-      description: 'For more information, please send an email to us.',
+      title: 'Need a Delivery Quote?',
+      description: 'Contact our team to get a detailed delivery schedule and cost estimation for your custom steel project.',
       addressLabel: 'Address',
       phoneLabel: 'Phone',
       emailLabel: 'Email',
@@ -107,51 +106,51 @@ const SHIPPING_TRANSLATIONS: Record<LanguageCode, ShippingTranslation> = {
   },
   id: {
     meta: {
-      title: 'Informasi Pengiriman - Naturra Extal',
+      title: 'Pengiriman & Pemasangan di Lokasi - Mandiri Steel',
       description:
-        'Informasi lengkap tentang pengiriman komoditas pertanian dari Naturra Extal. Waktu pengiriman, prosedur kapal, dan ekspor internasional.',
-      keywords: 'pengiriman pertanian, ekspor komoditas, pengiriman cokelat, ekspor cengkeh, logistik cocopeat'
+        'Informasi lengkap mengenai pengiriman lokal, transportasi, dan jasa pemasangan profesional kanopi, pagar besi, dan teralis oleh Mandiri Steel Bekasi.',
+      keywords: 'pengiriman jasa las, pasang kanopi bekasi, kirim pagar besi, sewa pickup Jabodetabek, pasang tangga putar'
     },
-    heroTitle: 'Informasi Pengiriman',
+    heroTitle: 'Pengiriman & Pemasangan',
     mainSection: {
-      title: 'Pengiriman dari Indonesia ke Seluruh Dunia',
+      title: 'Pengiriman Lokal & Pemasangan Profesional',
       paragraph:
-        'Kami mengirim dari pelabuhan Tanjung Priok, Jakarta, Indonesia. Pengiriman ke sebagian besar pelabuhan internasional membutuhkan waktu sekitar empat minggu dari Indonesia.'
+        'Kami melayani seluruh wilayah Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi). Setiap pesanan kanopi, pagar, railing, atau konstruksi baja dikirim dengan aman dan dipasang langsung oleh tukang las ahli kami.'
     },
     timesSection: {
-      title: 'Waktu Pengiriman ke Pelabuhan Utama Dunia',
+      title: 'Estimasi Waktu Pengiriman & Pemasangan',
       items: [
-        { region: 'Pelabuhan Pantai Barat AS', duration: '4 minggu' },
-        { region: 'Pelabuhan Pantai Timur AS', duration: '4-5 minggu' },
-        { region: 'Pelabuhan Inggris', duration: '3-4 minggu' },
-        { region: 'Pelabuhan Eropa', duration: '3-4 minggu' },
-        { region: 'Pelabuhan Timur Tengah', duration: '3-4 minggu' },
-        { region: 'Pelabuhan Asia', duration: '2-3 minggu' }
+        { region: 'Kabupaten & Kota Bekasi', duration: '1-2 Hari (Pemasangan Langsung)' },
+        { region: 'Jakarta Timur & Utara', duration: '1-2 Hari (Pemasangan Langsung)' },
+        { region: 'Jakarta Selatan & Barat', duration: '2-3 Hari (Pemasangan Langsung)' },
+        { region: 'Depok & Bogor', duration: '2-3 Hari (Pemasangan Langsung)' },
+        { region: 'Kabupaten & Kota Tangerang', duration: '3-4 Hari (Pemasangan Langsung)' },
+        { region: 'Luar Jabodetabek (Jawa Barat)', duration: 'Sesuai Kesepakatan Khusus' }
       ]
     },
     containerSection: {
-      title: 'Volume Pengiriman dengan Kontainer',
+      title: 'Armada Transportasi & Pengiriman',
       description:
-        "Volume pengiriman kami menggunakan kontainer 20' (dua puluh kaki) & 40' (empat puluh kaki) & 40'HC (empat puluh kaki high cube)."
+        'Kami menggunakan armada mobil pick-up kustom (Suzuki Carry / Daihatsu Gran Max / L300) yang dilengkapi dengan rak pelindung besi untuk mengangkut pintu pagar besar, tangga putar, dan atap kanopi (alderon/spandek) agar tetap mulus sampai di lokasi Anda.'
     },
     pricingSection: {
-      title: 'Informasi Biaya Pengiriman',
+      title: 'Biaya Pengiriman & Pemasangan',
       paragraphs: [
-        'Semua penawaran pengiriman kami mencakup biaya dokumen, penanganan lokal dan biaya truk, biaya pemuatan pelabuhan, dan semua biaya lokal lainnya yang dikenakan dalam pengepakan dan pengiriman kontainer Anda ke pelabuhan Anda.',
-        'Biaya D.D.C (Document & Destination Charge) yang dikenakan oleh pelabuhan tujuan tidak termasuk. Beberapa pelabuhan internasional mengenakan biaya D.D.C saat kedatangan dan penanganan pengiriman Anda di pelabuhan lokal Anda. Silakan periksa dengan departemen bea cukai Anda untuk informasi lebih lanjut tentang biaya D.D.C.'
+        'Untuk proyek di wilayah Bekasi dan sekitarnya, biaya pengiriman dan pemasangan standar di lokasi sudah GRATIS (Free Ongkir & Pemasangan) sebagai bagian dari paket layanan kami.',
+        'Untuk pengiriman ke luar Bekasi (seperti Tangerang, Jakarta Barat, atau Bogor), subsidi biaya bensin/tol ringan akan disesuaikan dengan volume pengerjaan. Konsultasikan dengan tim kami saat pengajuan penawaran.'
       ]
     },
     responsibilitySection: {
-      title: 'Tanggung Jawab Pengiriman',
+      title: 'Jaminan Keselamatan & Garansi Pemasangan',
       paragraphs: [
-        'Kami bukan perusahaan kargo dan tidak bertanggung jawab atas kerusakan yang disebabkan oleh pengiriman dan penanganan pesanan Anda oleh perusahaan kargo yang menangani pengiriman kami. Meskipun kami memiliki perusahaan kargo sendiri, kami sangat merekomendasikan Anda menggunakan perusahaan kargo sendiri dengan agen di area lokal Anda.',
-        'Jika Anda tidak memiliki perusahaan kargo, kami dapat menyarankan beberapa perusahaan untuk dipilih. Namun, kami tidak menerima tanggung jawab atas keandalan atau kualitas layanan dari perusahaan kargo mana pun.',
-        'Kami memiliki kerja sama yang sangat baik dengan banyak forwarder dan jalur pengiriman yang dapat diandalkan. Jika tidak ada pengiriman yang ditentukan, kami bebas menunjuk pengiriman yang terbaik untuk kepentingan pelanggan.'
+        'Kami bertanggung jawab penuh atas keamanan produk selama perjalanan. Jika terdapat goresan cat atau cacat transportasi ringan, tukang kami akan langsung melakukan finishing cat ulang (touch-up) di lokasi secara gratis.',
+        'Tim las ahli kami memastikan kekuatan sambungan, ketepatan angkur tanam, dan kerapian hasil akhir. Kami memberikan garansi struktur untuk memastikan kenyamanan Anda.',
+        'Kami menjaga hubungan dan koordinasi yang baik dengan lingkungan pemasangan. Jika tidak ada spesifikasi teknis khusus, kami berhak menentukan metode angkutan terbaik demi keselamatan barang sampai di tujuan.'
       ]
     },
     contactSection: {
-      title: 'Informasi Lebih Lanjut',
-      description: 'Untuk informasi lebih lanjut, silakan kirim email kepada kami.',
+      title: 'Ingin Jadwalkan Pengiriman?',
+      description: 'Hubungi tim kami via WhatsApp atau Email untuk mendapatkan estimasi jadwal produksi, pengiriman, dan pemasangan di rumah Anda.',
       addressLabel: 'Alamat',
       phoneLabel: 'Telepon',
       emailLabel: 'Email',
@@ -161,50 +160,48 @@ const SHIPPING_TRANSLATIONS: Record<LanguageCode, ShippingTranslation> = {
   },
   ar: {
     meta: {
-      title: 'معلومات الشحن - Naturra Extal',
-      description:
-        'معلومات كاملة عن شحن الأثاث من Naturra Extal. أوقات الشحن، التكاليف، وإجراءات الشحن الدولي.',
-      keywords: 'شحن الأثاث، تصدير الأثاث، الشحن الدولي، أوقات الشحن'
+      title: 'التوصيل والتركيب في الموقع - مانديري ستيل',
+      description: 'معلومات كاملة عن التوصيل المحلي والتركيب الاحترافي للبوابات والمظلات والهياكل الفولاذية من مانديري ستيل بيكاسي.',
+      keywords: 'توصيل اللحام، تركيب المظلات، توصيل البوابات، نقل محلي، توصيل جاكرتا بيكاسي'
     },
-    heroTitle: 'معلومات الشحن',
+    heroTitle: 'التوصيل والتركيب',
     mainSection: {
-      title: 'الشحن من إندونيسيا إلى مختلف أنحاء العالم',
-      paragraph:
-        'نشحن من ميناء تانجونغ بريوك في جاكرتا، إندونيسيا. يستغرق الشحن إلى معظم الموانئ الدولية حوالي أربعة أسابيع من إندونيسيا.'
+      title: 'التوصيل المحلي والتركيب الاحترافي',
+      paragraph: 'نحن نخدم منطقة جابوديتابك بأكملها (جاكرتا، بوغور، ديبوك، تانجيرانج، بيكاسي). يتم تسليم كل مظلة أو بوابة أو درابزين مخصص وتثبيته بأمان بواسطة فنيي اللحام ذوي الخبرة لدينا.'
     },
     timesSection: {
-      title: 'أوقات الشحن إلى أبرز موانئ العالم',
+      title: 'الجدول الزمني المقدر للتوصيل والتركيب',
       items: [
-        { region: 'موانئ الساحل الغربي للولايات المتحدة', duration: '4 أسابيع' },
-        { region: 'موانئ الساحل الشرقي للولايات المتحدة', duration: '4-5 أسابيع' },
-        { region: 'موانئ المملكة المتحدة', duration: '3-4 أسابيع' },
-        { region: 'الموانئ الأوروبية', duration: '3-4 أسابيع' },
-        { region: 'موانئ الشرق الأوسط', duration: '3-4 أسابيع' },
-        { region: 'الموانئ الآسيوية', duration: '2-3 أسابيع' }
+        { region: 'بيكاسي ريجنسي والمدينة', duration: '1-2 أيام (التركيب في الموقع)' },
+        { region: 'شرق وشمال جاكرتا', duration: '1-2 أيام (التركيب في الموقع)' },
+        { region: 'جنوب وغرب جاكرتا', duration: '2-3 أيام (التركيب في الموقع)' },
+        { region: 'ديبوك وبوغور', duration: '2-3 أيام (التركيب في الموقع)' },
+        { region: 'تانجيرانج ريجنسي والمدينة', duration: '3-4 أيام (التركيب في الموقع)' },
+        { region: 'خارج جابوديتابك (غرب جاوة)', duration: 'عن طريق الاتفاق / معاملة خاصة' }
       ]
     },
     containerSection: {
-      title: 'حجم الشحن حسب الحاويات',
-      description: 'نستخدم حاويات بطول 20 قدمًا و40 قدمًا و40 قدمًا عالي المكعب في جميع شحناتنا.'
+      title: 'مركبات النقل والخدمات اللوجستية',
+      description: 'نحن ندير أسطولنا الخاص من شاحنات البيك أب المخصصة والمجهزة برفوف واقية لنقل البوابات الفولاذية الثقيلة ومكونات الهيكل الفولاذي وألواح المظلات دون أي ضرر.'
     },
     pricingSection: {
-      title: 'معلومات تكاليف الشحن',
+      title: 'تكلفة التوصيل والتركيب',
       paragraphs: [
-        'تشمل جميع عروض الشحن الخاصة بنا رسوم المستندات، ورسوم المناولة والنقل المحلية، ورسوم التحميل في الميناء، وكل الرسوم المحلية الأخرى المرتبطة بتعبئة وتسليم حاويتك إلى الميناء الخاص بك.',
-        'لا تشمل العروض رسوم الوجهة والمستندات (D.D.C) التي يفرضها ميناء الوصول. بعض الموانئ الدولية تفرض هذه الرسوم عند وصول الشحنة والتعامل معها في مينائك المحلي. يرجى مراجعة قسم الجمارك لديكم لمعرفة التفاصيل.'
+        'بالنسبة للمشاريع داخل بيكاسي والمناطق المحيطة بها، فإن التوصيل المحلي والتركيب القياسي في الموقع مجانيان تمامًا كجزء من صفقة الحزمة الخاصة بنا.',
+        'بالنسبة لعمليات التوصيل خارج بيكاسي (مثل تانجيرانج أو غرب جاكرتا أو بوغور)، قد يتم تطبيق دعم وقود نقل صغير اعتمادًا على حجم المشروع وتعقيده.'
       ]
     },
     responsibilitySection: {
-      title: 'مسؤولية الشحن',
+      title: 'ضمان السلامة وجودة العمل',
       paragraphs: [
-        'لسنا شركة شحن، ولسنا مسؤولين عن أي ضرر ناتج عن شحن أو مناولة طلبك من قبل شركات الشحن التي تتولى شحن منتجاتنا. على الرغم من تعاملنا مع شركات شحن خاصة بنا، إلا أننا نوصي باستخدام شركة الشحن الخاصة بك مع وكيل محلي.',
-        'إذا لم يكن لديك شركة شحن، يمكننا اقتراح بعض الشركات للاختيار من بينها، لكننا لا نتحمل أي مسؤولية عن موثوقية أو جودة الخدمة لأي شركة شحن.',
-        'نتعاون بشكل وثيق مع العديد من شركات الشحن وخطوط الملاحة الموثوقة. وفي حال لم يتم تحديد شركة شحن، يحق لنا تعيين الخيار الأنسب لمصلحة العملاء.'
+        'نحن نتحمل المسؤولية الكاملة عن سلامة منتجاتك أثناء النقل. سيتم تصحيح أي خدوش في الطلاء أو تلف ناتج عن النقل فورًا في الموقع أثناء مرحلة التركيب.',
+        'سيقوم فريقنا من فنيي اللحام المحترفين بأداء لحام دقيق وتثبيت ومحاذاة ممتازة لحماية هيكل المشروع.',
+        'نحن نعمل بشكل وثيق مع مسؤولي البناء والممثلين المحليين عند الاقتضاء لضمان أمان وسلامة الشاحنات والمواد.'
       ]
     },
     contactSection: {
-      title: 'معلومات إضافية',
-      description: 'لمزيد من المعلومات، يرجى مراسلتنا عبر البريد الإلكتروني.',
+      title: 'هل تحتاج إلى عرض أسعار للتوصيل؟',
+      description: 'اتصل بفريقنا للحصول على جدول توصيل مفصل وتقدير التكلفة لمشروع الفولاذ المخصص لك.',
       addressLabel: 'العنوان',
       phoneLabel: 'الهاتف',
       emailLabel: 'البريد الإلكتروني',
@@ -214,105 +211,101 @@ const SHIPPING_TRANSLATIONS: Record<LanguageCode, ShippingTranslation> = {
   },
   zh: {
     meta: {
-      title: '运输信息 - Naturra Extal',
-      description:
-        'Naturra Extal 家具运输的完整说明。运输时间、费用以及国际运输流程。',
-      keywords: '家具运输, 国际运输, 家具出口, 运输时间'
+      title: '送货与现场安装服务 - Mandiri Steel',
+      description: '了解勿加泗 Mandiri Steel 提供的钢大门、雨棚及铁艺定制的本地送货、运输与专业现场安装的完整信息。',
+      keywords: '焊接送货, 雨棚安装, 钢门送货, 本地小卡车, 雅加达勿加泗送货'
     },
-    heroTitle: '运输信息',
+    heroTitle: '送货与安装',
     mainSection: {
-      title: '从印度尼西亚运往全球',
-      paragraph:
-        '我们从印度尼西亚雅加达的丹戎不碌港出货。运输到大多数国际港口大约需要四周时间。'
+      title: '本地送货与专业现场安装',
+      paragraph: '我们服务于整个大雅加达地区（雅加达、茂物、德波、唐格朗、勿加泗）。每一件定制的雨棚、大门、护栏或钢结构都会安全送达，并由我们经验丰富的焊工当场安装。'
     },
     timesSection: {
-      title: '运往全球主要港口的时间',
+      title: '预计送货与安装时间表',
       items: [
-        { region: '美国西海岸港口', duration: '4 周' },
-        { region: '美国东海岸港口', duration: '4-5 周' },
-        { region: '英国港口', duration: '3-4 周' },
-        { region: '欧洲港口', duration: '3-4 周' },
-        { region: '中东港口', duration: '3-4 周' },
-        { region: '亚洲港口', duration: '2-3 周' }
+        { region: '勿加泗县及市区', duration: '1-2 天 (现场安装)' },
+        { region: '雅加达东部与北部', duration: '1-2 天 (现场安装)' },
+        { region: '雅加达南部与西部', duration: '2-3 天 (现场安装)' },
+        { region: '德波与茂物', duration: '2-3 天 (现场安装)' },
+        { region: '唐格朗县及市区', duration: '3-4 天 (现场安装)' },
+        { region: '大雅加达以外地区（西爪哇）', duration: '协商决定 / 特殊安排' }
       ]
     },
     containerSection: {
-      title: '按集装箱计算的运输体积',
-      description: '我们使用 20 英尺、40 英尺以及 40 英尺高箱集装箱进行出货。'
+      title: '运输与物流车辆',
+      description: '我们拥有自己的定制皮卡车队（Suzuki Carry / Daihatsu Gran Max / L300），配备保护架以安全运输重型钢门、旋转楼梯和雨棚板材，确保物品完好无损地送达目的地。'
     },
     pricingSection: {
-      title: '运费信息',
+      title: '送货与安装费用',
       paragraphs: [
-        '我们的运费报价包含文件费用、本地装卸及运输费用、港口装载费用，以及将集装箱送至贵港口所涉及的所有其他本地费用。',
-        '目的港收取的 D.D.C（文件与目的地费用）不包含在内。部分国际港口在货物到达并在当地港口处理时会收取 D.D.C 费用。请向当地海关咨询更多信息。'
+        '对于勿加泗及周边地区的项目，本地送货和现场标准安装完全免费，包含在我们的套餐内。',
+        '对于送往勿加泗以外地区（如唐格朗、西雅加达或茂物）的项目，将根据项目的体积和距离酌情收取少量运费补贴。请在咨询报价时与我们团队确认。'
       ]
     },
     responsibilitySection: {
-      title: '运输责任声明',
+      title: '安全与工艺保证声明',
       paragraphs: [
-        '我们不是货运公司，对于货运公司在运输和搬运过程中造成的任何损坏不承担责任。尽管我们与固定的货运公司合作，但我们建议您使用本地代理的自有货运公司。',
-        '如果您没有指定货运公司，我们可以提供一些备选方案，但无法对任何货运公司的可靠性或服务质量承担责任。',
-        '我们与多家可靠的货运代理和航运公司保持良好合作。如果未指定承运方，我们会以客户利益为先选择最合适的方案。'
+        '我们对产品在运输过程中的安全承担全部责任。任何油漆划痕或轻微的运输磕碰，都将在现场安装阶段立即进行免费补漆和修整。',
+        '我们专业的焊工团队将进行高精度焊接、地脚锚固和对齐，以确保结构的稳定性。我们为所有安装的产品提供结构保修。',
+        '我们与客户的建筑负责人和社区代表密切配合。如果未指定送货方式，我们会以保障物品安全为前提安排最合适的送货路线。'
       ]
     },
     contactSection: {
-      title: '更多信息',
-      description: '如需更多信息，请发送电子邮件与我们联系。',
+      title: '需要送货报价？',
+      description: '联系我们团队，获取您的定制钢结构项目的详细送货时间表和费用评估。',
       addressLabel: '地址',
       phoneLabel: '电话',
       emailLabel: '邮箱',
       websiteLabel: '网站',
-      workshopLabel: '贝卡西工坊：'
+      workshopLabel: '勿加泗工坊：'
     }
   },
   ja: {
     meta: {
-      title: '配送情報 - Naturra Extal',
-      description:
-        'Naturra Extal の家具配送に関する詳細情報。配送時間、費用、国際配送の手順についてご案内します。',
-      keywords: '家具 配送, 国際配送, 家具輸出, 配送時間'
+      title: '配送・現地取り付け工事 - Mandiri Steel',
+      description: 'Bekasi の Mandiri Steel による、鉄製大門、キャノピー、鉄骨構造物の現地配送、運搬、プロによる取り付け工事の総合案内。',
+      keywords: '溶接 配送, キャノピー 取り付け, 鉄門 配送, 現地軽トラック, ジャボデタベック 配送'
     },
-    heroTitle: '配送情報',
+    heroTitle: '配送・取り付け',
     mainSection: {
-      title: 'インドネシアから世界各地へ配送',
-      paragraph:
-        'インドネシア・ジャカルタのタンジュンプリオク港から出荷しています。多くの国際港へはおおよそ4週間で到着します。'
+      title: '現地配送とプロによる取り付け工事',
+      paragraph: 'ジャボデタベック（ジャカルタ、ボゴール、デポック、タンゲラン、ベカシ）全域に対応しています。オーダーメイドのキャノピー、ゲート、手すり、鉄骨構造物は安全に配送され、経験豊富な職人が現地で取り付け工事を行います。'
     },
     timesSection: {
-      title: '主要港への配送リードタイム',
+      title: '配送・取り付けまでの目安期間',
       items: [
-        { region: '米国西海岸の港', duration: '4週間' },
-        { region: '米国東海岸の港', duration: '4〜5週間' },
-        { region: '英国の港', duration: '3〜4週間' },
-        { region: 'ヨーロッパの港', duration: '3〜4週間' },
-        { region: '中東の港', duration: '3〜4週間' },
-        { region: 'アジアの港', duration: '2〜3週間' }
+        { region: 'ベカシ県・市', duration: '1-2日 (現地取り付け工事)' },
+        { region: '東・北ジャカルタ', duration: '1-2日 (現地取り付け工事)' },
+        { region: '南・西ジャカルタ', duration: '2-3日 (現地取り付け工事)' },
+        { region: 'デポック・ボゴール', duration: '2-3日 (現地取り付け工事)' },
+        { region: 'タンゲラン県・市', duration: '3-4日 (現地取り付け工事)' },
+        { region: 'ジャボデタベック外（西ジャワ）', duration: '特別合意 / 特殊手配' }
       ]
     },
     containerSection: {
-      title: 'コンテナによる出荷ボリューム',
-      description: '出荷には20フィート、40フィート、40フィート・ハイキューブのコンテナを使用しています。'
+      title: '輸送・物流車両について',
+      description: '重いスチール製大門、螺旋階段、デリケートなキャノピー用パネルを傷つけることなく安全に輸送できるよう、専用の保護ラックを備えた自社の軽トラック（Suzuki Carry / Daihatsu Gran Max / L300）で配送します。'
     },
     pricingSection: {
-      title: '配送費用について',
+      title: '配送および取り付け費用',
       paragraphs: [
-        '弊社のお見積もりには、書類費用、現地でのハンドリング・トラック費用、港での積込み費用など、コンテナをお客様の港へ届けるまでに発生するすべての現地費用が含まれます。',
-        '目的港で徴収される D.D.C（書類および目的地手数料）は含まれていません。一部の国際港では、貨物到着時および現地港での取り扱い時に D.D.C が発生します。詳細は現地税関へご確認ください。'
+        'ベカシおよびその周辺地域でのプロジェクトの場合、現地配送および標準的な現地取り付け工事はすべて「完全無料」で提供しております。',
+        'ベカシ以外の地域（タンゲラン、西ジャカルタ、ボゴールなど）への配送については、プロジェクトの規模や距離に応じて、少額のガソリン代／高速代の補助をお願いする場合があります。見積もり時にご相談ください。'
       ]
     },
     responsibilitySection: {
-      title: '配送に関する責任範囲',
+      title: '安全性と施工品質の保証',
       paragraphs: [
-        '当社は貨物会社ではなく、弊社の貨物を取り扱う運送会社によって生じた損害について責任を負いません。提携業者はありますが、可能であればお客様ご自身の貨物会社（現地代理店あり）をご利用いただくことをおすすめします。',
-        '貨物会社をお持ちでない場合は幾つか候補をご案内できますが、各社の信頼性やサービス品質について当社は責任を負いません。',
-        '当社は信頼できるフォワーダーや船会社と良好な協力体制を築いています。特定の指示がない場合は、お客様の利益を最優先に適切な輸送手段を手配いたします。'
+        '輸送中の商品の安全性については、当社がすべての責任を負います。万が一、運送中の塗装の擦れや軽微なキズが発生した場合は、現地での取り付け作業時に無償で塗装修復（タッチアップ）を行います。',
+        'プロの溶接職人チームが、強度、アンカーの深さ、水平垂直を徹底して確認して取り付けを行います。施工したすべての構造物には構造保証が適用されます。',
+        '必要に応じて現地管理組合等と連携し、最も安全な運送・搬入ルートを設定します。特定の運搬手段が指定されない場合は、お客様の利益を最優先した最適な経路を手配します。'
       ]
     },
     contactSection: {
-      title: 'さらに詳しい情報について',
-      description: '詳細についてはメールでお問い合わせください。',
+      title: '配送スケジュールの確認',
+      description: 'お客様のオーダーメイド鉄骨製品の配送予定や取り付け日程、費用のお見積もりは、お気軽に当社までお問い合わせください。',
       addressLabel: '住所',
-      phoneLabel: '電話',
+      phoneLabel: '電話番号',
       emailLabel: 'メール',
       websiteLabel: 'ウェブサイト',
       workshopLabel: 'ベカシ工房：'
@@ -320,50 +313,48 @@ const SHIPPING_TRANSLATIONS: Record<LanguageCode, ShippingTranslation> = {
   },
   es: {
     meta: {
-      title: 'Información de Envío - Naturra Extal',
-      description:
-        'Información completa sobre el envío de muebles de Naturra Extal. Tiempos de entrega, costos y procedimientos de envío internacional.',
-      keywords: 'envío de muebles, exportación de muebles, envío internacional, tiempos de envío'
+      title: 'Envío e Instalación en Obra - Mandiri Steel',
+      description: 'Información completa sobre el transporte local, entrega y colocación profesional en obra de portones de hierro, doseles y herrería de Mandiri Steel Bekasi.',
+      keywords: 'transporte de herrería, instalación de dosel, entrega de portón, camión pickup local, envío en Jabodetabek'
     },
-    heroTitle: 'Información de Envío',
+    heroTitle: 'Envío e Instalación',
     mainSection: {
-      title: 'Envíos desde Indonesia hacia el mundo',
-      paragraph:
-        'Despachamos desde el puerto de Tanjung Priok en Yakarta, Indonesia. El envío hacia la mayoría de los puertos internacionales toma aproximadamente cuatro semanas desde Indonesia.'
+      title: 'Envío Local e Instalación Profesional',
+      paragraph: 'Atendemos a toda la región de Jabodetabek (Yakarta, Bogor, Depok, Tangerang, Bekasi). Cada dosel, portón, barandal o estructura de acero a la medida se entrega de manera segura y se coloca en su domicilio por nuestros soldadores expertos.'
     },
     timesSection: {
-      title: 'Tiempos de envío hacia los principales puertos del mundo',
+      title: 'Tiempos Estimados de Entrega e Instalación',
       items: [
-        { region: 'Puertos de la costa oeste de EE. UU.', duration: '4 semanas' },
-        { region: 'Puertos de la costa este de EE. UU.', duration: '4-5 semanas' },
-        { region: 'Puertos del Reino Unido', duration: '3-4 semanas' },
-        { region: 'Puertos europeos', duration: '3-4 semanas' },
-        { region: 'Puertos de Oriente Medio', duration: '3-4 semanas' },
-        { region: 'Puertos asiáticos', duration: '2-3 semanas' }
+        { region: 'Municipio y Ciudad de Bekasi', duration: '1-2 Días (Instalación en sitio)' },
+        { region: 'Yakarta Oriental y del Norte', duration: '1-2 Días (Instalación en sitio)' },
+        { region: 'Yakarta Meridional y Occidental', duration: '2-3 Días (Instalación en sitio)' },
+        { region: 'Depok y Bogor', duration: '2-3 Días (Instalación en sitio)' },
+        { region: 'Municipio y Ciudad de Tangerang', duration: '3-4 Días (Instalación en sitio)' },
+        { region: 'Fuera de Jabodetabek (Java Occidental)', duration: 'Bajo acuerdo especial' }
       ]
     },
     containerSection: {
-      title: 'Volumen de envío por contenedores',
-      description: 'Nuestros embarques utilizan contenedores de 20 pies, 40 pies y 40 pies high cube.'
+      title: 'Vehículos de Transporte y Logística',
+      description: 'Contamos con nuestra propia flota de camionetas pickup adaptadas (Suzuki Carry / Daihatsu Gran Max / L300) equipadas con soportes protectores para trasladar portones pesados, escaleras de caracol y láminas de dosel sin sufrir ningún daño.'
     },
     pricingSection: {
-      title: 'Información de costos de envío',
+      title: 'Costo de Envío e Instalación',
       paragraphs: [
-        'Todas nuestras cotizaciones incluyen tarifas de documentación, manejo y transporte local, cargos de carga en el puerto y cualquier otro cargo local asociado al embalaje y entrega del contenedor hasta su puerto.',
-        'Las tarifas D.D.C (Document & Destination Charge) cobradas por el puerto de destino no están incluidas. Algunos puertos internacionales aplican esta tarifa al recibir y manipular su envío en el puerto local. Consulte con su oficina de aduanas para más detalles.'
+        'Para proyectos dentro de Bekasi y áreas metropolitanas colindantes, la entrega local y la instalación básica estándar en obra son totalmente GRATIS como parte de nuestro paquete de servicios.',
+        'Para entregas fuera de Bekasi (como Tangerang, Yakarta Occidental o Bogor), puede aplicar un subsidio menor de combustible para el transporte, según las dimensiones del proyecto. Consúltelo con nuestro equipo.'
       ]
     },
     responsibilitySection: {
-      title: 'Responsabilidad del envío',
+      title: 'Jaminan de Seguridad y Garantía de Mano de Obra',
       paragraphs: [
-        'No somos una compañía de carga y no asumimos responsabilidad por los daños ocasionados durante el transporte o la manipulación de su pedido por parte de las empresas que gestionan nuestros envíos. Aunque trabajamos con transportistas de confianza, recomendamos utilizar su propia empresa de carga con un agente en su localidad.',
-        'Si no cuenta con un proveedor logístico, podemos sugerir algunas opciones, pero no podemos responsabilizarnos por la fiabilidad o calidad del servicio de dichas empresas.',
-        'Trabajamos estrechamente con agentes de carga y navieras confiables. Si no se especifica un transportista, podemos seleccionar la opción que mejor proteja los intereses del cliente.'
+        'Asumimos la responsabilidad total por la integridad del producto durante el traslado. Cualquier raspadura de pintura o percance menor del transporte será retocado en obra inmediatamente durante la instalación.',
+        'Nuestro equipo de soldadores calificados asegura la solidez de las uniones, los anclajes y la alineación. Ofrecemos garantía estructural en todos nuestros trabajos instalados.',
+        'Nos coordinamos con los encargados de obra o vecinos de ser necesario. Si no se define un método de transporte, elegiremos la ruta de despacho más segura a beneficio del cliente.'
       ]
     },
     contactSection: {
-      title: 'Más información',
-      description: 'Para obtener más información, envíanos un correo electrónico.',
+      title: '¿Necesita Agendar un Envío?',
+      description: 'Póngase en contacto con nuestro equipo por WhatsApp o Correo para coordinar el calendario de fabricación, entrega e instalación en su domicilio.',
       addressLabel: 'Dirección',
       phoneLabel: 'Teléfono',
       emailLabel: 'Correo electrónico',
@@ -373,51 +364,48 @@ const SHIPPING_TRANSLATIONS: Record<LanguageCode, ShippingTranslation> = {
   },
   fr: {
     meta: {
-      title: 'Informations sur la Livraison - Naturra Extal',
-      description:
-        'Informations complètes sur l’expédition de meubles Naturra Extal : délais, coûts et procédures de livraison internationale.',
-      keywords: 'expédition de meubles, exportation de meubles, livraison internationale, délais de livraison'
+      title: 'Livraison & Installation sur Site - Mandiri Steel',
+      description: 'Informations complètes sur la livraison locale, le transport et la pose professionnelle de portails, d\'auvents et d\'ouvrages métalliques par Mandiri Steel Bekasi.',
+      keywords: 'transport de métallurgie, pose d\'auvent, livraison de portail, camionnette locale, livraison Jabodetabek'
     },
-    heroTitle: 'Informations sur la Livraison',
+    heroTitle: 'Livraison & Installation',
     mainSection: {
-      title: 'Expédition depuis l’Indonésie vers le monde entier',
-      paragraph:
-        'Nous expédions depuis le port de Tanjung Priok à Jakarta, Indonésie. L’envoi vers la plupart des ports internationaux prend environ quatre semaines depuis l’Indonésie.'
+      title: 'Livraison Locale & Pose Professionnelle',
+      paragraph: 'Nous desservons toute la région de Jabodetabek (Jakarta, Bogor, Depok, Tangerang, Bekasi). Chaque auvent, portail, garde-corps ou structure métallique sur mesure est livré en toute sécurité et installé directement chez vous par nos soudeurs qualifiés.'
     },
     timesSection: {
-      title: 'Délais d’expédition vers les principaux ports mondiaux',
+      title: 'Délais Estimés de Livraison & de Pose',
       items: [
-        { region: 'Ports de la côte ouest des États-Unis', duration: '4 semaines' },
-        { region: 'Ports de la côte est des États-Unis', duration: '4-5 semaines' },
-        { region: 'Ports du Royaume-Uni', duration: '3-4 semaines' },
-        { region: 'Ports européens', duration: '3-4 semaines' },
-        { region: 'Ports du Moyen-Orient', duration: '3-4 semaines' },
-        { region: 'Ports asiatiques', duration: '2-3 semaines' }
+        { region: 'Régence & Ville de Bekasi', duration: '1 à 2 jours (Pose sur site)' },
+        { region: 'Jakarta Est & Nord', duration: '1 à 2 jours (Pose sur site)' },
+        { region: 'Jakarta Sud & Ouest', duration: '2 à 3 jours (Pose sur site)' },
+        { region: 'Depok & Bogor', duration: '2 à 3 jours (Pose sur site)' },
+        { region: 'Régence & Ville de Tangerang', duration: '3 à 4 jours (Pose sur site)' },
+        { region: 'Hors de Jabodetabek (Java Ouest)', duration: 'Sur accord spécial / Devis personnalisé' }
       ]
     },
     containerSection: {
-      title: 'Volume d’expédition par conteneurs',
-      description:
-        'Nous utilisons des conteneurs de 20 pieds, 40 pieds et 40 pieds high cube pour nos expéditions.'
+      title: 'Véhicules de Transport & Logistique',
+      description: 'Nous disposons de notre propre flotte de camionnettes (Suzuki Carry / Daihatsu Gran Max / L300) équipées de supports de protection pour transporter les portails lourds, les escaliers en colimaçon et les tôles d\'auvent sans aucune rayure.'
     },
     pricingSection: {
-      title: 'Informations sur les coûts d’expédition',
+      title: 'Tarifs de Livraison & d\'Installation',
       paragraphs: [
-        'Toutes nos offres incluent les frais de documentation, les frais de manutention et de transport locaux, les frais de chargement au port ainsi que tous les autres frais locaux liés à l’emballage et à la livraison de votre conteneur jusqu’à votre port.',
-        'Les frais D.D.C (Document & Destination Charge) facturés par le port de destination ne sont pas inclus. Certains ports internationaux appliquent ces frais à l’arrivée et lors de la manutention de votre cargaison. Veuillez contacter votre service des douanes pour plus d’informations.'
+        'Pour les projets situés à Bekasi et ses environs, la livraison locale et la pose standard sur site sont entièrement GRATUITES dans le cadre de nos forfaits.',
+        'Pour les livraisons en dehors de Bekasi (comme Tangerang, Jakarta Ouest ou Bogor), une participation mineure aux frais de carburant peut être appliquée selon le volume de l\'ouvrage. Veuillez consulter notre équipe.'
       ]
     },
     responsibilitySection: {
-      title: 'Responsabilités liées à l’expédition',
+      title: 'Garantie de Sécurité & de Solidité',
       paragraphs: [
-        'Nous ne sommes pas une société de transport et ne pouvons être tenus responsables des dommages causés par les entreprises de fret qui manipulent nos expéditions. Bien que nous travaillions avec des partenaires de confiance, nous recommandons d’utiliser votre propre transporteur disposant d’un agent local.',
-        'Si vous n’avez pas de société de transport, nous pouvons vous proposer plusieurs options, mais nous ne pouvons garantir la fiabilité ni la qualité de service de ces prestataires.',
-        'Nous collaborons avec de nombreux transitaires et compagnies maritimes fiables. En l’absence d’instructions spécifiques, nous nous réservons le droit de choisir la solution la plus avantageuse pour le client.'
+        'Nous prenons l\'entière responsabilité de la sécurité de vos produits pendant le transport. Toute éraflure ou défaut mineur de transport sera immédiatement corrigé et repeint sur site lors de la pose.',
+        'Nos métalliers professionnels assurent la robustesse des soudures, la précision des ancrages et des alignements. Nous offrons une garantie décennale de structure sur tous les ouvrages posés.',
+        'Nous travaillons en étroite collaboration avec les syndics ou représentants de quartier si nécessaire. En l\'absence de consigne, nous définissons l\'itinéraire le plus sûr au profit du client.'
       ]
     },
     contactSection: {
-      title: 'Pour plus d’informations',
-      description: 'Pour davantage de renseignements, veuillez nous envoyer un e-mail.',
+      title: 'Planifier une Livraison ?',
+      description: 'Contactez notre équipe par WhatsApp ou par e-mail pour obtenir une estimation de calendrier de fabrication, de livraison et de pose chez vous.',
       addressLabel: 'Adresse',
       phoneLabel: 'Téléphone',
       emailLabel: 'Email',
@@ -427,50 +415,48 @@ const SHIPPING_TRANSLATIONS: Record<LanguageCode, ShippingTranslation> = {
   },
   ko: {
     meta: {
-      title: '배송 정보 - Naturra Extal',
-      description:
-        'Naturra Extal 가구 배송에 대한 전체 안내. 배송 기간, 비용, 국제 배송 절차를 확인하세요.',
-      keywords: '가구 배송, 국제 배송, 가구 수출, 배송 기간'
+      title: '배송 및 현장 설치 안내 - Mandiri Steel',
+      description: 'Bekasi의 Mandiri Steel이 제공하는 대문, 캐노피, 맞춤형 철골 제품의 로컬 배송, 운반 및 전문적인 현장 설치에 관한 상세 안내.',
+      keywords: '용접 배송, 캐노피 설치, 철문 배송, 로컬 픽업트럭, 자보데타벡 배송'
     },
-    heroTitle: '배송 정보',
+    heroTitle: '배송 및 설치',
     mainSection: {
-      title: '인도네시아에서 전 세계로 배송',
-      paragraph:
-        '인도네시아 자카르타의 탄중프리옥 항구에서 출고합니다. 대부분의 국제 항구까지 약 4주가 소요됩니다.'
+      title: '로컬 배송 및 전문적인 현장 설치',
+      paragraph: '자보데타벡(자카르타, 보골, 데폭, 탄게랑, 베카시) 전 지역을 지원합니다. 모든 맞춤형 캐노피, 대문, 난간 및 철강 제작물은 숙련된 용접공들이 안전하게 현장까지 배송하고 직접 설치해 드립니다.'
     },
     timesSection: {
-      title: '주요 항구까지의 예상 배송 기간',
+      title: '예상 배송 및 설치 일정',
       items: [
-        { region: '미국 서부 해안 항구', duration: '4주' },
-        { region: '미국 동부 해안 항구', duration: '4~5주' },
-        { region: '영국 항구', duration: '3~4주' },
-        { region: '유럽 항구', duration: '3~4주' },
-        { region: '중동 항구', duration: '3~4주' },
-        { region: '아시아 항구', duration: '2~3주' }
+        { region: '베카시 리전 및 시티', duration: '1-2일 (현장 당일 설치)' },
+        { region: '동부 및 북부 자카르타', duration: '1-2일 (현장 당일 설치)' },
+        { region: '남부 및 서부 자카르타', duration: '2-3일 (현장 당일 설치)' },
+        { region: '데폭 및 보골', duration: '2-3일 (현장 당일 설치)' },
+        { region: '탄게랑 리전 및 시티', duration: '3-4일 (현장 당일 설치)' },
+        { region: '자보데타벡 외 지역 (서부 자바)', duration: '상호 특별 협의' }
       ]
     },
     containerSection: {
-      title: '컨테이너별 배송 용량',
-      description: '당사는 20피트, 40피트, 40피트 하이큐브 컨테이너를 사용해 출고합니다.'
+      title: '운송 및 물류 차량 안내',
+      description: '무거운 철문, 회전 계단 및 캐노피 지붕 판재(알데론/스판덱)가 흠집 없이 안전하게 도달하도록 맞춤형 차량 랙이 장착된 자체 픽업트럭(Suzuki Carry / Daihatsu Gran Max / L300)을 운영합니다.'
     },
     pricingSection: {
-      title: '배송 비용 안내',
+      title: '배송 및 설치 비용',
       paragraphs: [
-        '모든 견적에는 서류 비용, 현지 취급 및 운송 비용, 항구 상차 비용, 컨테이너를 고객 항구까지 배송하는 데 필요한 모든 기타 현지 비용이 포함됩니다.',
-        '도착 항구에서 부과되는 D.D.C(문서 및 목적지 비용)는 포함되어 있지 않습니다. 일부 국제 항구는 화물이 도착하여 현지에서 처리될 때 D.D.C 비용을 청구합니다. 자세한 내용은 해당 지역 관세청에 문의해 주세요.'
+        '베카시 및 인근 지역의 프로젝트인 경우, 로컬 배송과 기본적인 현장 설치비는 모두 패키지 서비스에 포함되어 있어 완전 무료(무료 배송 및 설치)입니다.',
+        '베카시 이외의 지역(탄게랑, 서부 자카르타, 보골 등)으로의 배송은 프로젝트의 부피에 따라 실비 수준의 유류비 보조가 발생할 수 있습니다. 견적 시 확인해 주세요.'
       ]
     },
     responsibilitySection: {
-      title: '배송 책임 범위',
+      title: '안전성 및 시공 완벽 보장',
       paragraphs: [
-        '당사는 화물 회사가 아니며, 화물을 운송하거나 취급하는 과정에서 발생한 손상에 대해 책임을 지지 않습니다. 신뢰할 수 있는 파트너사가 있지만, 가능하다면 현지 대리점이 있는 고객님의 전용 화물 회사를 이용하시길 권장합니다.',
-        '화물 회사가 없는 경우 몇 가지 대안을 제안해 드릴 수 있으나, 해당 업체의 신뢰성과 서비스 품질에 대해서는 책임을 지지 않습니다.',
-        '당사는 검증된 포워더 및 선사와 긴밀히 협력하고 있습니다. 별도 지정이 없는 경우 고객의 이익을 최우선으로 하여 적합한 운송 방법을 선정합니다.'
+        '운송 중 제품의 파손이나 안전에 대해 당사가 책임을 집니다. 미세한 도색 까짐이나 운송 흠집은 현장 설치 시 즉각 무료로 보수 도장(Touch-up)을 실시합니다.',
+        '검증된 전문 용접 공팀이 접합부 강도, 앵커 매립 깊이, 균형을 정밀 확인하여 견고히 설치합니다. 설치된 구조물에는 무상 보증을 지원합니다.',
+        '필요한 경우 건물 관리처 및 이웃 주민대표와 원활히 소통하여 조율합니다. 지정 배송 방법이 없을 경우, 당사는 제품을 가장 안전히 인도할 수 있는 노선을 지정합니다.'
       ]
     },
     contactSection: {
-      title: '추가 정보',
-      description: '자세한 안내가 필요하시면 이메일로 문의해 주세요.',
+      title: '배송 일정을 예약하고 싶으신가요?',
+      description: '제작, 배송 및 댁내 설치 일정을 조율하려면 언제든지 WhatsApp이나 이메일로 연락해 주시기 바랍니다.',
       addressLabel: '주소',
       phoneLabel: '전화번호',
       emailLabel: '이메일',
@@ -498,12 +484,10 @@ const ShippingInformation: React.FC = () => {
     const stored = getStoredLanguage()
     const urlLang = getCurrentLanguage(location.pathname, location.search)
 
-    // Skip IP detection if user has stored preference or URL has language
     if (stored || urlLang !== 'en') {
       return
     }
 
-    // Only detect from IP on first visit
     const detectIP = async () => {
       const ipLang = await detectLanguageFromIP()
       if (ipLang && !stored) {
@@ -512,7 +496,7 @@ const ShippingInformation: React.FC = () => {
     }
 
     detectIP()
-  }, []) // Only run once on mount
+  }, [])
   const isIndonesian = language === 'id'
   const t = SHIPPING_TRANSLATIONS[language] ?? SHIPPING_TRANSLATIONS.en
 
@@ -551,8 +535,8 @@ const ShippingInformation: React.FC = () => {
         <div className="shipping-hero-image">
           <img
             src={heroImage}
-            alt="Shipping Information - Informasi Pengiriman agricultural commodities Naturra Extal Seluruh Indonesia"
-            title="Shipping Information - Delivery Service for Agricultural Commodities Across Indonesia"
+            alt="Delivery & Installation - Pemasangan Kanopi Pagar Mandiri Steel Bekasi Seluruh Jabodetabek"
+            title="Delivery & Installation Services - Mandiri Steel Bekasi"
             loading="eager"
             fetchPriority="high"
             width="1920"
@@ -692,10 +676,10 @@ const ShippingInformation: React.FC = () => {
                 <h3 className="shipping-contact-label">{t.contactSection.emailLabel}</h3>
                 <p className="shipping-contact-value">
                   <a
-                    href="mailto:hello@naturraextal.com"
+                    href="mailto:info@lasbekasi.com"
                     style={{ color: '#8B7355', textDecoration: 'underline' }}
                   >
-                    naturraextal@gmail.com
+                    info@lasbekasi.com
                   </a>
                 </p>
               </div>
@@ -709,12 +693,12 @@ const ShippingInformation: React.FC = () => {
                 <h3 className="shipping-contact-label">{t.contactSection.websiteLabel}</h3>
                 <p className="shipping-contact-value">
                   <a
-                    href="https://www.naturraextal.com"
+                    href="https://lasbekasi.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ color: '#8B7355', textDecoration: 'underline' }}
                   >
-                    www.naturraextal.com
+                    lasbekasi.com
                   </a>
                 </p>
               </div>
@@ -729,4 +713,3 @@ const ShippingInformation: React.FC = () => {
 }
 
 export default ShippingInformation
-

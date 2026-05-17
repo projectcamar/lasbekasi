@@ -16,7 +16,7 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     {
         id: 1,
         title: "Welcome to your Hub",
-        text: "This dashboard gives you a bird's eye view of Naturra Extal's activity. From here, you can track leads and manage content.",
+        text: "This dashboard gives you a bird's eye view of Mandiri Steel's activity. From here, you can track leads and manage content.",
         targetId: "admin-welcome-banner",
         targetPage: "/admin",
         btnText: "Next: Content Power",
@@ -62,7 +62,7 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     {
         id: 6,
         title: "Choose Language",
-        text: "Select your target language. Naturra supports Multi-language SEO natively, so you can write in any language and it will handle the rest.",
+        text: "Select your target language. Mandiri Steel supports Multi-language SEO natively, so you can write in any language and it will handle the rest.",
         targetId: "admin-ai-language-select",
         targetPage: "/admin/blog",
         btnText: "Next",
@@ -139,7 +139,7 @@ export const TUTORIAL_STEPS: TutorialStep[] = [
     {
         id: 14,
         title: "You are Live!",
-        text: "Finally, click any of these links to see your masterpiece live on the website. Congratulations, you've mastered Naturra Admin!",
+        text: "Finally, click any of these links to see your masterpiece live on the website. Congratulations, you've mastered Mandiri Steel Admin!",
         targetId: "admin-live-link",
         targetPage: "/admin/blog",
         btnText: "Finish Tutorial 🚀",
@@ -158,7 +158,7 @@ interface TutorialContextType {
 
 const TutorialContext = createContext<TutorialContextType | undefined>(undefined);
 
-const STORAGE_KEY = 'NATURRA_tutorial_step';
+const STORAGE_KEY = 'MANDIRI_tutorial_step';
 
 export const TutorialProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     const [currentStep, setCurrentStep] = useState(() => {

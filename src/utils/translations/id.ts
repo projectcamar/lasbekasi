@@ -1,133 +1,132 @@
 export const id = {
         // ─────────────────────────── Cover Page ───────────────────────────
-        title1: 'Naturra',
-        title2: 'EXTAL',
-        subtitle: 'Katalog Komoditas Pertanian Premium 2025',
-        tagline: 'Keahlian Lebih dari 25 Tahun dalam Ekspor & Perdagangan Komoditas Pertanian',
+        title1: 'Bengkel Las',
+        title2: 'MANDIRI',
+        subtitle: 'Katalog Jasa Las & Konstruksi Baja 2025',
+        tagline: 'Keahlian Lebih dari 25 Tahun dalam Jasa Las & Konstruksi Besi',
         since: 'Sejak 1999',
-        workshop: 'Pusat Distribusi & Ekspor Bekasi',
+        workshop: 'Workshop Bengkel Las Mandiri Bekasi',
         address: 'Jl. Raya Setu Cibitung, Bekasi, Jawa Barat 17320',
-        copyright: '© 2025 Naturra Extal. Hak Cipta Dilindungi.',
+        copyright: '© 2025 Bengkel Las Mandiri. Hak Cipta Dilindungi.',
 
         // ─────────────────────────── Welcome Page ───────────────────────────
-        welcomeTitle: 'Selamat Datang di Naturra Extal',
-        welcomeSubtitle: 'Partner Ekspor Komoditas Pertanian Terpercaya Indonesia',
+        welcomeTitle: 'Selamat Datang di Bengkel Las Mandiri',
+        welcomeSubtitle: 'Partner Jasa Las & Konstruksi Besi Terpercaya di Bekasi',
 
-        welcomeIntro: 'Terima kasih telah mengunduh katalog resmi Naturra Extal 2025. Kami bangga mempersembahkan koleksi komoditas pertanian unggulan yang bersumber langsung dari petani terbaik Indonesia untuk memenuhi kebutuhan industri global Anda.',
+        welcomeIntro: 'Terima kasih telah mengunjungi Bengkel Las Mandiri. Kami bangga mempersembahkan layanan jasa las profesional yang telah melayani ribuan pelanggan di Bekasi dan sekitarnya sejak tahun 1999.',
 
-        welcomePara1: 'Selama lebih dari 25 tahun, Naturra Extal telah menjadi mitra strategis bagi pembeli internasional, industri makanan & minuman, and sektor hortikultura global. Kami bukan sekadar pedagang komoditas—kami adalah mitra yang memahami rantai pasok, standar kualitas internasional, and pentingnya keberlanjutan hasil bumi.',
-        welcomePara2: 'Berbasis di pusat industri Bekasi, tim operasional kami bekerja dengan jaringan petani di seluruh nusantara. Mulai dari biji kakao pilihan di Sulawesi hingga cengkeh aromatik di Maluku, setiap produk yang kami tangani melalui proses seleksi and kontrol kualitas yang ketat untuk memastikan standar ekspor terbaik.',
-        welcomePara3: 'Koleksi komoditas kami mencakup: Cocoa Powder (Pure & Sweetened) dengan standar HS 1805/1806, Cengkeh (Cloves) Grade A dengan kadar eugenol tinggi, serta Cocopeat Blocks sebagai media tanam berkelanjutan yang ramah lingkungan.',
+        welcomePara1: 'Selama lebih dari 25 tahun, Bengkel Las Mandiri telah menjadi mitra strategis bagi pemilik rumah, kontraktor, dan pengembang properti di Bekasi. Kami bukan sekadar bengkel las biasa—kami adalah tim ahli yang memahami estetika, kekuatan struktur, dan kualitas material besi.',
+        welcomePara2: 'Berbasis di Cikarang Barat, Bekasi, tim ahli kami dipimpin langsung oleh Bapak Maman Toha. Mulai dari pembuatan kanopi minimalis hingga konstruksi baja berat, setiap pekerjaan yang kami tangani melalui proses pengelasan yang presisi dan kontrol kualitas yang ketat untuk memastikan hasil terbaik.',
+        welcomePara3: 'Layanan unggulan kami mencakup: Kanopi (Alderon, Spandek, Polycarbonate), Pagar Minimalis & Tempa, Teralis Jendela Anti Maling, Railing Tangga Stainless, serta Konstruksi Baja untuk bangunan komersial.',
 
-        welcomePara4: 'Kami memahami bahwa setiap klien memiliki spesifikasi unik. Oleh karena itu, selain ready stock yang Anda lihat di katalog ini, kami juga melayani custom processing and packaging. Fasilitas kami di Bekasi siap menangani sortasi, grading, and pengemasan sesuai standar negara tujuan Anda.',
+        welcomePara4: 'Kami memahami bahwa setiap rumah memiliki kebutuhan desain yang unik. Oleh karena itu, kami melayani custom desain sesuai keinginan Anda. Workshop kami di Bekasi dilengkapi dengan peralatan las modern untuk menangani berbagai jenis material besi dan stainless steel.',
 
-        welcomePara5: 'Harga yang kami tawarkan adalah factory direct—tanpa markup middleman. Dengan sistem operasional yang efisien di Bekasi, kami memastikan supply chain yang stabil and harga kompetitif bagi partner jangka panjang kami di seluruh dunia.',
+        welcomePara5: 'Harga yang kami tawarkan adalah harga workshop langsung—tanpa perantara. Dengan efisiensi pengerjaan dan manajemen material yang baik, kami memastikan hasil pekerjaan yang kokoh dengan harga yang tetap terjangkau bagi pelanggan kami.',
 
-        welcomeCTA: 'Hubungi kami hari ini untuk konsultasi gratis, diskusikan kebutuhan komoditas Anda, atau kunjungi fasilitas kami di Bekasi untuk melihat langsung standar kualitas kami.',
+        welcomeCTA: 'Hubungi kami hari ini untuk konsultasi gratis dan survei lokasi di area Bekasi, atau kunjungi workshop kami untuk melihat contoh hasil pekerjaan kami.',
 
         welcomeSignature: 'Hormat kami,',
-        welcomeTeam: 'Tim Naturra Extal',
+        welcomeTeam: 'Bapak Maman Toha & Tim Mandiri Steel',
 
         // ─────────────────────────── Why Choose Us Page ───────────────────────────
-        whyChooseTitle: 'Mengapa Memilih Naturra Extal?',
-        whyChooseSubtitle: '6 Keunggulan Strategis Naturra Extal',
+        whyChooseTitle: 'Mengapa Memilih Bengkel Las Mandiri?',
+        whyChooseSubtitle: '6 Keunggulan Jasa Las Kami',
 
-        reason1Title: '1. Kualitas Ekspor Premium Terjamin',
-        reason1Desc: 'Setiap komoditas yang kami handle melewati 3 tahap Quality Control: Field Inspection, Processing Audit, and Final Export Validation. Kami menjamin kadar air (moisture), kebersihan, and kesegaran produk sesuai regulasi internasional and spesifikasi pembeli.',
+        reason1Title: '1. Kualitas Material SNI',
+        reason1Desc: 'Kami hanya menggunakan besi berkualitas standar SNI dengan ketebalan yang sesuai spesifikasi. Hasil las yang rapi dan kuat serta penggunaan cat anti karat berkualitas tinggi memastikan ketahanan produk kami.',
 
-        reason2Title: '2. Pengalaman Ekspor 25+ Tahun',
-        reason2Desc: 'Tim kami memiliki pengetahuan mendalam mengenai logistics, HS Code (1805/1806), regulasi ekspor, and standard phytosanitary. Kami memastikan dokumentasi lengkap and proses ekspor yang lancar dari Indonesia ke seluruh benua.',
+        reason2Title: '2. Pengalaman 25+ Tahun',
+        reason2Desc: 'Sejak 1999, kami telah menangani berbagai proyek las mulai dari perumahan hingga pabrik. Pengalaman ini menjamin ketepatan waktu pengerjaan dan solusi teknis yang tepat untuk setiap kebutuhan Anda.',
 
-        reason3Title: '3. Jaringan Petani yang Solid',
-        reason3Desc: 'Kami bekerja sama langsung dengan ribuan petani di Sulawesi, Maluku, and Jawa. Hubungan direct sourcing ini memungkinkan kami menjaga kualitas dari hulu and memberikan harga terbaik tanpa melibatkan banyak perantara.',
+        reason3Title: '3. Tukang Las Profesional',
+        reason3Desc: 'Tim kami terdiri dari tukang las berpengalaman yang ahli dalam berbagai teknik pengelasan (las listrik, las argon/stainless). Hasil pekerjaan kami dikenal halus, presisi, dan kokoh.',
 
-        reason4Title: '4. Fasilitas Processing di Bekasi',
-        reason4Desc: 'Pusat operasional kami di Bekasi berfungsi sebagai hub distribusi strategis. Dilengkapi dengan fasilitas sortasi and pengemasan berstandar ekspor, kami siap menangani bulk order hingga 50-100 ton per bulan dengan konsistensi kualitas.',
+        reason4Title: '4. Workshop di Bekasi',
+        reason4Desc: 'Pusat operasional kami berada di lokasi strategis di Cikarang Barat, Bekasi. Memudahkan koordinasi, survei lokasi yang cepat, dan pengiriman yang efisien untuk seluruh wilayah Bekasi dan sekitarnya.',
 
-        reason5Title: '5. Rantai Pasok Transparan & Stabil',
-        reason5Desc: 'Stabilitas supply adalah prioritas. Kami mengelola inventory secara ketat untuk memastikan pengiriman tepat waktu, terutama untuk kontrak jangka panjang. Update stock and status pengiriman tersedia secara real-time bagi partner kami.',
+        reason5Title: '5. Garansi Pekerjaan',
+        reason5Desc: 'Kepuasan pelanggan adalah prioritas. Kami memberikan garansi untuk setiap hasil pekerjaan kami. Jika ada kekurangan atau komplain, tim kami siap melakukan perbaikan dengan cepat.',
 
-        reason6Title: '6. Komitmen pada Keberlanjutan',
-        reason6Desc: 'Naturra Extal berkomitmen pada Sustainable Agriculture. Kami mengedukasi petani mengenai praktik pertanian yang ramah lingkungan and adil, memastikan keberlangsungan industri komoditas untuk generasi masa depan.',
+        reason6Title: '6. Harga Jujur & Kompetitif',
+        reason6Desc: 'Kami memberikan penawaran harga yang transparan berdasarkan volume pekerjaan dan jenis material. Tidak ada biaya tersembunyi, dan kami selalu berupaya memberikan harga terbaik di Bekasi.',
 
         // ─────────────────────────── Product Categories ───────────────────────────
-        categories: 'Kategori Komoditas',
-        categoriesDesc: 'Hasil Bumi Premium Indonesia untuk Pasar Global',
+        categories: 'Kategori Layanan',
+        categoriesDesc: 'Solusi Las & Konstruksi Besi Berkualitas untuk Rumah & Bisnis Anda',
 
         // ─────────────────────────── Pricing Guide ───────────────────────────
-        pricingTitle: 'Panduan Pricing & Logistik',
-        pricingSubtitle: 'Transparansi dalam Setiap Transaksi Internasional',
+        pricingTitle: 'Panduan Harga & Pemesanan',
+        pricingSubtitle: 'Transparansi Harga Jasa Las Bekasi',
 
-        pricingNote1: '• Harga komoditas mengikuti index pasar global (London/New York Exchange) and dapat berubah sewaktu-waktu.',
-        pricingNote2: '• Quotation kami bersifat FOB (Free On Board) Jakarta atau CIF (Cost, Insurance, and Freight) sesuai permintaan.',
-        pricingNote3: '• MOQ (Minimum Order Quantity) bervariasi antara 500kg hingga 1 Container Load tergantung jenis komoditas.',
-        pricingNote4: '• Inspeksi SGS atau Sucofindo dapat dilakukan atas permintaan dengan biaya ditanggung oleh pihak pembeli.',
-        pricingNote5: '• Sistem Pembayaran: L/C (Letter of Credit) At Sight atau T/T (Telegraphic Transfer) sesuai kesepakatan kontrak.',
-        pricingNote6: '• Diskon Volume: Tersedia untuk kontrak tahunan atau bulk order di atas 20 ton.',
+        pricingNote1: '• Harga jasa las dihitung per meter (m2 atau m1) tergantung pada jenis produk dan desain.',
+        pricingNote2: '• Quotation kami sudah termasuk biaya survei, material, jasa pasang, dan transportasi area Bekasi.',
+        pricingNote3: '• Pembayaran DP (Down Payment) dilakukan saat pemesanan dan pelunasan setelah pekerjaan selesai.',
+        pricingNote4: '• Desain custom dapat diajukan oleh pelanggan atau memilih dari katalog desain kami.',
+        pricingNote5: '• Waktu pengerjaan umumnya berkisar antara 7-14 hari kerja tergantung volume pekerjaan.',
+        pricingNote6: '• Diskon Khusus: Tersedia untuk proyek perumahan atau volume pekerjaan di atas 50 meter.',
 
         // ─────────────────────────── Material Excellence ───────────────────────────
-        materialTitle: 'Standar Kualitas & Sertifikasi',
-        materialSubtitle: 'Memastikan Keunggulan Produk dari Indonesia',
+        materialTitle: 'Standar Material & Hasil Pekerjaan',
+        materialSubtitle: 'Menjamin Kekuatan dan Keindahan Produk Las',
 
-        material1Title: 'Biji & Bubuk Kakao (Cocoa)',
-        material1Desc: 'Biji kakao kami berasal dari Sulawesi Selatan/Tenggara, dikenal dengan aroma yang kuat and kadar lemak tinggi. Kami memprosesnya menjadi Cocoa Powder (Pure 100% and Sweetened) dengan standar HS 1805/1806 untuk industri beverage and confectionery.',
+        material1Title: 'Besi Hollow & Pipa SNI',
+        material1Desc: 'Kami menggunakan besi hollow hitam atau galvanis (anti karat) dengan berbagai ukuran sesuai kebutuhan kekuatan struktur. Ketebalan material selalu kami informasikan secara jujur kepada pelanggan.',
 
-        material2Title: 'Cengkeh (Cloves) Grade A',
-        material2Desc: 'Cengkeh pilihan dari Maluku and Sulawesi Utara. Melalui proses pengeringan matahari and sortasi manual untuk memastikan kadar air di bawah 12% and eugenol oil tinggi. Cocok untuk industri farmasi, kosmetik, and kuliner premium.',
+        material2Title: 'Stainless Steel & Ornamen',
+        material2Desc: 'Untuk railing tangga dan pagar mewah, kami menggunakan stainless steel grade terbaik yang tidak akan berkarat selamanya. Tersedia juga berbagai ornamen besi tempa klasik yang elegan.',
 
-        material3Title: 'Cocopeat Blocks & Bulk',
-        material3Desc: 'Media tanam organik yang diproses dari sabut kelapa berkualitas di Jawa Timur. Tersedia dalam bentuk blocks 5kg yang telah dicuci (washed) untuk menurunkan kadar EC (Electrical Conductivity) agar ideal bagi pertumbuhan tanaman.',
+        material3Title: 'Atap Kanopi Berkualitas',
+        material3Desc: 'Berbagai pilihan atap kanopi mulai dari Alderon (dingin & tidak berisik), Spandek, Polycarbonate, hingga Atap Kaca tempered untuk tampilan modern dan mewah.',
 
-        material4Title: 'Dokumentasi & Compliance',
-        material4Desc: 'Kami menyediakan dokumen ekspor lengkap: Bill of Lading, Invoice, Packing List, Certificate of Origin (COO), Phytosanitary Certificate, and Health Certificate untuk memastikan kelancaran customs di negara tujuan.',
+        material4Title: 'Finishing & Cat Anti Karat',
+        material4Desc: 'Setiap produk melalui proses pembersihan dan pelapisan cat dasar anti karat (meni) sebelum finishing cat warna, memastikan produk tidak mudah keropos dan warna tetap awet.',
 
         // ─────────────────────────── Contact & Order ───────────────────────────
-        contactTitle: 'Hubungi Kami & Mulai Partnerhip',
-        contactSubtitle: 'Tim Ahli Kami Siap Melayani Inquiry Global Anda',
+        contactTitle: 'Hubungi Kami & Konsultasi Gratis',
+        contactSubtitle: 'Bapak Maman Toha Siap Melayani Kebutuhan Las Anda',
 
-        contactInfo: 'Untuk quotation, spesifikasi produk, atau kunjungan fasilitas:',
+        contactInfo: 'Untuk permintaan survei, penawaran harga, atau konsultasi desain:',
 
-        whatsappTitle: 'WhatsApp & Direct Call',
-        whatsappNumber: '+6289513957752',
-        whatsappHours: 'Senin - Sabtu: 08.00 - 17.00 WIB',
-        whatsappResponse: 'Response time: 1-3 jam (Global Support)',
+        whatsappTitle: 'WhatsApp & Telepon',
+        whatsappNumber: '+62 852-1207-8467',
+        whatsappHours: 'Setiap Hari: 08.00 - 20.00 WIB',
+        whatsappResponse: 'Respon Cepat: Konsultasi & Survei Gratis',
 
         emailTitle: 'Email Resmi',
-        emailGeneral: 'naturraextal@gmail.com',
-        emailSales: 'sales@naturraextal.com',
-        emailNote: 'Untuk quotation resmi, kontrak, and partnership',
+        emailGeneral: 'info@lasbekasi.com',
+        emailSales: 'sales@lasbekasi.com',
+        emailNote: 'Untuk permintaan penawaran resmi dan kerjasama proyek',
 
-        addressTitle: 'Kantor Operasional & Fasilitas',
-        addressFull1: 'Naturra Extal Export Center',
+        addressTitle: 'Lokasi Workshop',
+        addressFull1: 'Bengkel Las Mandiri (Mandiri Steel)',
         addressFull2: 'Jl. Raya Setu Cibitung, Telajung',
         addressFull3: 'Kec. Cikarang Barat, Kabupaten Bekasi',
         addressFull4: 'Jawa Barat 17320, Indonesia',
-        addressNote: 'Lokasi strategis dekat Pelabuhan Tanjung Priok Jakarta',
+        addressNote: 'Lokasi Strategis di Cikarang Barat - Dekat Kawasan Industri',
 
-        visitTitle: 'Kunjungan Fasilitas',
-        visitDesc: 'Fasilitas sortasi and pengemasan kami terbuka untuk audit and kunjungan partner. Hubungi tim kami minimal 3 hari sebelum rencana kunjungan.',
+        visitTitle: 'Kunjungan Workshop',
+        visitDesc: 'Silakan kunjungi workshop kami untuk melihat material dan proses pengerjaan secara langsung. Hubungi kami sebelumnya untuk konfirmasi kehadiran.',
 
-        websiteTitle: 'Portal Digital',
-        website: 'www.naturraextal.com',
-        websiteNote: 'Cek spesifikasi teknis, HS code, and update harga komoditas terbaru',
+        websiteTitle: 'Website Resmi',
+        website: 'www.lasbekasi.com',
+        websiteNote: 'Lihat katalog hasil pekerjaan dan update proyek terbaru kami',
 
-        exportExp: '• Destinasi Ekspor: Asia, Eropa, Timur Tengah, Amerika',
-        workshopSize: '• Kapasitas Hub: 100+ Ton Kapasitas Processing Bulanan',
-        projectDone: '• Track Record: Terpercaya sejak 1999',
+        exportExp: '• Area Layanan: Seluruh Wilayah Bekasi, Cikarang, Tambun, Cibitung',
+        workshopSize: '• Kapasitas: Mampu Menangani Proyek Perumahan & Pabrik',
+        projectDone: '• Pengalaman: Terpercaya Sejak 1999',
 
         // ─────────────────────────── Status & Labels ───────────────────────────
-        viewOnline: 'Lihat Online →',
-        productsAvailable: 'produk tersedia',
+        viewOnline: 'Lihat Detail →',
+        productsAvailable: 'layanan tersedia',
         continued: '(bersambung)',
 
         // ─────────────────────────── Currency ───────────────────────────
         currency: 'IDR',
         currencySymbol: 'Rp',
-        priceFormat: 'Starting from',
+        priceFormat: 'Mulai dari',
 
         // ─────────────────────────── Call to Actions ───────────────────────────
-        cta1: '• WhatsApp kami untuk quotation instan',
-        cta2: '• Kunjungi fasilitas kami di Bekasi untuk audit kualitas',
-        cta3: '• Eksplor spek teknis di www.naturraextal.com',
+        cta1: '• WhatsApp untuk konsultasi gratis',
+        cta2: '• Jadwalkan survei lokasi di Bekasi',
+        cta3: '• Lihat portofolio di www.lasbekasi.com',
 };
-

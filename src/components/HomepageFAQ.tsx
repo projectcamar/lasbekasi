@@ -26,45 +26,9 @@ const FAQSection: React.FC<FAQSectionProps> = ({ isIndonesian, language }) => {
   ].filter((faq): faq is FAQItem => faq !== undefined).slice(0, 10)
 
   const translations = {
-    title: isIndonesian
-      ? 'FAQ - Pertanyaan Umum Ekspor Komoditas'
-      : language === 'ar'
-        ? 'الأسئلة الشائعة - تصدير السلع'
-        : language === 'zh'
-          ? '常见问题 - 大宗商品出口'
-          : language === 'ja'
-            ? 'よくある質問 - 農業コモディティ輸出'
-            : language === 'es'
-              ? 'Preguntas Frecuentes - Exportación de Productos'
-              : language === 'fr'
-                ? 'Questions Fréquentes - Exportation de Produits'
-                : 'FAQ - Agricultural Commodity Export Frequently Asked Questions',
-    subtitle: isIndonesian
-      ? 'Temukan jawaban untuk pertanyaan umum seputar ekspor komoditas, standar kualitas, logistik, dan layanan Naturra Extal'
-      : language === 'ar'
-        ? 'اكتشف إجابات للأسئلة الشائعة حول تصدير السلع ومعايير الجودة والخدمات اللوجستية وخدمات ناتورا إكستال'
-        : language === 'zh'
-          ? '查找有关大宗商品出口、质量标准、物流和 Naturra Extal 服务的常见问题解答'
-          : language === 'ja'
-            ? 'コモディティ輸出、品質基準、物流、および Naturra Extal のサービスに関するよくある質問の回答を見つける'
-            : language === 'es'
-              ? 'Encuentra respuestas a preguntas comunes sobre exportación de productos, estándares de calidad, logística y servicios de Naturra Extal'
-              : language === 'fr'
-                ? 'Trouvez des réponses aux questions fréquentes sur l\'exportation de produits, les normes de qualité, la logistique et les services de Naturra Extal'
-                : 'Find answers to common questions about commodity export, quality standards, logistics, and Naturra Extal services',
-    contactUs: isIndonesian
-      ? 'Punya pertanyaan lain? Hubungi tim ekspor kami!'
-      : language === 'ar'
-        ? 'هل لديك سؤال آخر؟ اتصل بفريق التصدير لدينا!'
-        : language === 'zh'
-          ? '还有其他问题吗？联系我们的出口团队！'
-          : language === 'ja'
-            ? '他に質問がありますか？弊社の輸出チームにお問い合わせください！'
-            : language === 'es'
-              ? '¿Tiene otras preguntas? ¡Contacte a nuestro equipo de exportación!'
-              : language === 'fr'
-                ? 'Vous avez d\'autres questions ? Contactez notre équipe export !'
-                : 'Have other questions? Contact our export team!'
+    title: 'FAQ Bengkel Las Bekasi',
+    subtitle: 'Pertanyaan Umum Tentang Jasa Las Bekasi - Informasi lengkap seputar layanan bengkel las dan harga las di Bekasi',
+    contactUs: 'Masih Ada Pertanyaan? Hubungi tim kami untuk konsultasi gratis!'
   }
 
   // Generate FAQ Schema for rich snippets
@@ -102,16 +66,14 @@ const FAQSection: React.FC<FAQSectionProps> = ({ isIndonesian, language }) => {
           <div className="faq-cta">
             <p className="faq-cta-text">{translations.contactUs}</p>
             <a
-              href={`https://wa.me/628951395752?text=${encodeURIComponent(
-                isIndonesian
-                  ? 'Halo Naturra Extal, saya ingin bertanya tentang ekspor komoditas pertanian'
-                  : 'Hello Naturra Extal, I want to ask about agricultural commodity export'
+              href={`https://wa.me/6285212078467?text=${encodeURIComponent(
+                'Halo Bengkel Las Mandiri, saya ingin konsultasi tentang jasa las'
               )}`}
               target="_blank"
               rel="noopener noreferrer"
               className="faq-cta-button"
             >
-              {isIndonesian ? 'Hubungi via WhatsApp' : language === 'ar' ? 'تواصل عبر واتساب' : language === 'zh' ? '通过WhatsApp联系' : language === 'ja' ? 'WhatsAppでお問い合わせ' : language === 'es' ? 'Contactar por WhatsApp' : language === 'fr' ? 'Contacter via WhatsApp' : 'Contact via WhatsApp'}
+              Hubungi via WhatsApp
             </a>
           </div>
         </div>

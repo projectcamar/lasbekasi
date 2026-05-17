@@ -1,7 +1,7 @@
 import { DEFAULT_IMAGE_RIGHTS_METADATA } from './structuredData'
 
-// Advanced SEO Enhancement Utilities for Naturra Extal
-// Optimized for Google Page 1 Ranking
+// Advanced SEO Enhancement Utilities for Mandiri Steel (Bengkel Las Mandiri)
+// Optimized for Google Page 1 Ranking in Bekasi Welding Market
 
 /**
  * Generate comprehensive LocalBusiness schema with E-E-A-T signals
@@ -11,28 +11,29 @@ export const generateEnhancedOrganizationSchema = () => {
   return {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "name": "Naturra Extal",
+    "name": "Bengkel Las Mandiri",
     "alternateName": [
-      "Naturra Extal Trading",
-      "Naturra Agricultural Commodities",
-      "Agricultural Commodity Exporter Bekasi"
+      "Mandiri Steel",
+      "Bengkel Las Bekasi",
+      "Mandiri Steel Bekasi",
+      "Jasa Las Kanopi Pagar Bekasi"
     ],
-    "url": "https://naturraextal.com",
+    "url": "https://lasbekasi.com",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
+      "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
       "width": 250,
       "height": 60,
       ...DEFAULT_IMAGE_RIGHTS_METADATA
     },
     "image": {
       "@type": "ImageObject",
-      "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
+      "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1200",
       "width": 1200,
       "height": 630,
       ...DEFAULT_IMAGE_RIGHTS_METADATA
     },
-    "description": "Naturra Extal adalah eksportir agricultural commodities terpercaya di Bekasi sejak 1999. Spesialis Cocoa Powder, Cengkeh (Cloves), dan Cocopeat dengan pengalaman 25+ tahun melayani pasar internasional.",
+    "description": "Bengkel Las Mandiri (Mandiri Steel) adalah spesialis konstruksi baja dan jasa las terpercaya di Bekasi sejak 1999. Melayani pembuatan kanopi, pagar, teralis, dan konstruksi baja berat dengan material SNI dan garansi kualitas.",
     "foundingDate": "1999-01-01",
     "foundingLocation": {
       "@type": "Place",
@@ -40,16 +41,16 @@ export const generateEnhancedOrganizationSchema = () => {
     },
     "founder": {
       "@type": "Person",
-      "name": "Naturra Extal Founders",
-      "jobTitle": "Agricultural Commodity Exporter"
+      "name": "Bapak Maman Toha",
+      "jobTitle": "Owner & Master Welder"
     },
     "numberOfEmployees": {
       "@type": "QuantitativeValue",
-      "value": 50,
-      "minValue": 40,
-      "maxValue": 60
+      "value": 15,
+      "minValue": 10,
+      "maxValue": 20
     },
-    "slogan": "Premium Agricultural Commodities Manufacturer Since 1999",
+    "slogan": "Kualitas Las Terpercaya Sejak 1999",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
@@ -60,81 +61,79 @@ export const generateEnhancedOrganizationSchema = () => {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -6.2088,
-      "longitude": 107.1602
+      "latitude": -6.3120,
+      "longitude": 107.0515
     },
-    "telephone": "6289513957752",
-    "email": "hello@naturraextal.com",
+    "telephone": "6285212078467",
+    "email": "info@lasbekasi.com",
     "contactPoint": [
       {
         "@type": "ContactPoint",
-        "telephone": "6289513957752",
+        "telephone": "6285212078467",
         "contactType": "customer service",
-        "email": "hello@naturraextal.com",
+        "email": "info@lasbekasi.com",
         "availableLanguage": ["Indonesian", "English"],
         "areaServed": ["ID"],
         "hoursAvailable": {
           "@type": "OpeningHoursSpecification",
-          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-          "opens": "08:00",
-          "closes": "17:00"
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+          "opens": "07:00",
+          "closes": "21:00"
         }
       },
       {
         "@type": "ContactPoint",
-        "telephone": "6289513957752",
+        "telephone": "6285212078467",
         "contactType": "sales",
-        "email": "hello@naturraextal.com",
+        "email": "info@lasbekasi.com",
         "availableLanguage": ["Indonesian", "English"],
         "areaServed": ["ID"]
       }
     ],
     "sameAs": [
-      "https://www.instagram.com/naturraextal",
-      "https://www.facebook.com/naturraextal",
-      "https://wa.me/6289513957752"
+      "https://wa.me/6285212078467"
     ],
     "areaServed": {
-      "@type": "Country",
-      "name": "Indonesia",
+      "@type": "City",
+      "name": "Bekasi",
       "geo": {
         "@type": "GeoShape",
         "addressCountry": "ID"
       }
     },
     "knowsAbout": [
-      "Agricultural Commodities Manufacturing",
-      "Cocoa Powder Export",
-      "Indonesian Cloves Sourcing",
-      "Cocopeat Supply Chain",
-      "Sustainable Agriculture",
-      "International Commodity Trading",
-      "Export Logistics",
-      "Quality Assurance",
-      "Global Market Development"
+      "Welding Services",
+      "Canopy Installation",
+      "Iron Gate Fabrication",
+      "Steel Construction WF",
+      "Home Security Trellis",
+      "Stainless Steel Work",
+      "Fence Repair & New Build",
+      "Industrial Steel Structure",
+      "Custom Metal Fabrication"
     ],
     "award": [
-      "1000+ Satisfied Clients Since 1999",
-      "25+ Years Industry Experience",
-      "Premium Quality Manufacturing"
+      "1000+ Proyek Selesai Sejak 1999",
+      "25+ Tahun Pengalaman Industri Las",
+      "Material Standar SNI Bergaransi"
     ],
     "brand": {
       "@type": "Brand",
-      "name": "Naturra Extal",
-      "logo": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
-      "slogan": "Premium Agricultural Commodities Since 1999"
+      "name": "Mandiri Steel",
+      "logo": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
+      "slogan": "Kualitas Las Terpercaya Sejak 1999"
     },
     "makesOffer": [
       {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Custom Agricultural Commodities Grading & Packaging",
-          "description": "Jasa grading dan pengemasan komoditas pertanian kustom dengan standar ekspor internasional dan parameter teknis presisi",
-          "serviceType": "Processing",
+          "name": "Jasa Pembuatan Kanopi Minimalis & Alderon",
+          "description": "Pembuatan kanopi dengan berbagai pilihan atap (Alderon, Kaca, Polycarbonate) menggunakan rangka hollow galvanis anti karat.",
+          "serviceType": "Fabrication",
           "provider": {
             "@type": "Organization",
-            "name": "Naturra Extal"
+            "name": "Bengkel Las Mandiri"
           }
         }
       },
@@ -144,8 +143,8 @@ export const generateEnhancedOrganizationSchema = () => {
         "priceCurrency": "IDR",
         "itemOffered": {
           "@type": "Service",
-          "name": "Commodity Sourcing Consultation",
-          "description": "Konsultasi gratis untuk pengadaan agricultural commodities sesuai kebutuhan bisnis Anda",
+          "name": "Konsultasi & Survei Lokasi Gratis",
+          "description": "Layanan survei dan pengukuran gratis untuk wilayah Bekasi dan sekitarnya.",
           "serviceType": "Consultation"
         }
       },
@@ -153,20 +152,20 @@ export const generateEnhancedOrganizationSchema = () => {
         "@type": "Offer",
         "itemOffered": {
           "@type": "Service",
-          "name": "Installation & Delivery Service",
-          "description": "Layanan inspeksi kualitas dan pengiriman komoditas ke seluruh dunia",
-          "serviceType": "Delivery",
+          "name": "Konstruksi Baja WF & Mezanin",
+          "description": "Pembangunan struktur baja berat untuk gudang, pabrik, dan mezanin ruko.",
+          "serviceType": "Construction",
           "areaServed": {
-            "@type": "Country",
-            "name": "Indonesia"
+            "@type": "City",
+            "name": "Bekasi"
           }
         }
       }
     ],
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Agricultural Commodities Catalog 2025",
-      "description": "Koleksi lengkap komoditas pertanian unggulan: Cocoa, Cloves, dan Cocopeat"
+      "name": "Katalog Jasa Las 2025",
+      "description": "Daftar lengkap layanan las: Kanopi, Pagar, Teralis, dan Konstruksi Baja"
     }
   }
 }
@@ -182,7 +181,7 @@ export const generateBreadcrumbSchema = (items: Array<{ name: string; url: strin
       "@type": "ListItem",
       "position": index + 1,
       "name": item.name,
-      "item": `https://naturraextal.com${item.url}`
+      "item": `https://lasbekasi.com${item.url}`
     }))
   }
 }
@@ -203,19 +202,19 @@ export const generateWebPageSchema = (page: {
     "@type": "WebPage",
     "name": page.title,
     "description": page.description,
-    "url": `https://naturraextal.com${page.url}`,
+    "url": `https://lasbekasi.com${page.url}`,
     "inLanguage": "id-ID",
     "isPartOf": {
       "@type": "WebSite",
-      "name": "Naturra Extal",
-      "url": "https://naturraextal.com"
+      "name": "Bengkel Las Mandiri",
+      "url": "https://lasbekasi.com"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Naturra Extal",
+      "name": "Bengkel Las Mandiri",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
+        "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
         ...DEFAULT_IMAGE_RIGHTS_METADATA
       }
     },
@@ -277,10 +276,10 @@ export const generateMetaDescription = (params: {
   const { product, service, location, type, cta } = params
 
   const descriptions = {
-    product: `${product} dari Naturra Extal - agricultural commodities kualitas ekspor. Kapasitas besar, grade premium, sertifikasi lengkap. ${location || 'Bekasi'}. ${cta || 'Hubungi kami!'}`,
-    service: `${service} oleh Naturra Extal. Pengalaman 25+ tahun di perdagangan internasional. Cocoa, Cloves, Cocopeat. ${location || 'Global Export'}. ${cta || 'Konsultasi gratis!'}`,
-    blog: `Analisis pasar ${product || service}. Insight dari expert agricultural commodities dengan 25+ tahun pengalaman. ${cta || 'Baca selengkapnya!'}`,
-    page: `${product || service} - Naturra Extal eksportir agricultural commodities Bekasi sejak 1999. Partner dagang terpercaya. ${cta || 'Hubungi kami!'}`
+    product: `${product} dari Mandiri Steel - Kualitas las premium dengan material SNI. Hasil rapi, kuat, dan tahan lama. Melayani area ${location || 'Bekasi'}. ${cta || 'Hubungi kami!'}`,
+    service: `${service} oleh Bengkel Las Mandiri. Pengalaman 25+ tahun spesialis besi dan baja di Bekasi. ${location || 'Cikarang & Bekasi'}. ${cta || 'Konsultasi gratis!'}`,
+    blog: `Tips & Informasi ${product || service}. Wawasan dari ahli las Mandiri Steel dengan 25+ tahun pengalaman. ${cta || 'Baca selengkapnya!'}`,
+    page: `${product || service} - Bengkel Las Mandiri spesialis jasa las Bekasi sejak 1999. Hasil bergaransi & harga bersaing. ${cta || 'Hubungi kami!'}`
   }
 
   return descriptions[type].substring(0, 160) // Google truncates at ~160 chars
@@ -291,11 +290,11 @@ export const generateMetaDescription = (params: {
  */
 export const generateKeywords = (primary: string[], secondary: string[], location: string[] = []) => {
   const baseKeywords = [
-    'agricultural commodities',
-    'agricultural commodities',
-    'export indonesia',
-    'trade bekasi',
-    'Naturra Extal'
+    'bengkel las bekasi',
+    'jasa las cikarang',
+    'kanopi minimalis bekasi',
+    'pagar besi murah',
+    'Bengkel Las Mandiri'
   ]
 
   return [...baseKeywords, ...primary, ...secondary, ...location].join(', ')
@@ -315,11 +314,11 @@ export const generateOGTags = (params: {
     'og:type': params.type || 'website',
     'og:title': params.title,
     'og:description': params.description,
-    'og:image': params.image || 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200',
+    'og:image': params.image || 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1200',
     'og:image:width': '1200',
     'og:image:height': '630',
-    'og:url': `https://naturraextal.com${params.url}`,
-    'og:site_name': 'Naturra Extal',
+    'og:url': `https://lasbekasi.com${params.url}`,
+    'og:site_name': 'Bengkel Las Mandiri',
     'og:locale': 'id_ID'
   }
 }
@@ -336,8 +335,8 @@ export const generateTwitterTags = (params: {
     'twitter:card': 'summary_large_image',
     'twitter:title': params.title,
     'twitter:description': params.description,
-    'twitter:image': params.image || 'https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200',
-    'twitter:site': '@naturraextal'
+    'twitter:image': params.image || 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1200',
+    'twitter:site': '@mandiristeel'
   }
 }
 
@@ -354,9 +353,9 @@ export const generateImageAlt = (params: {
 
   const parts = [
     productName,
-    category && `${category} export grade`,
-    action || 'ekspor komoditas pertanian',
-    'Naturra Extal',
+    category && `${category} kualitas SNI`,
+    action || 'jasa las profesional',
+    'Bengkel Las Mandiri',
     location && `${location}`
   ].filter(Boolean)
 
@@ -385,10 +384,10 @@ export const generateVideoSchema = (video: {
     "embedUrl": video.embedUrl,
     "publisher": {
       "@type": "Organization",
-      "name": "Naturra Extal",
+      "name": "Bengkel Las Mandiri",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
+        "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
         ...DEFAULT_IMAGE_RIGHTS_METADATA
       }
     }
@@ -413,7 +412,7 @@ export const generateItemListSchema = (params: {
       "@type": "ListItem",
       "position": item.position,
       "name": item.name,
-      "url": `https://naturraextal.com${item.url}`,
+      "url": `https://lasbekasi.com${item.url}`,
       ...(item.image && { image: item.image })
     }))
   }
@@ -449,7 +448,7 @@ export const generateReviewSchema = (review: {
       "name": review.itemReviewed,
       "brand": {
         "@type": "Brand",
-        "name": "Naturra Extal"
+        "name": "Mandiri Steel"
       }
     }
   }
@@ -490,18 +489,18 @@ export const generateArticleSchema = (article: {
     "author": {
       "@type": "Person",
       "name": article.author,
-      "jobTitle": "Agricultural Commodity Expert",
+      "jobTitle": "Welding Expert",
       "worksFor": {
         "@type": "Organization",
-        "name": "Naturra Extal"
+        "name": "Bengkel Las Mandiri"
       }
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Naturra Extal",
+      "name": "Bengkel Las Mandiri",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
+        "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
         "width": 250,
         "height": 60,
         ...DEFAULT_IMAGE_RIGHTS_METADATA
@@ -509,7 +508,7 @@ export const generateArticleSchema = (article: {
     },
     "mainEntityOfPage": {
       "@type": "WebPage",
-      "@id": `https://naturraextal.com${article.url}`
+      "@id": `https://lasbekasi.com${article.url}`
     },
     "articleSection": article.category,
     "inLanguage": "id-ID",
@@ -517,8 +516,8 @@ export const generateArticleSchema = (article: {
     "timeRequired": calculateReadingTime(article.content),
     "about": {
       "@type": "Thing",
-      "name": "Agricultural Commodities",
-      "sameAs": "https://en.wikipedia.org/wiki/Agricultural_commodity"
+      "name": "Welding & Steel Construction",
+      "sameAs": "https://en.wikipedia.org/wiki/Welding"
     }
   }
 }
@@ -529,24 +528,24 @@ export const generateArticleSchema = (article: {
 export const generateEnhancedLocalBusinessSchema = () => {
   return {
     "@context": "https://schema.org",
-    "@type": ["WholesaleStore", "LocalBusiness"],
-    "name": "Naturra Extal - International Agricultural Commodity Trading",
+    "@type": ["GeneralContractor", "LocalBusiness"],
+    "name": "Bengkel Las Mandiri - Jasa Las & Konstruksi Baja Bekasi",
     "image": [
       {
         "@type": "ImageObject",
-        "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
+        "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1200",
         ...DEFAULT_IMAGE_RIGHTS_METADATA
       },
       {
         "@type": "ImageObject",
-        "url": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1920",
+        "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1920",
         ...DEFAULT_IMAGE_RIGHTS_METADATA
       }
     ],
-    "@id": "https://naturraextal.com",
-    "url": "https://naturraextal.com",
-    "telephone": "6289513957752",
-    "priceRange": "Rp 1.500.000 - Rp 15.000.000",
+    "@id": "https://lasbekasi.com",
+    "url": "https://lasbekasi.com",
+    "telephone": "6285212078467",
+    "priceRange": "Rp 450.000 - Rp 100.000.000",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
@@ -557,24 +556,18 @@ export const generateEnhancedLocalBusinessSchema = () => {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -6.2088,
-      "longitude": 107.1602
+      "latitude": -6.3120,
+      "longitude": 107.0515
     },
     "openingHoursSpecification": [
       {
         "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-        "opens": "08:00",
-        "closes": "17:00"
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": "Saturday",
-        "opens": "08:00",
-        "closes": "15:00"
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "07:00",
+        "closes": "21:00"
       }
     ],
-    "paymentAccepted": "Cash, Bank Transfer, Credit Card",
+    "paymentAccepted": "Cash, Bank Transfer",
     "currenciesAccepted": "IDR",
     "hasMap": "https://maps.app.goo.gl/5Bc5ymfVtAYRPtpK7"
   }
@@ -618,6 +611,3 @@ export const getImageDimensions = (context: 'hero' | 'product' | 'thumbnail' | '
 
   return dimensions[context]
 }
-
-// Named exports are already provided for each function
-

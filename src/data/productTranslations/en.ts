@@ -1,74 +1,66 @@
 export const PRODUCT_DESCRIPTIONS_EN: Record<string, any> = {
-    'cocoa-powder-pure': {
-        name: 'Cocoa Powder Pure',
-        caption: 'Premium Indonesian Pure Cocoa Powder | Naturra Extal International',
-        shortCaption: 'Pure Cocoa Powder - HS 1805.00.0',
-        description: `Our Pure Cocoa Powder is sourced from the finest Indonesian cocoa beans, primarily from Sulawesi and Sumatra. This premium powder (HS 1805.00.0) is known for its rich flavor profile, deep natural color, and consistent quality, making it the top choice for global confectionery and industrial food manufacturing.`,
-        metaDescription: 'Premium Indonesian Pure Cocoa Powder - HS 1805.00.0 | High-Quality Export Commodity | Naturra Extal',
-        imageAlt: 'Premium Pure Cocoa Powder from Naturra Extal Indonesia'
+    'kanopi-minimalis-alderon': {
+        name: 'Minimalist Alderon Canopy',
+        caption: 'Minimalist Alderon Canopy Bekasi | Bengkel Las Mandiri',
+        shortCaption: 'Alderon Canopy - Cool & Durable',
+        description: `Canopies with Alderon roofs are the best choice for the hot weather in Bekasi. The UPVC material in Alderon is able to reduce heat and rain noise very well. We use high-quality hollow iron frames painted with a neat and sturdy finish.`,
+        metaDescription: 'Alderon canopy installation service Bekasi - Affordable price, guaranteed quality, sturdy frame | Bengkel Las Mandiri',
+        imageAlt: 'Minimalist Alderon Canopy Installation in Bekasi by Bengkel Las Mandiri'
     },
-    'cocoa-powder-sweetened': {
-        name: 'Cocoa Powder Sweetened',
-        caption: 'Sweetened Cocoa Powder Blend | Export Quality Naturra Extal',
-        shortCaption: 'Sweetened Cocoa Powder - HS 1806.00.0',
-        description: `A perfectly balanced blend of premium cocoa and high-quality sweetener (HS 1806.00.0), ready for hot chocolate, desserts, and various food applications. Our sweetened cocoa powder maintains an authentic cocoa taste while providing convenient ready-mix functionality for the international market.`,
-        metaDescription: 'Sweetened Cocoa Powder Blend - HS 1806.00.0 | Export Quality Ready-Mix | Naturra Extal',
-        imageAlt: 'Sweetened Cocoa Powder Blend from Naturra Extal'
+    'kanopi-kaca-tempered': {
+        name: 'Tempered Glass Canopy',
+        caption: 'Luxury Tempered Glass Canopy | Exclusive Design by Bengkel Las Mandiri',
+        shortCaption: 'Glass Canopy - Modern & Luxurious',
+        description: `Provides a luxurious and modern impression to your home. Our tempered glass canopies use 8mm or 10mm thick glass that is safe and strong. Supported by WF iron frames or thick hollows to ensure the safety and aesthetics of your building.`,
+        metaDescription: 'Tempered glass canopy fabrication service Bekasi - Luxurious and modern design for homes & offices | Bengkel Las Mandiri',
+        imageAlt: 'Modern Tempered Glass Canopy by Bengkel Las Mandiri Bekasi'
     },
-    'cocoa-beans-raw': {
-        name: 'Cocoa Beans (Raw)',
-        caption: 'Raw Fermented Cocoa Beans from Sulawesi and Sumatra | Naturra Extal',
-        shortCaption: 'Raw Cocoa Beans - Premium Fermented',
-        description: `Hand-selected raw cocoa beans from the heart of Indonesia. These beans are meticulously fermented and sun-dried by experienced farming communities in Sulawesi and Sumatra, ensuring the development of a complex and rich flavor profile essential for premium chocolate production.`,
-        metaDescription: 'Raw Fermented Indonesian Cocoa Beans | Premium Sourcing from Sulawesi & Sumatra | Naturra Extal',
-        imageAlt: 'Raw Fermented Cocoa Beans from Naturra Extal'
+    'pagar-minimalis-modern': {
+        name: 'Modern Minimalist Fence',
+        caption: 'Minimalist Iron Fence Bekasi | Bengkel Las Mandiri',
+        shortCaption: 'Minimalist Fence - Safe & Aesthetic',
+        description: `Our minimalist fences are designed to provide maximum security without compromising aesthetics. Using rust-resistant galvanized hollow iron material, combined with simple yet elegant modern line designs to beautify your home's exterior.`,
+        metaDescription: 'Minimalist fence welding shop Bekasi - Competitive price, SNI quality iron material | Bengkel Las Mandiri',
+        imageAlt: 'Modern Minimalist Iron Fence for Houses in Bekasi'
     },
-    'cocoa-butter': {
-        name: 'Cocoa Butter',
-        caption: 'Pure Indonesian Cocoa Butter | Food & Cosmetic Grade | Naturra Extal',
-        shortCaption: 'Pure Cocoa Butter - Premium Extraction',
-        description: `High-quality cocoa butter extracted from premium Indonesian cocoa beans. Our cocoa butter is deodorized and filtered to meet the highest standards for use in luxury chocolate production, high-end cosmetics, and pharmaceutical applications.`,
-        metaDescription: 'Pure Indonesian Cocoa Butter | Deodorized Food & Cosmetic Grade | Naturra Extal',
-        imageAlt: 'Pure Indonesian Cocoa Butter from Naturra Extal'
+    'pagar-besi-tempa-klasik': {
+        name: 'Classic Wrought Iron Fence',
+        caption: 'Classic Luxury Wrought Iron Fence | Bengkel Las Mandiri Bekasi',
+        shortCaption: 'Classic Fence - Luxury Ornaments',
+        description: `The right choice for classic or Mediterranean style houses. Our wrought iron fences use solid iron material with various floral and spiral ornaments worked in detail. Gives a magnificent, artistic, and classy impression to your home.`,
+        metaDescription: 'Classic wrought iron fence fabrication service Bekasi - Luxury ornaments, solid iron, detailed workmanship | Bengkel Las Mandiri',
+        imageAlt: 'Classic Luxury Wrought Iron Fence with Detailed Ornaments'
     },
-    'cloves-whole': {
-        name: 'Cengkeh (Whole Cloves)',
-        caption: 'Premium Whole Cloves from Maluku & North Sulawesi | Naturra Extal',
-        shortCaption: 'Premium Whole Cloves - High Oil Content',
-        description: `Indonesian cloves have been the gold standard since ancient times. Our whole cloves are hand-picked from the legendary Spice Islands (Maluku) and North Sulawesi, ensuring exceptional essential oil content (Eugenol >17%) and intense aromatic quality for culinary and industrial use.`,
-        metaDescription: 'Premium Indonesian Whole Cloves | Maluku & Sulawesi Origin | High Eugenol | Naturra Extal',
-        imageAlt: 'Premium Whole Indonesian Cloves from Naturra Extal'
+    'teralis-jendela-minimalis': {
+        name: 'Minimalist Window Trellis',
+        caption: 'Burglary-Proof Window Trellis Bekasi | Bengkel Las Mandiri',
+        shortCaption: 'Window Trellis - Primary Security',
+        description: `Our window trellises serve as additional security for your home. Available in various minimalist and classic motifs. Made with strong solid iron or hollows and installed with precision so that they still look neat from both inside and outside the room.`,
+        metaDescription: 'Window trellis installation service Bekasi - Guaranteed home security, neat minimalist design | Bengkel Las Mandiri',
+        imageAlt: 'Minimalist Window Trellis for Home Security'
     },
-    'cloves-stems': {
-        name: 'Clove Stems',
-        caption: 'Clove Stems for Essential Oil & Industry | Naturra Extal',
-        shortCaption: 'Clove Stems - Industrial Bulk Sourcing',
-        description: `Quality clove stems sourced during the harvesting process, ideal for essential oil extraction and various industrial applications. A cost-effective source of eugenol, our clove stems are processed to maintain chemical integrity for global industrial buyers.`,
-        metaDescription: 'Indonesian Clove Stems | Bulk Sourcing for Essential Oil Extraction | Naturra Extal',
-        imageAlt: 'Indonesian Clove Stems from Naturra Extal'
+    'railing-tangga-minimalis': {
+        name: 'Minimalist Stair Railing',
+        caption: 'Minimalist Stair & Balcony Railing Bekasi | Bengkel Las Mandiri',
+        shortCaption: 'Stair Railing - Sturdy & Safe',
+        description: `Stair railings are not just about security when going up and down stairs, but also a decorative interior element. We provide stair railings with a combination of iron and wooden handrails, or railings with minimalist ornaments that make the room feel more spacious.`,
+        metaDescription: 'Stair railing welding shop Bekasi - Combination of iron and wood, modern minimalist design | Bengkel Las Mandiri',
+        imageAlt: 'Modern Minimalist Stair Railing for Home Interior'
     },
-    'clove-oil': {
-        name: 'Clove Essential Oil',
-        caption: 'Pure Clove Essential Oil | High Eugenol Content | Naturra Extal',
-        shortCaption: 'Clove Oil - Pharmaceutical & Food Grade',
-        description: `Steam-distilled pure clove essential oil with high eugenol content. Sourced directly from local distillers in Indonesia, our oil meets international quality standards for use in pharmaceuticals, food flavoring, and dental hygiene products.`,
-        metaDescription: 'Pure Indonesian Clove Essential Oil | High Eugenol | Pharmaceutical Grade | Naturra Extal',
-        imageAlt: 'Pure Clove Essential Oil from Naturra Extal'
+    'konstruksi-baja-wf': {
+        name: 'WF Steel Construction',
+        caption: 'WF Steel Construction for Warehouses & Factories | Bengkel Las Mandiri',
+        shortCaption: 'Steel Construction - Industrial Strength',
+        description: `We serve steel construction work for warehouses, factories, futsal courts, or home mezzanines. Using WF (Wide Flange) or H-Beam steel with mature calculations and workmanship by an experienced team of construction experts.`,
+        metaDescription: 'WF steel construction service Bekasi - Warehouse, factory, and home mezzanine floor construction | Bengkel Las Mandiri',
+        imageAlt: 'WF Steel Construction Project for Warehouse in Bekasi'
     },
-    'cocopeat-block': {
-        name: 'Cocopeat Block (5kg)',
-        caption: 'Compressed 5kg Cocopeat Block - Low EC Eco-Friendly | Naturra Extal',
-        shortCaption: 'Cocopeat Block - 5kg Compressed',
-        description: `Our 5kg compressed cocopeat blocks are an eco-friendly growing medium perfect for horticulture and large-scale agriculture. Sourced from Surabaya, these blocks are washed to ensure low EC levels, providing excellent water retention and optimal soil aeration for healthier plants.`,
-        metaDescription: '5kg Compressed Cocopeat Block | Low EC Eco-Friendly Growing Media | Naturra Extal Indonesia',
-        imageAlt: '5kg Cocopeat Block - Eco-Friendly Media from Naturra Extal'
-    },
-    'cocopeat-loose': {
-        name: 'Cocopeat Loose',
-        caption: 'Loose Cocopeat Bulk Packaging | Agriculture & Horticulture | Naturra Extal',
-        shortCaption: 'Loose Cocopeat - Washed & Buffered',
-        description: `High-quality loose cocopeat in bulk packaging, ready for large-scale agricultural applications. Our loose cocopeat is washed and buffered to ensure consistent nutrient availability and optimal plant growth support, making it an efficient choice for professional growers.`,
-        metaDescription: 'Bulk Loose Cocopeat | Washed & Buffered for Professional Growers | Naturra Extal',
-        imageAlt: 'Bulk Loose Cocopeat from Naturra Extal'
+    'pintu-pagar-stainless-steel': {
+        name: 'Stainless Steel Gate',
+        caption: 'Rust-Resistant Stainless Steel Fence | Bengkel Las Mandiri Bekasi',
+        shortCaption: 'Stainless Fence - Rust Resistant',
+        description: `For those of you who want a maintenance-free and forever rust-resistant fence, stainless steel gates are the solution. We use genuine 304 grade stainless steel which has a luxurious shine and extraordinary durability against the weather.`,
+        metaDescription: 'Stainless steel fence fabrication service Bekasi - Grade 304 material, rust-resistant, luxury | Bengkel Las Mandiri',
+        imageAlt: 'Luxurious and Rust-Resistant Stainless Steel Gate'
     }
 }

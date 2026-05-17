@@ -48,8 +48,8 @@ export const ARABIC_SPEAKING_COUNTRIES: string[] = [
 export const detectVisitorLocation = async (): Promise<GeolocationData> => {
   try {
     // Check if we already have cached location data
-    const cachedLocation = localStorage.getItem('Naturra_visitor_location')
-    const cachedTimestamp = localStorage.getItem('Naturra_location_timestamp')
+    const cachedLocation = localStorage.getItem('Mandiri_visitor_location')
+    const cachedTimestamp = localStorage.getItem('Mandiri_location_timestamp')
     
     // Cache for 24 hours
     if (cachedLocation && cachedTimestamp) {
@@ -117,8 +117,8 @@ export const detectVisitorLocation = async (): Promise<GeolocationData> => {
     }
 
     // Cache the result
-    localStorage.setItem('Naturra_visitor_location', JSON.stringify(locationData))
-    localStorage.setItem('Naturra_location_timestamp', Date.now().toString())
+    localStorage.setItem('Mandiri_visitor_location', JSON.stringify(locationData))
+    localStorage.setItem('Mandiri_location_timestamp', Date.now().toString())
 
     return locationData
   } catch (error) {
@@ -161,14 +161,14 @@ export const setLanguagePreferenceByLocation = async (): Promise<'id' | 'en' | '
     }
     
     // Store in localStorage for catalog generator
-    localStorage.setItem('Naturra_lang_preference', langPreference)
+    localStorage.setItem('Mandiri_lang_preference', langPreference)
     
     return langPreference
   } catch (error) {
     console.error('Error setting language preference:', error)
     
     // Default to English
-    localStorage.setItem('Naturra_lang_preference', 'en')
+    localStorage.setItem('Mandiri_lang_preference', 'en')
     return 'en'
   }
 }

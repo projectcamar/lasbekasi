@@ -9,7 +9,7 @@ import { generateLanguageSpecificMeta, generateLocalizedUrls, truncateTitle, tru
 import { getCurrentLanguage, getLinkWithLanguage, type LanguageCode } from '../utils/languageManager'
 import './NaturraBlog.css'
 
-const heroImage = "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1920"
+const heroImage = "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1920&auto=format&fit=crop"
 
 const BLOG_INTRO_TRANSLATIONS: Record<
   LanguageCode,
@@ -23,218 +23,218 @@ const BLOG_INTRO_TRANSLATIONS: Record<
   }
 > = {
   id: {
-    mainTitle: '100+ Artikel Komoditas Global: Panduan Ekspor dari Naturra Extal',
+    mainTitle: 'Tips & Panduan Bengkel Las: Solusi Konstruksi dari Mandiri Steel',
     introParagraph:
-      'Temukan wawasan mendalam tentang perdagangan komoditas pertanian Indonesia. Artikel kami disusun berdasarkan pengalaman dalam mengekspor cocoa, cengkeh, dan cocopeat berkualitas premium ke pasar global.',
+      'Temukan wawasan mendalam tentang dunia pengelasan dan konstruksi besi di Bekasi. Artikel kami disusun berdasarkan pengalaman lebih dari 25 tahun dalam mengerjakan kanopi, pagar, dan konstruksi baja berkualitas.',
     bullets: [
       {
-        title: 'Tips & Panduan Sourcing',
+        title: 'Tips Perawatan Besi',
         description:
-          'Cara memilih, memverifikasi, dan memastikan kualitas komoditas pertanian premium dari Indonesia'
+          'Cara merawat pagar dan kanopi agar tetap kokoh dan bebas karat selama bertahun-tahun'
       },
       {
-        title: 'Wawasan Pasar & Kualitas',
+        title: 'Panduan Desain Minimalis',
         description:
-          'Informasi objektif tentang spesifikasi cocoa (HS 1805/1806), standar cengkeh, dan aplikasi cocopeat'
+          'Inspirasi model kanopi dan pagar terbaru yang cocok untuk rumah minimalis modern di Bekasi'
       },
       {
-        title: 'Panduan Ekspor & Logistik',
+        title: 'Mengenal Material SNI',
         description:
-          'Pemahaman regulasi ekspor, pengiriman global, dan kemitraan dengan petani lokal'
+          'Informasi tentang jenis-jenis besi hollow, atap UPVC Alderon, dan kualitas kawat las standar industri'
       },
       {
-        title: 'Pembaruan Industri Tren',
+        title: 'Estimasi Biaya Proyek',
         description:
-          'Tren komoditas 2025, praktik keberlanjutan, dan dinamika rantai pasokan global'
+          'Cara menghitung budget pembuatan kanopi, pagar, dan konstruksi baja sesuai spesifikasi'
       }
     ]
   },
   en: {
-    mainTitle: '100+ Global Commodity Articles: Export Guide from Naturra Extal',
+    mainTitle: 'Welding & Steel Tips: Construction Insights from Mandiri Steel',
     introParagraph:
-      'Discover in-depth insights into Indonesian agricultural commodity trading. Our articles are based on experience exporting premium cocoa, cloves, and cocopeat to global markets.',
+      'Discover in-depth insights into the world of welding and iron construction in Bekasi. Our articles are based on over 25 years of experience in crafting quality canopies, fences, and steel structures.',
     bullets: [
       {
-        title: 'Sourcing Tips & Guides',
+        title: 'Iron Maintenance Tips',
         description:
-          'How to select, verify, and ensure the quality of premium agricultural commodities from Indonesia'
+          'How to maintain your fences and canopies to keep them sturdy and rust-free for years'
       },
       {
-        title: 'Market & Quality Insights',
+        title: 'Minimalist Design Guides',
         description:
-          'Objective information on cocoa specifications (HS 1805/1806), clove standards, and cocopeat applications'
+          'Latest canopy and fence design inspiration suitable for modern minimalist homes in Bekasi'
       },
       {
-        title: 'Export & Logistics Guides',
+        title: 'Knowing SNI Materials',
         description:
-          'Understanding export regulations, global shipping, and partnerships with local farmers'
+          'Information on types of hollow iron, Alderon UPVC roofs, and industrial standard welding quality'
       },
       {
-        title: 'Industry & Trend Updates',
+        title: 'Project Cost Estimation',
         description:
-          '2025 commodity trends, sustainability practices, and global supply chain dynamics'
+          'How to calculate the budget for canopy, fence, and steel construction based on specifications'
       }
     ]
   },
   ar: {
-    mainTitle: 'أكثر من 100 مقال عن السلع العالمية: دليل التصدير من Naturra Extal',
+    mainTitle: 'نصائح وأدلة ورشة اللحام: حلول البناء من Mandiri Steel',
     introParagraph:
-      'اكتشف رؤى متعمقة حول تجارة السلع الزراعية الإندونيسية. مقالاتنا مبنية على خبرتنا في تصدير الكاكاو والقرنفل وجوز الهند (cocopeat) الفاخر إلى الأسواق العالمية.',
+      'اكتشف رؤى متعمقة حول عالم اللحام والمنشآت الحديدية في بيكاسي. مقالاتنا مبنية على خبرة تزيد عن 25 عاماً في تنفيذ المظلات والأسوار والمنشآت الفولاذية عالية الجودة.',
     bullets: [
       {
-        title: 'نصائح وأدلة التوريد',
+        title: 'نصائح صيانة الحديد',
         description:
-          'كيفية اختيار والتحقق وضمان جودة السلع الزراعية الفاخرة من إندونيسيا'
+          'كيفية الحفاظ على الأسوار والمظلات لتبقى متينة وخالية من الصدأ لسنوات'
       },
       {
-        title: 'رؤى السوق والجودة',
+        title: 'أدلة التصميم البسيط',
         description:
-          'معلومات موضوعية حول مواصفات الكاكاو، ومعايير القرنفل، وتطبيقات جوز الهند (cocopeat)'
+          'إلهام لأحدث موديلات المظلات والأسوار المناسبة للمنازل الحديثة في بيكاسي'
       },
       {
-        title: 'أدلة التصدير والخدمات اللوجستية',
+        title: 'معرفة مواد SNI',
         description:
-          'فهم لوائح التصدير، الشحن العالمي، والشراكات مع المزارعين المحليين'
+          'معلومات حول أنواع الحديد المجوف، وأسقف Alderon UPVC، وجودة اللحام الصناعي'
       },
       {
-        title: 'تحديثات الصناعة والاتجاهات',
+        title: 'تقدير تكلفة المشروع',
         description:
-          'اتجاهات السلع لعام 2025، ممارسات الاستدامة، وديناميكيات سلسلة التوريد العالمية'
+          'كيفية حساب ميزانية تنفيذ المظلات والأسوار والمنشآت الفولاذية'
       }
     ]
   },
   zh: {
-    mainTitle: '100+ 全球商品文章：Naturra Extal 出口指南',
+    mainTitle: '焊接与钢结构贴士：Mandiri Steel 的建筑见解',
     introParagraph:
-      '深入了解印尼农产品贸易。我们的文章基于向全球市场出口优质可可、丁香和椰糠的丰富经验。',
+      '深入了解勿加泗的焊接和铁艺建筑世界。我们的文章基于超过 25 年制作高品质雨棚、围栏和钢结构的经验。',
     bullets: [
       {
-        title: '采购提示与指南',
+        title: '铁艺维护贴士',
         description:
-          '如何选择、验证并确保印尼优质农产品的质量'
+          '如何维护您的围栏和雨棚，使其多年保持坚固且不生锈'
       },
       {
-        title: '市场与质量洞察',
+        title: '简约设计指南',
         description:
-          '关于可可规格（HS 1805/1806）、丁香标准和椰糠应用的客观信息'
+          '适用于勿加泗现代简约家居的最新雨棚和围栏设计灵感'
       },
       {
-        title: '出口与物流指南',
+        title: '了解 SNI 材料',
         description:
-          '了解出口法规、全球货运以及与当地农民的合作关系'
+          '关于方管铁、Alderon UPVC 屋顶和工业标准焊接质量的信息'
       },
       {
-        title: '行业与趋势更新',
+        title: '项目成本估算',
         description:
-          '2025年商品趋势、可持续发展实践以及全球供应链动态'
+          '如何根据规格计算雨棚、围栏和钢结构的预算'
       }
     ]
   },
   ja: {
-    mainTitle: '100以上のグローバル商品記事：Naturra Extalからの輸出ガイド',
+    mainTitle: '溶接と鉄骨のヒント：Mandiri Steel からの建築の洞察',
     introParagraph:
-      'インドネシアの農産物取引についての深い考察を発見してください。私たちの記事は、高品質なココア、クローブ、ココピートを世界市場へ輸出してきた経験に基づいています。',
+      'ブカシにおける溶接と鉄骨構造の世界についての深い洞察を発見してください。私たちの記事は、高品質なキャノピー、フェンス、鉄骨構造の製作における 25 年以上の経験に基づいています。',
     bullets: [
       {
-        title: '調達のヒントとガイド',
+        title: '鉄のメンテナンスのヒント',
         description:
-          'インドネシア産の高品質な農産物を選び、検証し、品質を確保する方法'
+          'フェンスやキャノピーを長年頑丈で錆びない状態に保つためのメンテナンス方法'
       },
       {
-        title: '市場と品質の洞察',
+        title: 'ミニマリストデザインガイド',
         description:
-          'ココアの仕様（HS 1805/1806）、クローブの基準、ココピートの用途に関する客観的な情報'
+          'ブカシのモダンなミニマリスト住宅に適した最新のキャノピーとフェンスのデザイン案'
       },
       {
-        title: '輸出と物流のガイド',
+        title: 'SNI 材料について',
         description:
-          '輸出規制、グローバルシッピング、地元農家とのパートナーシップの理解'
+          '角パイプ、Alderon UPVC 屋根、工業標準の溶接品質に関する情報'
       },
       {
-        title: '業界とトレンドの最新情報',
+        title: 'プロジェクトコストの見積もり',
         description:
-          '2025年の商品トレンド、持続可能性の取り組み、グローバルサプライチェーンの動向'
+          '仕様に基づいたキャノピー、フェンス、鉄骨構造の予算計算方法'
       }
     ]
   },
   es: {
-    mainTitle: '100+ Artículos sobre Materias Primas Globales: Guía de Exportación de Naturra Extal',
+    mainTitle: 'Consejos de Soldadura y Acero: Perspectivas de Mandiri Steel',
     introParagraph:
-      'Descubre perspectivas profundas sobre el comercio de materias primas agrícolas de Indonesia. Nuestros artículos se basan en la experiencia exportando cacao, clavo y cocopeat premium a mercados globales.',
+      'Descubra perspectivas profundas sobre el mundo de la soldadura y la construcción en hierro en Bekasi. Nuestros artículos se basan en más de 25 años de experiencia fabricando toldos, vallas y estructuras de acero de calidad.',
     bullets: [
       {
-        title: 'Consejos y Guías de Abastecimiento',
+        title: 'Consejos de Mantenimiento de Hierro',
         description:
-          'Cómo seleccionar, verificar y garantizar la calidad de las materias primas agrícolas premium de Indonesia'
+          'Cómo mantener sus vallas y toldos para que sigan siendo resistentes y libres de óxido por años'
       },
       {
-        title: 'Perspectivas de Mercado y Calidad',
+        title: 'Guías de Diseño Minimalista',
         description:
-          'Información objetiva sobre especificaciones del cacao (HS 1805/1806), estándares del clavo y aplicaciones del cocopeat'
+          'Inspiración para los últimos diseños de toldos y vallas para casas modernas en Bekasi'
       },
       {
-        title: 'Guías de Exportación y Logística',
+        title: 'Conociendo Materiales SNI',
         description:
-          'Comprensión de regulaciones de exportación, envíos globales y alianzas con agricultores locales'
+          'Información sobre tipos de hierro hueco, techos Alderon UPVC y calidad de soldadura industrial'
       },
       {
-        title: 'Actualizaciones de la Industria y Tendencias',
+        title: 'Estimación de Costos de Proyecto',
         description:
-          'Tendencias de materias primas 2025, prácticas de sostenibilidad y dinámicas de la cadena de suministro global'
+          'Cómo calcular el presupuesto para toldos, vallas y estructuras de acero según especificaciones'
       }
     ]
   },
   fr: {
-    mainTitle: '100+ Articles sur les Matières Premières Mondiales : Guide d\'Export de Naturra Extal',
+    mainTitle: 'Conseils en Soudure et Acier : Expertise de Mandiri Steel',
     introParagraph:
-      'Découvrez des analyses approfondies sur le commerce des matières premières agricoles indonésiennes. Nos articles s\'appuient sur notre expérience dans l\'exportation de cacao, clous de girofle et cocopeat premium vers les marchés mondiaux.',
+      'Découvrez des analyses approfondies sur l\'univers de la soudure et de la construction métallique à Bekasi. Nos articles s\'appuient sur plus de 25 ans d\'expérience dans la réalisation d\'auvents, de clôtures et de structures en acier.',
     bullets: [
       {
-        title: 'Conseils & Guides d\'Approvisionnement',
+        title: 'Conseils d\'Entretien du Fer',
         description:
-          'Comment sélectionner, vérifier et garantir la qualité des matières premières agricoles premium d\'Indonésie'
+          'Comment entretenir vos clôtures et auvents pour qu\'ils restent robustes et sans rouille pendant des années'
       },
       {
-        title: 'Analyse Marché & Qualité',
+        title: 'Guides de Design Minimaliste',
         description:
-          'Informations objectives sur les spécifications du cacao (HS 1805/1806), les standards du girofle et les applications du cocopeat'
+          'Inspiration pour les derniers modèles d\'auvents et de clôtures adaptés aux maisons modernes à Bekasi'
       },
       {
-        title: 'Guides Export & Logistique',
+        title: 'Connaître les Matériaux SNI',
         description:
-          'Compréhension des réglementations export, de l\'expédition mondiale et des partenariats avec les agriculteurs locaux'
+          'Informations sur les types de fer creux, les toitures Alderon UPVC et la qualité de soudure industrielle'
       },
       {
-        title: 'Actualités Industrie & Tendances',
+        title: 'Estimation des Coûts de Projet',
         description:
-          'Tendances matières premières 2025, pratiques de durabilité et dynamiques des chaînes d\'approvisionnement mondiales'
+          'Comment calculer le budget pour un auvent, une clôture ou une structure en acier selon les spécifications'
       }
     ]
   },
   ko: {
-    mainTitle: '100편 이상의 글로벌 원자재 블로그: Naturra Extal의 수출 가이드',
+    mainTitle: '용접 및 철강 팁: Mandiri Steel의 건축 인사이트',
     introParagraph:
-      '인도네시아 농산물 원자재 거래에 대한 심층적인 인사이트를 발견하세요. 당사의 아티클은 코코아, 정향, 코코피트 프리미엄 제품을 글로벌 시장에 수출한 경험을 바탕으로 작성되었습니다.',
+      '브카시의 용접 및 철제 구조물 세계에 대한 심층적인 인사이트를 발견하세요. 당사의 아티클은 고품질 캐노피, 펜스, 철골 구조물을 제작한 25년 이상의 경험을 바탕으로 작성되었습니다.',
     bullets: [
       {
-        title: '조달 팁 & 가이드',
+        title: '철제 유지보수 팁',
         description:
-          '인도네시아의 프리미엄 농산물의 선택, 검증 및 품질 보장 방법'
+          '펜스와 캐노피를 수년간 튼튼하고 녹 없이 유지하는 방법'
       },
       {
-        title: '시장 & 품질 인사이트',
+        title: '미니멀 디자인 가이드',
         description:
-          '코코아 사양(HS 1805/1806), 정향 기준 및 코코피트 응용에 대한 객관적 정보'
+          '브카시의 현대적인 미니멀 하우스에 적합한 최신 캐노피 및 펜스 디자인 영감'
       },
       {
-        title: '수출 & 물류 가이드',
+        title: 'SNI 자재 알기',
         description:
-          '수출 규정 이해, 글로벌 운송, 현지 농부와의 파트너십'
+          '사각 파이프 철제, Alderon UPVC 지붕 및 산업 표준 용접 품질에 대한 정보'
       },
       {
-        title: '업계 & 트렌드 업데이트',
+        title: '프로젝트 비용 산정',
         description:
-          '2025년 원자재 트렌드, 지속 가능성 실천, 글로벌 공급망 역학'
+          '사양에 따른 캐노피, 펜스 및 철골 구조물의 예산 계산 방법'
       }
     ]
   }
@@ -292,35 +292,33 @@ const NaturraBlog: React.FC = () => {
 
   const localeMeta = generateLanguageSpecificMeta(language)
   const localizedUrls = generateLocalizedUrls(location.pathname, location.search)
-  const intro = BLOG_INTRO_TRANSLATIONS[language] ?? BLOG_INTRO_TRANSLATIONS.en
-  const paginationTexts = BLOG_PAGINATION_TRANSLATIONS[language] ?? BLOG_PAGINATION_TRANSLATIONS.en
+  const intro = BLOG_INTRO_TRANSLATIONS[language] ?? BLOG_INTRO_TRANSLATIONS.id
+  const paginationTexts = BLOG_PAGINATION_TRANSLATIONS[language] ?? BLOG_PAGINATION_TRANSLATIONS.id
   const formatPageNumber = (value: number) =>
     new Intl.NumberFormat(paginationTexts.numberLocale).format(value)
 
   return (
     <div className="blog-page">
       <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
-        <title>{truncateTitle('Global Commodity Export Blog & Market Insights - Naturra Extal')}</title>
-        <meta name="description" content={truncateMetaDescription('Comprehensive guide to Indonesian agricultural commodities for global buyers. Insights on sourcing premium cocoa, cloves, and cocopeat, market trends, quality standards, and export logistics from Naturra Extal.')} />
-        <meta name="keywords" content="blog commodity trading, indonesian cocoa export, sourcing premium cloves, cocopeat supplier guide, naturra extal blog, cocoa powder hs 1805 1806, agricultural commodity market trends 2025, global spice trade, sustainable farming indonesia, commodity sourcing tips" />
+        <title>{truncateTitle('Blog Bengkel Las Bekasi & Tips Konstruksi Besi - Mandiri Steel')}</title>
+        <meta name="description" content={truncateMetaDescription('Panduan lengkap konstruksi besi, kanopi, dan pagar untuk wilayah Bekasi. Tips memilih material, inspirasi desain minimalis, dan estimasi biaya dari Bengkel Las Mandiri.')} />
+        <meta name="keywords" content="blog bengkel las bekasi, tips las kanopi, inspirasi pagar minimalis, jasa las cikarang, harga kanopi alderon bekasi, mandiri steel blog, material besi sni, konstruksi baja wf bekasi, cara merawat pagar besi" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta httpEquiv="content-language" content={localeMeta.lang} />
-        <link rel="canonical" href={localizedUrls.canonical} />
+        <link rel="canonical" href="https://lasbekasi.com/blog" />
         {localizedUrls.alternates.map((alternate) => (
           <link key={`blog-hreflang-${alternate.hrefLang}`} rel="alternate" hrefLang={alternate.hrefLang} href={alternate.href} />
         ))}
-        {prevUrl && <link rel="prev" href={`https://naturraextal.com${prevUrl}`} />}
-        {nextUrl && <link rel="next" href={`https://naturraextal.com${nextUrl}`} />}
+        {prevUrl && <link rel="prev" href={`https://lasbekasi.com${prevUrl}`} />}
+        {nextUrl && <link rel="next" href={`https://lasbekasi.com${nextUrl}`} />}
 
         {/* AI Search Optimization: Clear article purpose */}
-        <meta property="og:title" content="Global Commodity Blog - 100+ Articles on Export & Sourcing" />
-        <meta property="og:description" content="Comprehensive articles on agricultural commodities: sourcing tips, quality specifications (cocoa, cloves, cocopeat), export logistics, and best practices from Naturra Extal's global market experience." />
+        <meta property="og:title" content="Blog Bengkel Las Bekasi - Tips & Inspirasi Konstruksi Besi" />
+        <meta property="og:description" content="Kumpulan artikel seputar dunia pengelasan: tips perawatan besi, inspirasi desain kanopi & pagar, serta informasi material konstruksi dari Bengkel Las Mandiri Bekasi." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content={localizedUrls.canonical} />
         <meta property="og:locale" content={localeMeta.locale} />
-        <meta property="og:locale:alternate" content="id_ID" />
-        <meta property="og:locale:alternate" content="en_US" />
       </Helmet>
 
       <NaturraHeader />
@@ -330,8 +328,8 @@ const NaturraBlog: React.FC = () => {
         <div className="naturra-blog-hero-image">
           <img
             src={heroImage}
-            alt="Global Commodity Export Blog & Market Insights - Naturra Extal"
-            title="Global Commodity Blog - Complete Guides from Naturra Extal"
+            alt="Blog Bengkel Las Bekasi & Tips Konstruksi Besi - Mandiri Steel"
+            title="Blog Mandiri Steel - Panduan Lengkap Jasa Las"
             loading="eager"
             fetchPriority="high"
             width="1920"
@@ -343,7 +341,7 @@ const NaturraBlog: React.FC = () => {
           <div className="naturra-blog-hero-overlay"></div>
         </div>
         <div className="naturra-blog-hero-content">
-          <h1 className="naturra-blog-hero-title">Blog & Article</h1>
+          <h1 className="naturra-blog-hero-title">Blog & Tips Las</h1>
         </div>
       </section>
 
@@ -355,7 +353,7 @@ const NaturraBlog: React.FC = () => {
 
           <div className="naturra-blog-intro">
             <div className="naturra-blog-intro-bg">
-              <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=1200" alt="Agriculture Background" loading="lazy" />
+              <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=1200" alt="Welding Background" loading="lazy" />
               <div className="naturra-blog-intro-overlay"></div>
             </div>
             <div className="naturra-blog-intro-content">
@@ -380,8 +378,8 @@ const NaturraBlog: React.FC = () => {
                   <div className="naturra-blog-card-image">
                     <img
                       src={post.image}
-                      alt={`${post.title} - ${post.category} Commodity Blog Naturra Extal`}
-                      title={`${post.title} - ${post.category} Commodity Article`}
+                      alt={`${post.title} - ${post.category} Welding Blog Mandiri Steel`}
+                      title={`${post.title} - ${post.category} Welding Article`}
                       loading="lazy"
                       width="400"
                       height="250"
@@ -390,7 +388,7 @@ const NaturraBlog: React.FC = () => {
                       data-post-slug={post.slug}
                       data-category={post.category}
                     />
-                    <div className="naturra-blog-card-badge">Naturra Extal</div>
+                    <div className="naturra-blog-card-badge">Mandiri Steel</div>
                   </div>
                   <div className="naturra-blog-card-content">
                     <span className="naturra-blog-card-category">{post.category.toUpperCase()}</span>
@@ -520,4 +518,3 @@ const NaturraBlog: React.FC = () => {
 }
 
 export default NaturraBlog
-

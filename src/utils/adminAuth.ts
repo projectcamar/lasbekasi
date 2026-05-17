@@ -3,8 +3,8 @@
  * Manages admin session in sessionStorage
  */
 
-const ADMIN_TOKEN_KEY = 'Naturra_admin_token';
-const ADMIN_USER_KEY = 'Naturra_admin_user';
+const ADMIN_TOKEN_KEY = 'Mandiri_admin_token';
+const ADMIN_USER_KEY = 'Mandiri_admin_user';
 
 export const setAdminSession = (token: string) => {
     sessionStorage.setItem(ADMIN_TOKEN_KEY, token);
@@ -27,7 +27,7 @@ export const isAdminAuthenticated = () => {
     if (!token) return false;
 
     // Basic check - in a real app we'd verify the token with the backend or check expiry
-    return token.startsWith('naturra_admin_session_');
+    return token.startsWith('mandiri_admin_session_');
 };
 
 export const logoutAdmin = () => {

@@ -148,7 +148,7 @@ const NaturraCustomOrder: React.FC = () => {
             <h2 className="custom-order-cta-title">{t.cta.title}</h2>
             <p className="custom-order-cta-intro">{t.cta.intro}</p>
             <a
-              href="https://wa.me/6289513957752?text=Hello%20Naturra%20Extal,%20I%20would%20like%20to%20send%20a%20quotation%20request%20for%20commodity%20products."
+              href="https://wa.me/6285212078467?text=Halo%20Bengkel%20Las%20Mandiri%2C%20saya%20ingin%20konsultasi%20desain%20custom%20jasa%20las."
               target="_blank"
               rel="noopener noreferrer"
               className="custom-order-whatsapp-btn"

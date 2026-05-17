@@ -15,7 +15,7 @@ const AdminDashboard: React.FC = () => {
 
     React.useEffect(() => {
         // Check if onboarding was already seen
-        const seenKey = `naturra_onboarded_${username.toLowerCase()}`;
+        const seenKey = `mandiri_onboarded_${username.toLowerCase()}`;
         const hasSeen = localStorage.getItem(seenKey);
 
         if (!hasSeen) {
@@ -35,7 +35,7 @@ const AdminDashboard: React.FC = () => {
     }, [username]);
 
     const closeOnboarding = () => {
-        const seenKey = `naturra_onboarded_${username.toLowerCase()}`;
+        const seenKey = `mandiri_onboarded_${username.toLowerCase()}`;
         localStorage.setItem(seenKey, 'true');
         setShowOnboarding(false);
     };
@@ -50,13 +50,13 @@ const AdminDashboard: React.FC = () => {
             )}
 
             <Helmet>
-                <title>Admin Dashboard | Naturra Extal</title>
+                <title>Admin Dashboard | Mandiri Steel</title>
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
             <header className="admin-header">
                 <div className="admin-header-title">
-                    <h1>NATURRA <span style={{ color: '#004D2C' }}>EXTAL</span></h1>
+                    <h1>MANDIRI <span style={{ color: '#004D2C' }}>STEEL</span></h1>
                 </div>
 
                 <div className="admin-user-nav">
@@ -75,14 +75,14 @@ const AdminDashboard: React.FC = () => {
                 <div id="admin-welcome-banner" className="welcome-banner">
                     <div
                         className="admin-welcome-card"
-                        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200)' }}
+                        style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1200)' }}
                     >
                         <div className="admin-welcome-card-overlay"></div>
                         <div className="admin-welcome-card-content">
                             <div className="admin-welcome-info">
-                                <h2 className="admin-welcome-name">Welcome to your Dashboard</h2>
+                                <h2 className="admin-welcome-name">Selamat Datang di Dashboard Admin</h2>
                                 <p className="admin-welcome-title" style={{ maxWidth: '600px', opacity: 0.9, lineHeight: 1.6 }}>
-                                    This is the beginning of the Naturra Extal administration portal. From here, you will soon be able to manage products, content, and track site activity.
+                                    Portal administrasi Mandiri Steel (Bengkel Las Mandiri). Kelola artikel blog, pantau aktivitas situs, dan perbarui konten layanan konstruksi besi Anda dari sini.
                                 </p>
                             </div>
 
@@ -92,7 +92,7 @@ const AdminDashboard: React.FC = () => {
                                     onClick={() => setShowOnboarding(true)}
                                 >
                                     <Settings size={16} />
-                                    Tutorial
+                                    Bantuan
                                 </button>
                             </div>
                         </div>
@@ -153,7 +153,7 @@ const AdminDashboard: React.FC = () => {
             </main>
 
             <footer style={{ padding: '40px', textAlign: 'center', color: '#888', fontSize: '0.85rem' }}>
-                &copy; {new Date().getFullYear()} Naturra Extal Admin Portal • Powered by Vercel
+                &copy; {new Date().getFullYear()} Mandiri Steel Admin Portal • Bekasi Construction Services
             </footer>
         </div>
     )

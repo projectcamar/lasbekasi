@@ -1,133 +1,132 @@
 export const zh = {
         // ─────────────────────────── Cover Page ───────────────────────────
-        title1: 'Naturra',
-        title2: 'EXTAL',
-        subtitle: '2025年优质农产品出口目录',
-        tagline: '25年以上国际农产品贸易与出口专业经验',
+        title1: 'Mandiri',
+        title2: 'STEEL',
+        subtitle: '2025年优质焊接与金属建筑目录',
+        tagline: '25年以上焊接与金属结构专业经验',
         since: '始于1999年',
-        workshop: '勿加泗出口与分销中心',
+        workshop: '勿加泗焊接与加工中心',
         address: 'Jl. Raya Setu Cibitung, Bekasi, West Java 17320',
-        copyright: '© 2025 Naturra Extal。版权所有。',
+        copyright: '© 2025 Mandiri Steel (Bengkel Las Mandiri)。版权所有。',
 
         // ─────────────────────────── Welcome Page ───────────────────────────
-        welcomeTitle: '欢迎来到 Naturra Extal',
-        welcomeSubtitle: '印度尼西亚值得信赖的农产品出口合作伙伴',
+        welcomeTitle: '欢迎来到 Bengkel Las Mandiri',
+        welcomeSubtitle: '勿加泗值得信赖的焊接与金属建筑合作伙伴',
 
-        welcomeIntro: '感谢您下载 2025 年 Naturra Extal 官方目录。我们自豪地展示我们精选的优质农产品系列，这些产品直接源自印度尼西亚最优质的农场，旨在满足您的全球工业需求。',
+        welcomeIntro: '感谢您访问 Bengkel Las Mandiri (Mandiri Steel) 官方平台。我们自豪地展示我们精选的优质焊接服务与金属建筑作品，旨在满足您对家居、商业和工业的建筑需求。',
 
-        welcomePara1: '25 年来，Naturra Extal 一直是国际买家、食品和饮料行业以及全球园艺行业的战略合作伙伴。我们不仅仅是贸易商，我们是深谙供应链、国际质量标准和可持续收成重要性的可靠伙伴。',
-        welcomePara2: '我们的运营中心位于勿加泗工业区，团队与印尼全国各地的农民网络紧密合作。从苏拉威西的优质可可豆到马鲁古的香浓丁香，我们处理的每一件产品都经过严格的筛选和质量控制流程，以确保达到最佳出口标准。',
-        welcomePara3: '我们的产品系列包括：符合 HS 1805/1806 标准的可可粉（纯粉和加糖粉）、丁香（A 级，高丁香酚含量）以及作为可持续环保生长介质的可可泥炭块。',
+        welcomePara1: '25 年来，Mandiri Steel 一直是勿加泗及周边地区家庭、建筑承包商和工业企业的战略合作伙伴。我们不仅仅是焊接工，我们是深谙结构安全、美学设计和高标准耐用性的可靠专家。',
+        welcomePara2: '我们的运营中心位于勿加泗西卡朗地区，由 Maman Toha 先生领导。从精美的简约雨棚到坚固的工厂钢结构，我们处理的每一项工程都经过严格的质量控制，以确保达到最佳安全与审美标准。',
+        welcomePara3: '我们的服务范围包括：各种材质的雨棚（Alderon, 钢化玻璃等）、各式围栏与大门（简约、欧式、不锈钢）、窗户防盗窗以及工业级钢结构工程。',
 
-        welcomePara4: '我们深知每位客户都有独特的规格需求。因此，除了目录中的现货外，我们还提供定制加工和包装服务。我们位于勿加泗的设施已准备好根据您目标国家的标准进行分拣、分级和包装。',
+        welcomePara4: '我们深知每位客户都有独特的空间和设计需求。因此，我们提供全面的定制设计服务。我们位于勿加泗的设施已准备好根据您的具体尺寸和审美偏好进行精准加工。',
 
-        welcomePara5: '我们的价格是工厂直销——没有中间商加价。凭借勿加泗高效的运营体系，我们为全球长期合作伙伴确保了稳定的供应链和极具竞争力的价格。',
+        welcomePara5: '我们的价格是工厂直销——没有中间商。凭借在勿加泗多年的高效运营经验，我们为所有客户确保了优异的性价比和稳定的工程质量。',
 
-        welcomeCTA: '立即联系我们进行免费咨询，讨论您的产品需求，或访问我们位于勿加泗的设施，亲眼见证我们的质量标准。',
+        welcomeCTA: '立即联系我们进行免费咨询与现场测量，讨论您的建筑需求，或访问我们在勿加泗的工场。',
 
         welcomeSignature: '顺颂商祺',
-        welcomeTeam: 'Naturra Extal 团队',
+        welcomeTeam: 'Mandiri Steel 团队',
 
         // ─────────────────────────── Why Choose Us Page ───────────────────────────
-        whyChooseTitle: '为什么选择 Naturra Extal？',
-        whyChooseSubtitle: 'Naturra Extal 的 6 大战略优势',
+        whyChooseTitle: '为什么选择 Mandiri Steel？',
+        whyChooseSubtitle: 'Bengkel Las Mandiri 的 6 大核心优势',
 
-        reason1Title: '1. 保证的顶级出口质量',
-        reason1Desc: '我们处理的每种产品都要经过三个阶段的质量控制：田间检查、加工审核和最终出口验证。我们保证水分、清洁度和产品新鲜度符合国际法规和买家规格。',
+        reason1Title: '1. 保证的顶级工程质量',
+        reason1Desc: '我们处理的每项工程都要经过严格检查：精准测量、标准化焊接和高质量防锈处理。我们保证焊点牢固、漆面平整且结构耐用。',
 
-        reason2Title: '2. 25 年以上的出口经验',
-        reason2Desc: '我们的团队对物流、HS 编码（1805/1806）、出口法规和植物检疫标准有深入的了解。我们确保提供完整的文档及从印尼出发的顺畅出口流程。',
+        reason2Title: '2. 25 年以上的专业经验',
+        reason2Desc: '自 1999 年起，我们的团队对各类金属材料、焊接技术和建筑结构有深入的了解。我们确保您的项目符合安全标准且外观精美。',
 
-        reason3Title: '3. 坚实的农民网络',
-        reason3Desc: '我们直接与苏拉威西、马鲁古和爪哇的数千名农民合作。这种直接采购关系使我们能够从源头控制质量，并在不涉及中间商的情况下提供最优价格。',
+        reason3Title: '3. 优质的材料保障',
+        reason3Desc: '我们直接使用符合 SNI 标准的优质钢材。这种对材料的直接把控使我们能够确保工程的结构强度，并在不牺牲质量的前提下提供极具竞争力的价格。',
 
-        reason4Title: '4. 勿加泗的加工设施',
-        reason4Desc: '我们位于勿加泗的运营中心是一个战略分销中心。配备了出口标准的分拣和包装设施，我们准备好处理每月高达 50-100 吨的大宗订单，并保持质量的一致性。',
+        reason4Title: '4. 勿加泗的自有工场',
+        reason4Desc: '我们位于勿加泗的工场拥有完备的加工设备。无论是小型的家居围栏还是大型的工厂构件，我们都能在自有设施内高效完成并保持质量的一致性。',
 
-        reason5Title: '5. 透明且稳定的供应链',
-        reason5Desc: '供应稳定性是我们的首要任务。我们严格管理库存以确保准时交付，特别是对于长期合同。我们的合作伙伴可以实时获取库存更新和运输状态。',
+        reason5Title: '5. 透明且准时的工期',
+        reason5Desc: '准时交付是我们的首要原则。我们严格管理施工进度，确保按约定的时间节点完成安装。我们的客户可以随时了解项目的加工进度。',
 
-        reason6Title: '6. 致力于可持续发展',
-        reason6Desc: 'Naturra Extal 致力于可持续农业。我们教育农民采取环保和公平的耕作方式，确保农产品行业世代相传的可持续性。',
+        reason6Title: '6. 致力于客户满意度',
+        reason6Desc: 'Bengkel Las Mandiri 致力于提供优质的售后保障。我们为所有工程提供质量保修，确保每一位客户都能在未来多年内安心使用我们的作品。',
 
         // ─────────────────────────── Product Categories ───────────────────────────
-        categories: '农产品类别',
-        categoriesDesc: '为全球市场提供的印尼顶级收获',
+        categories: '服务类别',
+        categoriesDesc: '为勿加泗市场提供的顶级金属建筑方案',
 
         // ─────────────────────────── Pricing Guide ───────────────────────────
-        pricingTitle: '定价与物流指南',
-        pricingSubtitle: '国际交易中的透明度',
+        pricingTitle: '定价与服务指南',
+        pricingSubtitle: '工程交易中的透明度',
 
-        pricingNote1: '• 农产品价格遵循全球市场指数（伦敦/纽约交易所），并可能随时变动。',
-        pricingNote2: '• 我们的报价基于雅加达离岸价 (FOB) 或根据要求的到岸价 (CIF)。',
-        pricingNote3: '• 最低起订量 (MOQ) 根据产品类型从 500 公斤到整柜不等。',
-        pricingNote4: '• 可根据要求进行 SGS 或 Sucofindo 检验，费用由买方承担。',
-        pricingNote5: '• 付款方式：根据合同约定采用即期信用证 (L/C At Sight) 或电汇 (T/T)。',
-        pricingNote6: '• 批量折扣：适用于年度合同或 20 吨以上的大宗订单。',
+        pricingNote1: '• 报价通常基于材料类型、厚度以及工程的总面积/体积。',
+        pricingNote2: '• 我们的价格包含勿加泗地区的免费现场测量和初步设计咨询。',
+        pricingNote3: '• 订金 (DP) 通常在协议达成后支付，余款在安装完成并验收后付清。',
+        pricingNote4: '• 我们可以根据客户要求提供不同等级的防锈漆和面漆选择。',
+        pricingNote5: '• 付款方式：现金或银行转账，所有付款将出具正式收据。',
+        pricingNote6: '• 批量折扣：适用于大型开发项目或多个单元的集中施工。',
 
         // ─────────────────────────── Material Excellence ───────────────────────────
-        materialTitle: '质量标准与认证',
-        materialSubtitle: '确保源自印尼的产品卓越性',
+        materialTitle: '工艺标准与材料',
+        materialSubtitle: '确保每一个焊点都经得起时间考验',
 
-        material1Title: '可可豆与可可粉',
-        material1Desc: '我们的可可豆产自苏拉威西南部/东南部，以其浓郁的香气和高脂肪含量而闻名。我们将其加工成符合 HS 1805/1806 标准的可可粉（纯粉和加糖粉），用于饮料和糖果行业。',
+        material1Title: '雨棚系统',
+        material1Desc: '提供 Alderon UPVC、钢化玻璃、聚碳酸酯等多种顶面选择。结合坚固的镀锌方管框架，确保雨棚既能隔热隔音，又具有极佳的耐候性。',
 
-        material2Title: 'A 级丁香',
-        material2Desc: '甄选马鲁古和北苏拉威西的丁香。通过日晒干燥和手工分拣，确保水分含量低于 12% 且丁香酚含量高。适用于制药、化妆品和高端餐饮行业。',
+        material2Title: '围栏、大门与阳台',
+        material2Desc: '甄选优质 SNI 钢材。通过专业打磨和三层防锈喷涂工艺，确保围栏和大门在多雨环境下依然持久如新，兼顾安全与美观。',
 
-        material3Title: '可可泥炭块',
-        material3Desc: '源自东爪哇优质椰皮加工而成的有机生长介质。提供 5kg 装规格，已经过清洗以降低电导率 (EC) 水平，使其成为植物生长的理想选择。',
+        material3Title: '防盗窗与扶手',
+        material3Desc: '提供不锈钢或精铁材质的多种花型设计。无论是现代极简风格还是传统欧式花纹，都能实现高度防盗与居室装饰的平衡。',
 
-        material4Title: '文件与合规',
-        material4Desc: '我们提供完整的出口文件：提单、发票、装箱单、原产地证书 (COO)、植物检疫证书和健康证明，以确保在目的地国家顺利清关。',
+        material4Title: '工业钢结构',
+        material4Desc: '我们具备处理 WF 钢、H 型钢等重型构件的能力。为工厂、仓库和加层工程提供专业的结构焊接和安装服务。',
 
         // ─────────────────────────── Contact & Order ───────────────────────────
-        contactTitle: '联系我们并开始合作',
-        contactSubtitle: '我们的专家团队随时准备处理您的全球咨询',
+        contactTitle: '联系我们开始您的项目',
+        contactSubtitle: '我们的专家团队随时准备为您服务',
 
-        contactInfo: '如需报价、产品规格 or 参观设施，请联系：',
+        contactInfo: '如需报价、设计咨询或现场测量，请联系：',
 
-        whatsappTitle: 'WhatsApp 与直接通话',
-        whatsappNumber: '+6289513957752',
-        whatsappHours: '周一至周六：08.00 - 17.00 WIB',
-        whatsappResponse: '响应时间：1-3 小时（全球支持）',
+        whatsappTitle: 'WhatsApp 咨询',
+        whatsappNumber: '+6285212078467',
+        whatsappHours: '周一至周日：08.00 - 21.00 WIB',
+        whatsappResponse: '响应时间：即时响应 (Bapak Maman Toha)',
 
         emailTitle: '官方邮箱',
-        emailGeneral: 'hello@naturraextal.com',
-        emailSales: 'sales@naturraextal.com',
-        emailNote: '用于正式报价、合同和合作伙伴关系',
+        emailGeneral: 'info@lasbekasi.com',
+        emailSales: 'sales@lasbekasi.com',
+        emailNote: '用于正式合同和 B2B 合作',
 
-        addressTitle: '运营办公室及设施',
-        addressFull1: 'Naturra Extal 出口中心',
+        addressTitle: '工场地址',
+        addressFull1: 'Mandiri Steel (Bengkel Las Mandiri)',
         addressFull2: 'Jl. Raya Setu Cibitung, Telajung',
         addressFull3: '勿加泗县，西卡朗西部',
         addressFull4: '西爪哇省 17320，印度尼西亚',
-        addressNote: '地理位置优越，靠近雅加达丹绒不鲁港',
+        addressNote: '欢迎莅临工场洽谈您的项目',
 
-        visitTitle: '设施参观',
-        visitDesc: '我们的分拣和包装设施向合作伙伴开放审计和参观。请至少在计划访问前 3 天联系我们的团队。',
+        visitTitle: '现场测量',
+        visitDesc: '我们为勿加泗及周边地区提供免费的现场测量服务。请联系我们预约上门时间。',
 
-        websiteTitle: '数字化门户',
-        website: 'www.naturraextal.com',
-        websiteNote: '查看技术规格、HS 编码和最新农产品价格更新',
+        websiteTitle: '在线门户',
+        website: 'www.lasbekasi.com',
+        websiteNote: '在线查看我们的最新工程案例和价格参考',
 
-        exportExp: '• 出口目的地：亚洲、欧洲、中东、美国',
-        workshopSize: '• 中心产能：每月 100 吨以上加工与分销能力',
-        projectDone: '• 业绩记录：自 1999 年以来深受信任',
+        exportExp: '• 覆盖区域：勿加泗、西卡朗、坦汶、芝比通及周边',
+        workshopSize: '• 产能：具备同时处理多个中大型项目的专业团队',
+        projectDone: '• 业绩记录：自 1999 年以来深受勿加泗客户信赖',
 
         // ─────────────────────────── Status & Labels ───────────────────────────
         viewOnline: '在线查看 →',
-        productsAvailable: '可用产品',
+        productsAvailable: '服务项目',
         continued: '（续）',
 
         // ─────────────────────────── Currency ───────────────────────────
-        currency: 'USD',
-        currencySymbol: '$',
-        priceFormat: '价格起起点',
+        currency: 'IDR',
+        currencySymbol: 'Rp',
+        priceFormat: '起价',
 
         // ─────────────────────────── Call to Actions ───────────────────────────
-        cta1: '• 联系我们的 WhatsApp 获取即时报价',
-        cta2: '• 参观我们位于勿加泗的设施进行质量审计',
-        cta3: '• 在 www.naturraextal.com 探索技术规格',
+        cta1: '• 联系 WhatsApp 获取免费估价',
+        cta2: '• 预约免费的现场测量服务',
+        cta3: '• 在 www.lasbekasi.com 查看最新作品集',
 };
-

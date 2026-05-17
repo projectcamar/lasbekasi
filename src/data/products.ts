@@ -1,11 +1,10 @@
-// Product image URLs (Unsplash – commodity/agricultural placeholders)
-const cocoaPowderImage = 'https://images.unsplash.com/photo-1587049352851-8d4e89133924?w=600&q=80' // Cocoa beans/powder
-const clovesImage = 'https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=600&q=80' // Spices
-const cocopeatImage = 'https://images.unsplash.com/photo-1611080626919-7cf5a9831168?w=600&q=80' // Soil/Organic
-const spicesImage = 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?w=600&q=80' // Garden/Spices
-const cassavaImage = 'https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=600&q=80' // Agriculture
-const vanillaImage = 'https://images.unsplash.com/photo-1582218155981-0675ea108dca?w=600&q=80' // Vanilla/Spices
-const pepperImage = 'https://images.unsplash.com/photo-1621217646581-bcbe05ff19ee?w=600&q=80' // Black Pepper
+// Product image URLs (Unsplash – Welding/Construction placeholders)
+const kanopiImage = 'https://images.unsplash.com/photo-1628744448839-497746416629?w=800&q=80'
+const pagarImage = 'https://images.unsplash.com/photo-1505322033502-1f4385692e6a?w=800&q=80'
+const teralisImage = 'https://images.unsplash.com/photo-1527202814041-944f33190886?w=800&q=80'
+const railingImage = 'https://images.unsplash.com/photo-1523315535310-85f0c39f75ec?w=800&q=80'
+const konstruksiImage = 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80'
+const stainlessImage = 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80'
 
 export interface ProductVariant {
   name: string
@@ -26,142 +25,107 @@ export interface Product {
 }
 
 export const ALL_PRODUCTS: Product[] = [
-  // Cocoa Powder
+  // Kanopi
   {
     id: 1,
-    slug: 'natural-cocoa-powder-v10',
-    name: 'Natural Cocoa Powder V10',
-    categories: ['New Arrivals', 'Cocoa Powder', 'Export Quality'],
-    price: 'Contact for Quote',
-    image: cocoaPowderImage,
+    slug: 'kanopi-minimalis-alderon',
+    name: 'Kanopi Minimalis Alderon',
+    categories: ['Best Seller', 'Kanopi', 'Layanan Utama'],
+    price: 'Hubungi untuk Harga',
+    image: kanopiImage,
     variants: [
-      { name: 'Bulk 25kg Bag', price: 'Negotiable', specification: 'Fat 10-12%, pH 5.0-6.0' },
-      { name: 'Retail 1kg Pack', price: 'Negotiable', specification: 'Premium Grade' }
+      { name: 'Alderon Double Layer', price: 'Mulai Rp 650rb/m2', specification: 'Rangka Hollow 40x60, Atap Alderon RS' },
+      { name: 'Alderon Single Layer', price: 'Mulai Rp 450rb/m2', specification: 'Rangka Hollow 40x40' }
     ]
   },
   {
     id: 2,
-    slug: 'alkalized-cocoa-powder-dark',
-    name: 'Alkalized Cocoa Powder Dark',
-    categories: ['Cocoa Powder', 'Export Quality'],
-    price: 'Contact for Quote',
-    image: cocoaPowderImage,
+    slug: 'kanopi-kaca-tempered',
+    name: 'Kanopi Kaca Tempered',
+    categories: ['Premium', 'Kanopi'],
+    price: 'Hubungi untuk Harga',
+    image: kanopiImage,
     variants: [
-      { name: 'Bulk 25kg Bag', price: 'Negotiable', specification: 'Fat 10-12%, pH 7.0-8.0' }
+      { name: 'Kaca Tempered 8mm', price: 'Mulai Rp 1.2jt/m2', specification: 'Rangka WF atau Hollow Tebal' }
     ]
   },
 
-  // Indonesian Cloves
+  // Pagar
   {
     id: 3,
-    slug: 'premium-indonesian-cloves-lal-pari',
-    name: 'Premium Indonesian Cloves (Lal Pari)',
-    categories: ['New Arrivals', 'Indonesian Cloves', 'Spices & Herbs'],
-    price: 'Contact for Quote',
-    image: clovesImage,
+    slug: 'pagar-minimalis-modern',
+    name: 'Pagar Minimalis Modern',
+    categories: ['Pagar', 'Layanan Utama'],
+    price: 'Hubungi untuk Harga',
+    image: pagarImage,
     variants: [
-      { name: 'Grade A (Lal Pari)', price: 'Market Price', specification: 'Moisture <12%, Eugenol >17%' },
-      { name: 'Standard Grade', price: 'Market Price', specification: 'Moisture <13%' }
+      { name: 'Pagar Hollow Galvanis', price: 'Mulai Rp 550rb/m2', specification: 'Anti Karat, Cat Semprot' },
+      { name: 'Pagar Cutting Laser', price: 'Mulai Rp 950rb/m2', specification: 'Plat Besi, Desain Custom' }
     ]
   },
-
-  // Cocopeat Media
   {
     id: 4,
-    slug: 'cocopeat-block-5kg-low-ec',
-    name: 'Cocopeat Block 5kg (Low EC)',
-    categories: ['Cocopeat Media', 'Sustainable Growing'],
-    price: 'Contact for Quote',
-    image: cocopeatImage,
+    slug: 'pagar-besi-tempa-klasik',
+    name: 'Pagar Besi Tempa Klasik',
+    categories: ['Pagar', 'Premium'],
+    price: 'Hubungi untuk Harga',
+    image: pagarImage,
     variants: [
-      { name: 'Low EC (< 0.5 ms/cm)', price: 'Bulk pricing', specification: 'Washed' },
-      { name: 'High EC (> 1.0 ms/cm)', price: 'Bulk pricing', specification: 'Unwashed' }
+      { name: 'Desain Klasik Mewah', price: 'Mulai Rp 1.5jt/m2', specification: 'Besi Solid, Ornamen Klasik' }
     ]
   },
+
+  // Teralis
   {
     id: 5,
-    slug: 'cocopeat-briquettes-650g',
-    name: 'Cocopeat Briquettes 650g',
-    categories: ['Cocopeat Media', 'Sustainable Growing'],
-    price: 'Contact for Quote',
-    image: cocopeatImage
+    slug: 'teralis-jendela-minimalis',
+    name: 'Teralis Jendela Minimalis',
+    categories: ['Teralis', 'Keamanan'],
+    price: 'Hubungi untuk Harga',
+    image: teralisImage,
+    variants: [
+      { name: 'Model Nako', price: 'Mulai Rp 350rb/lubang', specification: 'Besi Nako 10mm/12mm' },
+      { name: 'Model Kotak Minimalis', price: 'Mulai Rp 400rb/lubang', specification: 'Besi Hollow 20x20' }
+    ]
   },
 
-  // Spices & Herbs
+  // Railing
   {
     id: 6,
-    slug: 'vanilla-planifolia-beans-gourmet',
-    name: 'Vanilla Planifolia Beans Gourmet',
-    categories: ['Spices & Herbs', 'Export Quality'],
-    price: 'Contact for Quote',
-    image: vanillaImage,
+    slug: 'railing-tangga-minimalis',
+    name: 'Railing Tangga Minimalis',
+    categories: ['Railing', 'Interior'],
+    price: 'Hubungi untuk Harga',
+    image: railingImage,
     variants: [
-      { name: 'Grade A (16cm+)', price: 'Market Price', specification: 'Moisture 30-35%' },
-      { name: 'Grade B (13-15cm)', price: 'Market Price', specification: 'Moisture 20-25%' }
+      { name: 'Railing Hollow & Kayu', price: 'Mulai Rp 500rb/m1', specification: 'Handrail Kayu Kamper/Meranti' },
+      { name: 'Railing Stainless Glass', price: 'Mulai Rp 1.1jt/m1', specification: 'Stainless 304, Kaca 8mm' }
     ]
   },
+
+  // Konstruksi Baja
   {
     id: 7,
-    slug: 'lampung-black-pepper-b1',
-    name: 'Lampung Black Pepper B1',
-    categories: ['Spices & Herbs', 'Export Quality'],
-    price: 'Contact for Quote',
-    image: pepperImage,
+    slug: 'konstruksi-baja-wf',
+    name: 'Konstruksi Baja WF',
+    categories: ['Konstruksi', 'Industri'],
+    price: 'Hubungi untuk Harga',
+    image: konstruksiImage,
     variants: [
-      { name: 'Whole Black Pepper', price: 'Market Price', specification: 'Density 550g/l' }
+      { name: 'Gudang & Pabrik', price: 'Hubungi Kami', specification: 'Baja WF/H-Beam, Atap Zincalume' }
     ]
   },
+
+  // Stainless Steel
   {
     id: 8,
-    slug: 'muntok-white-pepper-premium',
-    name: 'Muntok White Pepper Premium',
-    categories: ['Spices & Herbs', 'Export Quality'],
-    price: 'Contact for Quote',
-    image: pepperImage,
+    slug: 'pintu-pagar-stainless-steel',
+    name: 'Pintu Pagar Stainless Steel',
+    categories: ['Stainless Steel', 'Premium'],
+    price: 'Hubungi untuk Harga',
+    image: stainlessImage,
     variants: [
-      { name: 'Grade A', price: 'Market Price', specification: 'Moisture <13.5%' }
-    ]
-  },
-
-  // Essential Oils
-  {
-    id: 9,
-    slug: 'clove-leaf-oil-eugenol-80',
-    name: 'Clove Leaf Oil (Eugenol 80%)',
-    categories: ['Essential Oils', 'Export Quality'],
-    price: 'Contact for Quote',
-    image: spicesImage
-  },
-  {
-    id: 10,
-    slug: 'patchouli-oil-sumatra',
-    name: 'Patchouli Oil (Sumatra)',
-    categories: ['Essential Oils', 'Export Quality'],
-    price: 'Contact for Quote',
-    image: spicesImage
-  },
-
-  // Export Quality Others
-  {
-    id: 11,
-    slug: 'modified-cassava-flour-mocaf',
-    name: 'Modified Cassava Flour (MOCAF)',
-    categories: ['Export Quality'],
-    price: 'Contact for Quote',
-    image: cassavaImage,
-    variants: [
-      { name: 'Food Grade', price: 'Bulk pricing', specification: 'Gluten Free' }
-    ]
-  },
-  {
-    id: 12,
-    slug: 'organic-coconut-sugar',
-    name: 'Organic Coconut Sugar (Granule)',
-    categories: ['Export Quality', 'Sustainable Growing'],
-    price: 'Contact for Quote',
-    image: cocopeatImage,
-    variants: [
-      { name: 'Mesh 16', price: 'Negotiable', specification: 'Organic Certified' }
+      { name: 'Stainless Grade 304', price: 'Mulai Rp 1.8jt/m2', specification: 'Tahan Karat Selamanya' }
     ]
   }
 ]

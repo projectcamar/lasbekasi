@@ -1,133 +1,132 @@
 export const fr = {
         // ─────────────────────────── Cover Page ───────────────────────────
-        title1: 'Naturra',
-        title2: 'EXTAL',
-        subtitle: 'Catalogue d\'Exportation de Produits Agricoles Premium 2025',
-        tagline: 'Plus de 25 ans d\'expertise dans le commerce international et l\'exportation de produits agricoles',
+        title1: 'Mandiri',
+        title2: 'STEEL',
+        subtitle: 'Catalogue Premium de Soudure et Construction Métallique 2025',
+        tagline: 'Plus de 25 ans d\'expertise dans la soudure et les structures métalliques',
         since: 'Depuis 1999',
-        workshop: 'Centre d\'Exportation et de Distribution à Bekasi',
+        workshop: 'Centre de Soudure et de Fabrication à Bekasi',
         address: 'Jl. Raya Setu Cibitung, Bekasi, West Java 17320',
-        copyright: '© 2025 Naturra Extal. Tous droits réservés.',
+        copyright: '© 2025 Mandiri Steel (Bengkel Las Mandiri). Tous droits réservés.',
 
         // ─────────────────────────── Welcome Page ───────────────────────────
-        welcomeTitle: 'Bienvenue chez Naturra Extal',
-        welcomeSubtitle: 'Votre Partenaire de Confiance pour l\'Exportation de Produits Agricoles Indonésiens',
+        welcomeTitle: 'Bienvenue chez Bengkel Las Mandiri',
+        welcomeSubtitle: 'Votre Partenaire de Confiance pour la Soudure et la Construction Métallique à Bekasi',
 
-        welcomeIntro: 'Merci d\'avoir téléchargé le catalogue officiel Naturra Extal 2025. Nous sommes fiers de présenter notre collection sélectionnée de produits agricoles premium, provenant directement des meilleures fermes indonésiennes pour répondre à vos besoins industriels mondiaux.',
+        welcomeIntro: 'Merci de visiter la plateforme officielle de Bengkel Las Mandiri (Mandiri Steel). Nous sommes fiers de présenter notre collection sélectionnée de services de soudure premium et de structures métalliques, conçus pour répondre à vos besoins architecturaux résidentiels, commerciaux et industriels.',
 
-        welcomePara1: 'Depuis plus de 25 ans, Naturra Extal est un partenaire stratégique pour les acheteurs internationaux, les industries alimentaires et des boissons, ainsi que le secteur horticole mondial. Nous ne sommes pas de simples commerçants : nous sommes des partenaires qui comprennent la chaîne d\'approvisionnement, les normes de qualité internationales et l\'importance des récoltes durables.',
-        welcomePara2: 'Depuis notre centre d\'opérations dans la zone industrielle de Bekasi, notre équipe travaille avec un réseau d\'agriculteurs à travers tout l\'archipel. Des fèves de cacao de première qualité à Sulawesi aux clous de girofle aromatiques à Maluku, chaque produit que nous manipulons passe par un processus strict de sélection et de contrôle de qualité pour garantir les meilleurs standards d\'exportation.',
-        welcomePara3: 'Notre gamme comprend : Cacao en poudre (pur et sucré) selon les normes HS 1805/1806, Clous de girofle de Grade A avec une teneur élevée en eugénol, et blocs de Cocopeat comme support de culture durable et écologique.',
+        welcomePara1: 'Depuis plus de 25 ans, Mandiri Steel est un partenaire stratégique pour les particuliers, les entrepreneurs en bâtiment et les entreprises industrielles de Bekasi et ses environs. Nous ne sommes pas de simples soudeurs : nous sommes des experts reconnus qui comprennent la sécurité structurelle, le design esthétique et les normes de durabilité les plus strictes.',
+        welcomePara2: 'Depuis notre centre d\'opérations dans la zone de Cikarang, Bekasi, notre équipe travaille sous la direction de M. Maman Toha. Des auvents minimalistes élégants aux structures en acier robustes pour usines, chaque projet que nous réalisons passe par un processus strict de contrôle de qualité pour garantir les meilleurs standards de sécurité et d\'esthétique.',
+        welcomePara3: 'Notre gamme de services comprend : Auvents de divers matériaux (Alderon, verre trempé, etc.), Clôtures et portails variés (minimalistes, classiques, inox), Grilles de protection pour fenêtres et travaux de structures métalliques industrielles.',
 
-        welcomePara4: 'Nous comprenons que chaque client a des besoins de spécification uniques. Par conséquent, en plus du stock prêt dans le catalogue, nous proposons un traitement et un emballage personnalisés. Nos installations à Bekasi sont prêtes à trier et emballer selon les normes de votre pays de destination.',
+        welcomePara4: 'Nous comprenons que chaque client a des besoins d\'espace et de design uniques. Par conséquent, nous proposons des services de conception sur mesure complets. Nos installations à Bekasi sont prêtes à fabriquer avec précision selon vos dimensions exactes et vos préférences esthétiques.',
 
-        welcomePara5: 'Nos prix sont directs d\'usine, sans commissions d\'intermédiaires. Avec un système opérationnel efficace à Bekasi, nous garantissons une chaîne d\'approvisionnement stable et des prix compétitifs pour nos partenaires à long terme dans le monde entier.',
+        welcomePara5: 'Nos prix sont directs de l\'atelier, sans intermédiaires. Avec un système opérationnel efficace à Bekasi, nous garantissons un excellent rapport qualité-prix et une qualité de construction stable pour tous nos clients.',
 
-        welcomeCTA: 'Contactez-nous aujourd\'hui pour une consultation gratuite, pour discuter de vos besoins en produits ou pour visiter nos installations à Bekasi afin de voir de première main nos standards de qualité.',
+        welcomeCTA: 'Contactez-nous aujourd\'hui pour une consultation gratuite et une mesure sur site, pour discuter de vos besoins ou pour visiter notre atelier à Bekasi afin de constater nos standards de qualité.',
 
         welcomeSignature: 'Cordialement,',
-        welcomeTeam: 'L\'équipe Naturra Extal',
+        welcomeTeam: 'L\'équipe Mandiri Steel',
 
         // ─────────────────────────── Why Choose Us Page ───────────────────────────
-        whyChooseTitle: 'Pourquoi choisir Naturra Extal ?',
-        whyChooseSubtitle: '6 Avantages Stratégiques de Naturra Extal',
+        whyChooseTitle: 'Pourquoi choisir Mandiri Steel ?',
+        whyChooseSubtitle: '6 Avantages Stratégiques de Bengkel Las Mandiri',
 
-        reason1Title: '1. Qualité d\'Exportation Premium Garantie',
-        reason1Desc: 'Chaque produit passe par trois étapes de contrôle de qualité : inspection sur le terrain, audit de traitement et vérification finale avant exportation. Nous garantissons l\'humidité, la propreté et la fraîcheur du produit conformément aux réglementations internationales.',
+        reason1Title: '1. Qualité de Construction Premium Garantie',
+        reason1Desc: 'Chaque projet passe par des inspections rigoureuses : mesures précises, soudure normalisée et traitement anticorrosion de haute qualité. Nous garantissons des points de soudure solides, des finitions de peinture lisses et une durabilité structurelle.',
 
-        reason2Title: '2. Plus de 25 ans d\'expérience à l\'exportation',
-        reason2Desc: 'Notre équipe possède une connaissance approfondie de la logistique, des codes HS (1805/1806), des réglementations d\'exportation et des normes phytosanitaires. Nous assurons des documents complets et un processus d\'exportation fluide depuis l\'Indonésie.',
+        reason2Title: '2. Plus de 25 ans d\'expérience professionnelle',
+        reason2Desc: 'Depuis 1999, notre équipe possède une connaissance approfondie des divers matériaux métalliques, des techniques de soudure et des structures architecturales. Nous assurons que votre projet respecte les normes de sécurité et soit esthétiquement remarquable.',
 
-        reason3Title: '3. Réseau solide d\'agriculteurs',
-        reason3Desc: 'Nous travaillons directement avec des milliers d\'agriculteurs à Sulawesi, Maluku et Java. Cette relation directe à la source nous permet de maintenir la qualité dès l\'origine et d\'offrir les meilleurs prix sans intermédiaires.',
+        reason3Title: '3. Excellence des Matériaux Garantis',
+        reason3Desc: 'Nous utilisons directement de l\'acier de haute qualité conforme aux normes SNI. Ce contrôle direct sur les matériaux nous permet de garantir la résistance structurelle et d\'offrir des prix compétitifs sans sacrifier la qualité.',
 
-        reason4Title: '4. Installations de traitement à Bekasi',
-        reason4Desc: 'Notre centre d\'opérations à Bekasi sert de hub de distribution stratégique. Équipé d\'installations de tri et d\'emballage aux normes d\'exportation, nous sommes prêts à traiter de grandes commandes allant de 50 à 100 tonnes par mois.',
+        reason4Title: '4. Atelier Propre à Bekasi',
+        reason4Desc: 'Notre atelier situé à Bekasi est doté d\'équipements de transformation complets. Qu\'il s\'agisse de clôtures résidentielles ou de structures industrielles à grande échelle, nous réalisons tout efficacement dans nos propres installations pour maintenir une qualité constante.',
 
-        reason5Title: '5. Chaîne d\'approvisionnement transparente et stable',
-        reason5Desc: 'La stabilité de l\'approvisionnement est notre priorité. Nous gérons les inventaires avec rigueur pour assurer une livraison à temps, en particulier pour les contrats à long terme, avec des mises à jour régulières de l\'avancement.',
+        reason5Title: '5. Délais Transparents et Respectés',
+        reason5Desc: 'La livraison à temps est notre premier principe. Nous gérons rigoureusement le calendrier de construction pour assurer une installation dans les délais convenus, et nos clients peuvent suivre l\'avancement du projet à tout moment.',
 
-        reason6Title: '6. Engagement envers la durabilité',
-        reason6Desc: 'Naturra Extal s\'engage en faveur d\'une agriculture durable. Nous éduquons les agriculteurs sur les pratiques de culture écologiques et équitables, assurant la pérennité du secteur agricole pour les générations futures.',
+        reason6Title: '6. Engagement envers la Satisfaction Client',
+        reason6Desc: 'Bengkel Las Mandiri s\'engage à fournir un service après-vente de qualité. Nous offrons une garantie de qualité sur tous nos travaux, assurant à chaque client une tranquillité d\'esprit pour les années à venir.',
 
         // ─────────────────────────── Product Categories ───────────────────────────
-        categories: 'Catégories de Produits',
-        categoriesDesc: 'Récoltes indonésiennes de premier ordre pour le marché mondial',
+        categories: 'Catégories de Services',
+        categoriesDesc: 'Solutions de construction métallique de premier ordre pour le marché de Bekasi',
 
         // ─────────────────────────── Pricing Guide ───────────────────────────
-        pricingTitle: 'Guide des Prix et Logistique',
-        pricingSubtitle: 'Transparence dans chaque transaction internationale',
+        pricingTitle: 'Guide des Prix et Services',
+        pricingSubtitle: 'Transparence dans chaque transaction de projet',
 
-        pricingNote1: '• Les prix des produits suivent l\'indice du marché mondial (bourse de Londres/New York) et sont sujets à changement.',
-        pricingNote2: '• Nos cotations sont FOB Jakarta ou CIF selon la demande.',
-        pricingNote3: '• La quantité minimale de commande (MOQ) varie de 500 kg au conteneur complet selon le type de produit.',
-        pricingNote4: '• L\'inspection SGS ou Sucofindo peut être effectuée sur demande, les frais étant à la charge de l\'acheteur.',
-        pricingNote5: '• Système de paiement : L/C At Sight ou T/T selon l\'accord contractuel.',
-        pricingNote6: '• Remises sur volume : Disponibles pour les contrats annuels ou les commandes de plus de 20 tonnes.',
+        pricingNote1: '• Les devis sont généralement basés sur le type de matériau, l\'épaisseur et la surface/volume total du projet.',
+        pricingNote2: '• Nos prix incluent la mesure gratuite sur site et la consultation de conception initiale pour la région de Bekasi.',
+        pricingNote3: '• Un acompte (DP) est généralement versé après accord, le solde étant réglé après l\'installation et l\'inspection finale.',
+        pricingNote4: '• Nous pouvons proposer différents grades de peinture antirouille et de finitions selon les demandes des clients.',
+        pricingNote5: '• Modes de paiement : Espèces ou virement bancaire, tous les paiements font l\'objet d\'un reçu officiel.',
+        pricingNote6: '• Remises sur volume : Disponibles pour les grands projets de développement ou la construction centralisée de plusieurs unités.',
 
         // ─────────────────────────── Material Excellence ───────────────────────────
-        materialTitle: 'Normes de Qualité et Certifications',
-        materialSubtitle: 'Assurer l\'excellence du produit originaire d\'Indonésie',
+        materialTitle: 'Normes de Fabrication et Matériaux',
+        materialSubtitle: 'Assurer que chaque point de soudure résiste à l\'épreuve du temps',
 
-        material1Title: 'Fèves et Cacao en Poudre',
-        material1Desc: 'Nos fèves de cacao proviennent de Sulawesi, réputées pour leur arôme puissant. Nous les transformons en cacao en poudre (pur et sucré) selon les normes HS 1805/1806 pour les industries des boissons et de la confiserie.',
+        material1Title: 'Systèmes d\'Auvents',
+        material1Desc: 'Proposant divers choix de toitures comme l\'Alderon UPVC, le verre trempé ou le polycarbonate. Combinés à des cadres en tubes galvanisés robustes, garantissant isolation thermique, acoustique et excellente résistance aux intempéries.',
 
-        material2Title: 'Clou de Girofle de Grade A',
-        material2Desc: 'Clous de girofle sélectionnés de Maluku et Sulawesi. Séchés au soleil et triés à la main pour garantir une humidité inférieure à 12 % et une teneur élevée en huile d\'eugénol. Idéal pour les industries pharmaceutiques et alimentaires.',
+        material2Title: 'Clôtures, Portails et Balcons',
+        material2Desc: 'Sélection d\'acier SNI de haute qualité. Grâce à un meulage professionnel et un processus de peinture anticorrosion en trois couches, nous garantissons que les clôtures et portails restent robustes et beaux même en milieu humide.',
 
-        material3Title: 'Blocs de Cocopeat',
-        material3Desc: 'Support de culture organique traité à partir de bourre de coco de haute qualité à Java Est. Disponible en blocs de 5 kg lavés pour réduire l\'électroconductivité (EC), idéaux pour la croissance des plantes.',
+        material3Title: 'Grilles et Garde-corps',
+        material3Desc: 'Offrant divers designs en acier inoxydable ou en fer forgé. Qu\'il s\'agisse d\'un style minimaliste moderne ou de motifs classiques, nous réalisons l\'équilibre entre haute sécurité et décoration intérieure.',
 
-        material4Title: 'Documentation et Conformité',
-        material4Desc: 'Nous fournissons des documents d\'exportation complets : Connaissement, Facture, Certificat d\'Origine (COO) et Certificat Phytosanitaire pour garantir un dédouanement sans complications.',
+        material4Title: 'Charpentes Métalliques Industrielles',
+        material4Desc: 'Nous avons la capacité de manipuler des structures lourdes comme les aciers WF et les poutres en H. Nous fournissons des services de soudure structurelle et d\'installation professionnelle pour les usines et entrepôts.',
 
         // ─────────────────────────── Contact & Order ───────────────────────────
-        contactTitle: 'Contactez-nous et Commencez votre Partenariat',
-        contactSubtitle: 'Notre équipe d\'experts est prête à répondre à vos demandes mondiales',
+        contactTitle: 'Contactez-nous et Démarrez votre Projet',
+        contactSubtitle: 'Notre équipe d\'experts est prête à répondre à vos demandes',
 
-        contactInfo: 'Pour des cotations, spécifications ou visites des installations :',
+        contactInfo: 'Pour des devis, des consultations de design ou des mesures sur site :',
 
-        whatsappTitle: 'WhatsApp et Appel Direct',
-        whatsappNumber: '+6289513957752',
-        whatsappHours: 'Lundi - Samedi : 08.00 - 17.00 WIB (Heure Jakarta)',
-        whatsappResponse: 'Temps de réponse : 1-3 heures (Support mondial)',
+        whatsappTitle: 'Consultation WhatsApp',
+        whatsappNumber: '+6285212078467',
+        whatsappHours: 'Lundi - Dimanche : 08.00 - 21.00 WIB (Heure Jakarta)',
+        whatsappResponse: 'Temps de réponse : Réponse immédiate (M. Maman Toha)',
 
         emailTitle: 'Email Officiel',
-        emailGeneral: 'hello@naturraextal.com',
-        emailSales: 'sales@naturraextal.com',
-        emailNote: 'Pour les devis formels, contrats et partenariats',
+        emailGeneral: 'info@lasbekasi.com',
+        emailSales: 'sales@lasbekasi.com',
+        emailNote: 'Pour les contrats officiels et les collaborations B2B',
 
-        addressTitle: 'Bureau des Opérations et Installation',
-        addressFull1: 'Centre d\'Exportation Naturra Extal',
+        addressTitle: 'Adresse de l\'Atelier',
+        addressFull1: 'Mandiri Steel (Bengkel Las Mandiri)',
         addressFull2: 'Jl. Raya Setu Cibitung, Telajung',
         addressFull3: 'Cikarang Barat, Bekasi',
         addressFull4: 'West Java 17320, Indonesia',
-        addressNote: 'Emplacement stratégique près du port de Tanjung Priok, Jakarta',
+        addressNote: 'Venez nous rendre visite pour discuter de votre projet',
 
-        visitTitle: 'Visite des Installations',
-        visitDesc: 'Nos installations de tri sont ouvertes aux partenaires. Veuillez contacter notre équipe au moins 3 jours avant votre visite.',
+        visitTitle: 'Service de Mesure sur Site',
+        visitDesc: 'Nous offrons un service de mesure gratuit pour Bekasi et ses environs. Contactez-nous pour prendre rendez-vous.',
 
-        websiteTitle: 'Portail Numérique',
-        website: 'www.naturraextal.com',
-        websiteNote: 'Consultez les spécifications techniques, les codes HS et les prix mis à jour',
+        websiteTitle: 'Portail en Ligne',
+        website: 'www.lasbekasi.com',
+        websiteNote: 'Consultez nos dernières réalisations et références de prix en ligne',
 
-        exportExp: '• Destinations d\'exportation : Asie, Europe, Moyen-Orient, États-Unis',
-        workshopSize: '• Capacité du Centre : +100 tonnes mensuelles de capacité de traitement',
-        projectDone: '• Historique : Confiance depuis 1999',
+        exportExp: '• Zone de service : Bekasi, Cikarang, Tambun, Cibitung et environs',
+        workshopSize: '• Capacité : Équipe professionnelle capable de gérer plusieurs projets de moyenne et grande envergure simultanément',
+        projectDone: '• Historique : Confiance des clients de Bekasi depuis 1999',
 
         // ─────────────────────────── Status & Labels ───────────────────────────
         viewOnline: 'Voir en ligne →',
-        productsAvailable: 'Produits Disponibles',
+        productsAvailable: 'Services Disponibles',
         continued: '(suite)',
 
         // ─────────────────────────── Currency ───────────────────────────
-        currency: 'USD',
-        currencySymbol: '$',
+        currency: 'IDR',
+        currencySymbol: 'Rp',
         priceFormat: 'À partir de',
 
         // ─────────────────────────── Call to Actions ───────────────────────────
-        cta1: '• Contactez-nous par WhatsApp pour un devis immédiat',
-        cta2: '• Visitez nos installations à Bekasi pour des audits de qualité',
-        cta3: '• Explorez les spécifications sur www.naturraextal.com',
+        cta1: '• Contactez WhatsApp pour une estimation gratuite',
+        cta2: '• Réservez un service de mesure sur site gratuit',
+        cta3: '• Consultez notre dernier portfolio sur www.lasbekasi.com',
 };
-

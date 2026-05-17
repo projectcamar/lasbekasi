@@ -34,276 +34,276 @@ interface PartnershipContent {
 
 const TRANSLATIONS: Record<LanguageCode, PartnershipContent> = {
   en: {
-    pageTitle: "Global Partnership - Naturra Extal",
-    metaDescription: "Learn how to partner with Naturra Extal for bulk agricultural commodity sourcing. B2B partnerships for cocoa, cloves and cocopeat.",
-    metaKeywords: "commodity partnership, cocoa supplier, clove partnership, cocopeat b2b",
-    heroTitle: "Global B2B Partnership",
-    mainTitle: "A Reliable Sourcing Partner",
+    pageTitle: "B2B Partnership - Bengkel Las Mandiri Bekasi",
+    metaDescription: "Partner with Bengkel Las Mandiri for your construction and interior projects. Reliable welding services for developers and contractors in Bekasi.",
+    metaKeywords: "welding partnership bekasi, b2b welding services, construction partner bekasi, interior design iron work",
+    heroTitle: "B2B Construction Partnership",
+    mainTitle: "Your Reliable Welding Sub-Contractor",
     mainParagraphs: [
-      "Whether you are a food manufacturer, international wholesaler, or distributor, you need a trusted partner in origin. Naturra Extal ensures your supply chain remains uninterrupted and high-quality.",
-      "We understand international trade involves strict compliance, precise specifications, and timely deliveries. We accommodate these needs seamlessly."
+      "Whether you are a property developer, building contractor, or interior designer, you need a trusted welding partner. Bengkel Las Mandiri ensures your project's iron and steel works are delivered with high precision and quality.",
+      "We understand that commercial projects involve strict timelines, specific design compliance, and durable material standards. We accommodate these B2B needs seamlessly."
     ],
-    experienceTitle: "Export Expertise",
+    experienceTitle: "Professional Expertise",
     experienceParagraphs: [
-      "Our team manages exports across continents. We handle documentation, quality control, and logistics to land products at your destination port.",
-      "From sample evaluation to bulk container loading, we maintain complete transparency throughout."
+      "Our team has over 25 years of experience in the Bekasi welding industry. We handle structural calculations, material selection, and site safety standards for professional projects.",
+      "From housing complexes to factory renovations, we maintain complete transparency and professionalism throughout the collaboration."
     ],
-    collaborationTitle: "Direct from the Source",
-    collaborationSubtitle: "B2B Commodity Supplier",
+    collaborationTitle: "Direct from the Workshop",
+    collaborationSubtitle: "Welding Service Partner",
     collaborationParagraphs: [
-      "By partnering with us, you cut out unnecessary middlemen and work directly with a company rooted in Indonesia's finest farming regions.",
-      "Our team is ready to discuss your volume requirements, target specifications, and preferred incoterms (FOB, CIF).",
-      "You'll receive accurate quotes, genuine product specs, and consistent quality on every order."
+      "By partnering with us, you work directly with a workshop that has a proven track record in Bekasi. No middleman, just direct professional service.",
+      "Our team is ready to discuss your project volume, technical drawings, and specialized finishing requirements.",
+      "You'll receive competitive B2B pricing, genuine material specifications, and consistent craftsmanship on every unit."
     ],
-    flexibilityTitle: "Flexible Contracts",
+    flexibilityTitle: "Scalable Contracts",
     flexibilityParagraphs: [
-      "We offer flexible MOQs depending on the product, from partial container shipments to regular monthly contracts.",
-      "Choose the packaging method that best fits your warehouse and production lines."
+      "We offer flexible collaboration models, from individual house units to large-scale housing projects and industrial warehouse structures.",
+      "Choose the material grades and finishing methods that best fit your project budget and quality targets."
     ],
-    scaleTitle: "Commitment to Your Scale",
-    scaleDescription: "As your volume requirements grow, our farmer networks and processing capabilities will rise to meet your demand.",
-    scaleQuestion: "Ready to secure your supply chain?",
-    ctaTitle: "Discuss Your Next Contract",
-    ctaDescription: "Tell us about your commodity needs. Send us your specifications to start a long-term partnership.",
-    ctaButton: "Contact Our Trade Team"
+    scaleTitle: "Commitment to Your Project Scale",
+    scaleDescription: "As your project volume grows, our workforce and fabrication capabilities will rise to meet your production deadline.",
+    scaleQuestion: "Ready to secure your construction supply chain?",
+    ctaTitle: "Discuss Your Next Project",
+    ctaDescription: "Tell us about your project requirements. Send us your technical drawings to start a professional partnership.",
+    ctaButton: "Contact Our B2B Team"
   },
   id: {
-    pageTitle: "Kemitraan Global - Naturra Extal",
-    metaDescription: "Pelajari cara bermitra dengan Naturra Extal untuk pengadaan komoditas pertanian grosir.",
-    metaKeywords: "kemitraan komoditas, pemasok kakao, kemitraan cengkeh",
-    heroTitle: "Kemitraan Global B2B",
-    mainTitle: "Mitra Pengadaan yang Handal",
+    pageTitle: "Kemitraan B2B - Bengkel Las Mandiri Bekasi",
+    metaDescription: "Bermitra dengan Bengkel Las Mandiri untuk proyek konstruksi dan interior Anda. Jasa las terpercaya untuk pengembang dan kontraktor di Bekasi.",
+    metaKeywords: "kemitraan bengkel las bekasi, jasa las b2b, mitra konstruksi bekasi, vendor las perumahan",
+    heroTitle: "Kemitraan Konstruksi B2B",
+    mainTitle: "Sub-Kontraktor Las yang Handal",
     mainParagraphs: [
-      "Baik Anda pabrikan makanan, pedagang grosir, atau distributor — Naturra Extal hadir untuk memastikan rantai pasok Anda konsisten dan berkualitas tinggi.",
-      "Kami memahami perdagangan internasional: kepatuhan ketat, spesifikasi tepat, dan pengiriman tepat waktu."
+      "Baik Anda pengembang properti, kontraktor bangunan, atau desainer interior — Bengkel Las Mandiri hadir untuk memastikan pekerjaan besi dan baja proyek Anda berkualitas tinggi dan tepat waktu.",
+      "Kami memahami kebutuhan proyek komersial: tenggat waktu ketat, kepatuhan desain, dan standar material yang tahan lama."
     ],
-    experienceTitle: "Keahlian Ekspor",
+    experienceTitle: "Keahlian Profesional",
     experienceParagraphs: [
-      "Tim kami berpengalaman mengelola ekspor lintas benua. Kami menguasai dokumentasi, kontrol kualitas, dan logistik.",
-      "Dari evaluasi sampel hingga pemuatan kontainer penuh, kami menjaga transparansi total."
+      "Tim kami memiliki pengalaman lebih dari 25 tahun di industri las Bekasi. Kami menangani perhitungan struktur, pemilihan material SNI, dan standar keamanan kerja.",
+      "Dari proyek perumahan hingga renovasi pabrik, kami menjaga transparansi total dan profesionalisme dalam setiap kolaborasi."
     ],
-    collaborationTitle: "Langsung dari Sumbernya",
-    collaborationSubtitle: "Pemasok Komoditas B2B",
+    collaborationTitle: "Langsung dari Workshop",
+    collaborationSubtitle: "Mitra Jasa Pengelasan",
     collaborationParagraphs: [
-      "Bermitra dengan kami berarti Anda memotong perantara dan bekerja langsung dengan perusahaan yang berakar di wilayah pertanian terbaik Indonesia.",
-      "Tim kami siap mendiskusikan kebutuhan volume, spesifikasi target, dan incoterm pilihan Anda (FOB, CIF).",
-      "Anda akan mendapatkan penawaran akurat, spesifikasi produk nyata, dan kualitas konsisten di setiap pesanan."
+      "Bermitra dengan kami berarti Anda bekerja langsung dengan workshop yang memiliki rekam jejak teruji di Bekasi. Tanpa perantara, hanya layanan profesional langsung.",
+      "Tim kami siap mendiskusikan volume proyek, gambar teknik (blueprints), dan kebutuhan finishing khusus Anda.",
+      "Anda akan mendapatkan harga B2B yang kompetitif, spesifikasi material nyata, dan kualitas pengerjaan konsisten di setiap unit."
     ],
-    flexibilityTitle: "Kontrak Fleksibel",
+    flexibilityTitle: "Kontrak Skalabel",
     flexibilityParagraphs: [
-      "Kami menawarkan MOQ fleksibel tergantung produk, dari pengiriman sebagian kontainer hingga kontrak bulanan reguler.",
-      "Pilih metode pengemasan yang paling sesuai dengan gudang dan lini produksi Anda."
+      "Kami menawarkan model kolaborasi fleksibel, mulai dari pengerjaan unit rumah tunggal hingga proyek perumahan skala besar dan struktur gudang industri.",
+      "Pilih grade material dan metode finishing yang paling sesuai dengan anggaran proyek dan target kualitas Anda."
     ],
-    scaleTitle: "Berkomitmen untuk Skala Bisnis Anda",
-    scaleDescription: "Seiring bertumbuhnya kebutuhan volume Anda, jaringan petani dan kapasitas pemrosesan kami akan meningkat untuk memenuhi permintaan.",
-    scaleQuestion: "Siap mengamankan rantai pasok Anda?",
-    ctaTitle: "Diskusikan Kontrak Anda",
-    ctaDescription: "Ceritakan kebutuhan komoditas Anda. Kirimkan spesifikasi untuk memulai kemitraan jangka panjang.",
-    ctaButton: "Hubungi Tim Perdagangan Kami"
+    scaleTitle: "Berkomitmen untuk Skala Proyek Anda",
+    scaleDescription: "Seiring bertumbuhnya kebutuhan volume proyek Anda, tenaga kerja dan kapasitas fabrikasi kami akan meningkat untuk memenuhi tenggat waktu produksi.",
+    scaleQuestion: "Siap mengamankan rantai pasok konstruksi Anda?",
+    ctaTitle: "Diskusikan Proyek Anda",
+    ctaDescription: "Ceritakan kebutuhan proyek Anda. Kirimkan gambar teknik untuk memulai kemitraan profesional.",
+    ctaButton: "Hubungi Tim B2B Kami"
   },
   ar: {
-    pageTitle: "الشراكة العالمية - Naturra Extal",
-    metaDescription: "تعرف على كيفية الشراكة مع Naturra Extal لتوريد السلع الزراعية بالجملة.",
-    metaKeywords: "شراكة سلع، مورد كاكاو، شراكة قرنفل",
-    heroTitle: "شراكة B2B العالمية",
-    mainTitle: "شريك توريد موثوق",
+    pageTitle: "شراكة B2B - مانديري ستيل بيكاسي",
+    metaDescription: "شارك مانديري ستيل في مشاريع البناء والتصميم الداخلي الخاصة بك. خدمات لحام موثوقة للمطورين والمقاولين في بيكاسي.",
+    metaKeywords: "شراكة لحام بيكاسي، خدمات لحام B2B، شريك بناء بيكاسي، أعمال حديد التصميم الداخلي",
+    heroTitle: "شراكة بناء B2B",
+    mainTitle: "مقاول اللحام الباطن الموثوق به",
     mainParagraphs: [
-      "سواء كنت مصنعاً غذائياً أو تاجر جملة دولياً أو موزعاً — Naturra Extal هنا لضمان استمرارية سلسلة التوريد الخاصة بك.",
-      "نحن نفهم التجارة الدولية: الامتثال الصارم والمواصفات الدقيقة والتسليم في الوقت المحدد."
+      "سواء كنت مطورًا عقاريًا أو مقاول بناء أو مصمم ديكور - فإن مانديري ستيل تضمن تنفيذ أعمال الحديد والصلب في مشروعك بدقة وجودة عالية.",
+      "نحن ندرك أن المشاريع التجارية تتطلب جداول زمنية صارمة، وامتثالاً لتصاميم محددة، ومعايير مواد متينة. نحن نلبي احتياجات B2B هذه بسلاسة."
     ],
-    experienceTitle: "الخبرة في التصدير",
+    experienceTitle: "الخبرة المهنية",
     experienceParagraphs: [
-      "فريقنا ذو خبرة في إدارة الصادرات عبر القارات، مع معالجة الوثائق والجودة والخدمات اللوجستية.",
-      "من تقييم العينات إلى تحميل الحاويات الكاملة، نحافظ على الشفافية التامة."
+      "يتمتع فريقنا بخبرة تزيد عن 25 عامًا في صناعة اللحام في بيكاسي. نحن نتعامل مع الحسابات الإنشائية واختيار المواد ومعايير السلامة في الموقع للمشاريع المهنية.",
+      "من المجمعات السكنية إلى تجديدات المصانع، نحافظ على الشفافية والاحترافية الكاملة طوال فترة التعاون."
     ],
-    collaborationTitle: "مباشرة من المصدر",
-    collaborationSubtitle: "مورد سلع B2B",
+    collaborationTitle: "مباشرة من الورشة",
+    collaborationSubtitle: "شريك خدمة اللحام",
     collaborationParagraphs: [
-      "من خلال الشراكة معنا، تتخطى الوسطاء غير الضروريين وتعمل مباشرة مع شركة متجذرة في أفضل مناطق الزراعة الإندونيسية.",
-      "فريقنا مستعد لمناقشة متطلبات الحجم والمواصفات المستهدفة وشروط الشحن المفضلة (FOB، CIF).",
-      "ستحصل على عروض أسعار دقيقة ومواصفات منتجات حقيقية وجودة متسقة في كل طلب."
+      "من خلال الشراكة معنا، أنت تعمل مباشرة مع ورشة عمل لديها سجل حافل في بيكاسي. لا وسيط، فقط خدمة مهنية مباشرة.",
+      "فريقنا جاهز لمناقشة حجم مشروعك والرسومات الفنية ومتطلبات التشطيب المتخصصة.",
+      "ستحصل على أسعار B2B تنافسية، ومواصفات مواد حقيقية، وحرفية متسقة في كل وحدة."
     ],
-    flexibilityTitle: "عقود مرنة",
+    flexibilityTitle: "عقود قابلة للتطوير",
     flexibilityParagraphs: [
-      "نقدم حدوداً دنيا للطلب مرنة، من شحنات جزئية إلى عقود شهرية منتظمة.",
-      "اختر طريقة التعبئة الأنسب لمستودعاتك وخطوط إنتاجك."
+      "نحن نقدم نماذج تعاون مرنة، من الوحدات السكنية الفردية إلى المشاريع السكنية واسعة النطاق وهياكل المستودعات الصناعية.",
+      "اختر درجات المواد وطرق التشطيب التي تناسب ميزانية مشروعك وأهداف الجودة."
     ],
-    scaleTitle: "التزام بحجم أعمالك",
-    scaleDescription: "مع نمو احتياجاتك من الحجم، ستنمو شبكات مزارعينا وقدراتنا لتلبية طلبك.",
-    scaleQuestion: "مستعد لتأمين سلسلة التوريد الخاصة بك؟",
-    ctaTitle: "ناقش عقدك القادم",
-    ctaDescription: "أخبرنا باحتياجاتك من السلع. أرسل لنا مواصفاتك لبدء شراكة طويلة الأمد.",
-    ctaButton: "اتصل بفريق التجارة لدينا"
+    scaleTitle: "الالتزام بحجم مشروعك",
+    scaleDescription: "مع نمو حجم مشروعك، ستزداد قوتنا العاملة وقدراتنا التصنيعية لتلبية الموعد النهائي للإنتاج.",
+    scaleQuestion: "هل أنت مستعد لتأمين سلسلة توريد البناء الخاصة بك؟",
+    ctaTitle: "ناقش مشروعك القادم",
+    ctaDescription: "أخبرنا عن متطلبات مشروعك. أرسل لنا رسوماتك الفنية لبدء شراكة مهنية.",
+    ctaButton: "اتصل بفريق B2B الخاص بنا"
   },
   zh: {
-    pageTitle: "全球合作伙伴关系 - Naturra Extal",
-    metaDescription: "了解如何与Naturra Extal合作进行大宗农业商品采购。B2B合作伙伴关系。",
-    metaKeywords: "大宗商品合作, 可可供应商, 丁香合作伙伴",
-    heroTitle: "全球B2B合作",
-    mainTitle: "可靠的采购伙伴",
+    pageTitle: "B2B 合作伙伴 - 勿加泗 Mandiri Steel",
+    metaDescription: "与 Mandiri Steel 合作开展您的建筑和室内设计项目。为勿加泗的开发商和承包商提供可靠的焊接服务。",
+    metaKeywords: "勿加泗焊接合作伙伴, B2B 焊接服务, 勿加泗建筑合作伙伴, 室内设计铁艺",
+    heroTitle: "B2B 建筑合作伙伴",
+    mainTitle: "您值得信赖的焊接分包商",
     mainParagraphs: [
-      "无论您是食品制造商、国际批发商还是分销商，Naturra Extal确保您的供应链稳定且高质量。",
-      "我们了解国际贸易：严格合规、精确规格和及时交货。"
+      "无论您是房地产开发商、建筑承包商还是室内设计师，您都需要一个值得信赖的焊接合作伙伴。Mandiri Steel 确保您的项目的钢铁工程以高精度和高质量交付。",
+      "我们了解商业项目涉及严格的时间表、特定的设计合规性和耐用的材料标准。我们无缝地满足这些 B2B 需求。"
     ],
-    experienceTitle: "出口专业知识",
+    experienceTitle: "专业经验",
     experienceParagraphs: [
-      "我们的团队拥有跨大洲出口管理经验，处理文件、质量控制和物流。",
-      "从样品评估到整柜装载，我们全程保持完全透明。"
+      "我们的团队在勿加泗焊接行业拥有超过 25 年的经验。我们处理专业项目的结构计算、材料选择和现场安全标准。",
+      "从住宅小区到工厂翻新，我们在整个合作过程中保持完全的透明度和专业精神。"
     ],
-    collaborationTitle: "直接来自产地",
-    collaborationSubtitle: "B2B大宗商品供应商",
+    collaborationTitle: "工厂直供",
+    collaborationSubtitle: "焊接服务合作伙伴",
     collaborationParagraphs: [
-      "与我们合作，您可以消除不必要的中间商，直接与植根于印度尼西亚优质农业地区的公司合作。",
-      "我们的团队随时准备讨论您的数量需求、目标规格和首选贸易条款（FOB、CIF）。",
-      "您将在每次订单中获得准确报价、真实产品规格和一致质量。"
+      "通过与我们合作，您直接与在勿加泗拥有良好记录的工厂合作。没有中间商，只有直接的专业服务。",
+      "我们的团队已准备好讨论您的项目规模、技术图纸和特殊的饰面要求。",
+      "您将在每个单元上获得具有竞争力的 B2B 定价、真实的材料规格和一致的工艺。"
     ],
-    flexibilityTitle: "灵活合同",
+    flexibilityTitle: "可扩展的合同",
     flexibilityParagraphs: [
-      "我们根据产品提供灵活的最低起订量，从部分集装箱货物到定期月度合同。",
-      "选择最适合您仓库和生产线的包装方式。"
+      "我们提供灵活的合作模式，从单个住宅单元到大型住宅项目和工业仓库结构。",
+      "选择最适合您的项目预算和质量目标的材料等级和饰面方法。"
     ],
-    scaleTitle: "与您的规模同行",
-    scaleDescription: "随着您的数量需求增长，我们的农民网络和加工能力将随之提升以满足您的需求。",
-    scaleQuestion: "准备好保障您的供应链了吗？",
-    ctaTitle: "讨论您的下一份合同",
-    ctaDescription: "告诉我们您的商品需求。向我们发送您的规格以开始长期合作关系。",
-    ctaButton: "联系我们的贸易团队"
+    scaleTitle: "致力于您的项目规模",
+    scaleDescription: "随着项目规模的增长，我们的劳动力和制造能力将不断提升，以满足您的生产期限。",
+    scaleQuestion: "准备好确保您的建筑供应链了吗？",
+    ctaTitle: "讨论您的下一个项目",
+    ctaDescription: "告诉我们您的项目需求。向我们发送您的技术图纸以开始专业的合作伙伴关系。",
+    ctaButton: "联系我们的 B2B 团队"
   },
   ja: {
-    pageTitle: "グローバルパートナーシップ - Naturra Extal",
-    metaDescription: "農産物の大量調達についてNaturra Extalと提携する方法をご確認ください。",
-    metaKeywords: "商品提携, カカオサプライヤー, クローブパートナーシップ",
-    heroTitle: "グローバルB2B提携",
-    mainTitle: "信頼できる調達パートナー",
+    pageTitle: "B2B パートナーシップ - ブカシ Mandiri Steel",
+    metaDescription: "建築およびインテリアプロジェクトで Mandiri Steel と提携。ブカシのデベロッパーや請負業者向けの信頼できる溶接サービス。",
+    metaKeywords: "ブカシ 溶接パートナーシップ, B2B 溶接サービス, ブカシ 建設パートナー, インテリアデザイン 鉄工",
+    heroTitle: "B2B 建設パートナーシップ",
+    mainTitle: "信頼できる溶接サブコンストラクター",
     mainParagraphs: [
-      "食品メーカー、国際卸売業者、または流通業者など、Naturra Extalがサプライチェーンの安定と品質を保証します。",
-      "国際取引における厳格なコンプライアンス、正確な仕様、迅速な納品に対応します。"
+      "不動産デベロッパー、建築請負業者、インテリアデザイナーを問わず、信頼できる溶接パートナーが必要です。Mandiri Steel は、お客様のプロジェクトの鉄鋼工事が高精度かつ高品質で納品されることを保証します。",
+      "商業プロジェクトには厳格なタイムライン、特定の設計コンプライアンス、耐久性のある材料基準が伴うことを理解しています。これらの B2B ニーズにシームレスに対応します。"
     ],
-    experienceTitle: "輸出の専門知識",
+    experienceTitle: "プロフェッショナルな専門知識",
     experienceParagraphs: [
-      "大陸をまたいだ輸出管理の豊富な経験を持ち、書類、品質管理、物流を一括して対応します。",
-      "サンプル評価からフルコンテナ積載まで、完全な透明性を維持します。"
+      "当社のチームは、ブカシの溶接業界で 25 年以上の経験があります。プロのプロジェクト向けに、構造計算、材料選定、現場の安全基準を扱います。",
+      "住宅団地から工場の改修まで、コラボレーション全体を通じて完全な透明性とプロフェッショナリズムを維持します。"
     ],
-    collaborationTitle: "産地直送",
-    collaborationSubtitle: "B2Bコモディティサプライヤー",
+    collaborationTitle: "ワークショップから直接",
+    collaborationSubtitle: "溶接サービスパートナー",
     collaborationParagraphs: [
-      "私たちとの提携により、不要な仲介業者を排除し、インドネシアの優良農業地域に根差した企業と直接取引できます。",
-      "量の要件、目標仕様、希望するインコタームス（FOB、CIF）についてご相談いただけます。",
-      "正確な見積もり、本物の製品仕様、一貫した品質をすべての注文でお届けします。"
+      "当社と提携することで、ブカシで実績のあるワークショップと直接連携できます。仲介業者は存在せず、直接的なプロフェッショナルサービスのみを提供します。",
+      "当社のチームは、プロジェクトのボリューム、技術図面、特別な仕上げの要件について話し合う準備ができています。",
+      "すべてのユニットで、競争力のある B2B 価格、本物の材料仕様、一貫した職人技を提供します。"
     ],
-    flexibilityTitle: "柔軟な契約",
+    flexibilityTitle: "スケーラブルな契約",
     flexibilityParagraphs: [
-      "製品に応じた柔軟な最低注文数量を提供し、部分コンテナ輸送から定期的な月次契約まで対応します。",
-      "倉庫や生産ラインに最適な包装方法をお選びいただけます。"
+      "個別の住宅ユニットから大規模な住宅プロジェクト、産業用倉庫構造まで、柔軟なコラボレーションモデルを提供します。",
+      "プロジェクトの予算と品質目標に最も適した材料グレードと仕上げ方法を選択してください。"
     ],
-    scaleTitle: "御社の規模に応じたコミットメント",
-    scaleDescription: "数量要件が増加するにつれ、農家ネットワークと加工能力がご要望に応えます。",
-    scaleQuestion: "サプライチェーンを確保する準備はできていますか？",
-    ctaTitle: "次の契約について相談する",
-    ctaDescription: "コモディティのニーズをお知らせください。仕様をご送付いただき、長期提携を開始しましょう。",
-    ctaButton: "貿易チームに連絡する"
+    scaleTitle: "プロジェクト規模へのコミットメント",
+    scaleDescription: "プロジェクトのボリュームが増えるにつれて、当社の労働力と製作能力も向上し、生産期限に間に合わせます。",
+    scaleQuestion: "建設サプライチェーンを確保する準備はできていますか？",
+    ctaTitle: "次のプロジェクトについて話し合う",
+    ctaDescription: "プロジェクトの要件について教えてください。プロフェッショナルなパートナーシップを開始するために、技術図面をお送りください。",
+    ctaButton: "B2B チームに連絡する"
   },
   es: {
-    pageTitle: "Asociación Global - Naturra Extal",
-    metaDescription: "Conozca cómo asociarse con Naturra Extal para el abastecimiento masivo de materias primas agrícolas.",
-    metaKeywords: "asociación de materias primas, proveedor de cacao, asociación de clavo",
-    heroTitle: "Asociación Global B2B",
-    mainTitle: "Un Socio de Abastecimiento Confiable",
+    pageTitle: "Asociación B2B - Mandiri Steel Bekasi",
+    metaDescription: "Socio de Mandiri Steel para sus proyectos de construcción e interiorismo. Servicios de soldadura confiables para desarrolladores y contratistas en Bekasi.",
+    metaKeywords: "asociación de soldadura bekasi, servicios de soldadura b2b, socio de construcción bekasi, herrería de diseño de interiores",
+    heroTitle: "Asociación de Construcción B2B",
+    mainTitle: "Su Subcontratista de Soldadura Confiable",
     mainParagraphs: [
-      "Ya sea fabricante de alimentos, mayorista internacional o distribuidor, Naturra Extal garantiza que su cadena de suministro sea ininterrumpida y de alta calidad.",
-      "Entendemos el comercio internacional: cumplimiento estricto, especificaciones precisas y entregas puntuales."
+      "Ya sea que sea un desarrollador inmobiliario, un contratista de construcción o un diseñador de interiores, necesita un socio de soldadura de confianza. Mandiri Steel garantiza que los trabajos de hierro y acero de su proyecto se entreguen con alta precisión y calidad.",
+      "Entendemos que los proyectos comerciales implican cronogramas estrictos, cumplimiento de diseños específicos y estándares de materiales duraderos. Nos adaptamos a estas necesidades B2B a la perfección."
     ],
-    experienceTitle: "Experiencia en Exportación",
+    experienceTitle: "Experiencia Profesional",
     experienceParagraphs: [
-      "Nuestro equipo gestiona exportaciones en múltiples continentes, con documentación, control de calidad y logística.",
-      "Desde la evaluación de muestras hasta la carga completa de contenedores, mantenemos total transparencia."
+      "Nuestro equipo tiene más de 25 años de experiencia en la industria de la soldadura en Bekasi. Nos encargamos de los cálculos estructurales, la selección de materiales y los estándares de seguridad en el sitio para proyectos profesionales.",
+      "Desde complejos habitacionales hasta renovaciones de fábricas, mantenemos total transparencia y profesionalismo durante toda la colaboración."
     ],
-    collaborationTitle: "Directo del Origen",
-    collaborationSubtitle: "Proveedor de Materias Primas B2B",
+    collaborationTitle: "Directo del Taller",
+    collaborationSubtitle: "Socio de Servicios de Soldadura",
     collaborationParagraphs: [
-      "Al asociarse con nosotros, elimina intermediarios innecesarios y trabaja directamente con una empresa arraigada en las mejores regiones agrícolas de Indonesia.",
-      "Estamos listos para discutir sus requisitos de volumen, especificaciones objetivo e incoterms preferidos (FOB, CIF).",
-      "Recibirá cotizaciones precisas, especificaciones reales del producto y calidad consistente en cada pedido."
+      "Al asociarse con nosotros, trabaja directamente con un taller que tiene una trayectoria comprobada en Bekasi. Sin intermediarios, solo servicio profesional directo.",
+      "Nuestro equipo está listo para discutir el volumen de su proyecto, los dibujos técnicos y los requisitos de acabado especializados.",
+      "Recibirá precios competitivos para B2B, especificaciones de materiales genuinos y una mano de obra constante en cada unidad."
     ],
-    flexibilityTitle: "Contratos Flexibles",
+    flexibilityTitle: "Contratos Escalables",
     flexibilityParagraphs: [
-      "Ofrecemos MOQ flexibles según el producto, desde envíos parciales hasta contratos mensuales regulares.",
-      "Elija el método de empaque que mejor se adapte a su almacén y líneas de producción."
+      "Ofrecemos modelos de colaboración flexibles, desde unidades de casas individuales hasta proyectos de vivienda a gran escala y estructuras de almacenes industriales.",
+      "Elija los grados de material y los métodos de acabado que mejor se adapten al presupuesto y los objetivos de calidad de su proyecto."
     ],
-    scaleTitle: "Compromiso con su Escala",
-    scaleDescription: "A medida que sus necesidades de volumen crecen, nuestras redes de agricultores y capacidades de procesamiento crecerán para satisfacer su demanda.",
-    scaleQuestion: "¿Listo para asegurar su cadena de suministro?",
-    ctaTitle: "Discuta su Próximo Contrato",
-    ctaDescription: "Cuéntenos sobre sus necesidades de materias primas. Envíenos sus especificaciones para iniciar una asociación a largo plazo.",
-    ctaButton: "Contactar a Nuestro Equipo Comercial"
+    scaleTitle: "Compromiso con la Escala de su Proyecto",
+    scaleDescription: "A medida que crezca el volumen de su proyecto, nuestra fuerza laboral y nuestras capacidades de fabricación aumentarán para cumplir con su plazo de producción.",
+    scaleQuestion: "¿Listo para asegurar su cadena de suministro de construcción?",
+    ctaTitle: "Discuta su Próximo Proyecto",
+    ctaDescription: "Cuéntenos sobre los requisitos de su proyecto. Envíenos sus dibujos técnicos para iniciar una asociación profesional.",
+    ctaButton: "Contacte a Nuestro Equipo B2B"
   },
   fr: {
-    pageTitle: "Partenariat Mondial - Naturra Extal",
-    metaDescription: "Découvrez comment vous associer avec Naturra Extal pour l'approvisionnement en vrac de matières premières agricoles.",
-    metaKeywords: "partenariat matières premières, fournisseur cacao, partenariat girofle",
-    heroTitle: "Partenariat B2B Mondial",
-    mainTitle: "Un Partenaire d'Approvisionnement Fiable",
+    pageTitle: "Partenariat B2B - Mandiri Steel Bekasi",
+    metaDescription: "Associez-vous à Mandiri Steel pour vos projets de construction et d'intérieur. Services de soudure fiables pour les promoteurs et entrepreneurs à Bekasi.",
+    metaKeywords: "partenariat soudure bekasi, services soudure b2b, partenaire construction bekasi, ferronnerie design d'intérieur",
+    heroTitle: "Partenariat de Construction B2B",
+    mainTitle: "Votre Sous-traitant en Soudure Fiable",
     mainParagraphs: [
-      "Que vous soyez fabricant alimentaire, grossiste international ou distributeur, Naturra Extal garantit la continuité et la qualité de votre chaîne d'approvisionnement.",
-      "Nous comprenons le commerce international : conformité stricte, spécifications précises et livraisons ponctuelles."
+      "Que vous soyez un promoteur immobilier, un entrepreneur en bâtiment ou un architecte d'intérieur, vous avez besoin d'un partenaire en soudure de confiance. Mandiri Steel garantit que les travaux en fer et en acier de votre projet sont livrés avec une haute précision et qualité.",
+      "Nous comprenons que les projets commerciaux impliquent des délais stricts, une conformité à des conceptions spécifiques et des normes de matériaux durables. Nous répondons à ces besoins B2B de manière transparente."
     ],
-    experienceTitle: "Expertise à l'Export",
+    experienceTitle: "Expertise Professionnelle",
     experienceParagraphs: [
-      "Notre équipe gère des exportations sur plusieurs continents, avec une maîtrise de la documentation, du contrôle qualité et de la logistique.",
-      "De l'évaluation des échantillons au chargement complet des conteneurs, nous maintenons une totale transparence."
+      "Notre équipe possède plus de 25 ans d'expérience dans l'industrie de la soudure à Bekasi. Nous gérons les calculs structurels, la sélection des matériaux et les normes de sécurité sur site pour les projets professionnels.",
+      "Des complexes résidentiels aux rénovations d'usines, nous maintenons une transparence totale et un professionnalisme tout au long de la collaboration."
     ],
-    collaborationTitle: "Directement de la Source",
-    collaborationSubtitle: "Fournisseur de Matières Premières B2B",
+    collaborationTitle: "Directement de l'Atelier",
+    collaborationSubtitle: "Partenaire de Services de Soudure",
     collaborationParagraphs: [
-      "En vous associant avec nous, vous éliminez les intermédiaires inutiles et travaillez directement avec une entreprise ancrée dans les meilleures régions agricoles d'Indonésie.",
-      "Notre équipe est prête à discuter de vos besoins en volume, spécifications cibles et incoterms préférés (FOB, CIF).",
-      "Vous recevrez des devis précis, de vraies spécifications produit et une qualité constante pour chaque commande."
+      "En vous associant à nous, vous travaillez directement avec un atelier qui a fait ses preuves à Bekasi. Pas d'intermédiaire, juste un service professionnel direct.",
+      "Notre équipe est prête à discuter du volume de votre projet, de vos dessins techniques et de vos exigences de finition spécialisées.",
+      "Vous bénéficierez de tarifs B2B compétitifs, de spécifications de matériaux authentiques et d'un savoir-faire constant sur chaque unité."
     ],
-    flexibilityTitle: "Contrats Flexibles",
+    flexibilityTitle: "Contrats Évolutifs",
     flexibilityParagraphs: [
-      "Nous proposons des MOQ flexibles selon le produit, des envois partiels aux contrats mensuels réguliers.",
-      "Choisissez la méthode d'emballage la mieux adaptée à votre entrepôt et vos lignes de production."
+      "Nous proposons des modèles de collaboration flexibles, allant de l'unité d'habitation individuelle aux projets de logement à grande échelle et aux structures d'entrepôts industriels.",
+      "Choisissez les nuances de matériaux et les méthodes de finition qui correspondent le mieux au budget et aux objectifs de qualité de votre projet."
     ],
-    scaleTitle: "Engagement selon votre Échelle",
-    scaleDescription: "À mesure que vos besoins en volume augmentent, nos réseaux d'agriculteurs et capacités de traitement évolueront pour répondre à votre demande.",
-    scaleQuestion: "Prêt à sécuriser votre chaîne d'approvisionnement ?",
-    ctaTitle: "Discutez de votre Prochain Contrat",
-    ctaDescription: "Partagez vos besoins en matières premières. Envoyez-nous vos spécifications pour commencer un partenariat à long terme.",
-    ctaButton: "Contacter notre Équipe Commerciale"
+    scaleTitle: "Engagement envers l'Échelle de votre Projet",
+    scaleDescription: "À mesure que le volume de votre projet augmente, notre main-d'œuvre et nos capacités de fabrication s'adapteront pour respecter vos délais de production.",
+    scaleQuestion: "Prêt à sécuriser votre chaîne d'approvisionnement en construction ?",
+    ctaTitle: "Discutez de votre Prochain Projet",
+    ctaDescription: "Parlez-nous des exigences de votre projet. Envoyez-nous vos dessins techniques pour entamer un partenariat professionnel.",
+    ctaButton: "Contactez notre Équipe B2B"
   },
   ko: {
-    pageTitle: "글로벌 파트너십 - Naturra Extal",
-    metaDescription: "농산물 대량 조달을 위해 Naturra Extal과 파트너십을 맺는 방법을 알아보세요.",
-    metaKeywords: "상품 파트너십, 코코아 공급업체, 정향 파트너십",
-    heroTitle: "글로벌 B2B 파트너십",
-    mainTitle: "신뢰할 수 있는 조달 파트너",
+    pageTitle: "B2B 파트너십 - 브카시 Mandiri Steel",
+    metaDescription: "건설 및 인테리어 프로젝트를 위해 Mandiri Steel과 파트너십을 맺으세요. 브카시의 개발자 및 계약자를 위한 신뢰할 수 있는 용접 서비스.",
+    metaKeywords: "브카시 용접 파트너십, B2B 용접 서비스, 브카시 건설 파트너, 인테리어 디자인 철제 공사",
+    heroTitle: "B2B 건설 파트너십",
+    mainTitle: "신뢰할 수 있는 용접 하도급 업체",
     mainParagraphs: [
-      "식품 제조업체, 국제 도매업체, 또는 유통업체 등 누구든 — Naturra Extal이 공급망의 안정성과 품질을 보장합니다.",
-      "국제 무역의 엄격한 규정, 정확한 사양, 적시 납품까지 완벽히 대응합니다."
+      "귀하가 부동산 개발업자, 건축 계약자 또는 인테리어 디자이너이든 관계없이 신뢰할 수 있는 용접 파트너가 필요합니다. Mandiri Steel은 귀하의 프로젝트의 철강 공사가 높은 정밀도와 품질로 납품되도록 보장합니다.",
+      "상업 프로젝트에는 엄격한 일정, 특정 설계 준수 및 내구성 있는 자재 표준이 수반된다는 점을 잘 알고 있습니다. 이러한 B2B 요구 사항을 원활하게 수용합니다."
     ],
-    experienceTitle: "수출 전문성",
+    experienceTitle: "전문 지식",
     experienceParagraphs: [
-      "우리 팀은 여러 대륙에 걸친 수출 관리 경험을 보유하며 서류, 품질관리, 물류를 처리합니다.",
-      "샘플 평가부터 전체 컨테이너 적재까지 완전한 투명성을 유지합니다."
+      "당사 팀은 브카시 용접 산업에서 25년 이상의 경험을 보유하고 있습니다. 전문 프로젝트를 위한 구조 계산, 자재 선택 및 현장 안전 표준을 처리합니다.",
+      "주택 단지에서 공장 리모델링에 이르기까지 협업 과정 전반에 걸쳐 완전한 투명성과 전문성을 유지합니다."
     ],
-    collaborationTitle: "직거래 산지",
-    collaborationSubtitle: "B2B 원자재 공급업체",
+    collaborationTitle: "워크숍 직접 협력",
+    collaborationSubtitle: "용접 서비스 파트너",
     collaborationParagraphs: [
-      "당사와 파트너십을 구축하면 불필요한 중간상을 없애고 인도네시아 최고 농업 지역에 뿌리를 둔 회사와 직거래할 수 있습니다.",
-      "수량 요구사항, 목표 사양, 선호 인코텀즈(FOB, CIF)에 대해 논의할 준비가 되어 있습니다.",
-      "모든 주문에서 정확한 견적, 실제 제품 사양, 일관된 품질을 받게 됩니다."
+      "당사와 파트너십을 맺으면 브카시에서 검증된 실적을 보유한 워크숍과 직접 협력하게 됩니다. 중간 단계 없이 직접적인 전문 서비스를 제공합니다.",
+      "당사 팀은 귀하의 프로젝트 규모, 기술 도면 및 특수 마감 요구 사항에 대해 논의할 준비가 되어 있습니다.",
+      "모든 유닛에 대해 경쟁력 있는 B2B 가격, 정품 자재 사양 및 일관된 장인 정신을 제공받게 됩니다."
     ],
-    flexibilityTitle: "유연한 계약",
+    flexibilityTitle: "확장 가능한 계약",
     flexibilityParagraphs: [
-      "제품에 따라 유연한 최소주문수량을 제공하며, 부분 컨테이너 선적부터 정기 월별 계약까지 가능합니다.",
-      "귀사의 창고와 생산 라인에 가장 적합한 포장 방법을 선택하세요."
+      "개별 주택 유닛부터 대규모 주택 프로젝트 및 산업용 창고 구조에 이르기까지 유연한 협업 모델을 제공합니다.",
+      "프로젝트 예산과 품질 목표에 가장 적합한 자재 등급과 마감 방법을 선택하세요."
     ],
-    scaleTitle: "귀사 규모에 맞는 헌신",
-    scaleDescription: "수량 요구사항이 증가함에 따라 당사의 농민 네트워크와 가공 능력도 귀사의 수요를 충족하도록 성장합니다.",
-    scaleQuestion: "공급망을 확보할 준비가 되셨나요?",
-    ctaTitle: "다음 계약을 논의하세요",
-    ctaDescription: "상품 필요사항을 알려주세요. 장기적인 파트너십을 시작하기 위해 사양서를 보내주세요.",
-    ctaButton: "무역팀에 연락하기"
+    scaleTitle: "프로젝트 규모에 대한 약속",
+    scaleDescription: "프로젝트 규모가 커짐에 따라 당사의 인력과 제작 능력도 생산 기한을 맞추기 위해 증대될 것입니다.",
+    scaleQuestion: "건설 공급망을 확보할 준비가 되셨습니까?",
+    ctaTitle: "다음 프로젝트에 대해 논의하기",
+    ctaDescription: "프로젝트 요구 사항에 대해 알려주세요. 전문적인 파트너십을 시작하기 위해 기술 도면을 보내주세요.",
+    ctaButton: "B2B 팀에 문의하기"
   }
 }
 
@@ -328,7 +328,7 @@ const NaturraPartnership: React.FC = () => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 
-  const t = TRANSLATIONS[language] ?? TRANSLATIONS.en
+  const t = TRANSLATIONS[language] ?? TRANSLATIONS.id
   const localeMeta = generateLanguageSpecificMeta(language)
   const localizedUrls = generateLocalizedUrls(location.pathname, location.search)
 
@@ -341,7 +341,7 @@ const NaturraPartnership: React.FC = () => {
         <meta name="description" content={t.metaDescription} />
         <meta name="keywords" content={t.metaKeywords} />
         <meta httpEquiv="content-language" content={localeMeta.lang} />
-        <link rel="canonical" href={localizedUrls.canonical} />
+        <link rel="canonical" href="https://lasbekasi.com/partnership" />
         {localizedUrls.alternates.map((alternate) => (
           <link key={`partnership-hreflang-${alternate.hrefLang}`} rel="alternate" hrefLang={alternate.hrefLang} href={alternate.href} />
         ))}
@@ -358,7 +358,7 @@ const NaturraPartnership: React.FC = () => {
       <section className="partnership-hero">
         <div className="partnership-hero-image">
           <img
-            src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1920"
+            src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=1920&auto=format&fit=crop"
             alt={t.heroTitle}
             title={t.heroTitle}
             loading="eager"
@@ -385,8 +385,8 @@ const NaturraPartnership: React.FC = () => {
             </div>
             <div className="partnership-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1499558913904-206263eb210b?auto=format&fit=crop&q=80&w=800"
-                alt="Agricultural processing and sorting"
+                src="https://images.unsplash.com/photo-1516937941344-00b4e0337589?w=800&q=80"
+                alt="Welding workshop professional work"
                 className="partnership-image"
                 loading="lazy"
               />
@@ -407,8 +407,8 @@ const NaturraPartnership: React.FC = () => {
             </div>
             <div className="partnership-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1582218155981-0675ea108dca?auto=format&fit=crop&q=80&w=800"
-                alt="Global export shipping containers"
+                src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&q=80"
+                alt="Construction site collaboration"
                 className="partnership-image"
                 loading="lazy"
               />
@@ -430,8 +430,8 @@ const NaturraPartnership: React.FC = () => {
             </div>
             <div className="partnership-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1557426272-fc759fbb7a8d?auto=format&fit=crop&q=80&w=800"
-                alt="Commodities stored in warehouse"
+                src="https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80"
+                alt="Workshop fabrication process"
                 className="partnership-image"
                 loading="lazy"
               />
@@ -452,8 +452,8 @@ const NaturraPartnership: React.FC = () => {
             </div>
             <div className="partnership-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1599307767316-606b5379cebc?auto=format&fit=crop&q=80&w=800"
-                alt="Flexible agricultural supply chain"
+                src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&q=80"
+                alt="Flexible construction project"
                 className="partnership-image"
                 loading="lazy"
               />
@@ -475,8 +475,8 @@ const NaturraPartnership: React.FC = () => {
             </div>
             <div className="partnership-image-wrapper">
               <img
-                src="https://images.unsplash.com/photo-1505238680356-667803448bb6?auto=format&fit=crop&q=80&w=800"
-                alt="Scaling global supply chain"
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80"
+                alt="Scaling construction partnership"
                 className="partnership-image"
                 loading="lazy"
               />
@@ -491,7 +491,7 @@ const NaturraPartnership: React.FC = () => {
           <h2 className="partnership-cta-title">{t.ctaTitle}</h2>
           <p className="partnership-cta-description">{t.ctaDescription}</p>
           <a
-            href="https://wa.me/6289513957752?text=Hello%20Naturra%20Extal,%20I%20would%20like%20to%20discuss%20a%20B2B%20partnership%20for%20commodity%20sourcing."
+            href="https://wa.me/6285212078467?text=Halo%20Bengkel%20Las%20Mandiri%2C%20saya%20tertarik%20untuk%20diskusi%20kerjasama%20B2B%20proyek%20konstruksi."
             target="_blank"
             rel="noopener noreferrer"
             className="partnership-whatsapp-btn"

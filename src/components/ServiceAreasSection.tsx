@@ -21,203 +21,203 @@ const SERVICE_AREAS_TRANSLATIONS: Record<LanguageCode, {
   commercialDescs: Record<string, string>
 }> = {
   id: {
-    title: "Wilayah Operasional & Logistik",
-    subtitle: "Pusat pemrosesan di Bekasi, melayani pengiriman ke seluruh dunia melalui pelabuhan utama Indonesia",
-    bekasiKota: "BEKASI KOTA",
-    cikarang: "CIKARANG & SEKITARNYA",
-    komersial: "KAWASAN INDUSTRI & LOGISTIK",
-    jakarta: "JAKARTA & HUB EKSPOR",
-    areaNotListed: "Butuh Informasi Pengiriman Global?",
-    areaNotListedDesc: "Hubungi tim logistik kami untuk diskusi rute pengiriman internasional dan persyaratan dokumen ekspor.",
-    freeConsultation: "Konsultasi Ekspor",
-    seoText: "Naturra Extal mengoperasikan fasilitas industri pemrosesan komoditas pertanian di Setu, Bekasi. Kami melayani pengadaan bubuk kakao, cengkeh, dan cocopeat untuk pasar domestik dan internasional. Dengan lokasi strategis di koridor industri Bekasi-Cikarang, kami memiliki akses cepat ke pelabuhan Tanjung Priok untuk efisiensi ekspor ke Asia, Eropa, dan Amerika. Kami melayani mitra dagang di kawasan industri seperti MM2100, Jababeka, EJIP, dan Lippo Cikarang dengan standar kualitas internasional (HS Code certified).",
+    title: "Wilayah Layanan & Survei Gratis",
+    subtitle: "Pusat workshop di Setu, Bekasi, melayani pengiriman dan pemasangan kanopi & pagar ke seluruh Jabodetabek",
+    bekasiKota: "BEKASI KOTA & KABUPATEN",
+    cikarang: "CIKARANG, CIBITUNG & TAMBUN",
+    komersial: "PERUMAHAN & KAWASAN HUNIAN ELIT",
+    jakarta: "DKI JAKARTA & SEKITARNYA",
+    areaNotListed: "Ingin Survei Lokasi Gratis?",
+    areaNotListedDesc: "Hubungi kami untuk mengatur jadwal survei pengukuran kanopi, pagar, atau teralis secara gratis langsung ke rumah Anda.",
+    freeConsultation: "Jadwalkan Survei Gratis",
+    seoText: "Mandiri Steel mengoperasikan bengkel las & fabrikasi besi baja berkualitas di Setu, Bekasi. Kami melayani pembuatan kanopi Alderon, pagar minimalis kustom, teralis jendela, railing tangga, dan konstruksi baja ringan/WF untuk kebutuhan perumahan dan komersial. Lokasi strategis kami memudahkan mobilitas armada pengiriman kami ke wilayah perumahan elit di Summarecon Bekasi, Grand Galaxy City, Harapan Indah, Kemang Pratama, hingga kawasan hunian industri Lippo Cikarang, Jababeka, Deltamas, dan seluruh Jabodetabek.",
     commercialDescs: {
-      "Summarecon Bekasi": "Regional Office Hub",
-      "Harapan Indah": "Commercial Central",
-      "Grand Galaxy City": "Business District",
-      "Galaxy Bekasi": "Corporate Office",
-      "Kemang Pratama": "Premium Area",
-      "Lippo Cikarang": "Industrial & Export Hub",
-      "Jababeka": "Industrial Estate",
-      "Deltamas": "Integrated Industrial Port",
-      "EJIP Cikarang": "East Jakarta Industrial Park",
-      "Greenland International": "Logistic Center",
-      "MM2100": "Industrial Town (Sourcing Hub)"
+      "Summarecon Bekasi": "Survei Pemasangan Kanopi",
+      "Harapan Indah": "Pagar & Teralis Minimalis",
+      "Grand Galaxy City": "Konstruksi Pagar Laser Cutting",
+      "Galaxy Bekasi": "Railing Tangga & Balkon",
+      "Kemang Pratama": "Gerbang Besi Tempa Premium",
+      "Lippo Cikarang": "Kanopi Alderon & Baja WF",
+      "Jababeka": "Konstruksi Besi Gudang",
+      "Deltamas": "Railing & Pagar Minimalis",
+      "EJIP Cikarang": "Pekerjaan Las Konstruksi",
+      "Greenland International": "Pintu Besi & Pengaman",
+      "MM2100": "Fabrikasi Besi Industri"
     }
   },
   en: {
-    title: "Operational & Logistics Areas",
-    subtitle: "Processing hub in Bekasi, serving worldwide shipments through Indonesia's main ports",
-    bekasiKota: "BEKASI CITY",
-    cikarang: "CIKARANG & SURROUNDINGS",
-    komersial: "INDUSTRIAL & LOGISTICS ZONES",
-    jakarta: "JAKARTA & EXPORT HUBS",
-    areaNotListed: "Need Global Shipping Info?",
-    areaNotListedDesc: "Contact our logistics team to discuss international shipping routes and export documentation requirements.",
-    freeConsultation: "Export Consultation",
-    seoText: "Naturra Extal operates an agricultural commodity processing industrial facility in Setu, Bekasi. We provide cocoa powder, cloves, and cocopeat for domestic and international markets. Strategically located in the Bekasi-Cikarang industrial corridor, we have rapid access to Tanjung Priok Port for efficient export to Asia, Europe, and America. We serve trading partners in industrial zones such as MM2100, Jababeka, EJIP, and Lippo Cikarang with international quality standards (HS Code certified).",
+    title: "Service Areas & Free On-site Surveys",
+    subtitle: "Workshop center in Setu, Bekasi, serving delivery and installation of canopies & gates across Jabodetabek",
+    bekasiKota: "BEKASI CITY & REGENCY",
+    cikarang: "CIKARANG, CIBITUNG & TAMBUN",
+    komersial: "RESIDENTIAL & COMMERCIAL HUBS",
+    jakarta: "JAKARTA & SURROUNDINGS",
+    areaNotListed: "Need a Free On-site Survey?",
+    areaNotListedDesc: "Contact us to schedule a free measurement and design consultation for your canopy, gate, or railing directly at your home.",
+    freeConsultation: "Schedule Free Survey",
+    seoText: "Mandiri Steel operates a high-quality welding workshop and steel fabrication facility in Setu, Bekasi. We specialize in custom Alderon canopies, minimalist gates, window trellises, stair railings, and structural steel/WF installations for residential and commercial properties. Our strategic location enables quick dispatch of our delivery and survey teams to premium residential estates including Summarecon Bekasi, Grand Galaxy City, Harapan Indah, Kemang Pratama, and industrial residential hubs in Lippo Cikarang, Jababeka, Deltamas, and all Jabodetabek areas.",
     commercialDescs: {
-      "Summarecon Bekasi": "Regional Office Hub",
-      "Harapan Indah": "Commercial Central",
-      "Grand Galaxy City": "Business District",
-      "Galaxy Bekasi": "Corporate Office",
-      "Kemang Pratama": "Premium Area",
-      "Lippo Cikarang": "Industrial & Export Hub",
-      "Jababeka": "Industrial Estate",
-      "Deltamas": "Integrated Industrial Port",
-      "EJIP Cikarang": "East Jakarta Industrial Park",
-      "Greenland International": "Logistic Center",
-      "MM2100": "Industrial Town (Sourcing Hub)"
+      "Summarecon Bekasi": "Canopy Installation Survey",
+      "Harapan Indah": "Minimalist Gate & Trellis",
+      "Grand Galaxy City": "Laser Cut Gate Construction",
+      "Galaxy Bekasi": "Stair & Balcony Railings",
+      "Kemang Pratama": "Premium Wrought Iron Gate",
+      "Lippo Cikarang": "Alderon & WF Structural Canopy",
+      "Jababeka": "Warehouse Steel Construction",
+      "Deltamas": "Railing & Minimalist Gate",
+      "EJIP Cikarang": "Industrial Welding Fabrication",
+      "Greenland International": "Metal Security Doors",
+      "MM2100": "Industrial Steel Fabrication"
     }
   },
   ar: {
-    title: "المناطق التشغيلية واللوجستية",
-    subtitle: "مركز المعالجة في بيكاسي، يخدم الشحنات في جميع أنحاء العالم عبر الموانئ الرئيسية في إندونيسيا",
-    bekasiKota: "مدينة بيكاسي",
-    cikarang: "سيكارانغ والمناطق المحيطة",
-    komersial: "المناطق الصناعية واللوجستية",
-    jakarta: "جاكرتا ومراكز التصدير",
-    areaNotListed: "هل تحتاج إلى معلومات الشحن العالمية؟",
-    areaNotListedDesc: "اتصل بفريقنا اللوجستي لمناقشة طرق الشحن الدولية ومتطلبات وثائق التصدير.",
-    freeConsultation: "استشارة التصدير",
-    seoText: "تدير Naturra Extal منشأة صناعية لمعالجة السلع الزراعية في سيتو، بيكاسي. نحن نوفر مسحوق الكاكاو والقرنفل وcocopeat للأسواق المحلية والدولية. تقع في ممر بيكاسي-سيكارانغ الصناعي الاستراتيجي، ولدينا وصول سريع إلى ميناء تانجونج بريوك للتصدير الفعال إلى آسيا وأوروبا وأمريكا. نحن نخدم الشركاء التجاريين في المناطق الصناعية مثل MM2100 وJababeka وEJIP وLippo Cikarang بمعايير جودة دولية (معتمدة من HS Code).",
+    title: "مناطق الخدمة والمعاينة المجانية",
+    subtitle: "مركز الورشة في سيتو، بيكاسي، يخدم توصيل وتركيب المظلات والبوابات في جميع أنحاء جابوديتابك",
+    bekasiKota: "بلدية بيكاسي وضواحيها",
+    cikarang: "سيكارانغ، سيبيدونغ وتامبون",
+    komersial: "المناطق السكنية والتجارية الراقية",
+    jakarta: "جاكرتا وما حولها",
+    areaNotListed: "هل تريد معاينة مجانية لموقعك؟",
+    areaNotListedDesc: "اتصل بنا لترتيب موعد مجاني لقياس وتصميم المظلات أو البوابات أو الحماية الحديدية مباشرة في منزلك.",
+    freeConsultation: "تحديد موعد معاينة مجانية",
+    seoText: "تدير مانديري ستيل ورشة لحام وتصنيع حديد عالية الجودة في سيتو، بيكاسي. نحن متخصصون في مظلات ألديرون، البوابات البسيطة المخصصة، درابزين السلالم، وحماية النوافذ الحديدية للمنازل والمباني التجارية. يتيح موقعنا الاستراتيجي إرسالاً سريعاً لفرق التوصيل والمعاينة إلى الأحياء السكنية المتميزة مثل سوماريكون بيكاسي، غراند غالاكسي سيتي، هارابان إنداه، كيمانغ براتاما، والمناطق السكنية الصناعية في ليبو سيكارانغ، جابابيكا، ديلتاماتس، وجميع مناطق جابوديتابك.",
     commercialDescs: {
-      "Summarecon Bekasi": "مركز المكتب الإقليمي",
-      "Harapan Indah": "المركز التجاري",
-      "Grand Galaxy City": "منطقة الأعمال",
-      "Galaxy Bekasi": "مكتب الشركة",
-      "Kemang Pratama": "منطقة متميزة",
-      "Lippo Cikarang": "مركز الصناعة والتصدير",
-      "Jababeka": "المنطقة الصناعية",
-      "Deltamas": "ميناء صناعي متكامل",
-      "EJIP Cikarang": "منطقة جاكرتا الشرقية الصناعية",
-      "Greenland International": "المركز اللوجستي",
-      "MM2100": "المدينة الصناعية (مركز التوريد)"
+      "Summarecon Bekasi": "معاينة تركيب المظلات",
+      "Harapan Indah": "بوابة حديدية وحماية مبسطة",
+      "Grand Galaxy City": "بوابة حديد قص ليزر",
+      "Galaxy Bekasi": "درابزين سلالم وبلكونات",
+      "Kemang Pratama": "بوابة حديد مشغول فاخرة",
+      "Lippo Cikarang": "مظلات حديد ألديرون وهياكل WF",
+      "Jababeka": "هياكل حديدية للمستودعات",
+      "Deltamas": "درابزين وبوابات مبسطة",
+      "EJIP Cikarang": "أعمال لحام صناعية",
+      "Greenland International": "أبواب حماية حديدية",
+      "MM2100": "تصنيع الحديد الصناعي"
     }
   },
   zh: {
-    title: "运营与物流区域",
-    subtitle: "位于勿加泗的处理中心，通过印尼主要港口为全球发货提供服务",
-    bekasiKota: "勿加泗市",
-    cikarang: "芝卡朗及周边地区",
-    komersial: "工业与物流区",
-    jakarta: "雅加达与出口枢纽",
-    areaNotListed: "需要全球货运信息？",
-    areaNotListedDesc: "请联系我们的物流团队，讨论国际航运路线和出口文件要求。",
-    freeConsultation: "出口咨询",
-    seoText: "Naturra Extal 在勿加泗 Setu 经营一家农产品加工工业设施。我们为国内和国际市场提供可可粉、丁香和椰糠。策略性地位于勿加泗-芝卡朗工业走廊，我们可以快速到达丹绒不鲁港，高效地向亚洲、欧洲和美洲出口。我们为 MM2100、Jababeka、EJIP 和 Lippo Cikarang 等工业区的贸易伙伴提供符合国际质量标准（HS 编码认证）的服务。",
+    title: "服务区域与免费现场测绘",
+    subtitle: "位于勿加泗 Setu 的铁艺工坊，为大雅加达（Jabodetabek）全境提供雨棚与大门配送安装服务",
+    bekasiKota: "勿加泗市及县区",
+    cikarang: "芝卡朗、芝比东及 Tambun",
+    komersial: "高档住宅与商业社区",
+    jakarta: "雅加达特区及周边",
+    areaNotListed: "需要免费现场测绘？",
+    areaNotListedDesc: "联系我们的团队，免费为您安排家中的雨棚、铁门或窗户防盗网的测绘和定制方案咨询。",
+    freeConsultation: "预约免费上门测绘",
+    seoText: "Mandiri Steel 在勿加泗 Setu 经营着一家高标准的铁艺与钢结构焊接加工厂。我们专业定制安装 Alderon 双层雨棚、简约大门、防盗窗网、楼梯扶手以及各种住宅和商业钢结构工程（WF钢架）。优越的地理位置使我们的送货和测绘团队能够迅速到达 Summarecon Bekasi、Grand Galaxy City、Harapan Indah、Kemang Pratama 等高档住宅区，以及 Lippo Cikarang、Jababeka、Deltamas 等大雅加达核心区域。",
     commercialDescs: {
-      "Summarecon Bekasi": "区域办公枢纽",
-      "Harapan Indah": "商业中心",
-      "Grand Galaxy City": "商业区",
-      "Galaxy Bekasi": "公司办公室",
-      "Kemang Pratama": "高端区域",
-      "Lippo Cikarang": "工业与出口枢纽",
-      "Jababeka": "工业区",
-      "Deltamas": "综合工业港",
-      "EJIP Cikarang": "东雅加达工业园",
-      "Greenland International": "物流中心",
-      "MM2100": "工业城（采购枢纽）"
+      "Summarecon Bekasi": "雨棚安装测绘",
+      "Harapan Indah": "简约铁门与防盗网",
+      "Grand Galaxy City": "激光切割大门制作",
+      "Galaxy Bekasi": "楼梯及阳台护栏",
+      "Kemang Pratama": "高端欧式锻铁大门",
+      "Lippo Cikarang": "Alderon & WF 钢架雨棚",
+      "Jababeka": "厂房钢结构工程",
+      "Deltamas": "简约楼梯扶手与铁门",
+      "EJIP Cikarang": "工业级钢结构焊接",
+      "Greenland International": "防盗铁门及防护栏",
+      "MM2100": "工业铁艺定制加工"
     }
   },
   ja: {
-    title: "運営・物流エリア",
-    subtitle: "ベカシの処理拠点を中心に、インドネシアの主要港を通じて世界中への配送に対応",
-    bekasiKota: "ベカシ市",
-    cikarang: "チカラン及び周辺",
-    komersial: "工業・物流ゾーン",
-    jakarta: "ジャカルタ及び輸出拠点",
-    areaNotListed: "グローバル配送情報が必要ですか？",
-    areaNotListedDesc: "国際配送ルートや輸出書類の要件については、弊社の物流チームにお問い合わせください。",
-    freeConsultation: "輸出相談",
-    seoText: "Naturra Extalは、ベカシのSetuで農産物加工産業施設を運営しています。国内外の市場向けにココアパウダー、クローブ、ココピートを提供しています。ベカシ〜チカラン工業回廊に位置する戦略的な立地により、タンジュン・プリオク港への迅速なアクセスが可能で、アジア、ヨーロッパ、アメリカへの効率的な輸出を実現しています。MM2100、ジャバベカ、EJIP、リッポーチカランなどの工業地帯の貿易パートナーに、国際品質基準（HSコード認定）に準拠したサービスを提供しています。",
+    title: "サービス対応エリア・無料現地調査",
+    subtitle: "ベカシ県Setuの自社工房から、ジャボデタベック全域へキャノピーや門扉の配送・設置を行います",
+    bekasiKota: "ベカシ市・県",
+    cikarang: "チカラン・チビトゥン・タンブン",
+    komersial: "高級住宅街・商業エリア",
+    jakarta: "ジャカルタ首都圏",
+    areaNotListed: "無料の現地調査・採寸をご希望ですか？",
+    areaNotListedDesc: "ご自宅でのキャノピー、ゲート、手すりなどの採寸とデザイン相談を無料で行います。お気軽にお問い合わせください。",
+    freeConsultation: "無料現地調査を申し込む",
+    seoText: "Mandiri Steelは、ベカシ県Setuにて高品質な溶接・鉄骨製造工場を運営しています。住宅や商業施設向けに、アルデロン製キャノピー、ミニマリスト門扉、窓格子、階段手すり、鉄骨構造物（WF骨組み）などの製造・施工を行っています。Summarecon Bekasi、Grand Galaxy City、Harapan Indah、Kemang Pratamaなどの高級住宅街をはじめ、Lippo Cikarang、Jababeka、Deltamasなどの工業都市、ジャボデタベック全域に迅速に対応いたします。",
     commercialDescs: {
-      "Summarecon Bekasi": "地域オフィスハブ",
-      "Harapan Indah": "商業センター",
-      "Grand Galaxy City": "ビジネス地区",
-      "Galaxy Bekasi": "コーポレートオフィス",
-      "Kemang Pratama": "プレミアムエリア",
-      "Lippo Cikarang": "工業・輸出ハブ",
-      "Jababeka": "工業団地",
-      "Deltamas": "統合工業港",
-      "EJIP Cikarang": "東ジャカルタ工業団地",
-      "Greenland International": "物流センター",
-      "MM2100": "工業タウン（ソーシングハブ）"
+      "Summarecon Bekasi": "キャノピー取り付け無料見積もり",
+      "Harapan Indah": "門扉・格子窓の製造・施工",
+      "Grand Galaxy City": "レーザーカット鉄門の製造",
+      "Galaxy Bekasi": "階段・バルコニー手すり",
+      "Kemang Pratama": "ロートアイアン調高級門扉",
+      "Lippo Cikarang": "アルデロン・WF鉄骨キャノピー",
+      "Jababeka": "倉庫内鉄骨構造物工事",
+      "Deltamas": "手すり・ミニマリスト門扉",
+      "EJIP Cikarang": "工場用鉄骨の溶接組み立て",
+      "Greenland International": "防犯用鉄製ドア・格子",
+      "MM2100": "産業用鉄骨部材の加工・製造"
     }
   },
   es: {
-    title: "Áreas Operativas y Logísticas",
-    subtitle: "Centro de procesamiento en Bekasi, sirviendo envíos a todo el mundo a través de los principales puertos de Indonesia",
-    bekasiKota: "CIUDAD DE BEKASI",
-    cikarang: "CIKARANG Y ALREDEDORES",
-    komersial: "ZONAS INDUSTRIALES Y LOGÍSTICAS",
-    jakarta: "YAKARTA Y CENTROS DE EXPORTACIÓN",
-    areaNotListed: "¿Necesita información de envío global?",
-    areaNotListedDesc: "Contacte a nuestro equipo de logística para discutir rutas de envío internacional y requisitos de documentación de exportación.",
-    freeConsultation: "Consulta de Exportación",
-    seoText: "Naturra Extal opera una instalación industrial de procesamiento de productos agrícolas en Setu, Bekasi. Suministramos cacao en polvo, clavos y cocopeat para mercados nacionales e internacionales. Situados estratégicamente en el corredor industrial Bekasi-Cikarang, tenemos un acceso rápido al puerto de Tanjung Priok para una exportación eficiente a Asia, Europa y América. Servimos a socios comerciales en zonas industriales como MM2100, Jababeka, EJIP y Lippo Cikarang con estándares de calidad internacionales (certificación de código HS).",
+    title: "Áreas de Servicio y Presupuesto Gratis",
+    subtitle: "Taller central en Setu, Bekasi, realizando entregas e instalación de doseles y portones en todo Jabodetabek",
+    bekasiKota: "BEKASI CIUDAD & MUNICIPIO",
+    cikarang: "CIKARANG, CIBITUNG & TAMBUN",
+    komersial: "FRACCIONAMIENTOS & ZONAS RESIDENCIALES",
+    jakarta: "YAKARTA & ALREDEDORES",
+    areaNotListed: "¿Desea un Presupuesto y Medición Gratis?",
+    areaNotListedDesc: "Contáctenos para coordinar una visita de medición y diseño sin costo para su portón, dosel o herrería directamente en su hogar.",
+    freeConsultation: "Agendar Medición Gratis",
+    seoText: "Mandiri Steel opera un taller de soldadura y herrería de alta calidad en Setu, Bekasi. Especialistas en doseles de Alderon, portones minimalistas, protectores de ventanas, barandales y estructuras metálicas residenciales y comerciales. Nuestra ubicación estratégica facilita el despacho rápido de nuestros vehículos a zonas residenciales premium como Summarecon Bekasi, Grand Galaxy City, Harapan Indah, Kemang Pratama, así como a desarrollos en Lippo Cikarang, Jababeka, Deltamas y todo Jabodetabek.",
     commercialDescs: {
-      "Summarecon Bekasi": "Centro de Oficinas Regionales",
-      "Harapan Indah": "Central Comercial",
-      "Grand Galaxy City": "Distrito de Negocios",
-      "Galaxy Bekasi": "Oficina Corporativa",
-      "Kemang Pratama": "Área Premium",
-      "Lippo Cikarang": "Centro Industrial y de Exportación",
-      "Jababeka": "Polígono Industrial",
-      "Deltamas": "Puerto Industrial Integrado",
-      "EJIP Cikarang": "Parque Industrial Este de Yakarta",
-      "Greenland International": "Centro Logístico",
-      "MM2100": "Ciudad Industrial (Centro de Abastecimiento)"
+      "Summarecon Bekasi": "Medición de Instalación de Dosel",
+      "Harapan Indah": "Portón Minimalista & Protector",
+      "Grand Galaxy City": "Portón con Corte Láser a Medida",
+      "Galaxy Bekasi": "Barandal de Escalera & Balcón",
+      "Kemang Pratama": "Portón de Hierro Forjado Premium",
+      "Lippo Cikarang": "Dosel de Alderon & Estructura WF",
+      "Jababeka": "Estructura de Acero para Bodegas",
+      "Deltamas": "Barandal & Portón Minimalista",
+      "EJIP Cikarang": "Soldadura de Estructura Industrial",
+      "Greenland International": "Puerta Metálica de Seguridad",
+      "MM2100": "Herrería y Estructura Industrial"
     }
   },
   fr: {
-    title: "Zones Opérationnelles et Logistiques",
-    subtitle: "Plateforme de traitement à Bekasi, desservant le monde entier via les principaux ports indonésiens",
-    bekasiKota: "VILLE DE BEKASI",
-    cikarang: "CIKARANG ET ENVIRONS",
-    komersial: "ZONES INDUSTRIELLES ET LOGISTIQUES",
-    jakarta: "JAKARTA ET CENTRES D'EXPORTATION",
-    areaNotListed: "Besoin d'infos sur le transport mondial ?",
-    areaNotListedDesc: "Contactez notre équipe logistique pour discuter des routes maritimes internationales et des documents d'exportation.",
-    freeConsultation: "Consultation Export",
-    seoText: "Naturra Extal exploite une installation industrielle de traitement de produits agricoles à Setu, Bekasi. Nous fournissons de la poudre de cacao, des clous de girofle et du cocopeat pour les marchés nationaux et internationaux. Idéalement situés dans le corridor industriel Bekasi-Cikarang, nous disposons d'un accès rapide au port de Tanjung Priok pour une exportation efficace vers l'Asie, l'Europe et l'Amérique. Nous servons des partenaires commerciaux dans des zones industrielles telles que MM2100, Jababeka, EJIP et Lippo Cikarang selon les normes de qualité internationales (certifiés code HS).",
+    title: "Zones d'Intervention & Devis Gratuits",
+    subtitle: "Atelier situé à Setu, Bekasi, assurant la livraison et la pose d'auvents et de portails dans tout Jabodetabek",
+    bekasiKota: "BEKASI VILLE & RÉGENCE",
+    cikarang: "CIKARANG, CIBITUNG & TAMBUN",
+    komersial: "RÉSIDENCES & QUARTIERS VIP",
+    jakarta: "JAKARTA & PROVINCES VOISINES",
+    areaNotListed: "Demander une Prise de Cotes Gratuite ?",
+    areaNotListedDesc: "Contactez-nous pour planifier une visite gratuite de prise de cotes et de conseil pour vos projets de portails, d'auvents ou de garde-corps.",
+    freeConsultation: "Planifier une Visite Gratuite",
+    seoText: "Mandiri Steel exploite un atelier de métallurgie et de chaudronnerie haut de gamme à Setu, Bekasi. Nous réalisons des auvents Alderon, des portails sur mesure, des grilles de protection, des garde-corps et des charpentes métalliques (bâtiments WF) pour le secteur résidentiel et commercial. Notre positionnement stratégique nous permet d'intervenir rapidement dans les grands ensembles résidentiels tels que Summarecon Bekasi, Grand Galaxy City, Harapan Indah, Kemang Pratama, et les zones urbaines de Lippo Cikarang, Jababeka, Deltamas et tout le Grand Jakarta.",
     commercialDescs: {
-      "Summarecon Bekasi": "Centre de Bureaux Régionaux",
-      "Harapan Indah": "Central Commercial",
-      "Grand Galaxy City": "Quartier des Affaires",
-      "Galaxy Bekasi": "Bureau d'Entreprise",
-      "Kemang Pratama": "Zone Premium",
-      "Lippo Cikarang": "Centre Industriel et Export",
-      "Jababeka": "Zone Industrielle",
-      "Deltamas": "Port Industriel Intégré",
-      "EJIP Cikarang": "Parc Industriel Est de Jakarta",
-      "Greenland International": "Centre Logistique",
-      "MM2100": "Ville Industrielle (Centre de Sourcing)"
+      "Summarecon Bekasi": "Métrage pour Pose d'Auvent",
+      "Harapan Indah": "Portail Minimaliste & Grille",
+      "Grand Galaxy City": "Portail en Découpe Laser",
+      "Galaxy Bekasi": "Garde-corps & Rambarde d'Escalier",
+      "Kemang Pratama": "Portail en Fer Forgé d'Art",
+      "Lippo Cikarang": "Auvent Alderon & Structure WF",
+      "Jababeka": "Charpente Métallique d'Entrepôt",
+      "Deltamas": "Rambarde & Portail Design",
+      "EJIP Cikarang": "Soudure et Assemblage Industriel",
+      "Greenland International": "Porte Blindée de Sécurité",
+      "MM2100": "Chaudronnerie et Pièces Métalliques"
     }
   },
   ko: {
-    title: "운영 및 물류 지역",
-    subtitle: "베카시의 처리 허브를 중심으로 인도네시아 주요 항구를 통해 전 세계 배송 서비스 제공",
-    bekasiKota: "베카시 시",
-    cikarang: "치카랑 및 주변",
-    komersial: "산업 및 물류 구역",
-    jakarta: "자카르타 및 수출 허브",
-    areaNotListed: "글로벌 배송 정보가 필요하십니까?",
-    areaNotListedDesc: "국제 해외 배송 경로 및 수출 문서 요구 사항에 대해 물류 팀에 문의하십시오.",
-    freeConsultation: "수출 상담",
-    seoText: "Naturra Extal은 베카시 Setu에서 농산물 가공 산업 시설을 운영하고 있습니다. 국내 및 국제 시장을 위해 코코아 가루, 정향 및 코코피트를 공급합니다. 베카시-치카랑 산업 회랑에 전략적으로 위치하여 탄중 프리오크 항구에 신속하게 접근할 수 있어 아시아, 유럽 및 아메리카로의 효율적인 수출이 가능합니다. MM2100, Jababeka, EJIP 및 Lippo Cikarang과 같은 산업 단지의 무역 파트너에게 국제 품질 표준(HS 코드 인증)을 준수하는 서비스를 제공합니다.",
+    title: "서비스 지역 및 무료 실측 안내",
+    subtitle: "베카시 Setu 공방을 중심으로 자보데타벡 전역에 캐노피 및 대문 배송과 설치 지원",
+    bekasiKota: "베카시 시 및 리전",
+    cikarang: "치카랑, 치비퉁 및 탐분",
+    komersial: "고급 주택 단지 및 주거 타운",
+    jakarta: "자카르타 및 인근 전역",
+    areaNotListed: "무료 방문 실측을 원하시나요?",
+    areaNotListedDesc: "댁내 캐노피, 대문, 방범창 또는 난간 설치를 위한 정밀 실측과 디자인 맞춤형 제안을 무료로 받아보세요.",
+    freeConsultation: "무료 실측 일정 예약",
+    seoText: "Mandiri Steel은 베카시 Setu에서 최고의 철골 제작 및 용접 공방을 운영하고 있습니다. 주택용 알데론 캐노피, 맞춤형 미니멀리스트 대문, 창문 방범창, 계단 난간 및 상업용 철골/WF 구조물 공사를 전문으로 합니다. 최상의 지리적 거점을 통해 Summarecon Bekasi, Grand Galaxy City, Harapan Indah, Kemang Pratama 등 고급 빌라촌과 Lippo Cikarang, Jababeka, Deltamas 등 자보데타벡 전역으로 빠르게 실측 및 시공팀이 출동합니다.",
     commercialDescs: {
-      "Summarecon Bekasi": "지역 사무소 허브",
-      "Harapan Indah": "상업 중심지",
-      "Grand Galaxy City": "비즈니스 지구",
-      "Galaxy Bekasi": "기업 사무소",
-      "Kemang Pratama": "프리미엄 지역",
-      "Lippo Cikarang": "산업 및 수출 허브",
-      "Jababeka": "산업 단지",
-      "Deltamas": "통합 산업 항구",
-      "EJIP Cikarang": "동자카르타 산업 단지",
-      "Greenland International": "물류 센터",
-      "MM2100": "산업 타운 (소싱 허브)"
+      "Summarecon Bekasi": "캐노피 설치 실측 견적",
+      "Harapan Indah": "미니멀리스트 대문 및 방범창",
+      "Grand Galaxy City": "레이저 컷 대문 정밀 시공",
+      "Galaxy Bekasi": "계단 및 발코니 난간 제작",
+      "Kemang Pratama": "최고급 유럽풍 단조 대문",
+      "Lippo Cikarang": "알데론 및 WF 철골 캐노피",
+      "Jababeka": "창고용 대형 철골 구조물",
+      "Deltamas": "난간 및 심플한 대문 시공",
+      "EJIP Cikarang": "산업용 대형 철골 용접 공사",
+      "Greenland International": "방범용 철제 도어 및 펜스",
+      "MM2100": "산업용 철강 자재 맞춤 가공"
     }
   }
 }
@@ -230,27 +230,27 @@ const ServiceAreasSection: React.FC<ServiceAreasSectionProps> = ({ language, isI
     bekasiKota: {
       title: t.bekasiKota,
       areas: [
-        { name: "Bekasi Barat", kelurahan: "Logistics Access to Jakarta" },
-        { name: "Bekasi Timur", kelurahan: "Sourcing & Distribution" },
-        { name: "Bekasi Selatan", kelurahan: "Corporate & Admin" },
-        { name: "Bekasi Utara", kelurahan: "Industrial Connectivity" },
-        { name: "Rawalumbu", kelurahan: "Warehouse & Storage" },
-        { name: "Pondok Gede", kelurahan: "Regional Access" },
-        { name: "Mustika Jaya", kelurahan: "Operational Hub" }
+        { name: "Bekasi Barat", kelurahan: "Layanan Survei & Pemasangan" },
+        { name: "Bekasi Timur", kelurahan: "Survei & Pemasangan Pagar" },
+        { name: "Bekasi Selatan", kelurahan: "Layanan Jasa Las Panggilan" },
+        { name: "Bekasi Utara", kelurahan: "Pasang Kanopi Rumah" },
+        { name: "Rawalumbu", kelurahan: "Pengukuran & Survei Lapangan" },
+        { name: "Pondok Gede", kelurahan: "Layanan Cepat Tanggap" },
+        { name: "Mustika Jaya", kelurahan: "Fabrikasi Besi & Pemasangan" }
       ]
     },
     cikarang: {
       title: t.cikarang,
       areas: [
-        { name: "Cikarang Barat", kelurahan: "Export Industrial Park" },
-        { name: "Cikarang Utara", kelurahan: "Logistics Hub" },
-        { name: "Cikarang Selatan", kelurahan: "Major Industrial Zone" },
-        { name: "Cikarang Timur", kelurahan: "Production Expansion" },
-        { name: "Cikarang Pusat", kelurahan: "Administration" },
-        { name: "Tambun Selatan", kelurahan: "Distribution Network" },
-        { name: "Tambun Utara", kelurahan: "Raw Material Handling" },
-        { name: "Cibitung", kelurahan: "Strategic Warehouse" },
-        { name: "Setu", kelurahan: "Main Processing Facility" }
+        { name: "Cikarang Barat", kelurahan: "Konstruksi Kanopi WF" },
+        { name: "Cikarang Utara", kelurahan: "Pagar Besi Minimalis" },
+        { name: "Cikarang Selatan", kelurahan: "Railing Tangga Putar" },
+        { name: "Cikarang Timur", kelurahan: "Pemasangan Teralis Jendela" },
+        { name: "Cikarang Pusat", kelurahan: "Pagar Laser Cutting" },
+        { name: "Tambun Selatan", kelurahan: "Pintu Dorong Lipat" },
+        { name: "Tambun Utara", kelurahan: "Kanopi Kaca & Solarflat" },
+        { name: "Cibitung", kelurahan: "Railing Tangga Besi" },
+        { name: "Setu", kelurahan: "Pusat Bengkel Las Mandiri Steel" }
       ]
     },
     komersial: {
@@ -272,13 +272,13 @@ const ServiceAreasSection: React.FC<ServiceAreasSectionProps> = ({ language, isI
     jakarta: {
       title: t.jakarta,
       areas: [
-        { name: "Jakarta Timur", kelurahan: "Logistics & Forwarding" },
-        { name: "Tanjung Priok", kelurahan: "Major Export Port" },
-        { name: "Jakarta Pusat", kelurahan: "Trade & Commerce" },
-        { name: "Jakarta Selatan", kelurahan: "Financial Center" },
-        { name: "Surabaya", kelurahan: "Secondary Export Gateway" },
-        { name: "Sulawesi", kelurahan: "Primary Sourcing Region" },
-        { name: "Sumatra", kelurahan: "Secondary Sourcing Region" }
+        { name: "Jakarta Timur", kelurahan: "Pengiriman & Pemasangan Pagar" },
+        { name: "Jakarta Utara", kelurahan: "Kanopi Anti Karat Ekstrim" },
+        { name: "Jakarta Pusat", kelurahan: "Pekerjaan Teralis Kantor & Toko" },
+        { name: "Jakarta Selatan", kelurahan: "Pagar Besi Minimalis Mewah" },
+        { name: "Jakarta Barat", kelurahan: "Railing Tangga Stainless Steel" },
+        { name: "Depok", kelurahan: "Pemasangan Kanopi Rumah" },
+        { name: "Bogor", kelurahan: "Konstruksi Pagar & Railing" }
       ]
     }
   }
@@ -298,7 +298,7 @@ const ServiceAreasSection: React.FC<ServiceAreasSectionProps> = ({ language, isI
         {/* Categories Grid */}
         <div className="service-area-group">
           <h3 className="area-group-title">
-            <span className="area-icon">🌏</span>
+            <span className="area-icon">🏡</span>
             {t.bekasiKota}
           </h3>
           <div className="areas-grid">
@@ -344,7 +344,7 @@ const ServiceAreasSection: React.FC<ServiceAreasSectionProps> = ({ language, isI
 
         <div className="service-area-group">
           <h3 className="area-group-title">
-            <span className="area-icon">🚢</span>
+            <span className="area-icon">🚚</span>
             {t.jakarta}
           </h3>
           <div className="areas-grid">
@@ -362,7 +362,7 @@ const ServiceAreasSection: React.FC<ServiceAreasSectionProps> = ({ language, isI
             <h3>{t.areaNotListed}</h3>
             <p>{t.areaNotListedDesc}</p>
             <a
-              href="https://wa.me/628951395752?text=Halo%20Naturra%20Extal%2C%20saya%20ingin%20konsultasi%20ekspor%20komoditas"
+              href="https://wa.me/6289513957752?text=Halo%20Mandiri%20Steel%2C%20saya%20ingin%20konsultasi%20pengerjaan%20las%20besi"
               className="cta-button"
               target="_blank"
               rel="noopener noreferrer"

@@ -1,44 +1,44 @@
-// AI Search Helper Functions for Naturra Extal
+// AI Search Helper Functions for Mandiri Steel (Bengkel Las Mandiri)
 
 export const generateAIMetaTags = (pageType: string, _isIndonesian: boolean) => {
   const baseTags = {
-    'ai-content-type': 'agricultural-commodity-exporter',
-    'ai-business-type': 'commodity-trading-firm',
+    'ai-content-type': 'welding-and-construction-services',
+    'ai-business-type': 'metal-fabrication-workshop',
     'ai-location': 'bekasi-indonesia',
-    'ai-specialization': 'cocoa-cloves-cocopeat-export',
-    'ai-target-audience': 'food-industry-horticulture-businesses',
+    'ai-specialization': 'canopy-fence-trellis-steel-construction',
+    'ai-target-audience': 'homeowners-contractors-industrial-facilities',
     'ai-experience-years': '25',
-    'ai-clients-served': '1000+',
-    'ai-service-area': 'global',
-    'ai-sourcing': 'direct-from-farmers',
-    'ai-shipping': 'worldwide',
-    'ai-quality-control': 'certified-standards',
-    'ai-payment-methods': 'lc-tt-bank-transfer',
+    'ai-projects-completed': '1000+',
+    'ai-service-area': 'bekasi-cikarang-jakarta-depok',
+    'ai-material-standards': 'sni-certified-steel',
+    'ai-installation': 'professional-on-site-installation',
+    'ai-warranty': 'guaranteed-workmanship',
+    'ai-payment-methods': 'cash-bank-transfer-dp',
     'ai-languages': 'indonesian-english-multilingual',
-    'ai-response-time': 'fast',
-    'ai-lead-time': '14-25-days'
+    'ai-response-time': 'fast-whatsapp-response',
+    'ai-lead-time': '7-14-days-typical'
   }
 
   const pageSpecificTags = {
     'home': {
       'ai-page-type': 'homepage',
-      'ai-primary-content': 'commodity-portfolio-showcase'
+      'ai-primary-content': 'welding-service-portfolio-showcase'
     },
     'product': {
       'ai-page-type': 'product-detail',
-      'ai-primary-content': 'commodity-specifications'
+      'ai-primary-content': 'metal-work-specifications'
     },
     'category': {
       'ai-page-type': 'category-listing',
-      'ai-primary-content': 'commodity-category-overview'
+      'ai-primary-content': 'welding-category-overview'
     },
     'about': {
       'ai-page-type': 'about-page',
-      'ai-primary-content': 'company-heritage-and-supply-chain'
+      'ai-primary-content': 'workshop-heritage-and-expertise'
     },
     'contact': {
       'ai-page-type': 'contact-page',
-      'ai-primary-content': 'inquiry-and-quote-requests'
+      'ai-primary-content': 'quote-requests-and-site-surveys'
     }
   }
 
@@ -50,68 +50,68 @@ export const generateAIMetaTags = (pageType: string, _isIndonesian: boolean) => 
 
 export const generateAIContentSummary = (isIndonesian: boolean) => {
   return {
-    businessName: "Naturra Extal",
+    businessName: "Bengkel Las Mandiri",
     businessType: isIndonesian
-      ? "Eksportir Komoditas Pertanian Premium"
-      : "Premium Agricultural Commodity Exporter",
+      ? "Jasa Las & Konstruksi Baja Profesional"
+      : "Professional Welding & Steel Construction Services",
     location: "Bekasi, Indonesia",
     established: "1999",
     experience: "25+ tahun",
-    clientsServed: "1000+",
+    projectsCompleted: "1000+",
     specialization: isIndonesian
-      ? "Bubuk Kakao, Cengkeh, dan Cocopeat untuk Pasar Global"
-      : "Cocoa Powder, Cloves, and Cocopeat for Global Markets",
+      ? "Kanopi, Pagar, Teralis, dan Konstruksi Baja WF"
+      : "Canopies, Fences, Trellises, and Steel WF Construction",
     keyFeatures: [
-      isIndonesian ? "Sumber Langsung dari Petani" : "Direct Sourcing from Farmers",
-      isIndonesian ? "Standar Kualitas Ekspor" : "Export Quality Standards",
-      isIndonesian ? "Harga Kompetitif" : "Competitive Pricing",
-      isIndonesian ? "Pengiriman Seluruh Dunia" : "Worldwide Shipping",
-      isIndonesian ? "Kemitraan Jangka Panjang" : "Long-term Partnerships"
+      isIndonesian ? "Material Standar SNI" : "SNI Standard Materials",
+      isIndonesian ? "Garansi Kualitas Hasil" : "Workmanship Quality Warranty",
+      isIndonesian ? "Harga Kompetitif & Transparan" : "Competitive & Transparent Pricing",
+      isIndonesian ? "Survei Lokasi Gratis" : "Free Site Survey",
+      isIndonesian ? "Pengerjaan Tepat Waktu" : "On-time Project Completion"
     ],
     contactInfo: {
-      phone: "+6289513957752",
-      email: "hello@naturraextal.com",
-      whatsapp: "https://wa.me/+6289513957752"
+      phone: "+6285212078467",
+      email: "info@lasbekasi.com",
+      whatsapp: "https://wa.me/6285212078467"
     }
   }
 }
 
 export const generateAISearchKeywords = (isIndonesian: boolean) => {
   const baseKeywords = [
-    "agricultural commodities indonesia",
-    "cocoa powder export",
-    "Naturra Extal",
-    "cloves supplier indonesia",
-    "cocopeat manufacturer bekasi",
-    "indonesian spices export"
+    "bengkel las bekasi",
+    "jasa las cikarang",
+    "Mandiri Steel",
+    "kanopi minimalis bekasi",
+    "pagar besi murah bekasi",
+    "Bengkel Las Mandiri"
   ]
 
   const indonesianKeywords = [
-    "ekspor bubuk kakao",
-    "supplier cengkeh",
-    "pabrik cocopeat",
-    "komoditas pertanian bekasi",
-    "perdagangan rempah indonesia",
-    "eksportir indonesia terpercaya",
-    "bahan baku industri makanan",
-    "media tanam hortikultura",
-    "kakao sulawesi sumatra",
-    "cengkeh lal pari",
-    "pengiriman komoditas ekspor"
+    "jasa pembuatan kanopi alderon",
+    "tukang las panggil bekasi",
+    "pagar stainless steel",
+    "konstruksi baja wf gudang",
+    "teralis jendela minimalis",
+    "bengkel las terpercaya bekasi",
+    "biaya pembuatan pagar besi",
+    "railing tangga minimalis",
+    "pintu lipat besi ruko",
+    "balkon besi tempa",
+    "jasa las listrik bekasi"
   ]
 
   const englishKeywords = [
-    "cocoa powder manufacturer",
-    "bulk cloves supplier",
-    "cocopeat block exporter",
-    "indonesian agro products",
-    "commodity sourcing indonesia",
-    "global agriculture supply chain",
-    "premium cocoa exporter",
-    "clove oil sourcing",
-    "sustainable cocopeat",
-    "indonesian spices market",
-    "commodity export logistics"
+    "welding services bekasi",
+    "custom iron gate manufacturer",
+    "canopy installation cikarang",
+    "steel structure construction",
+    "metal fabrication workshop",
+    "industrial welding bekasi",
+    "home security trellis builder",
+    "stainless steel work bekasi",
+    "modern fence design construction",
+    "mezzanine floor steel builder",
+    "welding workshop indonesia"
   ]
 
   return [
@@ -123,24 +123,24 @@ export const generateAISearchKeywords = (isIndonesian: boolean) => {
 export const generateAIContextualData = (_pageType: string, isIndonesian: boolean) => {
   const contextualData = {
     businessContext: {
-      industry: "Agricultural Commodity Trading",
-      subIndustry: "Exporter & Supplier",
-      targetMarket: "B2B International & Industrial",
-      businessModel: "Sourcing + Quality Control + Export",
-      competitiveAdvantage: "25+ years experience, direct farmer network, export quality"
+      industry: "Construction & Metal Fabrication",
+      subIndustry: "Welding Contractor",
+      targetMarket: "Residential, Commercial, & Industrial",
+      businessModel: "Custom Fabrication + On-site Installation",
+      competitiveAdvantage: "25+ years experience, SNI materials, expert master welders"
     },
     contentContext: {
       language: isIndonesian ? "Indonesian" : "English",
-      region: "Indonesia",
-      currency: "USD / IDR",
-      timezone: "WIB",
-      businessHours: "Monday-Saturday 08:00-17:00"
+      region: "Indonesia (Bekasi/Cikarang)",
+      currency: "IDR",
+      timezone: "WIB (UTC+7)",
+      businessHours: "Monday-Sunday 07:00-21:00"
     },
     technicalContext: {
-      websiteType: "Professional Exporter Corporate",
-      primaryGoal: "Lead Generation + Global Sourcing Partner",
-      conversionActions: ["Inquiry Form", "WhatsApp Contact", "Email Quote"],
-      userJourney: "Search -> Category Explore -> Product Spec -> Inquiry"
+      websiteType: "Professional Service Portfolio",
+      primaryGoal: "Lead Generation + Direct WhatsApp Inquiry",
+      conversionActions: ["WhatsApp Chat", "Site Survey Request", "Email Quote"],
+      userJourney: "Search -> Project Gallery -> Service Detail -> WhatsApp Inquiry"
     }
   }
 

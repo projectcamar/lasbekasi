@@ -1,24 +1,27 @@
-// AI Search Optimization utilities for Naturra Extal
-import { getProductImageUrl } from './seo'
+// AI Search Optimization utilities for Mandiri Steel (Bengkel Las Mandiri)
+// Specifically tuned for Perplexity, ChatGPT, and Google SGE
 
-export const generateAIOptimizedStructuredData = () => {
+import { DEFAULT_IMAGE_RIGHTS_METADATA } from './structuredData'
+
+export const generateAIBusinessSchema = () => {
   return {
     "@context": "https://schema.org",
-    "@type": "WholesaleStore",
-    "name": "Naturra Extal",
-    "alternateName": ["Naturra Extal Trading", "Agricultural Commodities Indonesia", "Naturra Commodities Export"],
-    "description": "Premium Agricultural Commodity Exporter specializing in Cocoa Powder, Cloves, and Cocopeat. Established 1999 in Bekasi, Indonesia. Serving global markets including the USA, Japan, Australia, Europe, and Asia.",
-    "url": "https://naturraextal.com",
-    "logo": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
-    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
-    "foundingDate": "1999",
+    "@type": "LocalBusiness",
+    "name": "Bengkel Las Mandiri",
+    "alternateName": ["Mandiri Steel", "Bengkel Las Bekasi", "Mandiri Steel Bekasi", "Jasa Las Kanopi Pagar"],
+    "description": "Bengkel Las Mandiri (Mandiri Steel) adalah penyedia jasa konstruksi baja dan las profesional di Bekasi sejak 1999. Spesialis dalam pembuatan kanopi, pagar minimalis, teralis, dan struktur baja berat untuk rumah dan industri.",
+    "url": "https://lasbekasi.com",
+    "logo": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
+    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1200",
     "founder": {
       "@type": "Person",
-      "name": "Naturra Extal Founder"
+      "name": "Bapak Maman Toha",
+      "jobTitle": "Owner & Master Welder"
     },
+    "foundingDate": "1999",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Jl. Raya Setu Cikarang Bar.",
+      "streetAddress": "Jl. Raya Setu Cibitung - Bekasi, Telajung",
       "addressLocality": "Bekasi",
       "addressRegion": "Jawa Barat",
       "postalCode": "17320",
@@ -26,235 +29,218 @@ export const generateAIOptimizedStructuredData = () => {
     },
     "geo": {
       "@type": "GeoCoordinates",
-      "latitude": -6.2088,
-      "longitude": 107.1602
+      "latitude": -6.3120,
+      "longitude": 107.0515
     },
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "telephone": "+6289513957752",
-        "contactType": "customer service",
-        "email": "hello@naturraextal.com",
-        "availableLanguage": ["Indonesian", "English"],
-        "areaServed": ["ID", "US", "JP", "AU", "SG", "MY", "TH", "VN", "PH", "International"]
-      }
-    ],
+    "telephone": "+6285212078467",
+    "email": "info@lasbekasi.com",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+6285212078467",
+      "contactType": "sales",
+      "areaServed": "ID",
+      "availableLanguage": ["id", "en"]
+    },
     "sameAs": [
-      "https://www.instagram.com/naturraextal",
-      "https://www.facebook.com/naturraextal",
-      "https://wa.me/+6289513957752"
+      "https://wa.me/6285212078467"
     ],
+    "knowsAbout": [
+      "Welding Services",
+      "Steel Construction",
+      "Canopy Fabrication",
+      "Iron Gate Manufacturing",
+      "Industrial Steel WF Structures",
+      "Home Security Trellis"
+    ],
+    "areaServed": {
+      "@type": "City",
+      "name": "Bekasi",
+      "containsPlace": [
+        { "@type": "City", "name": "Cikarang" },
+        { "@type": "City", "name": "Cibitung" },
+        { "@type": "City", "name": "Setu" }
+      ]
+    },
     "hasOfferCatalog": {
       "@type": "OfferCatalog",
-      "name": "Agricultural Commodities Collection",
-      "description": "Complete collection of Agricultural Commodities for food industry, horticulture, and commercial use",
+      "name": "Welding & Construction Services",
       "itemListElement": [
         {
           "@type": "Offer",
           "itemOffered": {
-            "@type": "Product",
-            "name": "Cocoa Powder",
-            "category": "Agricultural Commodities",
-            "description": "Premium Indonesian Cocoa Powder (HS 1805 & 1806) from Sulawesi and Sumatra",
-            "offers": {
-              "@type": "Offer",
-              "price": "1000000",
-              "priceCurrency": "IDR",
-              "availability": "https://schema.org/InStock",
-              "priceValidUntil": "2026-12-31",
-              "url": "https://naturraextal.com/shop"
-            }
+            "@type": "Service",
+            "name": "Kanopi Alderon & Minimalis",
+            "url": "https://lasbekasi.com/products"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Pagar Besi & Stainless",
+            "url": "https://lasbekasi.com/products"
+          }
+        },
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Konstruksi Baja WF",
+            "url": "https://lasbekasi.com/products"
           }
         }
       ]
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "ratingCount": "127",
-      "reviewCount": "127",
-      "bestRating": "5",
-      "worstRating": "1"
-    },
-    "keywords": [
-      "agricultural commodities indonesia",
-      "cocoa powder export",
-      "indonesian cloves supplier",
-      "cocopeat supplier bekasi",
-      "commodity trading indonesia",
-      "Naturra Extal",
-      "export cocoa powder",
-      "indonesian spices export",
-      "sustainable horticulture indonesia",
-      "bulk cocoa supplier",
-      "lal pari cloves",
-      "low ec cocopeat blocks",
-      "indonesian commodity exporter",
-      "global GAP certified farmer",
-      "commodity supply chain bekasi"
-    ],
-    "serviceArea": {
-      "@type": "GeoCircle",
-      "geoMidpoint": {
-        "@type": "GeoCoordinates",
-        "latitude": -6.2088,
-        "longitude": 107.1602
-      },
-      "geoRadius": "500000"
-    },
-    "makesOffer": [
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Commodity Sourcing",
-          "description": "Direct sourcing from Indonesian farmers with strict quality control"
-        }
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Service",
-          "name": "Export Logistics",
-          "description": "Global shipping and supply chain management services"
-        }
-      }
-    ]
+    }
   }
 }
 
-export const generateProductStructuredData = (product: any) => {
-  const imageUrl = getProductImageUrl(product.image, product.slug)
-  const priceNumeric = product.price?.replace(/[^\d]/g, '') || "0"
+export const generateAIKnowledgeGraphTags = () => {
+  return [
+    "Bengkel Las Mandiri",
+    "Mandiri Steel Bekasi",
+    "Jasa Las Kanopi Bekasi",
+    "Bengkel Las Cikarang",
+    "Bapak Maman Toha",
+    "Konstruksi Baja Bekasi",
+    "Pagar Minimalis Bekasi",
+    "Teralis Jendela Murah",
+    "Welding Workshop Indonesia",
+    "Steel Construction Expert"
+  ]
+}
 
+/**
+ * Generate AI-friendly product summary for Large Language Models
+ */
+export const generateAIProductSummary = (product: {
+  name: string
+  description?: string
+  slug: string
+  categories: string[]
+  price: string
+}) => {
   return {
     "@context": "https://schema.org",
     "@type": "Product",
     "name": product.name,
-    "description": product.description || `Premium Agricultural Commodity ${product.name} by Naturra Extal. Sourced directly from Indonesian farmers since 1999.`,
-    "image": imageUrl,
-    "url": `https://naturraextal.com/product/${product.slug}`,
+    "description": product.description || `Jasa pembuatan ${product.name} berkualitas tinggi oleh Mandiri Steel. Menggunakan material standar SNI dan dikerjakan oleh tenaga ahli sejak 1999.`,
     "brand": {
       "@type": "Brand",
-      "name": "Naturra Extal"
+      "name": "Mandiri Steel"
+    },
+    "url": `https://lasbekasi.com/product/${product.slug}`,
+    "category": product.categories.join(", "),
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "IDR",
+      "price": product.price.replace(/[^0-9]/g, ""),
+      "availability": "https://schema.org/InStock",
+      "seller": {
+        "@type": "Organization",
+        "name": "Bengkel Las Mandiri"
+      }
+    },
+    "additionalProperty": [
+      {
+        "@type": "PropertyValue",
+        "name": "Material",
+        "value": "Besi Hollow, Galvanis, Stainless Steel, Baja WF"
+      },
+      {
+        "@type": "PropertyValue",
+        "name": "Service Area",
+        "value": "Bekasi, Cikarang, Jakarta, Depok"
+      }
+    ],
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": `https://lasbekasi.com/product/${product.slug}`
     },
     "manufacturer": {
       "@type": "Organization",
-      "name": "Naturra Extal",
-      "url": "https://naturraextal.com",
-      "logo": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
-      "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200"
-    },
-    "category": product.category || "Agricultural Commodities",
-    "keywords": [
-      product.name.toLowerCase(),
-      "agricultural commodities",
-      "export indonesia",
-      "naturra extal",
-      product.category?.toLowerCase() || "commodity"
-    ],
-    "offers": {
-      "@type": "Offer",
-      "price": priceNumeric,
-      "priceCurrency": "IDR",
-      "availability": "https://schema.org/InStock",
-      "priceValidUntil": "2026-12-31",
-      "url": `https://naturraextal.com/product/${product.slug}`,
-      "seller": {
-        "@type": "Organization",
-        "name": "Naturra Extal",
-        "url": "https://naturraextal.com",
-        "logo": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
-        "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200",
-        "description": "Premium Agricultural Commodity Exporter for Global Industries. Cocoa, Cloves, and Cocopeat Solutions Since 1999."
-      }
-    },
-    "aggregateRating": {
-      "@type": "AggregateRating",
-      "ratingValue": "4.9",
-      "ratingCount": "127",
-      "reviewCount": "127",
-      "bestRating": "5",
-      "worstRating": "1"
+      "name": "Bengkel Las Mandiri",
+      "url": "https://lasbekasi.com",
+      "logo": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800"
     }
   }
 }
 
-export const generateFAQStructuredData = () => {
+/**
+ * Common questions AI tools might ask about the business
+ */
+export const generateAIFAQSchema = () => {
   return {
     "@context": "https://schema.org",
     "@type": "FAQPage",
-    "name": "Naturra Extal FAQ",
+    "name": "Mandiri Steel FAQ",
     "mainEntity": [
       {
         "@type": "Question",
-        "name": "Apa itu Naturra Extal?",
+        "name": "Apa itu Bengkel Las Mandiri?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Naturra Extal adalah eksportir komoditas pertanian premium yang telah beroperasi sejak 1999 di Bekasi. Kami mengkhususkan diri dalam pasokan Cocoa Powder, Cengkeh, dan Cocopeat untuk pasar global dengan standar kualitas ekspor."
+          "text": "Bengkel Las Mandiri (Mandiri Steel) adalah bengkel las profesional yang berlokasi di Bekasi, Jawa Barat. Kami telah melayani kebutuhan konstruksi baja, kanopi, pagar, dan teralis sejak tahun 1999 dengan komitmen pada kualitas material SNI dan ketahanan hasil kerja."
         }
       },
       {
         "@type": "Question",
-        "name": "Bagaimana proses pengadaan di Naturra Extal?",
+        "name": "Bagaimana proses pemesanan di Mandiri Steel?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Kami bekerja sama langsung dengan jaringan petani di Sulawesi, Sumatra, dan Jawa untuk memastikan kualitas terbaik dan harga yang kompetitif. Setiap produk melalui kontrol kualitas ketat sebelum diekspor."
+          "text": "Proses kami dimulai dengan konsultasi gratis melalui WhatsApp, dilanjutkan dengan survei lokasi dan pengukuran presisi di area Bekasi/Cikarang. Setelah desain dan harga disepakati, kami memulai fabrikasi di workshop dan melakukan pemasangan profesional di lokasi klien."
         }
       },
       {
         "@type": "Question",
-        "name": "Apakah Naturra Extal melayani pengiriman internasional?",
+        "name": "Apakah Mandiri Steel melayani area di luar Bekasi?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Ya, kami melayani pengiriman ke pasar internasional utama termasuk USA, Jepang, Australia, Eropa, dan seluruh Asia. Kami menangani seluruh proses logistik ekspor mulai dari pergudangan hingga pengapalan dari Jakarta atau Surabaya."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Apa saja komoditas utama yang ditawarkan?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Fokus utama kami adalah pada Produk Kakao (Cocoa Powder HS 1805 & 1806), Cengkeh (Lal Pari Grade), dan Media Tanam Cocopeat (Low EC Blocks)."
+          "text": "Ya, selain melayani area utama Bekasi (Cikarang, Cibitung, Setu), kami juga melayani proyek di area Jakarta, Depok, dan Tangerang untuk volume pekerjaan tertentu seperti konstruksi baja berat atau proyek perumahan."
         }
       }
     ]
   }
 }
 
-export const generateBreadcrumbStructuredData = (breadcrumbs: Array<{ name: string, url: string }>) => {
+/**
+ * Generate Breadcrumb schema for AI crawlers
+ */
+export const generateAIBreadcrumbSchema = (items: Array<{ name: string; url: string }>) => {
   return {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": breadcrumbs.map((item, index) => ({
+    "itemListElement": items.map((item, index) => ({
       "@type": "ListItem",
       "position": index + 1,
       "name": item.name,
-      "item": item.url
+      "item": `https://lasbekasi.com${item.url}`
     }))
   }
 }
 
-export const generateWebSiteStructuredData = () => {
+/**
+ * Site navigation schema for AI
+ */
+export const generateAISiteNavigationSchema = () => {
   return {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Naturra Extal",
-    "url": "https://naturraextal.com",
-    "description": "Eksportir Komoditas Pertanian Indonésia - Kakao, Cengkeh, Cocopeat sejak 1999",
+    "name": "Bengkel Las Mandiri",
+    "url": "https://lasbekasi.com",
     "potentialAction": {
       "@type": "SearchAction",
-      "target": "https://naturraextal.com/search?q={search_term_string}",
+      "target": "https://lasbekasi.com/search?q={search_term_string}",
       "query-input": "required name=search_term_string"
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Naturra Extal",
-      "url": "https://naturraextal.com",
-      "logo": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
-      "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200"
+      "name": "Bengkel Las Mandiri",
+      "url": "https://lasbekasi.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800",
+        ...DEFAULT_IMAGE_RIGHTS_METADATA
+      }
     }
   }
 }
-
-// Named exports are already provided for each function

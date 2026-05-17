@@ -108,7 +108,7 @@ const AdminBlogManager: React.FC = () => {
         const basePosts: BlogPost[] = BLOG_POSTS.map(p => ({ ...p, status: 'synced' as const }))
 
         // 2. Load from localStorage (overrides/new drafts)
-        const savedPosts = localStorage.getItem('NATURRA_blog_drafts')
+        const savedPosts = localStorage.getItem('MANDIRI_blog_drafts')
         if (savedPosts) {
             try {
                 const parsedDrafts = JSON.parse(savedPosts) as BlogPost[]
@@ -137,7 +137,7 @@ const AdminBlogManager: React.FC = () => {
     useEffect(() => {
         if (!isLoading) {
             const drafts = posts.filter(p => p.status === 'draft')
-            localStorage.setItem('NATURRA_blog_drafts', JSON.stringify(drafts))
+            localStorage.setItem('MANDIRI_blog_drafts', JSON.stringify(drafts))
         }
     }, [posts, isLoading])
 
@@ -253,7 +253,7 @@ const AdminBlogManager: React.FC = () => {
         setView('editor')
     }
 
-    const handleNew = () => {
+    function handleNew() {
         if (currentStep === 4) nextStep();
         const newId = posts.length > 0 ? Math.max(...posts.map(p => p.id)) + 1 : 1
         // Include full date and time in local timezone
@@ -338,7 +338,7 @@ const AdminBlogManager: React.FC = () => {
                 // Mark all as synced and clear local drafts
                 const syncedPosts = posts.map(p => ({ ...p, status: 'synced' as const }))
                 setPosts(syncedPosts)
-                localStorage.removeItem('NATURRA_blog_drafts')
+                localStorage.removeItem('MANDIRI_blog_drafts')
 
                 if (deployResult.commitSha) {
                     setActiveDeploymentSha(deployResult.commitSha)
@@ -764,7 +764,7 @@ const AdminBlogManager: React.FC = () => {
     return (
         <div className="admin-dashboard admin-blog-manager">
             <Helmet>
-                <title>{view === 'list' ? 'Blog Manager' : 'Edit Post'} | NATURRA Admin</title>
+                <title>{view === 'list' ? 'Blog Manager' : 'Edit Post'} | Mandiri Admin</title>
             </Helmet>
 
             <header className="admin-header">
@@ -816,7 +816,7 @@ const AdminBlogManager: React.FC = () => {
                                 {deploymentStatus === 'ready' ? <Check size={20} /> :
                                     deploymentStatus === 'failed' ? <X size={20} /> :
                                         <Loader2 size={20} className="animate-spin" />}
-                                <h3>NATURRA LIVE SYNC: {deploymentStatus === 'verifying' ? 'CHECKING WEBSITE' : deploymentStatus.toUpperCase()}</h3>
+                                <h3>MANDIRI LIVE SYNC: {deploymentStatus === 'verifying' ? 'CHECKING WEBSITE' : deploymentStatus.toUpperCase()}</h3>
                             </div>
                             <div className="deployment-header-actions">
                                 <button className="toggle-logs-btn" onClick={() => setShowLogs(!showLogs)} title="Toggle Activity Logs">

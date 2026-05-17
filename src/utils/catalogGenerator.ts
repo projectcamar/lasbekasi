@@ -1,13 +1,12 @@
 // ══════════════════════════════════════════════════════════════════════════════
-// Naturra Extal PREMIUM CATALOG GENERATOR 2025
-// World-Class Agricultural Commodities Catalog with Elegant Typography
+// Mandiri Steel PREMIUM CATALOG GENERATOR 2025
+// World-Class Welding & Steel Construction Catalog with Elegant Typography
 // ══════════════════════════════════════════════════════════════════════════════
 
 let jsPDF: any = null
 let ALL_PRODUCTS: any = null
 
 import type { Product } from '../data/products'
-// import { content } from './catalogTranslations'
 
 const loadPDFDependencies = async () => {
   if (!jsPDF) {
@@ -169,7 +168,7 @@ const prepareLanguageFont = async (doc: any, lang: string): Promise<{ family: st
 
 const getLanguagePreference = (): string => {
   try {
-    const saved = localStorage.getItem('naturra_preferred_language')
+    const saved = localStorage.getItem('mandiri_preferred_language')
     if (saved) return saved
   } catch (error) {
     console.log('Failed to read language preference')
@@ -248,11 +247,11 @@ const drawCoverPage = (opt: DrawOptions) => {
   doc.setTextColor(...colors.textLight)
   doc.setFontSize(60)
   setF('bold')
-  doc.text(processRTLText(t.title1 || 'Naturra', lang), pageWidth / 2, 75, { align: 'center' })
+  doc.text(processRTLText(t.title1 || 'Mandiri', lang), pageWidth / 2, 75, { align: 'center' })
 
   doc.setFontSize(28)
   setF('normal')
-  const title2Text = t.title2 || 'EXTAL'
+  const title2Text = t.title2 || 'STEEL'
   const processedTitle2 = processRTLText(title2Text, lang)
   const finalTitle2 = lang === 'ar' ? processedTitle2 : processedTitle2.split('').join('  ')
   doc.text(finalTitle2, pageWidth / 2, 92, { align: 'center' })
@@ -292,13 +291,13 @@ const drawCoverPage = (opt: DrawOptions) => {
   doc.setFontSize(11)
   setF('bold')
   doc.setTextColor(...colors.goldAccent)
-  doc.textWithLink('+6289513957752', pageWidth / 2, 210, { align: 'center', url: 'https://wa.me/+6289513957752' })
-  doc.textWithLink('hello@naturraextal.com', pageWidth / 2, 220, { align: 'center', url: 'mailto:hello@naturraextal.com' })
+  doc.textWithLink('+62 852-1207-8467', pageWidth / 2, 210, { align: 'center', url: 'https://wa.me/+6285212078467' })
+  doc.textWithLink('info@lasbekasi.com', pageWidth / 2, 220, { align: 'center', url: 'mailto:info@lasbekasi.com' })
 
   doc.setTextColor(...colors.textLight)
   setF('normal')
   doc.setFontSize(10)
-  doc.textWithLink('www.naturraextal.com', pageWidth / 2, 232, { align: 'center', url: 'https://naturraextal.com' })
+  doc.textWithLink('www.lasbekasi.com', pageWidth / 2, 232, { align: 'center', url: 'https://lasbekasi.com' })
 
   doc.setDrawColor(...colors.goldAccent)
   doc.setLineWidth(1)
@@ -539,7 +538,7 @@ const drawProductPages = async (opt: DrawOptions, pageNumber: { current: number 
         setF('bold')
         doc.setTextColor(...colors.textDark)
         const productName = product.name.length > 28 ? product.name.substring(0, 25) + '...' : product.name
-        const productUrl = `https://naturraextal.com/product/${product.slug}`
+        const productUrl = `https://lasbekasi.com/product/${product.slug}`
         const nameLines = doc.splitTextToSize(productName, imgWidth)
         const nameYPos = yPos + imgHeight + 8
         doc.textWithLink(nameLines[0], xPos + 2, nameYPos, { url: productUrl })
@@ -654,7 +653,7 @@ const drawContactPage = (opt: DrawOptions, pageNumber: number) => {
   doc.text(processRTLText(t.whatsappTitle, lang), pageWidth / 2, yPos, { align: 'center' })
   yPos += 10
   doc.setFontSize(16); setF('bold'); doc.setTextColor(...colors.textLight)
-  doc.textWithLink(processRTLText(t.whatsappNumber, lang), pageWidth / 2, yPos, { align: 'center', url: 'https://wa.me/+6289513957752' })
+  doc.textWithLink('+62 852-1207-8467', pageWidth / 2, yPos, { align: 'center', url: 'https://wa.me/+6285212078467' })
   yPos += 8
   doc.setFontSize(9); setF('normal'); doc.setTextColor(...colors.secondaryAccent)
   doc.text(processRTLText(t.whatsappHours, lang), pageWidth / 2, yPos, { align: 'center' })
@@ -665,9 +664,9 @@ const drawContactPage = (opt: DrawOptions, pageNumber: number) => {
   doc.text(processRTLText(t.emailTitle, lang), pageWidth / 2, yPos, { align: 'center' })
   yPos += 10
   doc.setFontSize(13); setF('bold'); doc.setTextColor(...colors.textLight)
-  doc.textWithLink(processRTLText(t.emailGeneral, lang), pageWidth / 2, yPos, { align: 'center', url: 'mailto:hello@naturraextal.com' })
+  doc.textWithLink('info@lasbekasi.com', pageWidth / 2, yPos, { align: 'center', url: 'mailto:info@lasbekasi.com' })
   yPos += 7
-  doc.textWithLink(processRTLText(t.emailSales, lang), pageWidth / 2, yPos, { align: 'center', url: 'mailto:hello@naturraextal.com' })
+  doc.textWithLink('info@lasbekasi.com', pageWidth / 2, yPos, { align: 'center', url: 'mailto:info@lasbekasi.com' })
   yPos += 8
   doc.setFontSize(9); setF('normal'); doc.setTextColor(...colors.secondaryAccent)
   doc.text(processRTLText(t.emailNote, lang), pageWidth / 2, yPos, { align: 'center' })
@@ -676,20 +675,20 @@ const drawContactPage = (opt: DrawOptions, pageNumber: number) => {
   doc.text(processRTLText(t.addressTitle, lang), pageWidth / 2, yPos, { align: 'center' })
   yPos += 10
   doc.setFontSize(11); setF('bold'); doc.setTextColor(...colors.textLight)
-  doc.textWithLink(processRTLText(t.addressFull1, lang), pageWidth / 2, yPos, { align: 'center', url: 'https://maps.app.goo.gl/ABqcrJ4Wv864RrjT9' })
+  doc.textWithLink('Jl. Raya Setu Cibitung - Bekasi, Telajung', pageWidth / 2, yPos, { align: 'center', url: 'https://maps.app.goo.gl/ABqcrJ4Wv864RrjT9' })
   yPos += 6
   setF('normal')
-  doc.textWithLink(processRTLText(t.addressFull2, lang), pageWidth / 2, yPos, { align: 'center', url: 'https://maps.app.goo.gl/ABqcrJ4Wv864RrjT9' })
+  doc.textWithLink('Kec. Cikarang Bar., Kabupaten Bekasi', pageWidth / 2, yPos, { align: 'center', url: 'https://maps.app.goo.gl/ABqcrJ4Wv864RrjT9' })
   yPos += 6
-  doc.textWithLink(processRTLText(t.addressFull3, lang), pageWidth / 2, yPos, { align: 'center', url: 'https://maps.app.goo.gl/ABqcrJ4Wv864RrjT9' })
+  doc.textWithLink('Jawa Barat 17320, Indonesia', pageWidth / 2, yPos, { align: 'center', url: 'https://maps.app.goo.gl/ABqcrJ4Wv864RrjT9' })
   yPos += 6
-  doc.textWithLink(processRTLText(t.addressFull4, lang), pageWidth / 2, yPos, { align: 'center', url: 'https://maps.app.goo.gl/ABqcrJ4Wv864RrjT9' })
+  doc.textWithLink('Bengkel Las Mandiri', pageWidth / 2, yPos, { align: 'center', url: 'https://maps.app.goo.gl/ABqcrJ4Wv864RrjT9' })
   yPos += 8
   doc.setFontSize(9); setF('italic'); doc.setTextColor(...colors.secondaryAccent)
   doc.text(processRTLText(t.addressNote, lang), pageWidth / 2, yPos, { align: 'center' })
   yPos += 15
   doc.setFontSize(15); setF('bold'); doc.setTextColor(...colors.goldAccent)
-  doc.textWithLink(processRTLText(t.website, lang), pageWidth / 2, yPos, { align: 'center', url: 'https://naturraextal.com' })
+  doc.textWithLink('www.lasbekasi.com', pageWidth / 2, yPos, { align: 'center', url: 'https://lasbekasi.com' })
   yPos += 15
   doc.setDrawColor(...colors.goldAccent); doc.setLineWidth(1)
   doc.line(pageWidth / 2 - 40, yPos, pageWidth / 2 + 40, yPos)
@@ -756,12 +755,12 @@ export const generateCatalog = async (preferredLanguage?: 'id' | 'en' | 'ar' | '
     pgRef.current++; drawContactPage(opt, pgRef.current)
 
     const fileNames: Record<string, string> = {
-      id: 'Katalog-Naturra-Extal-2025.pdf', en: 'Naturra-Extal-Catalog-2025.pdf',
-      ar: 'Naturra-Extal-Catalog-2025-AR.pdf', zh: 'Naturra-Extal-Catalog-2025-ZH.pdf',
-      ja: 'Naturra-Extal-Catalog-2025-JA.pdf', es: 'Naturra-Extal-Catalog-2025-ES.pdf',
-      fr: 'Naturra-Extal-Catalog-2025-FR.pdf', ko: 'Naturra-Extal-Catalog-2025-KO.pdf'
+      id: 'Katalog-Mandiri-Steel-2025.pdf', en: 'Mandiri-Steel-Catalog-2025.pdf',
+      ar: 'Mandiri-Steel-Catalog-2025-AR.pdf', zh: 'Mandiri-Steel-Catalog-2025-ZH.pdf',
+      ja: 'Mandiri-Steel-Catalog-2025-JA.pdf', es: 'Mandiri-Steel-Catalog-2025-ES.pdf',
+      fr: 'Mandiri-Steel-Catalog-2025-FR.pdf', ko: 'Mandiri-Steel-Catalog-2025-KO.pdf'
     }
-    doc.save(fileNames[lang] || 'Naturra-Extal-Catalog-2025.pdf')
+    doc.save(fileNames[lang] || 'Mandiri-Steel-Catalog-2025.pdf')
   })()
 
   const timeoutPromise = new Promise<never>((_, reject) => {

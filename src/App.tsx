@@ -6,23 +6,23 @@ import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/react'
 import { enableImageProtection, addImageProtectionStyles } from './utils/imageProtection'
 import { initializeGlobalWhatsAppTracking } from './utils/globalWhatsAppTracking'
-import { LanguageProvider } from './utils/languageContext.tsx'
+import { LanguageProvider } from './utils/languageContext'
 import './App.css'
 
-// ===== NATURRA EXTAL - Primary Landing Pages =====
-import NaturraHome from './pages/NaturraHome'
+// ===== MANDIRI STEEL - Rebranded Landing Pages =====
+import Home from './pages/Home'
 const NotFound = lazy(() => import('./pages/NotFound'))
 import WhatsAppButton from './components/WhatsAppButton'
 import SingaporeLanguageModal from './components/SingaporeLanguageModal'
 import ScrollToTop from './components/ScrollToTop'
 import ProtectedRoute from './components/ProtectedRoute'
 
-const NaturraAbout = lazy(() => import('./pages/NaturraAbout'))
-const NaturraProducts = lazy(() => import('./pages/NaturraProducts'))
-const NaturraBlog = lazy(() => import('./pages/NaturraBlog'))
-const NaturraBlogPost = lazy(() => import('./pages/NaturraBlogPost'))
-const NaturraCustomOrder = lazy(() => import('./pages/NaturraCustomOrder'))
-const NaturraPartnership = lazy(() => import('./pages/NaturraPartnership'))
+const About = lazy(() => import('./pages/About'))
+const Products = lazy(() => import('./pages/Products'))
+const Blog = lazy(() => import('./pages/Blog'))
+const BlogPost = lazy(() => import('./pages/BlogPost'))
+const CustomOrder = lazy(() => import('./pages/CustomOrder'))
+const Partnership = lazy(() => import('./pages/Partnership'))
 
 // Admin Pages
 const AdminLogin = lazy(() => import('./pages/AdminLogin'))
@@ -62,7 +62,7 @@ const Loading = () => (
   </div>
 )
 
-import { TutorialProvider } from './context/TutorialContext.tsx'
+import { TutorialProvider } from './context/TutorialContext'
 import AdminTutorial from './components/AdminTutorial'
 
 function App() {
@@ -87,36 +87,35 @@ function App() {
             <SingaporeLanguageModal />
             <Routes>
               {/* Primary Routes */}
-              <Route path="/" element={<NaturraHome />} />
-              {/* ... same routes ... */}
+              <Route path="/" element={<Home />} />
               <Route path="/about" element={
                 <Suspense fallback={<Loading />}>
-                  <NaturraAbout />
+                  <About />
                 </Suspense>
               } />
               <Route path="/products" element={
                 <Suspense fallback={<Loading />}>
-                  <NaturraProducts />
+                  <Products />
                 </Suspense>
               } />
               <Route path="/blog" element={
                 <Suspense fallback={<Loading />}>
-                  <NaturraBlog />
+                  <Blog />
                 </Suspense>
               } />
               <Route path="/blog/:slug" element={
                 <Suspense fallback={<Loading />}>
-                  <NaturraBlogPost />
+                  <BlogPost />
                 </Suspense>
               } />
               <Route path="/custom-order" element={
                 <Suspense fallback={<Loading />}>
-                  <NaturraCustomOrder />
+                  <CustomOrder />
                 </Suspense>
               } />
               <Route path="/partnership" element={
                 <Suspense fallback={<Loading />}>
-                  <NaturraPartnership />
+                  <Partnership />
                 </Suspense>
               } />
 
@@ -180,14 +179,14 @@ function App() {
               } />
 
               {/* Language path redirects to home */}
-              <Route path="/id" element={<NaturraHome />} />
-              <Route path="/eng" element={<NaturraHome />} />
-              <Route path="/ar" element={<NaturraHome />} />
-              <Route path="/zh" element={<NaturraHome />} />
-              <Route path="/ja" element={<NaturraHome />} />
-              <Route path="/es" element={<NaturraHome />} />
-              <Route path="/fr" element={<NaturraHome />} />
-              <Route path="/ko" element={<NaturraHome />} />
+              <Route path="/id" element={<Home />} />
+              <Route path="/eng" element={<Home />} />
+              <Route path="/ar" element={<Home />} />
+              <Route path="/zh" element={<Home />} />
+              <Route path="/ja" element={<Home />} />
+              <Route path="/es" element={<Home />} />
+              <Route path="/fr" element={<Home />} />
+              <Route path="/ko" element={<Home />} />
 
               {/* 404 Pages */}
               <Route path="/404-not-found" element={

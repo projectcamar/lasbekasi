@@ -1,245 +1,29 @@
 import React, { useEffect, useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { useParams, Link, useLocation, Navigate } from 'react-router-dom'
-import { Mail, MessageCircle, Share2, Facebook, Twitter, Linkedin, Copy, Check } from 'lucide-react'
+import { Facebook, Twitter, Linkedin, Copy, Check } from 'lucide-react'
 import NaturraHeader from '../components/NaturraHeader'
 import Footer from '../components/Footer'
 import Breadcrumb from '../components/Breadcrumb'
 import ServiceAreasSection from '../components/ServiceAreasSection'
 import AuthorCard from '../components/AuthorCard'
-import { getPostBySlug, BLOG_POSTS, type BlogPost } from '../data/blog'
+import { getPostBySlug, BLOG_POSTS } from '../data/blog'
 import { ALL_PRODUCTS } from '../data/products'
 import { getBlogPostContentLocalized, type BlogSection } from '../data/blogContent'
 import { convertIDRToUSD, convertIDRToCurrency } from '../utils/currencyConverter'
-import { generateBlogPostingSchema, generateFAQSchema } from '../utils/structuredData'
+import { generateBlogPostingSchema } from '../utils/structuredData'
 import { generateLanguageSpecificMeta, generateLocalizedUrls, truncateTitle, truncateMetaDescription } from '../utils/seo'
-import BlogProductShowcase from '../components/BlogProductShowcase'
-import { getRelevantProductsForBlog, getProductShowcaseHeading } from '../utils/blogProductMapping'
 import { getCurrentLanguage, type LanguageCode } from '../utils/languageManager'
 import { trackWhatsAppClick } from '../utils/whatsappTracking'
+import { 
+    BLOG_POST_TRANSLATIONS, 
+    MENTIONED_PRODUCT_LABEL, 
+    VIEW_PRODUCT_LABEL,
+    CTA_TRANSLATIONS 
+} from '../utils/blogTranslations'
 import './Blog.css'
 import './BlogPost.css'
-import '../components/DualLanguage.css'
 
-// Translations for sidebar features
-const SIDEBAR_FEATURES_TRANSLATIONS: Record<LanguageCode, {
-  newsletter: {
-    title: string
-    description: string
-    placeholder: string
-    button: string
-    success: string
-  }
-  share: {
-    title: string
-    description: string
-    copied: string
-    shareOn: string
-  }
-  consultation: {
-    title: string
-    description: string
-    button: string
-  }
-}> = {
-  id: {
-    newsletter: {
-      title: 'Dapatkan Update Artikel',
-      description: 'Subscribe untuk menerima artikel terbaru tentang agricultural commodities langsung ke email Anda.',
-      placeholder: 'Masukkan email Anda',
-      button: 'Subscribe',
-      success: 'Terima kasih! Silakan cek email Anda untuk konfirmasi.'
-    },
-    share: {
-      title: 'Bagikan Artikel',
-      description: 'Bagikan artikel ini ke teman atau kolega Anda',
-      copied: 'Link berhasil disalin!',
-      shareOn: 'Bagikan di'
-    },
-    consultation: {
-      title: 'Konsultasi Gratis',
-      description: 'Butuh saran untuk pengadaan komoditas pertanian Anda? Chat langsung dengan tim kami.',
-      button: 'Chat via WhatsApp'
-    }
-  },
-  en: {
-    newsletter: {
-      title: 'Get Article Updates',
-      description: 'Subscribe to receive the latest Agricultural Commodities articles directly to your email.',
-      placeholder: 'Enter your email',
-      button: 'Subscribe',
-      success: 'Thank you! Please check your email for confirmation.'
-    },
-    share: {
-      title: 'Share Article',
-      description: 'Share this article with your friends or colleagues',
-      copied: 'Link copied successfully!',
-      shareOn: 'Share on'
-    },
-    consultation: {
-      title: 'Free Consultation',
-      description: 'Need advice for your agricultural commodity sourcing? Chat directly with our team.',
-      button: 'Chat via WhatsApp'
-    }
-  },
-  ar: {
-    newsletter: {
-      title: 'احصل على تحديثات المقالات',
-      description: 'اشترك لتلقي أحدث مقالات الأثاث الصناعي مباشرة إلى بريدك الإلكتروني.',
-      placeholder: 'أدخل بريدك الإلكتروني',
-      button: 'اشترك',
-      success: 'شكراً لك! يرجى التحقق من بريدك الإلكتروني للتأكيد.'
-    },
-    share: {
-      title: 'شارك المقال',
-      description: 'شارك هذه المقالة مع أصدقائك أو زملائك',
-      copied: 'تم نسخ الرابط بنجاح!',
-      shareOn: 'شارك على'
-    },
-    consultation: {
-      title: 'استشارة مجانية',
-      description: 'هل تحتاج إلى نصيحة بشأن توريد سلعك الزراعية؟ تواصل مباشرة مع فريقنا.',
-      button: 'الدردشة عبر واتساب'
-    }
-  },
-  zh: {
-    newsletter: {
-      title: '获取文章更新',
-      description: '订阅以直接通过电子邮件接收最新的工业风家具文章。',
-      placeholder: '输入您的邮箱',
-      button: '订阅',
-      success: '谢谢！请查看您的邮箱进行确认。'
-    },
-    share: {
-      title: '分享文章',
-      description: '与您的朋友或同事分享这篇文章',
-      copied: '链接已成功复制！',
-      shareOn: '分享到'
-    },
-    consultation: {
-      title: '免费咨询',
-      description: '需要农产品采购建议？直接与我们团队聊天。',
-      button: '通过 WhatsApp 聊天'
-    }
-  },
-  ja: {
-    newsletter: {
-      title: '記事の更新を受け取る',
-      description: '最新のインダストリアル家具記事をメールで直接受け取るために購読してください。',
-      placeholder: 'メールアドレスを入力',
-      button: '購読',
-      success: 'ありがとうございます！メールで確認してください。'
-    },
-    share: {
-      title: '記事を共有',
-      description: 'この記事を友達や同僚と共有してください',
-      copied: 'リンクが正常にコピーされました！',
-      shareOn: 'で共有'
-    },
-    consultation: {
-      title: '無料相談',
-      description: '農産物の調達に関するアドバイスが必要ですか？チームに直接チャットできます。',
-      button: 'WhatsApp でチャット'
-    }
-  },
-  es: {
-    newsletter: {
-      title: 'Recibe Actualizaciones',
-      description: 'Suscríbete para recibir los últimos artículos sobre materias primas agrícolas directamente en tu correo.',
-      placeholder: 'Ingresa tu correo',
-      button: 'Suscribirse',
-      success: '¡Gracias! Por favor revisa tu correo para confirmar.'
-    },
-    share: {
-      title: 'Compartir Artículo',
-      description: 'Comparte este artículo con tus amigos o colegas',
-      copied: '¡Enlace copiado con éxito!',
-      shareOn: 'Compartir en'
-    },
-    consultation: {
-      title: 'Consulta Gratuita',
-      description: '¿Necesita asesoramiento para el suministro de sus productos básicos? Chatea directamente con nuestro equipo.',
-      button: 'Chatear por WhatsApp'
-    }
-  },
-  fr: {
-    newsletter: {
-      title: 'Recevoir les Mises à Jour',
-      description: 'Abonnez-vous pour recevoir les derniers articles sur les matières premières agricoles directement par e-mail.',
-      placeholder: 'Entrez votre e-mail',
-      button: "S'abonner",
-      success: 'Merci ! Veuillez vérifier votre e-mail pour confirmation.'
-    },
-    share: {
-      title: 'Partager l\'Article',
-      description: 'Partagez cet article avec vos amis ou collègues',
-      copied: 'Lien copié avec succès !',
-      shareOn: 'Partager sur'
-    },
-    consultation: {
-      title: 'Consultation Gratuite',
-      description: 'Besoin de conseils pour l\'approvisionnement de vos produits ? Discutez directement avec notre équipe.',
-      button: 'Discuter via WhatsApp'
-    }
-  },
-  ko: {
-    newsletter: {
-      title: '기사 업데이트 받기',
-      description: '최신 농산물 수출 기사를 이메일로 직접 받으려면 구독하세요.',
-      placeholder: '이메일 주소 입력',
-      button: '구독',
-      success: '감사합니다! 이메일에서 확인해 주세요.'
-    },
-    share: {
-      title: '기사 공유',
-      description: '이 기사를 친구나 동료와 공유하세요',
-      copied: '링크가 성공적으로 복사되었습니다!',
-      shareOn: '에서 공유'
-    },
-    consultation: {
-      title: '무료 상담',
-      description: '상품 소싱에 대한 조언이 필요하신가요? 저희 팀과 직접 채팅하세요.',
-      button: 'WhatsApp으로 채팅'
-    }
-  }
-}
-
-const BLOG_PRODUCT_SHOWCASE_DESCRIPTION: Record<LanguageCode, string> = {
-  id: "Jelajahi koleksi komoditas pertanian premium kami yang dirancang untuk memenuhi standar industri global Anda.",
-  en: "Explore our premium agricultural commodity collection designed to meet your global industrial standards.",
-  ar: "استكشف مجموعتنا المتميزة من السلع الزراعية المصممة لتلبية المعايير الصناعية العالمية الخاصة بك.",
-  zh: "探索我们的优质农产品系列，旨在满足您的全球工业标准。",
-  ja: "お客様のグローバルな産業基準を満たすように設計された、当社のプレミアム農産物コレクションをご覧ください。",
-  es: "Explore nuestra colección de productos agrícolas de primera calidad diseñada para cumplir con sus estándares industriales globales.",
-  fr: "Explorez notre collection de produits agricoles de qualité supérieure conçue pour répondre à vos normes industrielles mondiales.",
-  ko: "글로벌 산업 표준을 충족하도록 설계된 프리미엄 농산물 컬렉션을 살펴보세요."
-}
-
-const MENTIONED_PRODUCT_LABEL: Record<LanguageCode, string> = {
-  id: "Komoditas Pilihan",
-  en: "Featured Commodity",
-  ar: "سلعة مميزة",
-  zh: "精选商品",
-  ja: "注目の商品",
-  es: "Producto Destacado",
-  fr: "Produit Vedette",
-  ko: "주요 상품"
-}
-
-const VIEW_PRODUCT_LABEL: Record<LanguageCode, string> = {
-  id: "Lihat Produk",
-  en: "View Product",
-  ar: "عرض المنتج",
-  zh: "查看产品",
-  ja: "製品を見る",
-  es: "Ver Producto",
-  fr: "Voir le Produit",
-  ko: "제품 보기"
-}
-
-/**
- * Component to handle localized currency display for mentioned products
- */
 const ProductMentionPrice: React.FC<{ price: string; language: LanguageCode }> = ({ price, language }) => {
   const [highlightedPrice, setHighlightedPrice] = useState<string>(price)
   const [secondaryPrice, setSecondaryPrice] = useState<string | null>(null)
@@ -254,13 +38,7 @@ const ProductMentionPrice: React.FC<{ price: string; language: LanguageCode }> =
       }
 
       const currencyMap: Record<string, 'USD' | 'SAR' | 'CNY' | 'JPY' | 'EUR' | 'KRW'> = {
-        'en': 'USD',
-        'ar': 'SAR',
-        'zh': 'CNY',
-        'ja': 'JPY',
-        'es': 'EUR',
-        'fr': 'EUR',
-        'ko': 'KRW'
+        'en': 'USD', 'ar': 'SAR', 'zh': 'CNY', 'ja': 'JPY', 'es': 'EUR', 'fr': 'EUR', 'ko': 'KRW'
       };
 
       const targetCurrency = currencyMap[language] || 'USD';
@@ -268,99 +46,39 @@ const ProductMentionPrice: React.FC<{ price: string; language: LanguageCode }> =
       try {
         const converted = await convertIDRToCurrency(price, targetCurrency);
         setHighlightedPrice(converted);
-
         if (targetCurrency !== 'USD') {
           const usdVal = await convertIDRToUSD(price);
           setSecondaryPrice(usdVal);
         } else {
-          // For English/others where USD is primary, show IDR as secondary
           setSecondaryPrice(price);
         }
       } catch (error) {
         console.error('Price conversion error:', error);
       }
     };
-
     convert();
   }, [price, language]);
 
   return (
-    <div className="mentioned-product-price-container">
-      <span className="mentioned-product-price-primary">{highlightedPrice}</span>
-      {secondaryPrice && <span className="mentioned-product-price-secondary">{secondaryPrice}</span>}
+    <div className="mandiri-post__mention-price">
+      <span className="mandiri-post__mention-price-primary">{highlightedPrice}</span>
+      {secondaryPrice && <span className="mandiri-post__mention-price-secondary">{secondaryPrice}</span>}
     </div>
   );
 };
 
-const CTA_TRANSLATIONS: Record<LanguageCode, {
-  title: string
-  subtitle: string
-  viewAllProducts: string
-  contactUs: string
-}> = {
-  id: {
-    title: 'Tertarik dengan agricultural commodities Kami?',
-    subtitle: 'Kunjungi koleksi lengkap agricultural commodities custom berkualitas tinggi dari Naturra Extal.',
-    viewAllProducts: 'Lihat Semua Produk',
-    contactUs: 'Hubungi Kami'
-  },
-  en: {
-    title: 'Interested in Our Agricultural Commodities?',
-    subtitle: 'Visit our complete collection of high-quality custom Agricultural Commodities from Naturra Extal.',
-    viewAllProducts: 'View All Products',
-    contactUs: 'Contact Us'
-  },
-  ar: {
-    title: 'هل أنت مهتم بسلعنا الزراعية؟',
-    subtitle: 'زر مجموعتنا الكاملة من السلع الزراعية المخصصة عالية الجودة من Naturra Extal.',
-    viewAllProducts: 'عرض جميع المنتجات',
-    contactUs: 'اتصل بنا'
-  },
-  zh: {
-    title: '对我们的农产品感兴趣吗？',
-    subtitle: '访问我们完整的 Naturra Extal 高品质定制农产品系列。',
-    viewAllProducts: '查看所有产品',
-    contactUs: '联系我们'
-  },
-  ja: {
-    title: '当社の農産物にご興味はありますか？',
-    subtitle: 'Naturra Extal の高品質なカスタム農産物の完全なコレクションをご覧ください。',
-    viewAllProducts: 'すべての製品を見る',
-    contactUs: 'お問い合わせ'
-  },
-  es: {
-    title: '¿Interesado en nuestras materias primas agrícolas?',
-    subtitle: 'Visite nuestra colección completa de materias primas agrícolas personalizadas de alta calidad de Naturra Extal.',
-    viewAllProducts: 'Ver todos los productos',
-    contactUs: 'Contáctenos'
-  },
-  fr: {
-    title: 'Intéressé par nos matières premières agricoles ?',
-    subtitle: 'Visitez notre collection complète de matières premières agricoles sur mesure de haute qualité de Naturra Extal.',
-    viewAllProducts: 'Voir tous les produits',
-    contactUs: 'Nous contacter'
-  },
-  ko: {
-    title: '저희 농산물에 관심이 있으신가요?',
-    subtitle: 'Naturra Extal의 고품질 맞춤형 농산물 컬렉션 전체를 둘러보세요.',
-    viewAllProducts: '모든 제품 보기',
-    contactUs: '문의하기'
-  }
-}
-
 const BlogPost: React.FC = () => {
   const { slug } = useParams<{ slug: string }>()
   const location = useLocation()
-  const [isIndonesian, setIsIndonesian] = useState(false)
-  const [isLanguageLoading, setIsLanguageLoading] = useState(true)
   const [language, setLanguage] = useState<LanguageCode>('en')
   const [newsletterEmail, setNewsletterEmail] = useState('')
   const [newsletterSubmitted, setNewsletterSubmitted] = useState(false)
   const [newsletterLoading, setNewsletterLoading] = useState(false)
   const [linkCopied, setLinkCopied] = useState(false)
+  
   const post = slug ? getPostBySlug(slug) : undefined
+  const isIndonesian = language === 'id'
 
-  // Check if post has custom content, otherwise use AI-generated content
   const hasCustomContent = post?.customContent && (
     post.customContent.introduction ||
     (post.customContent.sections && post.customContent.sections.length > 0) ||
@@ -369,24 +87,11 @@ const BlogPost: React.FC = () => {
 
   const content = slug ? (hasCustomContent ? {
     sections: [
-      // Introduction section
-      ...(post.customContent?.introduction ? [{
-        heading: '',
-        paragraphs: [post.customContent.introduction]
-      }] : []),
-      // Custom sections
-      ...(post.customContent?.sections?.map((section: { heading: string; content: string; image?: string; imageAlt?: string; productId?: number }) => ({
-        heading: section.heading,
-        paragraphs: [section.content],
-        image: section.image,
-        imageAlt: section.imageAlt,
-        productId: section.productId
-      } as BlogSection)) || []),
-      // Conclusion section
-      ...(post.customContent?.conclusion ? [{
-        heading: '',
-        paragraphs: [post.customContent.conclusion]
-      }] : [])
+      ...(post.customContent?.introduction ? [{ heading: '', paragraphs: [post.customContent.introduction] }] : []),
+      ...(post.customContent?.sections?.map((section: any) => ({
+        heading: section.heading, paragraphs: [section.content], image: section.image, imageAlt: section.imageAlt, productId: section.productId
+      })) || []),
+      ...(post.customContent?.conclusion ? [{ heading: '', paragraphs: [post.customContent.conclusion] }] : [])
     ]
   } : getBlogPostContentLocalized(slug, language)) : undefined
 
@@ -395,614 +100,225 @@ const BlogPost: React.FC = () => {
   }, [slug])
 
   useEffect(() => {
-    // If the post has custom content with an explicit language set, use it.
-    // Otherwise, fall back to URL/browser detection.
     if (post?.customContent?.language) {
-      const explicitLang = post.customContent.language
-      setLanguage(explicitLang)
-      setIsIndonesian(explicitLang === 'id')
-      setIsLanguageLoading(false)
+      setLanguage(post.customContent.language)
     } else {
-      const detectedLang = getCurrentLanguage(location.pathname, location.search)
-      setLanguage(detectedLang)
-      setIsIndonesian(detectedLang === 'id')
-      setIsLanguageLoading(false)
+      setLanguage(getCurrentLanguage(location.pathname, location.search))
     }
   }, [location.pathname, location.search, post?.customContent?.language])
 
-  if (isLanguageLoading) {
-    return (
-      <div className="blog-page blog-post-page">
-        <NaturraHeader isIndonesian={isIndonesian} language={language} />
-        <main className="blog-post-main" style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '60vh' }}>
-          <div style={{ textAlign: 'center' }}>
-            <div style={{
-              width: '40px',
-              height: '40px',
-              border: '3px solid #f3f3f3',
-              borderTop: '3px solid #333',
-              borderRadius: '50%',
-              animation: 'spin 1s linear infinite',
-              margin: '0 auto 1rem'
-            }} />
-            <style>{`
-              @keyframes spin {
-                0% { transform: rotate(0deg); }
-                100% { transform: rotate(360deg); }
-              }
-            `}</style>
-            <p>Loading...</p>
-          </div>
-        </main>
-        <Footer isIndonesian={isIndonesian} language={language} />
-      </div>
-    )
-  }
+  if (!post || !content) return <Navigate to="/404-not-found" replace />
 
-  // Redirect to NotFound page if blog post doesn't exist to prevent Soft 404
-  if (!post || !content) {
-    return <Navigate to="/404-not-found" replace />
-  }
-
-  // Get other articles (exclude current)
-  const otherArticles = BLOG_POSTS
-    .filter(p => p.slug !== slug)
-    .sort(() => Math.random() - 0.5)
-    .slice(0, 7)
-
-  // Share article functions
+  const otherArticles = BLOG_POSTS.filter(p => p.slug !== slug).sort(() => Math.random() - 0.5).slice(0, 5)
   const currentUrl = typeof window !== 'undefined' ? window.location.href : ''
-  const articleTitle = post?.title || ''
+  const t = BLOG_POST_TRANSLATIONS[language] || BLOG_POST_TRANSLATIONS.en
 
   const handleCopyLink = async () => {
     try {
       await navigator.clipboard.writeText(currentUrl)
       setLinkCopied(true)
       setTimeout(() => setLinkCopied(false), 3000)
-    } catch (err) {
-      console.error('Failed to copy link:', err)
-    }
+    } catch (err) {}
   }
 
   const shareUrls = {
     facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(currentUrl)}`,
-    twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(articleTitle)}`,
+    twitter: `https://twitter.com/intent/tweet?url=${encodeURIComponent(currentUrl)}&text=${encodeURIComponent(post.title)}`,
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(currentUrl)}`,
-    whatsapp: `https://wa.me/?text=${encodeURIComponent(`${articleTitle} ${currentUrl}`)}`
+    whatsapp: `https://wa.me/?text=${encodeURIComponent(`${post.title} ${currentUrl}`)}`
   }
 
-  // Newsletter subscription handler
   const handleNewsletterSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!newsletterEmail.trim() || newsletterLoading) return
-
     setNewsletterLoading(true)
     try {
       await fetch('/api/subscribe', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          firstName: 'Blog Visitor',
-          email: newsletterEmail,
-          notificationType: 'newsletter_subscription',
-          blogPost: post?.title || '',
-          blogPostUrl: window.location.href,
-          language: language
-        }),
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: newsletterEmail, blogPost: post.title, language })
       })
       setNewsletterSubmitted(true)
       setNewsletterEmail('')
       setTimeout(() => setNewsletterSubmitted(false), 5000)
-    } catch (error) {
-      console.error('Newsletter subscription error:', error)
-    } finally {
-      setNewsletterLoading(false)
-    }
+    } catch (error) {} finally { setNewsletterLoading(false) }
   }
-
-  // Get translations for sidebar features
-  const sidebarFeatures = SIDEBAR_FEATURES_TRANSLATIONS[language] ?? SIDEBAR_FEATURES_TRANSLATIONS.en
 
   const breadcrumbItems = [
     { label: 'Home', path: '/' },
-    { label: post.category, path: '/blog' },
+    { label: 'Blog', path: '/blog' },
     { label: post.title, path: `/blog/${post.slug}` }
   ]
 
-  // Generate SEO-optimized keywords based on post slug
-  const generateKeywords = (slug: string, title: string) => {
-    const keywordMap: { [key: string]: string } = {
-      // HIGH-INTENT KEYWORDS
-      'cocoa-powder-export-guide': 'cocoa powder export, premium cocoa supplier, indonesian cocoa powder, global cocoa trade',
-      'cloves-sourcing-indonesia': 'cloves export indonesia, spice islands cloves, premium cloves supplier, aromatic cloves export',
-      'cocopeat-agricultural-benefits': 'cocopeat supplier, organic growing medium, cocopeat export grade, sustainable agriculture'
-    }
-    return keywordMap[slug] || `${title}, agricultural commodities, cocoa powder export, cloves supplier, Naturra Extal`
-  }
-
-  // Generate BlogPosting Schema
-  const blogSchema = generateBlogPostingSchema(post)
-  const metaDescription = (post.excerpt && post.excerpt.trim().length > 0)
-    ? post.excerpt
-    : (post.category === 'Export & International'
-      ? `Read: ${post.title} — Practical guide, FAQs, and product references from Naturra Extal.`
-      : `Baca: ${post.title} — Panduan praktis, FAQ, dan referensi produk dari Naturra Extal.`)
-
-  // Extract FAQ from content for AI Search Optimization (Strategy 1 & 5)
-  const extractFAQFromContent = () => {
-    if (!content?.sections) return []
-
-    const faqSection = content.sections.find((section: BlogSection) =>
-      section.heading?.toLowerCase().includes('faq') ||
-      section.heading?.toLowerCase().includes('pertanyaan')
-    )
-
-    if (!faqSection?.list) return []
-
-    // Parse FAQ list items (format: <strong>Question</strong><br/>Answer)
-    return faqSection.list.map((item: string) => {
-      const cleanItem = item.replace(/<[^>]*>/g, ' ').trim()
-      const parts = cleanItem.split(/\s+(?:br\/|:)\s*/)
-
-      if (parts.length >= 2) {
-        return {
-          question: parts[0].trim(),
-          answer: parts.slice(1).join(' ').trim()
-        }
-      }
-      return null
-    }).filter(Boolean) as Array<{ question: string; answer: string }>
-  }
-
-  const faqData = extractFAQFromContent()
-  const faqSchema = faqData.length > 0 ? generateFAQSchema(faqData) : null
-
-  // Check if this blog post should show Service Areas Section
-  // Show for "Local Area Guide" category (geo-targeted posts) or specific workshop-related posts
-  const shouldShowServiceAreas =
-    post.category === 'Local Area Guide' ||
-    post.slug === 'furniture-besi-custom-bekasi-workshop-terpercaya' ||
-    post.slug === 'bikin-furniture-besi-custom-jabodetabek-berkualitas'
-
   const localeMeta = generateLanguageSpecificMeta(isIndonesian)
   const localizedUrls = generateLocalizedUrls(location.pathname, location.search)
-
-  const formattedDate = new Date(post.date).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })
+  const blogSchema = generateBlogPostingSchema(post)
 
   return (
-    <div className="blog-page blog-post-page">
-      <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
-        <title>{truncateTitle(`${post.title} - Naturra Extal`)}</title>
-        <meta name="description" content={truncateMetaDescription(metaDescription)} />
-        <meta name="keywords" content={generateKeywords(post.slug, post.title)} />
-        <meta httpEquiv="content-language" content={localeMeta.lang} />
-        {/* Robots meta - allow indexing, follow links, point to canonical */}
-        <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-        <link rel="canonical" href={localizedUrls.canonical} />
-        {localizedUrls.alternates.map((alternate) => (
-          <link key={`blog-post-hreflang-${alternate.hrefLang}`} rel="alternate" hrefLang={alternate.hrefLang} href={alternate.href} />
-        ))}
-
-        {/* Open Graph Meta Tags */}
-        <meta property="og:title" content={post.title} />
-        <meta property="og:description" content={metaDescription} />
-        <meta property="og:image" content={post.image} />
-        <meta property="og:url" content={localizedUrls.canonical} />
+    <div className="mandiri-post">
+      <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction }}>
+        <title>{truncateTitle(`${post.title} - Mandiri Steel`)}</title>
+        <meta name="description" content={truncateMetaDescription(post.excerpt || post.title)} />
         <meta property="og:type" content="article" />
-        <meta property="article:published_time" content={post.date} />
-        <meta property="article:author" content={post.author || 'Naturra Extal'} />
-        <meta property="og:locale" content={localeMeta.locale} />
-        <meta property="og:locale:alternate" content="id_ID" />
-        <meta property="og:locale:alternate" content="en_US" />
-        {post.author === 'Moh Rifki' && (
-          <>
-            <meta name="author" content="Moh Rifki" />
-            <meta name="article:author" content="Moh Rifki" />
-            <meta name="article:author:role" content="Founder & CEO of Naturra Extal, Agricultural Export Specialist" />
-            <meta name="article:author:expertise" content="Agricultural Commodity Sourcing, International Trade Compliance, Supply Chain Logistics, Global Market Analysis" />
-            <meta name="article:author:experience" content="25+ years in agricultural commodity export and international trade supply chain management" />
-            <meta name="article:author:specialization" content="Agricultural Commodities & Global Export" />
-          </>
-        )}
-
-        {/* Twitter Card Meta Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={post.title} />
-        <meta name="twitter:description" content={metaDescription} />
-        <meta name="twitter:image" content={post.image} />
-
-        {/* BlogPosting Structured Data */}
-        <script type="application/ld+json">
-          {JSON.stringify(blogSchema)}
-        </script>
-
-        {/* FAQ Structured Data for AI Search Optimization */}
-        {faqSchema && (
-          <script type="application/ld+json">
-            {JSON.stringify(faqSchema)}
-          </script>
-        )}
+        <meta property="og:image" content={post.image} />
+        <script type="application/ld+json">{JSON.stringify(blogSchema)}</script>
+        {localizedUrls.alternates.map(alt => (
+          <link key={alt.hrefLang} rel="alternate" hrefLang={alt.hrefLang} href={alt.href} />
+        ))}
       </Helmet>
+
       <NaturraHeader isIndonesian={isIndonesian} language={language} />
 
-      <section className="blog-post-hero" aria-labelledby="blog-post-title">
-        <div className="blog-post-hero-image">
-          <img
-            src={post.image}
-            alt={`${post.title} - ${post.category} Agricultural Commodities Article by Naturra Extal`}
-            title={`${post.title} | Naturra Extal`}
-            loading="eager"
-            fetchPriority="high"
-            width="1920"
-            height="1080"
-          />
-          <div className="blog-post-hero-overlay" />
-        </div>
-        <div className="blog-post-hero-content">
-          <div className="blog-post-hero-inner">
-            <span className="blog-post-category-tag">{post.category}</span>
-            <h1 id="blog-post-title" className="blog-post-title">
-              {post.title}
-            </h1>
-            <p className="blog-post-meta">
-              {post.author || 'Naturra Extal'} · {formattedDate}
-            </p>
+      <div className="mandiri-post__hero">
+        <img src={post.image} alt={post.title} className="mandiri-post__hero-img" />
+        <div className="mandiri-post__hero-overlay"></div>
+        <div className="mandiri-post__hero-content">
+          <div className="mandiri-post__container">
+            <span className="mandiri-post__category">{post.category}</span>
+            <h1 className="mandiri-post__title">{post.title}</h1>
+            <div className="mandiri-post__meta">
+              <span>{post.author}</span> • <span>{post.date}</span>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
 
-      <div className="blog-breadcrumb-container">
-        <div className="blog-post-container">
+      <div className="mandiri-post__breadcrumb">
+        <div className="mandiri-post__container">
           <Breadcrumb items={breadcrumbItems} />
         </div>
       </div>
 
-      <main className="blog-post-main" aria-labelledby="blog-post-title">
-        <section className="blog-content-section">
-          <div className="blog-post-container">
-
-            <div className="blog-post-layout">
-              <article className="blog-post-article" aria-labelledby="blog-post-title">
-                {content.sections.map((section: BlogSection, index: number) => (
-                  <React.Fragment key={index}>
-                    <section className="blog-post-section">
-                      {section.heading && <h2 className="blog-post-section-heading">{section.heading}</h2>}
-
-                      {section.paragraphs?.map((para: string, pIndex: number) => (
-                        <p
-                          key={pIndex}
-                          className="blog-post-paragraph"
-                          dangerouslySetInnerHTML={{ __html: para }}
-                        />
-                      ))}
-
-                      {section.image && (
-                        <figure className="blog-post-figure">
-                          <img
-                            src={section.image}
-                            alt={section.imageAlt || `${post.title} - ${section.heading || 'Agricultural Commodities Article'} - Naturra Extal`}
-                            title={section.imageAlt || `${post.title} - ${section.heading || 'agricultural commodities Guide'} by Naturra Extal`}
-                            loading="lazy"
-                            width="800"
-                            height="500"
-                            itemProp="image"
-                            data-image-type="blog-content"
-                            data-post-slug={post.slug}
-                            data-section-heading={section.heading || ''}
-                          />
-                          {section.imageAlt && <figcaption className="blog-post-figcaption">{section.imageAlt}</figcaption>}
-                        </figure>
-                      )}
-
-                      {/* Mentioned Product Card */}
-                      {section.productId && (() => {
-                        const product = ALL_PRODUCTS.find(p => p.id === section.productId);
-                        if (!product) return null;
-
-                        return (
-                          <div className="blog-post-mentioned-product">
-                            <div className="mentioned-product-image">
-                              <img src={product.image} alt={product.name} />
-                            </div>
-                            <div className="mentioned-product-info">
-                              <span className="mentioned-product-label">
-                                {MENTIONED_PRODUCT_LABEL[language] || MENTIONED_PRODUCT_LABEL.en}
-                              </span>
-                              <h4 className="mentioned-product-name">{product.name}</h4>
-                              <ProductMentionPrice price={product.price} language={language} />
-                            </div>
-                            <Link
-                              to={`/product/${product.slug}?ref=blog_mention&language=${language}`}
-                              className="mentioned-product-action"
-                            >
-                              {VIEW_PRODUCT_LABEL[language] || VIEW_PRODUCT_LABEL.en}
-                            </Link>
-                          </div>
-                        );
-                      })()}
-
-                      {section.list && (
-                        <ul className="blog-post-list">
-                          {section.list.map((item: string, lIndex: number) => (
-                            <li key={lIndex} dangerouslySetInnerHTML={{ __html: item }} />
-                          ))}
-                        </ul>
-                      )}
-                    </section>
-
-                    {index === 2 && (() => {
-                      const relevantProducts = getRelevantProductsForBlog(post.slug, post.title, post.excerpt)
-                      if (relevantProducts.length > 0) {
-                        const showcaseHeading = getProductShowcaseHeading(post.slug, post.title, language)
-                        const showcaseDescription = BLOG_PRODUCT_SHOWCASE_DESCRIPTION[language] || BLOG_PRODUCT_SHOWCASE_DESCRIPTION.en
-
-                        return (
-                          <div className="blog-post-product-showcase">
-                            <BlogProductShowcase
-                              products={relevantProducts}
-                              heading={showcaseHeading}
-                              description={showcaseDescription}
-                              language={language}
-                            />
-                          </div>
-                        )
-                      }
-                      return null
-                    })()}
-                  </React.Fragment>
+      <main className="mandiri-post__main">
+        <div className="mandiri-post__container mandiri-post__layout">
+          <div className="mandiri-post__content">
+            {content.sections.map((section: BlogSection, idx: number) => (
+              <section key={idx} className="mandiri-post__section">
+                {section.heading && <h2 className="mandiri-post__heading">{section.heading}</h2>}
+                {section.paragraphs?.map((p: string, pi: number) => (
+                  <p key={pi} className="mandiri-post__text" dangerouslySetInnerHTML={{ __html: p }} />
                 ))}
-
-                {post.author === 'Helmi Ramdan' && (
-                  <div className="blog-post-author-card">
-                    <AuthorCard
-                      name="Helmi Ramdan"
-                      title={post.category === 'Export & International'
-                        ? "Associate at Housing and Settlement Department, DKI Jakarta Province"
-                        : "Associate at Dinas Perumahan Rakyat dan Kawasan Permukiman Provinsi DKI Jakarta"}
-                      experience={post.category === 'Export & International'
-                        ? [
-                          'Infrastructure Engineer at Damai Putra Group (3+ years)',
-                          'Design Engineer & Architectural Drafter (5+ years)',
-                          'Alumni of Diponegoro University',
-                          'Commercial Space Design & Construction Specialist'
-                        ]
-                        : [
-                          'Infrastructure Engineer at Damai Putra Group (3+ tahun)',
-                          'Design Engineer & Architectural Drafter (5+ tahun)',
-                          'Alumni Universitas Diponegoro',
-                          'Spesialis Commercial Space Design & Construction'
-                        ]}
-                      linkedIn="https://www.linkedin.com/in/helmi-ramdan-067912118/"
-                      language={language}
-                    />
-                  </div>
+                {section.image && (
+                  <figure className="mandiri-post__figure">
+                    <img src={section.image} alt={section.imageAlt || post.title} />
+                    {section.imageAlt && <figcaption>{section.imageAlt}</figcaption>}
+                  </figure>
                 )}
-
-                {(() => {
-                  const showcaseAlreadyShown = content.sections.length > 3
-
-                  if (!showcaseAlreadyShown) {
-                    const relevantProducts = getRelevantProductsForBlog(post.slug, post.title, post.excerpt)
-                    if (relevantProducts.length > 0) {
-                      const showcaseHeading = getProductShowcaseHeading(post.slug, post.title, language)
-                      const showcaseDescription = BLOG_PRODUCT_SHOWCASE_DESCRIPTION[language] || BLOG_PRODUCT_SHOWCASE_DESCRIPTION.en
-
-                      return (
-                        <div className="blog-post-product-showcase">
-                          <BlogProductShowcase
-                            products={relevantProducts}
-                            heading={showcaseHeading}
-                            description={showcaseDescription}
-                            language={language}
-                          />
-                        </div>
-                      )
-                    }
-                  }
-                  return null
-                })()}
-
-                {post.customContent?.keyPoints && post.customContent.keyPoints.length > 0 && (
-                  <div className="key-takeaways-box">
-                    <h3 className="key-takeaways-title">
-                      🔑 Key Takeaways
-                    </h3>
-                    <ul className="key-takeaways-list">
-                      {post.customContent.keyPoints.map((point: string, idx: number) => (
-                        <li key={idx} className="key-takeaway-item">
-                          <div className="key-takeaway-icon" />
-                          <span>{point}</span>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                )}
-
-                <div className="blog-post-cta-v2">
-                  <div className="cta-v2-container">
-                    <div className="cta-v2-content">
-                      <div className="cta-v2-badge">International Commodity Sourcing</div>
-                      <h2 className="cta-v2-title">
-                        {CTA_TRANSLATIONS[language]?.title || CTA_TRANSLATIONS.en.title}
-                      </h2>
-                      <p className="cta-v2-subtitle">
-                        {CTA_TRANSLATIONS[language]?.subtitle || CTA_TRANSLATIONS.en.subtitle}
-                      </p>
-                    </div>
-                    <div className="cta-v2-actions">
-                      <Link to="/products" className="btn-v2-primary">
-                        {CTA_TRANSLATIONS[language]?.viewAllProducts || CTA_TRANSLATIONS.en.viewAllProducts}
-                      </Link>
-                      <Link to="/contact-us" className="btn-v2-secondary">
-                        {CTA_TRANSLATIONS[language]?.contactUs || CTA_TRANSLATIONS.en.contactUs}
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="cta-v2-decorator" />
-                </div>
-              </article>
-
-              {otherArticles.length > 0 && (
-                <aside className="blog-post-sidebar" aria-labelledby="blog-post-sidebar-title">
-                  <div className="blog-post-sidebar-card card">
-                    <h2 id="blog-post-sidebar-title" className="blog-post-sidebar-title">Other Articles</h2>
-                    <ul className="blog-post-sidebar-list">
-                      {otherArticles.map((article: BlogPost) => (
-                        <li key={article.id}>
-                          <Link to={`/blog/${article.slug}`} className="blog-post-sidebar-link">
-                            <span className="blog-post-sidebar-link-title">{article.title}</span>
-                            <span className="blog-post-sidebar-link-category">{article.category}</span>
-                          </Link>
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  {/* Feature 1: Newsletter Subscription */}
-                  <div className="blog-post-sidebar-feature card">
-                    <div className="sidebar-feature-icon">
-                      <Mail size={20} />
-                    </div>
-                    <h3 className="sidebar-feature-title">{sidebarFeatures.newsletter.title}</h3>
-                    <p className="sidebar-feature-description">{sidebarFeatures.newsletter.description}</p>
-                    {!newsletterSubmitted ? (
-                      <form onSubmit={handleNewsletterSubmit} className="sidebar-newsletter-form">
-                        <input
-                          type="email"
-                          value={newsletterEmail}
-                          onChange={(e) => setNewsletterEmail(e.target.value)}
-                          placeholder={sidebarFeatures.newsletter.placeholder}
-                          required
-                          className="sidebar-newsletter-input"
-                          disabled={newsletterLoading}
-                        />
-                        <button
-                          type="submit"
-                          className="sidebar-newsletter-btn"
-                          disabled={newsletterLoading || !newsletterEmail.trim()}
-                        >
-                          {newsletterLoading ? '...' : sidebarFeatures.newsletter.button}
-                        </button>
-                      </form>
-                    ) : (
-                      <div className="sidebar-newsletter-success">
-                        <p>{sidebarFeatures.newsletter.success}</p>
+                {section.productId && (() => {
+                  const product = ALL_PRODUCTS.find(p => p.id === section.productId);
+                  if (!product) return null;
+                  return (
+                    <div className="mandiri-post__mention">
+                      <img src={product.image} alt={product.name} />
+                      <div className="mandiri-post__mention-info">
+                        <span className="mandiri-post__mention-label">{MENTIONED_PRODUCT_LABEL[language]}</span>
+                        <h4>{product.name}</h4>
+                        <ProductMentionPrice price={product.price} language={language} />
+                        <Link to={`/product/${product.slug}?ref=blog`} className="mandiri-post__mention-btn">
+                          {VIEW_PRODUCT_LABEL[language]}
+                        </Link>
                       </div>
-                    )}
-                  </div>
+                    </div>
+                  );
+                })()}
+                {section.list && (
+                  <ul className="mandiri-post__list">
+                    {section.list.map((item: string, li: number) => <li key={li} dangerouslySetInnerHTML={{ __html: item }} />)}
+                  </ul>
+                )}
+              </section>
+            ))}
 
-                  {/* Feature 2: Share Article */}
-                  <div className="blog-post-sidebar-feature card">
-                    <div className="sidebar-feature-icon">
-                      <Share2 size={20} />
-                    </div>
-                    <h3 className="sidebar-feature-title">{sidebarFeatures.share.title}</h3>
-                    <p className="sidebar-feature-description">{sidebarFeatures.share.description}</p>
-                    <div className="share-buttons-grid">
-                      <a
-                        href={shareUrls.facebook}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="share-button share-facebook"
-                        onClick={() => trackWhatsAppClick('blog_post_share_facebook', {
-                          blogPost: post?.title || '',
-                          blogPostSlug: slug || ''
-                        })}
-                      >
-                        <Facebook size={18} />
-                        <span>Facebook</span>
-                      </a>
-                      <a
-                        href={shareUrls.twitter}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="share-button share-twitter"
-                        onClick={() => trackWhatsAppClick('blog_post_share_twitter', {
-                          blogPost: post?.title || '',
-                          blogPostSlug: slug || ''
-                        })}
-                      >
-                        <Twitter size={18} />
-                        <span>Twitter</span>
-                      </a>
-                      <a
-                        href={shareUrls.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="share-button share-linkedin"
-                        onClick={() => trackWhatsAppClick('blog_post_share_linkedin', {
-                          blogPost: post?.title || '',
-                          blogPostSlug: slug || ''
-                        })}
-                      >
-                        <Linkedin size={18} />
-                        <span>LinkedIn</span>
-                      </a>
-                      <a
-                        href={shareUrls.whatsapp}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="share-button share-whatsapp"
-                        onClick={() => trackWhatsAppClick('blog_post_share_whatsapp', {
-                          blogPost: post?.title || '',
-                          blogPostSlug: slug || ''
-                        })}
-                      >
-                        <MessageCircle size={18} />
-                        <span>WhatsApp</span>
-                      </a>
-                      <button
-                        onClick={handleCopyLink}
-                        className={`share-button share-copy ${linkCopied ? 'copied' : ''}`}
-                      >
-                        {linkCopied ? <Check size={18} /> : <Copy size={18} />}
-                        <span>{linkCopied ? sidebarFeatures.share.copied : 'Copy Link'}</span>
-                      </button>
-                    </div>
-                  </div>
+            <ServiceAreasSection language={language} />
+            
+            <div className="mandiri-post__author-wrap">
+              <AuthorCard 
+                name="Maman Toha" 
+                title="Master Welder & Founder" 
+                language={language} 
+                experience={language === 'id' ? [
+                  'Spesialis Pengelasan Kanopi & Pagar Minimalis',
+                  'Konstruksi Struktur Baja WF & H-Beam',
+                  'Pengalaman Pengelasan Profesional sejak 1999',
+                  'Ahli Fabrikasi Besi Tempa & Stainless Steel'
+                ] : [
+                  'Minimalist Canopy & Gate Welding Specialist',
+                  'WF Steel & H-Beam Structural Construction',
+                  'Professional Welding Experience since 1999',
+                  'Wrought Iron & Stainless Steel Fabrication Expert'
+                ]}
+              />
+            </div>
 
-                  {/* Feature 3: Free Consultation CTA */}
-                  <div className="blog-post-sidebar-feature card sidebar-consultation">
-                    <div className="sidebar-feature-icon">
-                      <MessageCircle size={20} />
-                    </div>
-                    <h3 className="sidebar-feature-title">{sidebarFeatures.consultation.title}</h3>
-                    <p className="sidebar-feature-description">{sidebarFeatures.consultation.description}</p>
-                    <a
-                      href={`https://wa.me/+6289513957752?text=${encodeURIComponent(
-                        post?.category === 'Export & International'
-                          ? `Hello Naturra Extal,\n\nI just read your article: "${post?.title}". I'm interested in Agricultural Commodities for my project. Can I get more information and consultation?\n\nArticle: ${window.location.href}\n\nThank you!`
-                          : `Halo Naturra Extal,\n\nSaya baru membaca artikel Anda: "${post?.title}". Saya tertarik dengan agricultural commodities untuk project saya. Bisakah saya mendapatkan informasi lebih lanjut dan konsultasi?\n\nArtikel: ${window.location.href}\n\nTerima kasih!`
-                      )}`}
-                      className="sidebar-consultation-btn"
-                      onClick={() => trackWhatsAppClick('blog_post_consultation_sidebar', {
-                        blogPost: post?.title || '',
-                        blogPostSlug: slug || '',
-                        blogPostCategory: post?.category || ''
-                      })}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <MessageCircle size={16} />
-                      {sidebarFeatures.consultation.button}
+            <div className="mandiri-post__cta">
+                <h3>{CTA_TRANSLATIONS[language].title}</h3>
+                <p>{CTA_TRANSLATIONS[language].subtitle}</p>
+                <div className="mandiri-post__cta-btns">
+                    <Link to="/products" className="mandiri-post__cta-btn mandiri-post__cta-btn--primary">
+                        {CTA_TRANSLATIONS[language].viewAllProducts}
+                    </Link>
+                    <a href={`https://wa.me/6281210000000?text=${encodeURIComponent("Halo Mandiri Steel, saya tertarik dengan layanan Anda setelah membaca artikel: " + post.title)}`} className="mandiri-post__cta-btn mandiri-post__cta-btn--secondary">
+                        {CTA_TRANSLATIONS[language].contactUs}
                     </a>
-                  </div>
-                </aside>
-              )}
+                </div>
             </div>
           </div>
-        </section>
+
+          <aside className="mandiri-post__sidebar">
+            <div className="mandiri-post__sidebar-box">
+              <h4 className="mandiri-post__sidebar-title">{t.newsletter.title}</h4>
+              <p>{t.newsletter.description}</p>
+              <form onSubmit={handleNewsletterSubmit}>
+                <input 
+                  type="email" 
+                  placeholder={t.newsletter.placeholder} 
+                  value={newsletterEmail}
+                  onChange={(e) => setNewsletterEmail(e.target.value)}
+                  required 
+                />
+                <button type="submit" disabled={newsletterLoading}>
+                  {newsletterLoading ? '...' : t.newsletter.button}
+                </button>
+              </form>
+              {newsletterSubmitted && <p className="mandiri-post__success">{t.newsletter.success}</p>}
+            </div>
+
+            <div className="mandiri-post__sidebar-box">
+              <h4 className="mandiri-post__sidebar-title">{t.share.title}</h4>
+              <div className="mandiri-post__share">
+                <a href={shareUrls.facebook} target="_blank" rel="noreferrer"><Facebook size={18} /></a>
+                <a href={shareUrls.twitter} target="_blank" rel="noreferrer"><Twitter size={18} /></a>
+                <a href={shareUrls.linkedin} target="_blank" rel="noreferrer"><Linkedin size={18} /></a>
+                <button onClick={handleCopyLink}>{linkCopied ? <Check size={18} /> : <Copy size={18} />}</button>
+              </div>
+            </div>
+
+            <div className="mandiri-post__sidebar-box mandiri-post__sidebar-box--cta">
+              <h4 className="mandiri-post__sidebar-title">{t.consultation.title}</h4>
+              <p>{t.consultation.description}</p>
+              <button className="mandiri-post__consult-btn" onClick={() => trackWhatsAppClick('blog_sidebar')}>
+                {t.consultation.button}
+              </button>
+            </div>
+
+            <div className="mandiri-post__sidebar-box">
+                <h4 className="mandiri-post__sidebar-title">Artikel Terkait</h4>
+                <div className="mandiri-post__related">
+                    {otherArticles.map(p => (
+                        <Link key={p.id} to={`/blog/${p.slug}`} className="mandiri-post__related-item">
+                            <img src={p.image} alt={p.title} />
+                            <span>{p.title}</span>
+                        </Link>
+                    ))}
+                </div>
+            </div>
+          </aside>
+        </div>
       </main>
 
-      {shouldShowServiceAreas && <ServiceAreasSection isIndonesian={isIndonesian} />}
-
-      <Footer isIndonesian={isIndonesian} language={language} />
-    </div >
+      <Footer isIndonesian={isIndonesian} />
+    </div>
   )
 }
 
 export default BlogPost
-

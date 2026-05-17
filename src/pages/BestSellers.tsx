@@ -2,7 +2,7 @@ import React, { useState, useMemo, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
 import { ChevronDown } from 'lucide-react'
-import NaturraHeader from '../components/NaturraHeader'
+import Header from '../components/Header'
 import Footer from '../components/Footer'
 import Breadcrumb from '../components/Breadcrumb'
 import { ALL_PRODUCTS } from '../data/products'
@@ -86,8 +86,8 @@ const BestSellers: React.FC = () => {
   return (
     <div className="product-category-page">
       <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
-        <title>Best Sellers - Naturra Extal</title>
-        <meta name="description" content="Browse our best-selling Agricultural Commodities collection at Naturra Extal" />
+        <title>Produk Unggulan - Mandiri Steel Bekasi</title>
+        <meta name="description" content="Koleksi produk las dan konstruksi baja terbaik dari Bengkel Las Mandiri Bekasi." />
         <meta httpEquiv="content-language" content={localeMeta.lang} />
         <link rel="canonical" href={localizedUrls.canonical} />
         {localizedUrls.alternates.map((alternate) => (
@@ -99,17 +99,17 @@ const BestSellers: React.FC = () => {
         <meta property="og:locale:alternate" content="en_US" />
       </Helmet>
 
-      <NaturraHeader isIndonesian={isIndonesian} language={language} />
+      <Header isIndonesian={isIndonesian} language={language} />
 
       <main className="category-main">
         <div className="container">
           <Breadcrumb items={breadcrumbItems} />
 
-          <h1 className="category-page-title">Best Sellers</h1>
+          <h1 className="category-page-title">Produk Unggulan</h1>
 
           <div className="category-controls">
             <p className="showing-results">
-              Showing 1-{sortedProducts.length} of {sortedProducts.length} results
+              Menampilkan 1-{sortedProducts.length} dari {sortedProducts.length} hasil
             </p>
 
             <div className="sort-dropdown">
@@ -117,15 +117,15 @@ const BestSellers: React.FC = () => {
                 className="sort-button"
                 onClick={() => setIsDropdownOpen(!isDropdownOpen)}
               >
-                Sort by: {sortBy === 'default' ? 'Default' : sortBy === 'price-low' ? 'Price: Low to High' : 'Price: High to Low'}
+                Urutkan: {sortBy === 'default' ? 'Default' : sortBy === 'price-low' ? 'Harga: Rendah ke Tinggi' : 'Harga: Tinggi ke Rendah'}
                 <ChevronDown size={16} />
               </button>
 
               {isDropdownOpen && (
                 <div className="sort-options">
                   <button onClick={() => { setSortBy('default'); setIsDropdownOpen(false); }}>Default</button>
-                  <button onClick={() => { setSortBy('price-low'); setIsDropdownOpen(false); }}>Price: Low to High</button>
-                  <button onClick={() => { setSortBy('price-high'); setIsDropdownOpen(false); }}>Price: High to Low</button>
+                  <button onClick={() => { setSortBy('price-low'); setIsDropdownOpen(false); }}>Harga: Rendah ke Tinggi</button>
+                  <button onClick={() => { setSortBy('price-high'); setIsDropdownOpen(false); }}>Harga: Tinggi ke Rendah</button>
                 </div>
               )}
             </div>
@@ -143,15 +143,12 @@ const BestSellers: React.FC = () => {
                   <div className="category-product-image">
                     <img
                       src={product.image}
-                      alt={`${translatedName} - Best Seller Agricultural Commodities ${product.categories.join(' ')} Naturra Extal`}
-                      title={`${translatedName} - Best Seller ${product.categories.join(' ')} Premium Commodities`}
+                      alt={`${translatedName} - Jasa Las Mandiri Steel Bekasi ${product.categories.join(' ')}`}
+                      title={`${translatedName} - Best Seller ${product.categories.join(' ')} Mandiri Steel`}
                       loading="lazy"
                       width="300"
                       height="200"
                       itemProp="image"
-                      data-image-type="best-seller"
-                      data-product-name={translatedName}
-                      data-category={product.categories.join(',')}
                     />
                   </div>
                   <div className="category-product-info">

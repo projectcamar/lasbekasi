@@ -1,74 +1,66 @@
 export const PRODUCT_DESCRIPTIONS_AR: Record<string, any> = {
-    'cocoa-powder-pure': {
-        name: 'مسحوق الكاكاو النقي',
-        caption: 'مسحوق الكاكاو الإندونيسي النقي الممتاز | Naturra Extal',
-        shortCaption: 'مسحوق الكاكاو النقي - HS 1805.00.0',
-        description: `Premium pure cocoa powder (HS 1805.00.0) sourced from the finest Indonesian beans. Ideal for global confectionery and industrial food manufacturing.`,
-        metaDescription: 'مسحوق الكاكاو الإندونيسي النقي الممتاز | Naturra Extal',
-        imageAlt: 'مسحوق الكاكاو النقي من Naturra Extal'
+    'kanopi-minimalis-alderon': {
+        name: 'مظلة الديرون البسيطة',
+        caption: 'مظلة الديرون البسيطة في بيكاسي | مانديري ستيل',
+        shortCaption: 'مظلة الديرون - باردة ومتينة',
+        description: `تعتبر المظلات ذات أسقف الديرون الخيار الأفضل للطقس الحار في بيكاسي. مادة UPVC في الديرون قادرة على تقليل الحرارة وضوضاء المطر بشكل جيد للغاية. نحن نستخدم إطارات حديد مجوفة عالية الجودة.`,
+        metaDescription: 'خدمة تركيب مظلة الديرون بيكاسي | مانديري ستيل',
+        imageAlt: 'مظلة الديرون بواسطة مانديري ستيل'
     },
-    'cocoa-powder-sweetened': {
-        name: 'مسحوق الكاكاو المحلى',
-        caption: 'مزيج مسحوق الكاكاو المحلى | Naturra Extal',
-        shortCaption: 'مسحوق الكاكاو المحلى - HS 1806.00.0',
-        description: `Balanced blend of premium cocoa and sweetener (HS 1806.00.0), ready for international food applications.`,
-        metaDescription: 'مزيج مسحوق الكاكاو المحلى | Naturra Extal',
-        imageAlt: 'مسحوق الكاكاو المحلى من Naturra Extal'
+    'kanopi-kaca-tempered': {
+        name: 'مظلة زجاجية مقواة',
+        caption: 'مظلة زجاجية مقواة فاخرة | تصميم حصري من مانديري ستيل',
+        shortCaption: 'مظلة زجاجية - حديثة وفاخرة',
+        description: `توفر انطباعًا فاخرًا وحديثًا لمنزلك. تستخدم مظلاتنا الزجاجية المقواة زجاجًا بسمك 8 ملم أو 10 ملم وهو آمن وقوي.`,
+        metaDescription: 'خدمة تصنيع مظلات الزجاج المقوى بيكاسي | مانديري ستيل',
+        imageAlt: 'مظلة زجاج مقوى بواسطة مانديري ستيل'
     },
-    'cocoa-beans-raw': {
-        name: 'بذور الكاكاو (خام)',
-        caption: 'بذور الكاكاو المخمرة من سولاويزي وسومطرة | Naturra Extal',
-        shortCaption: 'بذور الكاكاو الخام - تخمير ممتاز',
-        description: `Hand-selected raw cocoa beans from Indonesia, fermented and sun-dried for a rich flavor profile.`,
-        metaDescription: 'بذور الكاكاو الإندونيسية الخام | Naturra Extal',
-        imageAlt: 'بذور الكاكاو الخام من Naturra Extal'
+    'pagar-minimalis-modern': {
+        name: 'سياج حديث بسيط',
+        caption: 'سياج حديد بسيط بيكاسي | مانديري ستيل',
+        shortCaption: 'سياج بسيط - آمن وجمالي',
+        description: `تم تصميم أسوارنا البسيطة لتوفير أقصى قدر من الأمن دون المساومة على الجماليات. استخدام مادة الحديد المجلفن المقاوم للصدأ.`,
+        metaDescription: 'ورشة لحام أسوار بسيطة بيكاسي | مانديري ستيل',
+        imageAlt: 'سياج حديد حديث بسيط بواسطة مانديري ستيل'
     },
-    'cocoa-butter': {
-        name: 'زبدة الكاكاو',
-        caption: 'زبدة الكاكاو الإندونيسية النقية | Naturra Extal',
-        shortCaption: 'زبدة الكاكاو النقية - استخراج ممتاز',
-        description: `High-quality cocoa butter extracted from premium Indonesian beans for chocolate, cosmetics, and pharmaceuticals.`,
-        metaDescription: 'زبدة الكاكاو الإندونيسية النقية | Naturra Extal',
-        imageAlt: 'زبدة الكاكاو النقية من Naturra Extal'
+    'pagar-besi-tempa-klasik': {
+        name: 'سياج حديد مشغول كلاسيكي',
+        caption: 'سياج حديد مشغول فاخر كلاسيكي | مانديري ستيل بيكاسي',
+        shortCaption: 'سياج كلاسيكي - زخارف فاخرة',
+        description: `الخيار الصحيح للمنازل ذات الطراز الكلاسيكي أو المتوسطي. تستخدم أسوارنا المصنوعة من الحديد المشغول مادة الحديد الصلب مع زخارف متنوعة.`,
+        metaDescription: 'خدمة تصنيع سياج الحديد المشغول الكلاسيكي بيكاسي | مانديري ستيل',
+        imageAlt: 'سياج حديد مشغول كلاسيكي بواسطة مانديري ستيل'
     },
-    'cloves-whole': {
-        name: 'قرنفل (كامل)',
-        caption: 'قرنفل إندونيسي ممتاز | Naturra Extal',
-        shortCaption: 'قرنفل كامل - محتوى زيت عالي',
-        description: `Premium hand-picked whole cloves from the Spice Islands, ensuring high eugenol content and intense aroma.`,
-        metaDescription: 'قرنفل إندونيسي ممتاز | Naturra Extal',
-        imageAlt: 'قرنفل إندونيسي ممتاز من Naturra Extal'
+    'teralis-jendela-minimalis': {
+        name: 'تعريشة نافذة بسيطة',
+        caption: 'تعريشة نافذة ضد السرقة بيكاسي | مانديري ستيل',
+        shortCaption: 'تعريشة النافذة - الأمن الأساسي',
+        description: `تعمل تعريشات النوافذ لدينا كأمن إضافي لمنزلك. مصنوعة من الحديد الصلب القوي أو المواسير المجوفة.`,
+        metaDescription: 'خدمة تركيب تعريشة النوافذ بيكاسي | مانديري ستيل',
+        imageAlt: 'تعريشة نافذة بسيطة بواسطة مانديري ستيل'
     },
-    'cloves-stems': {
-        name: 'سيقان القرنفل',
-        caption: 'سيقان القرنفل للاستخدام الصناعي | Naturra Extal',
-        shortCaption: 'سيقان القرنفل - توريد صناعي',
-        description: `Quality clove stems ideal for essential oil extraction and industrial applications.`,
-        metaDescription: 'سيقان القرنفل للاستخدام الصناعي | Naturra Extal',
-        imageAlt: 'سيقان القرنفل من Naturra Extal'
+    'railing-tangga-minimalis': {
+        name: 'درابزين درج بسيط',
+        caption: 'درابزين درج وبلكونة بسيط بيكاسي | مانديري ستيل',
+        shortCaption: 'درابزين الدرج - قوي وآمن',
+        description: `درابزين الدرج هي عناصر داخلية زخرفية. نحن نقدم درابزين درج بمزيج من الحديد والمقابض الخشبية.`,
+        metaDescription: 'ورشة لحام درابزين الدرج بيكاسي | مانديري ستيل',
+        imageAlt: 'درابزين درج حديث بسيط بواسطة مانديري ستيل'
     },
-    'clove-oil': {
-        name: 'زيت القرنفل الأساسي',
-        caption: 'زيت القرنفل النقي | محتوى يوجينول عالي | Naturra Extal',
-        shortCaption: 'زيت القرنفل - درجة صيدلانية',
-        description: `Steam-distilled pure clove essential oil meeting international quality standards for multiple industries.`,
-        metaDescription: 'زيت القرنفل الإندونيسي النقي | Naturra Extal',
-        imageAlt: 'زيت القرنفل النقي من Naturra Extal'
+    'konstruksi-baja-wf': {
+        name: 'إنشاءات فولاذية WF',
+        caption: 'إنشاءات فولاذية WF للمستودعات والمصانع | مانديري ستيل',
+        shortCaption: 'الإنشاءات الفولاذية - قوة صناعية',
+        description: `نحن نقدم أعمال الإنشائية الفولاذية للمستودعات أو المصانع أو ملاعب كرة القدم أو الميزانين المنزلي. باستخدام فولاذ WF أو H-Beam.`,
+        metaDescription: 'خدمة الإنشائية الفولاذية WF بيكاسي | مانديري ستيل',
+        imageAlt: 'مشروع إنشائي فولاذي بواسطة مانديري ستيل'
     },
-    'cocopeat-block': {
-        name: 'قالب كوكوبيت (5 كجم)',
-        caption: 'قالب كوكوبيت مضغوط - صديق للبيئة | Naturra Extal',
-        shortCaption: 'قالب كوكوبيت - 5 كجم مضغوط',
-        description: `Eco-friendly growing medium with low EC levels, providing excellent water retention for horticulture.`,
-        metaDescription: 'قالب كوكوبيت مضغوط 5 كجم | Naturra Extal',
-        imageAlt: 'قالب كوكوبيت 5 كجم من Naturra Extal'
-    },
-    'cocopeat-loose': {
-        name: 'كوكوبيت سائب',
-        caption: 'تغليف كوكوبيت سائب | للزراعة والبستنة | Naturra Extal',
-        shortCaption: 'كوكوبيت سائب - مغسول ومعالج',
-        description: `High-quality loose cocopeat in bulk packaging, washed and buffered for optimal plant growth.`,
-        metaDescription: 'كوكوبيت إندونيسي سائب | Naturra Extal',
-        imageAlt: 'كوكوبيت سائب من Naturra Extal'
+    'pintu-pagar-stainless-steel': {
+        name: 'بوابة ستانلس ستيل',
+        caption: 'سياج ستانلس ستيل مقاوم للصدأ | مانديري ستيل بيكاسي',
+        shortCaption: 'سياج ستانلس - مقاوم للصدأ',
+        description: `لأولئك الذين يريدون سياجًا خاليًا من الصيانة ومقاومًا للصدأ إلى الأبد، فإن بوابات الستانلس ستيل هي الحل. نحن نستخدم درجة 304 الأصلية.`,
+        metaDescription: 'خدمة تصنيع سياج ستانلس ستيل بيكاسي | مانديري ستيل',
+        imageAlt: 'بوابة ستانلس ستيل بواسطة مانديري ستيل'
     }
 }

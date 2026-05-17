@@ -1,74 +1,66 @@
 export const PRODUCT_DESCRIPTIONS_KO: Record<string, any> = {
-    'cocoa-powder-pure': {
-        name: '순수 코코아 파우더',
-        caption: '프리미엄 인도네시아 순수 코코아 파우더 | Naturra Extal',
-        shortCaption: '순수 코코아 파우더 - HS 1805.00.0',
-        description: `Premium pure cocoa powder (HS 1805.00.0) sourced from the finest Indonesian beans. Ideal for global confectionery and industrial food manufacturing.`,
-        metaDescription: '인도네시아산 프리미엄 순수 코코아 파우더 | Naturra Extal',
-        imageAlt: 'Naturra Extal 코코아 파우더'
+    'kanopi-minimalis-alderon': {
+        name: '미니멀 알데론 캐노피',
+        caption: '브카시 미니멀 알데론 캐노피 | Mandiri Steel',
+        shortCaption: '알데론 캐노피 - 시원하고 내구성이 뛰어남',
+        description: `알데론 지붕이 있는 캐노피는 브카시의 더운 날씨에 가장 적합한 선택입니다. 알데론의 UPVC 소재는 열과 빗소리를 매우 잘 차단합니다. 고품질 중공 철제 프레임을 사용합니다.`,
+        metaDescription: '브카시 알데론 캐노피 설치 서비스 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 제작 알데론 캐노피'
     },
-    'cocoa-powder-sweetened': {
-        name: '가당 코코아 파우더',
-        caption: '가당 코코아 파우더 블렌드 | Naturra Extal 수출 품질',
-        shortCaption: '가당 코코아 파우더 - HS 1806.00.0',
-        description: `Balanced blend of premium cocoa and sweetener (HS 1806.00.0), ready for international food applications.`,
-        metaDescription: '가당 코코아 파우더 - HS 1806.00.0 | Naturra Extal',
-        imageAlt: 'Naturra Extal 코코아 파우더'
+    'kanopi-kaca-tempered': {
+        name: '강화유리 캐노피',
+        caption: '고급 강화유리 캐노피 | Mandiri Steel 독점 디자인',
+        shortCaption: '유리 캐노피 - 현대적이고 고급스러움',
+        description: `당신의 집에 고급스럽고 현대적인 인상을 더해줍니다. 저희 강화유리 캐노피는 안전하고 튼튼한 8mm 또는 10mm 두께의 유리를 사용합니다.`,
+        metaDescription: '브카시 강화유리 캐노피 제작 서비스 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 제작 강화유리 캐노피'
     },
-    'cocoa-beans-raw': {
-        name: '코코아 빈 (생두)',
-        caption: '술라웨시 및 수마트라산 발효 코코아 빈 | Naturra Extal',
-        shortCaption: '생 코코아 빈 - 프리미엄 발효',
-        description: `Hand-selected raw cocoa beans from Indonesia, fermented and sun-dried for a rich flavor profile.`,
-        metaDescription: '인도네시아산 프리미엄 발효 코코아 빈 | Naturra Extal',
-        imageAlt: 'Naturra Extal 코코아 빈'
+    'pagar-minimalis-modern': {
+        name: '현대식 미니멀 펜스',
+        caption: '브카시 미니멀 철제 펜스 | Mandiri Steel',
+        shortCaption: '미니멀 펜스 - 안전하고 심미적임',
+        description: `저희 미니멀 펜스는 미관을 해치지 않으면서도 최대한의 보안을 제공하도록 설계되었습니다. 방청 아연 도금 중공 철재를 사용합니다.`,
+        metaDescription: '브카시 미니멀 펜스 용접 전문점 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 제작 현대식 미니멀 철제 펜스'
     },
-    'cocoa-butter': {
-        name: '코코아 버터',
-        caption: '순수 인도네시아 코코아 버터 | 식품 및 화장품 등급 | Naturra Extal',
-        shortCaption: '순수 코코아 버터 - 프리미엄 추출',
-        description: `High-quality cocoa butter extracted from premium Indonesian beans for chocolate, cosmetics, and pharmaceuticals.`,
-        metaDescription: '인도네시아산 순수 코코아 버터 | 프리미엄 등급 | Naturra Extal',
-        imageAlt: 'Naturra Extal 코코아 버터'
+    'pagar-besi-tempa-klasik': {
+        name: '클래식 단조 철제 펜스',
+        caption: '클래식 고급 단조 철제 펜스 | 브카시 Mandiri Steel',
+        shortCaption: '클래식 펜스 - 고급 장식',
+        description: `클래식하거나 지중해 스타일의 주택에 완벽한 선택입니다. 저희 단조 철제 펜스는 다양한 장식이 포함된 견고한 철재를 사용합니다.`,
+        metaDescription: '브카시 클래식 단조 철제 펜스 제작 서비스 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 제작 클래식 단조 철제 펜스'
     },
-    'cloves-whole': {
-        name: '정향 (통정향)',
-        caption: '말루쿠 및 북술라웨시산 프리미엄 정향 | Naturra Extal',
-        shortCaption: '프리미엄 통정향 - 높은 오일 함량',
-        description: `Premium hand-picked whole cloves from the Spice Islands, ensuring high eugenol content and intense aroma.`,
-        metaDescription: '인도네시아산 프리미엄 통정향 | Naturra Extal',
-        imageAlt: 'Naturra Extal 정향'
+    'teralis-jendela-minimalis': {
+        name: '미니멀 창문 방범창',
+        caption: '브카시 방범용 창문 방범창 | Mandiri Steel',
+        shortCaption: '창문 방범창 - 최우선 보안',
+        description: `저희 창문 방범창은 당신의 집을 위한 추가적인 보안 역할을 합니다. 튼튼한 통철 또는 중공관으로 제작됩니다.`,
+        metaDescription: '브카시 창문 방범창 설치 서비스 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 제작 미니멀 창문 방범창'
     },
-    'cloves-stems': {
-        name: '정향 줄기',
-        caption: '산업용 정향 줄기 | Naturra Extal',
-        shortCaption: '정향 줄기 - 산업용 대량 공급',
-        description: `Quality clove stems ideal for essential oil extraction and industrial applications.`,
-        metaDescription: '인도네시아산 정향 줄기 | Naturra Extal',
-        imageAlt: 'Naturra Extal 정향 줄기'
+    'railing-tangga-minimalis': {
+        name: '미니멀 계단 난간',
+        caption: '브카시 미니멀 계단 및 발코니 난간 | Mandiri Steel',
+        shortCaption: '계단 난간 - 견고하고 안전함',
+        description: `계단 난간은 인테리어의 장식 요소입니다. 저희는 철재와 목재 손잡이를 결합한 계단 난간을 제공합니다.`,
+        metaDescription: '브카시 계단 난간 용접 전문점 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 제작 현대식 미니멀 계단 난간'
     },
-    'clove-oil': {
-        name: '정향 에센셜 오일',
-        caption: '순수 정향 오일 | 높은 유제놀 함량 | Naturra Extal',
-        shortCaption: '정향 오일 - 제약 및 식품 등급',
-        description: `Steam-distilled pure clove essential oil meeting international quality standards for multiple industries.`,
-        metaDescription: '인도네시아산 순수 정향 에센셜 오일 | Naturra Extal',
-        imageAlt: 'Naturra Extal 정향 오일'
+    'konstruksi-baja-wf': {
+        name: 'WF 강구조물 공사',
+        caption: '창고 및 공장용 WF 강구조물 | Mandiri Steel',
+        shortCaption: '강구조물 - 산업용 강도',
+        description: `창고, 공장, 풋살 경기장 또는 가정용 복층을 위한 강구조물 공사를 제공합니다. WF 또는 H형강을 사용합니다.`,
+        metaDescription: '브카시 WF 강구조물 서비스 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 강구조물 프로젝트'
     },
-    'cocopeat-block': {
-        name: '코코피트 블록 (5kg)',
-        caption: '5kg 압축 코코피트 블록 - 친환경 Low EC | Naturra Extal',
-        shortCaption: '코코피트 블록 - 5kg 압축형',
-        description: `Eco-friendly growing medium with low EC levels, providing excellent water retention for horticulture.`,
-        metaDescription: '5kg 압축 코코피트 블록 | 친환경 Low EC 배양토 | Naturra Extal',
-        imageAlt: 'Naturra Extal 코코피트'
-    },
-    'cocopeat-loose': {
-        name: '벌크 코코피트',
-        caption: '벌크 포장 코코피트 | 농업 및 원예용 | Naturra Extal',
-        shortCaption: '벌크 코코피트 - 세척 및 완충 처리',
-        description: `High-quality loose cocopeat in bulk packaging, washed and buffered for optimal plant growth.`,
-        metaDescription: '인도네시아산 벌크 코코피트 | Naturra Extal',
-        imageAlt: 'Naturra Extal 코코피트'
+    'pintu-pagar-stainless-steel': {
+        name: '스테인리스 스틸 대문',
+        caption: '방청 스테인리스 스틸 펜스 | 브카시 Mandiri Steel',
+        shortCaption: '스테인리스 펜스 - 녹 방지',
+        description: `유지보수가 필요 없고 영구적으로 녹이 슬지 않는 펜스를 원하는 분들께는 스테인리스 스틸 대문이 해답입니다. 정품 304 등급 스테인리스를 사용합니다.`,
+        metaDescription: '브카시 스테인리스 스틸 펜스 제작 서비스 | Mandiri Steel',
+        imageAlt: 'Mandiri Steel 제작 스테인리스 스틸 대문'
     }
 }
