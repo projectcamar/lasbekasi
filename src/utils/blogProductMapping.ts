@@ -14,23 +14,41 @@ export interface ProductKeywordMapping {
 
 // Mapping keyword artikel ke produk
 const PRODUCT_KEYWORD_MAPPINGS: ProductKeywordMapping[] = [
-  // COCOA
+  // KANOPI
   {
-    keywords: ['cocoa', 'kakao', 'coklat', 'chocolate', 'cocoa powder', 'bubuk kakao', 'fermented beans', 'alkalized', 'natural cocoa'],
-    productIds: [1, 2], // Cocoa Powder Alkalized, Natural
-    category: 'cocoa'
+    keywords: ['kanopi', 'canopy', 'awning', 'atap', 'alderon', 'polikarbonat', 'spandek', 'kaca tempered'],
+    productIds: [1, 2], // Kanopi Minimalis Alderon, Kanopi Kaca Tempered
+    category: 'kanopi'
   },
-  // CLOVES
+  // PAGAR
   {
-    keywords: ['cloves', 'cengkeh', 'rempah', 'spices', 'lal pari', 'eugenol', 'spices island', 'maluku cloves'],
-    productIds: [3, 4], // Cloves Lal Pari, Grade A
-    category: 'cloves'
+    keywords: ['pagar', 'fence', 'gate', 'gerbang', 'tempa', 'laser cutting', 'slat', 'pintu dorong'],
+    productIds: [3, 4], // Pagar Minimalis Modern, Pagar Besi Tempa Klasik
+    category: 'pagar'
   },
-  // COCOPEAT
+  // TERALIS
   {
-    keywords: ['cocopeat', 'sabut kelapa', 'coconut husk', 'growing medium', 'horticulture', 'hydroponic', 'media tanam', 'low ec'],
-    productIds: [5], // Cocopeat Blocks
-    category: 'cocopeat'
+    keywords: ['teralis', 'trellis', 'nako', 'jendela', 'pengaman', 'anti maling', 'grill'],
+    productIds: [5], // Teralis Jendela Minimalis
+    category: 'teralis'
+  },
+  // RAILING
+  {
+    keywords: ['railing', 'pegangan', 'tangga', 'balkon', 'balustrade', 'handrail'],
+    productIds: [6], // Railing Tangga Minimalis
+    category: 'railing'
+  },
+  // KONSTRUKSI
+  {
+    keywords: ['konstruksi', 'baja', 'wf', 'h-beam', 'rangka', 'gudang', 'pabrik', 'atap baja ringan'],
+    productIds: [7], // Konstruksi Baja WF
+    category: 'konstruksi'
+  },
+  // STAINLESS
+  {
+    keywords: ['stainless', 'sus 304', 'anti karat', 'stainless steel', 'pintu stainless'],
+    productIds: [8], // Pintu Pagar Stainless Steel
+    category: 'stainless'
   }
 ]
 
@@ -99,116 +117,116 @@ export const getProductShowcaseHeading = (
   const lang = (language || 'id').toLowerCase()
 
   const translations: Record<string, {
-    cocoa: string
-    cloves: string
-    cocopeat: string
+    kanopi: string
+    pagar: string
+    teralis: string
+    railing: string
+    konstruksi: string
+    stainless: string
     general: string
-    mix: string
-    food: string
-    agri: string
     default: string
   }> = {
     id: {
-      cocoa: 'Produk Kakao Unggulan Kami',
-      cloves: 'Cengkeh Indonesia Kualitas Ekspor',
-      cocopeat: 'Media Tanam Cocopeat Premium',
-      general: 'Komoditas Pertanian Pilihan',
-      mix: 'Produk Kakao & Cengkeh',
-      food: 'Bahan Baku Industri Makanan',
-      agri: 'Produk Hortikultura Berkelanjutan',
-      default: 'Komoditas Terkait yang Mungkin Anda Butuhkan'
+      kanopi: 'Layanan Kanopi Minimalis & Premium',
+      pagar: 'Jasa Pembuatan Pagar & Pintu Gerbang',
+      teralis: 'Teralis Jendela & Pengaman Besi',
+      railing: 'Railing Tangga & Balkon Minimalis',
+      konstruksi: 'Konstruksi Baja WF & Rangka Besi',
+      stainless: 'Pekerjaan Stainless Steel Anti Karat',
+      general: 'Layanan Fabrikasi Logam Pilihan',
+      default: 'Layanan Las Terkait yang Mungkin Anda Butuhkan'
     },
     en: {
-      cocoa: 'Our Featured Cocoa Products',
-      cloves: 'Export Quality Indonesian Cloves',
-      cocopeat: 'Premium Cocopeat Growing Medium',
-      general: 'Selected Agricultural Commodities',
-      mix: 'Cocoa & Clove Products',
-      food: 'Food Industry Raw Materials',
-      agri: 'Sustainable Horticulture Products',
-      default: 'Related Commodities You May Need'
+      kanopi: 'Our Featured Canopy Services',
+      pagar: 'Custom Fences & Gates Fabrication',
+      teralis: 'Premium Window Trellises & Grills',
+      railing: 'Modern Stairs & Balustrade Railings',
+      konstruksi: 'Heavy-Duty Steel Construction Solutions',
+      stainless: 'Premium Stainless Steel Welding',
+      general: 'Featured Custom Metal Works',
+      default: 'Related Services You May Need'
     },
     ar: {
-      cocoa: 'منتجات الكاكاو المميزة لدينا',
-      cloves: 'القرنفل الإندونيسي عالي الجودة للتصدير',
-      cocopeat: 'وسط نمو كوكوبيت متميز',
-      general: 'سلع زراعية مختارة',
-      mix: 'منتجات الكاكاو والقرنفل',
-      food: 'المواد الخام للصناعات الغذائية',
-      agri: 'منتجات البستنة المستدامة',
-      default: 'السلع ذات الصلة التي قد تحتاجها'
+      kanopi: 'خدمات مظلات ومظلات الكانوبي المميزة لدينا',
+      pagar: 'تصنيع البوابات والأسوار المخصصة',
+      teralis: 'شبابيك حديد حماية وحواجز فاخرة',
+      railing: 'درابزين سلالم وشرفات حديث',
+      konstruksi: 'حلول ومشاريع الإنشاءات الحديدية الثقيلة',
+      stainless: 'لحام وتصنيع الفولاذ المقاوم للصدأ (الستانلس)',
+      general: 'أعمال وتشكيل المعادن المخصصة',
+      default: 'خدمات الحدادة واللحام ذات الصلة التي قد تحتاجها'
     },
     zh: {
-      cocoa: '我们的精选可可产品',
-      cloves: '优质印尼外销丁香',
-      cocopeat: '优质椰糠生长介质',
-      general: '精选农产品',
-      mix: '可可和丁香产品',
-      food: '食品工业原料',
-      agri: '可持续园艺产品',
-      default: '您可能需要的相关商品'
+      kanopi: '精选雨棚和遮阳篷服务',
+      pagar: '定制铁艺围栏与门禁大门',
+      teralis: '优质防盗窗网与铁艺花格',
+      railing: '现代楼梯扶手与阳台护栏',
+      konstruksi: '重型钢结构与厂房骨架工程',
+      stainless: '高端不锈钢防锈焊接定制',
+      general: '特色定制五金金属加工',
+      default: '您可能需要的相关金属焊接服务'
     },
     ja: {
-      cocoa: '厳選されたココア製品',
-      cloves: '高品質なインドネシア産輸出用クローブ',
-      cocopeat: 'プレミアムココピート栽培媒体',
-      general: '厳選された農産物',
-      mix: 'ココアとクローブの製品',
-      food: '食品業界向け原材料',
-      agri: '持続可能な園芸製品',
-      default: '関連する農産物'
+      kanopi: '厳選されたキャノピー・庇（ひさし）施工',
+      pagar: 'カスタムフェンス＆門扉（ゲート）製作',
+      teralis: 'プレミアム防犯面格子（窓格子）',
+      railing: 'モダン階段手すり＆バルコニーフェンス',
+      konstruksi: '重量鉄骨建築・鉄骨フレーム構造物',
+      stainless: '高級ステンレス防錆溶接・加工',
+      general: '厳選カスタム金属製品加工サービス',
+      default: '関連する溶接・金属加工サービス'
     },
     es: {
-      cocoa: 'Nuestros Productos de Cacao Destacados',
-      cloves: 'Clavo de Olor Indonesio de Calidad de Exportación',
-      cocopeat: 'Medio de Cultivo de Cocopeat Premium',
-      general: 'Materias Primas Agrícolas Seleccionadas',
-      mix: 'Productos de Cacao y Clavo',
-      food: 'Materias Primas para la Industria Alimentaria',
-      agri: 'Productos de Horticultura Sostenibles',
-      default: 'Materias Primas Relacionadas que Puede Necesitar'
+      kanopi: 'Servicios Destacados de Toldos y Marquesinas',
+      pagar: 'Fabricación de Cercas y Portones a Medida',
+      teralis: 'Rejas y Protectores de Ventana Premium',
+      railing: 'Barandillas Modernas para Escaleras y Balcones',
+      konstruksi: 'Soluciones de Construcción en Acero Pesado',
+      stainless: 'Soldadura de Acero Inoxidable Premium',
+      general: 'Trabajos de Herrería y Metalúrgica Premium',
+      default: 'Servicios de Soldadura Relacionados que Pueda Necesitar'
     },
     fr: {
-      cocoa: 'Nos Produits Cacaotés Vedettes',
-      cloves: 'Clous de Girofle Indonésiens de Qualité Export',
-      cocopeat: 'Support de Culture Cocopeat Premium',
-      general: 'Matières Premières Agricoles Sélectionnées',
-      mix: 'Produits Cacaotés et Girofle',
-      food: 'Matières Premières pour l\'Industrie Alimentaire',
-      agri: 'Produits d\'Horticulture Durables',
-      default: 'Produits Similaires Successibles de Vous Intéresser'
+      kanopi: 'Nos Prestations d\'Auvents et Pergolas Vedettes',
+      pagar: 'Fabrication de Clôtures et Portails Sur Mesure',
+      teralis: 'Grilles de Défense et Sécurité Fenêtres Premium',
+      railing: 'Garde-corps Modernes pour Escaliers et Balcons',
+      konstruksi: 'Solutions de Charpente et Construction Métallique',
+      stainless: 'Soudure et Façonnage Inox Anti-Corrosion',
+      general: 'Ouvrages de Métallerie et Ferronnerie d\'Art',
+      default: 'Prestations de Soudure Similaires Successibles de Vous Intéresser'
     },
     ko: {
-      cocoa: '당사의 주요 코코아 제품',
-      cloves: '수출 품질의 인도네시아산 정향',
-      cocopeat: '프리미엄 코코피트 재배 매체',
-      general: '엄선된 농산물',
-      mix: '코코아 및 정향 제품',
-      food: '식품 산업 원료',
-      agri: '지속 가능한 원예 제품',
-      default: '관련 농산물'
+      kanopi: '주요 캐노피 및 차양 맞춤 제작',
+      pagar: '고급 대문 및 울타리 펜스 제작',
+      teralis: '프리미엄 방범창 및 창문 격자쇠',
+      railing: '현대식 계단 및 발코니 난간대',
+      konstruksi: 'H빔 철골 및 중량 구조물 건설 솔루션',
+      stainless: '고품격 스테인리스 내부식 용접',
+      general: '엄선 맞춤 금속 제작 서비스',
+      default: '고객님께 필요한 맞춤 용접 관련 서비스'
     }
   }
 
   const t = translations[lang] || translations.en
 
-  if (searchText.includes('cocoa') || searchText.includes('kakao') || searchText.includes('coklat') || searchText.includes('chocolate') || searchText.includes('可可')) {
-    return t.cocoa
+  if (searchText.includes('kanopi') || searchText.includes('canopy') || searchText.includes('awning') || searchText.includes('atap') || searchText.includes('alderon')) {
+    return t.kanopi
   }
-  if (searchText.includes('clove') || searchText.includes('cengkeh') || searchText.includes('girofle') || searchText.includes('丁香')) {
-    return t.cloves
+  if (searchText.includes('pagar') || searchText.includes('fence') || searchText.includes('gate') || searchText.includes('gerbang') || searchText.includes('tempa') || searchText.includes('pintu dorong')) {
+    return t.pagar
   }
-  if (searchText.includes('cocopeat') || searchText.includes('sabut') || searchText.includes('椰糠') || searchText.includes('husk')) {
-    return t.cocopeat
+  if (searchText.includes('teralis') || searchText.includes('trellis') || searchText.includes('nako') || searchText.includes('jendela')) {
+    return t.teralis
   }
-  if (searchText.includes('commodity') || searchText.includes('komoditas') || searchText.includes('ekspor') || searchText.includes('export')) {
-    return t.general
+  if (searchText.includes('railing') || searchText.includes('balkon') || searchText.includes('pegangan') || searchText.includes('handrail')) {
+    return t.railing
   }
-  if (searchText.includes('food') || searchText.includes('makanan') || searchText.includes('industry')) {
-    return t.food
+  if (searchText.includes('konstruksi') || searchText.includes('baja') || searchText.includes('wf') || searchText.includes('h-beam') || searchText.includes('rangka')) {
+    return t.konstruksi
   }
-  if (searchText.includes('sustainable') || searchText.includes('berkelanjutan') || searchText.includes('horticulture')) {
-    return t.agri
+  if (searchText.includes('stainless') || searchText.includes('anti karat') || searchText.includes('sus 304')) {
+    return t.stainless
   }
 
   return t.default

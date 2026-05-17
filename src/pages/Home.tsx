@@ -124,8 +124,8 @@ const Home: React.FC = () => {
         },
         "geo": {
             "@type": "GeoCoordinates",
-            "latitude": -6.2088,
-            "longitude": 107.1602
+            "latitude": -6.3120,
+            "longitude": 107.0515
         },
         "openingHoursSpecification": [
             {

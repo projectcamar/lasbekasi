@@ -31,7 +31,7 @@ const NotFound: React.FC = () => {
   return (
     <div className="not-found-page">
       <Helmet>
-        <title>{isIndonesian ? '404 - Halaman Tidak Ditemukan | Naturra Extal' : '404 - Page Not Found | Naturra Extal'}</title>
+        <title>{isIndonesian ? '404 - Halaman Tidak Ditemukan | Bengkel Las Mandiri' : '404 - Page Not Found | Mandiri Steel Bekasi'}</title>
       </Helmet>
 
       <Suspense fallback={<div style={{ height: '100px' }} />}>

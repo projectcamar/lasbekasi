@@ -310,7 +310,7 @@ const buildStaticPages = async () => {
     { loc: `${BASE_URL}/terms-of-service`, file: 'src/pages/TermsOfService.tsx', changefreq: 'yearly', priority: 0.4 },
     { loc: `${BASE_URL}/shipping-information`, file: 'src/pages/ShippingInformation.tsx', changefreq: 'yearly', priority: 0.4 },
     { loc: `${BASE_URL}/search`, file: 'src/pages/SearchResults.tsx', changefreq: 'monthly', priority: 0.4 },
-    { loc: `${BASE_URL}/commodity-export-bekasi`, file: 'src/pages/CommodityExportBekasi.tsx', changefreq: 'monthly', priority: 0.75 },
+    { loc: `${BASE_URL}/bengkel-las-bekasi`, file: 'src/pages/CommodityExportBekasi.tsx', changefreq: 'monthly', priority: 0.75 },
     { loc: `${BASE_URL}/image-license`, file: 'src/pages/ImageLicense.tsx', changefreq: 'yearly', priority: 0.3 }
   ]
 
@@ -543,7 +543,7 @@ const generateAttachmentSitemap = (products, posts) => {
         '    <image:image>',
         `      <image:loc>${product.image}</image:loc>`,
         `      <image:title>${product.name}</image:title>`,
-        `      <image:caption>${product.name} - Premium Agricultural Commodities Indonesia</image:caption>`,
+        `      <image:caption>${product.name} - Jasa Bengkel Las Besi &amp; Kanopi Bekasi - Mandiri Steel</image:caption>`,
         '    </image:image>',
         '  </url>'
       ].join('\n'))

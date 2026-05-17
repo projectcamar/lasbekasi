@@ -119,39 +119,31 @@ export const generateBlogPostingSchema = (post: {
 }) => {
   // If author is specified (Moh Rifki), use Person schema with full credentials
   // Otherwise fallback to Organization
-  const authorSchema = post.author === 'Moh Rifki' ? {
+  const authorSchema = {
     "@type": "Person",
-    "name": "Moh Rifki",
-    "url": "https://www.linkedin.com/in/mohamad-bebi-rifki/",
-    "sameAs": "https://www.linkedin.com/in/mohamad-bebi-rifki/",
-    "jobTitle": "Founder & CEO",
+    "name": post.author || "Bapak Maman Toha",
+    "jobTitle": post.author === "Bapak Maman Toha" ? "Owner & Master Welder" : "Welding Expert",
     "worksFor": {
       "@type": "Organization",
-      "name": "Bengkel Las Mandiri"
+      "name": "Bengkel Las Mandiri",
+      "url": "https://lasbekasi.com"
     },
     "knowsAbout": [
-      "International Trade",
-      "Agricultural Commodities",
-      "Export Logistics",
-      "Cocoa Supply Chain",
-      "Global Market Development",
-      "Sustainability",
-      "Fair Trade",
-      "Business Strategy"
+      "Welding Technology",
+      "Metal Fabrication",
+      "Steel Construction",
+      "Canopy Installation",
+      "Gate Design",
+      "Home Renovation",
+      "Structural Engineering"
     ],
-    "description": "Professional in International Business Development and Export Operations. Specialized in the Indonesian agricultural commodity sector, including cocoa, cloves, and sustainable products. Expertise in bridging the gap between local farming communities and the global market through efficient supply chain management and international trade compliance.",
+    "description": `${post.author || "Bapak Maman Toha"} adalah pakar pengelasan dan konstruksi besi di Bengkel Las Mandiri dengan pengalaman luas dalam fabrikasi kanopi, pagar minimalis, teralis, railing tangga, dan struktur baja berat di Bekasi.`,
     "address": {
       "@type": "PostalAddress",
-      "addressLocality": "Jakarta",
-      "addressRegion": "DKI Jakarta",
+      "addressLocality": "Bekasi",
+      "addressRegion": "Jawa Barat",
       "addressCountry": "ID"
     }
-  } : {
-    "@type": "Organization",
-    "name": "Bengkel Las Mandiri",
-    "url": "https://lasbekasi.com",
-    "logo": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=800",
-    "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200"
   }
 
   return {
@@ -163,7 +155,7 @@ export const generateBlogPostingSchema = (post: {
       "@type": "ImageObject",
       "url": post.image,
       "contentUrl": post.image,
-      "caption": `${post.title} - ${post.category} Blog Agricultural Commodities`,
+      "caption": `${post.title} - ${post.category} Blog Bengkel Las Mandiri`,
       "description": post.excerpt,
       "width": 1200,
       "height": 630,

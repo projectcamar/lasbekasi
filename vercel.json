@@ -5,10 +5,15 @@
       "has": [
         {
           "type": "host",
-          "value": "www.mangalaliving.com"
+          "value": "www.lasbekasi.com"
         }
       ],
-      "destination": "https://mangalaliving.com/:path*",
+      "destination": "https://lasbekasi.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/commodity-export-bekasi",
+      "destination": "/bengkel-las-bekasi",
       "permanent": true
     },
     {
@@ -103,6 +108,72 @@
         }
       ],
       "destination": "/blog/:slug/index.html"
+    },
+    {
+      "source": "/about",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+        }
+      ],
+      "destination": "/about/index.html"
+    },
+    {
+      "source": "/products",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+        }
+      ],
+      "destination": "/products/index.html"
+    },
+    {
+      "source": "/testimonials",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+        }
+      ],
+      "destination": "/testimonials/index.html"
+    },
+    {
+      "source": "/custom-order",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+        }
+      ],
+      "destination": "/custom-order/index.html"
+    },
+    {
+      "source": "/partnership",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+        }
+      ],
+      "destination": "/partnership/index.html"
+    },
+    {
+      "source": "/bengkel-las-bekasi",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+        }
+      ],
+      "destination": "/bengkel-las-bekasi/index.html"
     },
     {
       "source": "/((?!api).*)",

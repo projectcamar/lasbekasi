@@ -213,7 +213,18 @@ const Shop: React.FC = () => {
       results: 'hasil',
       prev: 'Sebelumnya',
       next: 'Selanjutnya',
-      page: 'Halaman'
+      page: 'Halaman',
+      pageTitle: 'Katalog Layanan & Produk Fabrikasi Besi - Bengkel Las Mandiri',
+      metaDescription: 'Telusuri katalog lengkap layanan Bengkel Las Mandiri Bekasi (Mandiri Steel). Kami menyediakan kanopi, pagar besi, teralis jendela, railing tangga, stainless steel, dan konstruksi baja berkualitas premium.',
+      metaKeywords: 'katalog bengkel las, jasa las bekasi, pasang kanopi bekasi, pagar besi minimalis, teralis jendela kustom, railing tangga bekasi, konstruksi baja wf, mandiri steel',
+      ogTitle: 'Katalog Layanan & Produk Bengkel Las Mandiri Bekasi',
+      ogDescription: 'Katalog lengkap jasa pembuatan kanopi, pagar, teralis, railing, dan konstruksi baja bergaransi resmi dari Mandiri Steel Bekasi.',
+      twitterTitle: 'Katalog Layanan Bengkel Las Mandiri - Bekasi',
+      twitterDescription: 'Katalog lengkap jasa pasang kanopi, pagar besi, teralis, railing tangga berkualitas premium di Bekasi.',
+      collectionName: 'Katalog Layanan Bengkel Las Mandiri',
+      collectionDescription: 'Browse katalog lengkap layanan pengelasan dan fabrikasi logam kustom dari Bengkel Las Mandiri Bekasi. Kami melayani area Jabodetabek sejak 1999.',
+      productDescription: (name: string) => `Jasa pembuatan dan pemasangan ${name} berkualitas tinggi dari Bengkel Las Mandiri Bekasi (Mandiri Steel). Rangka tebal standar SNI, pengerjaan rapi, dan bergaransi resmi.`,
+      sellerDescription: 'Bengkel Las Mandiri (Mandiri Steel) adalah spesialis pembuatan kanopi minimalis, pagar besi, teralis jendela, railing tangga, dan konstruksi baja WF berkualitas di Bekasi sejak 1999.'
     },
     en: {
       home: 'Home',
@@ -232,7 +243,18 @@ const Shop: React.FC = () => {
       results: 'results',
       prev: 'Prev',
       next: 'Next',
-      page: 'Page'
+      page: 'Page',
+      pageTitle: 'Custom Metal Works & Welding Catalog - Mandiri Steel Bekasi',
+      metaDescription: 'Browse the complete catalog of custom steel fabrication and welding services by Mandiri Steel Bekasi. We offer canopies, fences, trellises, railings, stainless steel, and structural steel structures.',
+      metaKeywords: 'welding services catalog, custom metal fabrication, canopy installation bekasi, iron gates fences, window security trellis, stair railing, structural steel contractor, mandiri steel',
+      ogTitle: 'Welding & Metal Fabrication Catalog - Mandiri Steel Bekasi',
+      ogDescription: 'Complete catalog of premium canopy, gate, fence, trellis, and steel construction services with official warranty by Mandiri Steel Bekasi.',
+      twitterTitle: 'Metal Fabrication & Welding Catalog - Mandiri Steel',
+      twitterDescription: 'Discover high-quality custom metal fabrication and welding solutions for residential and commercial spaces in Bekasi.',
+      collectionName: 'Mandiri Steel Custom Metal Works Catalog',
+      collectionDescription: 'Browse the complete catalog of custom metal works and professional welding services by Mandiri Steel Bekasi. Serving Jabodetabek since 1999.',
+      productDescription: (name: string) => `Premium custom ${name} design and installation by Mandiri Steel Bekasi. Built with thick structural steel, anti-rust coating, and full warranty.`,
+      sellerDescription: 'Mandiri Steel is a premium welding and custom steel fabrication specialist in Bekasi. Delivering durable canopies, fences, railings, and structural steel works since 1999.'
     },
     ar: {
       home: 'الرئيسية',
@@ -251,7 +273,18 @@ const Shop: React.FC = () => {
       results: 'نتيجة',
       prev: 'السابق',
       next: 'التالي',
-      page: 'صفحة'
+      page: 'صفحة',
+      pageTitle: 'كتالوج أعمال المعادن واللحام المخصصة - مانديري ستيل بيكاسي',
+      metaDescription: 'تصفح الكتالوج الكامل لخدمات تصنيع الفولاذ واللحام المخصصة من مانديري ستيل في بيكاسي. نقدم المظلات، الأسوار، الحواجز، الدرابزين، الفولاذ المقاوم للصدأ، والمنشآت المعدنية.',
+      metaKeywords: 'كتالوج خدمات اللحام، تصنيع المعادن المخصصة، تركيب المظلات بيكاسي، بوابات حديدية، حواجز حماية النوافذ، درابزين الدرج، مقاول هياكل حديدية، مانديري ستيل',
+      ogTitle: 'كتالوج اللحام وتصنيع المعادن - مانديري ستيل بيكاسي',
+      ogDescription: 'كتالوج كامل لخدمات المظلات، البوابات، الأسوار، الحواجز، والإنشاءات الفولاذية بضمان رسمي من مانديري ستيل بيكاسي.',
+      twitterTitle: 'كتالوج تصنيع المعادن واللحام - مانديري ستيل',
+      twitterDescription: 'اكتشف حلول تصنيع المعادن المخصصة واللحام عالية الجودة للمساحات السكنية والتجارية في بيكاسي.',
+      collectionName: 'كتالوج أعمال المعادن المخصصة من مانديري ستيل',
+      collectionDescription: 'تصفح الكتالوج الكامل لأعمال المعادن المخصصة وخدمات اللحام الاحترافية من مانديري ستيل بيكاسي. نخدم جاكرتا الكبرى منذ عام 1999.',
+      productDescription: (name: string) => `تصميم وتركيب مخصص ممتاز لـ ${name} من مانديري ستيل بيكاسي. مبني بفولاذ هيكلي سميك، طلاء مضاد للصدأ، وضمان كامل.`,
+      sellerDescription: 'مانديري ستيل هي ورشة لحام وتصنيع فولاذ مخصصة ممتازة في بيكاسي. نقدم مظلات، أسوار، درابزين، وأعمال فولاذية هيكلية متينة منذ عام 1999.'
     },
     zh: {
       home: '首页',
@@ -270,7 +303,18 @@ const Shop: React.FC = () => {
       results: '个结果',
       prev: '上一页',
       next: '下一页',
-      page: '页'
+      page: '页',
+      pageTitle: '定制铁艺与焊接服务目录 - 勿加泗 Mandiri Steel',
+      metaDescription: '浏览勿加泗 Mandiri Steel 提供的完整定制钢结构制造与电焊服务目录。我们提供高品质雨棚、铁艺围栏、防盗网、楼梯扶手、不锈钢工程及建筑钢结构。',
+      metaKeywords: '焊接服务目录, 定制金属制造, 勿加泗雨棚安装, 铁艺大门围栏, 窗户防盗网, 楼梯扶手, 钢结构工程承包商, Mandiri Steel',
+      ogTitle: '焊接与金属制造服务目录 - Mandiri Steel Bekasi',
+      ogDescription: '勿加泗 Mandiri Steel 提供的雨棚、大门、围栏、窗网和钢结构制造安装服务完整目录，附带官方品质保修。',
+      twitterTitle: '金属制造与焊接工程目录 - Mandiri Steel',
+      twitterDescription: '为您在勿加泗的住宅和商业空间发现高品质的定制金属制造与焊接解决方案。',
+      collectionName: 'Mandiri Steel 定制金属制品目录',
+      collectionDescription: '浏览勿加泗 Mandiri Steel 提供的完整定制金属制品与专业电焊服务目录。自1999年以来服务雅加达大都市区。',
+      productDescription: (name: string) => `由勿加泗 Mandiri Steel 提供的优质定制${name}设计与安装。采用加厚钢结构、防锈图层，并提供完整品质保修。`,
+      sellerDescription: 'Mandiri Steel 是勿加泗优质电焊与定制钢结构制造专家。自1999年以来，致力于提供耐用的雨棚、围栏、楼梯扶手及建筑钢结构工程。'
     },
     ja: {
       home: 'ホーム',
@@ -289,7 +333,18 @@ const Shop: React.FC = () => {
       results: '件',
       prev: '前へ',
       next: '次へ',
-      page: 'ページ'
+      page: 'ページ',
+      pageTitle: 'カスタムメタルワーク＆溶接サービスカタログ - Mandiri Steel ブカシ',
+      metaDescription: 'ブカシの Mandiri Steel が手掛けるカスタムスチール製作・溶接サービスの総合カタログ。キャノピー、門扉、フェンス、面格子、手すり、ステンレス製品、各種鉄骨構造に対応。',
+      metaKeywords: '溶接サービスカタログ, 金属カスタム製作, ブカシキャノピー施工, 鉄製門扉フェンス, 窓防犯格子, 階段手すり, 鉄骨建築請負, Mandiri Steel',
+      ogTitle: '溶接＆金属カスタム製作カタログ - Mandiri Steel ブカシ',
+      ogDescription: 'ブカシの Mandiri Steel が提供するプレミアムなキャノピー、門扉、フェンス、面格子、鉄骨構造施工の総合カタログ（公式製品保証付き）。',
+      twitterTitle: '金属製作＆溶接施工カタログ - Mandiri Steel',
+      twitterDescription: 'ブカシの住宅や商業スペースに最適な、高品質カスタム金属製作＆プロ仕様の溶接ソリューション。',
+      collectionName: 'Mandiri Steel カスタム金属製品カタログ',
+      collectionDescription: 'ブカシの Mandiri Steel が提供するカスタム金属製品とプロの溶接サービスの全カタログ。1999年よりジャボデタベック対応。',
+      productDescription: (name: string) => `ブカシの Mandiri Steel によるプレミアムカスタム${name}の設計・施工。肉厚スチール構造、防錆塗装、安心の製品保証付き。`,
+      sellerDescription: 'Mandiri Steel はブカシでプレミアムな溶接とカスタムスチール製作を専門としています。1999年より、高耐久キャノピー、フェンス、手すり、鉄骨構造物の施工を提供。'
     },
     es: {
       home: 'Inicio',
@@ -308,7 +363,18 @@ const Shop: React.FC = () => {
       results: 'resultados',
       prev: 'Anterior',
       next: 'Siguiente',
-      page: 'Página'
+      page: 'Página',
+      pageTitle: 'Catálogo de Herrería y Fabricación Metálica - Mandiri Steel Bekasi',
+      metaDescription: 'Explore el catálogo completo de servicios de herrería y fabricación de estructuras de acero a medida por Mandiri Steel Bekasi. Ofrecemos marquesinas, portones, rejas, pasamanos, acero inoxidable y estructuras pesadas.',
+      metaKeywords: 'catálogo de herrería, fabricación metálica a medida, instalar marquesinas bekasi, portones y cercas de hierro, rejas de seguridad, pasamanos de escalera, estructuras de acero, mandiri steel',
+      ogTitle: 'Catálogo de Herrería y Fabricación de Acero - Mandiri Steel Bekasi',
+      ogDescription: 'Catálogo completo de servicios premium de marquesinas, portones, cercas, rejas y construcciones de acero con garantía oficial de Mandiri Steel Bekasi.',
+      twitterTitle: 'Catálogo de Fabricación Metálica y Herrería - Mandiri Steel',
+      twitterDescription: 'Descubra soluciones de herrería y estructuras de acero personalizadas de alta calidad para residencias y comercios en Bekasi.',
+      collectionName: 'Catálogo de Estructuras Metálicas de Mandiri Steel',
+      collectionDescription: 'Consulte el catálogo completo de estructuras metálicas a medida y servicios profesionales de herrería de Mandiri Steel Bekasi. Desde 1999 en Jabodetabek.',
+      productDescription: (name: string) => `Diseño e instalación premium a medida de ${name} por Mandiri Steel Bekasi. Construido con acero estructural grueso, revestimiento antioxidante y garantía completa.`,
+      sellerDescription: 'Mandiri Steel es especialista en herrería premium y fabricación de estructuras de acero a medida en Bekasi. Entregando marquesinas, portones, pasamanos y construcciones de metal duraderas desde 1999.'
     },
     fr: {
       home: 'Accueil',
@@ -327,7 +393,18 @@ const Shop: React.FC = () => {
       results: 'résultats',
       prev: 'Précédent',
       next: 'Suivant',
-      page: 'Page'
+      page: 'Page',
+      pageTitle: 'Catalogue de Ferronnerie et Métallurgie sur Mesure - Mandiri Steel Bekasi',
+      metaDescription: 'Consultez le catalogue complet de nos prestations de ferronnerie et de charpente métallique sur mesure par Mandiri Steel Bekasi : auvents, portails, garde-corps, grilles, acier inoxydable et structures.',
+      metaKeywords: 'catalogue ferronnerie, métallurgie sur mesure, pose auvent bekasi, portails grilles en fer, grilles de sécurité fenêtres, garde-corps escalier, charpente métallique, mandiri steel',
+      ogTitle: 'Catalogue de Ferronnerie et Soudure Professionnelle - Mandiri Steel Bekasi',
+      ogDescription: 'Prestations haut de gamme d\'auvents, portails, clôtures, grilles et charpentes métalliques sur mesure avec garantie décennale officielle de Mandiri Steel Bekasi.',
+      twitterTitle: 'Ferronnerie et Charpente Métallique - Catalogue Mandiri Steel',
+      twitterDescription: 'Découvrez des solutions de ferronnerie sur mesure et de structures métalliques de qualité supérieure pour espaces résidentiels et professionnels à Bekasi.',
+      collectionName: 'Catalogue d\'Ouvrages Métalliques Mandiri Steel',
+      collectionDescription: 'Découvrez le catalogue complet d\'ouvrages métalliques sur mesure et de soudure professionnelle par Mandiri Steel Bekasi. Au service du Grand Jakarta depuis 1999.',
+      productDescription: (name: string) => `Conception et pose premium sur mesure de ${name} par Mandiri Steel Bekasi. Fabriqué en acier de forte épaisseur, avec peinture antirouille et garantie totale.`,
+      sellerDescription: 'Mandiri Steel est le spécialiste de la ferronnerie premium et de la charpente métallique sur mesure à Bekasi. Réalisation d\'auvents, portails, escaliers et structures robustes depuis 1999.'
     },
     ko: {
       home: '홈',
@@ -346,7 +423,18 @@ const Shop: React.FC = () => {
       results: '개',
       prev: '이전',
       next: '다음',
-      page: '페이지'
+      page: '페이지',
+      pageTitle: '맞춤형 금속 가공 및 용접 서비스 카탈로그 - Mandiri Steel Bekasi',
+      metaDescription: '베카시 Mandiri Steel의 맞춤형 철골 구조물 제작 및 용접 서비스 종합 카탈로그를 확인해 보세요. 캐노피, 대문, 방범창, 난간, 스테인리스 스틸 및 대형 구조물 제작 지원.',
+      metaKeywords: '용접 서비스 카탈로그, 맞춤 금속 가공, 베카시 캐노피 설치, 철제 대문 펜스, 창문 방범창, 계단 난간, 철골 구조 전문 업체, Mandiri Steel',
+      ogTitle: '용접 및 금속 구조물 제작 카탈로그 - Mandiri Steel Bekasi',
+      ogDescription: 'Mandiri Steel Bekasi의 프리미엄 캐노피, 대문, 펜스, 방범창 및 철골 구조물 제작 서비스에 대한 공식 보증서가 포함된 종합 카탈로그.',
+      twitterTitle: '금속 제작 및 용접 공사 카탈로그 - Mandiri Steel',
+      twitterDescription: '베카시 지역의 주택 및 상업용 공간을 위한 최고 품질의 맞춤형 금속 구조물 제작 및 전문 용접 솔루션.',
+      collectionName: 'Mandiri Steel 맞춤형 금속 제품 카탈로그',
+      collectionDescription: '베카시 Mandiri Steel이 제공하는 맞춤형 금속 제품 및 전문 용접 서비스의 전체 카탈로그. 1999년부터 자코데타벡 지역 지원.',
+      productDescription: (name: string) => `Mandiri Steel Bekasi가 제공하는 최고급 맞춤형 ${name} 설계 및 시공. 두꺼운 프레임 구조 강재 사용, 확실한 방청 마감 및 완벽한 품질 보증 제공.`,
+      sellerDescription: 'Mandiri Steel은 베카시의 프리미엄 용접 및 맞춤형 철강 구조물 제작 전문 기업입니다. 1999년부터 내구성이 뛰어난 캐노피, 대문, 난간 및 건설 철골 구조물을 전문 시공해 왔습니다.'
     }
   }
 
@@ -363,9 +451,9 @@ const Shop: React.FC = () => {
   return (
     <div className="product-category-page shop-page-layout">
       <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
-        <title>All Products - Cocoa, Cloves, Cocopeat & Agricultural Commodities | Naturra Extal</title>
-        <meta name="description" content="Browse all Agricultural Commodities: Premium Cocoa Powder, Indonesian Cloves, and Cocopeat Media. Export quality products from Bekasi Indonesia." />
-        <meta name="keywords" content="cocoa powder, indonesian cloves, cocopeat media, spices and herbs, essential oils, agricultural commodities exporter, Naturra Extal, export quality" />
+        <title>{t.pageTitle}</title>
+        <meta name="description" content={t.metaDescription} />
+        <meta name="keywords" content={t.metaKeywords} />
         <meta name="robots" content="index, follow" />
         <meta httpEquiv="content-language" content={localeMeta.lang} />
         <link rel="canonical" href={localizedUrls.canonical} />
@@ -374,8 +462,8 @@ const Shop: React.FC = () => {
         ))}
 
         {/* Open Graph */}
-        <meta property="og:title" content="All Products - Cocoa, Cloves, & Agricultural Commodities | Naturra Extal" />
-        <meta property="og:description" content="Browse our complete collection of premium agricultural commodities including Cocoa Powder, Indonesian Cloves, and Cocopeat." />
+        <meta property="og:title" content={t.ogTitle} />
+        <meta property="og:description" content={t.ogDescription} />
         <meta property="og:url" content={localizedUrls.canonical} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content={localeMeta.locale} />
@@ -384,24 +472,24 @@ const Shop: React.FC = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:title" content="Indonesian Agricultural Commodities - Naturra Extal" />
-        <meta name="twitter:description" content="Explore our premium collection of Cocoa, Cloves, and Cocopeat agricultural commodities at Naturra Extal." />
+        <meta name="twitter:title" content={t.twitterTitle} />
+        <meta name="twitter:description" content={t.twitterDescription} />
 
         {/* Structured Data */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            "name": "Agricultural Commodities Collection - Naturra Extal",
-            "description": "Browse our complete collection of Agricultural Commodities: Cocoa, Cloves, and Cocopeat. Premium quality products exported from Indonesia since 1999.",
-            "url": "https://naturraextal.com/shop",
+            "name": t.collectionName,
+            "description": t.collectionDescription,
+            "url": "https://lasbekasi.com/shop",
             "mainEntity": {
               "@type": "ItemList",
               "numberOfItems": ALL_PRODUCTS.length,
               "itemListElement": ALL_PRODUCTS.map((product, index) => {
                 const imageUrl = getProductImageUrl(product.image, product.slug)
                 const priceNumeric = product.price.replace(/[^\d]/g, '')
-                const description = `${product.name} agricultural commodity by Naturra Extal. Premium quality product from Indonesia since 1999.`
+                const description = t.productDescription(product.name)
 
                 return {
                   "@type": "ListItem",
@@ -410,11 +498,11 @@ const Shop: React.FC = () => {
                     "@type": "Product",
                     "name": product.name,
                     "description": description,
-                    "url": `https://naturraextal.com/product/${product.slug}`,
+                    "url": `https://lasbekasi.com/product/${product.slug}`,
                     "image": imageUrl,
                     "brand": {
                       "@type": "Brand",
-                      "name": "Naturra Extal"
+                      "name": "Mandiri Steel"
                     },
                     "offers": {
                       "@type": "Offer",
@@ -422,7 +510,7 @@ const Shop: React.FC = () => {
                       "priceCurrency": "IDR",
                       "availability": "https://schema.org/InStock",
                       "priceValidUntil": "2026-12-31",
-                      "url": `https://naturraextal.com/product/${product.slug}`,
+                      "url": `https://lasbekasi.com/product/${product.slug}`,
                       "hasMerchantReturnPolicy": {
                         "@type": "MerchantReturnPolicy",
                         "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
@@ -465,11 +553,11 @@ const Shop: React.FC = () => {
                       },
                       "seller": {
                         "@type": "Organization",
-                        "name": "Naturra Extal",
-                        "url": "https://naturraextal.com",
-                        "logo": "https://naturraextal.com/logo.png",
-                        "image": "https://naturraextal.com/og-image.jpg",
-                        "description": "Premium Indonesian agricultural commodities exporter. Supplying cocoa, cloves, and cocopeat worldwide since 1999."
+                        "name": "Mandiri Steel",
+                        "url": "https://lasbekasi.com",
+                        "logo": "https://lasbekasi.com/logo.png",
+                        "image": "https://lasbekasi.com/og-image.jpg",
+                        "description": t.sellerDescription
                       }
                     },
                     "aggregateRating": {
@@ -605,8 +693,8 @@ const Shop: React.FC = () => {
                       <div className="category-product-image">
                         <img
                           src={product.image}
-                          alt={`${translatedName} - Agricultural Commodities ${product.categories.join(' ')} Naturra Extal Shop`}
-                          title={`${translatedName} - Premium Agricultural Commodities ${product.categories.join(' ')} - Shop Now`}
+                          alt={`${translatedName} - Jasa Bengkel Las Mandiri Steel Bekasi`}
+                          title={`${translatedName} - Custom Steel Fabrication Mandiri Steel`}
                           loading="lazy"
                           width="300"
                           height="200"

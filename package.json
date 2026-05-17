@@ -7,7 +7,7 @@
     "dev": "vite",
     "generate:sitemap": "node ./scripts/generate-sitemap.mjs",
     "prerender:blog": "node ./scripts/prerender-blog.mjs",
-    "build": "npm run generate:sitemap && vite build && npm run prerender:blog",
+    "build": "npm run generate:sitemap && vite build && npm run prerender:blog && node ./scripts/prerender-pages.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },

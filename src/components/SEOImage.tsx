@@ -54,7 +54,7 @@ const SEOImage: React.FC<SEOImageProps> = ({
   });
 
   // Generate SEO-optimized title if not provided
-  const titleText = title || altText || productName || 'agricultural commodities Naturra Extal';
+  const titleText = title || altText || productName || 'bengkel las mandiri steel bekasi';
 
   // Handler untuk mencegah drag (context menu sudah di-handle global di imageProtection.ts)
   const handleDragStart = (e: React.DragEvent<HTMLImageElement>) => {

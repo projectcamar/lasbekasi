@@ -47,6 +47,8 @@ const SearchResults = safeLazy(() => import('./pages/SearchResults'))
 const TermsOfService = safeLazy(() => import('./pages/TermsOfService'))
 const ShippingInformation = safeLazy(() => import('./pages/ShippingInformation'))
 const ImageLicense = safeLazy(() => import('./pages/ImageLicense'))
+const ProductDetail = safeLazy(() => import('./pages/ProductDetail'))
+const ProductCategory = safeLazy(() => import('./pages/ProductCategory'))
 
 // Minimal loading for better UX
 const Loading = () => (
@@ -114,7 +116,7 @@ function App() {
         <LanguageProvider>
           <TutorialProvider>
             <ScrollToTop />
-            <SingaporeLanguageModal />
+            {/* <SingaporeLanguageModal /> - Disabled to align UX/E-E-A-T for local welding business */}
             <Routes>
               {/* Primary Routes */}
               <Route path="/" element={<Home />} />
@@ -206,8 +208,20 @@ function App() {
                 </ProtectedRoute>
               } />
 
+              {/* Products Detail & Category Routes */}
+              <Route path="/product/:slug" element={
+                <Suspense fallback={<Loading />}>
+                  <ProductDetail />
+                </Suspense>
+              } />
+              <Route path="/product-category/:slug" element={
+                <Suspense fallback={<Loading />}>
+                  <ProductCategory />
+                </Suspense>
+              } />
+
               {/* SEO Landing Pages */}
-              <Route path="/commodity-export-bekasi" element={
+              <Route path="/bengkel-las-bekasi" element={
                 <Suspense fallback={<Loading />}>
                   <CommodityExportBekasi />
                 </Suspense>

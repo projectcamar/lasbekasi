@@ -4,7 +4,7 @@ import { Search, ChevronDown } from 'lucide-react'
 import { useLanguage } from '../utils/languageContext'
 import { type LanguageCode } from '../utils/languageManager'
 import { trackEvent } from '../utils/analytics'
-import { NATURRA_PRODUCTS } from '../data/naturraProducts'
+import { ALL_PRODUCTS } from '../data/products'
 import './NaturraHeader.css'
 
 const translations = {
@@ -129,9 +129,9 @@ const NaturraHeader: React.FC<NaturraHeaderProps> = ({ isIndonesian = false, lan
   }
 
   const filteredProducts = searchQuery.trim()
-    ? NATURRA_PRODUCTS.filter(product =>
+    ? ALL_PRODUCTS.filter(product =>
       product.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      product.category.toLowerCase().includes(searchQuery.toLowerCase())
+      product.categories.some(cat => cat.toLowerCase().includes(searchQuery.toLowerCase()))
     ).slice(0, 5)
     : []
 
@@ -320,7 +320,7 @@ const NaturraHeader: React.FC<NaturraHeaderProps> = ({ isIndonesian = false, lan
                         <img src={p.image} alt={p.name} width="50" height="50" style={{ objectFit: 'cover' }} />
                         <div>
                           <div className="result-name">{p.name}</div>
-                          <div className="result-cat">{p.category.toUpperCase()}</div>
+                          <div className="result-cat">{p.categories[0].toUpperCase()}</div>
                         </div>
                       </Link>
                     ))}

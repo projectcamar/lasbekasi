@@ -16,95 +16,135 @@ import { translateCategories } from '../utils/categoryTranslations'
 import './ProductCategory.css'
 
 const CATEGORY_NAME_TRANSLATIONS: Record<string, Record<LanguageCode, string>> = {
-  'New Arrivals': {
-    id: 'Produk Baru',
-    en: 'New Arrivals',
-    ar: 'وصل حديثاً',
-    zh: '新品',
-    ja: '新着',
-    es: 'Novedades',
-    fr: 'Nouveautés',
-    ko: '신제품'
+  'Kanopi': {
+    id: 'Kanopi',
+    en: 'Canopy',
+    ar: 'المظلات',
+    zh: '雨棚',
+    ja: 'キャノピー',
+    es: 'Marquesinas',
+    fr: 'Auvents',
+    ko: '캐노피'
   },
-  'Cocoa Powder': {
-    id: 'Bubuk Kakao',
-    en: 'Cocoa Powder',
-    ar: 'مسحوق الكاكاو',
-    zh: '可可粉',
-    ja: 'ココアパウダー',
-    es: 'Cacao en polvo',
-    fr: 'Poudre de cacao',
-    ko: '코코아 가루'
+  'Pagar': {
+    id: 'Pagar Besi',
+    en: 'Iron Fence',
+    ar: 'الأسوار الحديدية',
+    zh: '铁艺围栏',
+    ja: 'フェンス・門扉',
+    es: 'Cercas y Portones',
+    fr: 'Clôtures et Portails',
+    ko: '펜스 및 대문'
   },
-  'Indonesian Cloves': {
-    id: 'Cengkeh Indonesia',
-    en: 'Indonesian Cloves',
-    ar: 'القرنفل الإندونيسي',
-    zh: '印度尼西亚丁香',
-    ja: 'インドネシア産クローブ',
-    es: 'Clavos indonesios',
-    fr: 'Clous de girofle indonésiens',
-    ko: '인도네시아 정향'
+  'Teralis': {
+    id: 'Teralis Jendela',
+    en: 'Window Trellis',
+    ar: 'تعريشة نافذة',
+    zh: '窗户护栏',
+    ja: '窓格子',
+    es: 'Rejas de Ventana',
+    fr: 'Grilles de Fenêtre',
+    ko: '창문 방범창'
   },
-  'Cocopeat Media': {
-    id: 'Media Cocopeat',
-    en: 'Cocopeat Media',
-    ar: 'بيئة الكوكوبيت',
-    zh: '椰糠介质',
-    ja: 'ココピート培地',
-    es: 'Sustrato de cocopeat',
-    fr: 'Substrat de cocopeat',
-    ko: '코코피트 상토'
+  'Railing': {
+    id: 'Railing Tangga',
+    en: 'Stair Railing',
+    ar: 'درابزين درج',
+    zh: '楼梯扶手',
+    ja: '階段手すり',
+    es: 'Pasamanos de Escalera',
+    fr: 'Garde-corps d\'Escalier',
+    ko: '계단 난간'
   },
-  'Spices & Herbs': {
-    id: 'Rempah & Herbal',
-    en: 'Spices & Herbs',
-    ar: 'توابل وأعشاب',
-    zh: '香料与草药',
-    ja: 'スパイス＆ハーブ',
-    es: 'Especias y hierbas',
-    fr: 'Épices et herbes',
-    ko: '향신료 및 허브'
+  'Konstruksi Baja': {
+    id: 'Konstruksi Baja',
+    en: 'Steel Construction',
+    ar: 'الإنشاءات الفولاذية',
+    zh: '钢结构',
+    ja: '鉄骨構造',
+    es: 'Estructuras de Acero',
+    fr: 'Structures en Acier',
+    ko: '철골 구조물'
   },
-  'Sustainable Growing': {
-    id: 'Berkelanjutan',
-    en: 'Sustainable Growing',
-    ar: 'نمو مستدام',
-    zh: '可持续种植',
-    ja: 'サステナブル',
-    es: 'Cultivo sostenible',
-    fr: 'Culture durable',
-    ko: '지속 가능 재배'
+  'Stainless Steel': {
+    id: 'Stainless Steel',
+    en: 'Stainless Steel',
+    ar: 'الستانلس ستيل',
+    zh: '不锈钢',
+    ja: 'ステンレス',
+    es: 'Acero Inoxidable',
+    fr: 'Acier Inoxydable',
+    ko: '스테인리스 스틸'
   },
-  'Essential Oils': {
-    id: 'Minyak Atsiri',
-    en: 'Essential Oils',
-    ar: 'زيوت عطرية',
-    zh: '精油',
-    ja: '精油',
-    es: 'Aceites esenciales',
-    fr: 'Huiles essentielles',
-    ko: '에센셜 오일'
+  'Premium': {
+    id: 'Layanan Premium',
+    en: 'Premium Services',
+    ar: 'خدمات متميزة',
+    zh: '优质服务',
+    ja: 'プレミアムサービス',
+    es: 'Servicios Premium',
+    fr: 'Services Premium',
+    ko: '프리미엄 서비스'
   },
-  'Export Quality': {
-    id: 'Kualitas Ekspor',
-    en: 'Export Quality',
-    ar: 'جودة التصدير',
-    zh: '出口品质',
-    ja: '輸出品質',
-    es: 'Calidad de exportación',
-    fr: 'Qualité export',
-    ko: '수출 품질'
+  'Keamanan Jendela & Pintu': {
+    id: 'Keamanan',
+    en: 'Security',
+    ar: 'الأمن والحلول الأمنية',
+    zh: '安全保障',
+    ja: '防犯ソリューション',
+    es: 'Soluciones de Seguridad',
+    fr: 'Sécurité Maximale',
+    ko: '보안 솔루션'
+  },
+  'Railing Interior': {
+    id: 'Interior',
+    en: 'Interior',
+    ar: 'الديكور الداخلي',
+    zh: '室内装饰',
+    ja: 'インテリア',
+    es: 'Decoración de Interiores',
+    fr: 'Aménagement Intérieur',
+    ko: '인테리어'
+  },
+  'Konstruksi Industri': {
+    id: 'Industri',
+    en: 'Industrial',
+    ar: 'الصناعية',
+    zh: '工业级',
+    ja: '工业向け',
+    es: 'Uso Industrial',
+    fr: 'Solutions Industrielles',
+    ko: '산업용'
+  },
+  'Layanan Utama': {
+    id: 'Layanan Utama',
+    en: 'Core Services',
+    ar: 'الخدمات الأساسية',
+    zh: '核心服务',
+    ja: '主要サービス',
+    es: 'Servicios Principales',
+    fr: 'Services Principaux',
+    ko: '핵심 서비스'
+  },
+  'Best Seller': {
+    id: 'Paling Laris',
+    en: 'Best Sellers',
+    ar: 'الأكثر مبيعاً',
+    zh: '畅销产品',
+    ja: 'ベストセラー',
+    es: 'Más Vendidos',
+    fr: 'Meilleures Ventes',
+    ko: '베스트셀러'
   },
   'Products': {
-    id: 'Produk',
-    en: 'Products',
-    ar: 'منتجات',
-    zh: '产品',
-    ja: '製品',
-    es: 'Productos',
-    fr: 'Produits',
-    ko: '제품'
+    id: 'Layanan',
+    en: 'Services',
+    ar: 'الخدمات',
+    zh: '服务',
+    ja: 'サービス',
+    es: 'Servicios',
+    fr: 'Services',
+    ko: '서비스'
   }
 }
 
@@ -140,25 +180,25 @@ const CATEGORY_UI_TRANSLATIONS: Record<
   id: {
     loading: 'Memuat...',
     showingResults: (count) => `Menampilkan 1-${count} dari ${count} hasil`,
-    resultsCount: (count) => `${count} produk ditemukan`,
+    resultsCount: (count) => `${count} layanan ditemukan`,
     sortByLabel: 'Urutkan:',
     defaultSort: 'Default',
     priceLow: 'Harga: Rendah ke Tinggi',
     priceHigh: 'Harga: Tinggi ke Rendah',
     noResults: 'Tidak ada produk ditemukan',
     home: 'Beranda',
-    pageTitle: (category) => `${category} Agricultural Commodities Bekasi - Kualitas Ekspor | Naturra Extal`,
+    pageTitle: (category) => `Jasa Pasang ${category} Bekasi - Bengkel Las Mandiri Steel`,
     metaDescription: (category, count) =>
-      `${category} premium dari Naturra Extal Bekasi. Harga export, kualitas grade A, pengalaman 25+ tahun. Terdapat ${count} produk tersedia.`,
+      `Jasa pasang ${category.toLowerCase()} kustom berkualitas tinggi dari Bengkel Las Mandiri Bekasi (Mandiri Steel). Rangka tebal standar SNI, finishing rapi, garansi kebocoran & struktur. Tersedia ${count} pilihan terbaik.`,
     metaKeywords: (category) =>
-      `${category.toLowerCase()} export quality, ${category.toLowerCase()} premium, agricultural commodities bekasi, commodity supplier, Naturra Extal`,
-    ogTitle: (category) => `${category} Agricultural Commodities - Naturra Extal Bekasi`,
-    ogDescription: (category) => `Supplier ${category} premium dengan standar ekspor. Hub di Bekasi, pengalaman 25+ tahun.`,
-    twitterTitle: (category) => `${category} Agricultural Commodities - Naturra Extal`,
-    twitterDescription: (category, count) => `${count} produk ${category} kualitas ekspor premium.`,
-    collectionName: (category) => `${category} agricultural commodities - Naturra Extal`,
+      `jasa ${category.toLowerCase()} bekasi, pasang ${category.toLowerCase()} murah, bengkel las ${category.toLowerCase()}, mandiri steel, las besi bekasi, custom ${category.toLowerCase()}`,
+    ogTitle: (category) => `Jasa Pasang ${category} Bekasi - Mandiri Steel`,
+    ogDescription: (category) => `Layanan fabrikasi kustom ${category} berkualitas tinggi di Bekasi. Bahan tebal standar SNI, pengerjaan rapi, dan bergaransi resmi.`,
+    twitterTitle: (category) => `Jasa ${category} Bekasi - Mandiri Steel`,
+    twitterDescription: (category, count) => `Dapatkan ${count} pilihan kustom ${category} berkualitas terbaik dari Mandiri Steel Bekasi.`,
+    collectionName: (category) => `Kategori Layanan ${category} - Mandiri Steel`,
     collectionDescription: (category, count) =>
-      `Koleksi ${category} agricultural commodities. Kualitas premium, harga pabrik, pengalaman 25+ tahun. Workshop Bekasi melayani Jabodetabek. ${count} produk.`
+      `Koleksi jasa pembuatan dan pemasangan ${category} dari Mandiri Steel. Kualitas premium, pengerjaan presisi, garansi kebocoran dan struktur untuk area Bekasi. Tersedia ${count} jenis.`
   },
   en: {
     loading: 'Loading...',
@@ -170,18 +210,18 @@ const CATEGORY_UI_TRANSLATIONS: Record<
     priceHigh: 'Price: High to Low',
     noResults: 'No products found',
     home: 'Home',
-    pageTitle: (category) => `${category} Agricultural Commodities Bekasi - Premium Quality | Naturra Extal`,
+    pageTitle: (category) => `Custom ${category} Services Bekasi - Mandiri Steel`,
     metaDescription: (category, count) =>
-      `${category} premium commodities by Naturra Extal Bekasi. Direct-export pricing, premium quality beans & materials, 25+ years experience. ${count} products available.`,
+      `High-quality custom ${category.toLowerCase()} services by Mandiri Steel Bekasi. Heavy-duty SNI materials, anti-rust coating, and full structural warranty. ${count} premium designs available.`,
     metaKeywords: (category) =>
-      `${category.toLowerCase()} Agricultural Commodities, ${category.toLowerCase()} bekasi, custom Agricultural Commodities, Naturra Extal`,
-    ogTitle: (category) => `${category} Industrial - Naturra Extal Bekasi`,
-    ogDescription: (category) => `${category} Agricultural Commodities with factory-direct pricing. Bekasi workshop with 25+ years of experience.`,
-    twitterTitle: (category) => `${category} Industrial - Naturra Extal`,
-    twitterDescription: (category, count) => `${count} premium ${category} Agricultural Commodities products.`,
-    collectionName: (category) => `${category} Agricultural Commodities - Naturra Extal`,
+      `custom ${category.toLowerCase()} bekasi, welding ${category.toLowerCase()} services, iron work ${category.toLowerCase()}, mandiri steel, bekasi canopy gate`,
+    ogTitle: (category) => `Custom ${category} Fabrication - Mandiri Steel Bekasi`,
+    ogDescription: (category) => `Premium custom ${category} fabrication in Bekasi. Heavy-duty steel, clean finishes, and official warranty by Mandiri Steel.`,
+    twitterTitle: (category) => `${category} Services Bekasi - Mandiri Steel`,
+    twitterDescription: (category, count) => `Explore ${count} custom ${category} styles by Mandiri Steel Bekasi.`,
+    collectionName: (category) => `${category} Fabrication Category - Mandiri Steel`,
     collectionDescription: (category, count) =>
-      `Collection of ${category} Agricultural Commodities. Premium quality, factory prices, 25+ years experience. Bekasi workshop serving Jabodetabek. ${count} items.`
+      `Collection of premium ${category} designs and installations by Mandiri Steel. Precision fabrication and warranty for residential & commercial properties in Bekasi. ${count} styles.`
   },
   ar: {
     loading: 'جارٍ التحميل...',
@@ -193,18 +233,18 @@ const CATEGORY_UI_TRANSLATIONS: Record<
     priceHigh: 'السعر: من الأعلى إلى الأقل',
     noResults: 'لم يتم العثور على منتجات',
     home: 'الصفحة الرئيسية',
-    pageTitle: (category) => `${category} أثاث صناعي بيكاسي - جودة متميزة | Naturra Extal`,
+    pageTitle: (category) => `خدمات ${category} في بيكاسي - مانديري ستيل`,
     metaDescription: (category, count) =>
-      `${category} أثاث صناعي مخصص من Naturra Extal في بيكاسي. أسعار المصنع، جودة عالية، خبرة لأكثر من 25 سنة. نخدم منطقة جاكرتا الكبرى. يتوفر ${count} منتج.`,
+      `خدمات تصنيع ${category} مخصصة عالية الجودة من مانديري ستيل في بيكاسي. هياكل فولاذية متينة بمعايير SNI وضمان هيكلي. يتوفر ${count} تصميم ممتاز.`,
     metaKeywords: (category) =>
-      `${category} اثاث صناعي، ${category} بيكاسي، اثاث صناعي مخصص، Naturra Extal`,
-    ogTitle: (category) => `${category} أثاث صناعي - Naturra Extal بيكاسي`,
-    ogDescription: (category) => `أثاث ${category} صناعي بأسعار المصنع. ورشة بيكاسي بخبرة تتجاوز 25 عاماً.`,
-    twitterTitle: (category) => `${category} أثاث صناعي - Naturra Extal`,
-    twitterDescription: (category, count) => `${count} منتج ${category} صناعي بجودة متميزة.`,
-    collectionName: (category) => `${category} أثاث صناعي - Naturra Extal`,
+      `${category} بيكاسي، تركيب ${category}، ورشة لحام ${category}، مانديري ستيل، حدادة بيكاسي`,
+    ogTitle: (category) => `تصنيع ${category} مخصص - مانديري ستيل بيكاسي`,
+    ogDescription: (category) => `تصنيع وتركيب ${category} مخصص بجودة عالية في بيكاسي. إطارات متينة وتشطيبات دقيقة بضمان رسمي من مانديري ستيل.`,
+    twitterTitle: (category) => `خدمات ${category} بيكاسي - مانديري ستيل`,
+    twitterDescription: (category, count) => `استكشف ${count} تصميم مخصص لـ ${category} بجودة ممتازة من مانديري ستيل بيكاسي.`,
+    collectionName: (category) => `فئة تصنيع ${category} - مانديري ستيل`,
     collectionDescription: (category, count) =>
-      `مجموعة ${category} من الأثاث الصناعي. جودة متميزة وأسعار المصنع وخبرة 25+ عاماً. ورشة بيكاسي تخدم جاكرتا الكبرى. ${count} عنصر.`
+      `مجموعة تصاميم وتركيبات ${category} الفاخرة من مانديري ستيل. دقة في التصنيع والتركيب وضمان هيكلي كامل لخدمة بيكاسي وجاكرتا الكبرى. ${count} تصميم.`
   },
   zh: {
     loading: '加载中...',
@@ -216,18 +256,18 @@ const CATEGORY_UI_TRANSLATIONS: Record<
     priceHigh: '价格：从高到低',
     noResults: '未找到产品',
     home: '首页',
-    pageTitle: (category) => `${category} 工业风家具 Bekasi - 高品质定制 | Naturra Extal`,
+    pageTitle: (category) => `勿加泗定制${category}安装服务 - Mandiri Steel`,
     metaDescription: (category, count) =>
-      `${category} 工业风定制家具，由 Naturra Extal Bekasi 制作。工厂直供，优质做工，25+ 年经验。服务雅加达大都市区。共有 ${count} 件产品。`,
+      `勿加泗 Mandiri Steel 提供的优质定制${category}制造服务。采用符合 SNI 标准的加厚钢材与防锈漆面，提供结构保修。共有 ${count} 款设计可供选择。`,
     metaKeywords: (category) =>
-      `${category} 工业家具, ${category} Bekasi, 定制工业家具, Naturra Extal`,
-    ogTitle: (category) => `${category} 工业家具 - Naturra Extal Bekasi`,
-    ogDescription: (category) => `${category} 工业家具，工厂直供，Bekasi 工坊拥有 25+ 年经验。`,
-    twitterTitle: (category) => `${category} 工业家具 - Naturra Extal`,
-    twitterDescription: (category, count) => `${count} 款优质 ${category} 工业风家具。`,
-    collectionName: (category) => `${category} 工业家具 - Naturra Extal`,
+      `勿加泗${category}, ${category}定制安装, ${category}电焊工坊, Mandiri Steel, 勿加泗铁艺`,
+    ogTitle: (category) => `定制${category}制造 - Mandiri Steel Bekasi`,
+    ogDescription: (category) => `勿加泗高品质定制${category}制造与安装服务。坚固框架，精细工艺，Mandiri Steel 官方品质保修。`,
+    twitterTitle: (category) => `勿加泗${category}安装服务 - Mandiri Steel`,
+    twitterDescription: (category, count) => `探索 ${count} 款由勿加泗 Mandiri Steel 制造的定制${category}服务。`,
+    collectionName: (category) => `${category}定制制造类别 - Mandiri Steel`,
     collectionDescription: (category, count) =>
-      `${category} 工业家具系列。优质工艺，工厂价格，25+ 年经验。Bekasi 工坊服务雅加达地区。共 ${count} 件。`
+      `Mandiri Steel 提供的优质${category}定制设计与安装系列。精细的电焊工艺，为勿加泗及雅加达地区住宅和商业物业提供品质保障。共 ${count} 款。`
   },
   ja: {
     loading: '読み込み中...',
@@ -239,18 +279,18 @@ const CATEGORY_UI_TRANSLATIONS: Record<
     priceHigh: '価格: 高い順',
     noResults: '商品が見つかりません',
     home: 'ホーム',
-    pageTitle: (category) => `${category} 工業家具 ベカシ - プレミアム品質 | Naturra Extal`,
+    pageTitle: (category) => `ブカシのカスタム${category}製作・施工 - Mandiri Steel`,
     metaDescription: (category, count) =>
-      `${category} の工業系カスタム家具。Naturra Extal ベカシ工房。工場直販、プレミアム品質、25年以上の経験。ジャボデタベック全域対応。${count} 商品。`,
+      `ブカシの Mandiri Steel が提供する高品質カスタム${category}製作サービス。SNI規格スチール材使用、丁寧な防錆塗装仕上げ、構造保証付き。現在 ${count} デザイン公開中。`,
     metaKeywords: (category) =>
-      `${category} 工業家具, ${category} ベカシ, カスタム工業家具, Naturra Extal`,
-    ogTitle: (category) => `${category} 工業家具 - Naturra Extal ベカシ`,
-    ogDescription: (category) => `工場直販の ${category} 工業家具。ベカシ工房、25年以上の経験。`,
-    twitterTitle: (category) => `${category} 工業家具 - Naturra Extal`,
-    twitterDescription: (category, count) => `高品質な ${category} 工業家具を ${count} 点ご用意しています。`,
-    collectionName: (category) => `${category} 工業家具 - Naturra Extal`,
+      `ブカシ ${category}, ${category} 施工, 溶接工務店 ${category}, Mandiri Steel, ブカシ アイアンワーク`,
+    ogTitle: (category) => `カスタム${category}製作 - Mandiri Steel ブカシ`,
+    ogDescription: (category) => `ブカシで高品質なカスタム${category}を製作・設置します。頑丈なフレームと丁寧な仕上げ、Mandiri Steel による公式保証付き。`,
+    twitterTitle: (category) => `ブカシの${category}施工 - Mandiri Steel`,
+    twitterDescription: (category, count) => `ブカシの Mandiri Steel が手掛ける ${count} 点のカスタム${category}コレクションをご覧ください。`,
+    collectionName: (category) => `${category}製作カテゴリー - Mandiri Steel`,
     collectionDescription: (category, count) =>
-      `${category} 工業家具のコレクション。プレミアム品質、工場価格、25年以上の経験。ベカシ工房がジャボデタベック対応。${count} 点。`
+      `Mandiri Steel が手掛けるプレミアムな${category}の設計・施工コレクション。ブカシ全域およびジャボデタベック地域の住宅・店舗向け。高品質${category}を ${count} スタイルご用意。`
   },
   es: {
     loading: 'Cargando...',
@@ -262,18 +302,18 @@ const CATEGORY_UI_TRANSLATIONS: Record<
     priceHigh: 'Precio: de mayor a menor',
     noResults: 'No se encontraron productos',
     home: 'Inicio',
-    pageTitle: (category) => `${category} Agricultural Commodities Bekasi - Premium Quality | Naturra Extal`,
+    pageTitle: (category) => `Servicios de ${category} a Medida en Bekasi - Mandiri Steel`,
     metaDescription: (category, count) =>
-      `Supplier ${category} premium de Naturra Extal Bekasi. Calidad de exportación, experiencia de más de 25 años. Servicio global. ${count} productos disponibles.`,
+      `Servicios de fabricación e instalación de ${category.toLowerCase()} a medida por Mandiri Steel Bekasi. Materiales gruesos SNI, pintura antioxidante y garantía estructural. ${count} opciones disponibles.`,
     metaKeywords: (category) =>
-      `${category.toLowerCase()} muebles industriales, ${category.toLowerCase()} bekasi, muebles industriales personalizados, Naturra Extal`,
-    ogTitle: (category) => `${category} Industrial - Naturra Extal Bekasi`,
-    ogDescription: (category) => `Muebles industriales ${category} con precios directos de fábrica. Taller en Bekasi con más de 25 años de experiencia.`,
-    twitterTitle: (category) => `${category} Industrial - Naturra Extal`,
-    twitterDescription: (category, count) => `${count} productos industriales ${category} de calidad premium.`,
-    collectionName: (category) => `${category} Muebles Industriales - Naturra Extal`,
+      `${category.toLowerCase()} bekasi, instalar ${category.toLowerCase()}, taller de soldadura ${category.toLowerCase()}, mandiri steel, herrería bekasi`,
+    ogTitle: (category) => `Fabricación de ${category} a Medida - Mandiri Steel Bekasi`,
+    ogDescription: (category) => `Servicios de ${category} a medida y de alta calidad en Bekasi. Estructuras sólidas, acabados limpios y garantía de Mandiri Steel.`,
+    twitterTitle: (category) => `Servicios de ${category} Bekasi - Mandiri Steel`,
+    twitterDescription: (category, count) => `Explore ${count} estilos personalizados de ${category} por Mandiri Steel Bekasi.`,
+    collectionName: (category) => `Categoría de Fabricación de ${category} - Mandiri Steel`,
     collectionDescription: (category, count) =>
-      `Colección de muebles industriales ${category}. Calidad premium, precios de fábrica y más de 25 años de experiencia. Taller en Bekasi para Jabodetabek. ${count} artículos.`
+      `Colección de diseños e instalaciones premium de ${category} por Mandiri Steel. Fabricación de precisión y garantía para residencias y comercios en Bekasi. ${count} estilos.`
   },
   fr: {
     loading: 'Chargement...',
@@ -285,18 +325,18 @@ const CATEGORY_UI_TRANSLATIONS: Record<
     priceHigh: 'Prix : du plus élevé au plus bas',
     noResults: 'Aucun produit trouvé',
     home: 'Accueil',
-    pageTitle: (category) => `${category} Mobilier Industriel Bekasi - Qualité Premium | Naturra Extal`,
+    pageTitle: (category) => `Services de ${category} Sur Mesure à Bekasi - Mandiri Steel`,
     metaDescription: (category, count) =>
-      `${category} mobilier industriel sur mesure par Naturra Extal Bekasi. Prix d'usine, qualité premium, plus de 25 ans d'expérience. Service Jabodetabek. ${count} produits disponibles.`,
+      `Services de fabrication et d'installation d'${category.toLowerCase()} sur mesure par Mandiri Steel Bekasi. Matériaux robustes SNI, traitement antirouille et garantie de structure. ${count} modèles disponibles.`,
     metaKeywords: (category) =>
-      `${category.toLowerCase()} mobilier industriel, ${category.toLowerCase()} bekasi, mobilier industriel sur mesure, Naturra Extal`,
-    ogTitle: (category) => `${category} Industriel - Naturra Extal Bekasi`,
-    ogDescription: (category) => `Mobilier industriel ${category} avec prix d'usine. Atelier de Bekasi avec plus de 25 ans d'expérience.`,
-    twitterTitle: (category) => `${category} Industriel - Naturra Extal`,
-    twitterDescription: (category, count) => `${count} produits industriels ${category} de qualité premium.`,
-    collectionName: (category) => `${category} Mobilier Industriel - Naturra Extal`,
+      `${category.toLowerCase()} sur mesure bekasi, soudure ${category.toLowerCase()}, ferronnerie d'art ${category.toLowerCase()}, mandiri steel, auvents barrières bekasi`,
+    ogTitle: (category) => `Fabrication d'${category} Sur Mesure - Mandiri Steel Bekasi`,
+    ogDescription: (category) => `Services de conception d'${category} sur mesure de qualité supérieure à Bekasi. Finitions soignées et garantie décennale Mandiri Steel.`,
+    twitterTitle: (category) => `Services de ${category} Bekasi - Mandiri Steel`,
+    twitterDescription: (category, count) => `Découvrez ${count} styles d'${category} sur mesure par Mandiri Steel Bekasi.`,
+    collectionName: (category) => `Catégorie Fabrication d'${category} - Mandiri Steel`,
     collectionDescription: (category, count) =>
-      `Collection de mobilier industriel ${category}. Qualité premium, prix d'usine, plus de 25 ans d'expérience. Atelier de Bekasi pour Jabodetabek. ${count} articles.`
+      `Sélection de modèles haut de gamme d'${category} par Mandiri Steel. Pose soignée et garantie robuste pour projets résidentiels et commerciaux à Bekasi. ${count} types disponibles.`
   },
   ko: {
     loading: '로딩 중...',
@@ -308,18 +348,18 @@ const CATEGORY_UI_TRANSLATIONS: Record<
     priceHigh: '가격: 높은 순',
     noResults: '상품을 찾을 수 없습니다',
     home: '홈',
-    pageTitle: (category) => `${category} 산업용 가구 베카시 - 프리미엄 품질 | Naturra Extal`,
+    pageTitle: (category) => `베카시 맞춤형 ${category} 제작 및 설치 - Mandiri Steel`,
     metaDescription: (category, count) =>
-      `${category} 산업용 맞춤 가구, Naturra Extal Bekasi 제작. 공장 직영 가격, 프리미엄 품질, 25년 이상 경험. 자보데타벡 전역 서비스. 총 ${count}개 제품.`,
+      `베카시 Mandiri Steel의 프리미엄 맞춤형 ${category} 제작 서비스. SNI 규격 강재 사용, 방청 도장 처리, 확실한 품질 보증. 현재 ${count}개 서비스 이용 가능.`,
     metaKeywords: (category) =>
-      `${category} 산업 가구, ${category} 베카시, 맞춤 산업 가구, Naturra Extal`,
-    ogTitle: (category) => `${category} 산업 가구 - Naturra Extal Bekasi`,
-    ogDescription: (category) => `공장 직영 가격의 ${category} 산업 가구. 베카시 공방, 25년 이상의 경험.`,
-    twitterTitle: (category) => `${category} 산업 가구 - Naturra Extal`,
-    twitterDescription: (category, count) => `프리미엄 ${category} 산업 가구 ${count}개.`,
-    collectionName: (category) => `${category} 산업 가구 - Naturra Extal`,
+      `베카시 ${category}, ${category} 설치, 용접 전문 공방 ${category}, Mandiri Steel, 철제 구조물 제작`,
+    ogTitle: (category) => `맞춤형 ${category} 제작 - Mandiri Steel Bekasi`,
+    ogDescription: (category) => `베카시 최고의 맞춤형 ${category} 제작 및 설치 서비스. 튼튼한 프레임, 정밀 시공 및 Mandiri Steel 정식 품질 보증.`,
+    twitterTitle: (category) => `베카시 ${category} 시공 - Mandiri Steel`,
+    twitterDescription: (category, count) => `베카시 Mandiri Steel이 설계 및 시공한 ${count}개의 맞춤형 ${category} 컬렉션을 확인해 보세요.`,
+    collectionName: (category) => `${category} 맞춤 제작 카테고리 - Mandiri Steel`,
     collectionDescription: (category, count) =>
-      `${category} 산업 가구 컬렉션. 프리미엄 품질, 공장 가격, 25년 이상 경험. 베카시 공방이 자보데타벡을 지원. 총 ${count}개.`
+      `Mandiri Steel의 고품격 ${category} 설계 및 시공 컬렉션. 베카시 및 자카르타 수도권 지역의 주택 및 상업용 프로젝트 지원. 총 ${count}개 스타일.`
   }
 }
 
@@ -516,13 +556,13 @@ const ProductCategory: React.FC = () => {
                 "@type": "ListItem",
                 "position": 1,
                 "name": uiTranslations.home,
-                "item": "https://naturraextal.com/"
+                "item": "https://lasbekasi.com/"
               },
               {
                 "@type": "ListItem",
                 "position": 2,
                 "name": localizedCategoryName,
-                "item": `https://naturraextal.com/product-category/${category}`
+                "item": `https://lasbekasi.com/product-category/${category}`
               }
             ]
           })}
@@ -535,7 +575,7 @@ const ProductCategory: React.FC = () => {
             "@type": "CollectionPage",
             "name": uiTranslations.collectionName(localizedCategoryName),
             "description": uiTranslations.collectionDescription(localizedCategoryName, filteredProducts.length),
-            "url": `https://naturraextal.com/product-category/${category}`,
+            "url": `https://lasbekasi.com/product-category/${category}`,
             "mainEntity": {
               "@type": "ItemList",
               "numberOfItems": filteredProducts.length,
@@ -545,7 +585,7 @@ const ProductCategory: React.FC = () => {
                 "item": {
                   "@type": "Product",
                   "name": product.name,
-                  "url": `https://naturraextal.com/product/${product.slug}`,
+                  "url": `https://lasbekasi.com/product/${product.slug}`,
                   "image": product.image,
                   "offers": {
                     "@type": "Offer",
@@ -610,8 +650,8 @@ const ProductCategory: React.FC = () => {
                   <div className="category-product-image">
                     <img
                       src={product.image}
-                      alt={`${translatedName} - ${localizedCategoryName} Agricultural Commodities Collection Naturra Extal`}
-                      title={`${translatedName} - ${localizedCategoryName} Premium Products from Naturra Extal Indonesia`}
+                      alt={`${translatedName} - Jasa Bengkel Las ${localizedCategoryName} Mandiri Steel Bekasi`}
+                      title={`${translatedName} - Custom ${localizedCategoryName} Fabrication Mandiri Steel`}
                       loading="lazy"
                       width="300"
                       height="200"

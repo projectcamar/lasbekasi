@@ -18,50 +18,49 @@ export interface BlogContent {
 
 const STOP_WORDS = new Set([
   '', 'dan', 'yang', 'untuk', 'dengan', 'atau', 'para', 'dari', 'pada', 'kami', 'anda',
-  'Naturra', 'extal', 'commodity', 'trading', 'export', 'smeter', '2025'
+  'bengkel', 'las', 'mandiri', 'steel', 'bekasi', 'terpercaya', '2026'
 ])
 
 const capitalize = (word: string) => word.charAt(0).toUpperCase() + word.slice(1)
 
-
 const detectLocationSentence = (post: BlogPost, isEnglish = false) => {
-  const regions = ['Sulawesi', 'Sumatra', 'Java', 'Maluku', 'Surabaya', 'Medan', 'Makassar']
+  const regions = ['Cikarang', 'Cibitung', 'Tambun', 'Setu', 'Bekasi', 'Jakarta', 'Karawang']
   const found = post.slug.split('-').find(token => regions.some(r => r.toLowerCase() === token.toLowerCase()))
 
   if (!found) {
     return isEnglish
-      ? 'Naturra Extal sources premium commodities from across the Indonesian archipelago, from Northern Sulawesi to Sumatra.'
-      : 'Naturra Extal memasok komoditas premium dari seluruh kepulauan Indonesia, mulai dari Sulawesi Utara hingga Sumatra.'
+      ? 'Mandiri Steel serves premium welding and custom steel fabrication services across Bekasi, Cikarang, and the Greater Jakarta region.'
+      : 'Mandiri Steel melayani jasa bengkel las premium dan fabrikasi baja kustom di wilayah Bekasi, Cikarang, dan seluruh area Jabodetabek.'
   }
   return isEnglish
-    ? `We maintain strong partnerships with farmers in the ${capitalize(found)} region to ensure consistent supply and quality.`
-    : `Kami menjaga kemitraan kuat dengan petani di wilayah ${capitalize(found)} untuk memastikan pasokan dan kualitas yang konsisten.`
+    ? `We have successfully completed multiple residential and industrial metal work projects in the ${capitalize(found)} area.`
+    : `Kami telah sukses menyelesaikan berbagai proyek kanopi, pagar, dan konstruksi besi di wilayah ${capitalize(found)}.`
 }
 
 const generateAIOptimizedFAQ = (post: BlogPost, isEnglish = false): string[] => {
   const categoryFAQs: { [key: string]: { id: string[]; en: string[] } } = {
-    'Trade & Sourcing': {
+    'Tips and Trick': {
       id: [
-        '<strong>Bagaimana Naturra Extal memastikan kualitas bubuk kakao?</strong><br/>Setiap batch bubuk kakao kami (HS 1805 & 1806) melalui uji lab internal untuk kadar lemak, pH, dan kehalusan partikel sesuai standar COA (Certificate of Analysis).',
-        '<strong>Apakah tersedia pengiriman LCL untuk cocopeat?</strong><br/>Biasanya kami merekomendasikan FCL (Full Container Load) untuk efisiensi biaya, namun kami bisa mengakomodasi pengiriman parsial untuk kebutuhan sampel industri.',
-        '<strong>Berapa kadar eugenol dalam cengkeh Anda?</strong><br/>Cengkeh Grade A kami dari Sulawesi Utara secara konsisten memiliki kadar eugenol di atas 70%, ideal untuk industri farmasi dan rokok.'
+        '<strong>Berapa ketebalan besi hollow standar yang digunakan Mandiri Steel?</strong><br/>Kami selalu menggunakan besi hollow standar SNI dengan ketebalan minimal 1.2mm hingga 1.8mm atau lebih sesuai dengan kesepakatan spesifikasi proyek.',
+        '<strong>Apakah ada garansi untuk sambungan las dan kekuatan struktur?</strong><br/>Ya, Mandiri Steel memberikan garansi las struktural tertulis selama 3 bulan hingga 1 tahun untuk menjamin kekuatan sambungan las dan ketahanan konstruksi kami.',
+        '<strong>Berapa lama proses pembuatan kanopi rumah standar?</strong><br/>Proses fabrikasi di workshop biasanya memakan waktu 3-7 hari kerja, dilanjutkan dengan proses instalasi di lokasi yang selesai dalam 1-2 hari.'
       ],
       en: [
-        '<strong>How does Naturra Extal ensure cocoa powder quality?</strong><br/>Every batch of our cocoa powder (HS 1805 & 1806) undergoes internal lab testing for fat content, pH, and particle fineness according to COA standards.',
-        '<strong>Is LCL shipping available for cocopeat?</strong><br/>While we recommend FCL for cost efficiency, we can accommodate partial shipments for industrial sampling needs.',
-        '<strong>What is the eugenol content in your cloves?</strong><br/>Our Grade A cloves from North Sulawesi consistently feature eugenol levels above 70%, ideal for pharmaceutical and industrial use.'
+        '<strong>What is the standard hollow iron thickness used by Mandiri Steel?</strong><br/>We consistently use SNI standard hollow iron pipes with thicknesses ranging from 1.2mm to 1.8mm or more, strictly adhering to agreed project specifications.',
+        '<strong>Is there a warranty for welding joints and structural strength?</strong><br/>Yes, Mandiri Steel provides a written structural welding warranty of 3 months to 1 year, ensuring joint integrity and heavy-duty structural durability.',
+        '<strong>How long does it take to fabricate a standard residential canopy?</strong><br/>Workshop fabrication typically takes 3-7 business days, followed by on-site installation which is fully completed in 1-2 days.'
       ]
     }
   }
 
   const defaultFAQ = {
     id: [
-      '<strong>Mengapa memilih Naturra Extal sebagai mitra dagang?</strong><br/>Kami memiliki akses langsung ke petani di wilayah sumber utama, memastikan harga kompetitif dan rantai pasokan yang transparan tanpa perantara berlebihan.',
-      '<strong>Berapa waktu tunggu (lead time) standar untuk ekspor?</strong><br/>Lead time standar adalah 14-25 hari setelah konfirmasi deposit, tergantung pada jenis komoditas dan jadwal kapal dari Jakarta atau Surabaya.'
+      '<strong>Mengapa memilih Bengkel Las Mandiri Steel?</strong><br/>Kami memiliki pengalaman lebih dari 25 tahun (sejak 1999) dipimpin langsung oleh Bapak Maman Toha, menggunakan material berstandar SNI, dan memberikan survei serta konsultasi gratis.',
+      '<strong>Bagaimana sistem pembayaran untuk proyek custom las?</strong><br/>Sistem pembayaran kami menggunakan uang muka (DP) sebesar 40% - 50% untuk memulai proses belanja bahan dan fabrikasi, dengan pelunasan dilakukan setelah pemasangan selesai.'
     ],
     en: [
-      '<strong>Why choose Naturra Extal as a trading partner?</strong><br/>We have direct access to farmers in key sourcing regions, ensuring competitive pricing and a transparent supply chain without unnecessary middlemen.',
-      '<strong>What is the standard lead time for exports?</strong><br/>Standard lead time is 14-25 days after deposit confirmation, depending on the commodity type and vessel schedules from Jakarta or Surabaya.'
+      '<strong>Why choose Mandiri Steel Workshop?</strong><br/>We possess over 25 years of hands-on welding experience (established 1999) led directly by Mr. Maman Toha, utilizing high-quality SNI materials with transparent thickness and offering free site surveys.',
+      '<strong>What is the payment structure for custom welding projects?</strong><br/>We operate on a standard 40% - 50% down payment to initiate material sourcing and workshop fabrication, with the remaining balance due upon successful on-site installation.'
     ]
   }
 
@@ -71,27 +70,27 @@ const generateAIOptimizedFAQ = (post: BlogPost, isEnglish = false): string[] => 
 
 const generateDataDrivenSection = (isEnglish = false): BlogSection => {
   return {
-    heading: isEnglish ? 'Indonesian Commodity Data & Market Insights' : 'Data Komoditas Indonesia & Wawasan Pasar',
+    heading: isEnglish ? 'Mandiri Steel Structural Integrity & Materials Standards' : 'Standar Material & Integritas Struktur Mandiri Steel',
     paragraphs: isEnglish
-      ? ['Naturra Extal leverages the latest market data to provide premium sourcing solutions:']
-      : ['Naturra Extal menggunakan data pasar terbaru untuk memberikan solusi pengadaan premium:'],
+      ? ['Mandiri Steel leverages top-tier engineering standards and certified steel materials to deliver durable products:']
+      : ['Mandiri Steel menerapkan standar teknik tinggi dan bahan baja bersertifikat untuk menghasilkan produk berdaya tahan maksimal:'],
     list: isEnglish
       ? [
-        '<strong>Cocoa Output:</strong> Indonesia is a top 3 global producer; we source from Sulawesi for the highest yield.',
-        '<strong>Clove Purity:</strong> 99% purity guaranteed for our Lal Pari grade cloves.',
-        '<strong>Sustainable Logistics:</strong> 85% of our shipments are processed through eco-friendly supply chain protocols.'
+        '<strong>SNI Certified Steel:</strong> 100% of our hollow, pipe, and wide flange (WF) structures utilize SNI standardized steel.',
+        '<strong>Double Anti-Rust Coat:</strong> All metal works receive a premium epoxy zinc chromate primer undercoat to prevent rust.',
+        '<strong>Experienced Welders:</strong> Over 25 years of structural integrity under the supervision of head welder Bapak Maman Toha.'
       ]
       : [
-        '<strong>Produksi Kakao:</strong> Indonesia adalah produsen 3 besar dunia; kami memasok dari Sulawesi untuk hasil terbaik.',
-        '<strong>Kemurnian Cengkeh:</strong> Jaminan kemurnian 99% untuk cengkeh grade Lal Pari kami.',
-        '<strong>Logistik Berkelanjutan:</strong> 85% pengiriman kami diproses melalui protokol rantai pasok ramah lingkungan.'
+        '<strong>Baja Bersertifikat SNI:</strong> 100% struktur hollow, pipa, siku, dan baja WF kami menggunakan material berstandar SNI.',
+        '<strong>Lapisan Cat Anti Karat Ganda:</strong> Semua pekerjaan besi dilapisi cat dasar primer epoxy zinc chromate bermutu tinggi.',
+        '<strong>Welder Berpengalaman:</strong> Lebih dari 25 tahun menjaga integritas struktural di bawah pengawasan Bapak Maman Toha.'
       ]
   }
 }
 
 const createFallbackContent = (post: BlogPost): BlogContent => {
-  const isEnglishPost = post.title.split(' ').length > 3 && !/[aiueo]/.test(post.title.toLowerCase()) // Simplistic check or just default to check category
-  const introExcerpt = post.excerpt || (isEnglishPost ? 'Expert insights on international agricultural commodity trading.' : 'Wawasan ahli tentang perdagangan komoditas pertanian internasional.')
+  const isEnglishPost = post.title.split(' ').length > 3 && !/[aiueo]/.test(post.title.toLowerCase())
+  const introExcerpt = post.excerpt || (isEnglishPost ? 'Professional welding and custom steel fabrication insights in Bekasi.' : 'Wawasan profesional bengkel las dan fabrikasi baja kustom di Bekasi.')
 
   return {
     slug: post.slug,
@@ -100,8 +99,8 @@ const createFallbackContent = (post: BlogPost): BlogContent => {
         paragraphs: [
           introExcerpt,
           isEnglishPost
-            ? `<strong>Overview:</strong> This professional guide explores ${post.title.toLowerCase()} from the perspective of an Indonesian exporter.`
-            : `<strong>Tinjauan:</strong> Panduan profesional ini mengeksplorasi ${post.title.toLowerCase()} dari perspektif eksportir Indonesia.`,
+            ? `<strong>Overview:</strong> This expert guide explores ${post.title.toLowerCase()} from the perspective of an Indonesian welding workshop and steel fabrication specialist.`
+            : `<strong>Tinjauan:</strong> Panduan ahli ini mengeksplorasi ${post.title.toLowerCase()} dari perspektif bengkel las dan spesialis fabrikasi baja Bekasi.`,
           detectLocationSentence(post, isEnglishPost)
         ]
       },
@@ -119,6 +118,5 @@ export const BLOG_CONTENTS: BlogContent[] = BLOG_POSTS.map(post => createFallbac
 export const getBlogPostContentLocalized = (slug: string, _language: string) => {
   const post = BLOG_POSTS.find(p => p.slug === slug);
   if (!post) return undefined;
-  // For now, fallback to generated content since we purged hand-written furniture blogs
   return createFallbackContent(post);
 };

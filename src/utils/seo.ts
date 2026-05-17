@@ -229,10 +229,14 @@ export const generateLocalizedStructuredData = (data: any, isIndonesian: boolean
 
 // Mapping from product slug to image filename
 const PRODUCT_IMAGE_MAP: { [key: string]: string } = {
-  'cocoa-powder': 'cocoa-powder-export.webp',
-  'cloves': 'cloves-grade-a.webp',
-  'cocopeat': 'cocopeat-block.webp',
-  'spices-collection': 'indonesian-spices.webp'
+  'kanopi-minimalis-alderon': 'kanopi-minimalis-alderon.webp',
+  'kanopi-kaca-tempered': 'kanopi-kaca-tempered.webp',
+  'pagar-minimalis-modern': 'pagar-minimalis-modern.webp',
+  'pagar-besi-tempa-klasik': 'pagar-besi-tempa-klasik.webp',
+  'teralis-jendela-minimalis': 'teralis-jendela-minimalis.webp',
+  'railing-tangga-minimalis': 'railing-tangga-minimalis.webp',
+  'konstruksi-baja-wf': 'konstruksi-baja-wf.webp',
+  'pintu-pagar-stainless-steel': 'pintu-pagar-stainless-steel.webp'
 }
 
 /**

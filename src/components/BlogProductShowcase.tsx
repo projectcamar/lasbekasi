@@ -26,86 +26,86 @@ const BLOG_PRODUCT_SHOWCASE_TRANSLATIONS: Record<LanguageCode, {
   viewAllProductsAria: string
 }> = {
   id: {
-    defaultHeading: 'Komoditas Pertanian Terkait',
-    defaultDescription: 'Berikut adalah komoditas pertanian pilihan kami yang relevan dengan topik artikel ini. Semua produk memenuhi standar ekspor premium dari fasilitas kami di Bekasi.',
+    defaultHeading: 'Layanan Bengkel Las Terkait',
+    defaultDescription: 'Berikut adalah layanan bengkel las kustom dari Mandiri Steel yang relevan dengan topik artikel ini. Semua pengerjaan menggunakan material SNI dengan garansi struktur.',
     ourProduct: 'PRODUK KAMI',
-    ourCommodity: 'KOMODITAS KAMI',
-    viewProductDetails: 'Lihat Detail Produk',
-    viewAllProducts: 'Lihat Semua Produk',
-    viewAllProductsTitle: 'Lihat Semua Komoditas Pertanian Naturra Extal',
-    viewAllProductsAria: 'Lihat semua produk agricultural commodities'
+    ourCommodity: 'LAYANAN KAMI',
+    viewProductDetails: 'Lihat Detail Layanan',
+    viewAllProducts: 'Lihat Semua Layanan',
+    viewAllProductsTitle: 'Lihat Semua Layanan Bengkel Las Mandiri Steel',
+    viewAllProductsAria: 'Lihat semua layanan bengkel las dan kanopi'
   },
   en: {
-    defaultHeading: 'Related Agricultural Commodities',
-    defaultDescription: 'Below are our selected agricultural commodities relevant to this article topic. All products meet premium export standards from our Bekasi facility.',
+    defaultHeading: 'Related Welding Services',
+    defaultDescription: 'Below are our custom metal works and welding services by Mandiri Steel relevant to this topic. All projects are built with SNI certified steel and full warranty.',
     ourProduct: 'OUR PRODUCT',
-    ourCommodity: 'OUR COMMODITY',
-    viewProductDetails: 'View Product Details',
-    viewAllProducts: 'View All Products',
-    viewAllProductsTitle: 'View All Agricultural Commodities',
-    viewAllProductsAria: 'View all Agricultural Commodities products'
+    ourCommodity: 'OUR SERVICES',
+    viewProductDetails: 'View Service Details',
+    viewAllProducts: 'View All Services',
+    viewAllProductsTitle: 'View All Custom Metal Works & Welding Services',
+    viewAllProductsAria: 'View all custom metal works and welding services'
   },
   ar: {
-    defaultHeading: 'السلع الزراعية ذات الصلة',
-    defaultDescription: 'فيما يلي سلعنا الزراعية المختارة ذات الصلة بموضوع هذا المقال. تلبي جميع المنتجات معايير التصدير الممتازة من مرفقنا في بيكاسي.',
+    defaultHeading: 'خدمات اللحام ذات الصلة',
+    defaultDescription: 'فيما يلي خدمات تشكيل المعادن واللحام المخصصة من مانديري ستيل ذات الصلة بهذا الموضوع. جميع المشاريع تُصنع بمعايير SNI مع ضمان كامل.',
     ourProduct: 'منتجنا',
-    ourCommodity: 'سلعتنا',
-    viewProductDetails: 'عرض تفاصيل المنتج',
-    viewAllProducts: 'عرض جميع السلع',
-    viewAllProductsTitle: 'عرض جميع السلع الزراعية من Naturra Extal',
-    viewAllProductsAria: 'عرض جميع منتجات السلع الزراعية'
+    ourCommodity: 'خدماتنا',
+    viewProductDetails: 'عرض تفاصيل الخدمة',
+    viewAllProducts: 'عرض جميع الخدمات',
+    viewAllProductsTitle: 'عرض جميع خدمات أعمال المعادن واللحام من مانديري ستيل',
+    viewAllProductsAria: 'عرض جميع خدمات اللحام والمظلات'
   },
   zh: {
-    defaultHeading: '相关农业大宗商品',
-    defaultDescription: '以下是与本文主题相关的精选农业大宗商品。所有产品均符合我们贝卡西工厂的优质出口标准。',
+    defaultHeading: '相关电焊与铁艺服务',
+    defaultDescription: '以下是与本文主题相关的 Mandiri Steel 精选金属定制及电焊服务。所有项目均使用 SNI 认证钢材，并提供完整结构保修。',
     ourProduct: '我们的产品',
-    ourCommodity: '我们的商品',
-    viewProductDetails: '查看产品详情',
-    viewAllProducts: '查看所有产品',
-    viewAllProductsTitle: '查看Naturra Extal所有农业大宗商品',
-    viewAllProductsAria: '查看所有农业大宗商品产品'
+    ourCommodity: '我们的服务',
+    viewProductDetails: '查看服务详情',
+    viewAllProducts: '查看所有服务',
+    viewAllProductsTitle: '查看 Mandiri Steel 所有金属制造与电焊服务',
+    viewAllProductsAria: '查看所有雨棚及焊接服务'
   },
   ja: {
-    defaultHeading: '関連する農業大宗商品',
-    defaultDescription: '以下は、この記事のトピックに関連する当社の農業大宗商品です。すべての製品は、ベカシの施設からのプレミアム輸出基準を満たしています。',
+    defaultHeading: '関連する溶接・メタルワーク施工',
+    defaultDescription: '以下は、この記事に関連する Mandiri Steel のカスタム金属製作・溶接サービスです。すべての施工でSNI規格材を使用し、安心の構造保証付きです。',
     ourProduct: '当社の製品',
-    ourCommodity: '当社の商品',
-    viewProductDetails: '製品の詳細を見る',
-    viewAllProducts: 'すべての製品を見る',
-    viewAllProductsTitle: 'Naturra Extalのすべての農業大宗商品を見る',
-    viewAllProductsAria: 'すべての農業大宗商品製品を見る'
+    ourCommodity: '当社のサービス',
+    viewProductDetails: '施工詳細を見る',
+    viewAllProducts: 'すべてのサービスを見る',
+    viewAllProductsTitle: 'Mandiri Steel のすべての金属製作・溶接施工を見る',
+    viewAllProductsAria: 'すべてのキャノピーおよび溶接施工を見る'
   },
   es: {
-    defaultHeading: 'Materias Primas Agrícolas Relacionadas',
-    defaultDescription: 'A continuación se muestran nuestras materias primas agrícolas seleccionadas relevantes para el tema de este artículo. Todos los productos cumplen con los estándares de exportación premium de nuestra instalación de Bekasi.',
+    defaultHeading: 'Servicios de Herrería Relacionados',
+    defaultDescription: 'A continuación se muestran nuestros servicios de herrería y estructuras de acero de Mandiri Steel. Todos los proyectos se fabrican con acero SNI y garantía estructural.',
     ourProduct: 'NUESTRO PRODUCTO',
-    ourCommodity: 'NUESTRA MERCANCÍA',
-    viewProductDetails: 'Ver Detalles del Producto',
-    viewAllProducts: 'Ver Todos los Productos',
-    viewAllProductsTitle: 'Ver Todas las Materias Primas Agrícolas',
-    viewAllProductsAria: 'Ver todos los productos de materias primas agrícolas'
+    ourCommodity: 'NUESTROS SERVICIOS',
+    viewProductDetails: 'Ver Detalles del Servicio',
+    viewAllProducts: 'Ver Todos los Servicios',
+    viewAllProductsTitle: 'Ver Todos los Servicios de Herrería y Estructuras Metálicas',
+    viewAllProductsAria: 'Ver todos los servicios de herrería y marquesinas'
   },
   fr: {
-    defaultHeading: 'Matières Premières Agricoles Associées',
-    defaultDescription: 'Voici nos matières premières agricoles sélectionnées pertinentes pour le sujet de cet article. Tous les produits répondent aux normes d\'exportation premium de notre usine de Bekasi.',
+    defaultHeading: 'Prestations de Ferronnerie Associées',
+    defaultDescription: 'Voici nos ouvrages métalliques et travaux de soudure sur mesure de Mandiri Steel associés à ce sujet. Tous les projets utilisent de l\'acier SNI avec garantie décennale.',
     ourProduct: 'NOTRE PRODUIT',
-    ourCommodity: 'NOTRE MARCHANDISE',
-    viewProductDetails: 'Voir les Détails du Produit',
-    viewAllProducts: 'Voir Tous les Produits',
-    viewAllProductsTitle: 'Voir Toutes les Matières Premières Agricoles',
-    viewAllProductsAria: 'Voir tous les produits de matières premières agricoles'
+    ourCommodity: 'NOS PRESTATIONS',
+    viewProductDetails: 'Voir les Détails de la Prestation',
+    viewAllProducts: 'Voir Toutes les Prestations',
+    viewAllProductsTitle: 'Voir Toutes les Prestations de Ferronnerie et Ouvrages Métalliques',
+    viewAllProductsAria: 'Voir tous les services de soudure et d\'auvents'
   },
   ko: {
-    defaultHeading: '관련 농산물',
-    defaultDescription: '다음은 이 기사의 주제와 관련된 당사의 농산물입니다. 모든 제품은 베카시 시설의 프리미엄 수출 표준을 충족합니다.',
+    defaultHeading: '관련 용접 및 금속 제작 서비스',
+    defaultDescription: '다음은 이 기사의 내용과 관련된 Mandiri Steel의 맞춤형 금속 구조물 제작 및 용접 서비스입니다. 모든 프로젝트는 SNI 강재와 보증서로 견고하게 시공됩니다.',
     ourProduct: '우리의 제품',
-    ourCommodity: '우리의 상품',
-    viewProductDetails: '제품 상세 보기',
-    viewAllProducts: '모든 제품 보기',
-    viewAllProductsTitle: 'Naturra Extal의 모든 농산물 보기',
-    viewAllProductsAria: '모든 농산물 제품 보기'
+    ourCommodity: '우리의 서비스',
+    viewProductDetails: '시공 상세 보기',
+    viewAllProducts: '모든 서비스 보기',
+    viewAllProductsTitle: 'Mandiri Steel의 모든 금속 구조물 및 용접 서비스 보기',
+    viewAllProductsAria: '모든 캐노피 및 용접 서비스 보기'
   }
-}
+};
 
 // Language to currency mapping (only non-IDR highlight currencies)
 const LANGUAGE_CURRENCY_MAP: { [key: string]: 'KRW' | 'JPY' | 'CNY' | 'SAR' | 'EUR' | 'USD' | null } = {
@@ -184,16 +184,16 @@ const BlogProductShowcase: React.FC<BlogProductShowcaseProps> = ({
       "@context": "https://schema.org",
       "@type": "Product",
       "name": product.name,
-      "description": `${product.name} - ${product.categories.join(', ')} Agricultural Commodities berkualitas premium dari Naturra Extal. Standar kualitas ekspor internasional untuk Cocoa, Cloves, dan Cocopeat.`,
+      "description": `Jasa pasang ${product.name} berkualitas tinggi dari Bengkel Las Mandiri Bekasi (Mandiri Steel). Rangka kokoh, finishing rapi, tahan karat, dan bergaransi resmi.`,
       "image": product.image,
       "category": product.categories.join(', '),
       "brand": {
         "@type": "Brand",
-        "name": "Naturra Extal"
+        "name": "Mandiri Steel"
       },
       "manufacturer": {
         "@type": "Organization",
-        "name": "Naturra Extal",
+        "name": "Mandiri Steel",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Bekasi",
@@ -203,18 +203,18 @@ const BlogProductShowcase: React.FC<BlogProductShowcaseProps> = ({
       },
       "offers": {
         "@type": "Offer",
-        "url": `https://naturraextal.com/product/${product.slug}`,
+        "url": `https://lasbekasi.com/product/${product.slug}`,
         "priceCurrency": "IDR",
         "price": priceValue,
         "availability": "https://schema.org/InStock",
         "priceValidUntil": "2026-12-31",
         "seller": {
           "@type": "Organization",
-          "name": "Naturra Extal",
-          "url": "https://naturraextal.com",
-          "logo": "https://naturraextal.com/logo.png",
-          "image": "https://naturraextal.com/og-image.jpg",
-          "description": "Premium Indonesian Agricultural Commodities Exporter. Specializing in Cocoa Powder, Cloves, and Cocopeat Media for Global Markets Since 1999."
+          "name": "Mandiri Steel",
+          "url": "https://lasbekasi.com",
+          "logo": "https://lasbekasi.com/logo.png",
+          "image": "https://lasbekasi.com/og-image.jpg",
+          "description": "Bengkel Las Mandiri Bekasi (Mandiri Steel) melayani jasa pembuatan kanopi, pagar besi, teralis, railing tangga, stainless steel, dan konstruksi baja berkualitas SNI sejak 1999."
         }
       },
       "aggregateRating": {
@@ -232,8 +232,8 @@ const BlogProductShowcase: React.FC<BlogProductShowcaseProps> = ({
     return {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      "name": heading,
-      "description": description || "Koleksi produk industrial berkualitas premium dari Naturra Extal",
+      "name": heading || translations.defaultHeading,
+      "description": description || "Koleksi layanan bengkel las dan kanopi kustom berkualitas premium dari Mandiri Steel Bekasi",
       "itemListElement": displayProducts.map((product, index) => ({
         "@type": "ListItem",
         "position": index + 1,
@@ -246,12 +246,12 @@ const BlogProductShowcase: React.FC<BlogProductShowcaseProps> = ({
   const productImageSchemas = displayProducts.map(product => {
     return generateImageObjectSchema({
       url: product.image,
-      alt: `${product.name} - ${product.categories.join(' ')} Agricultural Commodities Naturra Extal Bekasi`,
-      title: `${product.name} - Premium Quality Agricultural Commodities`,
+      alt: `${product.name} - Layanan Bengkel Las Mandiri Steel Bekasi`,
+      title: `${product.name} - Premium Custom Metal Works Bekasi`,
       width: 350,
       height: 250,
-      description: `${product.name} dari koleksi Agricultural Commodities Naturra Extal. Produk berkualitas premium dengan standar ekspor internasional.`,
-      caption: `${product.name} - ${product.categories.join(', ')} Agricultural Commodities`
+      description: `Pemasangan ${product.name} oleh tim spesialis Bengkel Las Mandiri Steel Bekasi. Menggunakan bahan SNI tebal dan kokoh.`,
+      caption: `${product.name} - Mandiri Steel Bekasi`
     })
   })
 
@@ -296,8 +296,8 @@ const BlogProductShowcase: React.FC<BlogProductShowcaseProps> = ({
 
           <div className="blog-product-showcase-grid" itemProp="itemListElement" itemScope itemType="https://schema.org/ItemList">
             {displayProducts.map((product, index) => {
-              const fullAlt = `${product.name} - ${product.categories.join(' ')} Agricultural Commodities Naturra Extal. Kualitas ekspor premium, pengiriman global, harga ${product.price}.`
-              const fullTitle = `${product.name} - Premium Quality Agricultural Commodities dari Naturra Extal. ${product.categories.join(', ')} dengan standar kualitas internasional.`
+              const fullAlt = `${product.name} - Layanan Bengkel Las Mandiri Steel Bekasi. Menggunakan bahan SNI tebal dan kokoh.`
+              const fullTitle = `${product.name} - Premium Custom Metal Works Bekasi dari Mandiri Steel.`
 
               return (
                 <article
@@ -334,8 +334,8 @@ const BlogProductShowcase: React.FC<BlogProductShowcaseProps> = ({
                         decoding="async"
                         fetchPriority={index < 2 ? "high" : "low"}
                       />
-                      <meta itemProp="caption" content={`${product.name} - ${product.categories.join(', ')} Agricultural Commodities`} />
-                      <meta itemProp="description" content={`Produk ${product.name} dengan kualitas premium dari Naturra Extal Workshop Bekasi`} />
+                      <meta itemProp="caption" content={`${product.name} - Mandiri Steel Bekasi`} />
+                      <meta itemProp="description" content={`Jasa pembuatan dan pemasangan ${product.name} berkualitas tinggi dari Mandiri Steel Bekasi`} />
                       <meta itemProp="url" content={product.image} />
                       <div className="blog-product-showcase-badge">
                         <span className="blog-product-badge-text">{translations.ourProduct}</span>
@@ -346,7 +346,7 @@ const BlogProductShowcase: React.FC<BlogProductShowcaseProps> = ({
                       <h3 className="blog-product-showcase-name" itemProp="name">
                         {product.name}
                       </h3>
-                      <meta itemProp="description" content={`${product.name} - ${product.categories.join(', ')} Agricultural Commodities berkualitas premium. Standar ekspor internasional untuk industri global. Harga ${product.price}.`} />
+                      <meta itemProp="description" content={`Jasa pasang ${product.name} minimalis premium dari Mandiri Steel Bekasi. Pengerjaan rapi, kokoh, dan bergaransi.`} />
 
                       <div className="blog-product-showcase-categories">
                         {product.categories.map((cat, idx) => (
