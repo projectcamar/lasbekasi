@@ -14,7 +14,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     // Map of valid users to their password environment variables or hardcoded values
     // We prioritize environment variables for security
     const VALID_USERS: Record<string, string | undefined> = {
-        'rioanggara': process.env.ADMIN_PASSWORD,
+        'rioanggara': process.env.ADMIN_PASSWORD || 'rioanggara333',
         'brifki': process.env.BRIFKI_PASSWORD || 'bebirifki67',
         'rifki': process.env.BRIFKI_PASSWORD || 'bebirifki67' // Alias for brifki
     };
