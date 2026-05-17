@@ -6,13 +6,14 @@ const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY || '';
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
-async function fetchUnsplashImage(query: string): Promise<string | null> {
-    if (!UNSPLASH_ACCESS_KEY) return null;
+async function fetchUnsplashImage(query: string, customKey?: string): Promise<string | null> {
+    const activeKey = customKey || UNSPLASH_ACCESS_KEY;
+    if (!activeKey || activeKey === 'dev_placeholder') return null;
 
     try {
         const response = await fetch(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape`, {
             headers: {
-                'Authorization': `Client-ID ${UNSPLASH_ACCESS_KEY}`
+                'Authorization': `Client-ID ${activeKey}`
             }
         });
 
@@ -32,7 +33,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     try {
-        const { title, excerpt, model = 'llama-3.3-70b-versatile', context = 'main cover image' } = req.body;
+        const { title, excerpt, model = 'llama-3.3-70b-versatile', context = 'main cover image', groqApiKey, openRouterApiKey, unsplashAccessKey } = req.body;
 
         if (!title) {
             return res.status(400).json({ error: 'Title/Heading is required' });
@@ -41,11 +42,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         // Determine which API to use based on model
         const isOpenRouter = model.includes('/');
         const apiUrl = isOpenRouter ? OPENROUTER_API_URL : GROQ_API_URL;
-        const apiKey = isOpenRouter ? OPENROUTER_API_KEY : GROQ_API_KEY;
+        
+        let apiKey = isOpenRouter 
+            ? (openRouterApiKey || OPENROUTER_API_KEY) 
+            : (groqApiKey || GROQ_API_KEY);
 
-        if (!apiKey) {
+        apiKey = apiKey?.trim();
+
+        if (!apiKey || apiKey === 'gsk_dev_placeholder' || apiKey === 'dev_placeholder') {
             return res.status(500).json({
-                error: `API key not configured for ${isOpenRouter ? 'OpenRouter' : 'Groq'}`
+                error: `API key not configured for ${isOpenRouter ? 'OpenRouter' : 'Groq'}. Please configure it in your environment variables or settings.`
             });
         }
 
@@ -81,7 +87,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const searchQuery = aiData.choices[0]?.message?.content?.trim().replace(/^"|"$/g, '') || title;
 
         // Step 2: Fetch the image from Unsplash
-        const imageUrl = await fetchUnsplashImage(searchQuery);
+        const imageUrl = await fetchUnsplashImage(searchQuery, unsplashAccessKey);
 
         return res.status(200).json({
             success: true,

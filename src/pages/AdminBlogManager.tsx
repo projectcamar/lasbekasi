@@ -56,6 +56,10 @@ const AdminBlogManager: React.FC = () => {
     const [numArticles, setNumArticles] = useState(1);
     const [bulkProgress, setBulkProgress] = useState(0);
 
+    const [groqKey, setGroqKey] = useState(() => localStorage.getItem('MANDIRI_GROQ_API_KEY') || '')
+    const [openRouterKey, setOpenRouterKey] = useState(() => localStorage.getItem('MANDIRI_OPENROUTER_API_KEY') || '')
+    const [unsplashKey, setUnsplashKey] = useState(() => localStorage.getItem('MANDIRI_UNSPLASH_ACCESS_KEY') || '')
+
 
     // Deployment Status state
     const [activeDeploymentSha, setActiveDeploymentSha] = useState<string | null>(null)
@@ -449,7 +453,10 @@ const AdminBlogManager: React.FC = () => {
                                     prompt: variatedPrompt,
                                     category: editingPost?.category || 'Tips and Trick',
                                     model: selectedModel,
-                                    language: selectedLanguage
+                                    language: selectedLanguage,
+                                    groqApiKey: groqKey,
+                                    openRouterApiKey: openRouterKey,
+                                    unsplashAccessKey: unsplashKey
                                 })
                             });
 
@@ -494,7 +501,10 @@ const AdminBlogManager: React.FC = () => {
                                 body: JSON.stringify({
                                     title: article.title,
                                     excerpt: article.excerpt,
-                                    model: selectedModel
+                                    model: selectedModel,
+                                    groqApiKey: groqKey,
+                                    openRouterApiKey: openRouterKey,
+                                    unsplashAccessKey: unsplashKey
                                 })
                             });
                             const imgData = await imgRes.json();
@@ -566,7 +576,10 @@ const AdminBlogManager: React.FC = () => {
                                 prompt: aiPrompt,
                                 category: editingPost?.category,
                                 model: currentModel,
-                                language: selectedLanguage
+                                language: selectedLanguage,
+                                groqApiKey: groqKey,
+                                openRouterApiKey: openRouterKey,
+                                unsplashAccessKey: unsplashKey
                             })
                         });
 
@@ -637,7 +650,10 @@ const AdminBlogManager: React.FC = () => {
                         body: JSON.stringify({
                             title: updatedPost.title,
                             excerpt: updatedPost.excerpt,
-                            model: selectedModel
+                            model: selectedModel,
+                            groqApiKey: groqKey,
+                            openRouterApiKey: openRouterKey,
+                            unsplashAccessKey: unsplashKey
                         })
                     });
 
@@ -683,7 +699,10 @@ const AdminBlogManager: React.FC = () => {
                 body: JSON.stringify({
                     title: editingPost.title,
                     excerpt: editingPost.excerpt,
-                    model: selectedModel
+                    model: selectedModel,
+                    groqApiKey: groqKey,
+                    openRouterApiKey: openRouterKey,
+                    unsplashAccessKey: unsplashKey
                 })
             })
 
@@ -731,7 +750,10 @@ const AdminBlogManager: React.FC = () => {
                     title: section.heading,
                     excerpt: section.content.replace(/<[^>]*>/g, '').substring(0, 200),
                     model: selectedModel,
-                    context: 'blog section content'
+                    context: 'blog section content',
+                    groqApiKey: groqKey,
+                    openRouterApiKey: openRouterKey,
+                    unsplashAccessKey: unsplashKey
                 })
             })
 
@@ -1597,9 +1619,65 @@ const AdminBlogManager: React.FC = () => {
                                 disabled={isGenerating}
                                 style={{ minHeight: '100px' }}
                             />
-                            <p className="ai-modal-hint" style={{ marginTop: '10px', fontSize: '11px' }}>
+                            <p className="ai-modal-hint" style={{ marginTop: '10px', fontSize: '11px', marginBottom: '15px' }}>
                                 💡 Tip: You can write the prompt in any language! The AI will automatically translate and generate the full article.
                             </p>
+
+                            {/* Custom API Keys Settings Accordion */}
+                            <div className="api-settings-section" style={{ marginTop: '20px', borderTop: '1px solid #eee', paddingTop: '15px' }}>
+                                <details style={{ cursor: 'pointer' }}>
+                                    <summary style={{ fontSize: '13px', fontWeight: '700', color: '#666', marginBottom: '8px', outline: 'none', userSelect: 'none' }}>
+                                        ⚙️ Developer API Key Settings (Optional)
+                                    </summary>
+                                    <div style={{ padding: '10px 0', display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                                        <div className="input-group" style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                            <label style={{ fontSize: '11px', color: '#555', fontWeight: '600' }}>Custom Groq API Key (starts with gsk_)</label>
+                                            <input
+                                                type="password"
+                                                value={groqKey}
+                                                onChange={(e) => {
+                                                    setGroqKey(e.target.value);
+                                                    localStorage.setItem('MANDIRI_GROQ_API_KEY', e.target.value);
+                                                }}
+                                                placeholder="Enter Groq API Key..."
+                                                disabled={isGenerating}
+                                                style={{ width: '100%', padding: '8px 12px', border: '1px solid #ccc', borderRadius: '6px', fontSize: '12px', boxSizing: 'border-box' }}
+                                            />
+                                        </div>
+                                        <div className="input-group" style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                            <label style={{ fontSize: '11px', color: '#555', fontWeight: '600' }}>Custom OpenRouter API Key (starts with sk-or-)</label>
+                                            <input
+                                                type="password"
+                                                value={openRouterKey}
+                                                onChange={(e) => {
+                                                    setOpenRouterKey(e.target.value);
+                                                    localStorage.setItem('MANDIRI_OPENROUTER_API_KEY', e.target.value);
+                                                }}
+                                                placeholder="Enter OpenRouter API Key..."
+                                                disabled={isGenerating}
+                                                style={{ width: '100%', padding: '8px 12px', border: '1px solid #ccc', borderRadius: '6px', fontSize: '12px', boxSizing: 'border-box' }}
+                                            />
+                                        </div>
+                                        <div className="input-group" style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+                                            <label style={{ fontSize: '11px', color: '#555', fontWeight: '600' }}>Custom Unsplash Access Key</label>
+                                            <input
+                                                type="password"
+                                                value={unsplashKey}
+                                                onChange={(e) => {
+                                                    setUnsplashKey(e.target.value);
+                                                    localStorage.setItem('MANDIRI_UNSPLASH_ACCESS_KEY', e.target.value);
+                                                }}
+                                                placeholder="Enter Unsplash Client-ID..."
+                                                disabled={isGenerating}
+                                                style={{ width: '100%', padding: '8px 12px', border: '1px solid #ccc', borderRadius: '6px', fontSize: '12px', boxSizing: 'border-box' }}
+                                            />
+                                        </div>
+                                        <p style={{ fontSize: '10.5px', color: '#888', margin: '0', lineHeight: '1.4' }}>
+                                            🔒 These keys are saved directly in your browser's local storage and used locally.
+                                        </p>
+                                    </div>
+                                </details>
+                            </div>
                         </div>
 
                         <div className="ai-modal-footer">
