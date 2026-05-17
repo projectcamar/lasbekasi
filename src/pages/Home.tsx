@@ -86,17 +86,13 @@ const Home: React.FC = () => {
             {/* ===== HERO SECTION ===== */}
             <section className="mandiri-home__hero">
                 <div className="mandiri-home__hero-bg">
-                    <video
-                        ref={videoRef}
-                        autoPlay
-                        muted
-                        loop
-                        playsInline
-                        preload="auto"
-                        className="mandiri-home__hero-video"
-                    >
-                        <source src="/video-hero-mainlandingpage.mp4" type="video/mp4" />
-                    </video>
+                    <img
+                        src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1920"
+                        alt="Bengkel Las Mandiri Jasa Las Bekasi"
+                        className="mandiri-home__hero-image"
+                        loading="eager"
+                        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+                    />
                 </div>
                 <div className="mandiri-home__hero-overlay" />
                 <div className="mandiri-home__hero-content">
