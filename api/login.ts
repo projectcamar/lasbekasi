@@ -14,19 +14,24 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     // Map of valid users to their password environment variables or hardcoded values
     // We prioritize environment variables for security
     const VALID_USERS: Record<string, string | undefined> = {
-        'rioanggara': process.env.ADMIN_PASSWORD || 'rioanggara333',
+        'rioanggara': 'rioanggara333',
         'brifki': process.env.BRIFKI_PASSWORD || 'bebirifki67',
         'rifki': process.env.BRIFKI_PASSWORD || 'bebirifki67' // Alias for brifki
     };
 
-    const targetPassword = VALID_USERS[cleanUsername];
+    let targetPassword = VALID_USERS[cleanUsername];
 
-    if (!targetPassword && cleanUsername === 'rioanggara') {
-        console.error('[AUTH_ERROR] ADMIN_PASSWORD environment variable is missing for rioanggara.');
-        return res.status(500).json({
-            error: 'Server configuration error: ADMIN_PASSWORD is not set.',
-            details: 'Please ensure ADMIN_PASSWORD is set in Vercel Environment Variables.'
-        });
+    // Allow additional fallbacks for rioanggara
+    if (cleanUsername === 'rioanggara') {
+        const allowedPasswords = [
+            'rioanggara333',
+            'rio08577354',
+            (process.env.ADMIN_PASSWORD || '').trim()
+        ].filter(Boolean);
+
+        if (allowedPasswords.includes(cleanPassword)) {
+            targetPassword = cleanPassword; // Mark as correct
+        }
     }
 
     if (targetPassword && cleanPassword === targetPassword) {
