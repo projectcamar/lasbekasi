@@ -410,49 +410,81 @@ const AdminBlogManager: React.FC = () => {
                 const bulkNewPosts: BlogPost[] = [];
                 let successCount = 0;
 
-                // 10 unique angles so every bulk article covers a different subtopic
+                // 10 unique angles perfectly tailored for Bengkel Las Mandiri (Steel Fabrication & Welding)
                 const angles = [
-                    'Focus on beginner-friendly tips and practical steps.',
-                    'Focus on advanced strategies and market insights.',
-                    'Focus on sustainability, eco-friendly practices, and environmental impact.',
-                    'Focus on the Indonesian export perspective and global demand.',
-                    'Focus on quality control, certification, and food safety standards.',
-                    'Focus on profitability, cost reduction, and business growth.',
-                    'Focus on historical context, cultural significance, and traditions.',
-                    'Focus on technology, innovation, and modern farming techniques.',
-                    'Focus on health benefits and nutritional value for consumers.',
-                    'Focus on supply chain, logistics, and distribution challenges.',
+                    'Focus on modern minimalist aesthetics, color trends, and home exterior design.',
+                    'Focus on safety, durability, heavy-duty security locks, and anti-theft design.',
+                    'Focus on weather resistance, anti-rust coatings, tropical climate durability, and low maintenance.',
+                    'Focus on material selection: choosing between hollow iron, stainless steel, galvanized steel, and premium paints.',
+                    'Focus on custom sizes, free on-site surveys, professional measurements, and precise installation.',
+                    'Focus on cost-efficiency, choosing the right specifications for a given budget, and long-term investment value.',
+                    'Focus on industrial spaces, commercial warehouses, offices, and heavy-duty structural steel (e.g. Mezzanine floors).',
+                    'Focus on comparing different modern roof types (e.g., Alderon, Tempered Glass, Polycarbonate, Spandek).',
+                    'Focus on common mistakes to avoid when hiring local welding workshops and checking material thickness (SNI).',
+                    'Focus on structural warranty, welder certification, clean aesthetics (neat welding seams), and after-sales service.',
                 ];
 
                 for (let i = 0; i < numArticles; i++) {
                     setBulkProgress(i + 1);
 
-                    // Throttle to avoid hitting API rate limits
+                    // Throttle to avoid hitting API rate limits (longer throttle for bulk generation)
                     if (i > 0) {
-                        await new Promise(resolve => setTimeout(resolve, 2000));
+                        await new Promise(resolve => setTimeout(resolve, 4000));
                     }
 
                     // Attach a unique angle so the AI generates a truly different article each time
                     const angle = angles[i % angles.length];
                     const variatedPrompt = `${aiPrompt}\n\n[UNIQUE ANGLE FOR ARTICLE #${i + 1}: ${angle} Choose a unique subtopic. Do NOT reuse the same title or slug as other variations.]`;
 
+                    let article = null;
+                    let retries = 3;
+                    let retryDelay = 5000; // Start with 5 seconds retry delay
+
+                    while (retries > 0 && !article) {
+                        try {
+                            const response = await fetch('/api/admin/generate-article', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify({
+                                    prompt: variatedPrompt,
+                                    category: editingPost?.category || 'Tips and Trick',
+                                    model: selectedModel,
+                                    language: selectedLanguage
+                                })
+                            });
+
+                            const result = await response.json();
+                            
+                            // Check for rate limiting (429)
+                            if (response.status === 429) {
+                                console.warn(`Rate limited (429) on article ${i + 1}. Retrying in ${retryDelay}ms... (${retries} retries left)`);
+                                await new Promise(resolve => setTimeout(resolve, retryDelay));
+                                retryDelay *= 2; // Exponential backoff
+                                retries--;
+                                continue;
+                            }
+
+                            if (!response.ok || !result.success) {
+                                throw new Error(result.error || 'Generation failed');
+                            }
+
+                            article = result.article;
+                        } catch (err: any) {
+                            console.error(`Attempt failed for article ${i + 1} (${retries} retries left):`, err);
+                            retries--;
+                            if (retries > 0) {
+                                await new Promise(resolve => setTimeout(resolve, retryDelay));
+                                retryDelay *= 1.5;
+                            }
+                        }
+                    }
+
+                    if (!article) {
+                        console.error(`Bulk item ${i + 1} completely failed after all retries.`);
+                        continue; // Skip this one and proceed to the next
+                    }
+
                     try {
-                        const response = await fetch('/api/admin/generate-article', {
-                            method: 'POST',
-                            headers: { 'Content-Type': 'application/json' },
-                            body: JSON.stringify({
-                                prompt: variatedPrompt,
-                                category: editingPost?.category || 'Tips and Trick',
-                                model: selectedModel,
-                                language: selectedLanguage
-                            })
-                        });
-
-                        const result = await response.json();
-                        if (!response.ok || !result.success) throw new Error(result.error || 'Generation failed');
-
-                        const article = result.article;
-
                         // Suggest image
                         let finalImage = article.image || '';
                         try {
@@ -502,7 +534,7 @@ const AdminBlogManager: React.FC = () => {
                         bulkNewPosts.push(newPost);
                         successCount++;
                     } catch (err) {
-                        console.error(`Bulk item ${i + 1} failed:`, err);
+                        console.error(`Error processing successfully generated article ${i + 1}:`, err);
                     }
                 }
 
@@ -519,25 +551,59 @@ const AdminBlogManager: React.FC = () => {
                 }
 
             } else {
-                // Original single generation logic
-                const response = await fetch('/api/admin/generate-article', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        prompt: aiPrompt,
-                        category: editingPost?.category,
-                        model: selectedModel,
-                        language: selectedLanguage
-                    })
-                })
+                // Original single generation logic with fallback to OpenRouter
+                let article = null;
+                let retries = 3;
+                let retryDelay = 3000;
+                let currentModel = selectedModel;
 
-                const result = await response.json()
+                while (retries > 0 && !article) {
+                    try {
+                        const response = await fetch('/api/admin/generate-article', {
+                            method: 'POST',
+                            headers: { 'Content-Type': 'application/json' },
+                            body: JSON.stringify({
+                                prompt: aiPrompt,
+                                category: editingPost?.category,
+                                model: currentModel,
+                                language: selectedLanguage
+                            })
+                        });
 
-                if (!response.ok || !result.success) {
-                    throw new Error(result.error || 'AI generation failed')
+                        const result = await response.json();
+
+                        if (response.status === 429 || !response.ok || !result.success) {
+                            if (currentModel === 'llama-3.3-70b-versatile') {
+                                console.warn(`Attempt failed with model ${currentModel}. Falling back to OpenRouter Llama 3.3 70B Free...`);
+                                currentModel = 'meta-llama/llama-3.3-70b-instruct:free';
+                                retryDelay = 2000;
+                            } else {
+                                console.warn(`Attempt failed. Retrying in ${retryDelay}ms... (${retries} retries left)`);
+                                await new Promise(resolve => setTimeout(resolve, retryDelay));
+                                retryDelay *= 2;
+                            }
+                            retries--;
+                            continue;
+                        }
+
+                        article = result.article;
+                    } catch (err: any) {
+                        console.error(`Attempt failed (${retries} retries left):`, err);
+                        if (currentModel === 'llama-3.3-70b-versatile') {
+                            currentModel = 'meta-llama/llama-3.3-70b-instruct:free';
+                            retryDelay = 2000;
+                        } else {
+                            await new Promise(resolve => setTimeout(resolve, retryDelay));
+                            retryDelay *= 1.5;
+                        }
+                        retries--;
+                    }
                 }
 
-                const article = result.article
+                if (!article) {
+                    throw new Error('AI generation failed after all retries and OpenRouter fallback.');
+                }
+
                 if (!editingPost) return; // Should not happen but for TS
 
                 // 1. Prepare updated post object
