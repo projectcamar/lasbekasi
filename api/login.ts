@@ -38,7 +38,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         console.log(`[AUTH_SUCCESS] User ${cleanUsername} logged in successfully.`);
         return res.status(200).json({
             success: true,
-            token: 'naturra_admin_session_' + Date.now(),
+            token: 'mandiri_admin_session_' + Date.now(),
             user: { username: cleanUsername }
         });
     }
