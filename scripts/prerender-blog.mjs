@@ -1,4 +1,3 @@
-
 import { promises as fs } from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
@@ -6,7 +5,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const ROOT_DIR = path.resolve(__dirname, '..')
-const BASE_URL = process.env.SITEMAP_BASE_URL || 'https://naturraextal.com'
+const BASE_URL = process.env.SITEMAP_BASE_URL || 'https://lasbekasi.com'
 
 const BLOG_FILE = path.join(ROOT_DIR, 'src', 'data', 'blog.ts')
 const BLOG_CONTENT_FILE = path.join(ROOT_DIR, 'src', 'data', 'blogContent.ts')
@@ -267,7 +266,7 @@ const parseTypeScriptArray = (source, identifier, context = {}) => {
 const parseBlogPosts = (source) => {
   return parseTypeScriptArray(source, 'BLOG_POSTS').map(post => ({
     ...post,
-    author: post.author || 'Helmi Ramdan'
+    author: post.author || 'Angga'
   }))
 }
 
@@ -338,36 +337,20 @@ const parseProductFile = (source) => {
 
 const PRODUCT_KEYWORD_MAPPINGS = [
   {
-    keywords: ['meja', 'table', 'meja makan', 'meja cafe', 'meja bar', 'meja kerja', 'dining table', 'bar table', 'coffee table'],
-    productIds: [4, 5, 15, 3]
+    keywords: ['kanopi', 'canopy', 'alderon', 'spandek', 'polycarbonate', 'atap', 'bajaringan'],
+    productIds: [1, 2, 3]
   },
   {
-    keywords: ['kursi', 'chair', 'kursi bar', 'bar chair', 'stall chair', 'barstool'],
-    productIds: [6, 7]
+    keywords: ['pagar', 'fence', 'gate', 'folding', 'sliding', 'pintu'],
+    productIds: [4, 5, 6]
   },
   {
-    keywords: ['rak', 'rack', 'shelf', 'display', 'storage', 'rak display', 'display rack', 'bookshelf', 'lemari', 'kabinet'],
-    productIds: [1, 9, 10, 11, 12, 13]
+    keywords: ['teralis', 'trellis', 'jendela', 'pengaman', 'window'],
+    productIds: [7, 8]
   },
   {
-    keywords: ['bar set', 'bar-set', 'outdoor', 'balcony', 'teras', 'area luar'],
-    productIds: [2, 8]
-  },
-  {
-    keywords: ['daybed', 'loung', 'sofa', 'santai', 'lounge set', 'bench'],
-    productIds: [16, 17, 3]
-  },
-  {
-    keywords: ['dining set', 'set makan', 'meja kursi set'],
-    productIds: [4, 5]
-  },
-  {
-    keywords: ['kitchen', 'dapur', 'cabinet', 'kabinet', 'lemari dapur'],
-    productIds: [9, 10]
-  },
-  {
-    keywords: ['gantungan', 'hanging', 'coat rack'],
-    productIds: [13, 14]
+    keywords: ['railing', 'tangga', 'balkon', 'stair', 'balcony', 'mezzanine'],
+    productIds: [9, 10, 11]
   }
 ]
 
@@ -401,29 +384,20 @@ const getRelevantProductsForBlogPost = (post, allProducts) => {
 const getProductShowcaseHeadingStatic = (slug = '', title = '') => {
   const searchText = `${slug} ${title}`.toLowerCase()
 
-  if (searchText.includes('meja')) {
-    return 'Produk Meja Industrial Pilihan Kami'
+  if (searchText.includes('kanopi')) {
+    return 'Layanan Pembuatan Kanopi Pilihan Kami'
   }
-  if (searchText.includes('kursi')) {
-    return 'Kursi Bar & Cafe Industrial Berkualitas'
+  if (searchText.includes('pagar')) {
+    return 'Desain Pagar Minimalis & Kustom Terbaik'
   }
-  if (searchText.includes('rak') || searchText.includes('display')) {
-    return 'Rak Display & Storage Industrial Terbaik'
+  if (searchText.includes('teralis')) {
+    return 'Teralis Pengaman Jendela Kuat & Estetik'
   }
-  if (searchText.includes('bar') || searchText.includes('outdoor')) {
-    return 'Bar Set & Outdoor Furniture Industrial'
-  }
-  if (searchText.includes('dining') || searchText.includes('makan')) {
-    return 'Dining Set Industrial untuk Cafe & Restoran'
-  }
-  if (searchText.includes('kitchen') || searchText.includes('dapur')) {
-    return 'Kitchen Cabinet & Storage Industrial'
-  }
-  if (searchText.includes('lounge') || searchText.includes('daybed')) {
-    return 'Lounge Set & Daybed Industrial Nyaman'
+  if (searchText.includes('railing') || searchText.includes('tangga')) {
+    return 'Railing Tangga & Balkon Minimalis Berkualitas'
   }
 
-  return 'Produk Industrial Terkait yang Mungkin Anda Suka'
+  return 'Pilihan Layanan Las & Fabrikasi Terkait'
 }
 
 const convertIDRToUSDStatic = (idrPrice) => {
@@ -464,7 +438,7 @@ const ensureProductAssetsCopied = async (products, assetMap, copiedSet) => {
   }
 }
 
-const PRODUCT_KEYWORD_REGEX = /meja|kursi|rak|display|bar|dining|kitchen|furniture|cabinet|shelf|chair|table/i
+const PRODUCT_KEYWORD_REGEX = /kanopi|pagar|teralis|railing|tangga|balkon|las|besi|baja|canopy|gate/i
 
 const hasProductRelatedKeywords = (post) => {
   const combined = `${post.slug || ''} ${post.title || ''}`
@@ -487,14 +461,14 @@ const makeAbsoluteAssetUrl = (baseUrl, relativePath) => {
 const generateAnnouncementBarHTML = (isIndonesian) => {
   const content = isIndonesian
     ? {
-      text: 'Wujudkan Furniture Impian Anda!',
-      highlight: 'Gratis Konsultasi Desain',
-      cta: 'Pesan Custom Order Sekarang'
+      text: 'Wujudkan Konstruksi Besi Impian Anda!',
+      highlight: 'Gratis Survei & Konsultasi Desain',
+      cta: 'Pesan Custom Sekarang'
     }
     : {
-      text: 'Bring Your Dream Furniture to Life!',
-      highlight: 'Free Design Consultation',
-      cta: 'Order Custom Furniture Now'
+      text: 'Bring Your Dream Steel Work to Life!',
+      highlight: 'Free On-site Measurement & Survey',
+      cta: 'Order Custom Design Now'
     }
 
   return `
@@ -519,10 +493,10 @@ const generateHeaderHTML = (isIndonesian) => `
           <nav class="header-top-nav" aria-label="${isIndonesian ? 'Navigasi utama' : 'Primary navigation'}">
             <a class="header-top-link" href="${BASE_URL}/about">About</a>
             <a class="header-top-link" href="${BASE_URL}/blog">Blog</a>
-            <a class="header-top-link" href="${BASE_URL}/contact-us">${isIndonesian ? 'Contact Us' : 'Contact Us'}</a>
+            <a class="header-top-link" href="${BASE_URL}/shipping-information">${isIndonesian ? 'Shipping & Survey' : 'Shipping & Survey'}</a>
         </nav>
           <a class="logo" href="${BASE_URL}/">
-            <span class="logo-text">NATURRA</span>
+            <span class="logo-text">MANDIRI STEEL</span>
           </a>
           <div class="header-top-actions">
             <div class="language-switcher">
@@ -535,7 +509,7 @@ const generateHeaderHTML = (isIndonesian) => `
               <span>${isIndonesian ? 'Cari' : 'Search'}</span>
             </button>
             <a class="catalog-btn" href="${BASE_URL}/products" target="_blank" rel="noopener noreferrer">
-              ${isIndonesian ? 'Unduh Katalog Kami' : 'Download Our Catalog'}
+              ${isIndonesian ? 'Katalog Layanan' : 'Services Catalog'}
             </a>
       </div>
     </div>
@@ -543,17 +517,15 @@ const generateHeaderHTML = (isIndonesian) => `
     </div>
     <div class="header-bottom">
       <div class="container">
-        <nav class="category-nav" aria-label="${isIndonesian ? 'Navigasi kategori produk' : 'Product category navigation'}">
-          <a class="category-link" href="${BASE_URL}/product-category/new-arrivals">New Arrivals</a>
-          <a class="category-link" href="${BASE_URL}/product-category/lounge-seating-set">Lounge Set</a>
-          <a class="category-link" href="${BASE_URL}/product-category/industrial-sofa-bench">Sofa Bench</a>
-          <a class="category-link" href="${BASE_URL}/product-category/dining-set-collection">Dining Set</a>
-          <a class="category-link" href="${BASE_URL}/product-category/bar-furniture-collection">Bar Set</a>
-          <a class="category-link" href="${BASE_URL}/product-category/balcony-outdoor-collection">Outdoor</a>
-          <a class="category-link" href="${BASE_URL}/product-category/daybed-lounge-frame">Daybed</a>
-          <a class="category-link" href="${BASE_URL}/product-category/accessories-storage">Storage</a>
-          <a class="category-link" href="${BASE_URL}/product-category/table-collection">Tables</a>
-          <a class="category-link" href="${BASE_URL}/product-category/dining-table-collection">Dine Table</a>
+        <nav class="category-nav" aria-label="${isIndonesian ? 'Navigasi kategori layanan' : 'Service category navigation'}">
+          <a class="category-link" href="${BASE_URL}/products">Semua Layanan</a>
+          <a class="category-link" href="${BASE_URL}/products?category=canopy">Kanopi Alderon</a>
+          <a class="category-link" href="${BASE_URL}/products?category=canopy">Kanopi Minimalis</a>
+          <a class="category-link" href="${BASE_URL}/products?category=gate">Pagar Besi</a>
+          <a class="category-link" href="${BASE_URL}/products?category=gate">Pagar Laser Cut</a>
+          <a class="category-link" href="${BASE_URL}/products?category=trellis">Teralis Jendela</a>
+          <a class="category-link" href="${BASE_URL}/products?category=railing">Railing Tangga</a>
+          <a class="category-link" href="${BASE_URL}/products?category=railing">Railing Balkon</a>
         </nav>
       </div>
     </div>
@@ -594,7 +566,7 @@ const generateBreadcrumbHTML = (post) => {
 
 const generateArticleMetaHTML = (post, formattedDate) => `
   <p class="blog-post-meta">
-    ${escapeHtml(post.author || 'Naturra Extal')} · ${formattedDate}
+    ${escapeHtml(post.author || 'Mandiri Steel')} · ${formattedDate}
   </p>
 `
 
@@ -617,7 +589,7 @@ const generateSectionHTML = (section, post, index) => {
       <figure class="blog-post-figure">
         <img
           src="${section.image}"
-          alt="${escapeHtml(section.imageAlt || `${post.title} - ${section.heading || 'Agricultural Commodities Article'} - Naturra Extal`)}"
+          alt="${escapeHtml(section.imageAlt || `${post.title} - ${section.heading || 'Welding and Steel Construction'} - Mandiri Steel`)}"
           loading="${index <= 1 ? 'eager' : 'lazy'}"
           width="800"
           height="500"
@@ -656,19 +628,19 @@ const generateProductShowcaseHTML = (products, heading, isIndonesian) => {
 
   const displayProducts = products.slice(0, 3)
   const description = isIndonesian
-    ? 'Berikut adalah produk industrial pilihan kami yang relevan dengan topik artikel ini. Semua produk dibuat dengan kualitas premium dan material industrial grade di workshop kami di Bekasi.'
-    : 'Discover our premium agricultural commodities collection, sourced directly from Indonesian farmers with international quality standards.'
+    ? 'Berikut adalah contoh layanan fabrikasi dan pengelasan besi baja kustom terbaik kami. Semua pekerjaan dikerjakan oleh tukang las ahli dengan ketebalan material standar SNI di workshop kami di Setu, Bekasi.'
+    : 'Discover our premium custom welding and iron steel fabrication services, tailored to your residential and commercial needs with heavy-duty materials.'
 
   const cards = displayProducts.map((product, index) => {
     const categories = Array.isArray(product.categories) ? product.categories : []
     const usdPrice = convertIDRToUSDStatic(product.price)
     return `
       <article class="blog-product-showcase-item">
-        <a class="blog-product-showcase-card" href="${BASE_URL}/product/${product.slug}">
+        <a class="blog-product-showcase-card" href="${BASE_URL}/products">
           <div class="blog-product-showcase-image-wrapper">
             ${product.image ? `<img class="blog-product-showcase-image" src="${product.image}" alt="${escapeHtml(product.name)}" loading="${index === 0 ? 'eager' : 'lazy'}" width="350" height="250" />` : ''}
             <div class="blog-product-showcase-badge">
-              <span class="blog-product-badge-text">${isIndonesian ? 'Produk Kami' : 'Our Product'}</span>
+              <span class="blog-product-badge-text">${isIndonesian ? 'Layanan Kami' : 'Our Service'}</span>
           </div>
             </div>
           <div class="blog-product-showcase-info">
@@ -679,7 +651,7 @@ const generateProductShowcaseHTML = (products, heading, isIndonesian) => {
               ${usdPrice ? `<p class="blog-product-showcase-price-secondary">${usdPrice}</p>` : ''}
             </div>
             <div class="blog-product-showcase-cta">
-              <span class="blog-product-showcase-link">${isIndonesian ? 'Lihat Detail Produk' : 'View Product Details'}</span>
+              <span class="blog-product-showcase-link">${isIndonesian ? 'Lihat Katalog Layanan' : 'View Services Catalog'}</span>
             </div>
           </div>
         </a>
@@ -691,14 +663,14 @@ const generateProductShowcaseHTML = (products, heading, isIndonesian) => {
     <section class="blog-product-showcase">
       <div class="blog-product-showcase-container">
         <div class="blog-product-showcase-header">
-          <h2 class="blog-product-showcase-heading">${escapeHtml(heading || (isIndonesian ? 'Produk Industrial Terkait' : 'Related Industrial Products'))}</h2>
+          <h2 class="blog-product-showcase-heading">${escapeHtml(heading || (isIndonesian ? 'Layanan Fabrikasi Terkait' : 'Related Welding Services'))}</h2>
           <p class="blog-product-showcase-description">${description}</p>
       </div>
         <div class="blog-product-showcase-grid">
         ${cards}
       </div>
         <div class="blog-product-showcase-footer">
-          <a class="blog-product-showcase-all-products-btn" href="${BASE_URL}/shop">${isIndonesian ? 'Lihat Semua Produk' : 'View All Products'}</a>
+          <a class="blog-product-showcase-all-products-btn" href="${BASE_URL}/products">${isIndonesian ? 'Lihat Semua Layanan' : 'View All Services'}</a>
         </div>
       </div>
     </section>
@@ -763,11 +735,11 @@ const generateAuthorCardHTML = (post, isIndonesian) => {
               <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
               <circle cx="12" cy="7" r="4"></circle>
             </svg>
-        </div>
+          </div>
           <div class="author-info">
             <h4 class="author-name">${isIndonesian ? 'Oleh:' : 'By:'} Helmi Ramdan</h4>
             <p class="author-title">${escapeHtml(title)}</p>
-      </div>
+          </div>
         </div>
         <div class="author-experience">
           ${experiences.map(item => `<span class="experience-item">${escapeHtml(item)}</span>`).join('')}
@@ -785,16 +757,16 @@ const generateCTAHTML = (post, isIndonesian) => {
   return `
     <div class="blog-post-cta card">
       <div class="section-header">
-        <h2>${isExport ? 'Interested in Our Industrial Furniture?' : 'Tertarik dengan Furniture Industrial Kami?'}</h2>
+        <h2>${isExport ? 'Interested in Our Custom Welding & Steel Work?' : 'Tertarik dengan Jasa Bengkel Las Mandiri Steel?'}</h2>
         <p class="section-subtitle">
           ${isExport
-      ? 'Visit our complete collection of high-quality agricultural commodities from Naturra Extal.'
-      : 'Kunjungi koleksi lengkap komoditas pertanian berkualitas tinggi dari Naturra Extal.'}
+      ? 'Visit our complete catalog of custom canopies, gates, and window trellises from Mandiri Steel.'
+      : 'Kunjungi koleksi lengkap kanopi minimalis, pagar dorong, teralis, dan railing besi berkualitas dari Mandiri Steel.'}
         </p>
       </div>
       <div class="blog-post-cta-actions">
-        <a class="btn-primary" href="${BASE_URL}/shop">${isExport ? 'View All Products' : 'Lihat Semua Produk'}</a>
-        <a class="btn-secondary" href="${BASE_URL}/contact-us">${isExport ? 'Contact Us' : 'Hubungi Kami'}</a>
+        <a class="btn-primary" href="${BASE_URL}/products">${isExport ? 'View All Services' : 'Lihat Semua Layanan'}</a>
+        <a class="btn-secondary" href="https://wa.me/6289513957752?text=Halo%20Mandiri%20Steel%2C%20saya%20tertarik%20dengan%20layanan%20las%20besi" target="_blank" rel="noopener noreferrer">${isExport ? 'WhatsApp Consultation' : 'Konsultasi via WhatsApp'}</a>
       </div>
     </div>
   `
@@ -804,8 +776,8 @@ const generateServiceAreasHTML = (isIndonesian) => `
   <section class="service-areas-section">
     <div class="service-areas-container">
       <div class="service-areas-header">
-        <h2 class="section-title">${isIndonesian ? 'Wilayah Layanan Kami' : 'Our Service Areas'}</h2>
-        <p class="section-subtitle">${isIndonesian ? 'Melayani Bekasi, Jakarta, dan seluruh Jabodetabek dengan pengalaman 25+ tahun' : 'Serving Bekasi, Jakarta, and entire Jabodetabek with 25+ years of experience'}</p>
+        <h2 class="section-title">${isIndonesian ? 'Wilayah Layanan & Survei Lapangan' : 'Our Service Areas & Surveys'}</h2>
+        <p class="section-subtitle">${isIndonesian ? 'Melayani Bekasi, Jakarta, Cikarang, dan seluruh Jabodetabek dengan gratis survei pengukuran' : 'Serving Bekasi, Jakarta, Cikarang, and entire Jabodetabek with free on-site measurements'}</p>
         </div>
       <div class="service-area-group">
         <h3 class="area-group-title"><span class="area-icon">*</span>BEKASI KOTA</h3>
@@ -834,20 +806,20 @@ const generateServiceAreasHTML = (isIndonesian) => `
         </div>
       </div>
       <div class="service-area-group commercial">
-        <h3 class="area-group-title"><span class="area-icon">*</span>KAWASAN KOMERSIAL & INDUSTRIAL</h3>
+        <h3 class="area-group-title"><span class="area-icon">*</span>PERUMAHAN & KAWASAN HUNIAN ELIT</h3>
         <div class="commercial-grid">
           ${[
-    { icon: 'MB', name: 'Summarecon Bekasi', desc: 'Mall & Boulevard Area' },
-    { icon: 'RC', name: 'Harapan Indah', desc: 'Residential & Commercial' },
-    { icon: 'GG', name: 'Grand Galaxy City', desc: 'Superblock F&B District' },
-    { icon: 'ME', name: 'Galaxy Bekasi', desc: 'Mall & Entertainment' },
-    { icon: 'PR', name: 'Kemang Pratama', desc: 'Premium Residential' },
-    { icon: 'LC', name: 'Lippo Cikarang', desc: 'Mall & Commercial Hub' },
-    { icon: 'IN', name: 'Jababeka', desc: 'Industrial Estate' },
-    { icon: 'MU', name: 'Deltamas', desc: 'Mixed-Use Development' },
-    { icon: 'EI', name: 'EJIP Cikarang', desc: 'East Jakarta Industrial Park' },
-    { icon: 'CR', name: 'Greenland International', desc: 'Commercial & Residential' },
-    { icon: 'IT', name: 'MM2100', desc: 'Industrial Town' }
+    { icon: 'MB', name: 'Summarecon Bekasi', desc: 'Canopy Installation Survey' },
+    { icon: 'RC', name: 'Harapan Indah', desc: 'Minimalist Gate & Trellis' },
+    { icon: 'GG', name: 'Grand Galaxy City', desc: 'Laser Cut Gate Construction' },
+    { icon: 'ME', name: 'Galaxy Bekasi', desc: 'Stair & Balcony Railings' },
+    { icon: 'PR', name: 'Kemang Pratama', desc: 'Premium Wrought Iron Gate' },
+    { icon: 'LC', name: 'Lippo Cikarang', desc: 'Alderon & WF Structural Canopy' },
+    { icon: 'IN', name: 'Jababeka', desc: 'Warehouse Steel Construction' },
+    { icon: 'MU', name: 'Deltamas', desc: 'Railing & Minimalist Gate' },
+    { icon: 'EI', name: 'EJIP Cikarang', desc: 'Industrial Welding Fabrication' },
+    { icon: 'CR', name: 'Greenland International', desc: 'Commercial & Residential Security' },
+    { icon: 'IT', name: 'MM2100', desc: 'Industrial Steel Fabrication' }
   ].map(area => `
             <div class="commercial-card">
               <span class="commercial-icon">${area.icon}</span>
@@ -871,16 +843,16 @@ const generateServiceAreasHTML = (isIndonesian) => `
       </div>
       <div class="service-areas-cta">
         <div class="cta-content">
-          <h3>${isIndonesian ? 'Area Anda Tidak Tercantum?' : 'Your Area Not Listed?'}</h3>
-          <p>${isIndonesian ? 'Hubungi kami untuk diskusi cakupan layanan kami. Kami melayani seluruh Jabodetabek dan sekitarnya.' : 'Contact us to discuss our service coverage. We serve entire Jabodetabek and surrounding areas.'}</p>
-          <a class="cta-button" href="https://wa.me/628951395752?text=Halo%20Naturra%20Extal%2C%20saya%20tertarik%20dengan%20komoditas%20pertanian" target="_blank" rel="noopener noreferrer">
+          <h3>${isIndonesian ? 'Ingin Survei Lokasi Gratis?' : 'Want a Free On-site Survey?'}</h3>
+          <p>${isIndonesian ? 'Hubungi kami untuk menjadwalkan kunjungan tim pengukur dan desain gratis langsung ke rumah atau lokasi proyek Anda.' : 'Contact us to schedule a free measurement and design consultation directly at your home.'}</p>
+          <a class="cta-button" href="https://wa.me/6289513957752?text=Halo%20Mandiri%20Steel%2C%20saya%20tertarik%20dengan%20layanan%20las%20besi" target="_blank" rel="noopener noreferrer">
             <span class="whatsapp-icon">WA</span>
-            ${isIndonesian ? 'Konsultasi Gratis' : 'Free Consultation'}
+            ${isIndonesian ? 'Jadwalkan Survei Gratis' : 'Schedule Free Survey'}
           </a>
         </div>
       </div>
       <div class="service-areas-seo-text">
-        <p><strong>Naturra Extal</strong> adalah eksportir komoditas pertanian terpercaya yang melayani pasar global dari Bekasi. Kami menyediakan solusi pasokan Kakao, Cengkeh, dan Cocopeat berkualitas tinggi langsung dari petani di seluruh Indonesia.</p>
+        <p><strong>Mandiri Steel</strong> adalah bengkel las & fabrikasi konstruksi besi baja terpercaya yang melayani Jabodetabek dari workshop kami di Setu, Bekasi. Kami menyediakan solusi pembuatan Kanopi Alderon, Pagar Minimalis, Teralis, dan Railing Tangga dengan garansi struktur.</p>
       </div>
     </div>
   </section>
@@ -891,18 +863,18 @@ const generateFooterHTML = (isIndonesian) => `
     <div class="footer-container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <h2 class="footer-logo">NATURRA</h2>
-          <p class="footer-description">${isIndonesian ? 'Pilihan terbaik untuk komoditas pertanian premium Indonesia sejak 1999. Melayani industri makanan, minuman, dan hortikultura di seluruh dunia.' : 'Your best choice for premium Indonesian agricultural commodities since 1999. Serving food, beverage, and horticulture industries worldwide.'}</p>
+          <h2 class="footer-logo">MANDIRI STEEL</h2>
+          <p class="footer-description">${isIndonesian ? 'Bengkel las dan fabrikasi besi baja kustom terbaik di Bekasi dan Jabodetabek. Melayani pembuatan kanopi, pagar minimalis, teralis, railing, dan tangga putar dengan pengerjaan rapi.' : 'Your best choice for custom steel work and high-quality welding in Bekasi and Jabodetabek. Delivering premium canopies, minimalist gates, trellises, and railings.'}</p>
           <div class="footer-contact-info">
             <h4>${isIndonesian ? 'Hubungi Kami' : 'Contact Us'}</h4>
-            <p><a href="mailto:naturraextal@gmail.com">naturraextal@gmail.com</a></p>
-            <p><a href="https://wa.me/628951395752" target="_blank" rel="noopener noreferrer">+62 895-1395-7752</a></p>
+            <p><a href="mailto:info@lasbekasi.com">info@lasbekasi.com</a></p>
+            <p><a href="https://wa.me/6289513957752" target="_blank" rel="noopener noreferrer">+62 895-1395-7752</a></p>
         </div>
         </div>
         <div class="footer-column">
           <h4>${isIndonesian ? 'Temukan Kami' : 'Find Us'}</h4>
           <div class="footer-location">
-            <h5>Workshop Bekasi :</h5>
+            <h5>Workshop Setu Bekasi :</h5>
             <p><a class="footer-address-link" href="https://maps.app.goo.gl/5Bc5ymfVtAYRPtpK7" target="_blank" rel="noopener noreferrer">Jl. Raya Setu Cibitung - Bekasi, Jawa Barat 17320</a></p>
           </div>
         </div>
@@ -911,24 +883,24 @@ const generateFooterHTML = (isIndonesian) => `
           <ul class="footer-links">
             <li><a href="${BASE_URL}/about">About</a></li>
             <li><a href="${BASE_URL}/blog">Blog</a></li>
-            <li><a href="${BASE_URL}/shipping-information">${isIndonesian ? 'Pengiriman' : 'Shipping'}</a></li>
-            <li><a href="${BASE_URL}/contact-us">Contact Us</a></li>
+            <li><a href="${BASE_URL}/shipping-information">${isIndonesian ? 'Pengiriman & Survei' : 'Delivery & Survey'}</a></li>
+            <li><a href="${BASE_URL}/products">Katalog Layanan</a></li>
             <li><a href="${BASE_URL}/custom-order">${isIndonesian ? 'Custom Order' : 'Custom Order'}</a></li>
           </ul>
         </div>
         <div class="footer-column">
-          <h4>Categories</h4>
+          <h4>Layanan Utama</h4>
           <ul class="footer-links">
-            <li><a href="${BASE_URL}/product-category/new-arrivals">New Arrivals</a></li>
-            <li><a href="${BASE_URL}/product-category/lounge-seating-set">Lounge Set</a></li>
-            <li><a href="${BASE_URL}/product-category/dining-set-collection">Dining Set</a></li>
-            <li><a href="${BASE_URL}/product-category/bar-furniture-collection">Bar Set</a></li>
-            <li><a href="${BASE_URL}/product-category/accessories-storage">Storage</a></li>
+            <li><a href="${BASE_URL}/products">Kanopi Alderon</a></li>
+            <li><a href="${BASE_URL}/products">Pagar Minimalis</a></li>
+            <li><a href="${BASE_URL}/products">Teralis Jendela</a></li>
+            <li><a href="${BASE_URL}/products">Railing Tangga</a></li>
+            <li><a href="${BASE_URL}/products">Konstruksi Baja WF</a></li>
           </ul>
         </div>
         </div>
       <div class="footer-bottom">
-        <p>Copyright ${new Date().getFullYear()} Naturra Extal. ${isIndonesian ? 'Seluruh hak cipta dilindungi.' : 'All rights reserved.'}</p>
+        <p>Copyright ${new Date().getFullYear()} Mandiri Steel. ${isIndonesian ? 'Seluruh hak cipta dilindungi.' : 'All rights reserved.'}</p>
       </div>
     </div>
   </footer>
@@ -949,16 +921,16 @@ const generateProductSchemas = (products, post, baseUrl) => {
       "@context": "https://schema.org",
       "@type": "Product",
       "name": product.name,
-      "description": `${product.name} - ${product.categories.join(', ')} Komoditas Pertanian berkualitas premium dari Naturra Extal Bekasi.`,
+      "description": `${product.name} - ${product.categories.join(', ')} Layanan las kustom dan konstruksi besi baja berkualitas premium dari Mandiri Steel Bekasi.`,
       "image": imageUrl,
       "category": product.categories.join(', '),
       "brand": {
         "@type": "Brand",
-        "name": "Naturra Extal"
+        "name": "Mandiri Steel"
       },
       "manufacturer": {
         "@type": "Organization",
-        "name": "Naturra Extal",
+        "name": "Mandiri Steel",
         "address": {
           "@type": "PostalAddress",
           "addressLocality": "Bekasi",
@@ -968,14 +940,14 @@ const generateProductSchemas = (products, post, baseUrl) => {
       },
       "offers": {
         "@type": "Offer",
-        "url": `${trimmedBase}/product/${product.slug}`,
+        "url": `${trimmedBase}/products`,
         "priceCurrency": "IDR",
         "price": (product.price || '').replace(/[^0-9]/g, ''),
         "availability": "https://schema.org/InStock",
         "priceValidUntil": "2026-12-31",
         "seller": {
           "@type": "Organization",
-          "name": "Naturra Extal",
+          "name": "Mandiri Steel",
           "url": trimmedBase
         }
       }
@@ -990,43 +962,43 @@ const createFallbackContent = (post) => {
       {
         paragraphs: [
           post.excerpt,
-          `Naturra Extal menyediakan ${titleHighlight.toLowerCase()} dengan kualitas ekspor premium. Semua komoditas bersumber langsung dari komunitas petani dengan standar kontrol kualitas yang ketat.`,
-          `Kami telah membantu pembeli internasional sejak 1999. Dengan pengalaman lebih dari 25 tahun, kami memahami rantai pasok, standar kualitas internasional, dan pentingnya panen berkelanjutan.`
+          `Mandiri Steel menyediakan jasa pembuatan ${titleHighlight.toLowerCase()} berkualitas premium dengan harga bersaing. Semua pekerjaan las besi kami diproduksi menggunakan material tebal standar SNI serta pengerjaan rapi dan presisi oleh tukang las ahli.`,
+          `Kami telah melayani pelanggan residensial, komersial, hingga industri di Bekasi dan seluruh Jabodetabek sejak 1999. Dengan pengalaman lebih dari 25 tahun, kami mengutamakan mutu, keamanan struktur, dan ketepatan waktu pengiriman.`
         ]
       },
       {
-        heading: 'Keunggulan Utama Naturra Extal',
+        heading: 'Keunggulan Utama Bengkel Las Mandiri Steel',
         list: [
-          '<strong>Sumber Langsung Petani:</strong> Kami bekerja sama langsung dengan petani di Sulawesi, Maluku, dan Jawa untuk memastikan kualitas dan ketertelusuran produk.',
-          '<strong>Standar Kualitas Ekspor:</strong> Setiap produk melalui proses seleksi manual dan pengujian laboratorium untuk memenuhi standar internasional (HS 1805/1806).',
-          '<strong>Kapasitas Pasokan Stabil:</strong> Jaringan distribusi kami memastikan ketersediaan produk sepanjang tahun untuk kebutuhan industri skala besar.',
-          '<strong>Dokumentasi Lengkap:</strong> Kami menangani seluruh dokumen ekspor, sertifikasi fitosanitari, dan logistik internasional dengan profesional.'
+          '<strong>Tukang Las Berpengalaman:</strong> Dikerjakan secara manual oleh tim tukang ahli berpengalaman menghasilkan sambungan las yang rapi, rapat, dan kuat.',
+          '<strong>Material SNI Berkualitas:</strong> Menggunakan besi hollow galvanis anti karat, stainless steel, dan baja ringan berkualitas tinggi demi ketahanan maksimal.',
+          '<strong>Gratis Survei Pengukuran:</strong> Kami menawarkan gratis survei ke rumah Anda untuk pengukuran lokasi presisi di area Bekasi dan sekitarnya.',
+          '<strong>Garansi Resmi Struktur:</strong> Setiap pengerjaan konstruksi las dijamin dengan garansi struktur resmi demi kenyamanan dan keamanan jangka panjang Anda.'
         ]
       },
       {
-        heading: 'Spesialis Komoditas Pertanian Kami',
+        heading: 'Spesialis Pengelasan & Fabrikasi Kami',
         paragraphs: [
-          'Tim operasional kami melayani kebutuhan industri makanan & minuman, farmasi, serta sektor hortikultura global. Produk unggulan kami meliputi Cocoa Powder (Premium & Sweetened), Cengkeh (Grade A), dan Cocopeat (Low EC).',
-          'Setiap kemitraan bersifat jangka panjang: kami memberikan transparansi harga, kepastian jadwal pengiriman, dan dukungan logistik lengkap.'
+          'Kami melayani kebutuhan pembuatan Kanopi Alderon/polycarbonate/kaca, Pagar Minimalis kustom, Teralis Jendela pengaman, Railing Tangga dan Balkon, Pintu Dorong, hingga tangga putar minimalis modern.',
+          'Setiap proyek dimulai dengan konsultasi transparan: estimasi harga jujur, pilihan ketebalan material riil, dan visualisasi desain jika diperlukan.'
         ]
       },
       {
-        heading: 'Langkah Pemesanan & Kerjasama',
+        heading: 'Langkah Pemesanan di Mandiri Steel',
         list: [
-          '<strong>1. Konsultasi Kebutuhan:</strong> Hubungi kami melalui WhatsApp atau email untuk mendiskusikan spesifikasi produk dan volume yang dibutuhkan.',
-          '<strong>2. Penawaran & Sampel:</strong> Kami mengirimkan lembar spesifikasi produk (COA) dan sampel jika diperlukan untuk verifikasi kualitas Anda.',
-          '<strong>3. Kontrak & Logistik:</strong> Setelah kesepakatan harga (FOB/CNF), kami menjadwalkan produksi/pemrosesan dan pengurusan dokumen ekspor.',
-          '<strong>4. Pengiriman Global:</strong> Tim logistik kami memastikan pemuatan kontainer yang aman dan pengiriman tepat waktu ke pelabuhan tujuan Anda.'
+          '<strong>1. Konsultasi Gratis:</strong> Hubungi kami via WhatsApp atau telepon untuk mendiskusikan rencana pembuatan kanopi, pagar, atau konstruksi las Anda.',
+          '<strong>2. Jadwal Survei Lapangan:</strong> Tim kami datang langsung ke lokasi rumah Anda untuk mengukur dimensi presisi dan membawa sampel contoh material.',
+          '<strong>3. Penawaran & Kontrak:</strong> Kami menyusun Rencana Anggaran Biaya (RAB) resmi yang transparan tanpa ada biaya tersembunyi.',
+          '<strong>4. Fabrikasi & Pemasangan:</strong> Produk dilas dan dirakit di workshop kami, kemudian dipasang secara rapi dan profesional di rumah Anda.'
         ]
       },
       {
-        heading: 'Hubungi Tim Naturra Extal',
+        heading: 'Hubungi Tim Mandiri Steel',
         paragraphs: [
-          'Hubungi kami untuk mendapatkan penawaran terbaik dan sampel produk:',
-          '<strong>WhatsApp:</strong> +62 895-1395-7752 (Respon Cepat)',
-          '<strong>Email:</strong> naturraextal@gmail.com',
-          '<strong>Kantor Operasional:</strong> Bekasi, Jawa Barat, Indonesia',
-          'Kami siap menjadi mitra strategis Anda dalam penyediaan komoditas pertanian Indonesia berkualitas dunia.'
+          'Hubungi kami hari ini untuk mendapatkan penawaran harga terbaik dan survei lokasi gratis:',
+          '<strong>WhatsApp:</strong> +62 895-1395-7752 (Respon Cepat & Ramah)',
+          '<strong>Email:</strong> info@lasbekasi.com',
+          '<strong>Workshop Utama:</strong> Setu, Bekasi, Jawa Barat, Indonesia',
+          'Kami siap mewujudkan pengerjaan las besi baja idaman rumah Anda dengan kualitas premium bergaransi.'
         ]
       }
     ]
@@ -1100,11 +1072,11 @@ const generateBlogPostHTML = (post, content, {
     "dateModified": post.date,
     "author": {
       "@type": "Person",
-      "name": post.author || 'Naturra Extal'
+      "name": post.author || 'Mandiri Steel'
     },
     "publisher": {
       "@type": "Organization",
-      "name": "Naturra Extal",
+      "name": "Mandiri Steel",
       "logo": {
         "@type": "ImageObject",
         "url": `${trimmedBaseUrl}/logo.png`
@@ -1152,10 +1124,10 @@ const generateBlogPostHTML = (post, content, {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>${escapeHtml(post.title)} | Naturra Extal</title>
+  <title>${escapeHtml(post.title)} | Mandiri Steel</title>
   <meta name="description" content="${escapeHtml(metaDescription)}">
-  <meta name="keywords" content="komoditas pertanian, ${escapeHtml(post.title)}, naturra extal, eksportir bekasi">
-  <meta name="author" content="${escapeHtml(post.author || 'Naturra Extal')}">
+  <meta name="keywords" content="bengkel las bekasi, kanopi minimalis, pagar besi, teralis jendela, mandiri steel, ${escapeHtml(post.title)}">
+  <meta name="author" content="${escapeHtml(post.author || 'Mandiri Steel')}">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
   <link rel="canonical" href="${canonicalUrl}">
   <meta property="og:type" content="article">
@@ -1164,7 +1136,7 @@ const generateBlogPostHTML = (post, content, {
   <meta property="og:description" content="${escapeHtml(metaDescription)}">
   <meta property="og:image" content="${post.image}">
   <meta property="article:published_time" content="${post.date}">
-  <meta property="article:author" content="${escapeHtml(post.author || 'Naturra Extal')}">
+  <meta property="article:author" content="${escapeHtml(post.author || 'Mandiri Steel')}">
   <meta property="article:section" content="${escapeHtml(post.category || 'Blog')}">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:url" content="${canonicalUrl}">

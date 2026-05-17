@@ -7,7 +7,7 @@ import { fileURLToPath } from 'url'
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const ROOT_DIR = path.resolve(__dirname, '..')
-const BASE_URL = process.env.SITEMAP_BASE_URL || 'https://naturraextal.com'
+const BASE_URL = process.env.SITEMAP_BASE_URL || 'https://lasbekasi.com'
 
 const BLOG_FILE = path.join(ROOT_DIR, 'src', 'data', 'blog.ts')
 const PRODUCTS_FILE = path.join(ROOT_DIR, 'src', 'data', 'products.ts')
@@ -266,12 +266,12 @@ const getFileLastModified = async (relativePath) => {
 
 const buildStaticPages = async () => {
   const staticPages = [
-    { loc: `${BASE_URL}/`, file: 'src/pages/NaturraHome.tsx', changefreq: 'weekly', priority: 1.0 },
-    { loc: `${BASE_URL}/products`, file: 'src/pages/NaturraProducts.tsx', changefreq: 'weekly', priority: 0.9 },
-    { loc: `${BASE_URL}/blog`, file: 'src/pages/NaturraBlog.tsx', changefreq: 'daily', priority: 0.9 },
-    { loc: `${BASE_URL}/about`, file: 'src/pages/NaturraAbout.tsx', changefreq: 'monthly', priority: 0.7 },
-    { loc: `${BASE_URL}/custom-order`, file: 'src/pages/NaturraCustomOrder.tsx', changefreq: 'monthly', priority: 0.7 },
-    { loc: `${BASE_URL}/partnership`, file: 'src/pages/NaturraPartnership.tsx', changefreq: 'monthly', priority: 0.7 },
+    { loc: `${BASE_URL}/`, file: 'src/pages/Home.tsx', changefreq: 'weekly', priority: 1.0 },
+    { loc: `${BASE_URL}/products`, file: 'src/pages/Products.tsx', changefreq: 'weekly', priority: 0.9 },
+    { loc: `${BASE_URL}/blog`, file: 'src/pages/Blog.tsx', changefreq: 'daily', priority: 0.9 },
+    { loc: `${BASE_URL}/about`, file: 'src/pages/About.tsx', changefreq: 'monthly', priority: 0.7 },
+    { loc: `${BASE_URL}/custom-order`, file: 'src/pages/CustomOrder.tsx', changefreq: 'monthly', priority: 0.7 },
+    { loc: `${BASE_URL}/partnership`, file: 'src/pages/Partnership.tsx', changefreq: 'monthly', priority: 0.7 },
     { loc: `${BASE_URL}/terms-of-service`, file: 'src/pages/TermsOfService.tsx', changefreq: 'yearly', priority: 0.4 },
     { loc: `${BASE_URL}/shipping-information`, file: 'src/pages/ShippingInformation.tsx', changefreq: 'yearly', priority: 0.4 },
     { loc: `${BASE_URL}/search`, file: 'src/pages/SearchResults.tsx', changefreq: 'monthly', priority: 0.4 },

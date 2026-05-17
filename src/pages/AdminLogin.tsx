@@ -56,7 +56,7 @@ const AdminLogin: React.FC = () => {
     return (
         <div className="admin-login-page">
             <Helmet>
-                <title>Admin Login | Naturra Extal</title>
+                <title>Admin Login | Mandiri Steel</title>
                 <meta name="robots" content="noindex, nofollow" />
             </Helmet>
 
@@ -64,7 +64,7 @@ const AdminLogin: React.FC = () => {
                 <div className="admin-login-card">
                     <div className="admin-login-header">
                         <div className="admin-logo">
-                            <h1>NATURRA</h1>
+                            <h1>MANDIRI STEEL</h1>
                             <p>ADMIN PANEL</p>
                         </div>
                         <h2>Welcome Back</h2>
@@ -87,7 +87,7 @@ const AdminLogin: React.FC = () => {
                                     id="username"
                                     value={username}
                                     onChange={(e) => setUsername(e.target.value)}
-                                    placeholder="Angga"
+                                    placeholder="rioanggara"
                                     required
                                     autoComplete="username"
                                 />
@@ -130,7 +130,7 @@ const AdminLogin: React.FC = () => {
                     </form>
 
                     <div className="admin-login-footer">
-                        <p>&copy; {new Date().getFullYear()} Naturra Extal. All rights reserved.</p>
+                        <p>&copy; {new Date().getFullYear()} Mandiri Steel. All rights reserved.</p>
                     </div>
                 </div>
             </div>

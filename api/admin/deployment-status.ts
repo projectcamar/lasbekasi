@@ -12,7 +12,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-    const GITHUB_REPO = process.env.GITHUB_REPO || 'projectcamar/naturra-extal';
+    const GITHUB_REPO = process.env.GITHUB_REPO || 'projectcamar/lasbekasi';
 
     if (!GITHUB_TOKEN) {
         return res.status(500).json({
@@ -30,7 +30,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             headers: {
                 'Authorization': `Bearer ${GITHUB_TOKEN}`,
                 'Accept': 'application/vnd.github.v3+json',
-                'User-Agent': 'Naturra-Admin-Bot'
+                'User-Agent': 'LasBekasi-Admin-Bot'
             }
         });
 

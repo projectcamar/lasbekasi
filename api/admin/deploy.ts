@@ -8,7 +8,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const { posts, commitMessage = 'Update blog posts via admin' } = req.body;
 
     const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-    const GITHUB_REPO = process.env.GITHUB_REPO || 'projectcamar/naturra-extal';
+    const GITHUB_REPO = process.env.GITHUB_REPO || 'projectcamar/lasbekasi';
     const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'main';
 
     if (!GITHUB_TOKEN) {
@@ -35,7 +35,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
             headers: {
                 'Authorization': `Bearer ${GITHUB_TOKEN}`,
                 'Accept': 'application/vnd.github.v3+json',
-                'User-Agent': 'Naturra-Admin-Bot'
+                'User-Agent': 'LasBekasi-Admin-Bot'
             }
         });
 
@@ -80,7 +80,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
                 'Authorization': `Bearer ${GITHUB_TOKEN}`,
                 'Accept': 'application/vnd.github.v3+json',
                 'Content-Type': 'application/json',
-                'User-Agent': 'Mangala-Admin-Bot'
+                'User-Agent': 'LasBekasi-Admin-Bot'
             },
             body: JSON.stringify({
                 message: commitMessage,
