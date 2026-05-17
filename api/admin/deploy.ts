@@ -11,17 +11,54 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     const GITHUB_REPO = process.env.GITHUB_REPO || 'projectcamar/lasbekasi';
     const GITHUB_BRANCH = process.env.GITHUB_BRANCH || 'main';
 
-    if (!GITHUB_TOKEN) {
-        return res.status(500).json({
-            error: 'GitHub token not configured',
-            details: 'Please set GITHUB_TOKEN in Vercel environment variables'
-        });
-    }
-
     if (!posts || !Array.isArray(posts)) {
         return res.status(400).json({
             error: 'Invalid request',
             details: 'posts array is required'
+        });
+    }
+
+    const isDev = process.env.NODE_ENV === 'development' || !process.env.VERCEL;
+
+    if (isDev) {
+        try {
+            const fs = await import('fs');
+            const path = await import('path');
+            
+            const filePath = path.join(process.cwd(), 'src/data/blog.ts');
+            if (fs.existsSync(filePath)) {
+                const currentContent = fs.readFileSync(filePath, 'utf8');
+                const sanitizedPosts = posts.map((post: any) => ({
+                    ...post,
+                    author: (post.author === 'rioanggara' || post.author === 'rio' || !post.author) ? 'Angga' : post.author
+                }));
+                const newPostsJson = JSON.stringify(sanitizedPosts, null, 2);
+                
+                const newContent = currentContent.replace(
+                    /(export const BLOG_POSTS: BlogPost\[\] = )\[[\s\S]*\];?(?=\s*\n\s*export const|\s*$)/,
+                    `$1${newPostsJson};`
+                );
+                
+                fs.writeFileSync(filePath, newContent, 'utf8');
+                return res.status(200).json({
+                    success: true,
+                    message: 'Local src/data/blog.ts updated successfully!',
+                    deployed: true
+                });
+            }
+        } catch (localError: any) {
+            console.error('[LOCAL_WRITE_ERROR]', localError);
+            return res.status(500).json({
+                error: 'Failed to write locally',
+                details: localError.message
+            });
+        }
+    }
+
+    if (!GITHUB_TOKEN) {
+        return res.status(500).json({
+            error: 'GitHub token not configured',
+            details: 'Please set GITHUB_TOKEN in Vercel environment variables'
         });
     }
 

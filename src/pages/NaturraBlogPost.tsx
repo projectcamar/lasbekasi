@@ -87,6 +87,14 @@ const ProductMentionPrice: React.FC<{ price: string; language: LanguageCode }> =
 
 // CTA translations imported from ../utils/blogTranslations
 
+const parseParagraphs = (text: string | undefined): string[] => {
+  if (!text) return []
+  return text
+    .split(/<br\s*\/?>|\n+/)
+    .map(p => p.trim())
+    .filter(Boolean)
+}
+
 const NaturraBlogPost: React.FC = () => {
   const { slug } = useParams<{ slug: string }>()
   const location = useLocation()
@@ -111,12 +119,12 @@ const NaturraBlogPost: React.FC = () => {
       // Introduction section
       ...(post.customContent?.introduction ? [{
         heading: '',
-        paragraphs: [post.customContent.introduction]
+        paragraphs: parseParagraphs(post.customContent.introduction)
       }] : []),
       // Custom sections
       ...(post.customContent?.sections?.map(section => ({
         heading: section.heading,
-        paragraphs: [section.content],
+        paragraphs: parseParagraphs(section.content),
         image: section.image,
         imageAlt: section.imageAlt,
         productId: section.productId
@@ -124,7 +132,7 @@ const NaturraBlogPost: React.FC = () => {
       // Conclusion section
       ...(post.customContent?.conclusion ? [{
         heading: '',
-        paragraphs: [post.customContent.conclusion]
+        paragraphs: parseParagraphs(post.customContent.conclusion)
       }] : [])
     ]
   } : getBlogPostContentLocalized(slug, language)) : undefined

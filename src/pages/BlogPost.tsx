@@ -67,6 +67,14 @@ const ProductMentionPrice: React.FC<{ price: string; language: LanguageCode }> =
   );
 };
 
+const parseParagraphs = (text: string | undefined): string[] => {
+  if (!text) return []
+  return text
+    .split(/<br\s*\/?>|\n+/)
+    .map(p => p.trim())
+    .filter(Boolean)
+}
+
 const BlogPost: React.FC = () => {
   const { slug } = useParams<{ slug: string }>()
   const location = useLocation()
@@ -87,11 +95,11 @@ const BlogPost: React.FC = () => {
 
   const content = slug ? (hasCustomContent ? {
     sections: [
-      ...(post.customContent?.introduction ? [{ heading: '', paragraphs: [post.customContent.introduction] }] : []),
+      ...(post.customContent?.introduction ? [{ heading: '', paragraphs: parseParagraphs(post.customContent.introduction) }] : []),
       ...(post.customContent?.sections?.map((section: any) => ({
-        heading: section.heading, paragraphs: [section.content], image: section.image, imageAlt: section.imageAlt, productId: section.productId
+        heading: section.heading, paragraphs: parseParagraphs(section.content), image: section.image, imageAlt: section.imageAlt, productId: section.productId
       })) || []),
-      ...(post.customContent?.conclusion ? [{ heading: '', paragraphs: [post.customContent.conclusion] }] : [])
+      ...(post.customContent?.conclusion ? [{ heading: '', paragraphs: parseParagraphs(post.customContent.conclusion) }] : [])
     ]
   } : getBlogPostContentLocalized(slug, language)) : undefined
 
