@@ -366,13 +366,13 @@ const TermsOfService: React.FC = () => {
                 </div>
                 <p className="workshop-phone">
                   <a
-                    href="https://wa.me/+6289513957752"
+                    href="https://wa.me/6285212078467"
                     style={{ color: '#8B7355', textDecoration: 'underline' }}
                     onClick={() => trackWhatsAppClick('terms_of_service_contact')}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    +6289513957752
+                    +62 852-1207-8467
                   </a>
                 </p>
                 <p className="workshop-email">

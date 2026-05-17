@@ -10,57 +10,57 @@ export interface FAQCategory {
   faqs: FAQItem[]
 }
 
-// FAQ untuk Educational Content - High Intent SEO for Agricultural Commodities
+// FAQ untuk Jasa Bengkel Las Bekasi dan Konstruksi Besi
 export const FAQ_DATA: FAQCategory[] = [
   {
     slug: 'commodity-export-bekasi',
-    title: 'FAQ Ekspor Komoditas Pertanian Bekasi',
+    title: 'FAQ Jasa Bengkel Las Bekasi',
     faqs: [
       {
-        question: 'Komoditas apa saja yang diekspor oleh Naturra Extal dari Bekasi?',
-        answer: 'Naturra Extal mengkhususkan diri dalam ekspor Bubuk Kakao (Cocoa Powder), Cengkeh (Cloves), dan Cocopeat. Kami mengelola rantai pasok dari petani di Sulawesi dan Sumatra hingga proses akhir di fasilitas industri kami di Bekasi sebelum dikirim ke pasar global.'
+        question: 'Layanan apa saja yang disediakan oleh Bengkel Las Mandiri di Bekasi?',
+        answer: 'Bengkel Las Mandiri spesialis dalam pembuatan dan pemasangan kanopi minimalis (Alderon, kaca tempered, polycarbonate), pagar besi modern/klasik, pintu gerbang, teralis jendela, railing tangga, balkon, serta konstruksi baja berat (WF/H-Beam) untuk rumah, ruko, gudang, dan pabrik di Bekasi.'
       },
       {
-        question: 'Bagaimana standar kualitas Bubuk Kakao Naturra Extal?',
-        answer: 'Bubuk Kakao kami memenuhi standar internasional untuk kategori HS 1805 dan 1806. Kami menyediakan varian Natural dan Alkalized dengan kadar lemak 10-12% (High Fat tersedia sesuai pesanan). Setiap batch disertai dengan COA (Certificate of Analysis) yang mencakup uji pH, kehalusan partikel, dan profil mikrobiologis.'
+        question: 'Bagaimana standar kualitas bahan dan ketebalan besi yang digunakan?',
+        answer: 'Kami selalu menggunakan material besi berkualitas standar SNI dengan ketebalan yang sesuai spesifikasi (bukan besi banci). Rangka kanopi dan pagar menggunakan hollow galvanis anti karat untuk menjamin kekuatan struktural dan ketahanan jangka panjang terhadap cuaca ekstrim.'
       },
       {
-        question: 'Berapa kapasitas produksi dan ekspor bulanan?',
-        answer: 'Fasilitas kami di Bekasi memiliki kapasitas pemrosesan dan pengemasan hingga 150-200 metrik ton per bulan untuk Bubuk Kakao dan 50 metrik ton untuk Cengkeh kering. Kami melayani pengiriman FCL (Full Container Load) 20ft dan 40ft ke seluruh dunia.'
+        question: 'Berapa lama proses pembuatan dan pemasangan kanopi atau pagar?',
+        answer: 'Proses fabrikasi di workshop kami berkisar antara 1 hingga 2 minggu tergantung tingkat kerumitan desain dan volume pekerjaan. Pemasangan langsung di lokasi Anda biasanya diselesaikan dalam waktu 1 hingga 2 hari kerja oleh tim teknisi las berpengalaman kami.'
       },
       {
-        question: 'Apa keunggulan Cengkeh (Cloves) asal Indonesia dari Naturra Extal?',
-        answer: 'Cengkeh kami berasal dari perkebunan rakyat di Sulawesi Utara (Lal Pari Grade) yang dikenal memiliki kadar eugenol tinggi (>70%) dan aroma yang sangat kuat. Proses penjemuran matahari yang terkontrol memastikan kadar air tetap di bawah 12% dan tingkat kotoran (impurity) di bawah 1%.'
+        question: 'Apakah ada garansi untuk pengerjaan las di Bengkel Las Mandiri?',
+        answer: 'Ya, kami memberikan garansi kekuatan struktur dan kebocoran (untuk kanopi) hingga 3 bulan setelah pemasangan. Kami berkomitmen menjaga kepuasan pelanggan dengan hasil pengerjaan las yang rapi, kuat, presisi, dan tahan lama.'
       },
       {
-        question: 'Apakah Naturra Extal menyediakan Cocopeat dalam bentuk blok?',
-        answer: 'Ya, kami menyediakan Cocopeat dalam bentuk 5kg Low EC Blocks. Cocopeat kami telah melalui proses pencucian (washing) untuk menurunkan kadar salinitas, menjadikannya media tanam ideal untuk hortikultura dan pertanian berkelanjutan di Eropa dan Asia Timur.'
+        question: 'Apakah biaya survei lokasi dan konsultasi desain dikenakan biaya?',
+        answer: 'Gratis! Kami memberikan layanan survei lokasi, pengukuran presisi, dan konsultasi desain secara gratis tanpa biaya tambahan untuk seluruh wilayah Bekasi, Cikarang, Tambun, Cibitung, dan sekitarnya.'
       },
       {
-        question: 'Berapa lead-time pengiriman untuk pesanan internasional?',
-        answer: 'Waktu tunggu standar (lead-time) adalah 14 hingga 21 hari kerja dari konfirmasi pembayaran hingga barang siap di pelabuhan (Jakarta/Surabaya), tergantung pada volume pesanan dan ketersediaan slot kapal global.'
+        question: 'Bagaimana sistem pembayaran untuk pemesanan jasa las?',
+        answer: 'Sistem pembayaran kami transparan dan aman. Pembayaran dilakukan dengan Uang Muka (DP) sebesar 40% - 50% setelah spesifikasi disepakati untuk memulai proses fabrikasi di workshop. Pelunasan sisa pembayaran dilakukan setelah pemasangan selesai dan lulus inspeksi kualitas bersama di lokasi Anda.'
       },
       {
-        question: 'Dokumen apa saja yang disediakan untuk transaksi ekspor?',
-        answer: 'Kami menyediakan dokumen lengkap termasuk Invoice, Packing List, Bill of Lading (B/L), Certificate of Origin (COO), Phytosanitary Certificate, dan Fumigation Certificate sesuai dengan regulasi negara tujuan.'
+        question: 'Apakah pelanggan bisa membawa desain kanopi atau pagar sendiri?',
+        answer: 'Tentu saja! Kami sangat menerima desain kustom dari Anda. Tim kami akan meninjau gambar teknis atau foto referensi yang Anda berikan, lalu memberikan saran teknis mengenai spesifikasi material terbaik agar hasilnya aman, kokoh, dan estetik.'
       },
       {
-        question: 'Dapatkah saya mengunjungi fasilitas Naturra Extal di Bekasi?',
-        answer: 'Tentu. Kami menyambut calon pembeli internasional dan mitra dagang untuk mengunjungi fasilitas industri kami di Bekasi melalui janji temu. Anda dapat melihat proses kontrol kualitas dan pengemasan kami secara langsung.'
+        question: 'Dimana lokasi workshop Bengkel Las Mandiri?',
+        answer: 'Workshop utama kami berlokasi di Jl. Raya Setu Cibitung, Telajung, Cikarang Barat, Kabupaten Bekasi. Anda sangat dipersilakan untuk mengunjungi workshop kami guna melihat langsung kualitas material, proses pengelasan, dan pengerjaan yang sedang berjalan.'
       }
     ]
   },
   {
     slug: 'cocoa-powder-export-guide',
-    title: 'FAQ Panduan Ekspor Bubuk Kakao',
+    title: 'FAQ Panduan Memilih Kanopi dan Pagar',
     faqs: [
       {
-        question: 'Apa perbedaan Bubuk Kakao Natural dan Alkalized?',
-        answer: 'Bubuk Kakao Natural diproses langsung dari biji kakao tanpa penyesuaian pH, mempertahankan rasa buah dan keasaman alami. Bubuk Kakao Alkalized (Dutch-processed) melalui proses netralisasi untuk warna yang lebih gelap, rasa yang lebih lembut, dan kelarutan yang lebih baik dalam air.'
+        question: 'Apa perbedaan kanopi Alderon Double Layer dan Single Layer?',
+        answer: 'Alderon Double Layer (berongga) memiliki ketebalan lebih tinggi, lebih meredam suara hujan, dan sangat efektif menahan panas matahari sehingga area di bawahnya terasa dingin. Alderon RS (Single Layer) lebih tipis, ringan, dan ekonomis, namun tetap memiliki ketahanan cuaca yang sangat baik.'
       },
       {
-        question: 'Mengapa memilih Bubuk Kakao asal Indonesia?',
-        answer: 'Indonesia adalah salah satu produsen kakao terbesar di dunia. Biji kakao Indonesia dikenal memiliki titik leleh yang tinggi dan profil rasa yang kuat, sangat ideal untuk industri manufaktur cokelat dan minuman di seluruh dunia.'
+        question: 'Mengapa memilih rangka galvanis dibanding besi biasa?',
+        answer: 'Besi hollow galvanis dilapisi lapisan seng (zinc) pelindung karat, sehingga memiliki ketahanan korosi yang jauh lebih tinggi dibanding besi biasa. Ini sangat penting untuk konstruksi luar ruangan seperti kanopi dan pagar yang terus-menerus terkena hujan dan terik matahari.'
       }
     ]
   }

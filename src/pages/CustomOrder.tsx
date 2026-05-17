@@ -125,13 +125,13 @@ const CustomOrder: React.FC = () => {
             <div className="mandiri-custom__workshop">
               <h3>{t.cta.workshopHeading}</h3>
               <p>Jl. Raya Setu Cibitung - Bekasi, Telajung, Kec. Cikarang Bar., Kabupaten Bekasi, Jawa Barat 17320</p>
-              <p className="mandiri-custom__phone">+62 895-1395-7752</p>
+              <p className="mandiri-custom__phone">+62 852-1207-8467</p>
             </div>
 
             <p className="mandiri-custom__cta-desc">{t.cta.workshopParagraph}</p>
 
             <a
-              href="https://wa.me/6289513957752"
+              href="https://wa.me/6285212078467"
               className="mandiri-custom__btn"
               onClick={() => trackWhatsAppClick('custom_order_page_cta')}
             >

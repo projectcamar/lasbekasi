@@ -14,7 +14,7 @@ interface ProductDetailAIContentProps {
  * AI-Optimized Content for Product Pages
  * 
  * This component enhances product pages for AI search engines
- * by providing comprehensive, agricultural-query-based content.
+ * by providing comprehensive, steel-fabrication-query-based content.
  */
 const ProductDetailAIContent: React.FC<ProductDetailAIContentProps> = ({ product, isIndonesian }) => {
   return (
@@ -23,15 +23,15 @@ const ProductDetailAIContent: React.FC<ProductDetailAIContentProps> = ({ product
       <section>
         <h2>
           {isIndonesian
-            ? `${product.name} - Komoditas Pertanian Kualitas Ekspor`
-            : `${product.name} - Premium Export Quality Agricultural Commodity`
+            ? `${product.name} - Jasa Pembuatan & Pemasangan Las Berkualitas`
+            : `${product.name} - Premium Quality Steel Fabrication & Installation`
           }
         </h2>
 
         <p>
           {isIndonesian
-            ? `${product.name} adalah komoditas pertanian premium dari Naturra Extal Bekasi. Produk ini diproses dengan standar kontrol kualitas ketat sejak 1999 untuk memenuhi kebutuhan industri global.`
-            : `${product.name} is a premium agricultural commodity from Naturra Extal Bekasi. This product has been processed with strict quality control standards since 1999 to meet global industrial needs.`
+            ? `${product.name} adalah layanan pengerjaan las besi premium dari Mandiri Steel Bekasi. Produk ini dibuat dengan bahan besi standar SNI tebal, dikerjakan oleh tukang las ahli berpengalaman sejak 1999 untuk menjamin kekuatan dan kerapian struktur.`
+            : `${product.name} is a premium steel fabrication service from Mandiri Steel Bekasi. This product is crafted using thick SNI standard steel, executed by experienced professional welders since 1999 to guarantee structural strength and neat finish.`
           }
         </p>
       </section>
@@ -40,31 +40,31 @@ const ProductDetailAIContent: React.FC<ProductDetailAIContentProps> = ({ product
       <section>
         <h3>
           {isIndonesian
-            ? `Standar Kualitas ${product.name}`
-            : `Quality Standards for ${product.name}`
+            ? `Standar Kualitas & Keamanan ${product.name}`
+            : `Quality & Safety Standards for ${product.name}`
           }
         </h3>
 
         <ul>
-          <li><strong>{isIndonesian ? 'Grade Ekspor A:' : 'Export Grade A:'}</strong> {isIndonesian ? 'Memenuhi standar internasional' : 'Meets international standards'}</li>
-          <li><strong>{isIndonesian ? 'Sertifikasi HS Code:' : 'HS Code Certified:'}</strong> {isIndonesian ? 'Siap untuk pengiriman global' : 'Ready for global shipping'}</li>
-          <li><strong>{isIndonesian ? 'Kontrol Kualitas:' : 'Quality Control:'}</strong> {isIndonesian ? 'Penyortiran manual dan pengujian lab' : 'Manual sorting and lab testing'}</li>
+          <li><strong>{isIndonesian ? 'Bahan Standar SNI:' : 'SNI Standard Materials:'}</strong> {isIndonesian ? 'Menggunakan besi/baja berstandar nasional Indonesia tebal' : 'Uses thick national standard Indonesian iron/steel'}</li>
+          <li><strong>{isIndonesian ? 'Garansi Struktur:' : 'Structural Warranty:'}</strong> {isIndonesian ? 'Jaminan kekuatan las dan perlindungan kebocoran' : 'Guaranteed welding strength and leak protection'}</li>
+          <li><strong>{isIndonesian ? 'Finishing Anti Karat:' : 'Anti-Rust Finishing:'}</strong> {isIndonesian ? 'Pelapisan cat primer anti karat (zinc chromate) berkualitas' : 'Coated with high-quality anti-rust primer (zinc chromate)'}</li>
         </ul>
       </section>
 
-      {/* Query Type 3: Supply Chain */}
+      {/* Query Type 3: Sourcing & Survey */}
       <section>
         <h3>
           {isIndonesian
-            ? `Rantai Pasok & Distribusi`
-            : `Supply Chain & Distribution`
+            ? `Jasa Survey Lokasi & Pengiriman Bekasi`
+            : `On-site Survey & Delivery Bekasi`
           }
         </h3>
 
         <p>
           {isIndonesian
-            ? `Naturra Extal mengelola distribusi ${product.name} dari hub pusat di Bekasi ke seluruh pasar internasional. Kami menjamin keberlanjutan pasokan untuk mitra industri kami.`
-            : `Naturra Extal manages the distribution of ${product.name} from our central hub in Bekasi to all international markets. We guarantee supply continuity for our industrial partners.`
+            ? `Mandiri Steel mengelola seluruh proses mulai dari survey pengukuran gratis, fabrikasi di workshop Bekasi, hingga pengiriman dan pemasangan di lokasi seluruh Jabodetabek.`
+            : `Mandiri Steel manages the entire process from free measurement surveys, fabrication at our Bekasi workshop, to delivery and installation at your location across Jabodetabek.`
           }
         </p>
       </section>

@@ -152,13 +152,13 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
               </p>
               <p>
                 <a
-                  href="https://wa.me/+6289513957752"
+                  href="https://wa.me/6285212078467"
                   style={{ color: 'inherit', textDecoration: 'underline' }}
                   onClick={() => trackWhatsAppClick('footer_contact_info')}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  +62 895-1395-7752
+                  +62 852-1207-8467
                 </a>
               </p>
               <div className="footer-social-icons">
@@ -189,13 +189,13 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
               </p>
               <p className="footer-phone">
                 <a
-                  href="https://wa.me/+6289513957752"
+                  href="https://wa.me/6285212078467"
                   style={{ color: 'inherit', textDecoration: 'underline' }}
                   onClick={() => trackWhatsAppClick('footer_workshop_address')}
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  +62 895-1395-7752
+                  +62 852-1207-8467
                 </a>
               </p>
               <div className="footer-hours" style={{ marginTop: '15px', fontSize: '0.9rem', color: '#ccc' }}>

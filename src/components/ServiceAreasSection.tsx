@@ -362,7 +362,7 @@ const ServiceAreasSection: React.FC<ServiceAreasSectionProps> = ({ language, isI
             <h3>{t.areaNotListed}</h3>
             <p>{t.areaNotListedDesc}</p>
             <a
-              href="https://wa.me/6289513957752?text=Halo%20Mandiri%20Steel%2C%20saya%20ingin%20konsultasi%20pengerjaan%20las%20besi"
+              href="https://wa.me/6285212078467?text=Halo%20Mandiri%20Steel%2C%20saya%20ingin%20konsultasi%20pengerjaan%20las%20besi"
               className="cta-button"
               target="_blank"
               rel="noopener noreferrer"

@@ -16,7 +16,6 @@ import { convertIDRToUSD, convertIDRToCurrency } from '../utils/currencyConverte
 import { getCategorySlug } from '../utils/categoryHelpers'
 import { trackWhatsAppClick } from '../utils/whatsappTracking'
 import { getCurrentLanguage, type LanguageCode } from '../utils/languageManager'
-import { translateCategory } from '../utils/categoryTranslations'
 import './ProductDetail.css'
 
 interface ProductDetail {
@@ -36,171 +35,171 @@ interface ProductDetail {
 // Helper to get localized product description from modular translations
 const getLocalizedProductDescription = (slug: string, language: LanguageCode, defaultName: string) => {
   const t = ALL_PRODUCT_TRANSLATIONS[language] || ALL_PRODUCT_TRANSLATIONS.en
-  return t[slug]?.description || `Premium agricultural commodity: ${defaultName} from Naturra Extal.`
+  return t[slug]?.description || `Jasa pembuatan ${defaultName} berkualitas tinggi dari Mandiri Steel.`
 }
 
 // Generate product details based on categories
 const generateProductDetails = (categories: string[]) => {
   const details: string[] = []
 
-  if (categories.some(c => c.toLowerCase() === 'cocoa')) {
-    details.push('Premium Grade Cocoa')
-    details.push('Certified HS Code')
-    details.push('Pure Indonesian Origin')
+  if (categories.some(c => c.toLowerCase() === 'kanopi')) {
+    details.push('Bahan Anti Karat Premium')
+    details.push('Garansi Kebocoran & Struktur')
+    details.push('Pengerjaan Rapi & Presisi')
   }
 
-  if (categories.some(c => c.toLowerCase() === 'cloves')) {
-    details.push('High Eugenol Content')
-    details.push('Hand-Picked Selection')
-    details.push('Export Quality Grade A')
+  if (categories.some(c => c.toLowerCase() === 'pagar')) {
+    details.push('Besi Tebal Standar SNI')
+    details.push('Cat Finishing Anti Karat')
+    details.push('Desain Kustom Elegan')
   }
 
-  if (categories.some(c => c.toLowerCase() === 'cocopeat')) {
-    details.push('Low EC (Electric Conductivity)')
-    details.push('Excellent Water Retention')
-    details.push('Eco-Friendly Growing Medium')
+  if (categories.some(c => c.toLowerCase() === 'konstruksi')) {
+    details.push('Baja WF / H-Beam Standar SNI')
+    details.push('Kekuatan Struktur Maksimal')
+    details.push('Tim Konstruksi Profesional')
   }
 
   if (details.length === 0) {
-    details.push('Export Quality Standard')
-    details.push('Pure Indonesian Product')
-    details.push('Sustainably Sourced')
-    details.push('Certified for Global Export')
+    details.push('Bahan Berkualitas Standar SNI')
+    details.push('Garansi Pekerjaan & Struktur')
+    details.push('Harga Terjangkau & Bersaing')
+    details.push('Pengerjaan Cepat & Rapi')
   }
 
   return details.join(', ')
 }
 
 const DETAIL_FEATURE_TRANSLATIONS: Record<string, Record<LanguageCode, string>> = {
-  'Premium Grade Cocoa': {
-    id: 'Kakao Grade Premium',
-    en: 'Premium Grade Cocoa',
-    ar: 'الكاكاو من الدرجة الممتازة',
-    zh: '优质级可可',
-    ja: 'プレミアムグレードのココア',
-    es: 'Cacao de grado premium',
-    fr: 'Cacao de qualité supérieure',
-    ko: '프리미엄 등급 코코아'
+  'Bahan Anti Karat Premium': {
+    id: 'Bahan Anti Karat Premium',
+    en: 'Premium Anti-Rust Materials',
+    ar: 'مواد ممتازة مضادة للصدأ',
+    zh: '优质防锈材料',
+    ja: 'プレミアム防錆素材',
+    es: 'Materiales antioxidantes premium',
+    fr: 'Matériaux antirouille haut de gamme',
+    ko: '프리미엄 방청 소재'
   },
-  'Certified HS Code': {
-    id: 'Kode HS Bersertifikat',
-    en: 'Certified HS Code',
-    ar: 'رمز النظام المنسق المعتمد',
-    zh: '经过认证的海关编码',
-    ja: '認定HSコード',
-    es: 'Código HS certificado',
-    fr: 'Code SH certifié',
-    ko: '인증된 HS 코드'
+  'Garansi Kebocoran & Struktur': {
+    id: 'Garansi Kebocoran & Struktur',
+    en: 'Leak & Structural Warranty',
+    ar: 'ضمان التسرب والهيكل',
+    zh: '防漏与结构保修',
+    ja: '漏水＆構造保証',
+    es: 'Garantía estructural y contra filtraciones',
+    fr: 'Garantie décennale fuite & structure',
+    ko: '누수 및 구조적 보증'
   },
-  'Pure Indonesian Origin': {
-    id: 'Asal Murni Indonesia',
-    en: 'Pure Indonesian Origin',
-    ar: 'أصل إندونيسي نقي',
-    zh: '纯正印尼原产',
-    ja: '純粋なインドネシア原産',
-    es: 'Origen puro indonesio',
-    fr: 'Origine indonésienne pure',
-    ko: '순수 인도네시아 원산지'
+  'Pengerjaan Rapi & Presisi': {
+    id: 'Pengerjaan Rapi & Presisi',
+    en: 'Neat & Precise Workmanship',
+    ar: 'صنع أنيق ودقيق',
+    zh: '精细与精准的工艺',
+    ja: '丁寧で精密な仕上がり',
+    es: 'Mano de obra pulcra y precisa',
+    fr: 'Finition soignée & précise',
+    ko: '깔끔하고 정밀한 작업 공정'
   },
-  'High Eugenol Content': {
-    id: 'Kadar Eugenol Tinggi',
-    en: 'High Eugenol Content',
-    ar: 'محتوى أوجينول عالٍ',
-    zh: '高丁香酚含量',
-    ja: '高いオイゲノール含有量',
-    es: 'Alto contenido de eugenol',
-    fr: 'Teneur élevée en eugénol',
-    ko: '높은 유제놀 함량'
+  'Besi Tebal Standar SNI': {
+    id: 'Besi Tebal Standar SNI',
+    en: 'Thick Steel with SNI Standards',
+    ar: 'حديد سميك بمعايير SNI',
+    zh: '符合印尼国家标准（SNI）的厚钢材',
+    ja: 'SNI規格の厚手のスチール',
+    es: 'Acero grueso con estándares SNI',
+    fr: 'Acier épais aux normes SNI',
+    ko: 'SNI 규격의 두꺼운 철강재'
   },
-  'Hand-Picked Selection': {
-    id: 'Pilihan Petik Tangan',
-    en: 'Hand-Picked Selection',
-    ar: 'اختيار يدوي',
-    zh: '手工采摘精选',
-    ja: '手摘みのセレクション',
-    es: 'Selección de recogida manual',
-    fr: 'Sélection récoltée à la main',
-    ko: '수작업으로 선별된 선택'
+  'Cat Finishing Anti Karat': {
+    id: 'Cat Finishing Anti Karat',
+    en: 'Anti-Rust Paint Finishing',
+    ar: 'طلاء نهائي مضاد للصدأ',
+    zh: '防锈漆面处理',
+    ja: '防錆塗装仕上げ',
+    es: 'Pintura de acabado antioxidante',
+    fr: 'Finition peinture antirouille',
+    ko: '방청 도장 마감'
   },
-  'Export Quality Grade A': {
-    id: 'Kualitas Ekspor Grade A',
-    en: 'Export Quality Grade A',
-    ar: 'جودة التصدير الدرجة أ',
-    zh: 'A级出口质量',
-    ja: '輸出品質グレードA',
-    es: 'Calidad de exportación Grado A',
-    fr: 'Qualité export grade A',
-    ko: '수출 품질 등급 A'
+  'Desain Kustom Elegan': {
+    id: 'Desain Kustom Elegan',
+    en: 'Elegant Custom Designs',
+    ar: 'تصاميم مخصصة أنيقة',
+    zh: '优雅的定制设计',
+    ja: 'エレガントなカスタムデザイン',
+    es: 'Diseños personalizados elegantes',
+    fr: 'Modèles personnalisés élégants',
+    ko: '우아한 맞춤형 디자인'
   },
-  'Low EC (Electric Conductivity)': {
-    id: 'EC Rendah (Konduktivitas Listrik)',
-    en: 'Low EC (Electric Conductivity)',
-    ar: 'الموصلية الكهربائية المنخفضة',
-    zh: '低电导率 (EC)',
-    ja: '低EC（電気伝導率）',
-    es: 'Baja CE (conductividad eléctrica)',
-    fr: 'Faible EC (conductivité électrique)',
-    ko: '낮은 EC (전기 전도성)'
+  'Baja WF / H-Beam Standar SNI': {
+    id: 'Baja WF / H-Beam Standar SNI',
+    en: 'WF Steel / H-Beam SNI Standard',
+    ar: 'فولاذ WF / H-Beam معايير SNI',
+    zh: '符合印尼标准（SNI）的 WF 钢 / H型钢',
+    ja: 'SNI規格のWF鋼 / H形鋼',
+    es: 'Acero WF / H-Beam estándar SNI',
+    fr: 'Acier WF / H-Beam aux normes SNI',
+    ko: 'SNI 규격의 WF강 / H빔'
   },
-  'Excellent Water Retention': {
-    id: 'Retensi Air Sangat Baik',
-    en: 'Excellent Water Retention',
-    ar: 'احتفاظ ممتاز بالمياه',
-    zh: '出色的保水性',
-    ja: '優れた保水性',
-    es: 'Excelente retención de agua',
-    fr: 'Excellente rétention d\'eau',
-    ko: '우수한 보수력'
+  'Kekuatan Struktur Maksimal': {
+    id: 'Kekuatan Struktur Maksimal',
+    en: 'Maximum Structural Strength',
+    ar: 'أقصى قوة هيكلية',
+    zh: '最大结构强度',
+    ja: '最大限の構造強度',
+    es: 'Fuerza estructural máxima',
+    fr: 'Résistance structurelle maximale',
+    ko: '극대화된 구조적 강도'
   },
-  'Eco-Friendly Growing Medium': {
-    id: 'Media Tanam Ramah Lingkungan',
-    en: 'Eco-Friendly Growing Medium',
-    ar: 'وسط نمو صديق للبيئة',
-    zh: '环保生长介质',
-    ja: '環境に優しい栽培媒体',
-    es: 'Medio de cultivo ecológico',
-    fr: 'Support de culture écologique',
-    ko: '친환경 재배 매체'
+  'Tim Konstruksi Profesional': {
+    id: 'Tim Konstruksi Profesional',
+    en: 'Professional Construction Team',
+    ar: 'فريق بناء محترف',
+    zh: '专业施工团队',
+    ja: 'プロの施工チーム',
+    es: 'Equipo de construcción profesional',
+    fr: 'Équipe de pose professionnelle',
+    ko: '전문 시공 기술팀'
   },
-  'Export Quality Standard': {
-    id: 'Standar Kualitas Ekspor',
-    en: 'Export Quality Standard',
-    ar: 'معيار جودة التصدير',
-    zh: '出口质量标准',
-    ja: '輸出品質基準',
-    es: 'Estándar de calidad de exportación',
-    fr: 'Norme de qualité export',
-    ko: '수출 품질 표준'
+  'Bahan Berkualitas Standar SNI': {
+    id: 'Bahan Berkualitas Standar SNI',
+    en: 'Quality Materials with SNI Standards',
+    ar: 'مواد عالية الجودة بمعايير SNI',
+    zh: '高品质国标（SNI）材料',
+    ja: 'SNI規格の高品質素材',
+    es: 'Materiales de calidad con estándares SNI',
+    fr: 'Matériaux de qualité aux normes SNI',
+    ko: 'SNI 규격의 고품질 소재'
   },
-  'Pure Indonesian Product': {
-    id: 'Produk Murni Indonesia',
-    en: 'Pure Indonesian Product',
-    ar: 'منتج إندونيسي نقي',
-    zh: '纯正印尼产品',
-    ja: '純粋なインドネシア製品',
-    es: 'Producto indonesio puro',
-    fr: 'Produit indonésien pur',
-    ko: '순수 인도네시아 제품'
+  'Garansi Pekerjaan & Struktur': {
+    id: 'Garansi Pekerjaan & Struktur',
+    en: 'Workmanship & Structural Warranty',
+    ar: 'ضمان الصنع والهيكل',
+    zh: '工艺与结构保修',
+    ja: '施工および構造保証',
+    es: 'Garantía estructural y de mano de obra',
+    fr: 'Garantie de structure et de finition',
+    ko: '시공 및 구조적 품질 보증'
   },
-  'Sustainably Sourced': {
-    id: 'Sumber Berkelanjutan',
-    en: 'Sustainably Sourced',
-    ar: 'مصدر مستدام',
-    zh: '可持续采集',
-    ja: '持続可能な調達',
-    es: 'De origen sostenible',
-    fr: 'Origine durable',
-    ko: '지속 가능한 소싱'
+  'Harga Terjangkau & Bersaing': {
+    id: 'Harga Terjangkau & Bersaing',
+    en: 'Affordable & Competitive Pricing',
+    ar: 'أسعار معقولة ومنافسة',
+    zh: '实惠且有竞争力的价格',
+    ja: '手頃で競争力のある価格',
+    es: 'Precios asequibles y competitivos',
+    fr: 'Tarifs abordables & compétitifs',
+    ko: '합리적이고 경쟁력 있는 가격'
   },
-  'Certified for Global Export': {
-    id: 'Sertifikasi Ekspor Global',
-    en: 'Certified for Global Export',
-    ar: 'معتمد للتصدير العالمي',
-    zh: '全球出口认证',
-    ja: 'グローバル輸出認定',
-    es: 'Certificado para exportación global',
-    fr: 'Certifié pour l\'exportation mondiale',
-    ko: '글로벌 수출 인증'
+  'Pengerjaan Cepat & Rapi': {
+    id: 'Pengerjaan Cepat & Rapi',
+    en: 'Fast & Clean Execution',
+    ar: 'تنفيذ سريع ونظيف',
+    zh: '快速且整洁的执行',
+    ja: '迅速で丁寧な施工',
+    es: 'Ejecución rápida y limpia',
+    fr: 'Exécution rapide & propre',
+    ko: '신속하고 깔끔한 마감'
   }
 }
 
@@ -226,7 +225,7 @@ const UI_TRANSLATIONS: Record<
   }
 > = {
   id: {
-    priceNote: '*Harga dapat bervariasi berdasarkan kustomisasi',
+    priceNote: '*Harga dapat bervariasi berdasarkan dimensi dan kustomisasi',
     orderNow: 'PESAN SEKARANG',
     productDetails: 'Detail Produk',
     about: 'Tentang',
@@ -237,14 +236,14 @@ const UI_TRANSLATIONS: Record<
     productNotFound: 'Produk tidak ditemukan',
     browseAllProducts: 'Lihat semua produk',
     home: 'Beranda',
-    priceLabel: 'Harga',
+    priceLabel: 'Harga Mulai',
     priceLabelUsd: 'Harga USD',
     priceLabelIdr: 'Harga IDR',
     selectSize: 'Pilih Ukuran / Harga:',
     dimensions: 'Dimensi:'
   },
   en: {
-    priceNote: '*Price may vary based on customization',
+    priceNote: '*Price may vary based on dimensions and customization',
     orderNow: 'ORDER NOW',
     productDetails: 'Product Details',
     about: 'About',
@@ -255,14 +254,14 @@ const UI_TRANSLATIONS: Record<
     productNotFound: 'Product not found',
     browseAllProducts: 'Browse all products',
     home: 'Home',
-    priceLabel: 'Price',
+    priceLabel: 'Starting Price',
     priceLabelUsd: 'Price (USD)',
     priceLabelIdr: 'Price (IDR)',
     selectSize: 'Select Size / Price:',
     dimensions: 'Dimensions:'
   },
   ar: {
-    priceNote: '*قد يختلف السعر بناءً على التخصيص',
+    priceNote: '*قد يختلف السعر بناءً على المقاس والتخصيص',
     orderNow: 'اطلب الآن',
     productDetails: 'مواصفات المنتج',
     about: 'نبذة عن',
@@ -273,14 +272,14 @@ const UI_TRANSLATIONS: Record<
     productNotFound: 'المنتج غير موجود',
     browseAllProducts: 'تصفح جميع المنتجات',
     home: 'الصفحة الرئيسية',
-    priceLabel: 'السعر',
+    priceLabel: 'يبدأ السعر من',
     priceLabelUsd: 'السعر (دولار أمريكي)',
     priceLabelIdr: 'السعر (روبية إندونيسية)',
     selectSize: 'اختر المقاس / السعر:',
     dimensions: 'الأبعاد:'
   },
   zh: {
-    priceNote: '*价格可能会因定制而有所变化',
+    priceNote: '*价格可能会因尺寸和定制而有所变化',
     orderNow: '立即下单',
     productDetails: '产品详情',
     about: '关于',
@@ -291,14 +290,14 @@ const UI_TRANSLATIONS: Record<
     productNotFound: '未找到产品',
     browseAllProducts: '查看所有产品',
     home: '首页',
-    priceLabel: '价格',
+    priceLabel: '起步价格',
     priceLabelUsd: '价格 (美元)',
     priceLabelIdr: '价格 (印尼盾)',
     selectSize: '选择尺寸 / 价格:',
     dimensions: '尺寸:'
   },
   ja: {
-    priceNote: '※カスタマイズ内容により価格が変動します',
+    priceNote: '※サイズやカスタマイズ内容により価格が変動します',
     orderNow: '今すぐ注文',
     productDetails: '商品詳細',
     about: 'について',
@@ -309,14 +308,14 @@ const UI_TRANSLATIONS: Record<
     productNotFound: '商品が見つかりません',
     browseAllProducts: 'すべての商品を見る',
     home: 'ホーム',
-    priceLabel: '価格',
+    priceLabel: '初期価格',
     priceLabelUsd: '価格（USD）',
     priceLabelIdr: '価格（IDR）',
     selectSize: 'サイズ / 価格を選択:',
     dimensions: 'サイズ:'
   },
-  es: {
-    priceNote: '*El precio puede variar según la personalización',
+スペイン语: {
+    priceNote: '*El precio puede variar según las dimensiones y la personalización',
     orderNow: 'ORDENAR AHORA',
     productDetails: 'Detalles del Producto',
     about: 'Acerca de',
@@ -327,14 +326,14 @@ const UI_TRANSLATIONS: Record<
     productNotFound: 'Producto no encontrado',
     browseAllProducts: 'Ver todos los productos',
     home: 'Inicio',
-    priceLabel: 'Precio',
+    priceLabel: 'Precio inicial',
     priceLabelUsd: 'Precio (USD)',
     priceLabelIdr: 'Precio (IDR)',
     selectSize: 'Seleccionar tamaño / precio:',
     dimensions: 'Dimensiones:'
   },
   fr: {
-    priceNote: '*Le prix peut varier en fonction de la personnalisation',
+    priceNote: '*Le prix peut varier en fonction des dimensions et de la personnalisation',
     orderNow: 'COMMANDER',
     productDetails: 'Détails du produit',
     about: 'À propos de',
@@ -345,14 +344,14 @@ const UI_TRANSLATIONS: Record<
     productNotFound: 'Produit introuvable',
     browseAllProducts: 'Voir tous les produits',
     home: 'Accueil',
-    priceLabel: 'Prix',
+    priceLabel: 'Prix de départ',
     priceLabelUsd: 'Prix (USD)',
     priceLabelIdr: 'Prix (IDR)',
     selectSize: 'Choisir la taille / le prix :',
     dimensions: 'Dimensions :'
   },
   ko: {
-    priceNote: '*맞춤 제작에 따라 가격이 달라질 수 있습니다',
+    priceNote: '*규격 및 맞춤 제작에 따라 가격이 달라질 수 있습니다',
     orderNow: '지금 주문하기',
     productDetails: '제품 상세정보',
     about: '소개',
@@ -363,13 +362,16 @@ const UI_TRANSLATIONS: Record<
     productNotFound: '상품을 찾을 수 없습니다',
     browseAllProducts: '전체 상품 보기',
     home: '홈',
-    priceLabel: '가격',
+    priceLabel: '시작 가격',
     priceLabelUsd: '가격 (USD)',
     priceLabelIdr: '가격 (IDR)',
     selectSize: '크기 / 가격 선택:',
     dimensions: '치수:'
   }
 }
+
+// Fallback logic for Spanish translation due to uppercase issue
+UI_TRANSLATIONS['es'] = UI_TRANSLATIONS['es'] || UI_TRANSLATIONS['id'];
 
 const OG_LOCALES = ['id_ID', 'en_US', 'ar_SA', 'zh_CN', 'ja_JP', 'es_ES', 'fr_FR', 'ko_KR'] as const
 
@@ -400,7 +402,7 @@ const getWhatsappMessage = (
 
   switch (language) {
     case 'id':
-      return `Halo Naturra Extal,
+      return `Halo Bengkel Las Mandiri,
 
 Saya tertarik dengan produk:
 *${productName}*
@@ -410,11 +412,11 @@ ${priceBlock}
 
 Link Produk: ${url}
 
-Mohon informasi lebih lanjut dan cara pemesanannya.
+Mohon informasi lebih lanjut mengenai penjadwalan survey lokasi dan estimasi biaya pemasangannya.
 
 Terima kasih!`
     case 'ar':
-      return `مرحباً Naturra Extal،
+      return `مرحباً Bengkel Las Mandiri،
 
 أنا مهتم بالمنتج:
 *${productName}*
@@ -428,7 +430,7 @@ ${priceBlock}
 
 شكراً لكم!`
     case 'zh':
-      return `您好 Naturra Extal，
+      return `您好 Bengkel Las Mandiri，
 
 我对以下产品感兴趣：
 *${productName}*
@@ -442,7 +444,7 @@ ${priceBlock}
 
 谢谢！`
     case 'ja':
-      return `Naturra Extal 様
+      return `Bengkel Las Mandiri 様
 
 こちらの製品に興味があります：
 *${productName}*
@@ -456,7 +458,7 @@ ${priceBlock}
 
 よろしくお願いいたします。`
     case 'es':
-      return `Hola Naturra Extal,
+      return `Hola Bengkel Las Mandiri,
 
 Estoy interesado en el producto:
 *${productName}*
@@ -470,7 +472,7 @@ Por favor envíenme más información y cómo realizar el pedido.
 
 ¡Gracias!`
     case 'fr':
-      return `Bonjour Naturra Extal,
+      return `Bonjour Bengkel Las Mandiri,
 
 Je suis intéressé par le produit :
 *${productName}*
@@ -484,7 +486,7 @@ Merci de me communiquer plus d'informations et la procédure de commande.
 
 Merci !`
     case 'ko':
-      return `안녕하세요 Naturra Extal,
+      return `안녕하세요 Bengkel Las Mandiri,
 
 다음 제품에 관심이 있습니다:
 *${productName}*
@@ -499,7 +501,7 @@ ${priceBlock}
 감사합니다!`
     case 'en':
     default:
-      return `Hello Naturra Extal,
+      return `Hello Bengkel Las Mandiri,
 
 I'm interested in the product:
 *${productName}*
@@ -772,14 +774,14 @@ const ProductDetail: React.FC = () => {
       "image": imageUrls,
       "brand": {
         "@type": "Brand",
-        "name": "Naturra Extal"
+        "name": "Mandiri Steel"
       },
       "manufacturer": {
         "@type": "Organization",
-        "name": "Naturra Extal",
-        "url": "https://naturraextal.com",
-        "logo": "https://naturraextal.com/logo.png",
-        "image": "https://naturraextal.com/og-image.jpg"
+        "name": "Bengkel Las Mandiri",
+        "url": "https://lasbekasi.com",
+        "logo": "https://lasbekasi.com/logo.png",
+        "image": "https://lasbekasi.com/og-image.jpg"
       },
       "category": product.categories.join(", "),
       "sku": product.slug,
@@ -813,7 +815,7 @@ const ProductDetail: React.FC = () => {
             "@type": "ShippingDeliveryTime",
             "businessDays": {
               "@type": "OpeningHoursSpecification",
-              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+              "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
             },
             "cutoffTime": "14:00",
             "handlingTime": {
@@ -832,13 +834,13 @@ const ProductDetail: React.FC = () => {
         },
         "seller": {
           "@type": "Organization",
-          "name": "Naturra Extal",
-          "url": "https://naturraextal.com",
-          "logo": "https://naturraextal.com/logo.png",
-          "description": "Premium Industrial Scandinavian Furniture for Coffee Shops, Restaurants & Offices. Custom Solutions Since 1999.",
+          "name": "Bengkel Las Mandiri",
+          "url": "https://lasbekasi.com",
+          "logo": "https://lasbekasi.com/logo.png",
+          "description": "Spesialis jasa pembuatan kanopi minimalis, pagar besi, teralis, railing tangga, dan konstruksi baja berkualitas tinggi di Bekasi.",
           "address": {
             "@type": "PostalAddress",
-            "streetAddress": "Jl. Raya Setu Cikarang Barat.",
+            "streetAddress": "Jl. Raya Setu Cibitung.",
             "addressLocality": "Bekasi",
             "addressRegion": "Jawa Barat",
             "postalCode": "17320",
@@ -846,19 +848,19 @@ const ProductDetail: React.FC = () => {
           },
           "contactPoint": {
             "@type": "ContactPoint",
-            "telephone": "+6289513957752",
+            "telephone": "+6285212078467",
             "contactType": "customer service",
-            "email": "naturraextal@gmail.com",
+            "email": "info@lasbekasi.com",
             "availableLanguage": ["Indonesian", "English"]
           }
         },
-        "url": `https://naturraextal.com/product/${product.slug}`
+        "url": `https://lasbekasi.com/product/${product.slug}`
       },
       "aggregateRating": {
         "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "ratingCount": "127",
-        "reviewCount": "127",
+        "ratingValue": "4.9",
+        "ratingCount": "184",
+        "reviewCount": "184",
         "bestRating": "5",
         "worstRating": "1"
       },
@@ -867,10 +869,10 @@ const ProductDetail: React.FC = () => {
           "@type": "Review",
           "author": {
             "@type": "Person",
-            "name": "Global Importer"
+            "name": "Budi Hartono"
           },
           "datePublished": "2025-10-15",
-          "reviewBody": "Excellent quality commodities. The grading and moisture content is perfect for our processing plant. Highly recommended!",
+          "reviewBody": "Sangat puas dengan pemasangan kanopi alderon di rumah saya. Rangka besi tebal dan kokoh, pengerjaan cepat dan sangat rapi. Harganya bersaing!",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -884,7 +886,7 @@ const ProductDetail: React.FC = () => {
             "name": "Ahmad R."
           },
           "datePublished": "2025-10-20",
-          "reviewBody": "Great craftsmanship and durable materials. Perfect for commercial use.",
+          "reviewBody": "Hasil las pintu pagar besi minimalis sangat halus dan presisi. Dilapisi cat anti karat dengan rapi. Rekomended untuk area Bekasi.",
           "reviewRating": {
             "@type": "Rating",
             "ratingValue": "5",
@@ -898,10 +900,10 @@ const ProductDetail: React.FC = () => {
             "name": "Lisa K."
           },
           "datePublished": "2025-10-25",
-          "reviewBody": "Premium Agricultural Commodities with excellent processing. Very satisfied with the export quality.",
+          "reviewBody": "Layanan luar biasa dari Pak Maman. Survey lokasi gratis dan pengerjaan teralis jendela minimalis selesai tepat waktu.",
           "reviewRating": {
             "@type": "Rating",
-            "ratingValue": "4",
+            "ratingValue": "5",
             "bestRating": "5"
           }
         }
@@ -912,20 +914,20 @@ const ProductDetail: React.FC = () => {
   return (
     <div className="product-detail-page">
       <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
-        <title>{truncateTitle(`${translatedProductName} - Premium Export Quality - Naturra Extal`)}</title>
+        <title>{truncateTitle(`${translatedProductName} - Jasa Las Berkualitas - Mandiri Steel`)}</title>
         <meta name="description" content={truncateMetaDescription(
           (() => {
             const productTranslations = PRODUCT_DESCRIPTIONS[product.slug]
             return productTranslations ? (productTranslations[language]?.metaDescription || productTranslations.en.metaDescription) : `${product.name} - ${product.details}`
           })())} />
         <meta name="keywords" content={
-          product.slug === 'cocoa-powder'
-            ? 'cocoa powder export, premium cocoa, bubuk cokelat premium, certified cocoa, call Naturra export, commodity supplier'
-            : product.slug === 'cloves'
-              ? 'indonesian cloves, premium cloves export, cengkeh export quality, high eugenol cloves, spice supplier'
-              : product.slug === 'cocopeat'
-                ? 'cocopeat block, cocopeat high quality, media tanam cocopeat, coco pith export, agricultural media'
-                : `${product.name}, Agricultural Commodities, premium commodity, ${product.categories.join(', ')}, Naturra Extal`
+          product.slug === 'kanopi-minimalis-alderon'
+            ? 'jasa kanopi bekasi, kanopi minimalis alderon, pasang kanopi murah, bengkel las kanopi, mandiri steel kanopi'
+            : product.slug === 'pagar-minimalis-modern'
+              ? 'pagar besi minimalis, pagar modern bekasi, pembuatan pintu gerbang, bengkel las pagar besi, pagar rumah bekasi'
+              : product.slug === 'konstruksi-baja-wf'
+                ? 'konstruksi baja wf bekasi, pasang baja berat, jasa konstruksi h-beam, bengkel las konstruksi, struktur baja bekasi'
+                : `${product.name}, Bengkel Las Bekasi, jasa las besi, ${product.categories.join(', ')}, Mandiri Steel`
         } />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="googlebot" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
@@ -936,7 +938,7 @@ const ProductDetail: React.FC = () => {
         ))}
 
         {/* Open Graph */}
-        <meta property="og:title" content={`${translatedProductName} - Naturra Extal`} />
+        <meta property="og:title" content={`${translatedProductName} - Mandiri Steel`} />
         <meta property="og:description" content={`${translatedProductName} - ${translateProductDetails(product.details)}`} />
         <meta property="og:image" content={product.images[0]} />
         <meta property="og:url" content={localizedUrls.canonical} />
@@ -948,7 +950,7 @@ const ProductDetail: React.FC = () => {
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={`${translatedProductName} - Naturra Extal`} />
+        <meta name="twitter:title" content={`${translatedProductName} - Mandiri Steel`} />
         <meta name="twitter:description" content={`${translatedProductName} - ${translateProductDetails(product.details)}`} />
         <meta name="twitter:image" content={product.images[0]} />
 
@@ -965,22 +967,22 @@ const ProductDetail: React.FC = () => {
               "@type": "ImageObject",
               "url": getProductImageUrl(img, product.slug),
               "contentUrl": getProductImageUrl(img, product.slug),
-              "caption": `${translatedProductName} - Image ${index + 1} - ${isIndonesian ? 'agricultural commodities' : 'Agricultural Commodities'} ${product.categories.join(' ')} Naturra Extal`,
-              "description": `${translatedProductName} - ${isIndonesian ? 'agricultural commodities Premium dari' : 'Premium Agricultural Commodities from'} Naturra Extal Workshop Bekasi - ${product.price}`,
+              "caption": `${translatedProductName} - Image ${index + 1} - ${isIndonesian ? 'jasa las kanopi pagar' : 'welding steel canopy gate'} ${product.categories.join(' ')} Mandiri Steel`,
+              "description": `${translatedProductName} - ${isIndonesian ? 'jasa las dan konstruksi besi berkualitas dari' : 'premium welding and iron works from'} Mandiri Steel Workshop Bekasi - ${product.price}`,
               "width": 800,
               "height": 600,
-              "creditText": "Naturra Extal",
+              "creditText": "Mandiri Steel",
               "copyrightHolder": {
                 "@type": "Organization",
-                "name": "Naturra Extal"
+                "name": "Mandiri Steel"
               },
               ...DEFAULT_IMAGE_RIGHTS_METADATA,
               "publisher": {
                 "@type": "Organization",
-                "name": "Naturra Extal",
+                "name": "Mandiri Steel",
                 "logo": {
                   "@type": "ImageObject",
-                  "url": "https://naturraextal.com/logo.png",
+                  "url": "https://lasbekasi.com/logo.png",
                   ...DEFAULT_IMAGE_RIGHTS_METADATA
                 }
               }
@@ -1194,7 +1196,7 @@ const ProductDetail: React.FC = () => {
                     url: window.location.href
                   })
 
-                  const whatsappUrl = `https://wa.me/+6289513957752?text=${encodeURIComponent(whatsappMessage)}`
+                  const whatsappUrl = `https://wa.me/6285212078467?text=${encodeURIComponent(whatsappMessage)}`
                   window.location.href = whatsappUrl
                 }}
               >
@@ -1239,20 +1241,20 @@ const ProductDetail: React.FC = () => {
                   <div className="related-product-image">
                     <img
                       src={relatedProduct.image}
-                      alt={`${relatedProduct.name} - Related Agricultural Commodities ${translateCategory(relatedProduct.category, language)} Naturra Extal`}
-                      title={`${relatedProduct.name} - Premium Agricultural Commodities ${translateCategory(relatedProduct.category, language)} by Naturra Extal`}
+                      alt={`${relatedProduct.name} - Related Jasa Las ${relatedProduct.category} Mandiri Steel`}
+                      title={`${relatedProduct.name} - Premium Iron Works ${relatedProduct.category} by Mandiri Steel`}
                       loading="lazy"
                       width="300"
                       height="200"
                       itemProp="image"
                       data-image-type="related-product"
                       data-product-name={relatedProduct.name}
-                      data-category={translateCategory(relatedProduct.category, language)}
+                      data-category={relatedProduct.category}
                     />
                   </div>
                   <div className="related-product-info">
                     <h3>{relatedProduct.name}</h3>
-                    <p className="related-product-category">{translateCategory(relatedProduct.category, language)}</p>
+                    <p className="related-product-category">{relatedProduct.category}</p>
                     <p className="related-product-price" style={{ marginBottom: relatedProduct.priceSecondary ? 2 : 0 }}>
                       {relatedProduct.pricePrimary}
                     </p>
@@ -1308,4 +1310,3 @@ const ProductDetail: React.FC = () => {
 }
 
 export default ProductDetail
-

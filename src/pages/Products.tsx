@@ -149,7 +149,7 @@ const Products: React.FC = () => {
             <section className="mandiri-products__detail-section">
                 <div className="mandiri-products__detail-inner">
                     <div className="mandiri-products__detail-image">
-                        <img src="https://images.unsplash.com/photo-1628744448839-497746416629?w=800&q=80" alt="Spesialis Kanopi Bekasi" loading="lazy" />
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Spesialis Kanopi Bekasi" loading="lazy" />
                     </div>
                     <div>
                         <span className="mandiri-products__detail-eyebrow">{t.productFocus}</span>
@@ -168,7 +168,7 @@ const Products: React.FC = () => {
             <section className="mandiri-products__detail-section">
                 <div className="mandiri-products__detail-inner reverse">
                     <div className="mandiri-products__detail-image">
-                        <img src="https://images.unsplash.com/photo-1505322033502-1f4385692e6a?w=800&q=80" alt="Pagar Besi Bekasi" loading="lazy" />
+                        <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80" alt="Pagar Besi Bekasi" loading="lazy" />
                     </div>
                     <div>
                         <span className="mandiri-products__detail-eyebrow">{t.productFocus}</span>

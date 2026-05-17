@@ -23,7 +23,7 @@ export const initializeGlobalWhatsAppTracking = (): void => {
     const href = link.getAttribute('href');
     
     // Check if it's a WhatsApp link
-    if (href && (href.includes('wa.me/+6289513957752') || href.includes('wa.me/6289513957752'))) {
+    if (href && (href.includes('wa.me/+6285212078467') || href.includes('wa.me/6285212078467'))) {
       // Determine the source based on context
       let source = 'unknown';
       

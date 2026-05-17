@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async'
 import { useParams, Link, useLocation, Navigate } from 'react-router-dom'
 import { Mail, MessageCircle, Share2, Facebook, Twitter, Linkedin, Copy, Check } from 'lucide-react'
 import NaturraHeader from '../components/NaturraHeader'
-import NaturraFooter from '../components/NaturraFooter'
+import Footer from '../components/Footer'
 import Breadcrumb from '../components/Breadcrumb'
 import ServiceAreasSection from '../components/ServiceAreasSection'
 import AuthorCard from '../components/AuthorCard'
@@ -27,8 +27,6 @@ import {
 import './NaturraBlog.css'
 import './NaturraBlogPost.css'
 import '../components/DualLanguage.css'
-
-// Translations imported from ../utils/blogTranslations
 
 /**
  * Component to handle localized currency display for mentioned products
@@ -84,8 +82,6 @@ const ProductMentionPrice: React.FC<{ price: string; language: LanguageCode }> =
     </div>
   );
 };
-
-// CTA translations imported from ../utils/blogTranslations
 
 const parseParagraphs = (text: string | undefined): string[] => {
   if (!text) return []
@@ -181,7 +177,7 @@ const NaturraBlogPost: React.FC = () => {
             <p>Loading...</p>
           </div>
         </main>
-        <NaturraFooter />
+        <Footer isIndonesian={isIndonesian} language={language} />
       </div>
     )
   }
@@ -261,24 +257,22 @@ const NaturraBlogPost: React.FC = () => {
   // Generate SEO-optimized keywords based on post slug
   const generateKeywords = (slug: string, title: string) => {
     const keywordMap: { [key: string]: string } = {
-      // HIGH-INTENT KEYWORDS
-      'indonesian-cocoa-export-requirements': 'indonesian cocoa export, cocoa export requirements, export cocoa beans indonesia, premium cocoa powder supplier',
-      'sourcing-premium-cloves-indonesia': 'sourcing premium cloves, indonesian cloves supplier, cengkeh export indonesia, buy cloves bulk',
-      'cocopeat-supplier-guide-agriculture': 'cocopeat supplier indonesia, cocopeat bulk export, sustainable agriculture cocopeat, indonesian cocopeat manufacturer',
-      'global-commodity-trading-logistics': 'global commodity trading, agricultural logistics export, shipping soft commodities, indonesian export logistics'
+      'desain-kanopi-minimalis-alderon': 'kanopi minimalis alderon, model kanopi terbaru, pasang kanopi bekasi, bengkel las kanopi',
+      'tips-merawat-pagar-besi-anti-karat': 'merawat pagar besi, cat anti karat pagar, pagar minimalis tahan lama, tips pagar besi',
+      'keunggulan-konstruksi-baja-wf': 'konstruksi baja wf, baja berat vs beton, pasang baja wf bekasi, kelebihan struktur baja'
     }
-    return keywordMap[slug] || `${title}, agricultural commodities, cocoa export, indonesian cloves, cocopeat, Naturra Extal`
+    return keywordMap[slug] || `${title}, bengkel las bekasi, kanopi minimalis, pagar besi, konstruksi baja, Mandiri Steel`
   }
 
   // Generate BlogPosting Schema
   const blogSchema = generateBlogPostingSchema(post)
   const metaDescription = (post.excerpt && post.excerpt.trim().length > 0)
     ? post.excerpt
-    : (post.category === 'Export & International'
-      ? `Read: ${post.title} — Practical guide, FAQs, and product references from Naturra Extal.`
-      : `Baca: ${post.title} — Panduan praktis, FAQ, dan referensi produk dari Naturra Extal.`)
+    : (post.category === 'Tips & Inspirasi'
+      ? `Baca: ${post.title} — Panduan praktis, FAQ, dan inspirasi pengerjaan las dari Mandiri Steel.`
+      : `Read: ${post.title} — Practical guide, FAQs, and steel structure insights from Mandiri Steel.`)
 
-  // Extract FAQ from content for AI Search Optimization (Strategy 1 & 5)
+  // Extract FAQ from content for AI Search Optimization
   const extractFAQFromContent = () => {
     if (!content?.sections) return []
 
@@ -291,7 +285,6 @@ const NaturraBlogPost: React.FC = () => {
 
     // Parse FAQ list items (format: <strong>Question</strong><br/>Answer)
     return faqSection.list.map(item => {
-      // Split by <br/> or : while preserving the content
       const parts = item.split(/<br\s*\/?>|:\s*/)
 
       if (parts.length >= 2) {
@@ -308,8 +301,7 @@ const NaturraBlogPost: React.FC = () => {
   const faqSchema = faqData.length > 0 ? generateFAQSchema(faqData) : null
 
   // Check if this blog post should show Service Areas Section
-  // Currently disabled for Naturra Extal as it's a global trading company
-  const shouldShowServiceAreas = false
+  const shouldShowServiceAreas = true
 
   const localeMeta = generateLanguageSpecificMeta(isIndonesian)
   const localizedUrls = generateLocalizedUrls(location.pathname, location.search)
@@ -319,7 +311,7 @@ const NaturraBlogPost: React.FC = () => {
   return (
     <div className="blog-page blog-post-page">
       <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
-        <title>{truncateTitle(`${post.title} - Naturra Extal`)}</title>
+        <title>{truncateTitle(`${post.title} - Mandiri Steel`)}</title>
         <meta name="description" content={truncateMetaDescription(metaDescription)} />
         <meta name="keywords" content={generateKeywords(post.slug, post.title)} />
         <meta httpEquiv="content-language" content={localeMeta.lang} />
@@ -338,23 +330,10 @@ const NaturraBlogPost: React.FC = () => {
         <meta property="og:url" content={localizedUrls.canonical} />
         <meta property="og:type" content="article" />
         <meta property="article:published_time" content={post.date} />
-        <meta property="article:author" content={post.author || 'Naturra Extal'} />
+        <meta property="article:author" content={post.author || 'Mandiri Steel'} />
         <meta property="og:locale" content={localeMeta.locale} />
         <meta property="og:locale:alternate" content="id_ID" />
         <meta property="og:locale:alternate" content="en_US" />
-        {(post.author === 'Moh Rifki' || post.author === 'Angga') && (
-          <>
-            <meta name="author" content="Moh Rifki" />
-            <meta name="article:author" content="Moh Rifki" />
-            <meta name="article:author:role" content="Export Associate / International Business Development at Naturra Extal" />
-            <meta name="article:author:expertise" content="International Trade, Agricultural Commodities, Export Logistics, Cocoa Supply Chain, Global Market Development" />
-            <meta name="article:author:experience" content="Specialized in the Indonesian agricultural commodity sector, bridging the gap between local farming communities and the global market." />
-            <meta name="article:author:education" content="Asiatop / Universitas Padjadjaran" />
-            <meta name="article:author:specialization" content="International Business Development & Export Operations" />
-            <link rel="author" href="https://www.linkedin.com/in/mohamad-bebi-rifki/" />
-          </>
-        )}
-
         {post.author === 'Helmi Ramdan' && (
           <>
             <meta name="author" content="Helmi Ramdan" />
@@ -386,14 +365,14 @@ const NaturraBlogPost: React.FC = () => {
           </script>
         )}
       </Helmet>
-      <NaturraHeader />
+      <NaturraHeader isIndonesian={isIndonesian} language={language} />
 
       <section className="blog-post-hero" aria-labelledby="blog-post-title">
         <div className="blog-post-hero-image">
           <img
             src={post.image}
-            alt={`${post.title} - ${post.category} Agricultural Commodities Article by Naturra Extal`}
-            title={`${post.title} | Naturra Extal`}
+            alt={`${post.title} - ${post.category} Jasa Las Article by Mandiri Steel`}
+            title={`${post.title} | Mandiri Steel`}
             loading="eager"
             fetchPriority="high"
             width="1920"
@@ -408,7 +387,7 @@ const NaturraBlogPost: React.FC = () => {
               {post.title}
             </h1>
             <p className="blog-post-meta">
-              {post.author || 'Naturra Extal'} · {formattedDate}
+              {post.author || 'Mandiri Steel'} · {formattedDate}
             </p>
           </div>
         </div>
@@ -443,8 +422,8 @@ const NaturraBlogPost: React.FC = () => {
                         <figure className="blog-post-figure">
                           <img
                             src={section.image}
-                            alt={section.imageAlt || `${post.title} - ${section.heading || 'Agricultural Commodities Article'} - Naturra Extal`}
-                            title={section.imageAlt || `${post.title} - ${section.heading || 'agricultural commodities Guide'} by Naturra Extal`}
+                            alt={section.imageAlt || `${post.title} - ${section.heading || 'Steel Fabrication Article'} - Mandiri Steel`}
+                            title={section.imageAlt || `${post.title} - ${section.heading || 'steel fabrication Guide'} by Mandiri Steel`}
                             loading="lazy"
                             width="800"
                             height="500"
@@ -515,48 +494,25 @@ const NaturraBlogPost: React.FC = () => {
                   </React.Fragment>
                 ))}
 
-                {(post.author === 'Moh Rifki' || post.author === 'Angga') && (
-                  <div className="blog-post-author-card">
-                    <AuthorCard
-                      name="Moh Rifki"
-                      title={language === 'id' ? 'Export Associate di Asiatop / Unpad' : 'Export Associate at Asiatop / Unpad'}
-                      experience={language === 'id' ? [
-                        'Pengembangan Bisnis Internasional',
-                        'Spesialis Operasi Ekspor',
-                        'Rantai Pasok Komoditas Pertanian',
-                        'Riset & Analisis Pasar'
-                      ] : [
-                        'International Business Development',
-                        'Export Operations Specialist',
-                        'Agricultural Commodity Supply Chain',
-                        'Market Research & Analysis'
-                      ]}
-                      linkedIn="https://www.linkedin.com/in/mohamad-bebi-rifki/"
-                      language={language}
-                      backgroundImage="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&q=80&w=1200"
-                    />
-                  </div>
-                )}
-
                 {post.author === 'Helmi Ramdan' && (
                   <div className="blog-post-author-card">
                     <AuthorCard
                       name="Helmi Ramdan"
-                      title={post.category === 'Export & International'
-                        ? "Associate at Housing and Settlement Department, DKI Jakarta Province"
-                        : "Associate at Dinas Perumahan Rakyat dan Kawasan Permukiman Provinsi DKI Jakarta"}
-                      experience={post.category === 'Export & International'
+                      title={post.category === 'Tips & Inspirasi'
+                        ? "Associate at Dinas Perumahan Rakyat dan Kawasan Permukiman Provinsi DKI Jakarta"
+                        : "Associate at Housing and Settlement Department, DKI Jakarta Province"}
+                      experience={post.category === 'Tips & Inspirasi'
                         ? [
-                          'Infrastructure Engineer at Damai Putra Group (3+ years)',
-                          'Design Engineer & Architectural Drafter (5+ years)',
-                          'Alumni of Diponegoro University',
-                          'Commercial Space Design & Construction Specialist'
-                        ]
-                        : [
                           'Infrastructure Engineer at Damai Putra Group (3+ tahun)',
                           'Design Engineer & Architectural Drafter (5+ tahun)',
                           'Alumni Universitas Diponegoro',
                           'Spesialis Commercial Space Design & Construction'
+                        ]
+                        : [
+                          'Infrastructure Engineer at Damai Putra Group (3+ years)',
+                          'Design Engineer & Architectural Drafter (5+ years)',
+                          'Alumni of Diponegoro University',
+                          'Commercial Space Design & Construction Specialist'
                         ]}
                       linkedIn="https://www.linkedin.com/in/helmi-ramdan-067912118/"
                       language={language}
@@ -591,7 +547,7 @@ const NaturraBlogPost: React.FC = () => {
                 {post.customContent?.keyPoints && post.customContent.keyPoints.length > 0 && (
                   <div className="key-takeaways-box">
                     <h3 className="key-takeaways-title">
-                      🔑 Key Takeaways
+                      🔑 Poin Penting
                     </h3>
                     <ul className="key-takeaways-list">
                       {post.customContent.keyPoints.map((point: string, idx: number) => (
@@ -607,20 +563,22 @@ const NaturraBlogPost: React.FC = () => {
                 <div className="blog-post-cta-v2">
                   <div className="cta-v2-container">
                     <div className="cta-v2-content">
-                      <div className="cta-v2-badge">International Commodity Sourcing</div>
+                      <div className="cta-v2-badge">Jasa Survey & Konsultasi Gratis</div>
                       <h2 className="cta-v2-title">
-                        {CTA_TRANSLATIONS[language]?.title || CTA_TRANSLATIONS.en.title}
+                        {language === 'id' ? 'Siap Mewujudkan Kanopi & Pagar Impian Anda?' : 'Ready to Build Your Dream Canopy & Gate?'}
                       </h2>
                       <p className="cta-v2-subtitle">
-                        {CTA_TRANSLATIONS[language]?.subtitle || CTA_TRANSLATIONS.en.subtitle}
+                        {language === 'id' 
+                          ? 'Hubungi kami sekarang untuk konsultasi desain kustom dan survey lokasi gratis tanpa biaya di area Bekasi dan sekitarnya.' 
+                          : 'Contact us now for a custom design consultation and free on-site survey in Bekasi and Jabodetabek areas.'}
                       </p>
                     </div>
                     <div className="cta-v2-actions">
                       <Link to="/products" className="btn-v2-primary">
-                        {CTA_TRANSLATIONS[language]?.viewAllProducts || CTA_TRANSLATIONS.en.viewAllProducts}
+                        {language === 'id' ? 'Lihat Semua Layanan' : 'Browse All Services'}
                       </Link>
                       <a
-                        href="https://wa.me/628951395752"
+                        href="https://wa.me/6285212078467"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="btn-v2-secondary"
@@ -628,7 +586,7 @@ const NaturraBlogPost: React.FC = () => {
                           blogPost: post?.title || '',
                         })}
                       >
-                        {CTA_TRANSLATIONS[language]?.contactUs || CTA_TRANSLATIONS.en.contactUs}
+                        {language === 'id' ? 'Hubungi WhatsApp' : 'Contact WhatsApp'}
                       </a>
                     </div>
                   </div>
@@ -639,7 +597,7 @@ const NaturraBlogPost: React.FC = () => {
               {otherArticles.length > 0 && (
                 <aside className="blog-post-sidebar" aria-labelledby="blog-post-sidebar-title">
                   <div className="blog-post-sidebar-card card">
-                    <h2 id="blog-post-sidebar-title" className="blog-post-sidebar-title">Other Articles</h2>
+                    <h2 id="blog-post-sidebar-title" className="blog-post-sidebar-title">Artikel Lainnya</h2>
                     <ul className="blog-post-sidebar-list">
                       {otherArticles.map((article: BlogPost) => (
                         <li key={article.id}>
@@ -657,15 +615,19 @@ const NaturraBlogPost: React.FC = () => {
                     <div className="sidebar-feature-icon">
                       <Mail size={20} />
                     </div>
-                    <h3 className="sidebar-feature-title">{sidebarFeatures.newsletter.title}</h3>
-                    <p className="sidebar-feature-description">{sidebarFeatures.newsletter.description}</p>
+                    <h3 className="sidebar-feature-title">{language === 'id' ? 'Berlangganan Tips' : 'Subscribe to Tips'}</h3>
+                    <p className="sidebar-feature-description">
+                      {language === 'id' 
+                        ? 'Dapatkan tips perawatan besi, inspirasi desain kanopi & pagar terbaru langsung ke email Anda.' 
+                        : 'Get iron maintenance tips, canopy & fence design inspiration straight to your inbox.'}
+                    </p>
                     {!newsletterSubmitted ? (
                       <form onSubmit={handleNewsletterSubmit} className="sidebar-newsletter-form">
                         <input
                           type="email"
                           value={newsletterEmail}
                           onChange={(e) => setNewsletterEmail(e.target.value)}
-                          placeholder={sidebarFeatures.newsletter.placeholder}
+                          placeholder="Email Anda"
                           required
                           className="sidebar-newsletter-input"
                           disabled={newsletterLoading}
@@ -675,12 +637,12 @@ const NaturraBlogPost: React.FC = () => {
                           className="sidebar-newsletter-btn"
                           disabled={newsletterLoading || !newsletterEmail.trim()}
                         >
-                          {newsletterLoading ? '...' : sidebarFeatures.newsletter.button}
+                          {newsletterLoading ? '...' : (language === 'id' ? 'Berlangganan' : 'Subscribe')}
                         </button>
                       </form>
                     ) : (
                       <div className="sidebar-newsletter-success">
-                        <p>{sidebarFeatures.newsletter.success}</p>
+                        <p>{language === 'id' ? 'Terima kasih telah berlangganan!' : 'Thanks for subscribing!'}</p>
                       </div>
                     )}
                   </div>
@@ -690,8 +652,12 @@ const NaturraBlogPost: React.FC = () => {
                     <div className="sidebar-feature-icon">
                       <Share2 size={20} />
                     </div>
-                    <h3 className="sidebar-feature-title">{sidebarFeatures.share.title}</h3>
-                    <p className="sidebar-feature-description">{sidebarFeatures.share.description}</p>
+                    <h3 className="sidebar-feature-title">{language === 'id' ? 'Bagikan Artikel' : 'Share Article'}</h3>
+                    <p className="sidebar-feature-description">
+                      {language === 'id' 
+                        ? 'Bagikan artikel bermanfaat ini kepada teman atau keluarga yang sedang merenovasi rumah.' 
+                        : 'Share this helpful article with friends or family who are planning a home renovation.'}
+                    </p>
                     <div className="share-buttons-grid">
                       <a
                         href={shareUrls.facebook}
@@ -750,7 +716,7 @@ const NaturraBlogPost: React.FC = () => {
                         className={`share-button share-copy ${linkCopied ? 'copied' : ''}`}
                       >
                         {linkCopied ? <Check size={18} /> : <Copy size={18} />}
-                        <span>{linkCopied ? sidebarFeatures.share.copied : 'Copy Link'}</span>
+                        <span>{linkCopied ? 'Tersalin' : 'Salin Tautan'}</span>
                       </button>
                     </div>
                   </div>
@@ -760,13 +726,17 @@ const NaturraBlogPost: React.FC = () => {
                     <div className="sidebar-feature-icon">
                       <MessageCircle size={20} />
                     </div>
-                    <h3 className="sidebar-feature-title">{sidebarFeatures.consultation.title}</h3>
-                    <p className="sidebar-feature-description">{sidebarFeatures.consultation.description}</p>
+                    <h3 className="sidebar-feature-title">{language === 'id' ? 'Konsultasi Gratis Pak Maman' : 'Free Consultation with Pak Maman'}</h3>
+                    <p className="sidebar-feature-description">
+                      {language === 'id' 
+                        ? 'Hubungi Pak Maman via WhatsApp untuk berkonsultasi mengenai kebutuhan las rumah Anda.' 
+                        : 'Contact Pak Maman via WhatsApp to consult about your home steel fabrication needs.'}
+                    </p>
                     <a
-                      href={`https://wa.me/+6289513957752?text=${encodeURIComponent(
-                        post?.category === 'Export & International'
-                          ? `Hello Naturra Extal,\n\nI just read your article: "${post?.title}". I'm interested in Agricultural Commodities for my project. Can I get more information and consultation?\n\nArticle: ${window.location.href}\n\nThank you!`
-                          : `Halo Naturra Extal,\n\nSaya baru membaca artikel Anda: "${post?.title}". Saya tertarik dengan agricultural commodities untuk project saya. Bisakah saya mendapatkan informasi lebih lanjut dan konsultasi?\n\nArtikel: ${window.location.href}\n\nTerima kasih!`
+                      href={`https://wa.me/6285212078467?text=${encodeURIComponent(
+                        language === 'id'
+                          ? `Halo Bengkel Las Mandiri,\n\nSaya baru membaca artikel Anda: "${post?.title}". Saya ingin berkonsultasi mengenai pemesanan kanopi/pagar rumah.\n\nArtikel: ${window.location.href}\n\nTerima kasih!`
+                          : `Hello Bengkel Las Mandiri,\n\nI just read your article: "${post?.title}". I would like to consult about ordering a canopy/gate for my home.\n\nArticle: ${window.location.href}\n\nThank you!`
                       )}`}
                       className="sidebar-consultation-btn"
                       onClick={() => trackWhatsAppClick('blog_post_consultation_sidebar', {
@@ -778,7 +748,7 @@ const NaturraBlogPost: React.FC = () => {
                       rel="noopener noreferrer"
                     >
                       <MessageCircle size={16} />
-                      {sidebarFeatures.consultation.button}
+                      {language === 'id' ? 'Hubungi WhatsApp' : 'Contact WhatsApp'}
                     </a>
                   </div>
                 </aside>
@@ -788,12 +758,11 @@ const NaturraBlogPost: React.FC = () => {
         </section>
       </main>
 
-      {shouldShowServiceAreas && <ServiceAreasSection isIndonesian={isIndonesian} />}
+      {shouldShowServiceAreas && <ServiceAreasSection isIndonesian={isIndonesian} language={language} />}
 
-      <NaturraFooter />
+      <Footer isIndonesian={isIndonesian} language={language} />
     </div >
   )
 }
 
 export default NaturraBlogPost
-

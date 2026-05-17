@@ -10,20 +10,11 @@ interface FAQSectionProps {
 }
 
 const FAQSection: React.FC<FAQSectionProps> = ({ isIndonesian, language }) => {
-  // Get top FAQs from multiple categories
+  // Get top FAQs from all categories dynamically
   const topFAQs: FAQItem[] = [
-    // From commodity-export-bekasi
-    FAQ_DATA[0]?.faqs[0], // Komoditas apa saja
-    FAQ_DATA[0]?.faqs[1], // Standar kualitas kakao
-    FAQ_DATA[0]?.faqs[3], // Keunggulan cengkeh
-    FAQ_DATA[0]?.faqs[4], // Cocopeat
-    FAQ_DATA[0]?.faqs[5], // Lead time
-    FAQ_DATA[0]?.faqs[6], // Dokumen ekspor
-
-    // From cocoa-powder-export-guide
-    FAQ_DATA[1]?.faqs[0], // Natural vs Alkalized
-    FAQ_DATA[1]?.faqs[1], // Kenapa kakao Indonesia
-  ].filter((faq): faq is FAQItem => faq !== undefined).slice(0, 10)
+    ...(FAQ_DATA[0]?.faqs || []),
+    ...(FAQ_DATA[1]?.faqs || [])
+  ].slice(0, 10)
 
   const translations = {
     title: 'FAQ Bengkel Las Bekasi',

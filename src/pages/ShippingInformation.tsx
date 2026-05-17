@@ -656,13 +656,13 @@ const ShippingInformation: React.FC = () => {
                 <h3 className="shipping-contact-label">{t.contactSection.phoneLabel}</h3>
                 <p className="shipping-contact-value">
                   <a
-                    href="https://wa.me/+6289513957752"
+                    href="https://wa.me/6285212078467"
                     style={{ color: '#8B7355', textDecoration: 'underline' }}
                     onClick={() => trackWhatsAppClick('shipping_info_contact')}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    +6289513957752
+                    +62 852-1207-8467
                   </a>
                 </p>
               </div>

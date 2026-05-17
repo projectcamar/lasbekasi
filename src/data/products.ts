@@ -1,10 +1,10 @@
-// Product image URLs (Unsplash – Welding/Construction placeholders)
-const kanopiImage = 'https://images.unsplash.com/photo-1628744448839-497746416629?w=800&q=80'
-const pagarImage = 'https://images.unsplash.com/photo-1505322033502-1f4385692e6a?w=800&q=80'
-const teralisImage = 'https://images.unsplash.com/photo-1527202814041-944f33190886?w=800&q=80'
-const railingImage = 'https://images.unsplash.com/photo-1523315535310-85f0c39f75ec?w=800&q=80'
-const konstruksiImage = 'https://images.unsplash.com/photo-1513828583688-c52646db42da?w=800&q=80'
-const stainlessImage = 'https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?w=800&q=80'
+// Product image URLs (Unsplash – High-quality modern steel fabrication & welding images)
+const kanopiImage = 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80'
+const pagarImage = 'https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=800&q=80'
+const teralisImage = 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80'
+const railingImage = 'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80'
+const konstruksiImage = 'https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80'
+const stainlessImage = 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80'
 
 export interface ProductVariant {
   name: string

@@ -142,7 +142,7 @@ const NaturraHome: React.FC = () => {
                 <div className="naturra-home__heritage-inner">
                     <div className="naturra-home__heritage-image">
                         <img
-                            src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                            src="https://images.unsplash.com/photo-1534224039826-c7a0dea0e66a?auto=format&fit=crop&q=80&w=800"
                             alt="Workshop Bengkel Las Mandiri di Bekasi"
                             loading="lazy"
                         />
@@ -201,7 +201,7 @@ const NaturraHome: React.FC = () => {
                         <Link to="/products" className="naturra-home__product-card">
                             <img
                                 className="naturra-home__product-card-image"
-                                src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
                                 alt="Kanopi Minimalis Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
                             />
@@ -222,7 +222,7 @@ const NaturraHome: React.FC = () => {
                         <Link to="/products" className="naturra-home__product-card">
                             <img
                                 className="naturra-home__product-card-image"
-                                src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                                src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?auto=format&fit=crop&w=800&q=80"
                                 alt="Pagar Besi Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
                             />
@@ -243,7 +243,7 @@ const NaturraHome: React.FC = () => {
                         <Link to="/products" className="naturra-home__product-card">
                             <img
                                 className="naturra-home__product-card-image"
-                                src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
                                 alt="Konstruksi Baja Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
                             />
@@ -268,7 +268,7 @@ const NaturraHome: React.FC = () => {
                 <div className="naturra-home__sustainability-inner">
                     <div className="naturra-home__sustainability-image">
                         <img
-                            src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+                            src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800"
                             alt="Keunggulan Bengkel Las Mandiri Bekasi"
                             loading="lazy"
                         />

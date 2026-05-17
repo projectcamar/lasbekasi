@@ -766,7 +766,7 @@ const generateCTAHTML = (post, isIndonesian) => {
       </div>
       <div class="blog-post-cta-actions">
         <a class="btn-primary" href="${BASE_URL}/products">${isExport ? 'View All Services' : 'Lihat Semua Layanan'}</a>
-        <a class="btn-secondary" href="https://wa.me/6289513957752?text=Halo%20Mandiri%20Steel%2C%20saya%20tertarik%20dengan%20layanan%20las%20besi" target="_blank" rel="noopener noreferrer">${isExport ? 'WhatsApp Consultation' : 'Konsultasi via WhatsApp'}</a>
+        <a class="btn-secondary" href="https://wa.me/6285212078467?text=Halo%20Mandiri%20Steel%2C%20saya%20tertarik%20dengan%20layanan%20las%20besi" target="_blank" rel="noopener noreferrer">${isExport ? 'WhatsApp Consultation' : 'Konsultasi via WhatsApp'}</a>
       </div>
     </div>
   `
@@ -845,7 +845,7 @@ const generateServiceAreasHTML = (isIndonesian) => `
         <div class="cta-content">
           <h3>${isIndonesian ? 'Ingin Survei Lokasi Gratis?' : 'Want a Free On-site Survey?'}</h3>
           <p>${isIndonesian ? 'Hubungi kami untuk menjadwalkan kunjungan tim pengukur dan desain gratis langsung ke rumah atau lokasi proyek Anda.' : 'Contact us to schedule a free measurement and design consultation directly at your home.'}</p>
-          <a class="cta-button" href="https://wa.me/6289513957752?text=Halo%20Mandiri%20Steel%2C%20saya%20tertarik%20dengan%20layanan%20las%20besi" target="_blank" rel="noopener noreferrer">
+          <a class="cta-button" href="https://wa.me/6285212078467?text=Halo%20Mandiri%20Steel%2C%20saya%20tertarik%20dengan%20layanan%20las%20besi" target="_blank" rel="noopener noreferrer">
             <span class="whatsapp-icon">WA</span>
             ${isIndonesian ? 'Jadwalkan Survei Gratis' : 'Schedule Free Survey'}
           </a>
@@ -868,7 +868,7 @@ const generateFooterHTML = (isIndonesian) => `
           <div class="footer-contact-info">
             <h4>${isIndonesian ? 'Hubungi Kami' : 'Contact Us'}</h4>
             <p><a href="mailto:info@lasbekasi.com">info@lasbekasi.com</a></p>
-            <p><a href="https://wa.me/6289513957752" target="_blank" rel="noopener noreferrer">+62 895-1395-7752</a></p>
+            <p><a href="https://wa.me/6285212078467" target="_blank" rel="noopener noreferrer">+62 852-1207-8467</a></p>
         </div>
         </div>
         <div class="footer-column">
@@ -995,7 +995,7 @@ const createFallbackContent = (post) => {
         heading: 'Hubungi Tim Mandiri Steel',
         paragraphs: [
           'Hubungi kami hari ini untuk mendapatkan penawaran harga terbaik dan survei lokasi gratis:',
-          '<strong>WhatsApp:</strong> +62 895-1395-7752 (Respon Cepat & Ramah)',
+          '<strong>WhatsApp:</strong> +62 852-1207-8467 (Respon Cepat & Ramah)',
           '<strong>Email:</strong> info@lasbekasi.com',
           '<strong>Workshop Utama:</strong> Setu, Bekasi, Jawa Barat, Indonesia',
           'Kami siap mewujudkan pengerjaan las besi baja idaman rumah Anda dengan kualitas premium bergaransi.'

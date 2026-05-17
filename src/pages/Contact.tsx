@@ -3,8 +3,8 @@ import { Helmet } from 'react-helmet-async'
 import { useLocation } from 'react-router-dom'
 import Footer from '../components/Footer'
 import NaturraHeader from '../components/NaturraHeader'
-// Premium Agricultural Commodity Images
-const heroImage = 'https://images.unsplash.com/photo-1586528116311-ad866efd92bf?w=1920&q=80'
+
+const heroImage = 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1920&q=80'
 import { generateLanguageSpecificMeta, generateLocalizedUrls } from '../utils/seo'
 import { trackWhatsAppClick } from '../utils/whatsappTracking'
 import { getCurrentLanguage, getStoredLanguage, detectLanguageFromIP, type LanguageCode } from '../utils/languageManager'
@@ -48,15 +48,15 @@ type ContactTranslation = {
 const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
   en: {
     meta: {
-      title: 'Contact Agricultural Export Hub Bekasi: WhatsApp, Location, Operating Hours - Naturra Extal',
+      title: 'Contact Bengkel Las Mandiri Bekasi: WhatsApp, Location, Operating Hours - Mandiri Steel',
       description:
-        'How to contact Naturra Extal? WhatsApp: +6289513957752 (1-3 hour response), Email: naturraextal@gmail.com, Export hub address: Jl. Raya Setu Cibitung Bekasi (10 minutes from Cibitung toll gate, 25 minutes from East Jakarta). Operating hours: Monday-Saturday 08.00-17.00 WIB. Service area: Global export from Indonesia. Free Agricultural Commodities consultation via WhatsApp.',
+        'How to contact Bengkel Las Mandiri? WhatsApp: +6285212078467, Email: info@lasbekasi.com, Workshop address: Jl. Raya Setu Cibitung Bekasi. Operating hours: Monday-Saturday 08.00-17.00 WIB. Service area: Bekasi, Jakarta, Cikarang & surrounding areas. Free welding & steel fabrication consultation via WhatsApp.',
       keywords:
-        'contact Naturra Extal, whatsapp agricultural commodities, export hub bekasi contact, Naturra Extal location, workshop address bekasi, operating hours agricultural export, free commodity consultation'
+        'contact Bengkel Las Mandiri, whatsapp welding service, bengkel las bekasi contact, Mandiri Steel location, workshop address bekasi, operating hours welding shop, free canopy fence consultation'
     },
     heroTitle: 'Contact Us',
     introTitle:
-      "We're happy to discuss your commodity supply needs or answer any questions. Get in touch with our export team below.",
+      "We're happy to discuss your welding and steel fabrication needs or answer any questions. Get in touch with our team below.",
     form: {
       title: 'Enquiry Form',
       subtitle:
@@ -75,7 +75,7 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
       workshopLabel: 'Workshop Bekasi:'
     },
     whatsapp: {
-      greeting: 'Hello Naturra Extal,',
+      greeting: 'Hello Bengkel Las Mandiri,',
       nameLabel: 'Name',
       emailLabel: 'Email',
       phoneLabel: 'Phone',
@@ -86,15 +86,15 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
   },
   id: {
     meta: {
-      title: 'Hubungi Hub Ekspor Pertanian Bekasi: WhatsApp, Lokasi, Jam Operasional - Naturra Extal',
+      title: 'Hubungi Bengkel Las Mandiri Bekasi: WhatsApp, Lokasi, Jam Operasional - Mandiri Steel',
       description:
-        'Bagaimana cara menghubungi Naturra Extal? WhatsApp: +6289513957752 (response 1-3 jam), Email: naturraextal@gmail.com, Alamat hub ekspor: Jl. Raya Setu Cibitung Bekasi (10 menit dari tol Cibitung, 25 menit dari Jakarta Timur). Jam buka: Senin-Sabtu 08.00-17.00 WIB. Area melayani: Ekspor Global dari Indonesia. Konsultasi komoditas pertanian gratis via WhatsApp.',
+        'Bagaimana cara menghubungi Bengkel Las Mandiri? WhatsApp: +6285212078467 (Bapak Maman Toha), Email: info@lasbekasi.com, Alamat workshop: Jl. Raya Setu Cibitung Bekasi. Jam buka: Senin-Sabtu 08.00-17.00 WIB. Melayani jasa las kanopi, pagar, teralis, railing & baja WF. Konsultasi gratis via WhatsApp.',
       keywords:
-        'hubungi Naturra Extal, whatsapp komoditas pertanian, nomor hub ekspor bekasi, lokasi hub ekspor bekasi, alamat Naturra Extal bekasi, jam buka ekspor pertanian bekasi, cara menghubungi hub ekspor, konsultasi komoditas pertanian gratis, kontak logistik pertanian bekasi, email Naturra Extal, survey kualitas komoditas bekasi'
+        'hubungi bengkel las mandiri, whatsapp bengkel las, nomor bengkel las bekasi, lokasi bengkel las bekasi, alamat bengkel las bekasi, jam buka bengkel las bekasi, cara menghubungi bengkel las, konsultasi las gratis'
     },
     heroTitle: 'Hubungi Kami',
     introTitle:
-      'Kami senang mendiskusikan kebutuhan pasokan komoditas global Anda atau menjawab pertanyaan. Hubungi tim ekspor kami di bawah ini.',
+      'Kami senang mendiskusikan kebutuhan las dan konstruksi baja Anda atau menjawab pertanyaan. Hubungi tim kami di bawah ini.',
     form: {
       title: 'Formulir Pertanyaan',
       subtitle:
@@ -113,7 +113,7 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
       workshopLabel: 'Workshop Bekasi:'
     },
     whatsapp: {
-      greeting: 'Halo Naturra Extal,',
+      greeting: 'Halo Bengkel Las Mandiri,',
       nameLabel: 'Nama',
       emailLabel: 'Email',
       phoneLabel: 'Telepon',
@@ -124,15 +124,15 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
   },
   ar: {
     meta: {
-      title: 'تواصل مع ورشة الأثاث في بيكاسي: واتساب، الموقع، ساعات العمل - Naturra Extal',
+      title: 'اتصل بورشة عمل مانديري ستيل بيكاسي: واتساب، الموقع، ساعات العمل - مانديري ستيل',
       description:
-        'كيف تتواصل مع Naturra Extal؟ واتساب: +6289513957752 (استجابة خلال 1-3 ساعات)، البريد الإلكتروني: naturraextal@gmail.com، عنوان الورشة: Jl. Raya Setu Cibitung Bekasi (10 دقائق من مخرج تول تشيبيتونغ، 25 دقيقة من شرق جاكرتا). ساعات العمل: الاثنين إلى السبت 08:00-17:00 بتوقيت جاكرتا. نطاق الخدمة: زيارة مجانية لبيكاسي، شرق جاكرتا، تشيكارانغ. استشارة مجانية للأثاث الصناعي عبر واتساب.',
+        'كيف تتواصل مع ورشة عمل مانديري ستيل بيكاسي؟ واتساب: +6285212078467، البريد الإلكتروني: info@lasbekasi.com، عنوان الورشة: Jl. Raya Setu Cibitung Bekasi. ساعات العمل: الاثنين إلى السبت 08:00-17:00 بتوقيت جاكرتا. استشارة مجانية لأعمال اللحام والحديد عبر واتساب.',
       keywords:
-        'اتصال Naturra Extal، ورشة أثاث بيكاسي، واتساب أثاث بيكاسي، عنوان ورشة Naturra Extal، ساعات عمل الأثاث في بيكاسي، استشارة أثاث صناعي مجانية'
+        'اتصال ورشة عمل مانديري ستيل، ورشة لحام بيكاسي، واتساب ورشة لحام بيكاسي، عنوان ورشة مانديري ستيل، ساعات عمل اللحام في بيكاسي، استشارة مجانية'
     },
     heroTitle: 'اتصل بنا',
     introTitle:
-      'يسعدنا مناقشة احتياجات الأثاث المخصص لديك أو الإجابة عن أي أسئلة. تواصل مع فريق ورشة اللحام الخاص بنا أدناه.',
+      'يسعدنا مناقشة احتياجات اللحام والحديد المخصص لديك أو الإجابة عن أي أسئلة. تواصل مع فريق ورشة اللحام الخاص بنا أدناه.',
     form: {
       title: 'نموذج الاستفسار',
       subtitle:
@@ -151,7 +151,7 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
       workshopLabel: 'ورشة بيكاسي:'
     },
     whatsapp: {
-      greeting: 'مرحباً Naturra Extal،',
+      greeting: 'مرحباً Bengkel Las Mandiri،',
       nameLabel: 'الاسم',
       emailLabel: 'البريد الإلكتروني',
       phoneLabel: 'الهاتف',
@@ -162,14 +162,14 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
   },
   zh: {
     meta: {
-      title: '联系贝卡西家具工坊：WhatsApp、地址、营业时间 - Naturra Extal',
+      title: '联系贝卡西 Mandiri Steel 焊接工坊：WhatsApp、地址、营业时间 - Mandiri Steel',
       description:
-        '如何联系 Naturra Extal？WhatsApp：+6289513957752（1-3 小时内回复），邮箱：naturraextal@gmail.com，工坊地址：Jl. Raya Setu Cibitung Bekasi（距 Cibitung 收费站 10 分钟，距雅加达东区 25 分钟）。营业时间：周一至周六 08:00-17:00 WIB。服务范围：贝卡西、雅加达东区、芝卡朗提供免费勘察。通过 WhatsApp 免费咨询工业风家具。',
+        '如何联系 Mandiri Steel？WhatsApp：+6285212078467，邮箱：info@lasbekasi.com，工坊地址：Jl. Raya Setu Cibitung Bekasi。营业时间：周一至周六 08:00-17:00 WIB。通过 WhatsApp 免费咨询遮阳篷、铁门与钢结构设计。',
       keywords:
-        '联系 Naturra Extal, 贝卡西家具 WhatsApp, 家具工坊联系方式, Naturra Extal 地址, 贝卡西家具营业时间, 免费工业家具咨询'
+        '联系 Mandiri Steel, 贝卡西焊接工坊 WhatsApp, 焊接工坊联系方式, Mandiri Steel 地址, 营业时间, 免费焊接咨询'
     },
     heroTitle: '联系我们',
-    introTitle: '我们乐意与您讨论定制家具需求或解答任何疑问。欢迎联系下方的工坊团队。',
+    introTitle: '我们乐意与您讨论定制焊接与钢结构需求或解答任何疑问。欢迎联系下方的工坊团队。',
     form: {
       title: '咨询表单',
       subtitle: '填写下方表单即可与我们的客服团队联系，我们会在24小时内回复。',
@@ -187,7 +187,7 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
       workshopLabel: '贝卡西工坊：'
     },
     whatsapp: {
-      greeting: '您好 Naturra Extal，',
+      greeting: '您好 Bengkel Las Mandiri，',
       nameLabel: '姓名',
       emailLabel: '邮箱',
       phoneLabel: '电话',
@@ -198,15 +198,15 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
   },
   ja: {
     meta: {
-      title: 'ベカシ家具工房へのお問い合わせ：WhatsApp・所在地・営業時間 - Naturra Extal',
+      title: 'ブカシ Mandiri Steel 溶接工房へのお問い合わせ：WhatsApp・所在地・営業時間 - Mandiri Steel',
       description:
-        'Naturra Extal への連絡方法: WhatsApp: +6289513957752（1〜3 時間以内に返信）、メール: naturraextal@gmail.com、工房住所: Jl. Raya Setu Cibitung Bekasi（チビトゥン料金所から 10 分、東ジャカルタから 25 分）。営業時間: 月曜日〜土曜日 08:00-17:00 WIB。対応エリア: ベカシ、東ジャカルタ、チカランで無料現地調査。WhatsApp で工業家具の無料相談が可能です。',
+        'Mandiri Steel への連絡方法: WhatsApp: +6285212078467、メール: info@lasbekasi.com、工房住所: Jl. Raya Setu Cibitung Bekasi。営業時間: 月曜日〜土曜日 08:00-17:00 WIB。WhatsApp でキャノピー、フェンス、鉄骨構造の無料相談が可能です。',
       keywords:
-        'Naturra Extal 問い合わせ, ベカシ 家具 WhatsApp, 家具工房 連絡先, Naturra Extal 住所, 家具 営業時間, 工業系家具 無料相談'
+        'Mandiri Steel 問い合わせ, ブカシ 溶接 WhatsApp, 溶接工房 連絡先, Mandiri Steel 住所, 営業時間, 溶接 無料相談'
     },
     heroTitle: 'お問い合わせ',
     introTitle:
-      'カスタム家具に関するご相談やご質問があれば、お気軽に下記の工房チームまでご連絡ください。',
+      'カスタム溶接や鉄骨構造に関するご相談やご質問があれば、お気軽に下記の工房チームまでご連絡ください。',
     form: {
       title: 'お問い合わせフォーム',
       subtitle:
@@ -225,7 +225,7 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
       workshopLabel: 'ベカシ工房：'
     },
     whatsapp: {
-      greeting: 'Naturra Extal 様、',
+      greeting: 'Bengkel Las Mandiri 様、',
       nameLabel: 'お名前',
       emailLabel: 'メール',
       phoneLabel: '電話',
@@ -236,15 +236,15 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
   },
   es: {
     meta: {
-      title: 'Contactar Taller de Muebles en Bekasi: WhatsApp, Ubicación y Horario - Naturra Extal',
+      title: 'Contactar Taller de Soldadura en Bekasi: WhatsApp, Ubicación y Horario - Mandiri Steel',
       description:
-        '¿Cómo contactar a Naturra Extal? WhatsApp: +6289513957752 (respuesta en 1-3 horas), correo: naturraextal@gmail.com, dirección del taller: Jl. Raya Setu Cibitung Bekasi (a 10 minutos del peaje de Cibitung, 25 minutos del Este de Yakarta). Horario: lunes a sábado 08:00-17:00 WIB. Área de servicio: encuesta gratuita para Bekasi, Yakarta Este y Cikarang. Consulta gratuita sobre muebles industriales por WhatsApp.',
+        '¿Cómo contactar a Bengkel Las Mandiri? WhatsApp: +6285212078467, correo: info@lasbekasi.com, dirección del taller: Jl. Raya Setu Cibitung Bekasi. Horario: lunes a sábado 08:00-17:00 WIB. Consulta gratuita sobre marquesinas, verjas y estructuras metálicas por WhatsApp.',
       keywords:
-        'contactar Naturra Extal, WhatsApp muebles Bekasi, taller muebles Bekasi, dirección Naturra Extal, horario taller Bekasi, consulta muebles industriales gratis'
+        'contactar Mandiri Steel, WhatsApp soldadura Bekasi, taller soldadura Bekasi, dirección Mandiri Steel, horario taller Bekasi, consulta soldadura gratis'
     },
     heroTitle: 'Contáctenos',
     introTitle:
-      'Estamos encantados de conversar sobre tus necesidades de mobiliario a medida o responder cualquier pregunta. Ponte en contacto con nuestro equipo de taller a continuación.',
+      'Estamos encantados de conversar sobre tus necesidades de soldadura a medida o responder cualquier pregunta. Ponte en contacto con nuestro equipo de taller a continuación.',
     form: {
       title: 'Formulario de consulta',
       subtitle:
@@ -263,7 +263,7 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
       workshopLabel: 'Taller de Bekasi:'
     },
     whatsapp: {
-      greeting: 'Hola Naturra Extal,',
+      greeting: 'Hola Bengkel Las Mandiri,',
       nameLabel: 'Nombre',
       emailLabel: 'Correo electrónico',
       phoneLabel: 'Teléfono',
@@ -274,15 +274,15 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
   },
   fr: {
     meta: {
-      title: 'Contact Atelier de Mobilier à Bekasi : WhatsApp, Adresse, Horaires - Naturra Extal',
+      title: 'Contact Atelier de Soudure à Bekasi : WhatsApp, Adresse, Horaires - Mandiri Steel',
       description:
-        "Comment contacter Naturra Extal ? WhatsApp : +6289513957752 (réponse en 1 à 3 heures), email : naturraextal@gmail.com, adresse de l'atelier : Jl. Raya Setu Cibitung Bekasi (10 minutes du péage de Cibitung, 25 minutes de Jakarta Est). Horaires : lundi-samedi 08h00-17h00 WIB. Zone desservie : visite gratuite pour Bekasi, Jakarta Est, Cikarang. Consultation gratuite sur les meubles industriels via WhatsApp.",
+        "Comment contacter Bengkel Las Mandiri ? WhatsApp : +6285212078467, email : info@lasbekasi.com, adresse de l'atelier : Jl. Raya Setu Cibitung Bekasi. Horaires : lundi-samedi 08h00-17h00 WIB. Consultation gratuite sur les travaux de soudure, portails et verrières via WhatsApp.",
       keywords:
-        'contacter Naturra Extal, WhatsApp mobilier Bekasi, atelier mobilier Bekasi, adresse Naturra Extal, horaires atelier Bekasi, consultation mobilier industriel gratuite'
+        'contacter Mandiri Steel, WhatsApp soudure Bekasi, atelier soudure Bekasi, adresse Mandiri Steel, horaires atelier Bekasi, consultation soudure gratuite'
     },
     heroTitle: 'Contactez-nous',
     introTitle:
-      'Nous sommes ravis de discuter de vos besoins en mobilier sur mesure ou de répondre à vos questions. Contactez notre équipe d’atelier ci-dessous.',
+      'Nous sommes ravis de discuter de vos besoins en soudure sur mesure ou de répondre à vos questions. Contactez notre équipe d’atelier ci-dessous.',
     form: {
       title: 'Formulaire de demande',
       subtitle:
@@ -301,7 +301,7 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
       workshopLabel: 'Atelier de Bekasi :'
     },
     whatsapp: {
-      greeting: 'Bonjour Naturra Extal,',
+      greeting: 'Bonjour Bengkel Las Mandiri,',
       nameLabel: 'Nom',
       emailLabel: 'Email',
       phoneLabel: 'Téléphone',
@@ -312,14 +312,14 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
   },
   ko: {
     meta: {
-      title: '베카시 가구 공방 문의: WhatsApp, 위치, 운영 시간 - Naturra Extal',
+      title: '베카시 용접 공방 문의: WhatsApp, 위치, 운영 시간 - Mandiri Steel',
       description:
-        'Naturra Extal에 연락하는 방법은? WhatsApp: +6289513957752 (1-3시간 내 응답), 이메일: naturraextal@gmail.com, 공방 주소: Jl. Raya Setu Cibitung Bekasi (치비툰 톨게이트에서 10분, 동자카르타에서 25분). 운영 시간: 월~토 08:00-17:00 WIB. 서비스 지역: 베카시, 동자카르타, 치카랑 무료 방문. WhatsApp으로 산업용 가구 무료 상담.',
+        'Bengkel Las Mandiri에 연락하는 방법은? WhatsApp: +6285212078467, 이메일: info@lasbekasi.com, 공방 주소: Jl. Raya Setu Cibitung Bekasi. 운영 시간: 월~토 08:00-17:00 WIB. WhatsApp으로 캐노피, 대문, H빔 강구조물 등 무료 상담.',
       keywords:
-        'Naturra Extal 문의, 베카시 가구 WhatsApp, 가구 공방 연락처, Naturra Extal 주소, 베카시 가구 운영 시간, 산업용 가구 무료 상담'
+        'Mandiri Steel 문의, 베카시 용접 WhatsApp, 용접 공방 연락처, Mandiri Steel 주소, 운영 시간, 무료 용접 상담'
     },
     heroTitle: '문의하기',
-    introTitle: '맞춤 가구가 필요하시거나 궁금한 점이 있다면 아래 작업실 팀에 연락해주세요.',
+    introTitle: '맞춤 용접이나 철골 구조물이 필요하시거나 궁금한 점이 있다면 아래 작업실 팀에 연락해주세요.',
     form: {
       title: '문의 양식',
       subtitle:
@@ -338,7 +338,7 @@ const CONTACT_TRANSLATIONS: Record<LanguageCode, ContactTranslation> = {
       workshopLabel: '베카시 공방:'
     },
     whatsapp: {
-      greeting: '안녕하세요 Naturra Extal,',
+      greeting: '안녕하세요 Bengkel Las Mandiri,',
       nameLabel: '이름',
       emailLabel: '이메일',
       phoneLabel: '전화번호',
@@ -420,7 +420,7 @@ const Contact: React.FC = () => {
       t.whatsapp.closing
     ]
 
-    const whatsappUrl = `https://wa.me/+6289513957752?text=${encodeURIComponent(messageLines.join('\n'))}`
+    const whatsappUrl = `https://wa.me/6285212078467?text=${encodeURIComponent(messageLines.join('\n'))}`
     window.open(whatsappUrl, '_blank')
 
     setFormData({
@@ -467,8 +467,8 @@ const Contact: React.FC = () => {
         <div className="contact-hero-image">
           <img
             src={heroImage}
-            alt="Contact Naturra Extal - Hubungi Hub Ekspor agricultural commodities Bekasi - WhatsApp +6289513957752"
-            title="Contact Naturra Extal - Get in Touch with Agricultural Commodities Export Team"
+            alt="Contact Bengkel Las Mandiri - Hubungi Hub Jasa Las Steel fabrication Bekasi - WhatsApp +6285212078467"
+            title="Contact Bengkel Las Mandiri - Get in Touch with Welding Services Team"
             loading="eager"
             fetchPriority="high"
             width="1920"
@@ -585,13 +585,13 @@ const Contact: React.FC = () => {
             </div>
             <div>
               <a
-                href="https://wa.me/+6289513957752"
+                href="https://wa.me/6285212078467"
                 style={{ color: '#8B7355', textDecoration: 'underline', fontWeight: '500' }}
                 onClick={() => trackWhatsAppClick('contact_page_workshop_address')}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                +6289513957752
+                +62 852-1207-8467
               </a>
             </div>
           </div>
@@ -621,7 +621,7 @@ const Contact: React.FC = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Naturra Extal Export Hub Map"
+                title="Bengkel Las Mandiri Map"
               ></iframe>
             </div>
           </div>
@@ -634,4 +634,3 @@ const Contact: React.FC = () => {
 }
 
 export default Contact
-

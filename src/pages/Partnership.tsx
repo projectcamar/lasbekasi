@@ -142,7 +142,7 @@ const Partnership: React.FC = () => {
             <h2 className="mandiri-partnership__cta-title">{t.ctaTitle}</h2>
             <p className="mandiri-partnership__cta-desc">{t.ctaDescription}</p>
             <a
-              href="https://wa.me/6289513957752"
+              href="https://wa.me/6285212078467"
               className="mandiri-partnership__btn"
               onClick={() => trackWhatsAppClick('partnership_page_cta')}
             >

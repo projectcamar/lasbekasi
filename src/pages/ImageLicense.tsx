@@ -585,7 +585,7 @@ const ImageLicense: React.FC = () => {
             <p>{t.cta.description}</p>
             <a
               className="image-license-button"
-              href="https://wa.me/+6289513957752"
+              href="https://wa.me/6285212078467"
               target="_blank"
               rel="noopener noreferrer"
             >

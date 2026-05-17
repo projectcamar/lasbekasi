@@ -9,50 +9,50 @@ const AISearchFeatures: React.FC<AISearchFeaturesProps> = ({ isIndonesian }) => 
     <div style={{ display: 'none' }} aria-hidden="true">
       {/* AI Search Contextual Information */}
       <div itemScope itemType="https://schema.org/Organization">
-        <meta itemProp="name" content="Naturra Extal" />
-        <meta itemProp="url" content="https://naturraextal.com" />
+        <meta itemProp="name" content="Mandiri Steel" />
+        <meta itemProp="url" content="https://lasbekasi.com" />
         <meta itemProp="description" content={
           isIndonesian
-            ? "Eksportir komoditas pertanian (Cocoa, Cloves, Cocopeat) terpercaya di Bekasi sejak 1999"
-            : "Trusted agricultural commodity exporter (Cocoa, Cloves, Cocopeat) based in Bekasi since 1999"
+            ? "Bengkel las listrik profesional dan terpercaya di Bekasi melayani pembuatan kanopi, pagar minimalis, teralis jendela, railing tangga, dan konstruksi baja sejak 1999"
+            : "Professional and trusted welding workshop in Bekasi serving canopy, minimalist gate, window trellis, stair railing, and structural steel fabrication since 1999"
         } />
         <meta itemProp="foundingDate" content="1999" />
-        <meta itemProp="areaServed" content="Global, USA, Europe, Japan, Australia, Singapore, Malaysia, Thailand, Vietnam, Philippines" />
-        <meta itemProp="serviceType" content="Agricultural Commodity Export" />
-        <meta itemProp="telephone" content="+6289513957752" />
-        <meta itemProp="email" content="hello@naturraextal.com" />
+        <meta itemProp="areaServed" content="Bekasi, Cikarang, Cibitung, Tambun, Depok, Jakarta, Bogor, Tangerang, Jabodetabek" />
+        <meta itemProp="serviceType" content="Welding & Steel Fabrication" />
+        <meta itemProp="telephone" content="+6285212078467" />
+        <meta itemProp="email" content="info@lasbekasi.com" />
         <meta itemProp="address" content="Jl. Raya Setu Cikarang Bar., Bekasi, Jawa Barat 17320, Indonesia" />
       </div>
 
       {/* Business Context for AI */}
       <div itemScope itemType="https://schema.org/LocalBusiness">
-        <meta itemProp="name" content="Naturra Extal" />
+        <meta itemProp="name" content="Mandiri Steel" />
         <meta itemProp="description" content={
           isIndonesian
-            ? "Supplier komoditas pertanian premium untuk industri global"
-            : "Premium agricultural commodity supplier for global industries"
+            ? "Bengkel las besi dan fabrikasi baja berkualitas untuk rumah tinggal dan komersial"
+            : "Quality iron welding and steel fabrication workshop for residential and commercial needs"
         } />
-        <meta itemProp="hasOfferCatalog" content="Agricultural Commodities Collection" />
-        <meta itemProp="areaServed" content="International Markets" />
+        <meta itemProp="hasOfferCatalog" content="Welding & Steel Fabrication Services" />
+        <meta itemProp="areaServed" content="Jabodetabek" />
         <meta itemProp="availableLanguage" content="Indonesian, English" />
       </div>
 
       {/* Product Categories for AI Understanding */}
       <div itemScope itemType="https://schema.org/ItemList">
-        <meta itemProp="name" content="Agricultural Commodities Portfolio" />
-        <meta itemProp="itemListElement" content="Cocoa Powder, Cloves, Cocopeat, Spices" />
+        <meta itemProp="name" content="Welding & Steel Fabrication Services Portfolio" />
+        <meta itemProp="itemListElement" content="Kanopi Minimalis Alderon, Pagar Besi Galvanis, Teralis Jendela, Railing Tangga, Konstruksi Baja WF, Pintu Stainless Steel" />
       </div>
 
       {/* Manufacturing/Production Information for AI */}
       <div itemScope itemType="https://schema.org/ManufacturingPlant">
-        <meta itemProp="name" content="Naturra Extal Production Hub" />
+        <meta itemProp="name" content="Mandiri Steel Workshop Hub" />
         <meta itemProp="description" content={
           isIndonesian
-            ? "Pusat pengolahan dan distribusi komoditas pertanian di Bekasi"
-            : "Agricultural commodity processing and distribution hub in Bekasi"
+            ? "Pusat fabrikasi pengelasan, pemotongan, dan perakitan struktur besi baja di Bekasi"
+            : "Iron and steel structure fabrication, welding, cutting, and assembly hub in Bekasi"
         } />
-        <meta itemProp="manufacturingProcess" content="Sorting, Grading, Drying, Packaging" />
-        <meta itemProp="materialsUsed" content="Cocoa Beans, Cloves, Coconut Husk" />
+        <meta itemProp="manufacturingProcess" content="Cutting, Welding, Grinding, Painting, Installation" />
+        <meta itemProp="materialsUsed" content="Galvanized Hollow Steel, WF Steel Beam, Plate Steel, Camphor Wood, Tempered Glass" />
       </div>
     </div>
   )
