@@ -249,6 +249,8 @@ export default function Testimonials() {
     const [comment, setComment] = useState('')
     const [hoverRating, setHoverRating] = useState(0)
     const [showSuccess, setShowSuccess] = useState(false)
+    const [isSubmitting, setIsSubmitting] = useState(false)
+    const [errorMessage, setErrorMessage] = useState('')
 
     // Load initial and visitor testimonials from localStorage on mount
     useEffect(() => {
@@ -268,9 +270,12 @@ export default function Testimonials() {
         setTestimonials([...visitorList, ...activeInitial])
     }, [])
 
-    const handleSubmit = (e: React.FormEvent) => {
+    const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
-        if (!visitorName.trim() || !comment.trim()) return
+        if (!visitorName.trim() || !comment.trim() || isSubmitting) return
+
+        setIsSubmitting(true)
+        setErrorMessage('')
 
         const newReview: Testimonial = {
             id: `visitor-${Date.now()}`,
@@ -283,18 +288,45 @@ export default function Testimonials() {
             response: `Terima kasih banyak ${visitorName} atas ulasan bintang ${rating}-nya! Bapak Maman Toha dan segenap tim sangat senang bisa memasang ${t.projectOptions[projectType]} Anda secara rapi. Kami tunggu pesanan berikutnya!`
         }
 
-        const updatedVisitorReviews = [newReview, ...testimonials.filter(t => t.isVisitorComment)]
-        localStorage.setItem('MANDIRI_visitor_reviews', JSON.stringify(updatedVisitorReviews))
+        try {
+            const response = await fetch('/api/submit-testimonial', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    name: visitorName,
+                    projectType: t.projectOptions[projectType] || projectType,
+                    rating: rating,
+                    comment: comment
+                })
+            })
 
-        setTestimonials([newReview, ...testimonials])
-        setVisitorName('')
-        setComment('')
-        setRating(5)
-        setShowSuccess(true)
+            if (!response.ok) {
+                const errData = await response.json();
+                throw new Error(errData.error || 'Failed to submit review');
+            }
 
-        // Clear success banner after 5 seconds
-        setTimeout(() => setShowSuccess(false), 5000)
+            // Immediately update list in frontend for instant feedback
+            const updatedVisitorReviews = [newReview, ...testimonials.filter(t => t.isVisitorComment)]
+            localStorage.setItem('MANDIRI_visitor_reviews', JSON.stringify(updatedVisitorReviews))
+
+            setTestimonials([newReview, ...testimonials])
+            setVisitorName('')
+            setComment('')
+            setRating(5)
+            setShowSuccess(true)
+
+            // Clear success banner after 5 seconds
+            setTimeout(() => setShowSuccess(false), 5000)
+        } catch (error: any) {
+            console.error('Error submitting review to GitHub:', error)
+            setErrorMessage(language === 'id' ? 'Gagal mengirim ulasan ke server. Silakan coba lagi.' : 'Failed to submit review to server. Please try again.')
+        } finally {
+            setIsSubmitting(false)
+        }
     }
+
 
     return (
         <div className="testimonials-page">
@@ -457,8 +489,14 @@ export default function Testimonials() {
                                     />
                                 </div>
 
-                                <button type="submit" className="submit-review-btn">
-                                    {t.formSubmit}
+                                {errorMessage && (
+                                    <div className="error-message" style={{ color: '#ff4d4f', marginBottom: '15px', fontSize: '14px', fontWeight: '500', textAlign: 'center' }}>
+                                        {errorMessage}
+                                    </div>
+                                )}
+
+                                <button type="submit" className="submit-review-btn" disabled={isSubmitting}>
+                                    {isSubmitting ? (language === 'id' ? 'Mengirim...' : 'Sending...') : t.formSubmit}
                                 </button>
                             </form>
                         </div>
