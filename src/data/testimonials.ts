@@ -10,7 +10,17 @@ export interface Testimonial {
 }
 
 export const INITIAL_TESTIMONIALS: Testimonial[] = [
-    {
+        {
+        id: 'visitor-1779042381851',
+        name: 'Yani',
+        projectType: 'Teralis Pengaman Jendela',
+        rating: 5,
+        comment: 'rapih pengerjaan finishing oke akan orderlagi',
+        date: '2026-05-17',
+        response: 'Terima kasih banyak Yani atas ulasan bintang 5-nya! Bapak Maman Toha dan segenap tim sangat senang bisa memasang Teralis Pengaman Jendela Anda secara rapi. Kami tunggu pesanan berikutnya!',
+        isVisitorComment: true
+    },
+{
         id: 'test-1',
         name: 'Bapak Heri Prasetyo',
         projectType: 'Kanopi Alderon Minimalis',
