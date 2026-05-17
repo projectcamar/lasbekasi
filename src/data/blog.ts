@@ -36,7 +36,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1655558851856-7dbeb76800f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwbW9kZXJuJTIwZGklMjBCZWthc2l8ZW58MHwwfHx8MTc3OTAzNDY5NHww&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:18",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Bengkel las adalah salah satu kebutuhan penting bagi banyak orang, terutama di daerah Setu, Bekasi. Namun, bagi pemula, memilih jasa bengkel las yang tepat bisa menjadi tantangan. Dalam artikel ini, kita akan membahas beberapa tips pemula bengkel las di Setu, Bekasi, untuk hasil maksimal.",
       "keyPoints": [
@@ -79,7 +79,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1697281679290-ad7be1b10682?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdXN0YWluYWJsZSUyMG1ldGFsJTIwd29ya3Nob3AlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzc5MDM0NzA1fDA&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:18",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Dalam beberapa tahun terakhir, isu lingkungan telah menjadi perhatian utama di seluruh dunia. Sebagai penyedia jasa bengkel las di Bekasi, Mandiri Steel berkomitmen untuk mengurangi dampak lingkungan dari operasional kami. Dalam artikel ini, kita akan membahas tentang bagaimana bengkel las dapat menjadi lebih ramah lingkungan dan beberapa tips untuk mengurangi jejak karbon.",
       "keyPoints": [
@@ -122,7 +122,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1655558851856-7dbeb76800f7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwbW9kZXJuJTIwZGklMjBiZWthc2l8ZW58MHwwfHx8MTc3OTAzNDcxMXww&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:18",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Dalam mencari jasa bengkel las di Bekasi, kualitas dan keamanan menjadi prioritas utama. Bagaimana cara memilih bengkel las yang tepat? Berikut beberapa tips yang dapat membantu Anda membuat keputusan yang tepat.",
       "keyPoints": [
@@ -165,7 +165,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1683470157212-cd4005549fce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdGVlbCUyMHdlbGRpbmclMjB3b3Jrc2hvcCUyMGludGVyaW9yfGVufDB8MHx8fDE3NzkwMzQ3MjR8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:18",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Di era modern, teknologi dan inovasi menjadi kunci untuk meningkatkan efisiensi dan kualitas dalam berbagai industri, termasuk bengkel las. Mandiri Steel, sebagai salah satu bengkel las terkemuka di Bekasi, terus berinovasi untuk memberikan layanan terbaik kepada pelanggan. Dalam artikel ini, kita akan membahas tentang bagaimana Mandiri Steel menerapkan teknologi modern dalam proses bengkel las di Jalan Raya Setu-Cibitung, Bekasi.",
       "keyPoints": [
@@ -209,7 +209,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1580469322701-45b34d5e6e9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtaW5pbWFsaXN0JTIwbWV0YWwlMjBjYW5vcHklMjByb29mJTIwcGF0aW98ZW58MHwwfHx8MTc3OTAzNTAyMnww&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:23",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Kanopi minimalis merupakan pilihan yang tepat untuk rumah di Cikarang yang ingin tampil modern dan elegan. Dengan desain yang sederhana dan warna yang netral, kanopi minimalis dapat meningkatkan keindahan eksterior rumah Anda. Berikut beberapa tips untuk memilih kanopi minimalis yang sesuai dengan rumah Anda.",
       "keyPoints": [
@@ -252,7 +252,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1645054909248-0820497f2611?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtZXRhbCUyMGNhbm9weSUyMHdpdGglMjBzdHJvbmclMjBsb2NrJTIwc3lzdGVtfGVufDB8MHx8fDE3NzkwMzUwMzB8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:23",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Kanopi adalah salah satu elemen penting dalam desain rumah, terutama di daerah Cikarang. Namun, keamanan dan keamanan kanopi seringkali diabaikan. Pada artikel ini, kita akan membahas tentang desain kanopi Cikarang yang aman dan tahan lama dengan penggunaan bahan SNI dan kunci keamanan yang kuat.",
       "keyPoints": [
@@ -297,7 +297,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1580469322701-45b34d5e6e9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3YXRlcnByb29mJTIwY2Fub3B5JTIwcGF0aW98ZW58MHwwfHx8MTc3OTAzNTAzOXww&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:23",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Kanopi adalah salah satu komponen penting dalam melindungi rumah dari sinar matahari dan hujan. Namun, di daerah Cikarang dengan iklim tropis, kanopi harus dirancang untuk tahan cuaca. Dalam artikel ini, kita akan membahas tentang pentingnya kanopi tahan cuaca dan bagaimana Mandiri Steel dapat membantu Anda mendapatkan kanopi yang sesuai dengan kebutuhan Anda.",
       "keyPoints": [
@@ -341,7 +341,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1580469322701-45b34d5e6e9b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtZXRhbCUyMGNhbm9weSUyMHJvb2YlMjBwYXRpb3xlbnwwfDB8fHwxNzc5MDMzMDAxfDA&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:24",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Kanopi merupakan salah satu elemen penting dalam desain rumah, terutama di daerah Cikarang yang memiliki iklim tropis. Dalam memilih kanopi, ada beberapa bahan yang perlu dipertimbangkan, seperti hollow iron, stainless steel, galvanized steel, dan cat premium. Pemilihan bahan yang tepat dapat mempengaruhi kekuatan, keamanan, dan estetika kanopi.",
       "keyPoints": [
@@ -385,7 +385,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1562706846-a439ca3b5e74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjdXN0b20lMjBtZXRhbCUyMGNhbm9weSUyMGluc3RhbGxhdGlvbnxlbnwwfDB8fHwxNzc5MDM1MDU1fDA&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:24",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Kanopi adalah salah satu elemen penting dalam desain eksterior rumah, terutama di daerah Cikarang. Dengan kemampuan untuk melindungi dari sinar matahari dan hujan, kanopi juga dapat meningkatkan estetika rumah. Namun, untuk mendapatkan kanopi yang sesuai dengan kebutuhan, diperlukan penyesuaian ukuran dan desain. Di artikel ini, kita akan membahas tentang kanopi Cikarang custom dan bagaimana Mandiri Steel dapat membantu Anda mendapatkan kanopi yang sesuai dengan kebutuhan.",
       "keyPoints": [
@@ -430,7 +430,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1681021982855-bf3ac0f4a116?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxhZmZvcmRhYmxlJTIwbWV0YWwlMjBjYW5vcHklMjByb29mfGVufDB8MHx8fDE3NzkwMzUwNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:24",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Memilih kanopi yang tepat untuk rumah atau bangunan komersial di Cikarang bisa menjadi tugas yang menantang, terutama jika Anda memiliki budget terbatas. Kanopi tidak hanya berfungsi sebagai pelindung dari cuaca, tetapi juga sebagai elemen estetika yang dapat meningkatkan nilai properti. Dalam artikel ini, kita akan membahas tips untuk memilih kanopi yang hemat biaya dan memiliki nilai investasi jangka panjang di daerah Cikarang.",
       "keyPoints": [
@@ -474,7 +474,7 @@ export const BLOG_POSTS: BlogPost[] = [
     "image": "https://images.unsplash.com/photo-1441796522229-b3a3cb3d58fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwc3RlZWwlMjBjYW5vcHklMjBzdHJ1Y3R1cmV8ZW58MHwwfHx8MTc3OTAzNTA5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
     "date": "2026-05-17 23:24",
     "author": "Angga",
-    "status": "draft",
+    "status": "synced",
     "customContent": {
       "introduction": "Dalam dunia industri, kanopi tidak hanya berfungsi sebagai pelindung dari sinar matahari dan hujan, tetapi juga sebagai struktur yang kuat dan tahan lama untuk melindungi aset dan pekerja. Di Cikarang, banyak industri yang membutuhkan kanopi yang dapat menahan beban berat dan tahan lama. Berikut beberapa tips dan trik untuk memilih kanopi industri yang tepat untuk kebutuhan Anda.",
       "keyPoints": [
