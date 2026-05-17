@@ -9,33 +9,44 @@ import { initializeGlobalWhatsAppTracking } from './utils/globalWhatsAppTracking
 import { LanguageProvider } from './utils/languageContext'
 import './App.css'
 
+// Safe lazy loader that auto-reloads page on chunk load failures (e.g. after new deployment)
+const safeLazy = (importFunc: () => Promise<any>) => {
+  return lazy(() => 
+    importFunc().catch((err) => {
+      console.warn("Dynamic import failed (chunk load error). Auto-reloading page to fetch fresh bundles...", err);
+      window.location.reload();
+      return new Promise(() => {}); // Keep React happy while page reloads
+    })
+  );
+};
+
 // ===== MANDIRI STEEL - Rebranded Landing Pages =====
 import Home from './pages/Home'
-const NotFound = lazy(() => import('./pages/NotFound'))
+const NotFound = safeLazy(() => import('./pages/NotFound'))
 import WhatsAppButton from './components/WhatsAppButton'
 import SingaporeLanguageModal from './components/SingaporeLanguageModal'
 import ScrollToTop from './components/ScrollToTop'
 import ProtectedRoute from './components/ProtectedRoute'
 
-const About = lazy(() => import('./pages/About'))
-const Products = lazy(() => import('./pages/Products'))
-const Blog = lazy(() => import('./pages/Blog'))
-const BlogPost = lazy(() => import('./pages/BlogPost'))
-const CustomOrder = lazy(() => import('./pages/CustomOrder'))
-const Partnership = lazy(() => import('./pages/Partnership'))
-const Testimonials = lazy(() => import('./pages/Testimonials'))
+const About = safeLazy(() => import('./pages/About'))
+const Products = safeLazy(() => import('./pages/Products'))
+const Blog = safeLazy(() => import('./pages/Blog'))
+const BlogPost = safeLazy(() => import('./pages/BlogPost'))
+const CustomOrder = safeLazy(() => import('./pages/CustomOrder'))
+const Partnership = safeLazy(() => import('./pages/Partnership'))
+const Testimonials = safeLazy(() => import('./pages/Testimonials'))
 
 // Admin Pages
-const AdminLogin = lazy(() => import('./pages/AdminLogin'))
-const AdminDashboard = lazy(() => import('./pages/AdminDashboard'))
-const AdminBlogManager = lazy(() => import('./pages/AdminBlogManager'))
+const AdminLogin = safeLazy(() => import('./pages/AdminLogin'))
+const AdminDashboard = safeLazy(() => import('./pages/AdminDashboard'))
+const AdminBlogManager = safeLazy(() => import('./pages/AdminBlogManager'))
 
 // SEO & Legal Pages
-const CommodityExportBekasi = lazy(() => import('./pages/CommodityExportBekasi'))
-const SearchResults = lazy(() => import('./pages/SearchResults'))
-const TermsOfService = lazy(() => import('./pages/TermsOfService'))
-const ShippingInformation = lazy(() => import('./pages/ShippingInformation'))
-const ImageLicense = lazy(() => import('./pages/ImageLicense'))
+const CommodityExportBekasi = safeLazy(() => import('./pages/CommodityExportBekasi'))
+const SearchResults = safeLazy(() => import('./pages/SearchResults'))
+const TermsOfService = safeLazy(() => import('./pages/TermsOfService'))
+const ShippingInformation = safeLazy(() => import('./pages/ShippingInformation'))
+const ImageLicense = safeLazy(() => import('./pages/ImageLicense'))
 
 // Minimal loading for better UX
 const Loading = () => (
@@ -77,6 +88,24 @@ function App() {
   // Initialize global WhatsApp click tracking
   useEffect(() => {
     initializeGlobalWhatsAppTracking()
+  }, [])
+
+  // Auto-reload on unhandled ChunkLoadError promise rejections
+  useEffect(() => {
+    const handleRejection = (event: PromiseRejectionEvent) => {
+      const errorMsg = event.reason?.message || '';
+      if (
+        errorMsg.includes('ChunkLoadError') || 
+        errorMsg.includes('Loading chunk') || 
+        errorMsg.includes('Failed to fetch dynamically imported module')
+      ) {
+        console.warn('Chunk load error caught in promise rejection. Auto-reloading page...', event.reason);
+        window.location.reload();
+      }
+    };
+
+    window.addEventListener('unhandledrejection', handleRejection);
+    return () => window.removeEventListener('unhandledrejection', handleRejection);
   }, [])
 
   return (
