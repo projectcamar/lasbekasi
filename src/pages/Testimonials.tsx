@@ -244,13 +244,15 @@ export default function Testimonials() {
     // Testimonials State
     const [testimonials, setTestimonials] = useState<Testimonial[]>([])
     const [visitorName, setVisitorName] = useState('')
-    const [projectType, setProjectType] = useState('kanopi')
+    const [projectType, setProjectType] = useState('')
+    const [customProjectType, setCustomProjectType] = useState('')
     const [rating, setRating] = useState(5)
     const [comment, setComment] = useState('')
     const [hoverRating, setHoverRating] = useState(0)
     const [showSuccess, setShowSuccess] = useState(false)
     const [isSubmitting, setIsSubmitting] = useState(false)
     const [errorMessage, setErrorMessage] = useState('')
+    const [isSubmittedSuccessfully, setIsSubmittedSuccessfully] = useState(false)
 
     // Load initial and visitor testimonials from localStorage on mount
     useEffect(() => {
@@ -272,20 +274,25 @@ export default function Testimonials() {
 
     const handleSubmit = async (e: React.FormEvent) => {
         e.preventDefault()
-        if (!visitorName.trim() || !comment.trim() || isSubmitting) return
+        if (!visitorName.trim() || !projectType || !comment.trim() || isSubmitting) return
+        if (projectType === 'lainnya' && !customProjectType.trim()) return
 
         setIsSubmitting(true)
         setErrorMessage('')
 
+        const resolvedProjectType = projectType === 'lainnya'
+            ? customProjectType.trim()
+            : (t.projectOptions[projectType] || projectType)
+
         const newReview: Testimonial = {
             id: `visitor-${Date.now()}`,
             name: visitorName,
-            projectType: t.projectOptions[projectType] || projectType,
+            projectType: resolvedProjectType,
             rating: rating,
             comment: comment,
             date: new Date().toISOString().split('T')[0],
             isVisitorComment: true,
-            response: `Terima kasih banyak ${visitorName} atas ulasan bintang ${rating}-nya! Bapak Maman Toha dan segenap tim sangat senang bisa memasang ${t.projectOptions[projectType]} Anda secara rapi. Kami tunggu pesanan berikutnya!`
+            response: `Terima kasih banyak ${visitorName} atas ulasan bintang ${rating}-nya! Bapak Maman Toha dan segenap tim sangat senang bisa memasang ${resolvedProjectType} Anda secara rapi. Kami tunggu pesanan berikutnya!`
         }
 
         try {
@@ -296,7 +303,7 @@ export default function Testimonials() {
                 },
                 body: JSON.stringify({
                     name: visitorName,
-                    projectType: t.projectOptions[projectType] || projectType,
+                    projectType: resolvedProjectType,
                     rating: rating,
                     comment: comment
                 })
@@ -313,9 +320,12 @@ export default function Testimonials() {
 
             setTestimonials([newReview, ...testimonials])
             setVisitorName('')
+            setProjectType('')
+            setCustomProjectType('')
             setComment('')
             setRating(5)
             setShowSuccess(true)
+            setIsSubmittedSuccessfully(true)
 
             // Clear success banner after 5 seconds
             setTimeout(() => setShowSuccess(false), 5000)
@@ -366,7 +376,14 @@ export default function Testimonials() {
                                 <div key={item.id} className={`testimonial-card ${item.isVisitorComment ? 'visitor-highlight' : ''}`}>
                                     <div className="testimonial-card__header">
                                         <div className="testimonial-card__meta">
-                                            <h3 className="testimonial-card__author">{item.name}</h3>
+                                            <h3 className="testimonial-card__author" style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '8px' }}>
+                                                {item.name}
+                                                {item.isVisitorComment && (
+                                                    <span className="user-testimonial-tag" style={{ fontSize: '10px', background: '#FF5E14', color: '#fff', padding: '2px 8px', borderRadius: '4px', fontWeight: 'bold', display: 'inline-block' }}>
+                                                        {language === 'id' ? '[Testimoni Anda]' : '[Your Testimonial]'}
+                                                    </span>
+                                                )}
+                                            </h3>
                                             <span className="testimonial-card__date">{item.date}</span>
                                         </div>
                                         <div className="testimonial-card__badge">{item.projectType}</div>
@@ -426,79 +443,118 @@ export default function Testimonials() {
                             <p className="program-card__hint">{t.programHint}</p>
                         </div>
 
-                        {/* 2. Interactive visitor review form */}
+                        {/* 2. Interactive visitor review form / Success feedback */}
                         <div className="review-form-card">
-                            <h2 className="review-form-card__title">
-                                <Plus size={20} />
-                                {t.formHeading}
-                            </h2>
-                            <form onSubmit={handleSubmit} className="review-form">
-                                <div className="form-group">
-                                    <label>{t.formName}</label>
-                                    <input 
-                                        type="text" 
-                                        value={visitorName} 
-                                        onChange={(e) => setVisitorName(e.target.value)} 
-                                        required 
-                                        placeholder="Contoh: Bapak Budi"
-                                    />
-                                </div>
-
-                                <div className="form-group">
-                                    <label>{t.formProject}</label>
-                                    <select 
-                                        value={projectType} 
-                                        onChange={(e) => setProjectType(e.target.value)}
+                            {isSubmittedSuccessfully ? (
+                                <div className="review-success-feedback" style={{ textAlign: 'center', padding: '20px 10px' }}>
+                                    <CheckCircle size={48} style={{ color: '#22c55e', margin: '0 auto 15px auto', display: 'block' }} />
+                                    <h3 style={{ fontSize: '20px', fontWeight: 'bold', color: '#1a1a2e', marginBottom: '10px' }}>
+                                        {language === 'id' ? 'Ulasan Terkirim!' : 'Review Submitted!'}
+                                    </h3>
+                                    <p style={{ fontSize: '14px', color: '#666', lineHeight: '1.5', marginBottom: '20px' }}>
+                                        {language === 'id' 
+                                            ? 'Terima kasih banyak! Ulasan Anda telah berhasil disimpan di website ini dan otomatis di-push ke GitHub untuk ditampilkan secara permanen.' 
+                                            : 'Thank you very much! Your review has been successfully saved on this website and auto-pushed to GitHub to display permanently.'}
+                                    </p>
+                                    <button 
+                                        type="button" 
+                                        onClick={() => setIsSubmittedSuccessfully(false)}
+                                        className="submit-review-btn"
+                                        style={{ width: '100%', background: '#1a1a2e', color: '#fff', border: 'none', padding: '12px', borderRadius: '6px', fontWeight: 'bold', cursor: 'pointer', transition: 'all 0.3s ease' }}
                                     >
-                                        <option value="kanopi">{t.projectOptions.kanopi}</option>
-                                        <option value="pagar">{t.projectOptions.pagar}</option>
-                                        <option value="teralis">{t.projectOptions.teralis}</option>
-                                        <option value="railing">{t.projectOptions.railing}</option>
-                                        <option value="baja">{t.projectOptions.baja}</option>
-                                        <option value="lainnya">{t.projectOptions.lainnya}</option>
-                                    </select>
+                                        {language === 'id' ? 'Ingin Isi Lagi?' : 'Want to Write Another?'}
+                                    </button>
                                 </div>
+                            ) : (
+                                <>
+                                    <h2 className="review-form-card__title">
+                                        <Plus size={20} />
+                                        {t.formHeading}
+                                    </h2>
+                                    <form onSubmit={handleSubmit} className="review-form">
+                                        <div className="form-group">
+                                            <label>{t.formName}</label>
+                                            <input 
+                                                type="text" 
+                                                value={visitorName} 
+                                                onChange={(e) => setVisitorName(e.target.value)} 
+                                                required 
+                                                placeholder="Contoh: Bapak Budi"
+                                            />
+                                        </div>
 
-                                <div className="form-group">
-                                    <label>{t.formRating}</label>
-                                    <div className="star-rating-selector">
-                                        {Array.from({ length: 5 }).map((_, idx) => {
-                                            const starVal = idx + 1
-                                            return (
-                                                <Star 
-                                                    key={idx}
-                                                    size={28}
-                                                    className={(hoverRating || rating) >= starVal ? 'star-filled clickable' : 'star-empty clickable'}
-                                                    onClick={() => setRating(starVal)}
-                                                    onMouseEnter={() => setHoverRating(starVal)}
-                                                    onMouseLeave={() => setHoverRating(0)}
+                                        <div className="form-group">
+                                            <label>{t.formProject}</label>
+                                            <select 
+                                                value={projectType} 
+                                                onChange={(e) => setProjectType(e.target.value)}
+                                                required
+                                            >
+                                                <option value="" disabled>[ {language === 'id' ? 'Pilih Jenis Pengerjaan / Pemasangan Di Sini' : 'Choose Service / Project Type Here'} ]</option>
+                                                <option value="kanopi">{t.projectOptions.kanopi}</option>
+                                                <option value="pagar">{t.projectOptions.pagar}</option>
+                                                <option value="teralis">{t.projectOptions.teralis}</option>
+                                                <option value="railing">{t.projectOptions.railing}</option>
+                                                <option value="baja">{t.projectOptions.baja}</option>
+                                                <option value="lainnya">{t.projectOptions.lainnya}</option>
+                                            </select>
+                                        </div>
+
+                                        {projectType === 'lainnya' && (
+                                            <div className="form-group" style={{ animation: 'fadeIn 0.3s ease' }}>
+                                                <label>{language === 'id' ? 'Tuliskan Jenis Pengerjaan Custom' : 'Custom Project Name'}</label>
+                                                <input 
+                                                    type="text" 
+                                                    value={customProjectType} 
+                                                    onChange={(e) => setCustomProjectType(e.target.value)} 
+                                                    required 
+                                                    placeholder={language === 'id' ? 'Contoh: Rak Besi Siku / Canopy Baja WF' : 'e.g. Custom Iron Shelves / WF Steel Canopy'}
                                                 />
-                                            )
-                                        })}
-                                    </div>
-                                </div>
+                                            </div>
+                                        )}
 
-                                <div className="form-group">
-                                    <label>{t.formComment}</label>
-                                    <textarea 
-                                        value={comment} 
-                                        onChange={(e) => setComment(e.target.value)} 
-                                        required 
-                                        rows={4} 
-                                        placeholder="Tulis ulasan Anda seputar kualitas hasil las kami..."
-                                    />
-                                </div>
+                                        <div className="form-group">
+                                            <label>{t.formRating}</label>
+                                            <div className="star-rating-selector">
+                                                {Array.from({ length: 5 }).map((_, idx) => {
+                                                    const starVal = idx + 1
+                                                    return (
+                                                        <Star 
+                                                            key={idx}
+                                                            size={28}
+                                                            className={(hoverRating || rating) >= starVal ? 'star-filled clickable' : 'star-empty clickable'}
+                                                            onClick={() => setRating(starVal)}
+                                                            onMouseEnter={() => setHoverRating(starVal)}
+                                                            onMouseLeave={() => setHoverRating(0)}
+                                                        />
+                                                    )
+                                                })}
+                                            </div>
+                                        </div>
 
-                                {errorMessage && (
-                                    <div className="error-message" style={{ color: '#ff4d4f', marginBottom: '15px', fontSize: '14px', fontWeight: '500', textAlign: 'center' }}>
-                                        {errorMessage}
-                                    </div>
-                                )}
+                                        <div className="form-group">
+                                            <label>{t.formComment}</label>
+                                            <textarea 
+                                                value={comment} 
+                                                onChange={(e) => setComment(e.target.value)} 
+                                                required 
+                                                rows={4} 
+                                                placeholder="Tulis ulasan Anda seputar kualitas hasil las kami..."
+                                            />
+                                        </div>
 
-                                <button type="submit" className="submit-review-btn" disabled={isSubmitting}>
-                                    {isSubmitting ? (language === 'id' ? 'Mengirim...' : 'Sending...') : t.formSubmit}
-                                </button>
-                            </form>
+                                        {errorMessage && (
+                                            <div className="error-message" style={{ color: '#ff4d4f', marginBottom: '15px', fontSize: '14px', fontWeight: '500', textAlign: 'center' }}>
+                                                {errorMessage}
+                                            </div>
+                                        )}
+
+                                        <button type="submit" className="submit-review-btn" disabled={isSubmitting}>
+                                            {isSubmitting ? (language === 'id' ? 'Mengirim...' : 'Sending...') : t.formSubmit}
+                                        </button>
+                                    </form>
+                                </>
+                            )}
                         </div>
                     </aside>
 
