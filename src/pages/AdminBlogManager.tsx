@@ -21,6 +21,7 @@ const AdminBlogManager: React.FC = () => {
     const { currentStep, nextStep } = useTutorial()
 
     const [posts, setPosts] = useState<BlogPost[]>([])
+    const [selectedPostIds, setSelectedPostIds] = useState<number[]>([])
 
     // Auto-sync view with tutorial steps
     useEffect(() => {
@@ -709,6 +710,7 @@ const AdminBlogManager: React.FC = () => {
     const deletePost = (id: number) => {
         if (window.confirm('Delete this post? (Permanent after Sync)')) {
             setPosts(posts.filter(p => p.id !== id))
+            setSelectedPostIds(prev => prev.filter(x => x !== id))
         }
     }
 
@@ -730,6 +732,40 @@ const AdminBlogManager: React.FC = () => {
     const indexOfLastItem = currentPage * (itemsPerPage === 'all' ? totalItems : itemsPerPage)
     const indexOfFirstItem = indexOfLastItem - (itemsPerPage === 'all' ? totalItems : itemsPerPage)
     const currentItems = sortedPosts.slice(indexOfFirstItem, indexOfLastItem)
+
+    const handleToggleSelectPost = (id: number) => {
+        setSelectedPostIds(prev =>
+            prev.includes(id) ? prev.filter(x => x !== id) : [...prev, id]
+        )
+    }
+
+    const currentItemIds = currentItems.map(p => p.id)
+    const isAllSelectedOnPage = currentItemIds.length > 0 && currentItemIds.every(id => selectedPostIds.includes(id))
+
+    const handleToggleSelectAllOnPage = () => {
+        if (isAllSelectedOnPage) {
+            setSelectedPostIds(prev => prev.filter(id => !currentItemIds.includes(id)))
+        } else {
+            setSelectedPostIds(prev => {
+                const newSelections = [...prev]
+                currentItemIds.forEach(id => {
+                    if (!newSelections.includes(id)) {
+                        newSelections.push(id)
+                    }
+                })
+                return newSelections
+            })
+        }
+    }
+
+    const handleBulkDelete = () => {
+        if (selectedPostIds.length === 0) return
+        if (window.confirm(`Delete ${selectedPostIds.length} selected articles? (Permanent after Sync)`)) {
+            setPosts(prev => prev.filter(p => !selectedPostIds.includes(p.id)))
+            setSelectedPostIds([])
+            setMessage({ type: 'success', text: `Successfully deleted ${selectedPostIds.length} articles locally. Click "Deploy Changes" to make it live.` })
+        }
+    }
 
     if (isLoading) {
         return (
@@ -1035,16 +1071,36 @@ const AdminBlogManager: React.FC = () => {
                                     onChange={(e) => setSearchTerm(e.target.value)}
                                 />
                             </div>
-                            <button id="admin-create-post-btn" className="create-post-btn" onClick={handleNew}>
-                                <Plus size={18} />
-                                <span>New Article</span>
-                            </button>
+                            <div style={{ display: 'flex', gap: '10px' }}>
+                                {selectedPostIds.length > 0 && (
+                                    <button
+                                        onClick={handleBulkDelete}
+                                        className="create-post-btn"
+                                        style={{ background: '#dc2626', borderColor: '#b91c1c' }}
+                                    >
+                                        <Trash2 size={18} />
+                                        <span>Delete Selected ({selectedPostIds.length})</span>
+                                    </button>
+                                )}
+                                <button id="admin-create-post-btn" className="create-post-btn" onClick={handleNew}>
+                                    <Plus size={18} />
+                                    <span>New Article</span>
+                                </button>
+                            </div>
                         </div>
 
                         <div id="admin-blog-list-card" className="posts-table-card card">
                             <table className="posts-table">
                                 <thead>
                                     <tr>
+                                        <th style={{ width: '40px', textAlign: 'center' }}>
+                                            <input
+                                                type="checkbox"
+                                                checked={isAllSelectedOnPage}
+                                                onChange={handleToggleSelectAllOnPage}
+                                                style={{ cursor: 'pointer', verticalAlign: 'middle', width: '16px', height: '16px' }}
+                                            />
+                                        </th>
                                         <th>Title & Information</th>
                                         <th>Category</th>
                                         <th>Config</th>
@@ -1054,7 +1110,15 @@ const AdminBlogManager: React.FC = () => {
                                 </thead>
                                 <tbody>
                                     {currentItems.map(post => (
-                                        <tr key={post.id}>
+                                        <tr key={post.id} className={selectedPostIds.includes(post.id) ? 'selected-row' : ''}>
+                                            <td style={{ textAlign: 'center', verticalAlign: 'middle' }}>
+                                                <input
+                                                    type="checkbox"
+                                                    checked={selectedPostIds.includes(post.id)}
+                                                    onChange={() => handleToggleSelectPost(post.id)}
+                                                    style={{ cursor: 'pointer', width: '16px', height: '16px' }}
+                                                />
+                                            </td>
                                             <td>
                                                 <div className="post-title-cell">
                                                     <div className="post-thumb">
