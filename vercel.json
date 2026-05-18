@@ -104,7 +104,7 @@
         {
           "type": "header",
           "key": "user-agent",
-          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+          "value": "(?i)(googlebot|google-inspectiontool|googleother|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot|applebot|lighthouse|chrome-lighthouse|discordbot|whatsapp|embedly)"
         }
       ],
       "destination": "/blog/:slug/index.html"
@@ -115,7 +115,7 @@
         {
           "type": "header",
           "key": "user-agent",
-          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+          "value": "(?i)(googlebot|google-inspectiontool|googleother|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot|applebot|lighthouse|chrome-lighthouse|discordbot|whatsapp|embedly)"
         }
       ],
       "destination": "/about/index.html"
@@ -126,7 +126,7 @@
         {
           "type": "header",
           "key": "user-agent",
-          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+          "value": "(?i)(googlebot|google-inspectiontool|googleother|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot|applebot|lighthouse|chrome-lighthouse|discordbot|whatsapp|embedly)"
         }
       ],
       "destination": "/products/index.html"
@@ -137,7 +137,7 @@
         {
           "type": "header",
           "key": "user-agent",
-          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+          "value": "(?i)(googlebot|google-inspectiontool|googleother|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot|applebot|lighthouse|chrome-lighthouse|discordbot|whatsapp|embedly)"
         }
       ],
       "destination": "/testimonials/index.html"
@@ -148,7 +148,7 @@
         {
           "type": "header",
           "key": "user-agent",
-          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+          "value": "(?i)(googlebot|google-inspectiontool|googleother|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot|applebot|lighthouse|chrome-lighthouse|discordbot|whatsapp|embedly)"
         }
       ],
       "destination": "/custom-order/index.html"
@@ -159,7 +159,7 @@
         {
           "type": "header",
           "key": "user-agent",
-          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+          "value": "(?i)(googlebot|google-inspectiontool|googleother|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot|applebot|lighthouse|chrome-lighthouse|discordbot|whatsapp|embedly)"
         }
       ],
       "destination": "/partnership/index.html"
@@ -170,7 +170,7 @@
         {
           "type": "header",
           "key": "user-agent",
-          "value": "(?i)(googlebot|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot)"
+          "value": "(?i)(googlebot|google-inspectiontool|googleother|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot|applebot|lighthouse|chrome-lighthouse|discordbot|whatsapp|embedly)"
         }
       ],
       "destination": "/bengkel-las-bekasi/index.html"
