@@ -199,6 +199,23 @@ const main = async () => {
 
   const pages = [
     {
+      dir: 'blog',
+      title: 'Blog & Inspirasi Las Besi Bekasi - Mandiri Steel',
+      description: 'Artikel dan inspirasi seputar kanopi, pagar minimalis, teralis, dan konstruksi baja dari ahlinya di Mandiri Steel Bekasi.',
+      canonical: `${BASE_URL}/blog`,
+      html: `
+        <h1>Blog &amp; Inspirasi Konstruksi Besi</h1>
+        <p>Temukan panduan, tips perawatan, dan inspirasi desain untuk kanopi, pagar, teralis, dan tangga besi untuk rumah Anda.</p>
+        <h2>Artikel Terbaru</h2>
+        <ul>
+          <li>Cara merawat pagar besi agar anti karat</li>
+          <li>Tips memilih kanopi alderon vs spandek</li>
+          <li>Inspirasi desain pagar minimalis modern</li>
+        </ul>
+        <a href="https://wa.me/6285212078467" class="cta-btn">Konsultasi Gratis via WhatsApp</a>
+      `
+    },
+    {
       dir: 'about',
       title: 'Tentang Kami - Bengkel Las Mandiri Steel Bekasi',
       description: 'Bengkel Las Mandiri Steel telah berpengalaman lebih dari 25 tahun sejak 1999 dalam fabrikasi kanopi, pagar besi, teralis, railing, dan konstruksi baja di Bekasi.',

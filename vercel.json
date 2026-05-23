@@ -17,6 +17,51 @@
       "permanent": true
     },
     {
+      "source": "/layanan-las-bekasi/:path*",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/layanan-las-bekasi",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/album-bengkel-las-mandiri",
+      "destination": "/products",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cari-bengkel-las-bekasi",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/jasa-kanopi-bekasi",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/inspirasi-pagar-industrial",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/cara-perawatan-pagar-besi",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/jasa-tukang-las-cikarang",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/blog/tips-memilih-tukang-las",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
       "source": "/id/:path*",
       "destination": "/:path*?lang=id",
       "permanent": true
@@ -98,6 +143,17 @@
     }
   ],
   "rewrites": [
+    {
+      "source": "/blog",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(?i)(googlebot|google-inspectiontool|googleother|bingbot|duckduckbot|yandexbot|baiduspider|semrushbot|mj12bot|facebookexternalhit|linkedinbot|slackbot|telegrambot|twitterbot|ahrefsbot|gptbot|anthropic-ai|claudebot|petalbot|pinterestbot|applebot|lighthouse|chrome-lighthouse|discordbot|whatsapp|embedly)"
+        }
+      ],
+      "destination": "/blog/index.html"
+    },
     {
       "source": "/blog/:slug",
       "has": [
