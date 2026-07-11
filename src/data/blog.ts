@@ -507,6 +507,50 @@ export const BLOG_POSTS: BlogPost[] = [
       ],
       "conclusion": "Dalam memilih kanopi industri, ada beberapa hal yang perlu dipertimbangkan, seperti bahan, desain, dan struktur. Pastikan kanopi yang dipilih dapat menahan beban berat dan tahan lama. Di Mandiri Steel, kami menyediakan solusi kanopi industri yang tepat untuk kebutuhan Anda, dengan bahan yang kuat dan tahan lama, dan desain dan struktur yang dapat menahan beban berat. Kami siap melayani survei lokasi gratis dan pemasangan kanopi industri di Cikarang, Bekasi, dan sekitarnya."
     }
+  },
+  {
+    "id": 12,
+    "slug": "tips-memilih-kanopi-bekasi",
+    "title": "Tips Pilih Kanopi Bekasi",
+    "category": "Tips and Trick",
+    "excerpt": "Panduan memilih kanopi yang sesuai untuk rumah di Bekasi",
+    "image": "https://images.unsplash.com/photo-1673835931682-513b185a37e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBtaW5pbWFsaXMlMjBiZWthc2l8ZW58MHwwfHx8MTc4MzgxMjg3Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "date": "2026-07-12 06:34",
+    "author": "Angga",
+    "status": "draft",
+    "customContent": {
+      "introduction": "Mencari kanopi yang sesuai untuk rumah di Bekasi bisa jadi tugas yang menantang. Dengan begitu banyak pilihan yang tersedia, bagaimana Anda bisa memastikan bahwa Anda mendapatkan kanopi yang tepat untuk kebutuhan Anda? Dalam artikel ini, kita akan membahas beberapa tips dan trik untuk memilih kanopi yang sesuai untuk rumah di Bekasi.",
+      "keyPoints": [
+        "Pilih material yang tahan lama",
+        "Perhatikan desain dan estetika",
+        "Pastikan keamanan dan kenyamanan"
+      ],
+      "language": "id",
+      "sections": [
+        {
+          "heading": "Mengapa Kanopi Penting?",
+          "content": "Kanopi tidak hanya berfungsi sebagai pelindung dari sinar matahari dan hujan, tetapi juga dapat meningkatkan estetika rumah. Dengan memilih kanopi yang tepat, Anda dapat meningkatkan nilai jual rumah dan membuatnya lebih menarik bagi tamu. Di Bekasi, kanopi juga dapat membantu melindungi rumah dari panas dan hujan yang ekstrem.",
+          "imageSearchQuery": "kanopi rumah minimalis bekasi",
+          "image": "https://images.unsplash.com/photo-1673835931682-513b185a37e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBydW1haCUyMG1pbmltYWxpcyUyMGJla2FzaXxlbnwwfDB8fHwxNzgzODEyODc3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+          "imageAlt": "kanopi rumah minimalis bekasi"
+        },
+        {
+          "heading": "Tips Memilih Kanopi",
+          "content": "Dalam memilih kanopi, ada beberapa hal yang perlu dipertimbangkan. Pertama, pilih material yang tahan lama dan dapat menahan berat badan. Kedua, perhatikan desain dan estetika kanopi untuk memastikan bahwa itu sesuai dengan gaya rumah Anda. Ketiga, pastikan keamanan dan kenyamanan kanopi dengan memilih yang memiliki fitur keamanan yang baik."
+        },
+        {
+          "heading": "Solusi Mandiri Steel",
+          "content": "Mandiri Steel adalah salah satu penyedia kanopi terbaik di Bekasi. Dengan lebih dari 25 tahun pengalaman, kami telah membantu banyak pelanggan memilih kanopi yang sesuai untuk kebutuhan mereka. Kami menawarkan berbagai jenis kanopi, termasuk kanopi minimalis dan kanopi kaca tempered. Kami juga menyediakan jasa pemasangan dan perawatan kanopi untuk memastikan bahwa kanopi Anda tetap dalam kondisi baik.",
+          "productId": 1
+        },
+        {
+          "heading": "Langkah Selanjutnya",
+          "content": "Jika Anda sedang mencari kanopi untuk rumah di Bekasi, jangan ragu untuk menghubungi Mandiri Steel. Kami siap melayani survei lokasi gratis dan pemasangan kanopi minimalis di perumahan Grand Wisata Tambun, Summarecon Bekasi, Lippo Cikarang, hingga pengerjaan mezzanine baja di kawasan industri MM2100 Cibitung. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang kanopi yang sesuai untuk kebutuhan Anda.",
+          "productId": 2
+        }
+      ],
+      "conclusion": "Dengan memilih kanopi yang tepat, Anda dapat meningkatkan nilai jual rumah dan membuatnya lebih menarik bagi tamu. Di Bekasi, kanopi juga dapat membantu melindungi rumah dari panas dan hujan yang ekstrem. Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang kanopi yang sesuai untuk kebutuhan Anda."
+    }
   }
 ];
 
