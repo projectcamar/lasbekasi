@@ -10,7 +10,17 @@ export interface Testimonial {
 }
 
 export const INITIAL_TESTIMONIALS: Testimonial[] = [
-        {
+            {
+        id: 'visitor-1783813310826',
+        name: 'Todiro',
+        projectType: 'Stair / Balcony Railing',
+        rating: 5,
+        comment: 'Memangggg josss andalan seanterocikarangnihbos maman',
+        date: '2026-07-11',
+        response: 'Terima kasih banyak Todiro atas ulasan bintang 5-nya! Bapak Maman Toha dan segenap tim sangat senang bisa memasang Stair / Balcony Railing Anda secara rapi. Kami tunggu pesanan berikutnya!',
+        isVisitorComment: true
+    },
+{
         id: 'visitor-1779042381851',
         name: 'Yani',
         projectType: 'Teralis Pengaman Jendela',
