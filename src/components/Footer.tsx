@@ -146,14 +146,14 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
             <div className="footer-contact-info">
               <h4>{language === 'id' ? "Hubungi Kami" : language === 'ar' ? "اتصل بنا" : language === 'zh' ? "联系我们" : language === 'ja' ? "お問い合わせ" : language === 'es' ? "Contáctenos" : language === 'fr' ? "Contactez-nous" : language === 'ko' ? "연락처" : "Contact Us"}</h4>
               <p>
-                <a href="mailto:info@lasbekasi.com" style={{ color: 'inherit', textDecoration: 'underline' }}>
+                <a href="mailto:info@lasbekasi.com" style={{ color: '#cbd5e1', textDecoration: 'underline' }}>
                   info@lasbekasi.com
                 </a>
               </p>
               <p>
                 <a
                   href="https://wa.me/6285212078467"
-                  style={{ color: 'inherit', textDecoration: 'underline' }}
+                  style={{ color: '#cbd5e1', textDecoration: 'underline' }}
                   onClick={() => trackWhatsAppClick('footer_contact_info')}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -190,7 +190,7 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
               <p className="footer-phone">
                 <a
                   href="https://wa.me/6285212078467"
-                  style={{ color: 'inherit', textDecoration: 'underline' }}
+                  style={{ color: '#cbd5e1', textDecoration: 'underline' }}
                   onClick={() => trackWhatsAppClick('footer_workshop_address')}
                   target="_blank"
                   rel="noopener noreferrer"

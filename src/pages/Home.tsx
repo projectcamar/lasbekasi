@@ -431,10 +431,11 @@ const Home: React.FC = () => {
             <section className="mandiri-home__hero">
                 <div className="mandiri-home__hero-bg">
                     <img
-                        src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1920"
+                        src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=60&w=1335"
                         alt="Bengkel Las Mandiri Jasa Las Bekasi"
                         className="mandiri-home__hero-image"
                         loading="eager"
+                        fetchPriority="high"
                         style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                     />
                 </div>
@@ -545,9 +546,11 @@ const Home: React.FC = () => {
                         <Link to="/products" className="mandiri-home__product-card">
                             <img
                                 className="mandiri-home__product-card-image"
-                                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+                                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=60"
                                 alt="Kanopi Minimalis Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
+                                width="400"
+                                height="267"
                             />
                             <div className="mandiri-home__product-card-body">
                                 <span className="mandiri-home__product-card-tag">{t.cocoaCategory}</span>
@@ -566,9 +569,11 @@ const Home: React.FC = () => {
                         <Link to="/products" className="mandiri-home__product-card">
                             <img
                                 className="mandiri-home__product-card-image"
-                                src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?auto=format&fit=crop&w=800&q=80"
+                                src="https://images.unsplash.com/photo-1558036117-15d82a90b9b1?auto=format&fit=crop&w=400&q=60"
                                 alt="Pagar Besi Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
+                                width="400"
+                                height="267"
                             />
                             <div className="mandiri-home__product-card-body">
                                 <span className="mandiri-home__product-card-tag">{t.clovesCategory}</span>
@@ -587,9 +592,11 @@ const Home: React.FC = () => {
                         <Link to="/products" className="mandiri-home__product-card">
                             <img
                                 className="mandiri-home__product-card-image"
-                                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+                                src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=400&q=60"
                                 alt="Konstruksi Baja Bekasi - Bengkel Las Mandiri"
                                 loading="lazy"
+                                width="400"
+                                height="267"
                             />
                             <div className="mandiri-home__product-card-body">
                                 <span className="mandiri-home__product-card-tag">{t.cocopeatCategory}</span>
@@ -678,28 +685,28 @@ const Home: React.FC = () => {
                             <div className="mandiri-home__cta-card-icon">
                                 <Mail size={24} />
                             </div>
-                            <h4 className="mandiri-home__cta-card-title">{t.emailTitle}</h4>
+                            <h3 className="mandiri-home__cta-card-title">{t.emailTitle}</h3>
                             <p className="mandiri-home__cta-card-desc">info@lasbekasi.com</p>
                         </div>
                         <div className="mandiri-home__cta-card">
                             <div className="mandiri-home__cta-card-icon">
                                 <MessageCircle size={24} />
                             </div>
-                            <h4 className="mandiri-home__cta-card-title">{t.waTitle}</h4>
+                            <h3 className="mandiri-home__cta-card-title">{t.waTitle}</h3>
                             <p className="mandiri-home__cta-card-desc">+62 852-1207-8467</p>
                         </div>
                         <div className="mandiri-home__cta-card">
                             <div className="mandiri-home__cta-card-icon">
                                 <Globe size={24} />
                             </div>
-                            <h4 className="mandiri-home__cta-card-title">{t.globalTitle}</h4>
+                            <h3 className="mandiri-home__cta-card-title">{t.globalTitle}</h3>
                             <p className="mandiri-home__cta-card-desc">{t.globalDesc}</p>
                         </div>
                         <div className="mandiri-home__cta-card">
                             <div className="mandiri-home__cta-card-icon">
                                 <Building2 size={24} />
                             </div>
-                            <h4 className="mandiri-home__cta-card-title">{t.corpTitle}</h4>
+                            <h3 className="mandiri-home__cta-card-title">{t.corpTitle}</h3>
                             <p className="mandiri-home__cta-card-desc">Bengkel Las Mandiri</p>
                         </div>
                     </div>
