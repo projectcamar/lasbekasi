@@ -28,6 +28,170 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 16,
+    "title": "Panduan Cat Anti Karat untuk Besi Outdoor",
+    "slug": "panduan-cat-anti-karat-besi-outdoor",
+    "excerpt": "Panduan lengkap tentang cat anti karat untuk besi outdoor, jenis, merek, dan cara aplikasi yang benar",
+    "category": "Tips and Trick",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Besi outdoor seperti pagar, kanopi, dan railing merupakan elemen penting dalam desain eksterior rumah. Namun, besi outdoor rentan terhadap korosi dan karat akibat paparan cuaca. Oleh karena itu, penting untuk menggunakan cat anti karat yang tepat untuk melindungi besi outdoor dari kerusakan. Dalam artikel ini, kita akan membahas tentang jenis, merek, dan cara aplikasi cat anti karat yang benar untuk besi outdoor. Mandiri Steel, sebagai bengkel las bekasi yang berpengalaman lebih dari 25 tahun, akan membagikan tips dan trik tentang cara memilih dan mengaplikasikan cat anti karat yang tepat.",
+      "keyPoints": [
+        "Jenis cat anti karat untuk besi outdoor",
+        "Merek cat anti karat yang terkenal dan berkualitas",
+        "Cara aplikasi cat anti karat yang benar",
+        "Tips dan trik untuk memilih cat anti karat yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "Jenis Cat Anti Karat untuk Besi Outdoor",
+          "content": "Cat anti karat untuk besi outdoor dapat dibagi menjadi beberapa jenis, yaitu cat epoxy, cat polyurethane, dan cat alkyd. Cat epoxy merupakan jenis cat yang paling umum digunakan karena memiliki ketahanan yang tinggi terhadap korosi dan karat. Cat polyurethane juga memiliki ketahanan yang tinggi, tetapi lebih fleksibel daripada cat epoxy. Cat alkyd merupakan jenis cat yang lebih murah dan mudah diaplikasikan, tetapi memiliki ketahanan yang lebih rendah daripada cat epoxy dan polyurethane. <br><br> Contoh nyata dari penggunaan cat anti karat untuk besi outdoor dapat dilihat di proyek-proyek pembangunan di Bekasi, Cikarang, dan Tambun. Di daerah-daerah tersebut, banyak digunakan cat epoxy dan polyurethane untuk melindungi besi outdoor dari korosi dan karat.",
+          "imageSearchQuery": "jenis cat anti karat besi outdoor",
+          "image": "https://images.unsplash.com/photo-1758261895672-af5a00bc9456?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxqZW5pcyUyMGNhdCUyMGFudGklMjBrYXJhdCUyMGJlc2klMjBvdXRkb29yfGVufDB8MHx8fDE3ODM5ODA4NDB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Merek Cat Anti Karat yang Terkenal dan Berkualitas",
+          "content": "Beberapa merek cat anti karat yang terkenal dan berkualitas di Indonesia adalah Jotun, Dulux, dan Nippon Paint. Merek-merek tersebut memiliki reputasi yang baik dan telah digunakan dalam banyak proyek pembangunan di Indonesia. <br><br> Selain itu, perlu diingat bahwa kualitas cat anti karat juga tergantung pada kualitas bahan yang digunakan. Oleh karena itu, penting untuk memilih merek cat anti karat yang menggunakan bahan-bahan yang berkualitas tinggi. <br><br> Mandiri Steel, sebagai bengkel las bekasi yang berpengalaman, telah bekerja sama dengan beberapa merek cat anti karat yang terkenal dan berkualitas. Kami dapat membantu Anda memilih merek cat anti karat yang tepat untuk proyek Anda."
+        },
+        {
+          "heading": "Cara Aplikasi Cat Anti Karat yang Benar",
+          "content": "Cara aplikasi cat anti karat yang benar sangat penting untuk memastikan bahwa cat anti karat dapat melindungi besi outdoor dari korosi dan karat. Berikut beberapa tips tentang cara aplikasi cat anti karat yang benar: <br><br> 1. Pastikan permukaan besi outdoor bersih dan kering sebelum diaplikasikan cat anti karat. <br><br> 2. Gunakan primer cat anti karat sebelum mengaplikasikan cat anti karat. <br><br> 3. Aplikasikan cat anti karat dengan menggunakan kuas atau spray gun. <br><br> 4. Pastikan cat anti karat telah kering sepenuhnya sebelum diaplikasikan lapisan kedua. <br><br> Dengan mengikuti tips di atas, Anda dapat memastikan bahwa cat anti karat dapat melindungi besi outdoor dari korosi dan karat.",
+          "productId": 1
+        },
+        {
+          "heading": "Tips dan Trik untuk Memilih Cat Anti Karat yang Tepat",
+          "content": "Memilih cat anti karat yang tepat dapat memastikan bahwa besi outdoor Anda dapat dilindungi dari korosi dan karat. Berikut beberapa tips dan trik untuk memilih cat anti karat yang tepat: <br><br> 1. Pastikan Anda memilih cat anti karat yang sesuai dengan jenis besi outdoor Anda. <br><br> 2. Periksa label cat anti karat untuk memastikan bahwa cat anti karat tersebut sesuai dengan standar kualitas yang ditetapkan. <br><br> 3. Baca review dan testimonial dari pengguna cat anti karat tersebut untuk memastikan bahwa cat anti karat tersebut efektif dan berkualitas. <br><br> Dengan mengikuti tips di atas, Anda dapat memilih cat anti karat yang tepat untuk proyek Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Dalam artikel ini, kita telah membahas tentang jenis, merek, dan cara aplikasi cat anti karat yang benar untuk besi outdoor. Mandiri Steel, sebagai bengkel las bekasi yang berpengalaman, dapat membantu Anda memilih dan mengaplikasikan cat anti karat yang tepat untuk proyek Anda. <br><br> Dengan menggunakan cat anti karat yang tepat, Anda dapat memastikan bahwa besi outdoor Anda dapat dilindungi dari korosi dan karat, sehingga dapat meningkatkan umur dan keamanan bangunan Anda. <br><br> Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang cat anti karat dan layanan lainnya."
+        }
+      ],
+      "conclusion": "Panduan cat anti karat untuk besi outdoor ini dapat membantu Anda memilih dan mengaplikasikan cat anti karat yang tepat untuk proyek Anda. Dengan menggunakan cat anti karat yang tepat, Anda dapat memastikan bahwa besi outdoor Anda dapat dilindungi dari korosi dan karat, sehingga dapat meningkatkan umur dan keamanan bangunan Anda."
+    },
+    "tags": [
+      "Tips and Trick",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 17,
+    "title": "Jasa Las Bekasi untuk Perumahan Baru",
+    "slug": "jasa-las-bekasi-untuk-perumahan-baru",
+    "excerpt": "Mandiri Steel, bengkel las terpercaya di Bekasi, menawarkan jasa las untuk perumahan baru di Kota Deltamas, Lippo Cikarang, dan Meikarta",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, Kota Bekasi dan sekitarnya telah mengalami pertumbuhan pesat di bidang properti, terutama di daerah Kota Deltamas, Lippo Cikarang, dan Meikarta. Seiring dengan pertumbuhan ini, kebutuhan akan jasa las yang berkualitas dan terpercaya juga meningkat. Mandiri Steel, sebagai bengkel las yang telah berpengalaman lebih dari 25 tahun, hadir untuk memenuhi kebutuhan tersebut dengan menawarkan jasa las untuk perumahan baru di daerah tersebut.",
+      "keyPoints": [
+        "Mandiri Steel menawarkan jasa las yang berkualitas dan terpercaya",
+        "Kami menggunakan bahan-bahan SNI yang heavy-duty untuk memastikan keamanan dan ketahanan",
+        "Tim kami yang berpengalaman akan melakukan survei dan pengukuran on-site secara gratis",
+        "Kami memberikan garansi struktural untuk semua pekerjaan kami",
+        "Kami melayani kebutuhan jasa las untuk perumahan baru di Kota Deltamas, Lippo Cikarang, dan Meikarta"
+      ],
+      "sections": [
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Jasa Las Perumahan Baru?",
+          "content": "Mandiri Steel telah berdiri selama lebih dari 25 tahun dan telah menjadi salah satu bengkel las terpercaya di Bekasi. Kami memiliki tim yang berpengalaman dan terlatih untuk menangani berbagai jenis pekerjaan las, dari yang sederhana hingga yang kompleks. Kami menggunakan bahan-bahan SNI yang heavy-duty untuk memastikan keamanan dan ketahanan semua pekerjaan kami. Dengan demikian, Anda dapat yakin bahwa perumahan baru Anda akan dibangun dengan kuat dan tahan lama.",
+          "imageSearchQuery": "bengkel las bekasi terpercaya",
+          "image": "https://images.unsplash.com/photo-1655558852019-bfa6231825d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwYmVrYXNpJTIwdGVycGVyY2F5YXxlbnwwfDB8fHwxNzgzOTgwOTExfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Kelebihan Jasa Las Mandiri Steel",
+          "content": "Mandiri Steel memiliki beberapa kelebihan yang membuat kami berbeda dari yang lain. Pertama, kami menawarkan survei dan pengukuran on-site secara gratis untuk memastikan bahwa pekerjaan kami sesuai dengan kebutuhan Anda. Kedua, kami memberikan garansi struktural untuk semua pekerjaan kami, sehingga Anda dapat yakin bahwa perumahan baru Anda akan dibangun dengan kuat dan tahan lama. Ketiga, kami memiliki tim yang berpengalaman dan terlatih untuk menangani berbagai jenis pekerjaan las, sehingga Anda dapat yakin bahwa pekerjaan kami akan dilakukan dengan cepat dan efisien."
+        },
+        {
+          "heading": "Tips untuk Memilih Jasa Las yang Tepat untuk Perumahan Baru",
+          "content": "Dalam memilih jasa las untuk perumahan baru, ada beberapa hal yang perlu Anda pertimbangkan. Pertama, pastikan bahwa jasa las yang Anda pilih memiliki pengalaman yang cukup dan reputasi yang baik. Kedua, pastikan bahwa jasa las yang Anda pilih menggunakan bahan-bahan SNI yang heavy-duty untuk memastikan keamanan dan ketahanan. Ketiga, pastikan bahwa jasa las yang Anda pilih menawarkan survei dan pengukuran on-site secara gratis untuk memastikan bahwa pekerjaan mereka sesuai dengan kebutuhan Anda. Dengan mempertimbangkan hal-hal tersebut, Anda dapat yakin bahwa perumahan baru Anda akan dibangun dengan kuat dan tahan lama.",
+          "productId": 1
+        },
+        {
+          "heading": "Contoh Pekerjaan Jasa Las Mandiri Steel",
+          "content": "Mandiri Steel telah menangani berbagai jenis pekerjaan las untuk perumahan baru di Kota Deltamas, Lippo Cikarang, dan Meikarta. Salah satu contoh pekerjaan kami adalah pembangunan kanopi minimalis Alderon (Kanopi - Best Seller) untuk sebuah perumahan baru di Kota Deltamas. Kanopi ini dibangun dengan menggunakan bahan-bahan SNI yang heavy-duty dan dirancang untuk memastikan keamanan dan ketahanan. Dengan demikian, perumahan baru tersebut dapat dibangun dengan kuat dan tahan lama.",
+          "productId": 2
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Jasa Las di Bekasi?",
+          "content": "Mandiri Steel telah menjadi salah satu bengkel las terpercaya di Bekasi karena kami memiliki tim yang berpengalaman dan terlatih, menggunakan bahan-bahan SNI yang heavy-duty, dan menawarkan survei dan pengukuran on-site secara gratis. Dengan demikian, Anda dapat yakin bahwa perumahan baru Anda akan dibangun dengan kuat dan tahan lama. Selain itu, kami juga melayani kebutuhan jasa las untuk perumahan baru di Kota Deltamas, Lippo Cikarang, dan Meikarta, sehingga Anda dapat yakin bahwa kami dapat menangani pekerjaan las Anda dengan cepat dan efisien.",
+          "productId": 3
+        }
+      ],
+      "conclusion": "Dalam memilih jasa las untuk perumahan baru di Kota Deltamas, Lippo Cikarang, dan Meikarta, pastikan bahwa Anda memilih jasa las yang berkualitas dan terpercaya. Mandiri Steel, sebagai bengkel las yang telah berpengalaman lebih dari 25 tahun, hadir untuk memenuhi kebutuhan tersebut dengan menawarkan jasa las yang berkualitas dan terpercaya. Dengan menggunakan bahan-bahan SNI yang heavy-duty, menawarkan survei dan pengukuran on-site secara gratis, dan memberikan garansi struktural untuk semua pekerjaan kami, Anda dapat yakin bahwa perumahan baru Anda akan dibangun dengan kuat dan tahan lama. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang jasa las kami!"
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 18,
+    "title": "Mezzanine Baja Ruko Cikarang",
+    "slug": "mezzanine-baja-ruko-cikarang",
+    "excerpt": "Mezzanine baja untuk ruko dan toko di Cikarang: desain, kekuatan, dan estimasi biaya",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1593012672010-5709b6d407cb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtZXp6YW5pbmUlMjBzdGVlbCUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8fHwxNzgzOTgwOTgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, permintaan akan mezzanine baja untuk ruko dan toko di Cikarang meningkat pesat. Hal ini disebabkan oleh kebutuhan akan ruang tambahan yang efektif dan efisien. Mezzanine baja dapat menjadi solusi yang tepat untuk meningkatkan kapasitas penyimpanan dan memaksimalkan ruang. Dalam artikel ini, kita akan membahas tentang desain, kekuatan, dan estimasi biaya mezzanine baja untuk ruko dan toko di Cikarang.",
+      "keyPoints": [
+        "Mezzanine baja dapat meningkatkan kapasitas penyimpanan",
+        "Desain mezzanine baja yang tepat dapat memaksimalkan ruang",
+        "Estimasi biaya mezzanine baja yang akurat dapat membantu dalam perencanaan"
+      ],
+      "sections": [
+        {
+          "heading": "Desain Mezzanine Baja",
+          "content": "Desain mezzanine baja yang tepat sangat penting untuk memaksimalkan ruang dan meningkatkan kapasitas penyimpanan. Beberapa hal yang perlu dipertimbangkan dalam desain mezzanine baja adalah <strong>ukuran, bentuk, dan material</strong>. Ukuran mezzanine baja harus disesuaikan dengan ukuran ruko atau toko, sedangkan bentuknya harus sesuai dengan kebutuhan penyimpanan. Material yang digunakan juga harus kuat dan tahan lama, seperti <em>baja</em> yang diproduksi oleh Mandiri Steel, sebuah perusahaan baja yang telah berpengalaman lebih dari 25 tahun di Bekasi.",
+          "imageSearchQuery": "steel mezzanine design",
+          "image": "https://images.unsplash.com/photo-1727062307337-bde82e3e4672?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMG1lenphbmluZSUyMGRlc2lnbnxlbnwwfDB8fHwxNzgzOTgwOTgyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Kekuatan Mezzanine Baja",
+          "content": "Kekuatan mezzanine baja sangat penting untuk menjamin keselamatan dan keamanan ruko atau toko. Beberapa faktor yang mempengaruhi kekuatan mezzanine baja adalah <strong>material, konstruksi, dan pemasangan</strong>. Material baja yang digunakan harus memiliki kekuatan yang tinggi dan tahan lama, sedangkan konstruksi mezzanine baja harus direncanakan dengan baik untuk menahan beban yang berat. Pemasangan mezzanine baja juga harus dilakukan dengan hati-hati dan teliti untuk memastikan bahwa semua komponen terpasang dengan baik."
+        },
+        {
+          "heading": "Estimasi Biaya Mezzanine Baja",
+          "content": "Estimasi biaya mezzanine baja sangat penting untuk membantu dalam perencanaan dan anggaran. Beberapa faktor yang mempengaruhi biaya mezzanine baja adalah <strong>ukuran, material, dan kompleksitas</strong>. Ukuran mezzanine baja yang lebih besar akan memerlukan biaya yang lebih tinggi, sedangkan material yang digunakan juga akan mempengaruhi biaya. Kompleksitas desain dan konstruksi mezzanine baja juga akan mempengaruhi biaya. Dengan demikian, penting untuk melakukan survei dan pengukuran yang akurat sebelum memulai proyek mezzanine baja. Mandiri Steel menawarkan <strong>survei dan pengukuran gratis</strong> untuk membantu dalam perencanaan dan anggaran.",
+          "productId": 7
+        },
+        {
+          "heading": "Tips dan Saran",
+          "content": "Dalam memilih mezzanine baja, ada beberapa tips dan saran yang perlu dipertimbangkan. Pertama, <strong>pilih material yang kuat dan tahan lama</strong>. Kedua, <strong>perhatikan desain dan konstruksi</strong> mezzanine baja untuk memastikan bahwa semua komponen terpasang dengan baik. Ketiga, <strong>pastikan bahwa mezzanine baja dipasang dengan hati-hati dan teliti</strong> untuk memastikan keselamatan dan keamanan. Dengan demikian, mezzanine baja dapat menjadi solusi yang tepat untuk meningkatkan kapasitas penyimpanan dan memaksimalkan ruang.",
+          "productId": 1
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Mezzanine baja dapat menjadi solusi yang tepat untuk meningkatkan kapasitas penyimpanan dan memaksimalkan ruang. Dengan desain yang tepat, kekuatan yang tinggi, dan estimasi biaya yang akurat, mezzanine baja dapat menjadi investasi yang berharga untuk ruko dan toko di Cikarang. Mandiri Steel, sebagai perusahaan baja yang telah berpengalaman lebih dari 25 tahun di Bekasi, dapat membantu dalam perencanaan, desain, dan pemasangan mezzanine baja. Dengan <strong>garansi struktural</strong> dan <strong>lasan yang rapi</strong>, Mandiri Steel dapat memastikan bahwa mezzanine baja yang dipasang dapat bertahan lama dan aman.",
+          "productId": 3
+        }
+      ],
+      "conclusion": "Dengan demikian, mezzanine baja dapat menjadi solusi yang tepat untuk meningkatkan kapasitas penyimpanan dan memaksimalkan ruang. Dengan mempertimbangkan desain, kekuatan, dan estimasi biaya, serta memilih material yang kuat dan tahan lama, mezzanine baja dapat menjadi investasi yang berharga untuk ruko dan toko di Cikarang. Mandiri Steel siap membantu dalam perencanaan, desain, dan pemasangan mezzanine baja untuk memastikan bahwa mezzanine baja yang dipasang dapat bertahan lama dan aman."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 13,
     "title": "Desain Teralis Jendela Minimalis",
     "slug": "desain-teralis-jendela-minimalis",
