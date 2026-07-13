@@ -109,7 +109,7 @@ const sanitizeSearchParams = (
     }
     if (key === 'lang') {
       if (!includeLang) return
-      if (value === 'en') return // English is the default language
+      if (value === 'id') return // Indonesian is the default language
     }
     sanitized.set(key, value)
   })
@@ -150,7 +150,7 @@ export const generateLocalizedUrls = (pathname: string, search: string = '') => 
   const baseParamsString = baseParams.toString()
 
   const buildLangHref = (lang: LanguageCode) => {
-    if (lang === 'en') {
+    if (lang === 'id') {
       return buildUrlFromParams(normalizedPath, new URLSearchParams(baseParamsString))
     }
     const langParams = new URLSearchParams(baseParamsString)
@@ -185,7 +185,7 @@ export const generateHreflangTags = (path: string, search: string = '') => {
 
   const entries = SUPPORTED_LANGUAGES.reduce<Record<string, string>>((acc, code) => {
     const langParams = new URLSearchParams(baseParamsString)
-    if (code !== 'en') {
+    if (code !== 'id') {
       langParams.set('lang', code)
     }
     acc[LANGUAGE_METADATA[code].hrefLang] = buildUrlFromParams(normalizedPath, langParams)
