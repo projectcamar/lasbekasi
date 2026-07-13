@@ -8,6 +8,11 @@ export interface BlogPost {
   date: string
   author?: string
   status?: 'draft' | 'synced'
+  language?: string
+  content?: any
+  tags?: string[]
+  published?: boolean
+  featured?: boolean
 
   // Custom content (optional) - takes priority over AI-generated content
   customContent?: {
