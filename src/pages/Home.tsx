@@ -487,9 +487,11 @@ const Home: React.FC = () => {
                 <div className="mandiri-home__heritage-inner">
                     <div className="mandiri-home__heritage-image">
                         <img
-                            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=80&w=800"
+                            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&q=60&w=675"
                             alt="Workshop Bengkel Las Mandiri di Bekasi"
                             loading="lazy"
+                            width="675"
+                            height="450"
                         />
                         <div className="mandiri-home__heritage-image-accent" />
                     </div>
@@ -619,9 +621,11 @@ const Home: React.FC = () => {
                 <div className="mandiri-home__sustainability-inner">
                     <div className="mandiri-home__sustainability-image">
                         <img
-                            src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=800"
+                            src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=60&w=675"
                             alt="Keunggulan Bengkel Las Mandiri Bekasi"
                             loading="lazy"
+                            width="675"
+                            height="450"
                         />
                         <span className="mandiri-home__sustainability-badge">{t.sustainBadge}</span>
                     </div>

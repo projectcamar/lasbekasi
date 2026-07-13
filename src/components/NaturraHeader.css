@@ -3,7 +3,7 @@
    Design: ECOM-style clean green corporate
    ============================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+/* Inter font loaded asynchronously via index.html link tag */
 
 .naturra-header {
   position: fixed;

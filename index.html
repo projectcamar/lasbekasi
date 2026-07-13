@@ -71,17 +71,18 @@
   <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
 
-  <!-- Preload critical fonts -->
-  <link rel="preload"
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
-    as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <!-- Non-blocking async font loading (eliminates render-blocking) -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    media="print" onload="this.media='all'" />
   <noscript>
     <link rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" />
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" />
   </noscript>
 
-  <!-- Preload critical images -->
-  <link rel="preload" as="image" href="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp"
+  <!-- Preload LCP hero image -->
+  <link rel="preload" as="image"
+    href="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&q=80&w=1335"
     fetchpriority="high" />
 
   <!-- RESTORED: Critical CSS for above-the-fold content -->
@@ -405,7 +406,7 @@
       <h2>Spesialis Las Listrik, Konstruksi Baja & Aksesori Rumah di Bekasi</h2>
       <p><strong>Bengkel Las Mandiri di Bekasi</strong>, yang dipimpin oleh Bapak Maman Toha, adalah bengkel las profesional yang telah berdiri sejak tahun 1999. Dengan pengalaman lebih dari 20 tahun dalam <strong>jasa las listrik</strong> dan <strong>konstruksi baja</strong>, kami telah menjadi bengkel las terpercaya di Bekasi dan sekitarnya. Sebagai spesialis fabrikasi besi, kami selalu mengedepankan kualitas tinggi dan kepuasan pelanggan dalam setiap proyek pengelasan.</p>
       
-      <img src="/src/assets/pngtree-a-welder-works-with-metal-in-a-factory-shop.webp" alt="Bengkel Las Bekasi Profesional Mandiri Steel" title="Bengkel Las Mandiri Bekasi" />
+      <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=400&q=60" alt="Bengkel Las Bekasi Profesional Mandiri Steel" title="Bengkel Las Mandiri Bekasi" width="400" height="267" loading="lazy" />
 
       <h3>Layanan Kanopi Bekasi</h3>
       <p>Pembuatan <strong>kanopi minimalis</strong> dengan berbagai jenis atap (Alderon, Spandek, Polycarbonate) untuk rumah, ruko, dan bangunan komersial di wilayah Bekasi. Rangka besi tebal dan kokoh dengan finishing anti karat. Kami menyediakan jasa pemasangan kanopi berkualitas yang tahan lama terhadap cuaca ekstrem. <a href="/products" title="Lihat Layanan Kanopi">Lihat layanan kanopi</a>.</p>
@@ -416,7 +417,7 @@
       <h3>Layanan Teralis Jendela Bekasi</h3>
       <p><strong>Teralis jendela anti maling</strong> dengan desain modern dan plat cutting laser. Memberikan keamanan maksimal tanpa mengurangi estetika rumah Anda. <strong>Teralis</strong> kami dibuat presisi agar pas dengan jendela rumah Anda. <a href="/products" title="Pesan Teralis Jendela">Pesan teralis jendela</a>.</p>
       
-      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80" alt="Konstruksi Baja Bengkel Las Bekasi" title="Konstruksi Baja Bekasi" />
+      <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=400&q=60" alt="Konstruksi Baja Bengkel Las Bekasi" title="Konstruksi Baja Bekasi" width="400" height="267" loading="lazy" />
 
       <h3>Jasa Konstruksi Baja dan Mezanin</h3>
       <p>Selain aksesoris rumah, <strong>Bengkel Las Bekasi</strong> kami juga ahli dalam pembuatan konstruksi baja berat WF (Wide Flange) dan H-Beam untuk pembangunan pabrik, gudang, lapangan futsal, hingga pembuatan lantai mezanin. <strong>Konstruksi baja</strong> kami didukung oleh tenaga las bersertifikat yang mengutamakan kekuatan dan keselamatan struktur.</p>

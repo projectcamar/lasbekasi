@@ -144,7 +144,7 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
               {descriptions[language] || descriptions.en}
             </p>
             <div className="footer-contact-info">
-              <h4>{language === 'id' ? "Hubungi Kami" : language === 'ar' ? "اتصل بنا" : language === 'zh' ? "联系我们" : language === 'ja' ? "お問い合わせ" : language === 'es' ? "Contáctenos" : language === 'fr' ? "Contactez-nous" : language === 'ko' ? "연락처" : "Contact Us"}</h4>
+              <h3>{language === 'id' ? "Hubungi Kami" : language === 'ar' ? "اتصل بنا" : language === 'zh' ? "联系我们" : language === 'ja' ? "お問い合わせ" : language === 'es' ? "Contáctenos" : language === 'fr' ? "Contactez-nous" : language === 'ko' ? "연락처" : "Contact Us"}</h3>
               <p>
                 <a href="mailto:info@lasbekasi.com" style={{ color: '#cbd5e1', textDecoration: 'underline' }}>
                   info@lasbekasi.com
@@ -174,9 +174,9 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
 
           {/* Find Us */}
           <div className="footer-column">
-            <h4>{language === 'id' ? "Workshop Kami" : language === 'ar' ? "موقعنا" : language === 'zh' ? "找到我们" : language === 'ja' ? "アクセス" : language === 'es' ? "Encuéntranos" : language === 'fr' ? "Nous Trouver" : language === 'ko' ? "찾아오시는 길" : "Find Us"}</h4>
+            <h3>{language === 'id' ? "Workshop Kami" : language === 'ar' ? "موقعنا" : language === 'zh' ? "找到我们" : language === 'ja' ? "アクセス" : language === 'es' ? "Encuéntranos" : language === 'fr' ? "Nous Trouver" : language === 'ko' ? "찾아오시는 길" : "Find Us"}</h3>
             <div className="footer-location">
-              <h5>Bekasi Workshop:</h5>
+              <h4>Bekasi Workshop:</h4>
               <p>
                 <a
                   href="https://maps.app.goo.gl/5Bc5ymfVtAYRPtpK7"
@@ -208,7 +208,7 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
 
           {/* Quick Links */}
           <div className="footer-column">
-            <h4>{language === 'id' ? "Tautan Cepat" : language === 'ar' ? "روابط سريعة" : language === 'zh' ? "快速链接" : language === 'ja' ? "クイックリンク" : language === 'es' ? "Enlaces Rápido" : language === 'fr' ? "Liens Rapides" : language === 'ko' ? "빠른 링크" : "Quick Links"}</h4>
+            <h3>{language === 'id' ? "Tautan Cepat" : language === 'ar' ? "روابط سريعة" : language === 'zh' ? "快速链接" : language === 'ja' ? "クイックリンク" : language === 'es' ? "Enlaces Rápido" : language === 'fr' ? "Liens Rapides" : language === 'ko' ? "빠른 링크" : "Quick Links"}</h3>
             <ul className="footer-links">
               <li><Link to={getLinkWithLanguage("/products", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Layanan' : 'Services'}</Link></li>
               <li><Link to={getLinkWithLanguage("/about", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Tentang Kami' : 'About Us'}</Link></li>
@@ -223,7 +223,7 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
 
           {/* Categories / Services */}
           <div className="footer-column">
-            <h4>{language === 'id' ? 'Layanan Kami' : 'Our Services'}</h4>
+            <h3>{language === 'id' ? 'Layanan Kami' : 'Our Services'}</h3>
             <ul className="footer-links">
               {currentCategories.map((cat, idx) => (
                 <li key={idx}>
@@ -237,7 +237,7 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
 
           {/* Subscribe */}
           <div className="footer-column">
-            <h4>{language === 'id' ? "Berlangganan" : language === 'ar' ? "اشترك" : language === 'zh' ? "订阅" : language === 'ja' ? "登録" : language === 'es' ? "Suscríbete" : language === 'fr' ? "S'abonner" : language === 'ko' ? "구독" : "Subscribe"}</h4>
+            <h3>{language === 'id' ? "Berlangganan" : language === 'ar' ? "اشترك" : language === 'zh' ? "订阅" : language === 'ja' ? "登録" : language === 'es' ? "Suscríbete" : language === 'fr' ? "S'abonner" : language === 'ko' ? "구독" : "Subscribe"}</h3>
             <form onSubmit={handleSubscribe} className="footer-subscribe-form">
               <input
                 type="text"

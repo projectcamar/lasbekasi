@@ -38,7 +38,7 @@
   margin-bottom: 25px;
 }
 
-.footer-contact-info h4 {
+.footer-contact-info h3 {
   font-size: 0.95rem;
   font-weight: 600;
   margin-bottom: 12px;
@@ -75,7 +75,7 @@
 }
 
 /* Footer Columns */
-.footer-column h4 {
+.footer-column h3 {
   font-size: 0.95rem;
   font-weight: 600;
   margin-bottom: 20px;
@@ -86,7 +86,7 @@
   margin-bottom: 20px;
 }
 
-.footer-location h5 {
+.footer-location h4 {
   font-size: 0.85rem;
   font-weight: 600;
   color: #fff;
@@ -407,7 +407,7 @@
 }
 
 .footer-bottom p {
-  color: #888;
+  color: #aaa;
   margin: 0;
   font-size: 0.85rem;
 }
