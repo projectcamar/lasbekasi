@@ -285,6 +285,13 @@ const Home: React.FC = () => {
                     "brand": {
                         "@type": "Brand",
                         "name": "Bengkel Las Mandiri"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "450000",
+                        "priceCurrency": "IDR",
+                        "availability": "https://schema.org/InStock",
+                        "priceValidUntil": "2026-12-31"
                     }
                 }
             },
@@ -300,6 +307,13 @@ const Home: React.FC = () => {
                     "brand": {
                         "@type": "Brand",
                         "name": "Bengkel Las Mandiri"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "550000",
+                        "priceCurrency": "IDR",
+                        "availability": "https://schema.org/InStock",
+                        "priceValidUntil": "2026-12-31"
                     }
                 }
             },
@@ -310,11 +324,18 @@ const Home: React.FC = () => {
                     "@type": "Product",
                     "name": language === 'id' ? "Konstruksi Baja WF & Mezanin" : "WF Steel Construction & Mezzanine",
                     "description": language === 'id' ? "Rangka baja WF/H-Beam untuk gudang, pabrik, lapangan futsal, atau dak mezanin." : "WF/H-Beam steel frame for warehouses, factories, futsal courts, or mezzanine decks.",
-                    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+                    "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
                     "url": "https://lasbekasi.com/products",
                     "brand": {
                         "@type": "Brand",
                         "name": "Bengkel Las Mandiri"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "1000000",
+                        "priceCurrency": "IDR",
+                        "availability": "https://schema.org/InStock",
+                        "priceValidUntil": "2026-12-31"
                     }
                 }
             },
@@ -325,11 +346,18 @@ const Home: React.FC = () => {
                     "@type": "Product",
                     "name": language === 'id' ? "Teralis Pengaman Jendela" : "Window Security Trellis",
                     "description": language === 'id' ? "Pengaman jendela dari besi solid behel atau ulir dengan motif estetik." : "Solid iron window security grills with aesthetic motifs.",
-                    "image": "https://images.unsplash.com/photo-1513828583688-c52646db42da?auto=format&fit=crop&w=800&q=80",
+                    "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80",
                     "url": "https://lasbekasi.com/products",
                     "brand": {
                         "@type": "Brand",
                         "name": "Bengkel Las Mandiri"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "350000",
+                        "priceCurrency": "IDR",
+                        "availability": "https://schema.org/InStock",
+                        "priceValidUntil": "2026-12-31"
                     }
                 }
             },
@@ -340,11 +368,18 @@ const Home: React.FC = () => {
                     "@type": "Product",
                     "name": language === 'id' ? "Railing Tangga & Balkon" : "Stair & Balkony Railing",
                     "description": language === 'id' ? "Railing tangga besi, kayu, dan railing balkon pengaman stainless steel." : "Iron, wood stair railings and stainless steel safety balcony railings.",
-                    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+                    "image": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=800&q=80",
                     "url": "https://lasbekasi.com/products",
                     "brand": {
                         "@type": "Brand",
                         "name": "Bengkel Las Mandiri"
+                    },
+                    "offers": {
+                        "@type": "Offer",
+                        "price": "500000",
+                        "priceCurrency": "IDR",
+                        "availability": "https://schema.org/InStock",
+                        "priceValidUntil": "2026-12-31"
                     }
                 }
             }
