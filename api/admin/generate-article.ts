@@ -3,6 +3,7 @@ import type { VercelRequest, VercelResponse } from '@vercel/node';
 const GROQ_API_KEY = process.env.GROQ_API_KEY || '';
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY || '';
 const UNSPLASH_ACCESS_KEY = process.env.UNSPLASH_ACCESS_KEY || '';
+const BLUESMINDS_API_KEY = process.env.BLUESMINDS_API_KEY || '';
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
 
@@ -185,76 +186,110 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     }
 
     try {
-        const { prompt, category, model = 'llama-3.3-70b-versatile', language, groqApiKey, openRouterApiKey, unsplashAccessKey }: GenerateArticleRequest & { groqApiKey?: string; openRouterApiKey?: string; unsplashAccessKey?: string } = req.body;
+        const { prompt, category, model = 'llama-3.3-70b-versatile', language, groqApiKey, openRouterApiKey, bluesmindsApiKey, unsplashAccessKey }: GenerateArticleRequest & { groqApiKey?: string; openRouterApiKey?: string; bluesmindsApiKey?: string; unsplashAccessKey?: string } = req.body;
 
         if (!prompt || prompt.trim().length === 0) {
             return res.status(400).json({ error: 'Prompt is required' });
         }
 
-        // Determine which API to use based on model
-        const isOpenRouter = model.includes('/');
-        const apiUrl = isOpenRouter ? OPENROUTER_API_URL : GROQ_API_URL;
-        
-        let apiKey = isOpenRouter 
-            ? (openRouterApiKey || OPENROUTER_API_KEY) 
-            : (groqApiKey || GROQ_API_KEY);
+        // --- Fallback & Retry Logic ---
+        let aiResponse: string | null = null;
+        let lastError: any = null;
 
-        apiKey = apiKey?.trim();
+        for (let attempt = 1; attempt <= 4; attempt++) {
+            try {
+                let currentModel = model;
+                let currentApiUrl = OPENROUTER_API_URL;
+                let currentApiKey = OPENROUTER_API_KEY;
+                let currentProvider = 'openrouter';
 
-        if (!apiKey || apiKey === 'gsk_dev_placeholder' || apiKey === 'dev_placeholder') {
-            return res.status(500).json({
-                error: `API key not configured for ${isOpenRouter ? 'OpenRouter' : 'Groq'}. Please configure it in your environment variables or settings.`
-            });
-        }
+                if (attempt === 1) {
+                    currentProvider = 'bluesminds';
+                    currentApiKey = bluesmindsApiKey || BLUESMINDS_API_KEY;
+                    currentModel = 'claude-sonnet-4-6';
+                    currentApiUrl = 'https://api.bluesminds.com/v1/chat/completions';
+                } else if (attempt === 2) {
+                    currentProvider = 'bluesminds';
+                    currentApiKey = bluesmindsApiKey || BLUESMINDS_API_KEY;
+                    currentModel = 'moonshotai/kimi-k2.6';
+                    currentApiUrl = 'https://api.bluesminds.com/v1/chat/completions';
+                } else if (attempt === 3) {
+                    currentProvider = 'bluesminds';
+                    currentApiKey = bluesmindsApiKey || BLUESMINDS_API_KEY;
+                    currentModel = 'qwen3.6-27b';
+                    currentApiUrl = 'https://api.bluesminds.com/v1/chat/completions';
+                } else if (attempt === 4) {
+                    // Fallback to the original model (e.g. Groq or OpenRouter)
+                    const isOpenRouter = model.includes('/');
+                    currentApiUrl = isOpenRouter ? OPENROUTER_API_URL : GROQ_API_URL;
+                    currentApiKey = isOpenRouter 
+                        ? (openRouterApiKey || OPENROUTER_API_KEY) 
+                        : (groqApiKey || GROQ_API_KEY);
+                    currentApiKey = currentApiKey?.trim() || '';
+                    currentModel = model;
+                    currentProvider = isOpenRouter ? 'openrouter' : 'groq';
 
-        // Prepare headers
-        const headers: Record<string, string> = {
-            'Authorization': `Bearer ${apiKey}`,
-            'Content-Type': 'application/json',
-        };
-
-        // Add OpenRouter-specific headers
-        if (isOpenRouter) {
-            headers['HTTP-Referer'] = 'https://lasbekasi.com';
-            headers['X-Title'] = 'Mandiri Steel Blog Generator';
-        }
-
-        // Call AI API
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers,
-            body: JSON.stringify({
-                model,
-                messages: [
-                    {
-                        role: 'system',
-                        content: SYSTEM_PROMPT
-                    },
-                    {
-                        role: 'user',
-                        content: `Generate a blog article about: ${prompt}${category ? `\nPreferred category: ${category}` : ''}${language ? `\nTARGET LANGUAGE: ${language} (MUST USE THIS LANGUAGE)` : ''}`
+                    if (!currentApiKey || currentApiKey === 'gsk_dev_placeholder' || currentApiKey === 'dev_placeholder') {
+                        throw new Error(`API key not configured for ${currentProvider}.`);
                     }
-                ],
-                temperature: 0.7,
-                max_tokens: 4000,
-                ...(isOpenRouter ? {} : { response_format: { type: 'json_object' } })
-            }),
-        });
+                }
 
-        if (!response.ok) {
-            const errorData = await response.text();
-            console.error('AI API error:', errorData);
-            return res.status(response.status).json({
-                error: 'AI generation failed',
-                details: errorData
-            });
+                // Prepare headers
+                const headers: Record<string, string> = {
+                    'Authorization': `Bearer ${currentApiKey}`,
+                    'Content-Type': 'application/json',
+                };
+
+                // Add OpenRouter-specific headers if needed
+                if (currentProvider === 'openrouter') {
+                    headers['HTTP-Referer'] = 'https://lasbekasi.com';
+                    headers['X-Title'] = 'Mandiri Steel Blog Generator';
+                }
+
+                console.log(`[Attempt ${attempt}] Trying model: ${currentModel} via ${currentProvider}`);
+
+                // Call AI API
+                const apiResponse = await fetch(currentApiUrl, {
+                    method: 'POST',
+                    headers,
+                    body: JSON.stringify({
+                        model: currentModel,
+                        messages: [
+                            { role: 'system', content: SYSTEM_PROMPT },
+                            { role: 'user', content: `Generate a blog article about: ${prompt}${category ? `\nPreferred category: ${category}` : ''}${language ? `\nTARGET LANGUAGE: ${language} (MUST USE THIS LANGUAGE)` : ''}` }
+                        ],
+                        temperature: 0.7,
+                        max_tokens: 4000,
+                        ...(currentProvider !== 'openrouter' && currentProvider !== 'bluesminds' ? { response_format: { type: 'json_object' } } : {})
+                    }),
+                });
+
+                if (!apiResponse.ok) {
+                    const errorText = await apiResponse.text();
+                    throw new Error(`API error ${apiResponse.status}: ${errorText}`);
+                }
+
+                const data = await apiResponse.json();
+                aiResponse = data.choices?.[0]?.message?.content;
+
+                if (aiResponse) {
+                    console.log(`[Attempt ${attempt}] Success!`);
+                    break; // Exit loop if successful
+                } else {
+                    throw new Error('No content returned from AI');
+                }
+            } catch (err) {
+                console.error(`[Attempt ${attempt}] Failed:`, (err as Error).message);
+                lastError = err;
+                // If it's the last attempt, don't throw yet, it will be handled below
+            }
         }
-
-        const data = await response.json();
-        const aiResponse = data.choices[0]?.message?.content;
 
         if (!aiResponse) {
-            return res.status(500).json({ error: 'No response from AI' });
+            return res.status(500).json({ 
+                error: 'All AI fallback attempts failed', 
+                details: lastError instanceof Error ? lastError.message : String(lastError) 
+            });
         }
 
         // Parse AI response
