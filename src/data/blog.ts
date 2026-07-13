@@ -28,6 +28,164 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 13,
+    "title": "Desain Teralis Jendela Minimalis",
+    "slug": "desain-teralis-jendela-minimalis",
+    "excerpt": "Inspirasi desain teralis jendela minimalis dengan plat cutting laser untuk rumah modern di Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1492999104346-cabaa757be8f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwd2luZG93JTIwdHJlbGxpcyUyMGRlc2lnbnxlbnwwfDB8fHwxNzgzOTgwMjMwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Desain teralis jendela minimalis dengan plat cutting laser telah menjadi tren di kalangan arsitek dan desainer interior di Bekasi. Dengan kemampuan untuk memotong plat dengan presisi tinggi, teknologi laser cutting memungkinkan pembuatan desain yang kompleks dan unik. Pada artikel ini, kita akan membahas inspirasi desain teralis jendela minimalis dengan plat cutting laser untuk rumah modern di Bekasi.",
+      "keyPoints": [
+        "Desain teralis jendela minimalis dengan plat cutting laser",
+        "Inspirasi desain untuk rumah modern di Bekasi",
+        "Teknologi laser cutting untuk pembuatan desain yang kompleks"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Desain Teralis Jendela Minimalis",
+          "content": "Desain teralis jendela minimalis memiliki beberapa kelebihan, seperti kemampuan untuk memaksimalkan pencahayaan alami dan memberikan kesan yang lebih luas pada ruangan. Selain itu, desain minimalis juga dapat memberikan kesan yang lebih modern dan elegan pada rumah. Dengan menggunakan plat cutting laser, desain teralis jendela minimalis dapat dibuat dengan presisi tinggi dan detail yang kompleks. <br> <strong>Mandiri Steel</strong>, sebagai salah satu bengkel las terkemuka di Bekasi, telah memiliki pengalaman lebih dari 25 tahun dalam pembuatan desain teralis jendela minimalis dengan plat cutting laser. Dengan menggunakan bahan-bahan yang berkualitas tinggi dan teknologi laser cutting yang canggih, Mandiri Steel dapat membantu Anda menciptakan desain teralis jendela minimalis yang unik dan sesuai dengan kebutuhan Anda.",
+          "imageSearchQuery": "minimalist window trellis design with laser cutting",
+          "image": "https://images.unsplash.com/photo-1743901371006-a7f2aa308ea1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwd2luZG93JTIwdHJlbGxpcyUyMGRlc2lnbiUyMHdpdGglMjBsYXNlciUyMGN1dHRpbmd8ZW58MHwwfHx8MTc4Mzk4MDIzMXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Inspirasi Desain Teralis Jendela Minimalis",
+          "content": "Berikut beberapa inspirasi desain teralis jendela minimalis yang dapat Anda pertimbangkan untuk rumah modern di Bekasi: <br> 1. Desain geometris: Desain geometris dapat memberikan kesan yang modern dan elegan pada rumah. Anda dapat menggunakan kombinasi bentuk-bentuk geometris seperti lingkaran, segitiga, dan persegi untuk menciptakan desain yang unik. <br> 2. Desain alami: Desain alami dapat memberikan kesan yang lebih dekat dengan alam pada rumah. Anda dapat menggunakan motif-motif alami seperti daun, bunga, dan awan untuk menciptakan desain yang unik. <br> 3. Desain abstrak: Desain abstrak dapat memberikan kesan yang lebih modern dan kontemporer pada rumah. Anda dapat menggunakan kombinasi bentuk-bentif abstrak seperti garis, kurva, dan bentuk-bentuk tidak teratur untuk menciptakan desain yang unik."
+        },
+        {
+          "heading": "Tips Membuat Desain Teralis Jendela Minimalis",
+          "content": "Berikut beberapa tips yang dapat Anda pertimbangkan saat membuat desain teralis jendela minimalis: <br> 1. Gunakan bahan-bahan yang berkualitas tinggi: Bahan-bahan yang berkualitas tinggi dapat memberikan kesan yang lebih baik pada desain teralis jendela minimalis. Pastikan Anda memilih bahan-bahan yang tahan lama dan tidak mudah rusak. <br> 2. Perhatikan ukuran dan proporsi: Ukuran dan proporsi desain teralis jendela minimalis dapat mempengaruhi kesan yang dihasilkan. Pastikan Anda memperhatikan ukuran dan proporsi desain agar sesuai dengan kebutuhan Anda. <br> 3. Gunakan teknologi laser cutting: Teknologi laser cutting dapat membantu Anda menciptakan desain yang kompleks dan unik. Pastikan Anda mempertimbangkan menggunakan teknologi laser cutting saat membuat desain teralis jendela minimalis.",
+          "productId": 5
+        },
+        {
+          "heading": "Manfaat Menggunakan Jasa Bengkel Las",
+          "content": "Menggunakan jasa bengkel las dapat memberikan beberapa manfaat, seperti: <br> 1. Kemampuan untuk membuat desain yang kompleks: Bengkel las dapat membantu Anda membuat desain yang kompleks dan unik. <br> 2. Pengalaman dan keahlian: Bengkel las memiliki pengalaman dan keahlian yang lebih baik dalam pembuatan desain teralis jendela minimalis. <br> 3. Bahan-bahan yang berkualitas tinggi: Bengkel las dapat membantu Anda memilih bahan-bahan yang berkualitas tinggi untuk desain teralis jendela minimalis.",
+          "productId": 1
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Desain teralis jendela minimalis dengan plat cutting laser dapat memberikan kesan yang modern dan elegan pada rumah. Dengan menggunakan teknologi laser cutting dan bahan-bahan yang berkualitas tinggi, Anda dapat menciptakan desain yang unik dan sesuai dengan kebutuhan Anda. Pastikan Anda mempertimbangkan menggunakan jasa bengkel las yang berkualitas tinggi seperti Mandiri Steel untuk membantu Anda membuat desain teralis jendela minimalis yang sesuai dengan kebutuhan Anda."
+        }
+      ],
+      "conclusion": "Dengan demikian, desain teralis jendela minimalis dengan plat cutting laser dapat menjadi pilihan yang tepat untuk rumah modern di Bekasi. Pastikan Anda mempertimbangkan menggunakan jasa bengkel las yang berkualitas tinggi dan teknologi laser cutting untuk membantu Anda menciptakan desain yang unik dan sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 14,
+    "title": "Desain Railing Tangga Spiral Besi",
+    "slug": "desain-railing-tangga-spiral-besi",
+    "excerpt": "Railing tangga spiral besi, solusi hemat ruang untuk rumah mungil di Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1646489469828-398a6588bd68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwdGFuZ2dhJTIwc3BpcmFsJTIwYmVzaXxlbnwwfDB8fHwxNzgzOTgwMzAzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah mungil di Bekasi memerlukan desain yang tepat untuk memaksimalkan ruang. Salah satu solusi yang efektif adalah dengan menggunakan railing tangga spiral besi. Dengan desain yang unik dan fungsional, railing tangga spiral besi dapat membantu Anda memaksimalkan ruang dan menciptakan kesan yang elegan. Pada artikel ini, kita akan membahas lebih lanjut tentang desain railing tangga spiral besi dan bagaimana Anda dapat menggunakannya untuk meningkatkan keindahan dan kenyamanan rumah Anda.",
+      "keyPoints": [
+        "Railing tangga spiral besi dapat membantu memaksimalkan ruang",
+        "Desain yang unik dan fungsional",
+        "Menggunakan bahan besi yang kuat dan tahan lama",
+        "Dapat dipasang di berbagai jenis tangga"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Railing Tangga Spiral Besi",
+          "content": "Railing tangga spiral besi memiliki beberapa kelebihan yang membuatnya menjadi pilihan yang populer di kalangan pemilik rumah di Bekasi. Pertama, desainnya yang unik dan elegan dapat menambahkan kesan yang mewah pada rumah Anda. Kedua, railing tangga spiral besi dapat membantu memaksimalkan ruang karena desainnya yang ramping dan tidak memerlukan banyak ruang. Ketiga, bahan besi yang digunakan sangat kuat dan tahan lama, sehingga Anda tidak perlu khawatir tentang keamanan dan kualitasnya. <br> <br> Selain itu, railing tangga spiral besi juga dapat dipasang di berbagai jenis tangga, baik itu tangga lurus, tangga spiral, atau bahkan tangga putar. Hal ini membuatnya sangat fleksibel dan dapat disesuaikan dengan kebutuhan dan desain rumah Anda. <br> <br> Dengan menggunakan railing tangga spiral besi, Anda juga dapat menikmati beberapa manfaat lainnya, seperti kemudahan perawatan dan keamanan yang tinggi. Railing tangga spiral besi sangat mudah dibersihkan dan dirawat, sehingga Anda tidak perlu khawatir tentang biaya perawatan yang tinggi. <br> <br> Jika Anda sedang mencari solusi yang efektif untuk memaksimalkan ruang dan meningkatkan keindahan rumah Anda, maka railing tangga spiral besi adalah pilihan yang tepat. Dengan desain yang unik dan fungsional, serta bahan yang kuat dan tahan lama, railing tangga spiral besi dapat membantu Anda menciptakan rumah yang nyaman dan elegan.",
+          "imageSearchQuery": "railing tangga spiral besi modern",
+          "image": "https://images.unsplash.com/photo-1646489469828-398a6588bd68?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwdGFuZ2dhJTIwc3BpcmFsJTIwYmVzaSUyMG1vZGVybnxlbnwwfDB8fHwxNzgzOTgwMzA0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips Menggunakan Railing Tangga Spiral Besi",
+          "content": "Jika Anda telah memutuskan untuk menggunakan railing tangga spiral besi, maka ada beberapa tips yang perlu Anda perhatikan untuk memastikan bahwa Anda mendapatkan hasil yang maksimal. Pertama, pastikan Anda memilih desain yang sesuai dengan tema dan gaya rumah Anda. Railing tangga spiral besi tersedia dalam berbagai desain dan gaya, sehingga Anda dapat memilih yang paling sesuai dengan kebutuhan Anda. <br> <br> Kedua, pastikan Anda memilih bahan yang kuat dan tahan lama. Bahan besi yang digunakan harus memiliki kualitas yang tinggi dan dapat menahan beban yang berat. <br> <br> Ketiga, pastikan Anda memasang railing tangga spiral besi dengan benar. Pastikan Anda memilih tukang yang berpengalaman dan memiliki kemampuan yang baik dalam memasang railing tangga spiral besi. <br> <br> Keempat, pastikan Anda merawat railing tangga spiral besi dengan benar. Railing tangga spiral besi harus dibersihkan secara teratur untuk memastikan bahwa ia tetap dalam kondisi yang baik. <br> <br> Dengan mengikuti tips di atas, Anda dapat memastikan bahwa railing tangga spiral besi Anda berfungsi dengan baik dan tetap dalam kondisi yang baik selama bertahun-tahun.",
+          "productId": 6
+        },
+        {
+          "heading": "Cara Memilih Railing Tangga Spiral Besi yang Tepat",
+          "content": "Memilih railing tangga spiral besi yang tepat dapat menjadi tugas yang sulit, terutama jika Anda tidak memiliki pengalaman dalam memilih produk seperti ini. Namun, dengan beberapa tips yang tepat, Anda dapat memilih railing tangga spiral besi yang sesuai dengan kebutuhan Anda. <br> <br> Pertama, pastikan Anda menentukan budget Anda sebelum membeli railing tangga spiral besi. Railing tangga spiral besi tersedia dalam berbagai harga, sehingga Anda perlu menentukan berapa banyak uang yang Anda ingin keluarkan. <br> <br> Kedua, pastikan Anda mempertimbangkan ukuran dan bentuk tangga Anda. Railing tangga spiral besi harus sesuai dengan ukuran dan bentuk tangga Anda, sehingga pastikan Anda memilih desain yang sesuai. <br> <br> Ketiga, pastikan Anda mempertimbangkan bahan yang digunakan. Bahan besi yang digunakan harus kuat dan tahan lama, sehingga pastikan Anda memilih bahan yang berkualitas tinggi. <br> <br> Keempat, pastikan Anda mempertimbangkan desain dan gaya railing tangga spiral besi. Railing tangga spiral besi tersedia dalam berbagai desain dan gaya, sehingga pastikan Anda memilih yang paling sesuai dengan tema dan gaya rumah Anda.",
+          "productId": 6
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Railing Tangga Spiral Besi?",
+          "content": "Jika Anda sedang mencari railing tangga spiral besi yang berkualitas tinggi dan dapat diandalkan, maka Mandiri Steel adalah pilihan yang tepat. Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam memproduksi dan memasang railing tangga spiral besi, sehingga Anda dapat yakin bahwa Anda akan mendapatkan produk yang berkualitas tinggi. <br> <br> Selain itu, Mandiri Steel juga menawarkan layanan yang sangat baik, termasuk survei dan pengukuran gratis, serta garansi struktural yang panjang. Dengan demikian, Anda dapat yakin bahwa Anda akan mendapatkan produk yang sesuai dengan kebutuhan Anda dan dapat diandalkan selama bertahun-tahun. <br> <br> Jika Anda sedang mencari railing tangga spiral besi yang berkualitas tinggi dan dapat diandalkan, maka Mandiri Steel adalah pilihan yang tepat. Dengan pengalaman yang luas dan layanan yang sangat baik, Mandiri Steel dapat membantu Anda menciptakan rumah yang nyaman dan elegan.",
+          "productId": 6
+        }
+      ],
+      "conclusion": "Railing tangga spiral besi adalah solusi yang efektif untuk memaksimalkan ruang dan meningkatkan keindahan rumah Anda. Dengan desain yang unik dan fungsional, serta bahan yang kuat dan tahan lama, railing tangga spiral besi dapat membantu Anda menciptakan rumah yang nyaman dan elegan. Jika Anda sedang mencari railing tangga spiral besi yang berkualitas tinggi dan dapat diandalkan, maka Mandiri Steel adalah pilihan yang tepat. Dengan pengalaman yang luas dan layanan yang sangat baik, Mandiri Steel dapat membantu Anda menciptakan rumah yang nyaman dan elegan."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 15,
+    "title": "Pagar Laser Cutting Motif Custom",
+    "slug": "pembuatan-pagar-laser-cutting-motif-custom",
+    "excerpt": "Pagar laser cutting motif custom, proses pembuatan dan inspirasi desain untuk rumah Bekasi, Cikarang, Tambun",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1757212838365-1e84bcbda010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxsYXNlciUyMGN1dHRpbmclMjBtZXRhbCUyMGdhdGUlMjBkZXNpZ258ZW58MHwwfHx8MTc4Mzk4MDM3NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar laser cutting motif custom menjadi pilihan populer di kalangan pemilik rumah di Bekasi dan sekitarnya. Dengan kemampuan untuk membuat desain yang unik dan presisi, laser cutting membuka peluang bagi pemilik rumah untuk mengekspresikan gaya dan kepribadian mereka melalui desain pagar. Di artikel ini, kita akan membahas proses pembuatan pagar laser cutting motif custom dan memberikan inspirasi desain untuk rumah di Bekasi.",
+      "keyPoints": [
+        "Pagar laser cutting motif custom menawarkan fleksibilitas desain yang tinggi",
+        "Proses pembuatan pagar laser cutting motif custom memerlukan peralatan khusus dan keahlian tertentu",
+        "Pemilik rumah di Bekasi dapat memilih dari berbagai motif dan desain untuk pagar laser cutting mereka"
+      ],
+      "sections": [
+        {
+          "heading": "Apa itu Pagar Laser Cutting Motif Custom?",
+          "content": "Pagar laser cutting motif custom adalah jenis pagar yang dibuat menggunakan teknologi laser cutting. Teknologi ini memungkinkan pembuatan desain yang sangat presisi dan kompleks, sehingga pemilik rumah dapat memiliki pagar yang unik dan sesuai dengan gaya mereka. Pagar laser cutting motif custom dapat dibuat dari berbagai bahan, seperti besi, stainless steel, atau aluminium.",
+          "imageSearchQuery": "laser cutting metal gate",
+          "image": "https://images.unsplash.com/photo-1757212838365-1e84bcbda010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxsYXNlciUyMGN1dHRpbmclMjBtZXRhbCUyMGdhdGV8ZW58MHwwfHx8MTc4Mzk4MDM3NXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Proses Pembuatan Pagar Laser Cutting Motif Custom",
+          "content": "Proses pembuatan pagar laser cutting motif custom memerlukan beberapa tahap. Pertama, pemilik rumah perlu memilih desain yang diinginkan. Kemudian, desain tersebut akan diubah menjadi file digital yang dapat dibaca oleh mesin laser cutting. Setelah itu, mesin laser cutting akan memotong bahan sesuai dengan desain yang telah dipilih. Terakhir, pagar akan dirakit dan dipasang di rumah."
+        },
+        {
+          "heading": "Inspirasi Desain untuk Pagar Laser Cutting Motif Custom",
+          "content": "Berikut beberapa inspirasi desain untuk pagar laser cutting motif custom: <br> 1. Desain geometris: Pagar laser cutting motif custom dengan desain geometris dapat menambahkan sentuhan modern pada rumah. <br> 2. Desain floral: Pagar laser cutting motif custom dengan desain floral dapat menambahkan sentuhan klasik pada rumah. <br> 3. Desain abstrak: Pagar laser cutting motif custom dengan desain abstrak dapat menambahkan sentuhan unik pada rumah. <br> Pemilik rumah di Bekasi dapat memilih dari berbagai motif dan desain untuk pagar laser cutting mereka.",
+          "productId": 3
+        },
+        {
+          "heading": "Tips dalam Memilih Pagar Laser Cutting Motif Custom",
+          "content": "Berikut beberapa tips dalam memilih pagar laser cutting motif custom: <br> 1. Pertimbangkan gaya rumah: Pagar laser cutting motif custom harus sesuai dengan gaya rumah. <br> 2. Pertimbangkan bahan: Pagar laser cutting motif custom dapat dibuat dari berbagai bahan, seperti besi, stainless steel, atau aluminium. <br> 3. Pertimbangkan biaya: Pagar laser cutting motif custom dapat memiliki biaya yang tinggi, tergantung pada desain dan bahan yang dipilih.",
+          "productId": 4
+        },
+        {
+          "heading": "Kelebihan Pagar Laser Cutting Motif Custom",
+          "content": "Pagar laser cutting motif custom memiliki beberapa kelebihan, seperti: <br> 1. Fleksibilitas desain: Pagar laser cutting motif custom dapat dibuat dengan desain yang unik dan presisi. <br> 2. Kualitas tinggi: Pagar laser cutting motif custom dapat dibuat dengan kualitas yang tinggi, tergantung pada bahan dan proses pembuatan. <br> 3. Tahan lama: Pagar laser cutting motif custom dapat tahan lama, tergantung pada bahan dan perawatan.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Pagar laser cutting motif custom adalah pilihan yang tepat untuk pemilik rumah di Bekasi yang ingin memiliki pagar yang unik dan sesuai dengan gaya mereka. Dengan proses pembuatan yang presisi dan fleksibilitas desain yang tinggi, pagar laser cutting motif custom dapat menambahkan sentuhan modern dan klasik pada rumah. Pemilik rumah di Bekasi dapat memilih dari berbagai motif dan desain untuk pagar laser cutting mereka, dan dapat mempertimbangkan tips dalam memilih pagar laser cutting motif custom untuk mendapatkan hasil yang terbaik."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 1,
     "title": "Tips Pemula Bengkel Las",
     "slug": "jasa-bengkel-las-setu-tips-pemula",
@@ -553,7 +711,6 @@ export const BLOG_POSTS: BlogPost[] = [
     }
   }
 ];
-
 export const getAllBlogPosts = () => BLOG_POSTS;
 
 export const getPostBySlug = (slug: string) => BLOG_POSTS.find(p => p.slug === slug);
