@@ -4,13 +4,7 @@ const BASE_URL = 'https://lasbekasi.com'
 
 const LANGUAGE_PATH_PREFIXES: Record<LanguageCode, string> = {
   id: '/id',
-  en: '/eng',
-  ar: '/ar',
-  zh: '/zh',
-  ja: '/ja',
-  es: '/es',
-  fr: '/fr',
-  ko: '/ko'
+  en: '/eng'
 }
 
 const TRACKING_PARAM_BLOCKLIST = new Set([
@@ -36,14 +30,8 @@ const LANGUAGE_METADATA: Record<
   LanguageCode,
   { lang: string; locale: string; direction: 'ltr' | 'rtl'; hrefLang: string }
 > = {
-  id: { lang: 'id', locale: 'id_ID', direction: 'ltr', hrefLang: 'id-ID' },
-  en: { lang: 'en', locale: 'en_US', direction: 'ltr', hrefLang: 'en' },
-  ar: { lang: 'ar', locale: 'ar_SA', direction: 'rtl', hrefLang: 'ar' },
-  zh: { lang: 'zh', locale: 'zh_CN', direction: 'ltr', hrefLang: 'zh-CN' },
-  ja: { lang: 'ja', locale: 'ja_JP', direction: 'ltr', hrefLang: 'ja-JP' },
-  es: { lang: 'es', locale: 'es_ES', direction: 'ltr', hrefLang: 'es-ES' },
-  fr: { lang: 'fr', locale: 'fr_FR', direction: 'ltr', hrefLang: 'fr-FR' },
-  ko: { lang: 'ko', locale: 'ko_KR', direction: 'ltr', hrefLang: 'ko-KR' }
+  id: { lang: 'id', locale: 'id_ID', direction: 'ltr', hrefLang: 'id' },
+  en: { lang: 'en', locale: 'en_US', direction: 'ltr', hrefLang: 'en' }
 }
 
 const SUPPORTED_LANGUAGES = Object.keys(LANGUAGE_METADATA) as LanguageCode[]
@@ -159,12 +147,8 @@ export const generateLocalizedUrls = (pathname: string, search: string = '') => 
   }
 
   const alternates = [
-    ...SUPPORTED_LANGUAGES.map((code) => ({
-      hrefLang: LANGUAGE_METADATA[code].hrefLang,
-      href: buildLangHref(code)
-    })),
     {
-      hrefLang: 'x-default',
+      hrefLang: 'id',
       href: buildUrlFromParams(normalizedPath, new URLSearchParams(baseParamsString))
     }
   ]
@@ -183,16 +167,10 @@ export const generateHreflangTags = (path: string, search: string = '') => {
   const baseParams = sanitizeSearchParams(params, { includeLang: false })
   const baseParamsString = baseParams.toString()
 
-  const entries = SUPPORTED_LANGUAGES.reduce<Record<string, string>>((acc, code) => {
-    const langParams = new URLSearchParams(baseParamsString)
-    if (code !== 'id') {
-      langParams.set('lang', code)
-    }
-    acc[LANGUAGE_METADATA[code].hrefLang] = buildUrlFromParams(normalizedPath, langParams)
-    return acc
-  }, {})
+  const entries: Record<string, string> = {
+    'id': buildUrlFromParams(normalizedPath, new URLSearchParams(baseParamsString))
+  }
 
-  entries['x-default'] = buildUrlFromParams(normalizedPath, new URLSearchParams(baseParamsString))
   return entries
 }
 

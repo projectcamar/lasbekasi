@@ -369,9 +369,7 @@ const Home: React.FC = () => {
                 <meta property="og:image" content={socialImage} />
                 <meta property="twitter:image" content={socialImage} />
                 <meta property="og:locale" content={localeMeta.locale} />
-                {OG_LOCALES.filter(altLocale => altLocale !== localeMeta.locale).map((altLocale) => (
-                    <meta key={`home-og-${altLocale}`} property="og:locale:alternate" content={altLocale} />
-                ))}
+
 
                 {/* Structured JSON-LD Schemas */}
                 <script type="application/ld+json">
