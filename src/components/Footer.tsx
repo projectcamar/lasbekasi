@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { Instagram, Facebook, ChevronDown, ChevronUp } from 'lucide-react'
 import './Footer.css'
 import { trackWhatsAppClick } from '../utils/whatsappTracking'
-import { getLinkWithLanguage } from '../utils/languageManager'
+import { getLinkWithLanguage, type LanguageCode } from '../utils/languageManager'
 import { getAllBlogPosts } from '../data/blog'
 
 interface FooterProps {
@@ -12,6 +12,8 @@ interface FooterProps {
 }
 
 const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
+  // getLinkWithLanguage only supports 'id' | 'en' — other languages fall back to 'en' routing
+  const routingLang: LanguageCode = language === 'id' ? 'id' : 'en'
   const [email, setEmail] = useState('')
   const [firstName, setFirstName] = useState('')
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -210,14 +212,14 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
           <div className="footer-column">
             <h3>{language === 'id' ? "Tautan Cepat" : language === 'ar' ? "روابط سريعة" : language === 'zh' ? "快速链接" : language === 'ja' ? "クイックリンク" : language === 'es' ? "Enlaces Rápido" : language === 'fr' ? "Liens Rapides" : language === 'ko' ? "빠른 링크" : "Quick Links"}</h3>
             <ul className="footer-links">
-              <li><Link to={getLinkWithLanguage("/products", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Layanan' : 'Services'}</Link></li>
-              <li><Link to={getLinkWithLanguage("/about", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Tentang Kami' : 'About Us'}</Link></li>
-              <li><Link to={getLinkWithLanguage("/blog", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Blog & Tips' : 'Blog'}</Link></li>
-              <li><Link to={getLinkWithLanguage("/testimonials", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Testimoni & Review' : 'Testimonials'}</Link></li>
-              <li><Link to={getLinkWithLanguage("/custom-order", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Konsultasi Jasa" : "Custom Order"}</Link></li>
-              <li><Link to={getLinkWithLanguage("/partnership", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Program Kemitraan" : "Partnership"}</Link></li>
-              <li><Link to={getLinkWithLanguage("/terms-of-service", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Syarat & Ketentuan" : "Terms of Service"}</Link></li>
-              <li><Link to={getLinkWithLanguage("/image-license", language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Lisensi Gambar" : "Image License"}</Link></li>
+              <li><Link to={getLinkWithLanguage("/products", routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Layanan' : 'Services'}</Link></li>
+              <li><Link to={getLinkWithLanguage("/about", routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Tentang Kami' : 'About Us'}</Link></li>
+              <li><Link to={getLinkWithLanguage("/blog", routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Blog & Tips' : 'Blog'}</Link></li>
+              <li><Link to={getLinkWithLanguage("/testimonials", routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? 'Testimoni & Review' : 'Testimonials'}</Link></li>
+              <li><Link to={getLinkWithLanguage("/custom-order", routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Konsultasi Jasa" : "Custom Order"}</Link></li>
+              <li><Link to={getLinkWithLanguage("/partnership", routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Program Kemitraan" : "Partnership"}</Link></li>
+              <li><Link to={getLinkWithLanguage("/terms-of-service", routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Syarat & Ketentuan" : "Terms of Service"}</Link></li>
+              <li><Link to={getLinkWithLanguage("/image-license", routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>{language === 'id' ? "Lisensi Gambar" : "Image License"}</Link></li>
             </ul>
           </div>
 
@@ -227,7 +229,7 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
             <ul className="footer-links">
               {currentCategories.map((cat, idx) => (
                 <li key={idx}>
-                  <Link to={getLinkWithLanguage(`/products`, language)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
+                  <Link to={getLinkWithLanguage(`/products`, routingLang)} onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
                     {cat.name}
                   </Link>
                 </li>
@@ -290,7 +292,7 @@ const Footer: React.FC<FooterProps> = ({ language = 'en' }) => {
             {getAllBlogPosts().map((post) => (
               <Link
                 key={post.id}
-                to={getLinkWithLanguage(`/blog/${post.slug}`, language)}
+                to={getLinkWithLanguage(`/blog/${post.slug}`, routingLang)}
                 className="footer-blog-link"
                 aria-label={post.title}
               >
