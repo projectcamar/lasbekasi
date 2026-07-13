@@ -52,7 +52,7 @@ const Home: React.FC = () => {
 
     // SEO Helper
     const pageTitle = language === 'id' 
-        ? "Bengkel Las Bekasi #1 - Bengkel Las Mandiri | Jasa Las Terpercaya Sejak 1999"
+        ? "Bengkel Las Bekasi Terpercaya | Kanopi & Konstruksi Baja"
         : `${t.heroTitle.replace(/<br\/>/g, ' ')} | Mandiri Steel Bekasi`;
     
     const pageDesc = language === 'id'
@@ -387,7 +387,7 @@ const Home: React.FC = () => {
     };
 
     return (
-        <div className="mandiri-home">
+        <main id="main-content" className="mandiri-home">
 
             <Helmet htmlAttributes={{ lang: localeMeta.lang, dir: localeMeta.direction, 'data-language': localeMeta.lang }}>
                 <title>{pageTitle}</title>
@@ -402,8 +402,12 @@ const Home: React.FC = () => {
                 <meta property="og:type" content="website" />
                 <meta property="og:url" content={localizedUrls.canonical} />
                 <meta property="og:image" content={socialImage} />
-                <meta property="twitter:image" content={socialImage} />
                 <meta property="og:locale" content={localeMeta.locale} />
+                
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:title" content={pageTitle} />
+                <meta name="twitter:description" content={pageDesc} />
+                <meta name="twitter:image" content={socialImage} />
 
 
                 {/* Structured JSON-LD Schemas */}
@@ -702,11 +706,48 @@ const Home: React.FC = () => {
                 </div>
             </section>
 
+            {/* ===== VISIBLE SEO ARTICLE SECTION ===== */}
+            <section className="mandiri-home__seo-content" style={{ padding: '60px 20px', background: '#f8fafc', color: '#334155', maxWidth: '1200px', margin: '0 auto', borderRadius: '24px', marginBottom: '60px', fontFamily: '"Plus Jakarta Sans", sans-serif' }}>
+                <h2 style={{ fontSize: '2.2rem', color: '#0f172a', marginBottom: '20px', textAlign: 'center' }}>
+                    {language === 'id' ? 'Mengapa Kami Adalah Bengkel Las Bekasi Terbaik untuk Anda?' : 'Why We Are The Best Welding Workshop in Bekasi'}
+                </h2>
+                <div style={{ columnCount: 2, columnGap: '40px', fontSize: '1.05rem', lineHeight: '1.8' }}>
+                    <p style={{ marginBottom: '1.5rem' }}>
+                        {language === 'id' ? (
+                            <>Memilih <strong>bengkel las di Bekasi</strong> yang tepat sangatlah krusial untuk memastikan keamanan dan nilai estetika bangunan Anda. Sejak didirikan pada tahun 1999 oleh Bapak Maman Toha, <strong>Bengkel Las Mandiri</strong> telah berkembang menjadi mitra tepercaya bagi ribuan pelanggan, mulai dari pemilik rumah pribadi hingga pengembang properti komersial besar di wilayah Bekasi Raya, Cikarang, Tambun, Cibitung, hingga Jakarta.</>
+                        ) : (
+                            <>Choosing the right <strong>welding workshop in Bekasi</strong> is crucial to ensure the safety and aesthetic value of your building. Since its establishment in 1999 by Mr. Maman Toha, <strong>Mandiri Welding Workshop</strong> has grown into a trusted partner for thousands of customers, ranging from private homeowners to large commercial property developers in the Greater Bekasi area.</>
+                        )}
+                    </p>
+                    <p style={{ marginBottom: '1.5rem' }}>
+                        {language === 'id' ? (
+                            <>Kami berspesialisasi dalam berbagai <strong>jasa las listrik</strong> presisi dan fabrikasi metal. Produk unggulan kami meliputi pembuatan <strong>kanopi minimalis</strong>, instalasi <strong>pagar besi tempa</strong>, pembuatan teralis jendela anti-maling, tangga putar, pintu dorong lipat besi, hingga railing balkon. Setiap produk dirancang secara <em>custom</em> menggunakan material besi berkualitas tinggi berstandar SNI (Standar Nasional Indonesia), sehingga tidak hanya kokoh dan tahan lama, tetapi juga memiliki ketahanan ekstra terhadap cuaca ekstrem berkat lapisan cat dasar anti karat (zinc-chromate) premium.</>
+                        ) : (
+                            <>We specialize in various precision <strong>electric welding services</strong> and metal fabrication. Our flagship products include the manufacture of <strong>minimalist canopies</strong>, installation of wrought <strong>iron fences</strong>, anti-theft window trellises, spiral staircases, iron folding sliding doors, and balcony railings. Every product is custom-designed using high-quality SNI-standard iron materials.</>
+                        )}
+                    </p>
+                    <p style={{ marginBottom: '1.5rem' }}>
+                        {language === 'id' ? (
+                            <>Selain kebutuhan hunian, tim ahli kami juga berpengalaman penuh dalam melayani proyek berskala besar, seperti <strong>jasa konstruksi baja WF dan H-Beam</strong> untuk pembangunan pabrik, gudang industri, rangka atap lapangan futsal, serta pembuatan struktur lantai mezanin. Dengan dukungan tenaga <em>welder</em> bersertifikat dan alat pengelasan modern, kami menjamin akurasi sambungan las yang sempurna, penetrasi yang kuat, dan tingkat presisi tertinggi dalam setiap struktur baja yang kami bangun di Bekasi.</>
+                        ) : (
+                            <>Beyond residential needs, our expert team is fully experienced in handling large-scale projects, such as <strong>WF and H-Beam steel construction services</strong> for building factories, industrial warehouses, futsal court roof frames, and mezzanine floor structures in Bekasi.</>
+                        )}
+                    </p>
+                    <p style={{ marginBottom: '1.5rem' }}>
+                        {language === 'id' ? (
+                            <>Komitmen kami sebagai <strong>Bengkel Las Bekasi terpercaya</strong> tidak hanya berhenti pada proses fabrikasi. Kami juga memberikan layanan konsultasi gratis, survei lokasi tanpa biaya tambahan untuk area Bekasi, penawaran harga yang sangat kompetitif dan transparan, serta jaminan garansi perbaikan jika terdapat kendala konstruksi di kemudian hari. Jangan ragu untuk mendiskusikan konsep desain kanopi minimalis, pagar modern, atau kebutuhan baja struktural Anda bersama kami. Kami akan merealisasikan ide Anda menjadi karya besi yang kuat, fungsional, dan bernilai seni tinggi.</>
+                        ) : (
+                            <>Our commitment as a trusted <strong>Bekasi Welding Workshop</strong> doesn't stop at the fabrication process. We also provide free consulting services, free site surveys for the Bekasi area, highly competitive pricing, and repair warranties. Do not hesitate to discuss your minimalist canopy designs, modern fences, or structural steel needs with us.</>
+                        )}
+                    </p>
+                </div>
+            </section>
+
             {/* ===== FAQ SECTION ===== */}
             <FAQSection isIndonesian={language === 'id'} language={language} />
 
             <Footer />
-        </div>
+        </main>
     )
 }
 
