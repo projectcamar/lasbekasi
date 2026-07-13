@@ -11,7 +11,7 @@ import { fileURLToPath } from 'url';
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const STATE_FILE = join(__dirname, 'used-topics.json');
 const ARTICLES_PER_RUN = 3;
-const DELAY_BETWEEN_MS = 15000; // 15s between API calls
+const DELAY_BETWEEN_MS = 65000; // 65s between API calls to bypass 12k TPM limit
 
 const CFG = {
   API:    process.env.VERCEL_API_BASE    || 'https://lasbekasi.com',
@@ -181,31 +181,176 @@ function pickTopics(count) {
   return picked;
 }
 
+// ─── SYSTEM PROMPT ───────────────────────────────────────────────────────────
+const SYSTEM_PROMPT = `You are an expert content writer for Mandiri Steel (also known as Bengkel Las Mandiri), a premium custom steel fabrication and professional welding workshop based in Setu, Bekasi, Indonesia.
+
+Your task is to generate high-quality, SEO-optimized blog articles about custom steel works, minimalist home designs, durable canopy selection, gate security, window safety trellises, railing aesthetics, mezzanine structures, and local steel fabrication services in Bekasi and Jabodetabek.
+
+IMPORTANT: You MUST respond with ONLY a valid JSON object, no additional text before or after. The JSON must follow this exact structure:
+
+{
+  "title": "Article title (max 60 characters, SEO-friendly)",
+  "slug": "url-friendly-slug-lowercase-with-hyphens",
+  "excerpt": "Brief summary (max 160 characters for meta description)",
+  "category": "One of: Canopy Guide, Gate Designs, Home Security, Stair and Railing, Steel Construction, Local Area Guide, Quality Control, Tips and Trick",
+  "imageSearchQuery": "A relevant English keyword for Unsplash image search (main cover)",
+  "introduction": "Engaging opening paragraph (2-3 sentences)",
+  "keyPoints": [
+    "Key takeaway 1",
+    "Key takeaway 2",
+    "Key takeaway 3 (max 5 points)"
+  ],
+  "language": "Language code (id, en, ar, zh, ja, es, fr, ko)",
+  "sections": [
+    {
+      "heading": "Section 1 heading",
+      "content": "Section 1 content",
+      "imageSearchQuery": "Specific English search query ONLY for Section 1"
+    },
+    {
+      "heading": "Section 2 heading",
+      "content": "Section 2 content"
+    },
+    {
+      "heading": "Section 3 heading",
+      "content": "Section 3 content",
+      "productId": 1
+    },
+    {
+      "heading": "Section 4 heading",
+      "content": "Section 4 content",
+      "productId": 3
+    }
+  ],
+  "conclusion": "Compelling closing paragraph"
+}
+
+PRODUCT CATALOG (for 'productId'):
+Use these IDs to mention products in sections (especially sections 3, 4, etc. for soft selling):
+1: Kanopi Minimalis Alderon (Kanopi - Best Seller)
+2: Kanopi Kaca Tempered (Kanopi - Premium)
+3: Pagar Minimalis Modern (Pagar - Layanan Utama)
+4: Pagar Besi Tempa Klasik (Pagar - Premium Klasik)
+5: Teralis Jendela Minimalis (Teralis - Keamanan Rumah)
+6: Railing Tangga Minimalis (Railing - Interior/Exterior)
+7: Konstruksi Baja WF (Konstruksi - Industri/Gudang)
+8: Pintu Pagar Stainless Steel (Pagar - Premium Stainless)
+
+IMAGE LIMITATION:
+- ONLY generate 'imageSearchQuery' for the MAIN cover and the FIRST section.
+- For the SECOND section, do NOT generate 'imageSearchQuery' or 'productId' (keep it as text only).
+- For all other sections (Section 3, 4, etc.), do NOT generate 'imageSearchQuery'. Instead, provide a 'productId' that matches the section's topic.
+
+CONTENT GUIDELINES:
+- Write the ENTIRE article in the specific language requested by the user.
+- Use professional yet friendly tone
+- Include specific details about Mandiri Steel: 25+ years of experience, heavy-duty SNI materials, free on-site survey and measurement, structural warranty, clean welds, and Setu Bekasi base.
+- Mention target customers: homeowners, architects, residential developers, commercial space owners, warehouse developers in Bekasi and Jabodetabek.
+- Include practical tips and actionable advice
+- Use HTML tags for formatting: <strong>, <em>, <br>
+- Create 3-5 sections minimum (you can create more if needed)
+- Each section should be substantial (200-400 words)
+- Include relevant keywords naturally (e.g., "bengkel las bekasi", "kanopi alderon bekasi", "pagar minimalis modern").
+- CRITICAL LOCAL SEO: Weave in names of local areas (Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, dll) naturally into the article to rank #1 locally.
+`;
+
 // ─── API CALLS ───────────────────────────────────────────────────────────────
 
 const log = (msg) => console.log(`[${new Date().toISOString()}] ${msg}`);
 const sleep = (ms) => new Promise(r => setTimeout(r, ms));
 
+async function fetchUnsplashImage(query) {
+  if (!CFG.UNSPLASH || CFG.UNSPLASH === 'dev_placeholder') return null;
+  try {
+    const response = await fetch(`https://api.unsplash.com/search/photos?query=${encodeURIComponent(query)}&per_page=1&orientation=landscape`, {
+      headers: { 'Authorization': `Client-ID ${CFG.UNSPLASH}` }
+    });
+    if (!response.ok) return null;
+    const data = await response.json();
+    return data.results?.[0]?.urls?.regular || null;
+  } catch (err) {
+    return null;
+  }
+}
+
 async function generateArticle(topic) {
   log(`🔄 Generating: "${topic.prompt.substring(0, 55)}..."`);
-  const res = await fetch(`${CFG.API}/api/admin/generate-article`, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({
-      prompt: topic.prompt + '\n\nPENTING: Buat artikel PANJANG dan DETAIL minimal 1500 kata. Setiap section harus 200-400 kata. Gunakan data, contoh nyata, dan tips actionable.',
-      category: topic.category,
-      language: 'id',
-      model: 'llama-3.3-70b-versatile',
-      groqApiKey: CFG.GROQ,
-      bluesmindsApiKey: CFG.BLUESMINDS,
-      unsplashAccessKey: CFG.UNSPLASH,
-    }),
-  });
-  if (!res.ok) throw new Error(`AI API ${res.status}: ${await res.text()}`);
-  const data = await res.json();
-  if (!data.success) throw new Error('No article returned');
-  log(`✅ Generated: "${data.article.title}"`);
-  return data.article;
+  const fullPrompt = topic.prompt + '\n\nPENTING: Buat artikel PANJANG dan DETAIL minimal 1500 kata. Setiap section harus 200-400 kata. Gunakan data, contoh nyata, dan tips actionable.\nTARGET LANGUAGE: id';
+  
+  let aiResponseText = null;
+  let lastErr = null;
+
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    try {
+      let currentProvider, currentModel, currentApiUrl, currentApiKey;
+
+      if (attempt === 1) {
+        currentProvider = 'bluesminds'; currentModel = 'claude-sonnet-4-6'; currentApiUrl = 'https://api.bluesminds.com/v1/chat/completions'; currentApiKey = CFG.BLUESMINDS;
+      } else if (attempt === 2) {
+        currentProvider = 'bluesminds'; currentModel = 'moonshotai/kimi-k2.6'; currentApiUrl = 'https://api.bluesminds.com/v1/chat/completions'; currentApiKey = CFG.BLUESMINDS;
+      } else if (attempt === 3) {
+        currentProvider = 'bluesminds'; currentModel = 'qwen3.6-27b'; currentApiUrl = 'https://api.bluesminds.com/v1/chat/completions'; currentApiKey = CFG.BLUESMINDS;
+      } else {
+        currentProvider = 'groq'; currentModel = 'llama-3.3-70b-versatile'; currentApiUrl = 'https://api.groq.com/openai/v1/chat/completions'; currentApiKey = CFG.GROQ;
+      }
+
+      log(`   [Attempt ${attempt}] Trying model: ${currentModel} via ${currentProvider}`);
+      
+      const res = await fetch(currentApiUrl, {
+        method: 'POST',
+        headers: { 'Authorization': `Bearer ${currentApiKey}`, 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          model: currentModel,
+          messages: [ { role: 'system', content: SYSTEM_PROMPT }, { role: 'user', content: fullPrompt } ],
+          temperature: 0.7,
+          max_tokens: 4000,
+          ...(currentProvider === 'groq' ? { response_format: { type: 'json_object' } } : {})
+        })
+      });
+
+      if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`);
+      
+      const data = await res.json();
+      aiResponseText = data.choices?.[0]?.message?.content;
+      
+      if (aiResponseText) {
+        log(`   [Attempt ${attempt}] Success!`);
+        break;
+      }
+    } catch (err) {
+      log(`   [Attempt ${attempt}] Failed: ${err.message}`);
+      lastErr = err;
+    }
+  }
+
+  if (!aiResponseText) throw new Error('All AI fallback attempts failed. Last error: ' + lastErr?.message);
+
+  let article;
+  try {
+    article = JSON.parse(aiResponseText);
+  } catch(e) {
+    throw new Error('Failed to parse AI JSON response');
+  }
+
+  // Fetch Unsplash for main cover
+  if (article.imageSearchQuery) {
+    const imgUrl = await fetchUnsplashImage(article.imageSearchQuery);
+    if (imgUrl) article.image = imgUrl;
+  }
+  // Fetch Unsplash for first section only
+  if (article.sections && article.sections.length > 0) {
+    if (article.sections[0].imageSearchQuery) {
+      const secImgUrl = await fetchUnsplashImage(article.sections[0].imageSearchQuery);
+      if (secImgUrl) article.sections[0].image = secImgUrl;
+    }
+    for (let i = 1; i < article.sections.length; i++) {
+      delete article.sections[i].imageSearchQuery;
+      delete article.sections[i].image;
+    }
+  }
+
+  log(`✅ Generated: "${article.title}"`);
+  return article;
 }
 
 async function getGitHubFile() {
