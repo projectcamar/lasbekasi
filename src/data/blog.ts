@@ -33,6 +33,183 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 19,
+    "title": "Menghitung Kebutuhan Baja WF dan H-beam",
+    "slug": "cara-menghitung-kebutuhan-baja-wf-dan-h-beam",
+    "excerpt": "Panduan lengkap menghitung kebutuhan baja WF dan H-beam untuk proyek bangunan di Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1700451219321-9814ea4c2328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiYWphJTIwd2YlMjBkYW4lMjBoLWJlYW18ZW58MHwwfHx8MTc4Mzk4MjM5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Baja WF dan H-beam</strong> merupakan material penting dalam konstruksi bangunan. Menghitung kebutuhan baja WF dan H-beam secara akurat sangat penting untuk memastikan kekuatan dan keamanan struktur bangunan. Dalam artikel ini, kita akan membahas cara menghitung kebutuhan baja WF dan H-beam untuk proyek bangunan di Bekasi. <strong>Mandiri Steel</strong> sebagai penyedia jasa konstruksi baja terpercaya di Bekasi, akan membagikan tips dan trik untuk menghitung kebutuhan baja WF dan H-beam dengan benar.",
+      "keyPoints": [
+        "Menghitung kebutuhan baja WF dan H-beam",
+        "Pentingnya menggunakan material SNI",
+        "Tips untuk menghemat biaya konstruksi"
+      ],
+      "sections": [
+        {
+          "heading": "Pengenalan Baja WF dan H-beam",
+          "content": "Baja WF dan H-beam adalah dua jenis material baja yang paling umum digunakan dalam konstruksi bangunan. <strong>Baja WF</strong> memiliki bentuk seperti huruf W, sedangkan <strong>H-beam</strong> memiliki bentuk seperti huruf H. Keduanya memiliki kekuatan dan kekakuan yang tinggi, sehingga sangat cocok untuk digunakan sebagai struktur penahan beban bangunan. <br><br> Dalam memilih baja WF dan H-beam, perlu mempertimbangkan beberapa faktor, seperti <strong>ukuran</strong>, <strong>berat</strong>, dan <strong>kualitas</strong> material. Ukuran baja WF dan H-beam yang tepat akan memastikan kekuatan dan keamanan struktur bangunan. Berat material juga perlu dipertimbangkan, karena akan mempengaruhi biaya transportasi dan pemasangan. <br><br> <strong>Mandiri Steel</strong> menawarkan baja WF dan H-beam dengan kualitas SNI, sehingga Anda dapat yakin bahwa material yang digunakan adalah material yang terbaik.",
+          "imageSearchQuery": "baja wf dan h-beam",
+          "image": "https://images.unsplash.com/photo-1700451219321-9814ea4c2328?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiYWphJTIwd2YlMjBkYW4lMjBoLWJlYW18ZW58MHwwfHx8MTc4Mzk4MjM5NXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Cara Menghitung Kebutuhan Baja WF",
+          "content": "Menghitung kebutuhan baja WF dapat dilakukan dengan beberapa cara. Pertama, perlu menentukan <strong>ukuran</strong> dan <strong>jumlah</strong> kolom dan balok yang diperlukan. Kemudian, perlu menghitung <strong>panjang</strong> dan <strong>berat</strong> total baja WF yang diperlukan. <br><br> Berikut adalah contoh perhitungan kebutuhan baja WF: <ul><li> Ukuran kolom: 20x20 cm</li><li> Jumlah kolom: 10 buah</li><li> Panjang kolom: 5 meter</li><li> Berat baja WF per meter: 50 kg</li></ul> Dengan menggunakan rumus: <strong>kebutuhan baja WF = panjang x berat x jumlah</strong>, maka kebutuhan baja WF dapat dihitung sebagai berikut: <strong>kebutuhan baja WF = 5 x 50 x 10 = 2500 kg</strong>. <br><br> Perlu diingat bahwa perhitungan kebutuhan baja WF harus dilakukan secara akurat, karena kesalahan perhitungan dapat menyebabkan kekurangan atau kelebihan material.",
+          "productId": 7
+        },
+        {
+          "heading": "Cara Menghitung Kebutuhan H-beam",
+          "content": "Menghitung kebutuhan H-beam dapat dilakukan dengan cara yang sama seperti menghitung kebutuhan baja WF. Pertama, perlu menentukan <strong>ukuran</strong> dan <strong>jumlah</strong> balok yang diperlukan. Kemudian, perlu menghitung <strong>panjang</strong> dan <strong>berat</strong> total H-beam yang diperlukan. <br><br> Berikut adalah contoh perhitungan kebutuhan H-beam: <ul><li> Ukuran balok: 30x30 cm</li><li> Jumlah balok: 5 buah</li><li> Panjang balok: 10 meter</li><li> Berat H-beam per meter: 100 kg</li></ul> Dengan menggunakan rumus: <strong>kebutuhan H-beam = panjang x berat x jumlah</strong>, maka kebutuhan H-beam dapat dihitung sebagai berikut: <strong>kebutuhan H-beam = 10 x 100 x 5 = 5000 kg</strong>. <br><br> Perlu diingat bahwa perhitungan kebutuhan H-beam harus dilakukan secara akurat, karena kesalahan perhitungan dapat menyebabkan kekurangan atau kelebihan material.",
+          "productId": 7
+        },
+        {
+          "heading": "Tips untuk Menghemat Biaya Konstruksi",
+          "content": "Menghemat biaya konstruksi dapat dilakukan dengan beberapa cara. Pertama, perlu memilih <strong>material</strong> yang tepat dan sesuai dengan kebutuhan proyek. Kedua, perlu <strong>mengoptimalkan</strong> desain struktur bangunan untuk mengurangi kebutuhan material. Ketiga, perlu <strong>menggunakan</strong> teknologi dan metode konstruksi yang efisien. <br><br> Berikut adalah beberapa tips untuk menghemat biaya konstruksi: <ul><li> Pilih material yang memiliki kualitas tinggi dan harga yang kompetitif</li><li> Optimalkan desain struktur bangunan untuk mengurangi kebutuhan material</li><li> Gunakan teknologi dan metode konstruksi yang efisien</li><li> Lakukan perencanaan yang matang dan akurat sebelum memulai proyek</li></ul> Dengan mengikuti tips di atas, Anda dapat menghemat biaya konstruksi dan meningkatkan efisiensi proyek.",
+          "productId": 7
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel",
+          "content": "<strong>Mandiri Steel</strong> adalah penyedia jasa konstruksi baja terpercaya di Bekasi. Kami memiliki pengalaman lebih dari 25 tahun dalam menyediakan jasa konstruksi baja untuk berbagai proyek, dari rumah tinggal hingga gedung bertingkat. <br><br> Kami menggunakan material SNI yang memiliki kualitas tinggi dan harga yang kompetitif. Kami juga memiliki tim yang berpengalaman dan terlatih untuk melakukan perencanaan, desain, dan pemasangan struktur baja. <br><br> Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat yakin bahwa proyek Anda akan diselesaikan dengan baik dan sesuai dengan kebutuhan Anda. Kami menawarkan garansi struktur baja selama 10 tahun, sehingga Anda dapat yakin bahwa struktur baja Anda akan tetap kuat dan aman selama bertahun-tahun.",
+          "productId": 7
+        },
+        {
+          "heading": "Layanan Konstruksi Baja di Bekasi",
+          "content": "<strong>Mandiri Steel</strong> menyediakan layanan konstruksi baja di Bekasi dan sekitarnya. Kami memiliki tim yang berpengalaman dan terlatih untuk melakukan perencanaan, desain, dan pemasangan struktur baja. <br><br> Kami melayani berbagai proyek, dari rumah tinggal hingga gedung bertingkat. Kami juga menyediakan layanan konsultasi untuk membantu Anda dalam merencanakan dan merancang struktur baja yang sesuai dengan kebutuhan Anda. <br><br> Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat yakin bahwa proyek Anda akan diselesaikan dengan baik dan sesuai dengan kebutuhan Anda. Kami menawarkan harga yang kompetitif dan garansi struktur baja selama 10 tahun.",
+          "productId": 7
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, menghitung kebutuhan baja WF dan H-beam secara akurat sangat penting untuk memastikan kekuatan dan keamanan struktur bangunan. Dengan memilih <strong>Mandiri Steel</strong> sebagai penyedia jasa konstruksi baja terpercaya di Bekasi, Anda dapat yakin bahwa proyek Anda akan diselesaikan dengan baik dan sesuai dengan kebutuhan Anda. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan konstruksi baja kami."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 20,
+    "title": "Menghitung Kebutuhan Material Pagar Besi",
+    "slug": "cara-menghitung-kebutuhan-material-pagar-besi",
+    "excerpt": "Panduan lengkap menghitung kebutuhan material pagar besi untuk rumah di Bekasi",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwZW1idWF0YW4lMjBwYWdhciUyMGJlc2l8ZW58MHwwfHx8MTc4Mzk4MjQ2Nnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Membangun atau merenovasi rumah di Bekasi memerlukan perencanaan yang matang, terutama dalam menghitung kebutuhan material untuk <strong>pembuatan pagar besi</strong>. Pagar besi tidak hanya berfungsi sebagai pelindung, tetapi juga sebagai unsur estetika yang meningkatkan nilai rumah. Dalam artikel ini, kita akan membahas <strong>cara menghitung kebutuhan material pagar besi</strong> dengan benar dan beberapa tips untuk memilih <strong>pagar besi</strong> yang tepat untuk rumah Anda di Bekasi. <strong>Mandiri Steel</strong> hadir untuk membantu Anda dalam proses ini.",
+      "keyPoints": [
+        "Menghitung panjang dan tinggi pagar",
+        "Memilih jenis besi yang tepat",
+        "Menghitung kebutuhan bahan lainnya"
+      ],
+      "sections": [
+        {
+          "heading": "1. Menghitung Panjang dan Tinggi Pagar",
+          "content": "Sebelum memulai, <strong>ukur panjang dan tinggi pagar</strong> yang diinginkan. Pastikan untuk mempertimbangkan <strong>ukuran lahan</strong> dan <strong>desain rumah</strong> Anda. Jika Anda tinggal di <strong>Bekasi</strong> atau sekitarnya, seperti <strong>Cikarang</strong> atau <strong>Tambun</strong>, pertimbangkan juga <strong>lingkungan sekitar</strong> untuk memilih desain pagar yang sesuai. <br><br> Contohnya, jika Anda memiliki rumah di <strong>Grand Wisata</strong> atau <strong>Summarecon Bekasi</strong>, Anda mungkin ingin memilih pagar yang lebih modern dan minimalis. <br><br> Setelah memiliki ukuran pagar, Anda dapat menghitung <strong>kebutuhan material</strong> yang diperlukan.",
+          "imageSearchQuery": "ukuran pagar besi",
+          "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx1a3VyYW4lMjBwYWdhciUyMGJlc2l8ZW58MHwwfHx8MTc4Mzk4MjQ2N3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Memilih Jenis Besi yang Tepat",
+          "content": "Pilih <strong>jenis besi</strong> yang sesuai dengan kebutuhan Anda. <strong>Besi hollow</strong> dan <strong>besi solid</strong> adalah pilihan umum. <strong>Besi hollow</strong> lebih ringan dan ekonomis, sedangkan <strong>besi solid</strong> lebih kuat dan tahan lama. <br><br> Pertimbangkan juga <strong>ketebalan besi</strong> yang dibutuhkan. <strong>Besi</strong> dengan ketebalan yang lebih besar akan lebih kuat, tetapi juga lebih berat dan mahal. <br><br> <strong>Mandiri Steel</strong> menawarkan berbagai pilihan <strong>besi</strong> dengan kualitas terjamin dan harga kompetitif.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Menghitung Kebutuhan Bahan Lainnya",
+          "content": "Selain <strong>besi</strong>, Anda juga memerlukan <strong>bahan lainnya</strong> seperti <strong>kawat</strong>, <strong>mur</strong>, dan <strong>cat</strong>. <strong>Kawat</strong> digunakan untuk menghubungkan <strong>besi</strong>, sedangkan <strong>mur</strong> digunakan untuk mengencangkan <strong>besi</strong> ke <strong>tiang</strong>. <strong>Cat</strong> digunakan untuk melindungi <strong>besi</strong> dari <strong>karat</strong> dan memberikan warna yang diinginkan. <br><br> Pastikan untuk menghitung kebutuhan <strong>bahan lainnya</strong> dengan benar untuk menghindari <strong>kekurangan</strong> atau <strong>kelebihan</strong> bahan.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Tips Menghitung Kebutuhan Material Pagar Besi",
+          "content": "Berikut beberapa <strong>tips</strong> untuk menghitung kebutuhan material pagar besi: <br><br> <ul> <li>Pastikan untuk mengukur <strong>ukuran lahan</strong> dengan benar.</li> <li>Pilih <strong>jenis besi</strong> yang sesuai dengan kebutuhan Anda.</li> <li>Pertimbangkan <strong>lingkungan sekitar</strong> untuk memilih desain pagar yang sesuai.</li> <li>Pastikan untuk menghitung kebutuhan <strong>bahan lainnya</strong> dengan benar.</li> </ul> <br><br> Dengan mengikuti tips di atas, Anda dapat menghitung kebutuhan material pagar besi dengan benar dan memilih pagar yang sesuai dengan kebutuhan Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam pembuatan pagar besi. Kami menggunakan <strong>bahan-bahan berkualitas</strong> yang memenuhi standar SNI dan menawarkan <strong>garansi struktural</strong> untuk semua produk kami. <br><br> Kami juga menawarkan <strong>survei lapangan gratis</strong> untuk membantu Anda dalam proses perencanaan dan pembuatan pagar besi. <br><br> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa pagar besi Anda akan dibuat dengan kualitas terbaik dan sesuai dengan kebutuhan Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel melayani <strong>Bekasi</strong> dan sekitarnya, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br> Kami siap membantu Anda dalam proses pembuatan pagar besi, dari perencanaan hingga pemasangan. <br><br> Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan kami dan untuk memulai proses pembuatan pagar besi impian Anda.",
+          "productId": 3
+        }
+      ],
+      "conclusion": "Dengan mengikuti tips dan panduan di atas, Anda dapat menghitung kebutuhan material pagar besi dengan benar dan memilih pagar yang sesuai dengan kebutuhan Anda. Mandiri Steel siap membantu Anda dalam proses pembuatan pagar besi, dari perencanaan hingga pemasangan. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan kami dan untuk memulai proses pembuatan pagar besi impian Anda."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 21,
+    "title": "Railing Tangga yang Aman",
+    "slug": "railing-tangga-aman-bekasi",
+    "excerpt": "Standar tinggi railing tangga untuk keselamatan bangunan di Indonesia",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-13",
+    "image": "https://images.unsplash.com/photo-1523789248610-bb592e870951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwdGFuZ2dhJTIwbW9kZXJufGVufDB8MHx8fDE3ODM5ODI1Mzh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing tangga adalah salah satu komponen penting dalam sebuah bangunan, baik itu rumah, gedung perkantoran, maupun pusat perbelanjaan. <strong>Railing tangga yang aman</strong> tidak hanya berfungsi sebagai penopang, tetapi juga sebagai <strong>penjamin keselamatan</strong> bagi pengguna tangga. Dalam artikel ini, kita akan membahas tentang standar tinggi railing tangga sesuai regulasi keselamatan bangunan Indonesia, serta tips dan contoh dalam memilih railing tangga yang tepat.",
+      "keyPoints": [
+        "Standar tinggi railing tangga",
+        "Fungsi railing tangga",
+        "Tips memilih railing tangga"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Railing Tangga",
+          "content": "Railing tangga adalah struktur yang terletak di sepanjang tangga, berfungsi sebagai <strong>penopang</strong> dan <strong>penjamin keselamatan</strong> bagi pengguna tangga. Railing tangga dapat dibuat dari berbagai bahan, seperti <strong>baja</strong>, <strong>aluminum</strong>, atau <strong>kayu</strong>. Dalam memilih railing tangga, perlu dipertimbangkan <strong>kekuatan</strong>, <strong>kestabilan</strong>, dan <strong>keamanan</strong>.",
+          "imageSearchQuery": "railing tangga baja",
+          "image": "https://images.unsplash.com/photo-1587173616214-b1b6df584362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwdGFuZ2dhJTIwYmFqYXxlbnwwfDB8fHwxNzgzOTgyNTM5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Standar Tinggi Railing Tangga",
+          "content": "Menurut regulasi keselamatan bangunan Indonesia, <strong>tinggi railing tangga</strong> harus memenuhi standar tertentu. <strong>Tinggi railing tangga</strong> harus minimal <strong>90 cm</strong> dan maksimal <strong>110 cm</strong> dari permukaan tangga. Selain itu, <strong>lebar railing tangga</strong> harus minimal <strong>30 cm</strong> dan maksimal <strong>50 cm</strong>. Dalam memilih railing tangga, perlu dipertimbangkan <strong>ukuran</strong> dan <strong>bentuk</strong> yang sesuai dengan kebutuhan."
+        },
+        {
+          "heading": "3. Fungsi Railing Tangga",
+          "content": "Railing tangga memiliki beberapa fungsi, antara lain: <strong>penopang</strong>, <strong>penjamin keselamatan</strong>, dan <strong>estetika</strong>. Railing tangga dapat membantu <strong>mencegah jatuh</strong> dan <strong>melindungi</strong> pengguna tangga dari <strong>bahaya</strong>. Selain itu, railing tangga juga dapat <strong>menambah keindahan</strong> dan <strong>keasrian</strong> bangunan. Dalam memilih railing tangga, perlu dipertimbangkan <strong>fungsi</strong> dan <strong>kebutuhan</strong>.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Tips Memilih Railing Tangga",
+          "content": "Dalam memilih railing tangga, perlu dipertimbangkan beberapa hal, antara lain: <strong>kekuatan</strong>, <strong>kestabilan</strong>, <strong>keamanan</strong>, <strong>ukuran</strong>, dan <strong>bentuk</strong>. Selain itu, perlu dipertimbangkan <strong>bahan</strong> dan <strong>finishing</strong> yang sesuai dengan kebutuhan. Berikut beberapa tips memilih railing tangga: <ul><li>Pilih railing tangga yang kuat dan stabil</li><li>Pertimbangkan ukuran dan bentuk yang sesuai</li><li>Pilih bahan dan finishing yang sesuai</li></ul>"
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam <strong>produksi railing tangga</strong> dan <strong>konstruksi baja</strong>. Dengan <strong>25 tahun pengalaman</strong>, Mandiri Steel telah menjadi salah satu <strong>penyedia railing tangga terbaik</strong> di Indonesia. Mandiri Steel menggunakan <strong>bahan SNI</strong> dan <strong>teknologi canggih</strong> untuk memproduksi railing tangga yang kuat dan stabil. Selain itu, Mandiri Steel juga <strong>menawarkan garansi struktural</strong> dan <strong>survey gratis</strong> untuk memastikan kepuasan pelanggan.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Layanan Railing Tangga di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel menyediakan layanan <strong>railing tangga</strong> di <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan <strong>tim yang berpengalaman</strong> dan <strong>peralatan canggih</strong>, Mandiri Steel dapat memenuhi kebutuhan railing tangga Anda dengan cepat dan efisien."
+        }
+      ],
+      "conclusion": "Dalam memilih railing tangga, perlu dipertimbangkan beberapa hal, antara lain: kekuatan, kestabilan, keamanan, ukuran, dan bentuk. Dengan memilih Mandiri Steel, Anda dapat memperoleh railing tangga yang kuat, stabil, dan aman. Jangan ragu untuk menghubungi Mandiri Steel untuk memenuhi kebutuhan railing tangga Anda."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 16,
     "title": "Panduan Cat Anti Karat untuk Besi Outdoor",
     "slug": "panduan-cat-anti-karat-besi-outdoor",
