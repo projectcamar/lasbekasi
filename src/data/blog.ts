@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 22,
+    "title": "Kanopi Lipat Bekasi",
+    "slug": "kanopi-lipat-bekasi",
+    "excerpt": "Kanopi lipat dan retractable untuk teras multifungsi di Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-14",
+    "image": "https://images.unsplash.com/photo-1767879539701-66b6120850dd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwYmFja3lhcmQlMjBjYW5vcHl8ZW58MHwwfHx8MTc4NDAyNjgxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pemilik rumah di Bekasi sering kali mencari cara untuk <strong>mengoptimalkan ruang teras</strong> mereka. Salah satu solusi yang populer adalah dengan menggunakan <strong>kanopi lipat</strong> atau <strong>kanopi retractable</strong>. Dengan desain yang <strong>modern dan fungsional</strong>, kanopi jenis ini dapat membantu Anda <strong>mengubah teras</strong> menjadi ruang yang lebih nyaman dan multifungsi. Dalam artikel ini, kita akan membahas lebih lanjut tentang kelebihan dan tips untuk memilih kanopi lipat yang tepat untuk rumah Anda di Bekasi.",
+      "keyPoints": [
+        "Kanopi lipat dan retractable dapat meningkatkan kenyamanan teras",
+        "Desain modern dan fungsional",
+        "Bisa disesuaikan dengan kebutuhan dan budget Anda"
+      ],
+      "sections": [
+        {
+          "heading": "1. Apa itu Kanopi Lipat dan Retractable?",
+          "content": "Kanopi lipat dan retractable adalah jenis kanopi yang dapat <strong>dilipat atau ditarik</strong> ketika tidak digunakan. Desain ini memungkinkan Anda untuk <strong>mengoptimalkan ruang</strong> dan <strong>mengurangi biaya perawatan</strong>. Kanopi lipat biasanya terbuat dari <strong>bahan ringan</strong> seperti alumunium atau <strong>stainless steel</strong>, sehingga mudah dipasang dan dibongkar. Sementara itu, kanopi retractable memiliki <strong>system mekanik</strong> yang memungkinkan Anda untuk <strong>mengatur posisi kanopi</strong> dengan mudah.",
+          "imageSearchQuery": "retractable canopy system",
+          "image": "https://images.unsplash.com/photo-1660599197081-62eec73f8f36?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyZXRyYWN0YWJsZSUyMGNhbm9weSUyMHN5c3RlbXxlbnwwfDB8fHwxNzg0MDI2ODExfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Kelebihan Kanopi Lipat dan Retractable",
+          "content": "Kanopi lipat dan retractable memiliki beberapa kelebihan yang membuatnya menjadi pilihan populer di kalangan pemilik rumah di Bekasi. <strong>Kenyamanan</strong> adalah salah satu kelebihan utama, karena kanopi jenis ini dapat <strong>mengurangi intensitas cahaya matahari</strong> dan <strong>mengatur suhu</strong> di teras. Selain itu, kanopi lipat dan retractable juga <strong>mudah dipasang dan dibongkar</strong>, sehingga Anda dapat <strong>menghemat waktu dan biaya</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Tips Memilih Kanopi Lipat yang Tepat",
+          "content": "Dalam memilih kanopi lipat, ada beberapa hal yang perlu Anda pertimbangkan. <strong>Ukuran</strong> adalah salah satu faktor penting, karena kanopi harus <strong>sesuai dengan ukuran teras</strong> Anda. Selain itu, Anda juga perlu <strong>mempertimbangkan bahan</strong> yang digunakan, karena <strong>kualitas bahan</strong> dapat mempengaruhi <strong>ketahanan kanopi</strong>. Berikut beberapa tips yang dapat Anda gunakan: <ul><li>Pilih kanopi dengan <strong>desain yang sesuai</strong> dengan gaya rumah Anda</li><li>Pertimbangkan <strong>biaya perawatan</strong> kanopi</li><li>Pilih kanopi dengan <strong>garansi</strong> yang memadai</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "4. Cara Merawat Kanopi Lipat",
+          "content": "Merawat kanopi lipat tidaklah sulit, namun perlu dilakukan secara teratur untuk <strong>menghindari kerusakan</strong>. Berikut beberapa tips merawat kanopi lipat: <ul><li>Bersihkan kanopi secara teratur dengan <strong>air dan sabun</strong></li><li>Periksa <strong>kondisi kanopi</strong> secara teratur</li><li>Lakukan <strong>perawatan</strong> kanopi secara teratur</li></ul> Dengan merawat kanopi lipat secara teratur, Anda dapat <strong>menghindari kerusakan</strong> dan <strong>menghemat biaya perawatan</strong>."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Kanopi Lipat?",
+          "content": "Mandiri Steel adalah salah satu <strong>penyedia kanopi lipat</strong> terpercaya di Bekasi. Dengan <strong>pengalaman lebih dari 25 tahun</strong>, kami memiliki <strong>keahlian</strong> dan <strong>pengalaman</strong> dalam menyediakan kanopi lipat yang berkualitas. Kami menggunakan <strong>bahan SNI</strong> yang memenuhi standar keamanan dan kualitas, sehingga Anda dapat <strong>percaya</strong> bahwa kanopi lipat Anda <strong>aman</strong> dan <strong>tahan lama</strong>. Selain itu, kami juga menawarkan <strong>survei gratis</strong> dan <strong>garansi struktural</strong> untuk memberikan Anda <strong>ketenangan</strong> dan <strong>kepercayaan</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "6. Layanan Kanopi Lipat di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan layanan kanopi lipat di Bekasi dan sekitarnya, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Kami memiliki <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang memadai</strong> untuk memastikan bahwa kanopi lipat Anda dipasang dengan <strong>benar</strong> dan <strong>aman</strong>. Jadi, jika Anda membutuhkan layanan kanopi lipat di Bekasi atau sekitarnya, jangan ragu untuk <strong>menghubungi kami</strong>."
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi lipat, penting untuk mempertimbangkan <strong>kualitas</strong> dan <strong>keamanan</strong>. Dengan memilih Mandiri Steel, Anda dapat <strong>percaya</strong> bahwa kanopi lipat Anda <strong>aman</strong> dan <strong>tahan lama</strong>. Jadi, jangan ragu untuk <strong>menghubungi kami</strong> untuk mendapatkan informasi lebih lanjut tentang kanopi lipat dan layanan kami di Bekasi dan sekitarnya."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 23,
+    "title": "Mandiri Steel: Bengkel Las Terpercaya di Bekasi",
+    "slug": "mandiri-steel-bengkel-las-terpercaya-di-bekasi",
+    "excerpt": "Mandiri Steel, bengkel las terpercaya di Bekasi, menyediakan jasa fabrikasi baja berkualitas tinggi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-14",
+    "image": "https://images.unsplash.com/photo-1462395418450-4cb21f57af86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwbW9kZXJufGVufDB8MHx8fDE3ODQwMjY4ODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Mandiri Steel adalah salah satu <strong>bengkel las terpercaya di Bekasi</strong> yang telah berdiri selama lebih dari 25 tahun. Dengan pengalaman yang luas dan tim yang profesional, kami menyediakan jasa <strong>fabrikasi baja</strong> berkualitas tinggi untuk berbagai kebutuhan, dari <strong>kanopi</strong> hingga <strong>konstruksi baja</strong> industri. Lokasi kami yang strategis, dengan akses mudah dari <strong>Tol Cibitung</strong>, <strong>Tol Cikarang Barat</strong>, dan <strong>Tol Grand Wisata</strong>, membuat kami menjadi pilihan yang ideal untuk masyarakat di <strong>Bekasi</strong> dan sekitarnya.",
+      "keyPoints": [
+        "Bengkel las terpercaya di Bekasi",
+        "Fabrikasi baja berkualitas tinggi",
+        "Pengalaman lebih dari 25 tahun"
+      ],
+      "sections": [
+        {
+          "heading": "1. Kelebihan Menggunakan Jasa Bengkel Las Mandiri Steel",
+          "content": "Menggunakan jasa <strong>bengkel las</strong> Mandiri Steel memiliki beberapa kelebihan, antara lain <strong>hasil kerja yang presisi</strong>, <strong>bahan berkualitas</strong>, dan <strong>harga yang kompetitif</strong>. Kami juga menyediakan <strong>survei gratis</strong> untuk memastikan bahwa proyek Anda dapat diselesaikan dengan efektif dan efisien. Dengan <strong>garansi struktural</strong> yang kami berikan, Anda dapat yakin bahwa hasil kerja kami akan tahan lama dan awet.",
+          "imageSearchQuery": "bengkel las profesional"
+        },
+        {
+          "heading": "2. Tips Memilih Bengkel Las yang Tepat untuk Kebutuhan Anda",
+          "content": "Memilih <strong>bengkel las</strong> yang tepat untuk kebutuhan Anda dapat menjadi tugas yang sulit. Berikut beberapa <strong>tips</strong> yang dapat membantu Anda: <br> <ul> <li>Pastikan bengkel las tersebut memiliki pengalaman yang luas dan baik.</li> <li>Periksa kualitas bahan yang digunakan.</li> <li>Tanyakan tentang garansi yang diberikan.</li> <li>Bandlingkan harga dengan kualitas yang ditawarkan.</li> </ul> Dengan mempertimbangkan faktor-faktor tersebut, Anda dapat memilih <strong>bengkel las</strong> yang tepat untuk kebutuhan Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Mengenal Lebih Dalam tentang Produk Kanopi Minimalis Alderon",
+          "content": "Kanopi Minimalis Alderon adalah salah satu <strong>produk unggulan</strong> kami yang sangat populer di kalangan masyarakat <strong>Bekasi</strong>. Dengan desain yang minimalis dan elegan, <strong>kanopi</strong> ini dapat menambah keindahan rumah Anda. Kami menggunakan <strong>bahan berkualitas tinggi</strong> untuk memastikan bahwa kanopi ini tahan lama dan awet. Untuk informasi lebih lanjut tentang produk ini, silakan hubungi kami.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Perawatan dan Pemeliharaan Kanopi dan Pagar",
+          "content": "Perawatan dan pemeliharaan <strong>kanopi</strong> dan <strong>pagar</strong> secara teratur sangat penting untuk memastikan bahwa mereka tetap dalam kondisi baik. Berikut beberapa <strong>tips</strong> perawatan: <br> <ul> <li>Bersihkan secara teratur untuk menghindari kerusakan akibat kotoran.</li> <li>Periksa kerusakan atau keausan dan lakukan perbaikan jika diperlukan.</li> <li>Lakukan pengecatan ulang jika warna sudah memudar.</li> </ul> Dengan melakukan perawatan yang tepat, Anda dapat memperpanjang umur <strong>kanopi</strong> dan <strong>pagar</strong> Anda."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel sebagai Bengkel Las Anda?",
+          "content": "Mandiri Steel memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam bidang <strong>fabrikasi baja</strong>, sehingga kami memiliki keahlian yang luas dan mendalam. Kami juga menggunakan <strong>bahan SNI</strong> untuk memastikan kualitas hasil kerja kami. Dengan <strong>garansi struktural</strong> yang kami berikan, Anda dapat yakin bahwa hasil kerja kami akan tahan lama dan awet. Selain itu, kami juga menyediakan <strong>survei gratis</strong> untuk memastikan bahwa proyek Anda dapat diselesaikan dengan efektif dan efisien.",
+          "productId": 2
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel melayani <strong>wilayah Bekasi</strong> dan sekitarnya, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Kami juga menerima proyek dari <strong>luar kota</strong> dan <strong>luar pulau</strong>. Dengan jaringan yang luas dan kemampuan yang handal, kami siap membantu Anda dalam proyek <strong>fabrikasi baja</strong> Anda."
+        }
+      ],
+      "conclusion": "Mandiri Steel adalah <strong>bengkel las terpercaya di Bekasi</strong> yang menyediakan jasa <strong>fabrikasi baja</strong> berkualitas tinggi. Dengan pengalaman yang luas, bahan yang berkualitas, dan harga yang kompetitif, kami menjadi pilihan yang ideal untuk masyarakat di <strong>Bekasi</strong> dan sekitarnya. Jika Anda membutuhkan jasa <strong>fabrikasi baja</strong> untuk proyek Anda, silakan hubungi kami untuk informasi lebih lanjut."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 24,
+    "title": "Persiapan Sebelum Renovasi Pagar dan Kanopi",
+    "slug": "persiapan-sebelum-renovasi-pagar-dan-kanopi",
+    "excerpt": "Checklist lengkap untuk pemilik rumah sebelum renovasi pagar dan kanopi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-14",
+    "image": "https://images.unsplash.com/photo-1714621488914-a245a8089213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyZW5vdmFzaSUyMHBhZ2FyJTIwZGFuJTIwa2Fub3BpJTIwcnVtYWh8ZW58MHwwfHx8MTc4NDAyNjk1NXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Persiapan yang matang</strong> sebelum melakukan renovasi pagar dan kanopi rumah sangat penting untuk memastikan hasil yang maksimal dan sesuai dengan keinginan. <strong>Renovasi</strong> yang tidak terencana dengan baik dapat menyebabkan pembengkakan biaya, kualitas yang tidak memuaskan, dan waktu yang terbuang sia-sia. Dalam artikel ini, kita akan membahas <strong>checklist lengkap</strong> yang harus dilakukan sebelum memulai renovasi pagar dan kanopi rumah.",
+      "keyPoints": [
+        "Tentukan tujuan renovasi",
+        "Pilih desain yang sesuai",
+        "Siapkan anggaran",
+        "Pilih bahan yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Tentukan Tujuan Renovasi",
+          "content": "Sebelum memulai renovasi, <strong>penting untuk menentukan tujuan</strong> dari renovasi tersebut. Apakah Anda ingin meningkatkan keamanan rumah, memperbaiki estetika, atau meningkatkan nilai jual rumah? Dengan menentukan tujuan, Anda dapat <strong>fokus pada prioritas</strong> dan membuat keputusan yang lebih tepat. Contohnya, jika Anda ingin meningkatkan keamanan rumah, maka <strong>pagar besi</strong> dapat menjadi pilihan yang lebih baik daripada pagar kayu. Di <strong>Bekasi</strong> dan <strong>Cikarang</strong>, banyak rumah yang menggunakan pagar besi sebagai pilihan utama.",
+          "imageSearchQuery": "pagar besi rumah",
+          "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGJlc2klMjBydW1haHxlbnwwfDB8fHwxNzg0MDI2OTU2fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Pilih Desain yang Sesuai",
+          "content": "Desain pagar dan kanopi yang sesuai dapat <strong>meningkatkan estetika</strong> rumah dan membuatnya lebih menarik. <strong>Desain minimalis</strong> dapat menjadi pilihan yang populer, tetapi juga perlu mempertimbangkan <strong>kesesuaian dengan lingkungan</strong> sekitar. Di <strong>Tambun</strong> dan <strong>Cibitung</strong>, banyak rumah yang menggunakan desain pagar dan kanopi yang lebih modern dan minimalis. <strong>Pagar Minimalis Modern (Pagar - Layanan Utama)</strong> dapat menjadi pilihan yang sesuai untuk rumah di daerah tersebut.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Siapkan Anggaran",
+          "content": "Anggaran yang cukup <strong>penting untuk renovasi</strong> pagar dan kanopi. <strong>Biaya material</strong>, biaya tenaga kerja, dan biaya lain-lain perlu <strong>diperhitungkan dengan baik</strong>. Di <strong>Jababeka</strong> dan <strong>MM2100</strong>, biaya renovasi pagar dan kanopi dapat lebih tinggi daripada di daerah lain. <strong>Kanopi Minimalis Alderon (Kanopi - Best Seller)</strong> dapat menjadi pilihan yang sesuai untuk rumah di daerah tersebut.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Pilih Bahan yang Tepat",
+          "content": "Bahan yang digunakan untuk pagar dan kanopi <strong>sangat penting</strong> untuk menentukan kualitas dan ketahanan. <strong>Bahan SNI</strong> dapat menjadi pilihan yang lebih baik daripada bahan lain. Di <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong>, banyak rumah yang menggunakan bahan SNI untuk pagar dan kanopi. <strong>Konstruksi Baja WF (Konstruksi - Industri/Gudang)</strong> dapat menjadi pilihan yang sesuai untuk rumah di daerah tersebut.",
+          "productId": 7
+        },
+        {
+          "heading": "5. Pertimbangkan Faktor Keamanan",
+          "content": "Keamanan rumah <strong>sangat penting</strong> dan harus menjadi prioritas. <strong>Pagar besi</strong> dapat menjadi pilihan yang lebih baik daripada pagar kayu untuk meningkatkan keamanan rumah. Di <strong>Kota Deltamas</strong> dan <strong>Lippo Cikarang</strong>, banyak rumah yang menggunakan pagar besi sebagai pilihan utama. <strong>Teralis Jendela Minimalis (Teralis - Keamanan Rumah)</strong> dapat menjadi pilihan yang sesuai untuk rumah di daerah tersebut.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Pilih Jasa Renovasi yang Tepat",
+          "content": "Jasa renovasi yang tepat <strong>sangat penting</strong> untuk menentukan kualitas dan ketahanan renovasi. <strong>Mandiri Steel</strong> telah memiliki pengalaman lebih dari 25 tahun dalam bidang renovasi pagar dan kanopi. Dengan menggunakan <strong>bahan SNI</strong> dan <strong>tenaga kerja yang terlatih</strong>, Mandiri Steel dapat memberikan hasil yang maksimal dan sesuai dengan keinginan. Di <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>, Mandiri Steel telah menjadi pilihan utama untuk banyak rumah."
+        }
+      ],
+      "conclusion": "Dengan melakukan persiapan yang matang dan mempertimbangkan semua faktor yang penting, Anda dapat <strong>memastikan hasil renovasi pagar dan kanopi</strong> yang maksimal dan sesuai dengan keinginan. Jangan ragu untuk <strong>kontak Mandiri Steel</strong> untuk mendapatkan informasi lebih lanjut dan memulai renovasi rumah Anda hari ini!"
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 19,
     "title": "Menghitung Kebutuhan Baja WF dan H-beam",
     "slug": "cara-menghitung-kebutuhan-baja-wf-dan-h-beam",
