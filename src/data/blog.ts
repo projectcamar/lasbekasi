@@ -33,6 +33,189 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 25,
+    "title": "Cara Memilih Bengkel Las Terpercaya",
+    "slug": "cara-memilih-bengkel-las-terpercaya-di-bekasi",
+    "excerpt": "Tips memilih bengkel las terpercaya di Bekasi dengan 7 ciri bengkel las profesional",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-15",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "<strong>Bengkel las</strong> yang terpercaya adalah kunci untuk mendapatkan hasil pekerjaan las yang berkualitas. Di Bekasi, banyak bengkel las yang menawarkan jasa mereka, namun tidak semua bengkel las memiliki kualitas yang sama. Oleh karena itu, <strong>pemilihan bengkel las</strong> yang tepat sangat penting. Dalam artikel ini, kita akan membahas 7 ciri bengkel las profesional yang dapat membantu Anda memilih bengkel las terpercaya di Bekasi.",
+      "keyPoints": [
+        "Bengkel las yang terpercaya memiliki pengalaman yang luas",
+        "Bengkel las profesional memiliki tim yang terlatih",
+        "Bengkel las yang baik memiliki peralatan yang memadai",
+        "Bengkel las terpercaya memiliki reputasi yang baik",
+        "Bengkel las profesional memiliki harga yang kompetitif",
+        "Bengkel las yang baik memiliki layanan yang baik",
+        "Bengkel las terpercaya memiliki garansi yang memadai"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengalaman yang Luas",
+          "content": "Bengkel las yang terpercaya memiliki <strong>pengalaman yang luas</strong> dalam mengerjakan berbagai jenis pekerjaan las. Mereka telah menangani berbagai proyek, dari pekerjaan las kecil hingga pekerjaan las besar. Dengan pengalaman yang luas, bengkel las dapat menangani berbagai jenis bahan dan teknik las. Contohnya, <strong>Mandiri Steel</strong> di Bekasi telah memiliki pengalaman lebih dari 25 tahun dalam mengerjakan berbagai jenis pekerjaan las. Mereka telah menangani proyek-proyek besar di daerah <strong>Cikarang</strong>, <strong>Tambun</strong>, dan <strong>Cibitung</strong>.",
+          "imageSearchQuery": "bengkel las dengan pengalaman luas",
+          "image": "https://images.unsplash.com/photo-1601119462473-566c568e0bf1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwZGVuZ2FuJTIwcGVuZ2FsYW1hbiUyMGx1YXN8ZW58MHwwfHx8MTc4NDExMzIwOHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tim yang Terlatih",
+          "content": "Bengkel las profesional memiliki <strong>tim yang terlatih</strong> dan berpengalaman. Mereka memiliki pengetahuan yang baik tentang teknik las dan bahan-bahan yang digunakan. Tim yang terlatih dapat menangani berbagai jenis pekerjaan las dengan cepat dan efisien. Contohnya, <strong>bengkel las Mandiri Steel</strong> memiliki tim yang terlatih dan berpengalaman dalam mengerjakan berbagai jenis pekerjaan las. Mereka telah menangani proyek-proyek besar di daerah <strong>Jababeka</strong> dan <strong>MM2100</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Peralatan yang Memadai",
+          "content": "Bengkel las yang baik memiliki <strong>peralatan yang memadai</strong> untuk menangani berbagai jenis pekerjaan las. Mereka memiliki peralatan las yang modern dan canggih, sehingga dapat menangani pekerjaan las dengan cepat dan efisien. Contohnya, <strong>bengkel las Mandiri Steel</strong> memiliki peralatan las yang modern dan canggih, sehingga dapat menangani pekerjaan las dengan cepat dan efisien. Mereka telah menangani proyek-proyek besar di daerah <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Reputasi yang Baik",
+          "content": "Bengkel las terpercaya memiliki <strong>reputasi yang baik</strong> di kalangan masyarakat. Mereka telah menangani berbagai proyek dengan sukses dan telah memuaskan pelanggan mereka. Contohnya, <strong>bengkel las Mandiri Steel</strong> memiliki reputasi yang baik di kalangan masyarakat. Mereka telah menangani proyek-proyek besar di daerah <strong>Kota Deltamas</strong> dan <strong>Lippo Cikarang</strong>."
+        },
+        {
+          "heading": "5. Harga yang Kompetitif",
+          "content": "Bengkel las profesional memiliki <strong>harga yang kompetitif</strong> untuk berbagai jenis pekerjaan las. Mereka dapat menawarkan harga yang terjangkau tanpa mengorbankan kualitas pekerjaan las. Contohnya, <strong>bengkel las Mandiri Steel</strong> memiliki harga yang kompetitif untuk berbagai jenis pekerjaan las. Mereka dapat menawarkan harga yang terjangkau tanpa mengorbankan kualitas pekerjaan las. <strong>Produk kami</strong> seperti <strong>Pagar Minimalis Modern</strong> (produk ID: 3) dan <strong>Teralis Jendela Minimalis</strong> (produk ID: 5) memiliki harga yang kompetitif dan kualitas yang baik.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan yang Baik",
+          "content": "Bengkel las yang baik memiliki <strong>layanan yang baik</strong> untuk pelanggan mereka. Mereka dapat menangani berbagai jenis pertanyaan dan keluhan dari pelanggan dengan cepat dan efisien. Contohnya, <strong>bengkel las Mandiri Steel</strong> memiliki layanan yang baik untuk pelanggan mereka. Mereka dapat menangani berbagai jenis pertanyaan dan keluhan dari pelanggan dengan cepat dan efisien."
+        },
+        {
+          "heading": "7. Garansi yang Memadai",
+          "content": "Bengkel las terpercaya memiliki <strong>garansi yang memadai</strong> untuk berbagai jenis pekerjaan las. Mereka dapat menawarkan garansi yang memadai untuk pekerjaan las yang mereka lakukan. Contohnya, <strong>bengkel las Mandiri Steel</strong> memiliki garansi yang memadai untuk berbagai jenis pekerjaan las. Mereka dapat menawarkan garansi yang memadai untuk pekerjaan las yang mereka lakukan. <strong>Konstruksi Baja WF</strong> (produk ID: 7) dan <strong>Pintu Pagar Stainless Steel</strong> (produk ID: 8) memiliki garansi yang memadai dan kualitas yang baik.",
+          "productId": 7
+        }
+      ],
+      "conclusion": "Dalam memilih bengkel las terpercaya di Bekasi, perlu mempertimbangkan beberapa faktor seperti pengalaman, tim yang terlatih, peralatan yang memadai, reputasi yang baik, harga yang kompetitif, layanan yang baik, dan garansi yang memadai. Dengan mempertimbangkan faktor-faktor tersebut, Anda dapat memilih bengkel las yang terpercaya dan dapat menangani berbagai jenis pekerjaan las dengan cepat dan efisien. <strong>Mandiri Steel</strong> di Bekasi adalah salah satu bengkel las terpercaya yang dapat menangani berbagai jenis pekerjaan las dengan cepat dan efisien. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang jasa bengkel las kami."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 26,
+    "title": "Harga Pasang Teralis Jendela di Bekasi 2025",
+    "slug": "harga-pasang-teralis-jendela-bekasi-2025",
+    "excerpt": "Harga pasang teralis jendela di Bekasi 2025, panduan lengkap biaya dan tips pemasangan",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-15",
+    "image": "https://images.unsplash.com/photo-1715349158527-5b94325bd7c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMG1pbmltYWxpc3xlbnwwfDB8fHwxNzg0MTEzMjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Teralis jendela</strong> merupakan salah satu elemen keamanan yang penting untuk rumah Anda. Di Bekasi, harga pasang teralis jendela dapat bervariasi tergantung pada jenis bahan, desain, dan ukuran. Pada artikel ini, kita akan membahas secara lengkap tentang harga pasang teralis jendela di Bekasi 2025, serta memberikan tips dan panduan untuk memilih teralis jendela yang tepat untuk rumah Anda. <strong>Mandiri Steel</strong> sebagai penyedia jasa pasang teralis jendela di Bekasi akan membantu Anda memahami biaya dan proses pemasangan.",
+      "keyPoints": [
+        "Harga pasang teralis jendela di Bekasi 2025",
+        "Tips memilih teralis jendela yang tepat",
+        "Panduan pemasangan teralis jendela"
+      ],
+      "sections": [
+        {
+          "heading": "1. Harga Pasang Teralis Jendela di Bekasi 2025",
+          "content": "Harga pasang teralis jendela di Bekasi 2025 dapat bervariasi tergantung pada beberapa faktor, seperti jenis bahan, desain, dan ukuran. <strong>Bahan</strong> yang digunakan dapat mempengaruhi harga, seperti besi, stainless steel, atau alumunium. <strong>Desain</strong> juga dapat mempengaruhi harga, seperti desain minimalis atau desain klasik. <strong>Ukuran</strong> teralis jendela juga dapat mempengaruhi harga, seperti ukuran standar atau ukuran custom. Berikut adalah beberapa contoh harga pasang teralis jendela di Bekasi 2025:<br><ul><li>Harga pasang teralis jendela besi: Rp 500.000 - Rp 1.000.000 per meter</li><li>Harga pasang teralis jendela stainless steel: Rp 1.000.000 - Rp 2.000.000 per meter</li><li>Harga pasang teralis jendela alumunium: Rp 800.000 - Rp 1.500.000 per meter</li></ul>",
+          "imageSearchQuery": "harga teralis jendela",
+          "image": "https://images.unsplash.com/photo-1715349158527-5b94325bd7c2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxoYXJnYSUyMHRlcmFsaXMlMjBqZW5kZWxhfGVufDB8MHx8fDE3ODQxMTMyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tips Memilih Teralis Jendela yang Tepat",
+          "content": "Memilih teralis jendela yang tepat dapat mempengaruhi keamanan dan estetika rumah Anda. Berikut adalah beberapa tips memilih teralis jendela yang tepat:<br><ul><li>Pilih bahan yang kuat dan tahan lama</li><li>Pilih desain yang sesuai dengan gaya rumah Anda</li><li>Pilih ukuran yang sesuai dengan jendela Anda</li><li>Pertimbangkan biaya pemasangan dan perawatan</li></ul> <strong>Mandiri Steel</strong> dapat membantu Anda memilih teralis jendela yang tepat untuk rumah Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Panduan Pemasangan Teralis Jendela",
+          "content": "Pemasangan teralis jendela dapat dilakukan oleh profesional atau sendiri. Berikut adalah beberapa panduan pemasangan teralis jendela:<br><ul><li>Pastikan Anda memiliki semua bahan yang dibutuhkan</li><li>Pastikan Anda memiliki alat yang dibutuhkan</li><li>Ikuti instruksi pemasangan dengan hati-hati</li><li>Pastikan teralis jendela dipasang dengan kuat dan rapi</li></ul> <strong>Mandiri Steel</strong> dapat membantu Anda dengan pemasangan teralis jendela yang profesional dan berkualitas.",
+          "productId": 5
+        },
+        {
+          "heading": "4. Keamanan dan Kelebihan Teralis Jendela",
+          "content": "Teralis jendela dapat memberikan keamanan dan kelebihan untuk rumah Anda. Berikut adalah beberapa keamanan dan kelebihan teralis jendela:<br><ul><li>Mencegah masuknya orang tidak diinginkan</li><li>Melindungi jendela dari kerusakan</li><li>Menambah estetika rumah Anda</li><li>Mudah dipasang dan dirawat</li></ul> <strong>Mandiri Steel</strong> dapat membantu Anda memilih teralis jendela yang tepat untuk keamanan dan kelebihan rumah Anda."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Pemasangan Teralis Jendela?",
+          "content": "<strong>Mandiri Steel</strong> telah berpengalaman lebih dari 25 tahun dalam pemasangan teralis jendela dan konstruksi baja. Kami menggunakan bahan-bahan yang berkualitas dan memiliki tim yang profesional. Kami juga menawarkan garansi struktural dan survei gratis. Berikut adalah beberapa alasan mengapa Anda harus memilih <strong>Mandiri Steel</strong> untuk pemasangan teralis jendela:<br><ul><li>Bahan-bahan yang berkualitas</li><li>Tim yang profesional</li><li>Garansi struktural</li><li>Survei gratis</li></ul>",
+          "productId": 5
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "<strong>Mandiri Steel</strong> melayani area Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, Lippo Cikarang, dan sekitarnya. Kami dapat membantu Anda dengan pemasangan teralis jendela dan konstruksi baja di area Anda. <strong>Mandiri Steel</strong> dapat membantu Anda memilih teralis jendela yang tepat untuk rumah Anda dan memberikan pemasangan yang profesional dan berkualitas."
+        }
+      ],
+      "conclusion": "Dengan memilih <strong>Mandiri Steel</strong> untuk pemasangan teralis jendela, Anda dapat memastikan keamanan dan estetika rumah Anda. Kami dapat membantu Anda memilih teralis jendela yang tepat dan memberikan pemasangan yang profesional dan berkualitas. Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut tentang harga pasang teralis jendela di Bekasi 2025 dan pemasangan teralis jendela yang profesional."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 27,
+    "title": "Kanopi Atap Alderon untuk Kolam Renang",
+    "slug": "kanopi-atap-alderon-untuk-kolam-renang",
+    "excerpt": "Panduan waterproof dan anti UV untuk kanopi atap alderon di Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-15",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "<strong>Kanopi atap alderon</strong> telah menjadi pilihan populer untuk melindungi area kolam renang dari sinar matahari dan hujan. Dengan <strong>desain yang elegan</strong> dan <strong>kuat</strong>, kanopi ini dapat meningkatkan kenyamanan dan keamanan area kolam renang. Namun, untuk memastikan bahwa kanopi atap alderon dapat bertahan lama, perlu dilakukan <strong>pemeliharaan yang tepat</strong> dan <strong>pemasangan yang benar</strong>. Di artikel ini, kita akan membahas tentang <strong>panduan waterproof dan anti UV</strong> untuk kanopi atap alderon di Bekasi.",
+      "keyPoints": [
+        "Kanopi atap alderon dapat melindungi area kolam renang dari sinar matahari dan hujan",
+        "Pemeliharaan yang tepat dan pemasangan yang benar dapat meningkatkan umur kanopi",
+        "Panduan waterproof dan anti UV dapat membantu mencegah kerusakan kanopi"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Kanopi Atap Alderon untuk Kolam Renang",
+          "content": "Kanopi atap alderon memiliki beberapa kelebihan yang membuatnya menjadi pilihan populer untuk area kolam renang. <strong>Desain yang elegan</strong> dan <strong>kuat</strong> membuat kanopi ini dapat meningkatkan kenyamanan dan keamanan area kolam renang. Selain itu, kanopi atap alderon juga dapat <strong>mengurangi biaya perawatan</strong> dan <strong>meningkatkan nilai properti</strong>. Di Bekasi, kanopi atap alderon dapat dibuat dengan menggunakan <strong>bahan-bahan yang tahan lama</strong> dan <strong>kuat</strong>, seperti <strong>aluminium</strong> dan <strong>stainless steel</strong>.<br><br>Contoh nyata dari kelebihan kanopi atap alderon dapat dilihat di <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong>, yang menggunakan kanopi atap alderon untuk melindungi area kolam renang mereka.",
+          "imageSearchQuery": "alderon pool canopy"
+        },
+        {
+          "heading": "Panduan Waterproof untuk Kanopi Atap Alderon",
+          "content": "Untuk memastikan bahwa kanopi atap alderon dapat bertahan lama, perlu dilakukan <strong>pemeliharaan yang tepat</strong> dan <strong>pemasangan yang benar</strong>. Berikut adalah beberapa tips untuk membuat kanopi atap alderon menjadi waterproof:<br><ul><li>Pastikan bahwa kanopi atap alderon dipasang dengan <strong>benar</strong> dan <strong>kuat</strong></li><li>Gunakan <strong>bahan-bahan yang tahan air</strong> untuk melindungi kanopi dari kerusakan</li><li>Lakukan <strong>pemeliharaan rutin</strong> untuk membersihkan kanopi dan menghilangkan kotoran</li></ul><br><br>Di Bekasi, perusahaan seperti <strong>Mandiri Steel</strong> dapat membantu Anda membuat kanopi atap alderon yang waterproof dan kuat.",
+          "productId": 1
+        },
+        {
+          "heading": "Panduan Anti UV untuk Kanopi Atap Alderon",
+          "content": "Selain waterproof, kanopi atap alderon juga perlu dilindungi dari sinar UV yang dapat menyebabkan kerusakan. Berikut adalah beberapa tips untuk membuat kanopi atap alderon menjadi anti UV:<br><ul><li>Gunakan <strong>bahan-bahan yang tahan UV</strong> untuk melindungi kanopi dari kerusakan</li><li>Pastikan bahwa kanopi atap alderon dipasang dengan <strong>benar</strong> dan <strong>kuat</strong> untuk menghindari kerusakan</li><li>Lakukan <strong>pemeliharaan rutin</strong> untuk membersihkan kanopi dan menghilangkan kotoran</li></ul><br><br>Di Bekasi, kanopi atap alderon dapat dibuat dengan menggunakan <strong>bahan-bahan yang tahan UV</strong> dan <strong>kuat</strong>, seperti <strong>polikarbonat</strong> dan <strong>aluminium</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "Tips Memilih Kanopi Atap Alderon yang Tepat",
+          "content": "Untuk memilih kanopi atap alderon yang tepat, perlu dipertimbangkan beberapa faktor, seperti <strong>ukuran</strong>, <strong>bahan</strong>, dan <strong>desain</strong>. Berikut adalah beberapa tips untuk memilih kanopi atap alderon yang tepat:<br><ul><li>Pastikan bahwa kanopi atap alderon memiliki <strong>ukuran yang sesuai</strong> dengan area kolam renang</li><li>Pilih <strong>bahan-bahan yang tahan lama</strong> dan <strong>kuat</strong> untuk melindungi kanopi dari kerusakan</li><li>Pertimbangkan <strong>desain</strong> yang elegan dan sesuai dengan gaya rumah Anda</li></ul><br><br>Di Bekasi, perusahaan seperti <strong>Mandiri Steel</strong> dapat membantu Anda memilih kanopi atap alderon yang tepat untuk area kolam renang Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Kanopi Atap Alderon?",
+          "content": "Mandiri Steel adalah perusahaan yang telah berpengalaman lebih dari 25 tahun dalam membuat kanopi atap alderon yang kuat dan tahan lama. Dengan menggunakan <strong>bahan-bahan yang tahan lama</strong> dan <strong>kuat</strong>, seperti <strong>aluminium</strong> dan <strong>stainless steel</strong>, Mandiri Steel dapat membuat kanopi atap alderon yang sesuai dengan kebutuhan Anda. Selain itu, Mandiri Steel juga menawarkan <strong>garansi struktural</strong> dan <strong>survei gratis</strong> untuk memastikan bahwa kanopi atap alderon Anda dipasang dengan benar dan kuat.",
+          "productId": 1
+        },
+        {
+          "heading": "Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan kanopi atap alderon di berbagai area di Bekasi, seperti <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, dan <strong>Summarecon Bekasi</strong>. Dengan menggunakan <strong>teknologi yang canggih</strong> dan <strong>bahan-bahan yang tahan lama</strong>, Mandiri Steel dapat membuat kanopi atap alderon yang sesuai dengan kebutuhan Anda. Untuk informasi lebih lanjut, silakan hubungi Mandiri Steel melalui telepon atau email."
+        }
+      ],
+      "conclusion": "Dengan memilih kanopi atap alderon yang tepat dan melakukan pemeliharaan yang benar, Anda dapat meningkatkan kenyamanan dan keamanan area kolam renang. Di Bekasi, perusahaan seperti Mandiri Steel dapat membantu Anda membuat kanopi atap alderon yang kuat dan tahan lama. Silakan hubungi Mandiri Steel untuk informasi lebih lanjut tentang kanopi atap alderon dan layanan yang mereka tawarkan."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 22,
     "title": "Kanopi Lipat Bekasi",
     "slug": "kanopi-lipat-bekasi",
