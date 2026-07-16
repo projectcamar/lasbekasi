@@ -33,6 +33,183 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 28,
+    "title": "Komplain Las yang Efektif",
+    "slug": "cara-komplain-yang-efektif-jika-hasil-las-tidak-sesuai",
+    "excerpt": "Hak konsumen dan garansi untuk hasil las yang tidak sesuai",
+    "category": "Tips and Trick",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-16",
+    "image": "https://images.unsplash.com/photo-1740419014058-aa7e39329ced?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjdXN0b21lciUyMGNvbXBsYWludCUyMGhhbmRsaW5nfGVufDB8MHx8fDE3ODQxOTk2MTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Jika Anda pernah mengalami hasil las yang tidak sesuai dengan harapan, maka Anda tidak sendirian. Banyak konsumen yang merasa kecewa dengan hasil las yang tidak memuaskan. <strong>Bagaimana cara komplain yang efektif</strong> jika hasil las tidak sesuai dengan harapan? <strong>Hak konsumen</strong> dan <strong>garansi</strong> adalah dua hal yang sangat penting untuk dipahami dalam situasi seperti ini. Dalam artikel ini, kita akan membahas tentang cara komplain yang efektif dan hak konsumen yang terkait dengan hasil las yang tidak sesuai.",
+      "keyPoints": [
+        "Cara komplain yang efektif",
+        "Hak konsumen dalam hasil las yang tidak sesuai",
+        "Garansi dan jaminan kualitas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Memahami Hak Konsumen",
+          "content": "Sebelum membuat komplain, penting untuk memahami hak konsumen yang terkait dengan hasil las yang tidak sesuai. <strong>Undang-Undang Perlindungan Konsumen</strong> No. 8 Tahun 1999 menyatakan bahwa konsumen memiliki hak untuk memperoleh informasi yang benar dan jujur tentang produk atau jasa yang dibeli. <br> <strong>Hak konsumen</strong> lainnya termasuk hak untuk memperoleh kompensasi jika produk atau jasa tidak sesuai dengan standar yang dijanjikan. <br> Dalam konteks hasil las, konsumen memiliki hak untuk memperoleh hasil las yang sesuai dengan standar yang dijanjikan oleh penyedia jasa. <br> <ul> <li> Hak untuk memperoleh informasi yang benar tentang proses las dan bahan yang digunakan </li> <li> Hak untuk memperoleh hasil las yang sesuai dengan standar yang dijanjikan </li> <li> Hak untuk memperoleh kompensasi jika hasil las tidak sesuai dengan standar yang dijanjikan </li> </ul>",
+          "imageSearchQuery": "consumer rights",
+          "image": "https://images.unsplash.com/photo-1622522138652-71eb0775c637?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjb25zdW1lciUyMHJpZ2h0c3xlbnwwfDB8fHwxNzg0MTk5NjE4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Cara Komplain yang Efektif",
+          "content": "Jika Anda merasa bahwa hasil las tidak sesuai dengan harapan, maka langkah pertama yang harus dilakukan adalah membuat komplain yang efektif. <strong>Cara komplain yang efektif</strong> melibatkan beberapa langkah, termasuk: <br> <strong>1. Mengumpulkan bukti</strong>: Pastikan Anda memiliki bukti yang cukup untuk mendukung komplain Anda, seperti foto atau video hasil las yang tidak sesuai. <br> <strong>2. Menulis surat komplain</strong>: Tulis surat komplain yang jelas dan ringkas, menjelaskan masalah yang Anda hadapi dan solusi yang Anda inginkan. <br> <strong>3. Menghubungi penyedia jasa</strong>: Hubungi penyedia jasa las dan minta mereka untuk memperbaiki hasil las yang tidak sesuai. <br> <ul> <li> Pastikan Anda memiliki bukti yang cukup untuk mendukung komplain Anda </li> <li> Tulis surat komplain yang jelas dan ringkas </li> <li> Hubungi penyedia jasa las dan minta mereka untuk memperbaiki hasil las yang tidak sesuai </li> </ul>"
+        },
+        {
+          "heading": "3. Garansi dan Jaminan Kualitas",
+          "content": "Penyedia jasa las yang baik harus menyediakan garansi dan jaminan kualitas untuk hasil las mereka. <strong>Garansi</strong> adalah jaminan bahwa hasil las akan sesuai dengan standar yang dijanjikan, sedangkan <strong>jaminan kualitas</strong> adalah jaminan bahwa hasil las akan memenuhi standar kualitas yang dijanjikan. <br> <strong>Produk yang sesuai dengan standar garansi dan jaminan kualitas</strong> adalah <strong>Produk 1: Kanopi Minimalis Alderon (Kanopi - Best Seller)</strong>, yang menawarkan garansi 5 tahun untuk hasil las yang tidak sesuai dengan standar yang dijanjikan. <br> Dalam memilih penyedia jasa las, pastikan Anda memeriksa apakah mereka menyediakan garansi dan jaminan kualitas yang cukup. <br> <ul> <li> Pastikan penyedia jasa las menyediakan garansi dan jaminan kualitas yang cukup </li> <li> Periksa apakah penyedia jasa las memiliki reputasi yang baik dalam menyediakan hasil las yang sesuai dengan standar yang dijanjikan </li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "4. Mengapa Memilih Mandiri Steel",
+          "content": "Mandiri Steel adalah salah satu penyedia jasa las yang terpercaya di Bekasi dan sekitarnya. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membangun reputasi yang baik dalam menyediakan hasil las yang sesuai dengan standar yang dijanjikan. <br> <strong>Kelebihan Mandiri Steel</strong> termasuk: <br> <strong>1. Pengalaman yang luas</strong>: Mandiri Steel telah memiliki pengalaman yang luas dalam menyediakan jasa las untuk berbagai jenis proyek. <br> <strong>2. Bahan yang berkualitas</strong>: Mandiri Steel hanya menggunakan bahan yang berkualitas untuk memastikan bahwa hasil las sesuai dengan standar yang dijanjikan. <br> <strong>3. Garansi dan jaminan kualitas</strong>: Mandiri Steel menyediakan garansi dan jaminan kualitas yang cukup untuk memastikan bahwa hasil las sesuai dengan standar yang dijanjikan. <br> Dalam memilih penyedia jasa las, pastikan Anda memeriksa apakah mereka memiliki kelebihan yang sama dengan Mandiri Steel. <br> <ul> <li> Pastikan penyedia jasa las memiliki pengalaman yang luas </li> <li> Periksa apakah penyedia jasa las menggunakan bahan yang berkualitas </li> <li> Pastikan penyedia jasa las menyediakan garansi dan jaminan kualitas yang cukup </li> </ul>",
+          "productId": 0
+        },
+        {
+          "heading": "5. Layanan yang Tersedia di Mandiri Steel",
+          "content": "Mandiri Steel menyediakan berbagai jenis layanan las, termasuk: <br> <strong>1. Kanopi</strong>: Mandiri Steel menyediakan jasa las kanopi yang sesuai dengan standar yang dijanjikan. <br> <strong>2. Pagar</strong>: Mandiri Steel menyediakan jasa las pagar yang sesuai dengan standar yang dijanjikan. <br> <strong>3. Teralis</strong>: Mandiri Steel menyediakan jasa las teralis yang sesuai dengan standar yang dijanjikan. <br> <strong>Produk yang sesuai dengan layanan yang tersedia</strong> adalah <strong>Produk 5: Teralis Jendela Minimalis (Teralis - Keamanan Rumah)</strong>, yang menawarkan hasil las yang sesuai dengan standar yang dijanjikan. <br> Dalam memilih penyedia jasa las, pastikan Anda memeriksa apakah mereka menyediakan layanan yang sesuai dengan kebutuhan Anda. <br> <ul> <li> Pastikan penyedia jasa las menyediakan layanan yang sesuai dengan kebutuhan Anda </li> <li> Periksa apakah penyedia jasa las memiliki reputasi yang baik dalam menyediakan hasil las yang sesuai dengan standar yang dijanjikan </li> </ul>",
+          "productId": 5
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan las di berbagai area, termasuk: <br> <strong>Bekasi</strong>: Mandiri Steel menyediakan layanan las di Bekasi dan sekitarnya. <br> <strong>Cikarang</strong>: Mandiri Steel menyediakan layanan las di Cikarang dan sekitarnya. <br> <strong>Tambun</strong>: Mandiri Steel menyediakan layanan las di Tambun dan sekitarnya. <br> Dalam memilih penyedia jasa las, pastikan Anda memeriksa apakah mereka menyediakan layanan di area Anda. <br> <ul> <li> Pastikan penyedia jasa las menyediakan layanan di area Anda </li> <li> Periksa apakah penyedia jasa las memiliki reputasi yang baik dalam menyediakan hasil las yang sesuai dengan standar yang dijanjikan </li> </ul>"
+        }
+      ],
+      "conclusion": "Dalam membuat komplain yang efektif jika hasil las tidak sesuai dengan harapan, penting untuk memahami hak konsumen dan garansi yang terkait. <strong>Mandiri Steel</strong> adalah salah satu penyedia jasa las yang terpercaya di Bekasi dan sekitarnya, dengan lebih dari 25 tahun pengalaman dan reputasi yang baik dalam menyediakan hasil las yang sesuai dengan standar yang dijanjikan. <br> Jika Anda memerlukan layanan las yang sesuai dengan standar yang dijanjikan, hubungi Mandiri Steel sekarang juga."
+    },
+    "tags": [
+      "Tips and Trick",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 29,
+    "title": "Layanan Las dan Konstruksi Villa",
+    "slug": "layanan-las-dan-konstruksi-villa",
+    "excerpt": "Layanan las dan konstruksi untuk proyek villa dan resort di Cibarusah dan Serang Baru",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-16",
+    "image": "https://images.unsplash.com/photo-1688653802629-5360086bf632?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMHVudHVrJTIwdmlsbGF8ZW58MHwwfHx8MTc4NDE5OTY5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, <strong>permintaan akan villa dan resort</strong> di daerah Cibarusah dan Serang Baru telah meningkat pesat. Hal ini disebabkan oleh <strong>lokasi strategis</strong> dan <strong>keindahan alam</strong> yang dimiliki oleh kedua daerah tersebut. Namun, <strong>proyek konstruksi</strong> villa dan resort memerlukan <strong>layanan las dan konstruksi</strong> yang berkualitas untuk memastikan keamanan dan kenyamanan penghuninya. <strong>Mandiri Steel</strong> hadir sebagai solusi untuk kebutuhan tersebut, dengan pengalaman lebih dari 25 tahun dalam <strong>konstruksi baja</strong> dan <strong>las</strong>.",
+      "keyPoints": [
+        "Layanan las dan konstruksi untuk proyek villa dan resort",
+        "Penggunaan bahan SNI untuk memastikan keamanan",
+        "Pengalaman lebih dari 25 tahun dalam konstruksi baja dan las",
+        "Lokasi strategis di Bekasi untuk memudahkan akses"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pentingnya Layanan Las dan Konstruksi dalam Proyek Villa",
+          "content": "Dalam <strong>proyek konstruksi villa</strong>, <strong>layanan las dan konstruksi</strong> memegang peran penting. Hal ini disebabkan oleh <strong>kebutuhan akan struktur</strong> yang kuat dan tahan lama untuk menopang bangunan. <strong>Mandiri Steel</strong> menyediakan <strong>layanan las dan konstruksi</strong> yang berkualitas, dengan <strong>penggunaan bahan SNI</strong> yang memastikan keamanan dan kenyamanan penghuninya. <br><br> Contoh nyata dari pentingnya layanan las dan konstruksi dapat dilihat dari <strong>proyek villa</strong> di Cibarusah, di mana <strong>Mandiri Steel</strong> telah berhasil menyelesaikan proyek dengan <strong>memuaskan</strong>. <strong>Klien</strong> sangat puas dengan <strong>kualitas layanan</strong> yang diberikan, dan <strong>proyek</strong> tersebut telah menjadi <strong>contoh</strong> bagi proyek lainnya.",
+          "imageSearchQuery": "proyek villa di Cibarusah"
+        },
+        {
+          "heading": "2. Tips dalam Memilih Layanan Las dan Konstruksi",
+          "content": "Dalam memilih <strong>layanan las dan konstruksi</strong> untuk proyek villa, ada beberapa <strong>tips</strong> yang perlu diperhatikan. <strong>Pertama</strong>, pastikan <strong>perusahaan</strong> yang dipilih memiliki <strong>pengalaman</strong> yang cukup dalam <strong>konstruksi baja</strong> dan <strong>las</strong>. <strong>Kedua</strong>, pastikan <strong>perusahaan</strong> tersebut menggunakan <strong>bahan SNI</strong> yang memastikan keamanan dan kenyamanan penghuninya. <strong>Ketiga</strong>, pastikan <strong>perusahaan</strong> tersebut memiliki <strong>tim</strong> yang <strong>profesional</strong> dan <strong>berpengalaman</strong> dalam <strong>konstruksi</strong>. <br><br> Berikut beberapa <strong>tips</strong> lainnya: <ul><li>Pastikan perusahaan memiliki <strong>sertifikat</strong> yang relevan</li><li>Pastikan perusahaan memiliki <strong>pengalaman</strong> dalam proyek serupa</li><li>Pastikan perusahaan memiliki <strong>tim</strong> yang <strong>profesional</strong> dan <strong>berpengalaman</strong></li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "3. Kelebihan Menggunakan Jasa Mandiri Steel",
+          "content": "Menggunakan <strong>jasa Mandiri Steel</strong> memiliki beberapa <strong>kelebihan</strong>. <strong>Pertama</strong>, <strong>Mandiri Steel</strong> memiliki <strong>pengalaman</strong> yang cukup dalam <strong>konstruksi baja</strong> dan <strong>las</strong>, sehingga dapat memastikan <strong>kualitas</strong> yang tinggi. <strong>Kedua</strong>, <strong>Mandiri Steel</strong> menggunakan <strong>bahan SNI</strong> yang memastikan keamanan dan kenyamanan penghuninya. <strong>Ketiga</strong>, <strong>Mandiri Steel</strong> memiliki <strong>tim</strong> yang <strong>profesional</strong> dan <strong>berpengalaman</strong> dalam <strong>konstruksi</strong>. <br><br> Selain itu, <strong>Mandiri Steel</strong> juga memiliki <strong>lokasi strategis</strong> di Bekasi, sehingga dapat memudahkan <strong>akses</strong> ke proyek. <strong>Mandiri Steel</strong> juga memiliki <strong>garansi struktural</strong> yang memastikan keamanan dan kenyamanan penghuninya.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Proses Pengerjaan Proyek Villa",
+          "content": "Proses <strong>pengerjaan proyek villa</strong> di <strong>Mandiri Steel</strong> dimulai dengan <strong>survey</strong> lokasi proyek. <strong>Tim</strong> dari <strong>Mandiri Steel</strong> akan melakukan <strong>peninjauan</strong> lokasi proyek untuk menentukan <strong>kebutuhan</strong> dan <strong>spesifikasi</strong> proyek. Setelah itu, <strong>tim</strong> akan membuat <strong>desain</strong> dan <strong>perencanaan</strong> proyek, serta melakukan <strong>persiapan</strong> material dan <strong>peralatan</strong> yang dibutuhkan. <br><br> Setelah itu, <strong>proses konstruksi</strong> akan dimulai, dengan <strong>tim</strong> dari <strong>Mandiri Steel</strong> yang bekerja sama dengan <strong>klien</strong> untuk memastikan bahwa proyek selesai <strong>tepat waktu</strong> dan <strong>memuaskan</strong>. <strong>Mandiri Steel</strong> juga memiliki <strong>garansi struktural</strong> yang memastikan keamanan dan kenyamanan penghuninya.",
+          "productId": 2
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mengapa <strong>memilih Mandiri Steel</strong> untuk proyek villa? <strong>Pertama</strong>, <strong>Mandiri Steel</strong> memiliki <strong>pengalaman</strong> yang cukup dalam <strong>konstruksi baja</strong> dan <strong>las</strong>, sehingga dapat memastikan <strong>kualitas</strong> yang tinggi. <strong>Kedua</strong>, <strong>Mandiri Steel</strong> menggunakan <strong>bahan SNI</strong> yang memastikan keamanan dan kenyamanan penghuninya. <strong>Ketiga</strong>, <strong>Mandiri Steel</strong> memiliki <strong>tim</strong> yang <strong>profesional</strong> dan <strong>berpengalaman</strong> dalam <strong>konstruksi</strong>. <br><br> Selain itu, <strong>Mandiri Steel</strong> juga memiliki <strong>lokasi strategis</strong> di Bekasi, sehingga dapat memudahkan <strong>akses</strong> ke proyek. <strong>Mandiri Steel</strong> juga memiliki <strong>garansi struktural</strong> yang memastikan keamanan dan kenyamanan penghuninya. <strong>Produk</strong> yang ditawarkan oleh <strong>Mandiri Steel</strong> antara lain <strong>Kanopi Minimalis Alderon</strong> (productId: 1), <strong>Kanopi Kaca Tempered</strong> (productId: 2), dan <strong>Konstruksi Baja WF</strong> (productId: 7).",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan dan Garansi Mandiri Steel",
+          "content": "Mandiri Steel menawarkan <strong>layanan</strong> yang lengkap dan <strong>garansi</strong> yang memuaskan. <strong>Layanan</strong> yang ditawarkan antara lain <strong>desain</strong> dan <strong>perencanaan</strong> proyek, <strong>persiapan</strong> material dan <strong>peralatan</strong>, serta <strong>proses konstruksi</strong> yang dilakukan oleh <strong>tim</strong> yang <strong>profesional</strong> dan <strong>berpengalaman</strong>. <br><br> Selain itu, <strong>Mandiri Steel</strong> juga menawarkan <strong>garansi struktural</strong> yang memastikan keamanan dan kenyamanan penghuninya. <strong>Garansi</strong> ini berlaku selama <strong>beberapa tahun</strong> setelah proyek selesai, sehingga <strong>klien</strong> dapat merasa <strong>tenang</strong> dan <strong>percaya</strong> dengan <strong>kualitas</strong> yang ditawarkan oleh <strong>Mandiri Steel</strong>.",
+          "productId": 7
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>layanan las dan konstruksi</strong> untuk proyek villa, <strong>Mandiri Steel</strong> adalah <strong>pilihan</strong> yang tepat. Dengan <strong>pengalaman</strong> yang cukup dalam <strong>konstruksi baja</strong> dan <strong>las</strong>, <strong>Mandiri Steel</strong> dapat memastikan <strong>kualitas</strong> yang tinggi dan <strong>keamanan</strong> yang memuaskan. <strong>Mandiri Steel</strong> juga memiliki <strong>lokasi strategis</strong> di Bekasi, sehingga dapat memudahkan <strong>akses</strong> ke proyek. <strong>Klien</strong> dapat <strong>menghubungi</strong> <strong>Mandiri Steel</strong> untuk mendapatkan <strong>informasi</strong> lebih lanjut tentang <strong>layanan</strong> dan <strong>produk</strong> yang ditawarkan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 30,
+    "title": "Konstruksi Carport Baja",
+    "slug": "konstruksi-carport-baja-untuk-rumah",
+    "excerpt": "Konstruksi carport baja untuk rumah dengan 2-3 mobil di perumahan Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-16",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Membangun carport baja untuk rumah dengan 2-3 mobil di perumahan Bekasi memerlukan perencanaan yang matang. <strong>Konstruksi carport</strong> yang kuat dan tahan lama sangat penting untuk melindungi kendaraan dari sinar matahari dan hujan. Dalam artikel ini, kita akan membahas tentang konstruksi carport baja, mulai dari perencanaan hingga pelaksanaan, serta beberapa tips yang bermanfaat untuk Anda.",
+      "keyPoints": [
+        "Konstruksi carport baja yang kuat dan tahan lama",
+        "Perencanaan yang matang untuk memenuhi kebutuhan",
+        "Pemilihan bahan yang tepat untuk konstruksi carport"
+      ],
+      "sections": [
+        {
+          "heading": "Perencanaan Konstruksi Carport Baja",
+          "content": "Perencanaan konstruksi carport baja sangat penting untuk memastikan bahwa struktur yang dibangun dapat memenuhi kebutuhan dan aman untuk digunakan. <strong>Perencanaan</strong> yang baik harus mempertimbangkan beberapa faktor, seperti ukuran carport, jumlah kendaraan yang akan diparkir, dan kondisi lingkungan sekitar. Selain itu, perencanaan juga harus mempertimbangkan <em>estetika</em> dan <em>fungsi</em> carport, sehingga dapat meningkatkan nilai estetika rumah dan kenyamanan penghuni. Contoh perencanaan konstruksi carport baja yang baik adalah dengan membuat denah carport yang jelas dan rinci, serta mempertimbangkan kemiringan atap dan sistem drainase yang efektif.",
+          "imageSearchQuery": "denah carport baja"
+        },
+        {
+          "heading": "Pemilihan Bahan untuk Konstruksi Carport Baja",
+          "content": "Pemilihan bahan untuk konstruksi carport baja sangat penting untuk memastikan bahwa struktur yang dibangun dapat tahan lama dan kuat. <strong>Baja</strong> adalah salah satu bahan yang paling umum digunakan untuk konstruksi carport, karena memiliki kekuatan yang tinggi dan tahan terhadap korosi. Namun, pemilihan bahan juga harus mempertimbangkan <em>biaya</em> dan <em>ketersediaan</em> bahan. Selain baja, bahan lain seperti <em>kayu</em> dan <em>beton</em> juga dapat digunakan untuk konstruksi carport. Contoh pemilihan bahan yang baik adalah dengan menggunakan baja ringan untuk struktur atap dan kayu untuk dinding carport.",
+          "productId": 7
+        },
+        {
+          "heading": "Tips Membangun Konstruksi Carport Baja yang Kuat",
+          "content": "Membangun konstruksi carport baja yang kuat dan tahan lama memerlukan beberapa tips yang bermanfaat. <strong>Pertama</strong>, pastikan bahwa fondasi carport kuat dan stabil. <strong>Kedua</strong>, gunakan bahan yang tepat untuk struktur atap dan dinding carport. <strong>Ketiga</strong>, pastikan bahwa sistem drainase carport efektif dan tidak ada genangan air. Berikut beberapa tips lain yang bermanfaat: <ul> <li>Pastikan bahwa carport memiliki ventilasi yang baik untuk mengurangi kelembaban</li> <li>Gunakan cat yang tahan terhadap sinar UV untuk melindungi carport dari kerusakan</li> <li>Periksa carport secara teratur untuk memastikan bahwa tidak ada kerusakan atau kebocoran</li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "Kelebihan Menggunakan Konstruksi Carport Baja",
+          "content": "Menggunakan konstruksi carport baja memiliki beberapa kelebihan yang signifikan. <strong>Pertama</strong>, carport baja dapat tahan lama dan kuat, sehingga dapat melindungi kendaraan dari sinar matahari dan hujan. <strong>Kedua</strong>, carport baja dapat dibuat dengan desain yang modern dan elegan, sehingga dapat meningkatkan nilai estetika rumah. <strong>Ketiga</strong>, carport baja dapat dibuat dengan biaya yang relatif rendah, sehingga dapat menjadi pilihan yang ekonomis. Berikut beberapa kelebihan lain yang signifikan: <ul> <li>Carport baja dapat dibuat dengan ukuran yang besar, sehingga dapat memenuhi kebutuhan</li> <li>Carport baja dapat dibuat dengan bahan yang ramah lingkungan, sehingga dapat mengurangi dampak lingkungan</li> <li>Carport baja dapat dibuat dengan sistem keamanan yang canggih, sehingga dapat melindungi kendaraan dari pencurian</li> </ul>",
+          "productId": 2
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Konstruksi Carport Baja",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang terpercaya dan berpengalaman dalam konstruksi carport baja. <strong>Pertama</strong>, Mandiri Steel memiliki tim yang profesional dan berpengalaman dalam konstruksi carport baja. <strong>Kedua</strong>, Mandiri Steel menggunakan bahan yang berkualitas tinggi dan tahan lama, sehingga dapat memastikan bahwa carport baja yang dibangun dapat tahan lama dan kuat. <strong>Ketiga</strong>, Mandiri Steel menawarkan harga yang kompetitif dan layanan yang memuaskan, sehingga dapat menjadi pilihan yang tepat untuk Anda. Berikut beberapa alasan lain yang membuat Mandiri Steel menjadi pilihan yang tepat: <ul> <li>Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam konstruksi carport baja</li> <li>Mandiri Steel menggunakan bahan yang SNI dan memiliki garansi struktural</li> <li>Mandiri Steel menawarkan layanan survei gratis dan konsultasi yang profesional</li> </ul>",
+          "productId": 7
+        },
+        {
+          "heading": "Layanan Konstruksi Carport Baja di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan layanan konstruksi carport baja di Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <strong>Pertama</strong>, Mandiri Steel memiliki tim yang profesional dan berpengalaman dalam konstruksi carport baja. <strong>Kedua</strong>, Mandiri Steel menggunakan bahan yang berkualitas tinggi dan tahan lama, sehingga dapat memastikan bahwa carport baja yang dibangun dapat tahan lama dan kuat. <strong>Ketiga</strong>, Mandiri Steel menawarkan harga yang kompetitif dan layanan yang memuaskan, sehingga dapat menjadi pilihan yang tepat untuk Anda. Berikut beberapa kelebihan lain yang membuat Mandiri Steel menjadi pilihan yang tepat: <ul> <li>Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam konstruksi carport baja</li> <li>Mandiri Steel menggunakan bahan yang SNI dan memiliki garansi struktural</li> <li>Mandiri Steel menawarkan layanan survei gratis dan konsultasi yang profesional</li> </ul>",
+          "productId": 7
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, konstruksi carport baja untuk rumah dengan 2-3 mobil di perumahan Bekasi memerlukan perencanaan yang matang dan pemilihan bahan yang tepat. Dengan menggunakan konstruksi carport baja, Anda dapat melindungi kendaraan dari sinar matahari dan hujan, serta meningkatkan nilai estetika rumah. Mandiri Steel adalah salah satu perusahaan yang terpercaya dan berpengalaman dalam konstruksi carport baja, dengan lebih dari 25 tahun pengalaman dan bahan yang SNI. Jika Anda membutuhkan layanan konstruksi carport baja, hubungi Mandiri Steel sekarang juga untuk mendapatkan harga yang kompetitif dan layanan yang memuaskan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 25,
     "title": "Cara Memilih Bengkel Las Terpercaya",
     "slug": "cara-memilih-bengkel-las-terpercaya-di-bekasi",
