@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 31,
+    "title": "Kanopi Kaca Tempered Bekasi",
+    "slug": "kanopi-kaca-tempered-bekasi",
+    "excerpt": "Kanopi kaca tempered untuk teras belakang rumah di Bekasi: kelebihan, risiko, dan tips pemasangan",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-17",
+    "image": "https://images.unsplash.com/photo-1742786274465-299d8128c00b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYWNhJTIwdGVtcGVyZWQlMjB1bnR1ayUyMGthbm9waXxlbnwwfDB8fHwxNzg0Mjg2MDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Membangun atau merenovasi rumah di Bekasi, khususnya di area seperti Cikarang, Tambun, atau Cibitung, memerlukan perhatian terhadap detail, termasuk <strong>pemilihan kanopi</strong> yang tepat untuk teras belakang. <strong>Kanopi kaca tempered</strong> menjadi pilihan populer karena kekuatannya yang tinggi dan estetika yang modern. Namun, sebelum memutuskan untuk menggunakan kanopi kaca tempered, penting untuk memahami <strong>kelebihan</strong>, <strong>risiko</strong>, dan <strong>tips pemasangan</strong> yang tepat.",
+      "keyPoints": [
+        "Kelebihan kanopi kaca tempered",
+        "Risiko yang perlu diperhatikan",
+        "Tips pemasangan kanopi kaca tempered"
+      ],
+      "sections": [
+        {
+          "heading": "1. Kelebihan Kanopi Kaca Tempered",
+          "content": "Kanopi kaca tempered memiliki beberapa <strong>kelebihan</strong> yang membuatnya populer di kalangan pemilik rumah di Bekasi. Pertama, <strong>kekuatan</strong> kaca tempered jauh lebih tinggi dibandingkan dengan kaca biasa, sehingga lebih tahan terhadap benturan dan tekanan. Kedua, kaca tempered juga memiliki <strong>ketahanan</strong> yang baik terhadap perubahan suhu, sehingga tidak mudah pecah atau retak. Ketiga, <strong>estetika</strong> kaca tempered sangat modern dan elegan, membuat teras rumah terlihat lebih mewah. <br><br> Contoh nyata dari kelebihan ini dapat dilihat dari kasus sebuah rumah di Kota Deltamas, Bekasi, yang menggunakan kanopi kaca tempered untuk teras belakangnya. Rumah ini tidak hanya terlihat lebih modern tetapi juga lebih aman dan tahan lama.",
+          "imageSearchQuery": "kanopi kaca tempered modern",
+          "image": "https://images.unsplash.com/photo-1722840614573-54e9c47afea9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBrYWNhJTIwdGVtcGVyZWQlMjBtb2Rlcm58ZW58MHwwfHx8MTc4NDI4NjAxMXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Risiko yang Perlu Diperhatikan",
+          "content": "Meskipun kanopi kaca tempered memiliki banyak kelebihan, ada beberapa <strong>risiko</strong> yang perlu diperhatikan. Pertama, <strong>biaya</strong> kaca tempered relatif lebih mahal dibandingkan dengan material lainnya. Kedua, <strong>proses pemasangan</strong> yang salah bisa menyebabkan kaca tempered pecah atau retak. Ketiga, <strong>perawatan</strong> kaca tempered memerlukan perhatian khusus untuk menjaga kebersihannya dan mencegah kerusakan. <br><br> Oleh karena itu, penting untuk memilih <strong>penyedia jasa</strong> yang berpengalaman dan menggunakan <strong>material berkualitas</strong> untuk meminimalisir risiko tersebut. Di Bekasi, terutama di area seperti Jababeka atau MM2100, tersedia beberapa penyedia jasa yang bisa dipertimbangkan.",
+          "productId": 2
+        },
+        {
+          "heading": "3. Tips Pemasangan Kanopi Kaca Tempered",
+          "content": "Untuk memastikan pemasangan kanopi kaca tempered berjalan dengan lancar dan aman, berikut beberapa <strong>tips</strong> yang bisa diikuti: <ul><li>Pilih penyedia jasa yang berpengalaman dan memiliki reputasi baik.</li><li>Pastikan penyedia jasa menggunakan material berkualitas dan memenuhi standar SNI.</li><li>Lakukan survei lapangan sebelum pemasangan untuk memastikan kondisi lokasi sesuai dengan kebutuhan.</li><li>Pastikan proses pemasangan dilakukan dengan hati-hati dan sesuai dengan prosedur yang benar.</li></ul> <br><br> Dengan mengikuti tips ini, pemilik rumah di Bekasi bisa menikmati kanopi kaca tempered yang tidak hanya estetis tetapi juga aman dan tahan lama.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel, sebagai salah satu penyedia jasa <strong>konstruksi baja</strong> dan <strong>fabrikasi</strong> terkemuka di Bekasi, menawarkan berbagai kelebihan dalam pemasangan kanopi kaca tempered. Dengan lebih dari <strong>25 tahun pengalaman</strong>, Mandiri Steel memiliki kemampuan dan pengetahuan yang luas dalam menangani proyek-proyek konstruksi, termasuk pemasangan kanopi kaca tempered. <br><br> Selain itu, Mandiri Steel juga menggunakan <strong>material SNI</strong> yang berkualitas tinggi, memastikan bahwa setiap proyek yang dikerjakan memiliki standar keamanan dan kualitas yang tinggi. Dengan <strong>survei lapangan gratis</strong> dan <strong>garansi struktural</strong>, Mandiri Steel memberikan kepercayaan dan ketenangan kepada pelanggannya.",
+          "productId": 7
+        },
+        {
+          "heading": "5. Layanan dan Produk Mandiri Steel",
+          "content": "Mandiri Steel tidak hanya menyediakan jasa pemasangan kanopi kaca tempered tetapi juga berbagai <strong>produk</strong> dan <strong>layanan</strong> lainnya yang terkait dengan konstruksi dan fabrikasi. Mulai dari <strong>kanopi minimalis</strong>, <strong>pintu pagar stainless steel</strong>, hingga <strong>konstruksi baja WF</strong> untuk industri atau gudang, Mandiri Steel siap memenuhi kebutuhan konstruksi Anda. <br><br> Dengan <strong>pengalaman</strong> yang luas dan <strong>komitmen</strong> terhadap kualitas, Mandiri Steel menjadi pilihan yang tepat bagi mereka yang mencari penyedia jasa konstruksi yang bisa diandalkan di Bekasi.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan untuk berbagai area di Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Dengan <strong>jaringan</strong> yang luas dan <strong>tim</strong> yang berpengalaman, Mandiri Steel siap menghadirkan layanan terbaik untuk memenuhi kebutuhan konstruksi dan fabrikasi Anda di mana pun Anda berada. <br><br> Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang layanan dan produk yang tersedia, serta untuk memulai proyek Anda dengan kepercayaan dan ketenangan."
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi kaca tempered untuk teras belakang rumah di Bekasi, penting untuk mempertimbangkan kelebihan, risiko, dan tips pemasangan yang tepat. Dengan memilih penyedia jasa yang berpengalaman seperti Mandiri Steel, Anda bisa menikmati kanopi kaca tempered yang tidak hanya estetis tetapi juga aman dan tahan lama. Hubungi Mandiri Steel hari ini juga untuk mendapatkan layanan terbaik dan memulai proyek Anda dengan kepercayaan dan ketenangan."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 32,
+    "title": "Konstruksi Baja Pabrik",
+    "slug": "konstruksi-baja-pabrik-cikarang",
+    "excerpt": "Perencanaan konstruksi baja untuk perluasan pabrik di EJIP dan Delta Silicon Cikarang",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-17",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, daerah Cikarang telah berkembang menjadi salah satu pusat industri terbesar di Indonesia. <strong>Perluasan pabrik</strong> di kawasan ini memerlukan perencanaan yang matang, terutama dalam hal <strong>konstruksi baja</strong>. Mandiri Steel, sebagai salah satu penyedia jasa konstruksi baja terkemuka di Bekasi, telah berpengalaman dalam mengerjakan proyek-proyek besar di daerah ini. Dalam artikel ini, kita akan membahas tentang perencanaan konstruksi baja untuk perluasan pabrik di EJIP dan Delta Silicon Cikarang.",
+      "keyPoints": [
+        "Perencanaan konstruksi baja yang matang",
+        "Penggunaan bahan-bahan berkualitas tinggi",
+        "Pemilihan desain yang tepat untuk perluasan pabrik"
+      ],
+      "sections": [
+        {
+          "heading": "1. Perencanaan Awal",
+          "content": "Perencanaan awal adalah tahap yang paling kritis dalam proses konstruksi baja. <strong>Tim ahli</strong> dari Mandiri Steel akan bekerja sama dengan klien untuk memahami kebutuhan dan tujuan proyek. <br> Dalam tahap ini, kita akan membahas tentang <strong>desain</strong>, <strong>material</strong>, dan <strong>biaya</strong> yang diperlukan. <ul><li>Mengidentifikasi kebutuhan klien</li><li>Mengembangkan desain yang sesuai</li><li>Menghitung biaya yang diperlukan</li></ul> Dengan perencanaan yang matang, kita dapat memastikan bahwa proyek berjalan lancar dan sesuai dengan jadwal.",
+          "imageSearchQuery": "perencanaan konstruksi baja",
+          "image": "https://images.unsplash.com/photo-1531834685032-c34bf0d84c77?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwZXJlbmNhbmFhbiUyMGtvbnN0cnVrc2klMjBiYWphfGVufDB8MHx8fDE3ODQyODYwODN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Pemilihan Bahan",
+          "content": "Pemilihan bahan yang tepat adalah sangat penting dalam konstruksi baja. <strong>Baja</strong> yang digunakan harus memiliki <strong>kualitas</strong> yang tinggi dan sesuai dengan kebutuhan proyek. Mandiri Steel hanya menggunakan <strong>bahan-bahan berkualitas tinggi</strong> yang memenuhi standar <strong>SNI</strong>. <br> Dalam memilih bahan, kita harus mempertimbangkan <strong>kekuatan</strong>, <strong>ketahanan</strong>, dan <strong>kestabilan</strong> dari bahan tersebut. <blockquote>Pemilihan bahan yang tepat dapat memastikan bahwa struktur baja yang dibangun dapat bertahan lama dan aman.</blockquote>",
+          "productId": 7
+        },
+        {
+          "heading": "3. Desain dan Konstruksi",
+          "content": "Desain dan konstruksi adalah tahap yang paling penting dalam proses konstruksi baja. <strong>Tim ahli</strong> dari Mandiri Steel akan bekerja sama dengan klien untuk mengembangkan desain yang sesuai dengan kebutuhan dan tujuan proyek. <br> Dalam tahap ini, kita akan membahas tentang <strong>struktur</strong>, <strong>dimensi</strong>, dan <strong>penempatan</strong> dari baja. <ul><li>Mengembangkan desain yang sesuai</li><li>Menghitung dimensi yang tepat</li><li>Menentukan penempatan baja</li></ul> Dengan desain yang tepat, kita dapat memastikan bahwa struktur baja yang dibangun dapat memenuhi kebutuhan klien.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Pemasangan dan Pengujian",
+          "content": "Pemasangan dan pengujian adalah tahap yang paling kritis dalam proses konstruksi baja. <strong>Tim ahli</strong> dari Mandiri Steel akan bekerja sama dengan klien untuk memastikan bahwa pemasangan dan pengujian dilakukan dengan benar. <br> Dalam tahap ini, kita akan membahas tentang <strong>prosedur pemasangan</strong>, <strong>pengujian kekuatan</strong>, dan <strong>pengujian keamanan</strong>. <ul><li>Mengikuti prosedur pemasangan yang benar</li><li>Mengujikan kekuatan struktur baja</li><li>Mengujikan keamanan struktur baja</li></ul> Dengan pemasangan dan pengujian yang benar, kita dapat memastikan bahwa struktur baja yang dibangun dapat aman dan tahan lama."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel",
+          "content": "Mandiri Steel telah berpengalaman dalam mengerjakan proyek-proyek besar di daerah Cikarang dan Bekasi. <strong>Tim ahli</strong> dari Mandiri Steel telah bekerja sama dengan klien untuk memastikan bahwa proyek berjalan lancar dan sesuai dengan jadwal. <br> Dalam memilih Mandiri Steel, klien dapat memastikan bahwa <strong>biaya</strong> yang diperlukan dapat <strong>hemat</strong>, <strong>waktu</strong> yang diperlukan dapat <strong>cepat</strong>, dan <strong>kualitas</strong> yang dihasilkan dapat <strong>tinggi</strong>. <ul><li>Menghemat biaya</li><li>Menghemat waktu</li><li>Menghasilkan kualitas yang tinggi</li></ul> Dengan memilih Mandiri Steel, klien dapat memastikan bahwa proyek konstruksi baja dapat berjalan lancar dan sesuai dengan kebutuhan.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Area Layanan",
+          "content": "Mandiri Steel menyediakan jasa konstruksi baja di daerah Cikarang, Bekasi, dan sekitarnya. <strong>Area layanan</strong> kami meliputi <strong>EJIP</strong>, <strong>Delta Silicon</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> Dalam area layanan kami, klien dapat memastikan bahwa proyek konstruksi baja dapat berjalan lancar dan sesuai dengan kebutuhan. <ul><li>EJIP</li><li>Delta Silicon</li><li>Jababeka</li><li>MM2100</li><li>Grand Wisata</li><li>Summarecon Bekasi</li><li>Kota Deltamas</li><li>Lippo Cikarang</li></ul> Dengan area layanan yang luas, Mandiri Steel dapat memastikan bahwa klien dapat memperoleh jasa konstruksi baja yang berkualitas dan sesuai dengan kebutuhan."
+        }
+      ],
+      "conclusion": "Dalam memilih jasa konstruksi baja, klien harus memastikan bahwa perusahaan yang dipilih memiliki <strong>pengalaman</strong> yang luas, <strong>tim ahli</strong> yang berkualitas, dan <strong>bahan-bahan</strong> yang berkualitas tinggi. Mandiri Steel telah berpengalaman dalam mengerjakan proyek-proyek besar di daerah Cikarang dan Bekasi, dan telah bekerja sama dengan klien untuk memastikan bahwa proyek berjalan lancar dan sesuai dengan jadwal. Dengan memilih Mandiri Steel, klien dapat memastikan bahwa proyek konstruksi baja dapat berjalan lancar dan sesuai dengan kebutuhan. <strong>Hubungi Mandiri Steel</strong> sekarang juga untuk memperoleh jasa konstruksi baja yang berkualitas dan sesuai dengan kebutuhan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 33,
+    "title": "Jasa Bengkel Las Mandiri",
+    "slug": "jasa-bengkel-las-mandiri",
+    "excerpt": "Bengkel las Mandiri, layanan custom steel fabrication terpercaya di Bekasi",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-17",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Di era modern ini, <strong>bengkel las</strong> menjadi salah satu kebutuhan penting dalam berbagai industri dan kehidupan sehari-hari. <strong>Mandiri Steel</strong> hadir sebagai solusi terpercaya untuk kebutuhan custom steel fabrication di Bekasi dan sekitarnya. Dengan pengalaman lebih dari 25 tahun, kami telah menjadi pilihan utama untuk berbagai proyek, mulai dari <strong>kanopi</strong>, <strong>pintu pagar</strong>, hingga <strong>konstruksi baja</strong>.",
+      "keyPoints": [
+        "Layanan custom steel fabrication",
+        "Pengalaman lebih dari 25 tahun",
+        "Menggunakan bahan SNI",
+        "Garansi struktural"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept: Mengenal Bengkel Las Mandiri",
+          "content": "Bengkel las Mandiri adalah sebuah perusahaan yang bergerak di bidang <strong>custom steel fabrication</strong>. Kami memiliki pengalaman yang luas dalam mengerjakan berbagai proyek, mulai dari yang sederhana hingga yang kompleks. <strong>Mandiri Steel</strong> didirikan dengan tujuan untuk memberikan pelayanan terbaik dan memenuhi kebutuhan pelanggan dengan produk-produk berkualitas tinggi. Kami memiliki tim yang terdiri dari ahli-ahli yang berpengalaman dan terlatih dalam bidang <strong>las</strong> dan <strong>fabrikasi baja</strong>.<br><br>Kelebihan kami adalah kemampuan untuk menerima proyek-proyek dengan ukuran dan kompleksitas yang bervariasi. Kami juga memiliki kemampuan untuk mendesain dan mengembangkan produk sesuai dengan kebutuhan spesifik pelanggan. Dengan menggunakan <strong>bahan SNI</strong> dan menerapkan <strong>teknologi canggih</strong>, kami dapat memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama.",
+          "imageSearchQuery": "bengkel las industry",
+          "image": "https://images.unsplash.com/photo-1462395418450-4cb21f57af86?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwaW5kdXN0cnl8ZW58MHwwfHx8MTc4NDI4NjE1Nnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Benefits: Manfaat Menggunakan Jasa Bengkel Las Mandiri",
+          "content": "Menggunakan jasa <strong>bengkel las Mandiri</strong> dapat memberikan beberapa manfaat bagi pelanggan. Pertama, kami dapat membantu pelanggan dalam mengerjakan proyek-proyek yang memerlukan <strong>fabrikasi baja</strong> dengan cepat dan efisien. Kedua, kami dapat membantu pelanggan dalam mendesain dan mengembangkan produk sesuai dengan kebutuhan spesifik mereka. Ketiga, kami dapat memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama.<br><br>Beberapa contoh manfaat yang dapat diperoleh dari menggunakan jasa <strong>bengkel las Mandiri</strong> adalah:<ul><li>Menghemat waktu dan biaya</li><li>Meningkatkan kualitas produk</li><li>Meningkatkan efisiensi</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips/Guides: Cara Memilih Jasa Bengkel Las yang Tepat",
+          "content": "Dalam memilih jasa <strong>bengkel las</strong> yang tepat, ada beberapa hal yang perlu dipertimbangkan. Pertama, perlu memastikan bahwa perusahaan memiliki pengalaman yang luas dalam mengerjakan proyek-proyek <strong>fabrikasi baja</strong>. Kedua, perlu memastikan bahwa perusahaan memiliki tim yang terdiri dari ahli-ahli yang berpengalaman dan terlatih dalam bidang <strong>las</strong> dan <strong>fabrikasi baja</strong>. Ketiga, perlu memastikan bahwa perusahaan menggunakan <strong>bahan SNI</strong> dan menerapkan <strong>teknologi canggih</strong>.<br><br>Beberapa tips yang dapat digunakan dalam memilih jasa <strong>bengkel las</strong> yang tepat adalah:<ul><li>Melakukan riset dan membandingkan harga</li><li>Memastikan bahwa perusahaan memiliki reputasi yang baik</li><li>Memastikan bahwa perusahaan memiliki kemampuan untuk menerima proyek-proyek dengan ukuran dan kompleksitas yang bervariasi</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "4. Maintenance: Cara Merawat Produk Bengkel Las",
+          "content": "Merawat produk <strong>bengkel las</strong> sangat penting untuk memastikan bahwa produk tersebut dapat bertahan lama. Beberapa cara yang dapat dilakukan untuk merawat produk <strong>bengkel las</strong> adalah:<ul><li>Membersihkan produk secara teratur</li><li>Menggunakan produk dengan hati-hati</li><li>Menghindari kontak dengan bahan kimia</li></ul><br><br>Dalam merawat produk <strong>bengkel las</strong>, perlu memastikan bahwa produk tersebut dibersihkan secara teratur untuk menghindari kerusakan akibat kotoran dan debu. Selain itu, perlu menggunakan produk dengan hati-hati untuk menghindari kerusakan akibat kecelakaan."
+        },
+        {
+          "heading": "5. Why Choose Mandiri Steel: Alasan Memilih Mandiri Steel",
+          "content": "Mandiri Steel adalah pilihan terbaik untuk kebutuhan <strong>custom steel fabrication</strong> di Bekasi dan sekitarnya. Kami memiliki pengalaman lebih dari 25 tahun dalam mengerjakan proyek-proyek <strong>fabrikasi baja</strong>. Kami juga memiliki tim yang terdiri dari ahli-ahli yang berpengalaman dan terlatih dalam bidang <strong>las</strong> dan <strong>fabrikasi baja</strong>.<br><br>Beberapa alasan memilih Mandiri Steel adalah:<ul><li>Pengalaman lebih dari 25 tahun</li><li>Tim yang terdiri dari ahli-ahli yang berpengalaman dan terlatih</li><li>Menggunakan bahan SNI</li><li>Garansi struktural</li></ul>",
+          "productId": 8
+        },
+        {
+          "heading": "6. Service Areas: Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas, mencakup <strong>Bekasi Timur</strong>, <strong>Bekasi Barat</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan sekitarnya. Kami juga menerima proyek-proyek dari <strong>Cikarang</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>.<br><br>Kami memiliki kemampuan untuk menerima proyek-proyek dengan ukuran dan kompleksitas yang bervariasi, mulai dari yang sederhana hingga yang kompleks. Dengan menggunakan <strong>bahan SNI</strong> dan menerapkan <strong>teknologi canggih</strong>, kami dapat memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama."
+        }
+      ],
+      "conclusion": "Dalam memilih jasa <strong>bengkel las</strong> yang tepat, perlu memastikan bahwa perusahaan memiliki pengalaman yang luas dalam mengerjakan proyek-proyek <strong>fabrikasi baja</strong>. Mandiri Steel adalah pilihan terbaik untuk kebutuhan <strong>custom steel fabrication</strong> di Bekasi dan sekitarnya. Kami memiliki pengalaman lebih dari 25 tahun dalam mengerjakan proyek-proyek <strong>fabrikasi baja</strong> dan memiliki tim yang terdiri dari ahli-ahli yang berpengalaman dan terlatih dalam bidang <strong>las</strong> dan <strong>fabrikasi baja</strong>. Silakan hubungi kami untuk informasi lebih lanjut tentang layanan <strong>bengkel las</strong> yang kami tawarkan."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 28,
     "title": "Komplain Las yang Efektif",
     "slug": "cara-komplain-yang-efektif-jika-hasil-las-tidak-sesuai",
