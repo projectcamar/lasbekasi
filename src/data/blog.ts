@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 34,
+    "title": "Estimasi Biaya Pasang Pagar Besi Minimalis",
+    "slug": "estimasi-biaya-pasang-pagar-besi-minimalis",
+    "excerpt": "Estimasi biaya pasang pagar besi minimalis per meter di Bekasi 2025. Dapatkan informasi lengkap tentang harga dan tips memilih pagar besi yang tepat.",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-18",
+    "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwZW1idWF0YW4lMjBwYWdhciUyMGJlc2klMjBtaW5pbWFsaXN8ZW58MHwwfHx8MTc4NDM3MjQwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar besi minimalis menjadi pilihan populer bagi banyak pemilik rumah di Bekasi karena keindahan dan fungsionalitasnya. <strong>Pagar besi</strong> dapat meningkatkan keamanan dan estetika rumah Anda. Namun, sebelum memasang pagar besi, penting untuk mempertimbangkan <strong>biaya</strong> yang diperlukan. Dalam artikel ini, kita akan membahas tentang estimasi biaya pasang pagar besi minimalis per meter di Bekasi 2025.",
+      "keyPoints": [
+        "Estimasi biaya pasang pagar besi minimalis per meter",
+        "Tips memilih pagar besi yang tepat",
+        "Kelebihan pagar besi minimalis"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Pagar Besi Minimalis",
+          "content": "Pagar besi minimalis adalah salah satu jenis pagar yang paling populer di kalangan masyarakat Bekasi. <strong>Pagar besi</strong> ini memiliki desain yang sederhana namun elegan, sehingga dapat meningkatkan keindahan rumah Anda. <br> Pagar besi minimalis juga memiliki kelebihan lain, seperti <strong>kuat</strong> dan <strong>tahan lama</strong>. Dengan menggunakan pagar besi minimalis, Anda dapat meningkatkan keamanan rumah Anda dan melindungi keluarga Anda dari bahaya luar. <br> Selain itu, pagar besi minimalis juga dapat meningkatkan nilai jual rumah Anda. Dengan demikian, memasang pagar besi minimalis dapat menjadi investasi yang cerdas bagi Anda.",
+          "imageSearchQuery": "pembuatan pagar besi minimalis",
+          "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwZW1idWF0YW4lMjBwYWdhciUyMGJlc2klMjBtaW5pbWFsaXN8ZW58MHwwfHx8MTc4NDM3MjQwOXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Estimasi Biaya Pasang Pagar Besi Minimalis",
+          "content": "Biaya pasang pagar besi minimalis per meter di Bekasi 2025 dapat bervariasi tergantung pada beberapa faktor, seperti <strong>jenis bahan</strong>, <strong>ukuran</strong>, dan <strong>kompleksitas desain</strong>. Namun, berikut adalah estimasi biaya pasang pagar besi minimalis per meter di Bekasi 2025: <br> - Biaya bahan: Rp 500.000 - Rp 1.000.000 per meter <br> - Biaya pemasangan: Rp 200.000 - Rp 500.000 per meter <br> - Biaya total: Rp 700.000 - Rp 1.500.000 per meter. <br> Perlu diingat bahwa biaya di atas hanya estimasi dan dapat berbeda-beda tergantung pada kebutuhan Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Tips Memilih Pagar Besi yang Tepat",
+          "content": "Memilih pagar besi yang tepat dapat menjadi tantangan bagi banyak orang. Berikut adalah beberapa tips yang dapat membantu Anda memilih pagar besi yang tepat: <br> - <strong>Tentukan anggaran</strong>: Sebelum membeli pagar besi, tentukan anggaran Anda terlebih dahulu. <br> - <strong>Pilih jenis bahan</strong>: Pilih jenis bahan yang sesuai dengan kebutuhan Anda. <br> - <strong>Perhatikan desain</strong>: Pilih desain yang sesuai dengan gaya rumah Anda. <br> Dengan mempertimbangkan faktor-faktor di atas, Anda dapat memilih pagar besi yang tepat untuk rumah Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Kelebihan Pagar Besi Minimalis",
+          "content": "Pagar besi minimalis memiliki beberapa kelebihan, seperti: <br> - <strong>Kuat dan tahan lama</strong>: Pagar besi minimalis dapat bertahan lama dan tahan terhadap cuaca. <br> - <strong>Estetika</strong>: Pagar besi minimalis dapat meningkatkan keindahan rumah Anda. <br> - <strong>Keamanan</strong>: Pagar besi minimalis dapat meningkatkan keamanan rumah Anda. <br> Dengan demikian, pagar besi minimalis dapat menjadi pilihan yang tepat bagi Anda."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam pembuatan pagar besi minimalis. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel dapat memberikan Anda <strong>hasil yang memuaskan</strong>. <br> Selain itu, Mandiri Steel juga menggunakan <strong>bahan-bahan yang berkualitas</strong> dan memiliki <strong>garansi struktural</strong>. Dengan demikian, Anda dapat yakin bahwa pagar besi minimalis yang Anda beli adalah yang terbaik.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas, termasuk <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan demikian, Anda dapat dengan mudah menghubungi Mandiri Steel untuk meminta bantuan."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, estimasi biaya pasang pagar besi minimalis per meter di Bekasi 2025 dapat bervariasi tergantung pada beberapa faktor. Namun, dengan mempertimbangkan faktor-faktor di atas dan memilih pagar besi yang tepat, Anda dapat meningkatkan keamanan dan estetika rumah Anda. Jika Anda membutuhkan bantuan dalam memasang pagar besi minimalis, jangan ragu untuk menghubungi Mandiri Steel. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel dapat memberikan Anda hasil yang memuaskan."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 35,
+    "title": "Jenis Las Profesional",
+    "slug": "jenis-las-profesional",
+    "excerpt": "Mengenal jenis las yang digunakan bengkel profesional: MIG, TIG, dan SMAW",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-18",
+    "image": "https://images.unsplash.com/photo-1700367056068-95f79cc0bb03?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxsYXMlMjBpbmR1c3RyaXxlbnwwfDB8fHwxNzg0MzcyNDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam dunia konstruksi dan manufaktur, <strong>las</strong> merupakan salah satu teknik yang paling penting untuk menggabungkan logam. Bengkel profesional seperti Mandiri Steel di Bekasi menggunakan beberapa jenis las, termasuk <strong>MIG</strong>, <strong>TIG</strong>, dan <strong>SMAW</strong>. Pada artikel ini, kita akan membahas perbedaan antara ketiga jenis las tersebut dan bagaimana mereka digunakan dalam industri.",
+      "keyPoints": [
+        "Mengenal jenis las yang digunakan bengkel profesional",
+        "Perbedaan antara MIG, TIG, dan SMAW",
+        "Penerapan jenis las dalam industri"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Jenis Las",
+          "content": "Dalam proses <strong>las</strong>, terdapat beberapa jenis yang dapat digunakan, tergantung pada kebutuhan dan tujuan penggunaan. <strong>MIG (Metal Inert Gas)</strong> adalah salah satu jenis las yang paling umum digunakan, terutama untuk logam non-ferro seperti aluminium dan tembaga. <strong>TIG (Tungsten Inert Gas)</strong> juga merupakan jenis las yang populer, terutama untuk logam ferro seperti baja dan stainless steel. Sementara itu, <strong>SMAW (Shielded Metal Arc Welding)</strong> adalah jenis las yang lebih tradisional, tetapi masih banyak digunakan dalam industri.",
+          "imageSearchQuery": "proses las",
+          "image": "https://images.unsplash.com/photo-1601119462238-d7f347e41844?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwcm9zZXMlMjBsYXN8ZW58MHwwfHx8MTc4NDM3MjQ4Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Perbedaan Antara MIG, TIG, dan SMAW",
+          "content": "Perbedaan antara <strong>MIG</strong>, <strong>TIG</strong>, dan <strong>SMAW</strong> terletak pada cara penggunaan dan hasil akhirnya. <strong>MIG</strong> menggunakan gas inert untuk melindungi logam dari oksidasi, sehingga menghasilkan las yang kuat dan rapi. <strong>TIG</strong> menggunakan elektroda tungsten yang dilindungi oleh gas inert, sehingga menghasilkan las yang sangat kuat dan presisi. Sementara itu, <strong>SMAW</strong> menggunakan elektroda yang dilindungi oleh fluks, sehingga menghasilkan las yang kuat, tetapi dengan kualitas yang lebih rendah dibandingkan dengan <strong>MIG</strong> dan <strong>TIG</strong>.",
+          "productId": null
+        },
+        {
+          "heading": "3. Penerapan Jenis Las dalam Industri",
+          "content": "Dalam industri, <strong>MIG</strong> dan <strong>TIG</strong> banyak digunakan untuk produksi mobil, pesawat, dan peralatan mesin. <strong>SMAW</strong> masih digunakan dalam beberapa aplikasi, tetapi lebih banyak digunakan dalam pekerjaan lapangan dan perbaikan. Mandiri Steel, sebagai bengkel profesional di Bekasi, menggunakan ketiga jenis las tersebut untuk memenuhi kebutuhan pelanggan. Dengan pengalaman lebih dari 25 tahun, Mandiri Steel telah menjadi salah satu bengkel terpercaya di Jabodetabek, melayani pelanggan dari Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Tips dan Trik dalam Menggunakan Jenis Las",
+          "content": "Dalam menggunakan <strong>MIG</strong>, <strong>TIG</strong>, dan <strong>SMAW</strong>, ada beberapa tips dan trik yang perlu diperhatikan. Pertama, pastikan Anda menggunakan peralatan yang tepat dan sesuai dengan jenis las yang digunakan. Kedua, pastikan Anda memiliki kemampuan dan pengalaman yang cukup dalam menggunakan jenis las tersebut. Ketiga, pastikan Anda mengikuti prosedur keselamatan yang benar untuk menghindari cedera dan kerusakan.",
+          "productId": null
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan bengkel profesional yang telah berpengalaman lebih dari 25 tahun dalam industri konstruksi dan manufaktur. Dengan menggunakan bahan-bahan yang berkualitas tinggi dan peralatan yang canggih, Mandiri Steel dapat memenuhi kebutuhan pelanggan dengan hasil yang memuaskan. Selain itu, Mandiri Steel juga menawarkan layanan <strong>free on-site survey</strong> dan <strong>structural warranty</strong> untuk memberikan ketenangan dan kepercayaan kepada pelanggan.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan dan Lokasi Mandiri Steel",
+          "content": "Mandiri Steel berlokasi di Setu, Bekasi, dan melayani pelanggan dari seluruh Jabodetabek. Dengan tim yang berpengalaman dan peralatan yang canggih, Mandiri Steel dapat memenuhi kebutuhan pelanggan dalam waktu yang singkat dan dengan kualitas yang tinggi. Jika Anda membutuhkan layanan las atau konstruksi, jangan ragu untuk menghubungi Mandiri Steel.",
+          "productId": null
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, <strong>MIG</strong>, <strong>TIG</strong>, dan <strong>SMAW</strong> merupakan jenis las yang berbeda-beda dan memiliki kelebihan dan kekurangan masing-masing. Dengan memilih bengkel profesional seperti Mandiri Steel, Anda dapat memenuhi kebutuhan Anda dengan hasil yang memuaskan. Jangan ragu untuk menghubungi Mandiri Steel jika Anda membutuhkan layanan las atau konstruksi."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 36,
+    "title": "Railing Tangga Minimalis",
+    "slug": "railing-tangga-minimalis-besi-vs-stainless-steel",
+    "excerpt": "Perbandingan harga dan ketahanan railing tangga minimalis besi vs stainless steel di Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-18",
+    "image": "https://images.unsplash.com/photo-1512459134034-f8f5c50df27d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpcmNhc2UlMjByYWlsaW5nJTIwZGVzaWdufGVufDB8MHx8fDE3ODQzNzI1NTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing tangga minimalis merupakan salah satu elemen penting dalam desain interior rumah. <strong>Railing tangga</strong> tidak hanya berfungsi sebagai pengaman, tetapi juga sebagai elemen dekoratif yang dapat mempercantik tampilan rumah. Di Bekasi, banyak pemilik rumah yang bingung dalam memilih bahan railing tangga, apakah <strong>besi</strong> atau <strong>stainless steel</strong>. Dalam artikel ini, kita akan membahas perbandingan harga dan ketahanan railing tangga minimalis besi vs stainless steel di Bekasi.",
+      "keyPoints": [
+        "Perbandingan harga railing tangga besi dan stainless steel",
+        "Ketahanan railing tangga besi dan stainless steel",
+        "Tips memilih railing tangga yang tepat untuk rumah Anda"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept Railing Tangga Minimalis",
+          "content": "Railing tangga minimalis merupakan salah satu trend desain interior rumah yang populer di Bekasi. <strong>Railing tangga minimalis</strong> memiliki desain yang sederhana, namun elegan dan modern. Banyak pemilik rumah yang memilih railing tangga minimalis karena dapat mempercantik tampilan rumah dan memberikan kesan yang lebih luas. <br> <strong>Railing tangga minimalis</strong> dapat dibuat dari berbagai bahan, seperti besi, stainless steel, dan kayu. Namun, besi dan stainless steel merupakan dua bahan yang paling populer digunakan. <br> Dalam memilih bahan railing tangga, perlu mempertimbangkan beberapa faktor, seperti harga, ketahanan, dan estetika.",
+          "imageSearchQuery": "modern staircase design",
+          "image": "https://images.unsplash.com/photo-1529160638848-c6c71fee1cb7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBzdGFpcmNhc2UlMjBkZXNpZ258ZW58MHwwfHx8MTc4NDM3MjU1NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Perbandingan Harga Railing Tangga Besi dan Stainless Steel",
+          "content": "Harga railing tangga besi dan stainless steel dapat berbeda-beda tergantung pada jenis dan kualitas bahan. <strong>Besi</strong> merupakan bahan yang lebih murah daripada stainless steel. Namun, <strong>stainless steel</strong> memiliki ketahanan yang lebih baik dan lebih tahan lama. <br> Berikut adalah perbandingan harga railing tangga besi dan stainless steel di Bekasi: <br> - Railing tangga besi: Rp 500.000 - Rp 1.000.000 per meter <br> - Railing tangga stainless steel: Rp 1.500.000 - Rp 3.000.000 per meter <br> Perlu diingat bahwa harga di atas hanya sebagai acuan dan dapat berbeda-beda tergantung pada penjual dan kualitas bahan.",
+          "productId": 6
+        },
+        {
+          "heading": "3. Ketahanan Railing Tangga Besi dan Stainless Steel",
+          "content": "Ketahanan railing tangga besi dan stainless steel dapat berbeda-beda tergantung pada kualitas bahan dan perawatan. <strong>Besi</strong> dapat berkarat jika tidak dirawat dengan baik, sedangkan <strong>stainless steel</strong> memiliki ketahanan yang lebih baik terhadap korosi. <br> Berikut adalah beberapa tips untuk merawat railing tangga besi dan stainless steel: <br> <ul> <li> Membersihkan railing tangga secara teratur dengan air dan sabun </li> <li> Menggunakan cat atau pelapis untuk melindungi besi dari karat </li> <li> Menghindari kontak dengan bahan kimia yang dapat merusak stainless steel </li> </ul>",
+          "productId": 6
+        },
+        {
+          "heading": "4. Tips Memilih Railing Tangga yang Tepat untuk Rumah Anda",
+          "content": "Dalam memilih railing tangga, perlu mempertimbangkan beberapa faktor, seperti harga, ketahanan, dan estetika. Berikut adalah beberapa tips untuk memilih railing tangga yang tepat untuk rumah Anda: <br> <ul> <li> Menentukan budget untuk railing tangga </li> <li> Memilih bahan yang sesuai dengan desain rumah </li> <li> Mengukur ukuran tangga untuk memastikan railing tangga yang tepat </li> <li> Menghubungi penjual yang terpercaya untuk mendapatkan harga dan kualitas yang baik </li> </ul> <br> Dengan mempertimbangkan faktor-faktor di atas, Anda dapat memilih railing tangga yang tepat untuk rumah Anda."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Railing Tangga Anda?",
+          "content": "Mandiri Steel merupakan salah satu penjual railing tangga yang terpercaya di Bekasi. Dengan pengalaman lebih dari 25 tahun, Mandiri Steel dapat memberikan Anda railing tangga yang berkualitas dan tahan lama. <br> Berikut adalah beberapa kelebihan Mandiri Steel: <br> <ul> <li> Menggunakan bahan yang berkualitas dan SNI </li> <li> Menawarkan harga yang kompetitif </li> <li> Memberikan garansi struktural untuk railing tangga </li> <li> Menyediakan layanan survei gratis untuk memastikan railing tangga yang tepat </li> </ul> <br> Dengan memilih Mandiri Steel, Anda dapat mendapatkan railing tangga yang berkualitas dan tahan lama.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Service Areas Mandiri Steel di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan layanan railing tangga di Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <br> Dengan lokasi yang strategis, Mandiri Steel dapat memberikan layanan yang cepat dan efisien untuk memenuhi kebutuhan railing tangga Anda. <br> Jika Anda memiliki pertanyaan atau ingin mendapatkan informasi lebih lanjut tentang railing tangga, silakan hubungi Mandiri Steel."
+        }
+      ],
+      "conclusion": "Dalam memilih railing tangga, perlu mempertimbangkan beberapa faktor, seperti harga, ketahanan, dan estetika. Dengan memilih Mandiri Steel, Anda dapat mendapatkan railing tangga yang berkualitas dan tahan lama. Jika Anda memiliki pertanyaan atau ingin mendapatkan informasi lebih lanjut tentang railing tangga, silakan hubungi Mandiri Steel. Dengan pengalaman lebih dari 25 tahun, Mandiri Steel dapat memberikan Anda railing tangga yang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 31,
     "title": "Kanopi Kaca Tempered Bekasi",
     "slug": "kanopi-kaca-tempered-bekasi",
