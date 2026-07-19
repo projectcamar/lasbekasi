@@ -33,6 +33,178 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 37,
+    "title": "Teralis Invisible vs Konvensional",
+    "slug": "teralis-invisible-vs-konvensional",
+    "excerpt": "Teralis invisible (kawat baja) vs teralis konvensional: tren keamanan rumah modern",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-19",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Pada era modern ini, keamanan rumah menjadi salah satu prioritas utama bagi pemilik rumah. <strong>Teralis</strong> telah menjadi salah satu komponen penting dalam meningkatkan keamanan rumah. Namun, dengan perkembangan teknologi dan desain, <strong>teralis invisible</strong> (kawat baja) telah menjadi tren baru dalam keamanan rumah. Dalam artikel ini, kita akan membahas perbedaan antara <strong>teralis invisible</strong> dan <strong>teralis konvensional</strong>, serta membahas kelebihan dan kekurangan dari masing-masing jenis teralis.",
+      "keyPoints": [
+        "Teralis invisible (kawat baja) lebih fleksibel dan dapat disesuaikan dengan desain rumah",
+        "Teralis konvensional lebih kuat dan tahan lama",
+        "Teralis invisible lebih mudah dipasang dan dirawat"
+      ],
+      "sections": [
+        {
+          "heading": "Pengertian Teralis Invisible dan Konvensional",
+          "content": "Teralis invisible (kawat baja) adalah jenis teralis yang menggunakan kawat baja sebagai bahan utama. <strong>Teralis ini</strong> dirancang untuk memberikan keamanan tanpa mengganggu pemandangan. Sementara itu, <strong>teralis konvensional</strong> adalah jenis teralis yang menggunakan bahan seperti besi atau kayu. <strong>Teralis konvensional</strong> telah lama digunakan sebagai salah satu komponen keamanan rumah. <br> <br> Perbedaan antara <strong>teralis invisible</strong> dan <strong>teralis konvensional</strong> terletak pada bahan dan desainnya. <strong>Teralis invisible</strong> memiliki desain yang lebih minimalis dan fleksibel, sehingga dapat disesuaikan dengan desain rumah. Sementara itu, <strong>teralis konvensional</strong> memiliki desain yang lebih tradisional dan kaku.",
+          "imageSearchQuery": "teralis invisible vs konvensional"
+        },
+        {
+          "heading": "Kelebihan Teralis Invisible",
+          "content": "Teralis invisible (kawat baja) memiliki beberapa kelebihan, seperti <strong>fleksibilitas</strong> dan <strong>kesesuaian dengan desain rumah</strong>. <strong>Teralis ini</strong> juga lebih mudah dipasang dan dirawat dibandingkan dengan <strong>teralis konvensional</strong>. Selain itu, <strong>teralis invisible</strong> juga lebih ringan dan tidak memerlukan banyak ruang. <br> <br> Contoh nyata dari kelebihan <strong>teralis invisible</strong> dapat dilihat pada rumah-rumah modern di kawasan <strong>Bekasi</strong> dan <strong>Cikarang</strong>. Banyak rumah yang menggunakan <strong>teralis invisible</strong> sebagai salah satu komponen keamanan rumah. <strong>Teralis ini</strong> tidak hanya memberikan keamanan, tetapi juga meningkatkan estetika rumah.",
+          "productId": 5
+        },
+        {
+          "heading": "Kelebihan Teralis Konvensional",
+          "content": "Teralis konvensional memiliki beberapa kelebihan, seperti <strong>kekuatan</strong> dan <strong>ketahanan</strong>. <strong>Teralis ini</strong> dapat menahan beban yang berat dan tahan lama. Selain itu, <strong>teralis konvensional</strong> juga lebih mudah diperbaiki dan diganti dibandingkan dengan <strong>teralis invisible</strong>. <br> <br> Contoh nyata dari kelebihan <strong>teralis konvensional</strong> dapat dilihat pada rumah-rumah tradisional di kawasan <strong>Tambun</strong> dan <strong>Cibitung</strong>. Banyak rumah yang menggunakan <strong>teralis konvensional</strong> sebagai salah satu komponen keamanan rumah. <strong>Teralis ini</strong> tidak hanya memberikan keamanan, tetapi juga meningkatkan nilai estetika rumah.",
+          "productId": 4
+        },
+        {
+          "heading": "Tips Memilih Teralis yang Tepat",
+          "content": "Dalam memilih <strong>teralis</strong> yang tepat, ada beberapa tips yang perlu dipertimbangkan. Pertama, <strong>perhatikan desain rumah</strong> dan <strong>kebutuhan keamanan</strong>. Jika rumah Anda memiliki desain modern, maka <strong>teralis invisible</strong> dapat menjadi pilihan yang tepat. Namun, jika rumah Anda memiliki desain tradisional, maka <strong>teralis konvensional</strong> dapat menjadi pilihan yang tepat. <br> <br> Kedua, <strong>perhatikan bahan</strong> dan <strong>kualitas</strong> <strong>teralis</strong>. Pastikan bahwa <strong>teralis</strong> yang dipilih terbuat dari bahan yang kuat dan tahan lama. Jika Anda memilih <strong>teralis invisible</strong>, pastikan bahwa kawat baja yang digunakan memiliki kualitas yang baik. <br> <br> Ketiga, <strong>perhatikan harga</strong> dan <strong>biaya perawatan</strong>. Pastikan bahwa <strong>teralis</strong> yang dipilih memiliki harga yang terjangkau dan biaya perawatan yang rendah."
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang telah berpengalaman lebih dari 25 tahun dalam bidang <strong>konstruksi baja</strong> dan <strong>teralis</strong>. Kami memiliki tim yang profesional dan berpengalaman dalam merancang dan memasang <strong>teralis</strong> yang sesuai dengan kebutuhan Anda. <br> <br> Kami menggunakan bahan yang kuat dan tahan lama, serta memiliki kualitas yang baik. Kami juga menawarkan <strong>garansi struktural</strong> yang dapat memberikan Anda ketenangan dan kepercayaan. <br> <br> Selain itu, kami juga menawarkan <strong>survei gratis</strong> dan <strong>biaya perawatan yang rendah</strong>. Kami memiliki komitmen untuk memberikan pelayanan yang terbaik dan memuaskan kebutuhan Anda.",
+          "productId": 7
+        },
+        {
+          "heading": "Layanan Kami di Bekasi dan Jabodetabek",
+          "content": "Kami memiliki layanan yang luas di kawasan <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>. Kami memiliki tim yang profesional dan berpengalaman dalam merancang dan memasang <strong>teralis</strong> yang sesuai dengan kebutuhan Anda. <br> <br> Kami memiliki layanan yang mencakup <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> <br> Jika Anda membutuhkan <strong>teralis</strong> yang sesuai dengan kebutuhan Anda, maka kami adalah pilihan yang tepat. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut dan untuk memesan <strong>teralis</strong> yang Anda butuhkan."
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>teralis</strong> yang tepat, ada beberapa tips yang perlu dipertimbangkan. Pastikan bahwa Anda memilih <strong>teralis</strong> yang sesuai dengan desain rumah dan kebutuhan keamanan Anda. Jika Anda membutuhkan <strong>teralis</strong> yang sesuai dengan kebutuhan Anda, maka Mandiri Steel adalah pilihan yang tepat. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut dan untuk memesan <strong>teralis</strong> yang Anda butuhkan."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 38,
+    "title": "Mezzanine Baja untuk Gudang E-commerce di Bekasi",
+    "slug": "mezzanine-baja-untuk-gudang-e-commerce-di-bekasi",
+    "excerpt": "Maksimalkan ruang penyimpanan vertikal dengan mezzanine baja untuk gudang e-commerce di Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-19",
+    "image": "https://images.unsplash.com/photo-1684695749267-233af13276d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtZXp6YW5pbmUlMjB3YXJlaG91c2UlMjBzdG9yYWdlfGVufDB8MHx8fDE3ODQ0NTg4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Mezzanine baja</strong> telah menjadi solusi populer untuk mengoptimalkan ruang penyimpanan vertikal di gudang e-commerce. Dengan kemampuan untuk menambahkan lantai tambahan tanpa memerlukan renovasi besar, mezzanine baja dapat membantu meningkatkan efisiensi dan produktivitas gudang. Di Bekasi, banyak gudang e-commerce yang telah memanfaatkan mezzanine baja untuk memaksimalkan ruang penyimpanan mereka. <strong>Mandiri Steel</strong> telah berpengalaman dalam menyediakan mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi.",
+      "keyPoints": [
+        "Mezzanine baja dapat meningkatkan ruang penyimpanan vertikal",
+        "Mezzanine baja dapat meningkatkan efisiensi dan produktivitas gudang",
+        "Mandiri Steel menyediakan mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Mezzanine Baja",
+          "content": "Mezzanine baja adalah struktur tambahan yang dapat dipasang di dalam gudang untuk menambahkan lantai tambahan. <strong>Mezzanine baja</strong> terbuat dari bahan baja yang kuat dan tahan lama, sehingga dapat menopang beban berat. Mezzanine baja dapat digunakan untuk berbagai keperluan, seperti penyimpanan barang, kantor, atau bahkan sebagai area produksi. Di Bekasi, banyak gudang e-commerce yang telah memanfaatkan mezzanine baja untuk memaksimalkan ruang penyimpanan mereka. <br><br> Selain itu, mezzanine baja juga dapat membantu meningkatkan efisiensi dan produktivitas gudang. Dengan menambahkan lantai tambahan, gudang dapat menyimpan lebih banyak barang, sehingga dapat meningkatkan kapasitas penyimpanan. <strong>Mandiri Steel</strong> telah berpengalaman dalam menyediakan mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi.",
+          "imageSearchQuery": "mezzanine warehouse storage",
+          "image": "https://images.unsplash.com/photo-1684695749267-233af13276d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtZXp6YW5pbmUlMjB3YXJlaG91c2UlMjBzdG9yYWdlfGVufDB8MHx8fDE3ODQ0NTg4ODV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Mezzanine Baja untuk Gudang E-commerce",
+          "content": "Mezzanine baja memiliki beberapa manfaat untuk gudang e-commerce. <strong>Pertama</strong>, mezzanine baja dapat meningkatkan ruang penyimpanan vertikal, sehingga dapat membantu meningkatkan kapasitas penyimpanan gudang. <strong>Kedua</strong>, mezzanine baja dapat membantu meningkatkan efisiensi dan produktivitas gudang, karena dapat menambahkan lantai tambahan untuk penyimpanan barang atau kantor. <strong>Ketiga</strong>, mezzanine baja dapat membantu menghemat biaya, karena dapat meminimalkan kebutuhan untuk memperluas gudang. <br><br> Di Bekasi, banyak gudang e-commerce yang telah memanfaatkan mezzanine baja untuk memaksimalkan ruang penyimpanan mereka. <strong>Mandiri Steel</strong> telah berpengalaman dalam menyediakan mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi. Kami telah bekerja sama dengan beberapa gudang e-commerce di Bekasi, seperti di Cikarang, Tambun, dan Cibitung.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips untuk Memilih Mezzanine Baja yang Tepat",
+          "content": "Untuk memilih mezzanine baja yang tepat, ada beberapa tips yang perlu dipertimbangkan. <strong>Pertama</strong>, pastikan untuk memilih mezzanine baja yang sesuai dengan kebutuhan gudang. <strong>Kedua</strong>, pastikan untuk memilih mezzanine baja yang terbuat dari bahan yang kuat dan tahan lama. <strong>Ketiga</strong>, pastikan untuk memilih mezzanine baja yang memiliki desain yang sesuai dengan kebutuhan gudang. <br><br> Berikut beberapa tips tambahan untuk memilih mezzanine baja yang tepat: <ul> <li>Pastikan untuk memilih mezzanine baja yang memiliki kapasitas beban yang sesuai dengan kebutuhan gudang</li> <li>Pastikan untuk memilih mezzanine baja yang memiliki tingkat keamanan yang tinggi</li> <li>Pastikan untuk memilih mezzanine baja yang memiliki garansi yang baik</li> </ul> <strong>Mandiri Steel</strong> telah berpengalaman dalam menyediakan mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Cara Menginstal Mezzanine Baja",
+          "content": "Menginstal mezzanine baja memerlukan beberapa langkah yang perlu diikuti. <strong>Pertama</strong>, pastikan untuk mempersiapkan lokasi instalasi mezzanine baja. <strong>Kedua</strong>, pastikan untuk mempersiapkan bahan-bahan yang diperlukan untuk instalasi mezzanine baja. <strong>Ketiga</strong>, pastikan untuk menginstal mezzanine baja dengan benar dan aman. <br><br> Berikut beberapa langkah tambahan untuk menginstal mezzanine baja: <ul> <li>Pastikan untuk mempersiapkan peralatan yang diperlukan untuk instalasi mezzanine baja</li> <li>Pastikan untuk mempersiapkan tim yang berpengalaman untuk menginstal mezzanine baja</li> <li>Pastikan untuk menginstal mezzanine baja dengan memperhatikan keamanan dan keselamatan</li> </ul> <strong>Mandiri Steel</strong> telah berpengalaman dalam menginstal mezzanine baja untuk gudang e-commerce di Bekasi."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Mezzanine Baja?",
+          "content": "Mandiri Steel telah berpengalaman dalam menyediakan mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi. Kami telah bekerja sama dengan beberapa gudang e-commerce di Bekasi, seperti di Cikarang, Tambun, dan Cibitung. <strong>Mandiri Steel</strong> memiliki beberapa kelebihan, seperti: <ul> <li>Bahan yang kuat dan tahan lama</li> <li>Desain yang sesuai dengan kebutuhan gudang</li> <li>Kapasitas beban yang sesuai dengan kebutuhan gudang</li> <li>Tingkat keamanan yang tinggi</li> <li>Garansi yang baik</li> </ul> <strong>Mandiri Steel</strong> juga memiliki tim yang berpengalaman dalam menginstal mezzanine baja, sehingga dapat memastikan bahwa mezzanine baja dipasang dengan benar dan aman.",
+          "productId": 7
+        },
+        {
+          "heading": "6. 25+ Tahun Pengalaman Mandiri Steel",
+          "content": "Mandiri Steel telah berpengalaman dalam menyediakan mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi selama lebih dari 25 tahun. Kami telah bekerja sama dengan beberapa gudang e-commerce di Bekasi, seperti di Cikarang, Tambun, dan Cibitung. <strong>Mandiri Steel</strong> memiliki beberapa kelebihan, seperti: <ul> <li>Bahan yang kuat dan tahan lama</li> <li>Desain yang sesuai dengan kebutuhan gudang</li> <li>Kapasitas beban yang sesuai dengan kebutuhan gudang</li> <li>Tingkat keamanan yang tinggi</li> <li>Garansi yang baik</li> </ul> <strong>Mandiri Steel</strong> juga memiliki tim yang berpengalaman dalam menginstal mezzanine baja, sehingga dapat memastikan bahwa mezzanine baja dipasang dengan benar dan aman. Kami juga menawarkan layanan survei gratis dan garansi struktural untuk memastikan bahwa mezzanine baja yang kami pasang dapat bertahan lama."
+        }
+      ],
+      "conclusion": "Jika Anda sedang mencari mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi, maka Mandiri Steel adalah pilihan yang tepat. Kami telah berpengalaman dalam menyediakan mezzanine baja berkualitas tinggi untuk gudang e-commerce di Bekasi selama lebih dari 25 tahun. <strong>Mandiri Steel</strong> memiliki beberapa kelebihan, seperti bahan yang kuat dan tahan lama, desain yang sesuai dengan kebutuhan gudang, kapasitas beban yang sesuai dengan kebutuhan gudang, tingkat keamanan yang tinggi, dan garansi yang baik. Kami juga menawarkan layanan survei gratis dan garansi struktural untuk memastikan bahwa mezzanine baja yang kami pasang dapat bertahan lama. Hubungi kami hari ini untuk mendapatkan informasi lebih lanjut tentang mezzanine baja yang kami tawarkan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 39,
+    "title": "Jasa Las Terpercaya di Cikarang",
+    "slug": "jasa-las-terpercaya-cikarang",
+    "excerpt": "Mandiri Steel, jasa las terpercaya untuk perumahan di Cikarang Barat, Cikarang Utara, dan Cikarang Selatan",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-19",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Jika Anda sedang mencari <strong>jasa las terpercaya</strong> untuk perumahan di Cikarang Barat, Cikarang Utara, dan Cikarang Selatan, maka Anda telah datang ke tempat yang tepat. <strong>Mandiri Steel</strong> telah berpengalaman lebih dari 25 tahun dalam menyediakan jasa las berkualitas tinggi untuk berbagai kebutuhan, termasuk perumahan, industri, dan komersial. Dalam artikel ini, kita akan membahas tentang pentingnya jasa las terpercaya dan bagaimana Mandiri Steel dapat membantu Anda dalam memenuhi kebutuhan las Anda.",
+      "keyPoints": [
+        "Jasa las terpercaya untuk perumahan di Cikarang",
+        "Mandiri Steel memiliki pengalaman lebih dari 25 tahun",
+        "Bahan-bahan SNI yang kuat dan tahan lama"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pentingnya Jasa Las Terpercaya",
+          "content": "Jasa las terpercaya sangat penting dalam memastikan bahwa struktur bangunan Anda kuat dan aman. <strong>Las</strong> yang tidak tepat dapat menyebabkan kerusakan pada bangunan dan bahkan membahayakan jiwa. Oleh karena itu, penting untuk memilih jasa las yang terpercaya dan memiliki pengalaman dalam melakukan pekerjaan las. <br><br> Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam menyediakan jasa las berkualitas tinggi untuk berbagai kebutuhan. Kami memiliki <strong>tim yang terampil</strong> dan <strong>peralatan yang canggih</strong> untuk memastikan bahwa pekerjaan las Anda dilakukan dengan tepat dan efisien. <br><br> Selain itu, kami juga menggunakan <strong>bahan-bahan SNI</strong> yang kuat dan tahan lama untuk memastikan bahwa struktur bangunan Anda kuat dan aman.",
+          "imageSearchQuery": "las terpercaya"
+        },
+        {
+          "heading": "2. Kelebihan Mandiri Steel",
+          "content": "Mandiri Steel memiliki beberapa kelebihan yang membuat kami menjadi pilihan terbaik untuk jasa las terpercaya di Cikarang. <strong>Pengalaman</strong> kami yang lebih dari 25 tahun dalam melakukan pekerjaan las membuat kami memiliki pengetahuan yang luas tentang kebutuhan las yang berbeda-beda. <br><br> Selain itu, kami juga memiliki <strong>tim yang terampil</strong> dan <strong>peralatan yang canggih</strong> untuk memastikan bahwa pekerjaan las Anda dilakukan dengan tepat dan efisien. <br><br> Kami juga menggunakan <strong>bahan-bahan SNI</strong> yang kuat dan tahan lama untuk memastikan bahwa struktur bangunan Anda kuat dan aman. <br><br> Berikut adalah beberapa kelebihan lain dari Mandiri Steel: <ul><li>Pengalaman lebih dari 25 tahun</li><li>Tim yang terampil</li><li>Peralatan yang canggih</li><li>Bahan-bahan SNI yang kuat dan tahan lama</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "3. Tips Memilih Jasa Las Terpercaya",
+          "content": "Memilih jasa las terpercaya sangat penting dalam memastikan bahwa struktur bangunan Anda kuat dan aman. Berikut adalah beberapa tips untuk memilih jasa las terpercaya: <ul><li>Pastikan bahwa jasa las memiliki pengalaman yang luas dalam melakukan pekerjaan las</li><li>Periksa apakah jasa las memiliki tim yang terampil dan peralatan yang canggih</li><li>Pastikan bahwa jasa las menggunakan bahan-bahan SNI yang kuat dan tahan lama</li><li>Bandingkan harga dan layanan yang ditawarkan oleh beberapa jasa las</li></ul> <br><br> Dengan memilih jasa las terpercaya, Anda dapat memastikan bahwa struktur bangunan Anda kuat dan aman. <br><br> Selain itu, Anda juga dapat menghemat biaya perawatan dan perbaikan yang tidak perlu dengan memilih jasa las terpercaya.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Layanan Jasa Las di Cikarang",
+          "content": "Mandiri Steel menyediakan layanan jasa las di Cikarang untuk berbagai kebutuhan, termasuk perumahan, industri, dan komersial. Kami memiliki <strong>tim yang terampil</strong> dan <strong>peralatan yang canggih</strong> untuk memastikan bahwa pekerjaan las Anda dilakukan dengan tepat dan efisien. <br><br> Selain itu, kami juga menggunakan <strong>bahan-bahan SNI</strong> yang kuat dan tahan lama untuk memastikan bahwa struktur bangunan Anda kuat dan aman. <br><br> Kami menyediakan layanan jasa las di beberapa area di Cikarang, termasuk Cikarang Barat, Cikarang Utara, dan Cikarang Selatan. <br><br> Berikut adalah beberapa layanan jasa las yang kami sediakan: <ul><li>Las konstruksi</li><li>Las industri</li><li>Las komersial</li><li>Las perumahan</li></ul>"
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel memiliki beberapa kelebihan yang membuat kami menjadi pilihan terbaik untuk jasa las terpercaya di Cikarang. <strong>Pengalaman</strong> kami yang lebih dari 25 tahun dalam melakukan pekerjaan las membuat kami memiliki pengetahuan yang luas tentang kebutuhan las yang berbeda-beda. <br><br> Selain itu, kami juga memiliki <strong>tim yang terampil</strong> dan <strong>peralatan yang canggih</strong> untuk memastikan bahwa pekerjaan las Anda dilakukan dengan tepat dan efisien. <br><br> Kami juga menggunakan <strong>bahan-bahan SNI</strong> yang kuat dan tahan lama untuk memastikan bahwa struktur bangunan Anda kuat dan aman. <br><br> Berikut adalah beberapa kelebihan lain dari Mandiri Steel: <ul><li>Pengalaman lebih dari 25 tahun</li><li>Tim yang terampil</li><li>Peralatan yang canggih</li><li>Bahan-bahan SNI yang kuat dan tahan lama</li></ul> <br><br> Dengan memilih Mandiri Steel, Anda dapat memastikan bahwa struktur bangunan Anda kuat dan aman.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan jasa las di beberapa area di Cikarang, termasuk Cikarang Barat, Cikarang Utara, dan Cikarang Selatan. Kami juga menyediakan layanan jasa las di beberapa kota lain di Jawa Barat, termasuk Bekasi, Karawang, dan Purwakarta. <br><br> Berikut adalah beberapa area layanan Mandiri Steel: <ul><li>Cikarang Barat</li><li>Cikarang Utara</li><li>Cikarang Selatan</li><li>Bekasi</li><li>Karawang</li><li>Purwakarta</li></ul> <br><br> Dengan layanan jasa las yang luas, Mandiri Steel dapat memenuhi kebutuhan las Anda di mana pun Anda berada."
+        }
+      ],
+      "conclusion": "Dalam memilih jasa las terpercaya di Cikarang, penting untuk mempertimbangkan beberapa faktor, termasuk pengalaman, tim yang terampil, peralatan yang canggih, dan bahan-bahan SNI yang kuat dan tahan lama. <strong>Mandiri Steel</strong> memiliki semua kelebihan tersebut dan dapat membantu Anda dalam memenuhi kebutuhan las Anda. <br><br> Dengan memilih Mandiri Steel, Anda dapat memastikan bahwa struktur bangunan Anda kuat dan aman. <br><br> Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut tentang layanan jasa las yang kami sediakan."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 34,
     "title": "Estimasi Biaya Pasang Pagar Besi Minimalis",
     "slug": "estimasi-biaya-pasang-pagar-besi-minimalis",
