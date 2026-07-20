@@ -33,6 +33,175 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 40,
+    "title": "Tips Keselamatan Railing Tangga",
+    "slug": "tips-keselamatan-railing-tangga-untuk-rumah-dengan-balita",
+    "excerpt": "Tips keselamatan railing tangga untuk rumah dengan balita di perumahan Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-20",
+    "image": "https://images.unsplash.com/photo-1587173616214-b1b6df584362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwdGFuZ2dhJTIwYW5hayUyMGtlY2lsfGVufDB8MHx8fDE3ODQ1NDUyMTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah dengan anak kecil memerlukan perhatian khusus dalam hal keselamatan, terutama ketika memiliki tangga. <strong>Railing tangga</strong> yang aman dan kuat sangat penting untuk mencegah cedera atau kecelakaan. Di perumahan Bekasi, banyak rumah yang memiliki tangga, dan sebagai orang tua, Anda harus memastikan bahwa <strong>railing tangga</strong> di rumah Anda aman untuk anak-anak. Dalam artikel ini, kita akan membahas beberapa tips keselamatan <strong>railing tangga</strong> untuk rumah dengan balita di perumahan Bekasi.",
+      "keyPoints": [
+        "Pentingnya keselamatan railing tangga",
+        "Tips memilih railing tangga yang aman",
+        "Cara memasang railing tangga dengan benar"
+      ],
+      "sections": [
+        {
+          "heading": "Mengapa Keselamatan Railing Tangga Penting?",
+          "content": "Keselamatan <strong>railing tangga</strong> sangat penting karena anak kecil seringkali bermain dan berlari di sekitar tangga. Jika <strong>railing tangga</strong> tidak kuat atau tidak aman, anak-anak dapat terjatuh dan mengalami cedera. Menurut data, cedera yang disebabkan oleh jatuh dari tangga adalah salah satu penyebab cedera anak kecil yang paling umum. Oleh karena itu, sebagai orang tua, Anda harus memastikan bahwa <strong>railing tangga</strong> di rumah Anda aman dan kuat. <br><br> Di perumahan Bekasi, seperti di kawasan Grand Wisata, Summarecon Bekasi, atau Kota Deltamas, banyak rumah yang memiliki tangga. Jadi, penting untuk memperhatikan keselamatan <strong>railing tangga</strong> agar anak-anak dapat bermain dengan aman.",
+          "imageSearchQuery": "anak kecil bermain di tangga"
+        },
+        {
+          "heading": "Tips Memilih Railing Tangga yang Aman",
+          "content": "Memilih <strong>railing tangga</strong> yang aman sangat penting untuk keselamatan anak-anak. Berikut beberapa tips untuk memilih <strong>railing tangga</strong> yang aman: <ul><li>Pilih <strong>railing tangga</strong> yang terbuat dari bahan yang kuat dan tahan lama, seperti stainless steel atau besi.</li><li>Pastikan <strong>railing tangga</strong> memiliki ketinggian yang cukup, minimal 90 cm, untuk mencegah anak-anak terjatuh.</li><li>Pilih <strong>railing tangga</strong> yang memiliki desain yang sederhana dan tidak memiliki bagian yang tajam atau berbahaya.</li></ul> Dengan memilih <strong>railing tangga</strong> yang aman, Anda dapat memastikan bahwa anak-anak dapat bermain dengan aman di sekitar tangga."
+        },
+        {
+          "heading": "Cara Memasang Railing Tangga dengan Benar",
+          "content": "Memasang <strong>railing tangga</strong> dengan benar sangat penting untuk keselamatan anak-anak. Berikut beberapa tips untuk memasang <strong>railing tangga</strong> dengan benar: <ul><li>Pastikan <strong>railing tangga</strong> dipasang dengan kuat dan tidak dapat digoyangkan.</li><li>Pastikan <strong>railing tangga</strong> dipasang pada ketinggian yang cukup, minimal 90 cm, untuk mencegah anak-anak terjatuh.</li><li>Pastikan <strong>railing tangga</strong> tidak memiliki bagian yang longgar atau berbahaya.</li></ul> Dengan memasang <strong>railing tangga</strong> dengan benar, Anda dapat memastikan bahwa anak-anak dapat bermain dengan aman di sekitar tangga."
+        },
+        {
+          "heading": "Tips Perawatan Railing Tangga",
+          "content": "Perawatan <strong>railing tangga</strong> sangat penting untuk memastikan bahwa <strong>railing tangga</strong> tetap aman dan kuat. Berikut beberapa tips untuk perawatan <strong>railing tangga</strong>: <ul><li>Bersihkan <strong>railing tangga</strong> secara teratur untuk mencegah debu dan kotoran menumpuk.</li><li>Periksa <strong>railing tangga</strong> secara teratur untuk memastikan bahwa tidak ada bagian yang longgar atau berbahaya.</li><li>Lakukan perawatan <strong>railing tangga</strong> secara teratur untuk memastikan bahwa <strong>railing tangga</strong> tetap kuat dan aman.</li></ul> Dengan melakukan perawatan <strong>railing tangga</strong> secara teratur, Anda dapat memastikan bahwa anak-anak dapat bermain dengan aman di sekitar tangga."
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Railing Tangga?",
+          "content": "Mandiri Steel adalah salah satu penyedia <strong>railing tangga</strong> yang terpercaya dan berkualitas di Indonesia. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membantu banyak orang untuk memiliki <strong>railing tangga</strong> yang aman dan kuat. <br><br> Mandiri Steel menggunakan bahan-bahan yang berkualitas tinggi dan memenuhi standar SNI, sehingga Anda dapat yakin bahwa <strong>railing tangga</strong> yang Anda beli adalah aman dan kuat. Selain itu, Mandiri Steel juga menawarkan jasa pemasangan <strong>railing tangga</strong> yang profesional dan terpercaya, sehingga Anda tidak perlu khawatir tentang pemasangan <strong>railing tangga</strong>.",
+          "productId": 6
+        },
+        {
+          "heading": "Layanan Railing Tangga di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan layanan <strong>railing tangga</strong> di Bekasi dan sekitarnya, termasuk di kawasan Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, dan Kota Deltamas. Dengan tim yang profesional dan berpengalaman, Mandiri Steel dapat membantu Anda untuk memiliki <strong>railing tangga</strong> yang aman dan kuat. <br><br> Jadi, jika Anda membutuhkan layanan <strong>railing tangga</strong> di Bekasi dan sekitarnya, jangan ragu untuk menghubungi Mandiri Steel. Dengan lebih dari 25 tahun pengalaman dan bahan-bahan yang berkualitas tinggi, Mandiri Steel adalah pilihan yang tepat untuk Anda."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, keselamatan <strong>railing tangga</strong> sangat penting untuk rumah dengan anak kecil. Dengan memilih <strong>railing tangga</strong> yang aman, memasang <strong>railing tangga</strong> dengan benar, dan melakukan perawatan <strong>railing tangga</strong> secara teratur, Anda dapat memastikan bahwa anak-anak dapat bermain dengan aman di sekitar tangga. Jika Anda membutuhkan layanan <strong>railing tangga</strong> di Bekasi dan sekitarnya, jangan ragu untuk menghubungi Mandiri Steel. Dengan lebih dari 25 tahun pengalaman dan bahan-bahan yang berkualitas tinggi, Mandiri Steel adalah pilihan yang tepat untuk Anda."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 41,
+    "title": "Keamanan Rumah di Bekasi",
+    "slug": "keamanan-rumah-di-bekasi",
+    "excerpt": "Meningkatkan keamanan rumah dengan teralis dan pagar terbaik di Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-20",
+    "image": "https://images.unsplash.com/photo-1655558851182-406a304582ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrZWFtYW5hbiUyMHJ1bWFoJTIwZGklMjBiZWthc2l8ZW58MHwwfHx8MTc4NDU0NTI4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Keamanan rumah adalah salah satu aspek penting yang harus diperhatikan oleh setiap pemilik rumah, terutama di daerah seperti <strong>Grand Galaxy City Bekasi</strong> yang memiliki kepadatan penduduk yang tinggi. Salah satu cara untuk meningkatkan keamanan rumah adalah dengan menggunakan <strong>teralis</strong> dan <strong>pagar</strong> yang tepat. Dalam artikel ini, kita akan membahas tentang solusi teralis dan pagar terbaik untuk meningkatkan keamanan rumah di Bekasi.",
+      "keyPoints": [
+        "Menggunakan teralis yang tepat untuk meningkatkan keamanan",
+        "Memilih pagar yang sesuai dengan kebutuhan rumah",
+        "Mengintegrasikan teralis dan pagar dengan sistem keamanan lainnya"
+      ],
+      "sections": [
+        {
+          "heading": "Mengenal Teralis dan Pagar",
+          "content": "Teralis dan pagar adalah dua komponen penting yang dapat meningkatkan keamanan rumah. <strong>Teralis</strong> adalah struktur yang dipasang di jendela atau pintu untuk mencegah akses tidak sah, sedangkan <strong>pagar</strong> adalah struktur yang dipasang di sekitar rumah untuk mencegah akses tidak sah dari luar. Dalam memilih teralis dan pagar, ada beberapa faktor yang harus diperhatikan, seperti <strong>bahan</strong>, <strong>desain</strong>, dan <strong>fungsi</strong>. <br><br>Untuk rumah di <strong>Grand Galaxy City Bekasi</strong>, kita dapat memilih teralis dan pagar yang sesuai dengan kebutuhan dan budget. Misalnya, kita dapat memilih teralis yang terbuat dari <strong>baja</strong> atau <strong>aluminium</strong> yang kuat dan tahan lama. Untuk pagar, kita dapat memilih pagar yang terbuat dari <strong>baja</strong> atau <strong>kayu</strong> yang sesuai dengan desain rumah.",
+          "imageSearchQuery": "teralis dan pagar di bekasi"
+        },
+        {
+          "heading": "Tips Memilih Teralis yang Tepat",
+          "content": "Dalam memilih teralis, ada beberapa tips yang dapat kita ikuti. Pertama, kita harus <strong>memperhatikan bahan</strong> yang digunakan. Teralis yang terbuat dari <strong>baja</strong> atau <strong>aluminium</strong> lebih kuat dan tahan lama daripada teralis yang terbuat dari <strong>kayu</strong> atau <strong>plastik</strong>. Kedua, kita harus <strong>memperhatikan desain</strong> teralis. Teralis yang memiliki desain yang sederhana dan minimalis lebih sesuai dengan rumah modern daripada teralis yang memiliki desain yang kompleks. <br><br>Ketiga, kita harus <strong>memperhatikan fungsi</strong> teralis. Teralis yang dapat dibuka dan ditutup dengan mudah lebih sesuai dengan rumah yang memiliki jendela atau pintu yang sering digunakan. Dengan memperhatikan faktor-faktor tersebut, kita dapat memilih teralis yang tepat untuk meningkatkan keamanan rumah.",
+          "productId": 5
+        },
+        {
+          "heading": "Tips Memilih Pagar yang Sesuai",
+          "content": "Dalam memilih pagar, ada beberapa tips yang dapat kita ikuti. Pertama, kita harus <strong>memperhatikan bahan</strong> yang digunakan. Pagar yang terbuat dari <strong>baja</strong> atau <strong>kayu</strong> lebih kuat dan tahan lama daripada pagar yang terbuat dari <strong>plastik</strong> atau <strong>bambu</strong>. Kedua, kita harus <strong>memperhatikan desain</strong> pagar. Pagar yang memiliki desain yang sederhana dan minimalis lebih sesuai dengan rumah modern daripada pagar yang memiliki desain yang kompleks. <br><br>Ketiga, kita harus <strong>memperhatikan fungsi</strong> pagar. Pagar yang dapat membentuk batas yang jelas antara rumah dan lingkungan sekitar lebih sesuai dengan rumah yang memiliki kebun atau taman. Dengan memperhatikan faktor-faktor tersebut, kita dapat memilih pagar yang sesuai dengan kebutuhan rumah.",
+          "productId": 3
+        },
+        {
+          "heading": "Mengintegrasikan Teralis dan Pagar dengan Sistem Keamanan Lainnya",
+          "content": "Dalam meningkatkan keamanan rumah, kita tidak hanya memperhatikan teralis dan pagar, tetapi juga sistem keamanan lainnya seperti <strong>CCTV</strong>, <strong>alarm</strong>, dan <strong>sensor</strong>. Dengan mengintegrasikan teralis dan pagar dengan sistem keamanan lainnya, kita dapat meningkatkan keamanan rumah secara keseluruhan. <br><br>Contohnya, kita dapat memasang <strong>CCTV</strong> di sekitar rumah untuk memantau kegiatan di sekitar rumah. Kita juga dapat memasang <strong>alarm</strong> di jendela atau pintu untuk memberikan peringatan jika ada akses tidak sah. Dengan demikian, kita dapat meningkatkan keamanan rumah dan memberikan ketenangan pikiran bagi penghuni rumah."
+        },
+        {
+          "heading": "Mandiri Steel: Solusi Teralis dan Pagar Terbaik di Bekasi",
+          "content": "Dalam mencari solusi teralis dan pagar terbaik di Bekasi, kita dapat mempertimbangkan <strong>Mandiri Steel</strong> sebagai pilihan. Mandiri Steel adalah perusahaan yang berpengalaman dalam menyediakan teralis dan pagar yang kuat dan tahan lama. Dengan menggunakan bahan <strong>SNI</strong> dan memiliki <strong>garansi struktural</strong>, Mandiri Steel dapat memberikan ketenangan pikiran bagi penghuni rumah. <br><br>Mandiri Steel juga memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam melayani kebutuhan teralis dan pagar di Bekasi. Dengan demikian, kita dapat yakin bahwa Mandiri Steel dapat memberikan solusi teralis dan pagar terbaik untuk meningkatkan keamanan rumah.",
+          "productId": 1
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Dalam meningkatkan keamanan rumah di Bekasi, kita dapat mempertimbangkan teralis dan pagar sebagai solusi terbaik. Dengan memperhatikan bahan, desain, dan fungsi, kita dapat memilih teralis dan pagar yang sesuai dengan kebutuhan rumah. Dengan mengintegrasikan teralis dan pagar dengan sistem keamanan lainnya, kita dapat meningkatkan keamanan rumah secara keseluruhan. <br><br>Untuk mendapatkan solusi teralis dan pagar terbaik di Bekasi, kita dapat mempertimbangkan Mandiri Steel sebagai pilihan. Dengan pengalaman lebih dari 25 tahun dan menggunakan bahan SNI, Mandiri Steel dapat memberikan ketenangan pikiran bagi penghuni rumah. Jadi, jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan solusi teralis dan pagar terbaik untuk meningkatkan keamanan rumah di Bekasi."
+        }
+      ],
+      "conclusion": "Dalam meningkatkan keamanan rumah di Bekasi, kita dapat mempertimbangkan teralis dan pagar sebagai solusi terbaik. Dengan memperhatikan bahan, desain, dan fungsi, kita dapat memilih teralis dan pagar yang sesuai dengan kebutuhan rumah. Untuk mendapatkan solusi teralis dan pagar terbaik di Bekasi, kita dapat mempertimbangkan Mandiri Steel sebagai pilihan."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 42,
+    "title": "Harga Pasang Kanopi di Bekasi",
+    "slug": "harga-pasang-kanopi-di-bekasi-2025",
+    "excerpt": "Harga pasang kanopi per meter di Bekasi 2025, rincian biaya material dan jasa",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-20",
+    "image": "https://images.unsplash.com/photo-1611048267604-2e59a19a4f97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBtaW5pbWFsaXMlMjBtb2Rlcm58ZW58MHwwfHx8MTc4NDU0NTM1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Mencari informasi tentang <strong>harga pasang kanopi</strong> di Bekasi? Anda telah datang ke tempat yang tepat. Pada artikel ini, kami akan membahas secara detail tentang <strong>biaya material dan jasa</strong> untuk pemasangan kanopi di Bekasi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel hadir untuk membantu Anda memahami <strong>apa yang mempengaruhi harga</strong> dan bagaimana memilih <strong>kanopi yang tepat</strong> untuk rumah atau bangunan Anda.",
+      "keyPoints": [
+        "Harga pasang kanopi per meter di Bekasi",
+        "Rincian biaya material dan jasa",
+        "Tips memilih kanopi yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian dan Fungsi Kanopi",
+          "content": "Kanopi adalah <strong>struktur atap</strong> yang dibangun di atas teras, jendela, atau pintu untuk melindungi dari <strong>hujan dan sinar matahari</strong>. Fungsi utama kanopi adalah untuk <strong>mengurangi intensitas sinar matahari</strong> yang masuk ke dalam rumah dan <strong>mencegah air hujan</strong> membasahi area teras atau jendela. Dalam memilih kanopi, penting untuk mempertimbangkan <strong>desain, bahan, dan ukuran</strong> yang sesuai dengan kebutuhan dan budget Anda. <br><br>Di Bekasi, <strong>kanopi minimalis</strong> menjadi salah satu pilihan populer karena <strong>desainnya yang sederhana</strong> dan <strong>biaya yang relatif terjangkau</strong>. Namun, penting untuk diingat bahwa <strong>harga pasang kanopi</strong> juga dipengaruhi oleh <strong>biaya material dan jasa</strong>.",
+          "imageSearchQuery": "kanopi minimalis modern",
+          "image": "https://images.unsplash.com/photo-1611048267604-2e59a19a4f97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBtaW5pbWFsaXMlMjBtb2Rlcm58ZW58MHwwfHx8MTc4NDU0NTM1NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Faktor yang Mempengaruhi Harga Pasang Kanopi",
+          "content": "Ada beberapa <strong>faktor yang mempengaruhi harga pasang kanopi</strong>, antara lain <strong>ukuran kanopi</strong>, <strong>bahan yang digunakan</strong>, <strong>desain kanopi</strong>, dan <strong>biaya jasa pemasangan</strong>. <strong>Ukuran kanopi</strong> yang lebih besar tentu memerlukan <strong>biaya material yang lebih banyak</strong>, sehingga <strong>harga pasang kanopi</strong> juga akan lebih mahal. <br><br>Di samping itu, <strong>bahan yang digunakan</strong> juga mempengaruhi <strong>harga pasang kanopi</strong>. <strong>Bahan baja</strong> atau <strong>aluminium</strong> umumnya lebih mahal daripada <strong>bahan kayu</strong> atau <strong>baja ringan</strong>. Oleh karena itu, penting untuk mempertimbangkan <strong>budget dan kebutuhan</strong> Anda sebelum memilih bahan untuk kanopi."
+        },
+        {
+          "heading": "3. Rincian Biaya Material dan Jasa",
+          "content": "Berikut adalah <strong>rincian biaya material dan jasa</strong> untuk pemasangan kanopi di Bekasi: <br><br><ul><li><strong>Bahan baja</strong>: Rp 500.000 - Rp 1.000.000 per meter</li><li><strong>Bahan aluminium</strong>: Rp 750.000 - Rp 1.500.000 per meter</li><li><strong>Bahan kayu</strong>: Rp 300.000 - Rp 800.000 per meter</li><li><strong>Biaya jasa pemasangan</strong>: Rp 200.000 - Rp 500.000 per meter</li></ul><br><br>Perlu diingat bahwa <strong>harga di atas</strong> hanya sebagai <strong>acuan</strong> dan dapat berbeda-beda tergantung pada <strong>penyedia jasa</strong> dan <strong>lokasi</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Tips Memilih Kanopi yang Tepat",
+          "content": "Dalam memilih kanopi, ada beberapa <strong>tips yang perlu dipertimbangkan</strong>: <br><br><ul><li><strong>Pertimbangkan desain dan ukuran</strong> yang sesuai dengan kebutuhan dan budget Anda.</li><li><strong>Pilih bahan yang tahan lama</strong> dan dapat bertahan dalam berbagai cuaca.</li><li><strong>Perhatikan biaya jasa pemasangan</strong> dan pastikan bahwa penyedia jasa memiliki <strong>pengalaman yang cukup</strong>.</li><li><strong>Bandingkan harga</strong> dari beberapa penyedia jasa untuk mendapatkan <strong>harga yang terbaik</strong>.</li></ul><br><br>Dengan mempertimbangkan <strong>tips di atas</strong>, Anda dapat memilih kanopi yang <strong>tepat dan sesuai</strong> dengan kebutuhan Anda."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel telah memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam menyediakan <strong>jasa pemasangan kanopi</strong> di Bekasi. Kami menggunakan <strong>bahan-bahan yang berkualitas</strong> dan memiliki <strong>pengalaman yang cukup</strong> dalam mengerjakan berbagai proyek. <br><br>Kami juga menawarkan <strong>garansi struktural</strong> untuk semua pekerjaan kami, sehingga Anda dapat <strong>tenang dan percaya diri</strong> dalam memilih kami sebagai penyedia jasa. <br><br>Untuk informasi lebih lanjut, silakan <strong>hubungi kami</strong> untuk mendapatkan <strong>penawaran yang terbaik</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "6. Layanan Kami di Bekasi dan Sekitarnya",
+          "content": "Kami menyediakan <strong>jasa pemasangan kanopi</strong> di Bekasi dan sekitarnya, termasuk <strong>Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, Lippo Cikarang</strong>. Kami memiliki <strong>pengalaman yang cukup</strong> dalam mengerjakan berbagai proyek di daerah tersebut, sehingga Anda dapat <strong>percaya diri</strong> dalam memilih kami sebagai penyedia jasa. <br><br>Untuk informasi lebih lanjut, silakan <strong>hubungi kami</strong> untuk mendapatkan <strong>penawaran yang terbaik</strong>."
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi, penting untuk mempertimbangkan <strong>desain, bahan, dan ukuran</strong> yang sesuai dengan kebutuhan dan budget Anda. Dengan memilih <strong>Mandiri Steel</strong> sebagai penyedia jasa, Anda dapat <strong>tenang dan percaya diri</strong> dalam memilih kanopi yang <strong>tepat dan sesuai</strong> dengan kebutuhan Anda. Silakan <strong>hubungi kami</strong> untuk mendapatkan <strong>penawaran yang terbaik</strong> dan informasi lebih lanjut tentang <strong>harga pasang kanopi</strong> di Bekasi."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 37,
     "title": "Teralis Invisible vs Konvensional",
     "slug": "teralis-invisible-vs-konvensional",
