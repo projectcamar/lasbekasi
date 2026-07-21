@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 43,
+    "title": "Desain Pagar Industri untuk Gudang dan Pabrik",
+    "slug": "desain-pagar-industri-untuk-gudang-dan-pabrik",
+    "excerpt": "Desain pagar industri yang tepat untuk gudang dan pabrik di MM2100 Cibitung, Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-21",
+    "image": "https://images.unsplash.com/photo-1508263073532-98ed924de82d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwZmVuY2UlMjBkZXNpZ258ZW58MHwwfHx8MTc4NDYzMTYxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Penggunaan pagar industri yang tepat sangat penting untuk menjaga keamanan dan keselamatan gudang dan pabrik. <strong>Desain pagar industri</strong> yang baik harus mempertimbangkan beberapa faktor, seperti <strong>keamanan</strong>, <strong>estetika</strong>, dan <strong>fungsi</strong>. Di kawasan MM2100 Cibitung, Bekasi, banyak gudang dan pabrik yang memerlukan pagar industri yang kuat dan tahan lama. Dalam artikel ini, kita akan membahas tentang desain pagar industri yang tepat untuk gudang dan pabrik di kawasan ini.",
+      "keyPoints": [
+        "Desain pagar industri yang tepat untuk gudang dan pabrik",
+        "Pertimbangan keamanan, estetika, dan fungsi",
+        "Penggunaan bahan yang kuat dan tahan lama"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept",
+          "content": "Pagar industri adalah salah satu komponen yang sangat penting dalam menjaga keamanan dan keselamatan gudang dan pabrik. <strong>Desain pagar industri</strong> yang baik harus mempertimbangkan beberapa faktor, seperti <strong>keamanan</strong>, <strong>estetika</strong>, dan <strong>fungsi</strong>. Di kawasan MM2100 Cibitung, Bekasi, banyak gudang dan pabrik yang memerlukan pagar industri yang kuat dan tahan lama. <br><br>Beberapa contoh desain pagar industri yang umum digunakan adalah <strong>pagar besi</strong>, <strong>pagar stainless steel</strong>, dan <strong>pagar kayu</strong>. Namun, desain pagar industri yang paling efektif adalah yang mempertimbangkan keamanan, estetika, dan fungsi secara keseluruhan.",
+          "imageSearchQuery": "industrial fence design",
+          "image": "https://images.unsplash.com/photo-1508263073532-98ed924de82d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwZmVuY2UlMjBkZXNpZ258ZW58MHwwfHx8MTc4NDYzMTYxMHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Desain Pagar Industri yang Baik",
+          "content": "Desain pagar industri yang baik dapat memberikan beberapa manfaat, seperti <strong>menjaga keamanan</strong> dan <strong>keselamatan</strong> gudang dan pabrik, <strong>meningkatkan estetika</strong> bangunan, dan <strong>mengurangi biaya perawatan</strong>. <br><br>Beberapa tips untuk mendesain pagar industri yang baik adalah: <ul><li>Mempertimbangkan keamanan dan keselamatan</li><li>Menggunakan bahan yang kuat dan tahan lama</li><li>Mempertimbangkan estetika dan fungsi</li></ul>",
+          "productId": 3
+        },
+        {
+          "heading": "3. Tips Mendesain Pagar Industri untuk Gudang dan Pabrik",
+          "content": "Berikut beberapa tips untuk mendesain pagar industri untuk gudang dan pabrik: <ul><li>Mempertimbangkan keamanan dan keselamatan</li><li>Menggunakan bahan yang kuat dan tahan lama</li><li>Mempertimbangkan estetika dan fungsi</li><li>Menggunakan teknologi keamanan yang canggih</li></ul> <br><br>Contoh desain pagar industri yang baik adalah <strong>pagar besi</strong> dengan <strong>teknologi keamanan</strong> yang canggih, seperti <strong>CCTV</strong> dan <strong>sistem alarm</strong>.",
+          "productId": 4
+        },
+        {
+          "heading": "4. Penggunaan Bahan yang Kuat dan Tahan Lama",
+          "content": "Penggunaan bahan yang kuat dan tahan lama sangat penting dalam mendesain pagar industri. <strong>Bahan yang kuat</strong> dapat menjaga keamanan dan keselamatan gudang dan pabrik, sedangkan <strong>bahan yang tahan lama</strong> dapat mengurangi biaya perawatan. <br><br>Beberapa contoh bahan yang kuat dan tahan lama adalah <strong>baja</strong>, <strong>stainless steel</strong>, dan <strong>aluminium</strong>."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Desain Pagar Industri?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam mendesain pagar industri yang kuat dan tahan lama. Dengan <strong>25 tahun pengalaman</strong> dan <strong>penggunaan bahan yang kuat dan tahan lama</strong>, Mandiri Steel dapat memberikan desain pagar industri yang efektif dan efisien. <br><br>Beberapa kelebihan Mandiri Steel adalah: <ul><li>Pengalaman yang luas dalam mendesain pagar industri</li><li>Penggunaan bahan yang kuat dan tahan lama</li><li>Garansi struktural yang baik</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "6. Layanan yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan beberapa layanan untuk desain pagar industri, seperti <strong>desain</strong>, <strong>fabrikasi</strong>, dan <strong>instalasi</strong>. Dengan <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang canggih</strong>, Mandiri Steel dapat memberikan layanan yang efektif dan efisien. <br><br>Beberapa contoh layanan yang ditawarkan oleh Mandiri Steel adalah: <ul><li>Desain pagar industri yang kuat dan tahan lama</li><li>Fabrikasi pagar industri dengan bahan yang kuat dan tahan lama</li><li>Instalasi pagar industri yang efektif dan efisien</li></ul>"
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, desain pagar industri yang tepat sangat penting untuk menjaga keamanan dan keselamatan gudang dan pabrik. Dengan mempertimbangkan keamanan, estetika, dan fungsi, serta menggunakan bahan yang kuat dan tahan lama, desain pagar industri dapat efektif dan efisien. Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam mendesain pagar industri yang kuat dan tahan lama. Jika Anda memerlukan desain pagar industri yang efektif dan efisien, silakan hubungi Mandiri Steel untuk informasi lebih lanjut."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 44,
+    "title": "Railing Tangga Kayu Kombinasi Besi",
+    "slug": "railing-tangga-kayu-kombinasi-besi",
+    "excerpt": "Desain hangat dan elegan untuk interior rumah dengan railing tangga kayu kombinasi besi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-21",
+    "image": "https://images.unsplash.com/photo-1523789248610-bb592e870951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx3b29kJTIwYW5kJTIwbWV0YWwlMjBzdGFpcmNhc2UlMjByYWlsaW5nfGVufDB8MHx8fDE3ODQ2MzE2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing tangga kayu kombinasi besi adalah salah satu elemen desain interior yang dapat meningkatkan keindahan dan keselamatan sebuah rumah. Dengan kombinasi material kayu dan besi, railing tangga ini dapat memberikan kesan hangat dan elegan pada interior rumah. <strong>Railing tangga kayu kombinasi besi</strong> juga dapat meningkatkan nilai estetika dan fungsionalitas sebuah rumah. Pada artikel ini, kita akan membahas tentang desain, manfaat, dan tips dalam memilih railing tangga kayu kombinasi besi yang tepat untuk rumah Anda.",
+      "keyPoints": [
+        "Desain railing tangga kayu kombinasi besi yang hangat dan elegan",
+        "Manfaat railing tangga kayu kombinasi besi dalam meningkatkan keselamatan dan estetika",
+        "Tips dalam memilih railing tangga kayu kombinasi besi yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Desain Railing Tangga Kayu Kombinasi Besi",
+          "content": "Desain railing tangga kayu kombinasi besi sangat beragam dan dapat disesuaikan dengan tema dan gaya interior rumah. <strong>Kayu</strong> dapat dipilih sebagai material utama karena memiliki kesan hangat dan alami, sedangkan <strong>besi</strong> dapat digunakan sebagai penyangga dan penguat struktur. Dengan kombinasi kedua material ini, railing tangga kayu kombinasi besi dapat memiliki desain yang unik dan menarik. <br> Beberapa contoh desain railing tangga kayu kombinasi besi adalah: <ul> <li>Desain minimalis dengan kayu dan besi yang sederhana</li> <li>Desain klasik dengan kayu yang diukir dan besi yang dihias</li> <li>Desain modern dengan kayu dan besi yang memiliki bentuk geometris</li> </ul>",
+          "imageSearchQuery": "wood and metal staircase railing design",
+          "image": "https://images.unsplash.com/photo-1523789248610-bb592e870951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx3b29kJTIwYW5kJTIwbWV0YWwlMjBzdGFpcmNhc2UlMjByYWlsaW5nJTIwZGVzaWdufGVufDB8MHx8fDE3ODQ2MzE2ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Railing Tangga Kayu Kombinasi Besi",
+          "content": "Railing tangga kayu kombinasi besi memiliki beberapa manfaat yang dapat meningkatkan keselamatan dan estetika sebuah rumah. <strong>Keselamatan</strong> adalah salah satu manfaat utama dari railing tangga kayu kombinasi besi, karena dapat mencegah terjadinya kecelakaan dan cedera saat menggunakan tangga. <strong>Estetika</strong> juga dapat ditingkatkan dengan railing tangga kayu kombinasi besi, karena dapat memberikan kesan hangat dan elegan pada interior rumah. <br> Beberapa contoh manfaat railing tangga kayu kombinasi besi adalah: <ul> <li>Mencegah terjadinya kecelakaan dan cedera saat menggunakan tangga</li> <li>Meningkatkan nilai estetika dan fungsionalitas sebuah rumah</li> <li>Memberikan kesan hangat dan elegan pada interior rumah</li> </ul>"
+        },
+        {
+          "heading": "3. Tips dalam Memilih Railing Tangga Kayu Kombinasi Besi",
+          "content": "Dalam memilih railing tangga kayu kombinasi besi, ada beberapa tips yang perlu diperhatikan. <strong>Pertama</strong>, perlu mempertimbangkan tema dan gaya interior rumah. <strong>Kedua</strong>, perlu mempertimbangkan material dan kualitas railing tangga kayu kombinasi besi. <strong>Ketiga</strong>, perlu mempertimbangkan harga dan biaya pemasangan. <br> Beberapa contoh tips dalam memilih railing tangga kayu kombinasi besi adalah: <ul> <li>Pertimbangkan tema dan gaya interior rumah</li> <li>Pertimbangkan material dan kualitas railing tangga kayu kombinasi besi</li> <li>Pertimbangkan harga dan biaya pemasangan</li> </ul> <strong>Produk kami, Railing Tangga Minimalis (ID: 6)</strong>, dapat menjadi pilihan yang tepat untuk rumah Anda.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Pemasangan Railing Tangga Kayu Kombinasi Besi",
+          "content": "Pemasangan railing tangga kayu kombinasi besi perlu dilakukan dengan hati-hati dan teliti. <strong>Pertama</strong>, perlu mempersiapkan material dan alat yang dibutuhkan. <strong>Kedua</strong>, perlu memasang struktur penyangga dan penguat. <strong>Ketiga</strong>, perlu memasang kayu dan besi pada struktur penyangga dan penguat. <br> Beberapa contoh tips dalam pemasangan railing tangga kayu kombinasi besi adalah: <ul> <li>Mempersiapkan material dan alat yang dibutuhkan</li> <li>Memasang struktur penyangga dan penguat</li> <li>Memasang kayu dan besi pada struktur penyangga dan penguat</li> </ul>"
+        },
+        {
+          "heading": "5. Perawatan Railing Tangga Kayu Kombinasi Besi",
+          "content": "Perawatan railing tangga kayu kombinasi besi perlu dilakukan secara teratur untuk menjaga kualitas dan estetika. <strong>Pertama</strong>, perlu membersihkan railing tangga kayu kombinasi besi secara teratur. <strong>Kedua</strong>, perlu memeriksa dan memperbaiki kerusakan pada railing tangga kayu kombinasi besi. <strong>Ketiga</strong>, perlu melindungi railing tangga kayu kombinasi besi dari kerusakan akibat cuaca. <br> Beberapa contoh tips dalam perawatan railing tangga kayu kombinasi besi adalah: <ul> <li>Membersihkan railing tangga kayu kombinasi besi secara teratur</li> <li>Memeriksa dan memperbaiki kerusakan pada railing tangga kayu kombinasi besi</li> <li>Melindungi railing tangga kayu kombinasi besi dari kerusakan akibat cuaca</li> </ul> <strong>Produk kami, Pagar Minimalis Modern (ID: 3)</strong>, dapat menjadi pilihan yang tepat untuk rumah Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah perusahaan yang telah berpengalaman lebih dari 25 tahun dalam bidang konstruksi baja dan railing tangga. <strong>Kami</strong> memiliki tim yang profesional dan berpengalaman dalam desain, pemasangan, dan perawatan railing tangga kayu kombinasi besi. <strong>Kami</strong> juga menggunakan material yang berkualitas tinggi dan memiliki garansi yang memuaskan. <br> Beberapa contoh kelebihan Mandiri Steel adalah: <ul> <li>Berpengalaman lebih dari 25 tahun dalam bidang konstruksi baja dan railing tangga</li> <li>Tim yang profesional dan berpengalaman dalam desain, pemasangan, dan perawatan railing tangga kayu kombinasi besi</li> <li>Menggunakan material yang berkualitas tinggi dan memiliki garansi yang memuaskan</li> </ul>"
+        }
+      ],
+      "conclusion": "Railing tangga kayu kombinasi besi adalah salah satu elemen desain interior yang dapat meningkatkan keindahan dan keselamatan sebuah rumah. Dengan memilih Mandiri Steel sebagai mitra Anda, Anda dapat memiliki railing tangga kayu kombinasi besi yang berkualitas tinggi dan memiliki garansi yang memuaskan. <strong>Hubungi kami</strong> sekarang juga untuk mendapatkan informasi lebih lanjut tentang railing tangga kayu kombinasi besi dan layanan yang kami tawarkan."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 45,
+    "title": "Jasa Las Industri MM2100",
+    "slug": "jasa-las-industri-mm2100",
+    "excerpt": "Mandiri Steel: Jasa las industri MM2100, EJIP, dan Jababeka untuk mezzanine dan struktur baja berkualitas",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-21",
+    "image": "https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwc3RlZWwlMjBjb25zdHJ1Y3Rpb258ZW58MHwwfHx8MTc4NDYzMTc1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa dekade terakhir, kawasan industri MM2100, EJIP, dan Jababeka telah berkembang pesat sebagai pusat industri di Jawa Barat. <strong>Perusahaan-perusahaan</strong> yang beroperasi di kawasan ini memerlukan <strong>jasa las</strong> yang berkualitas untuk memenuhi kebutuhan struktur baja mereka. <strong>Mandiri Steel</strong> hadir sebagai solusi untuk kebutuhan jasa las industri di kawasan ini, dengan pengalaman lebih dari 25 tahun dan <strong>material SNI</strong> yang memenuhi standar nasional.",
+      "keyPoints": [
+        "Jasa las industri MM2100, EJIP, dan Jababeka",
+        "Mezzanine dan struktur baja berkualitas",
+        "Pengalaman lebih dari 25 tahun",
+        "Material SNI yang memenuhi standar nasional"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Jasa Las Industri",
+          "content": "Jasa las industri adalah proses pengelasan yang digunakan untuk menggabungkan dua atau lebih bagian logam dengan menggunakan panas. <strong>Proses las</strong> ini dapat dilakukan dengan menggunakan berbagai jenis logam, termasuk <strong>baja</strong>, <strong>aluminium</strong>, dan <strong>stainless steel</strong>. Dalam kawasan industri MM2100, EJIP, dan Jababeka, jasa las industri digunakan untuk memenuhi kebutuhan struktur baja, seperti <strong>mezzanine</strong>, <strong>gudang</strong>, dan <strong>bangunan pabrik</strong>. <br> <strong>Mandiri Steel</strong> telah berpengalaman lebih dari 25 tahun dalam menyediakan jasa las industri yang berkualitas, dengan <strong>material SNI</strong> yang memenuhi standar nasional. Kami telah bekerja sama dengan berbagai perusahaan industri di kawasan MM2100, EJIP, dan Jababeka, termasuk di daerah <strong>Cikarang</strong>, <strong>Tambun</strong>, dan <strong>Cibitung</strong>.",
+          "imageSearchQuery": "industrial steel construction",
+          "image": "https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpbmR1c3RyaWFsJTIwc3RlZWwlMjBjb25zdHJ1Y3Rpb258ZW58MHwwfHx8MTc4NDYzMTc1M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Jasa Las Industri",
+          "content": "Jasa las industri memiliki beberapa manfaat, termasuk <strong>kekuatan struktur</strong> yang lebih tinggi, <strong>kestabilan</strong> yang lebih baik, dan <strong>estetika</strong> yang lebih menarik. Dengan menggunakan jasa las industri, perusahaan dapat memenuhi kebutuhan struktur baja mereka dengan lebih efisien dan efektif. <br> Selain itu, jasa las industri juga dapat membantu perusahaan dalam <strong>menghemat biaya</strong> dan <strong>waktu</strong>, karena proses las dapat dilakukan dengan lebih cepat dan akurat. <strong>Mandiri Steel</strong> juga menyediakan <strong>garansi struktural</strong> untuk semua pekerjaan las yang dilakukan, sehingga perusahaan dapat memiliki ketenangan pikiran dalam hal keamanan dan kekuatan struktur mereka.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips dalam Memilih Jasa Las Industri",
+          "content": "Dalam memilih jasa las industri, perusahaan harus mempertimbangkan beberapa faktor, termasuk <strong>pengalaman</strong>, <strong>material</strong>, dan <strong>garansi</strong>. Berikut beberapa tips yang dapat membantu perusahaan dalam memilih jasa las industri yang tepat: <ul> <li>Pilih jasa las industri yang memiliki pengalaman lebih dari 10 tahun</li> <li>Pastikan jasa las industri menggunakan material SNI yang memenuhi standar nasional</li> <li>Pilih jasa las industri yang menyediakan garansi struktural untuk semua pekerjaan las</li> </ul> <br> Dengan mempertimbangkan faktor-faktor ini, perusahaan dapat memilih jasa las industri yang berkualitas dan dapat memenuhi kebutuhan struktur baja mereka.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Pengalaman Mandiri Steel dalam Jasa Las Industri",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam menyediakan jasa las industri yang berkualitas. Kami telah bekerja sama dengan berbagai perusahaan industri di kawasan MM2100, EJIP, dan Jababeka, termasuk di daerah <strong>Bekasi</strong>, <strong>Cikarang</strong>, dan <strong>Tambun</strong>. <br> Dengan pengalaman yang luas dan <strong>material SNI</strong> yang memenuhi standar nasional, kami dapat memenuhi kebutuhan struktur baja perusahaan dengan lebih efisien dan efektif. Kami juga menyediakan <strong>survei lapangan gratis</strong> untuk memastikan bahwa pekerjaan las dapat dilakukan dengan lebih akurat dan cepat.",
+          "productId": 7
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah pilihan yang tepat untuk perusahaan yang memerlukan jasa las industri yang berkualitas. Dengan pengalaman lebih dari 25 tahun, <strong>material SNI</strong> yang memenuhi standar nasional, dan <strong>garansi struktural</strong> untuk semua pekerjaan las, kami dapat memenuhi kebutuhan struktur baja perusahaan dengan lebih efisien dan efektif. <br> Kami juga menyediakan <strong>survei lapangan gratis</strong> dan <strong>layanan purna jual</strong> yang memuaskan, sehingga perusahaan dapat memiliki ketenangan pikiran dalam hal keamanan dan kekuatan struktur mereka. <strong>Produk kami</strong> seperti <strong>Konstruksi Baja WF</strong> (ID: 7) dapat membantu perusahaan dalam memenuhi kebutuhan struktur baja mereka.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan jasa las industri untuk kawasan MM2100, EJIP, dan Jababeka, serta daerah sekitarnya seperti <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> Dengan lokasi yang strategis dan <strong>tim yang berpengalaman</strong>, kami dapat memenuhi kebutuhan struktur baja perusahaan dengan lebih efisien dan efektif.",
+          "productId": 7
+        }
+      ],
+      "conclusion": "Dalam memilih jasa las industri, perusahaan harus mempertimbangkan beberapa faktor, termasuk pengalaman, material, dan garansi. Dengan mempertimbangkan faktor-faktor ini, perusahaan dapat memilih jasa las industri yang berkualitas dan dapat memenuhi kebutuhan struktur baja mereka. Mandiri Steel adalah pilihan yang tepat untuk perusahaan yang memerlukan jasa las industri yang berkualitas, dengan pengalaman lebih dari 25 tahun, material SNI yang memenuhi standar nasional, dan garansi struktural untuk semua pekerjaan las. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang jasa las industri yang kami sediakan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 40,
     "title": "Tips Keselamatan Railing Tangga",
     "slug": "tips-keselamatan-railing-tangga-untuk-rumah-dengan-balita",
