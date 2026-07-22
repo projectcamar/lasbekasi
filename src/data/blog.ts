@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 46,
+    "title": "Panduan Survei Lokasi Sebelum Pasang Kanopi",
+    "slug": "panduan-survei-lokasi-sebelum-pasang-kanopi",
+    "excerpt": "Panduan lengkap survei lokasi sebelum pasang kanopi untuk hasil maksimal",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-22",
+    "image": "https://images.unsplash.com/photo-1697604501923-2590ec2d7ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBydW1haCUyMG1pbmltYWxpc3xlbnwwfDB8fHwxNzg0NzE4MDEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Sebelum memasang <strong>kanopi</strong> di rumah, penting untuk melakukan survei lokasi dengan teliti. <strong>Survei lokasi</strong> ini akan membantu Anda menentukan desain, ukuran, dan bahan yang tepat untuk <strong>kanopi</strong> Anda. Dalam artikel ini, kita akan membahas apa yang diukur dan mengapa survei lokasi sangat penting sebelum memasang <strong>kanopi</strong>.",
+      "keyPoints": [
+        "Mengukur ukuran dan bentuk atap",
+        "Menentukan jenis bahan yang tepat",
+        "Menghitung biaya dan waktu pemasangan"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengukur Ukuran dan Bentuk Atap",
+          "content": "Mengukur ukuran dan bentuk atap adalah langkah pertama dalam survei lokasi. <strong>Ukuran atap</strong> akan menentukan ukuran <strong>kanopi</strong> yang dibutuhkan. Pastikan untuk mengukur dengan teliti, termasuk <strong>panjang</strong>, <strong>lebar</strong>, dan <strong>tinggi</strong> atap. Jangan lupa untuk mengukur juga <strong>jarak antara kolom</strong> dan <strong>tinggi dinding</strong>. Dengan data ini, Anda dapat menentukan desain <strong>kanopi</strong> yang sesuai dengan atap Anda. Contohnya, jika Anda memiliki atap yang <strong>lebar</strong> dan <strong>panjang</strong>, maka <strong>kanopi</strong> dengan desain <strong>minimalis</strong> akan sangat sesuai.",
+          "imageSearchQuery": "ukuran atap rumah",
+          "image": "https://images.unsplash.com/photo-1708277930253-b1004d376e15?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx1a3VyYW4lMjBhdGFwJTIwcnVtYWh8ZW58MHwwfHx8MTc4NDcxODAxMnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Menentukan Jenis Bahan yang Tepat",
+          "content": "Setelah mengukur ukuran dan bentuk atap, langkah selanjutnya adalah menentukan jenis <strong>bahan</strong> yang tepat untuk <strong>kanopi</strong> Anda. <strong>Bahan</strong> yang umum digunakan untuk <strong>kanopi</strong> adalah <strong>baja</strong>, <strong>alumunium</strong>, dan <strong>kayu</strong>. Pastikan untuk memilih <strong>bahan</strong> yang tahan lama dan sesuai dengan <strong>iklim</strong> di daerah Anda. Jangan lupa untuk mempertimbangkan juga <strong>biaya</strong> dan <strong>waktu pemasangan</strong> saat memilih <strong>bahan</strong>. Contohnya, jika Anda tinggal di daerah <strong>Bekasi</strong> atau <strong>Cikarang</strong>, maka <strong>bahan</strong> yang tahan terhadap <strong>hujan</strong> dan <strong>panas</strong> akan sangat sesuai.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Menghitung Biaya dan Waktu Pemasangan",
+          "content": "Menghitung <strong>biaya</strong> dan <strong>waktu pemasangan</strong> adalah langkah terakhir dalam survei lokasi. Pastikan untuk menghitung <strong>biaya</strong> dengan teliti, termasuk <strong>biaya bahan</strong>, <strong>biaya pemasangan</strong>, dan <strong>biaya lain-lain</strong>. Jangan lupa untuk mempertimbangkan juga <strong>waktu pemasangan</strong> dan <strong>tenaga kerja</strong> yang dibutuhkan. Dengan data ini, Anda dapat menentukan <strong>anggaran</strong> yang sesuai untuk <strong>kanopi</strong> Anda. Contohnya, jika Anda memiliki <strong>anggaran</strong> yang terbatas, maka <strong>kanopi</strong> dengan desain <strong>minimalis</strong> dan <strong>bahan</strong> yang murah akan sangat sesuai.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Tips dan Saran untuk Survei Lokasi",
+          "content": "Berikut beberapa <strong>tips</strong> dan <strong>saran</strong> untuk survei lokasi: <ul><li>Pastikan untuk mengukur dengan teliti</li><li>Memilih <strong>bahan</strong> yang sesuai dengan <strong>iklim</strong> di daerah Anda</li><li>Menghitung <strong>biaya</strong> dan <strong>waktu pemasangan</strong> dengan teliti</li><li>Memilih <strong>kontraktor</strong> yang berpengalaman dan terpercaya</li></ul> Dengan mengikuti <strong>tips</strong> dan <strong>saran</strong> ini, Anda dapat melakukan survei lokasi dengan efektif dan mendapatkan <strong>kanopi</strong> yang sesuai dengan kebutuhan Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "5. Mengapa Survei Lokasi Sangat Penting",
+          "content": "Survei lokasi sangat penting karena dapat membantu Anda menentukan desain, ukuran, dan bahan yang tepat untuk <strong>kanopi</strong> Anda. Dengan survei lokasi, Anda dapat menghindari <strong>kesalahan</strong> yang dapat menyebabkan <strong>kanopi</strong> tidak sesuai dengan kebutuhan Anda. Selain itu, survei lokasi juga dapat membantu Anda menghemat <strong>biaya</strong> dan <strong>waktu</strong> dengan memilih <strong>bahan</strong> dan <strong>kontraktor</strong> yang tepat. Contohnya, jika Anda melakukan survei lokasi di <strong>Bekasi</strong> atau <strong>Cikarang</strong>, maka Anda dapat menentukan desain <strong>kanopi</strong> yang sesuai dengan <strong>iklim</strong> di daerah tersebut.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Pengalaman Mandiri Steel dalam Survei Lokasi",
+          "content": "Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam survei lokasi dan pemasangan <strong>kanopi</strong>. Kami memiliki <strong>tim</strong> yang berpengalaman dan terpercaya yang dapat membantu Anda melakukan survei lokasi dengan efektif. Kami juga menggunakan <strong>bahan</strong> yang berkualitas dan sesuai dengan <strong>iklim</strong> di daerah Anda. Dengan pengalaman dan <strong>keahlian</strong> kami, Anda dapat yakin bahwa <strong>kanopi</strong> Anda akan sesuai dengan kebutuhan Anda. Contohnya, jika Anda tinggal di <strong>Tambun</strong> atau <strong>Cibitung</strong>, maka kami dapat membantu Anda menentukan desain <strong>kanopi</strong> yang sesuai dengan <strong>iklim</strong> di daerah tersebut.",
+          "productId": 7
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, survei lokasi sangat penting sebelum memasang <strong>kanopi</strong>. Dengan survei lokasi, Anda dapat menentukan desain, ukuran, dan bahan yang tepat untuk <strong>kanopi</strong> Anda. Jangan ragu untuk menghubungi Mandiri Steel jika Anda membutuhkan bantuan dalam survei lokasi dan pemasangan <strong>kanopi</strong>. Kami siap membantu Anda mendapatkan <strong>kanopi</strong> yang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 47,
+    "title": "Konstruksi Baja Ringan vs Baja Berat",
+    "slug": "konstruksi-baja-ringan-vs-baja-berat",
+    "excerpt": "Pilih konstruksi baja yang tepat untuk atap rumah Anda, bandingkan biaya dan ketahanan gempa",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-22",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "<strong>Konstruksi baja</strong> adalah salah satu pilihan populer untuk atap rumah modern. Dengan kelebihan <strong>kuat</strong> dan <strong>tahan lama</strong>, konstruksi baja dapat menjadi pilihan yang tepat untuk rumah Anda. Namun, ada dua jenis konstruksi baja yang umum digunakan, yaitu <strong>baja ringan</strong> dan <strong>baja berat</strong>. Dalam artikel ini, kami akan membahas perbedaan antara kedua jenis konstruksi baja tersebut, serta analisis biaya dan ketahanan gempa.",
+      "keyPoints": [
+        "Konstruksi baja ringan lebih ringan dan fleksibel",
+        "Konstruksi baja berat lebih kuat dan tahan lama",
+        "Biaya konstruksi baja ringan lebih murah"
+      ],
+      "sections": [
+        {
+          "heading": "Apa itu Konstruksi Baja Ringan?",
+          "content": "Konstruksi baja ringan adalah jenis konstruksi yang menggunakan <strong>baja ringan</strong> sebagai bahan utama. Baja ringan memiliki berat yang lebih ringan daripada baja berat, sehingga lebih mudah untuk diangkat dan dipasang. Konstruksi baja ringan juga lebih fleksibel, sehingga dapat dengan mudah disesuaikan dengan bentuk dan desain rumah. <br><br> Contoh nyata dari konstruksi baja ringan adalah <strong>Kanopi Minimalis Alderon (productId: 1)</strong>, yang dapat dibuat dengan menggunakan baja ringan. <ul><li>Baja ringan lebih ringan dan fleksibel</li><li>Baja ringan lebih mudah untuk diangkat dan dipasang</li><li>Baja ringan dapat disesuaikan dengan bentuk dan desain rumah</li></ul>",
+          "imageSearchQuery": "konstruksi baja ringan",
+          "image": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMHJpbmdhbnxlbnwwfDB8fHwxNzg0NzE4MDg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Apa itu Konstruksi Baja Berat?",
+          "content": "Konstruksi baja berat adalah jenis konstruksi yang menggunakan <strong>baja berat</strong> sebagai bahan utama. Baja berat memiliki kekuatan yang lebih besar daripada baja ringan, sehingga lebih tahan lama dan kuat. Konstruksi baja berat juga lebih cocok untuk rumah yang memiliki beban berat, seperti rumah dengan atap yang curam. <br><br> Contoh nyata dari konstruksi baja berat adalah <strong>Konstruksi Baja WF (productId: 7)</strong>, yang dapat dibuat dengan menggunakan baja berat. <ul><li>Baja berat memiliki kekuatan yang lebih besar</li><li>Baja berat lebih tahan lama dan kuat</li><li>Baja berat lebih cocok untuk rumah dengan beban berat</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "Perbandingan Biaya Konstruksi Baja Ringan dan Baja Berat",
+          "content": "Biaya konstruksi baja ringan dan baja berat dapat berbeda-beda tergantung pada jenis bahan yang digunakan, ukuran rumah, dan lain-lain. Namun, secara umum, biaya konstruksi baja ringan lebih murah daripada biaya konstruksi baja berat. <br><br> Berikut adalah contoh perbandingan biaya konstruksi baja ringan dan baja berat: <ul><li>Baja ringan: Rp 500.000 - Rp 1.000.000 per meter persegi</li><li>Baja berat: Rp 1.000.000 - Rp 2.000.000 per meter persegi</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "Ketahanan Gempa Konstruksi Baja Ringan dan Baja Berat",
+          "content": "Ketahanan gempa adalah salah satu faktor yang penting dalam memilih konstruksi baja. Konstruksi baja ringan dan baja berat memiliki ketahanan gempa yang berbeda-beda. <br><br> Konstruksi baja ringan memiliki ketahanan gempa yang lebih rendah daripada konstruksi baja berat, karena baja ringan memiliki kekuatan yang lebih rendah. Namun, konstruksi baja ringan dapat masih tahan terhadap gempa jika didesain dengan baik. <ul><li>Konstruksi baja ringan memiliki ketahanan gempa yang lebih rendah</li><li>Konstruksi baja berat memiliki ketahanan gempa yang lebih tinggi</li><li>Konstruksi baja ringan dapat tahan terhadap gempa jika didesain dengan baik</li></ul>"
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan konstruksi baja yang terpercaya di Indonesia. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membuktikan kemampuan dan keahlian dalam membuat konstruksi baja yang kuat dan tahan lama. <br><br> Mandiri Steel juga menggunakan bahan-bahan yang berkualitas dan memenuhi standar SNI. Selain itu, Mandiri Steel juga menawarkan jaminan garansi struktural yang dapat memberikan ketenangan pikiran bagi Anda. <ul><li>Mandiri Steel memiliki lebih dari 25 tahun pengalaman</li><li>Mandiri Steel menggunakan bahan-bahan yang berkualitas</li><li>Mandiri Steel menawarkan jaminan garansi struktural</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "Layanan Konstruksi Baja di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel menyediakan layanan konstruksi baja di Bekasi dan Jabodetabek. Dengan tim yang berpengalaman dan bahan-bahan yang berkualitas, Mandiri Steel dapat membantu Anda membuat konstruksi baja yang kuat dan tahan lama. <br><br> Beberapa daerah yang dilayani oleh Mandiri Steel di Bekasi dan Jabodetabek antara lain: Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, Lippo Cikarang. <ul><li>Mandiri Steel menyediakan layanan konstruksi baja di Bekasi dan Jabodetabek</li><li>Mandiri Steel memiliki tim yang berpengalaman</li><li>Mandiri Steel menggunakan bahan-bahan yang berkualitas</li></ul>"
+        }
+      ],
+      "conclusion": "Dalam memilih konstruksi baja, penting untuk mempertimbangkan biaya, ketahanan gempa, dan kebutuhan Anda. Mandiri Steel dapat membantu Anda membuat konstruksi baja yang kuat dan tahan lama. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan konstruksi baja kami."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 48,
+    "title": "Tips Memilih Warna Kanopi",
+    "slug": "tips-memilih-warna-kanopi-yang-cocok-dengan-cat-rumah",
+    "excerpt": "Panduan memilih warna kanopi yang harmoni dengan desain eksterior rumah",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-22",
+    "image": "https://images.unsplash.com/photo-1780377816572-e48c80e9e3cd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx3YXJuYSUyMGthbm9waSUyMHJ1bWFoJTIwbW9kZXJufGVufDB8MHx8fDE3ODQ3MTgxNTZ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Memilih <strong>warna kanopi</strong> yang tepat dapat membuat desain eksterior rumah Anda menjadi lebih harmoni dan menarik. <strong>Kanopi</strong> yang berfungsi sebagai pelindung dari sinar matahari dan hujan juga dapat menjadi elemen dekoratif yang penting. Dalam artikel ini, kita akan membahas tentang <strong>tips memilih warna kanopi</strong> yang cocok dengan cat rumah Anda.",
+      "keyPoints": [
+        "Memilih warna kanopi yang sesuai dengan desain eksterior rumah",
+        "Menggunakan teori warna untuk memilih warna kanopi",
+        "Mempertimbangkan faktor lingkungan sekitar"
+      ],
+      "sections": [
+        {
+          "heading": "1. Memilih Warna Kanopi yang Sesuai dengan Desain Eksterior Rumah",
+          "content": "Dalam memilih <strong>warna kanopi</strong>, Anda perlu mempertimbangkan desain eksterior rumah Anda. Jika rumah Anda memiliki desain modern, maka <strong>warna kanopi</strong> yang netral seperti putih, abu-abu, atau hitam dapat menjadi pilihan yang tepat. Namun, jika rumah Anda memiliki desain klasik, maka <strong>warna kanopi</strong> yang lebih berani seperti merah, biru, atau hijau dapat menjadi pilihan yang sesuai. <br> Contoh nyata dapat dilihat di perumahan <strong>Grand Wisata</strong> atau <strong>Summarecon Bekasi</strong>, di mana <strong>warna kanopi</strong> yang dipilih sesuai dengan desain eksterior rumah. <br> Tips: Pastikan Anda mempertimbangkan <strong>warna cat rumah</strong> Anda saat memilih <strong>warna kanopi</strong>.",
+          "imageSearchQuery": "desain eksterior rumah modern",
+          "image": "https://images.unsplash.com/photo-1756706718604-ef4af3970e33?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxkZXNhaW4lMjBla3N0ZXJpb3IlMjBydW1haCUyMG1vZGVybnxlbnwwfDB8fHwxNzg0NzE4MTU3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Menggunakan Teori Warna untuk Memilih Warna Kanopi",
+          "content": "Teori warna dapat membantu Anda memilih <strong>warna kanopi</strong> yang sesuai dengan <strong>warna cat rumah</strong> Anda. <strong>Warna primer</strong> seperti merah, biru, dan kuning dapat menjadi pilihan yang tepat jika Anda ingin menciptakan kontras yang kuat. <strong>Warna sekunder</strong> seperti hijau, ungu, dan oranye dapat menjadi pilihan yang sesuai jika Anda ingin menciptakan harmoni yang lembut. <br> Contoh: Jika <strong>warna cat rumah</strong> Anda adalah biru, maka <strong>warna kanopi</strong> yang sesuai dapat berupa <strong>hijau</strong> atau <strong>kuning</strong>. <br> Tips: Pastikan Anda mempertimbangkan <strong>teori warna</strong> saat memilih <strong>warna kanopi</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Mempertimbangkan Faktor Lingkungan Sekitar",
+          "content": "Faktor lingkungan sekitar juga perlu dipertimbangkan saat memilih <strong>warna kanopi</strong>. Jika rumah Anda berlokasi di daerah yang panas, maka <strong>warna kanopi</strong> yang lebih terang seperti putih atau abu-abu dapat menjadi pilihan yang tepat. Namun, jika rumah Anda berlokasi di daerah yang lembab, maka <strong>warna kanopi</strong> yang lebih gelap seperti hitam atau biru dapat menjadi pilihan yang sesuai. <br> Contoh: Di daerah <strong>Cikarang</strong> yang panas, <strong>warna kanopi</strong> yang terang dapat menjadi pilihan yang tepat. <br> Tips: Pastikan Anda mempertimbangkan <strong>faktor lingkungan sekitar</strong> saat memilih <strong>warna kanopi</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Tips Memilih Warna Kanopi yang Sesuai dengan Gaya Hidup",
+          "content": "<ul><li>Pastikan Anda mempertimbangkan gaya hidup Anda saat memilih <strong>warna kanopi</strong>.</li><li>Jika Anda memiliki gaya hidup yang modern, maka <strong>warna kanopi</strong> yang netral dapat menjadi pilihan yang tepat.</li><li>Jika Anda memiliki gaya hidup yang klasik, maka <strong>warna kanopi</strong> yang lebih berani dapat menjadi pilihan yang sesuai.</li></ul> Contoh: Di perumahan <strong>Kota Deltamas</strong>, <strong>warna kanopi</strong> yang dipilih sesuai dengan gaya hidup penghuninya."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Kanopi Anda?",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam industri <strong>konstruksi baja</strong>. Kami menggunakan <strong>bahan SNI</strong> yang berkualitas tinggi dan memberikan <strong>garansi struktural</strong> untuk semua produk kami. <br> Dengan <strong>layanan survey gratis</strong>, kami dapat membantu Anda memilih <strong>warna kanopi</strong> yang sesuai dengan kebutuhan Anda. <br> Tips: Pastikan Anda memilih <strong>Mandiri Steel</strong> untuk <strong>kanopi</strong> Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel melayani berbagai daerah di <strong>Jabodetabek</strong>, termasuk <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> Dengan <strong>lokasi yang strategis</strong>, kami dapat memberikan <strong>layanan yang cepat dan efisien</strong> untuk semua kebutuhan <strong>kanopi</strong> Anda."
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>warna kanopi</strong> yang sesuai dengan <strong>cat rumah</strong> Anda, pastikan Anda mempertimbangkan <strong>desain eksterior rumah</strong>, <strong>teori warna</strong>, dan <strong>faktor lingkungan sekitar</strong>. Dengan <strong>Mandiri Steel</strong>, Anda dapat memiliki <strong>kanopi</strong> yang sesuai dengan kebutuhan Anda dan memberikan <strong>garansi struktural</strong> untuk semua produk kami. Hubungi kami sekarang juga untuk mendapatkan <strong>layanan survey gratis</strong> dan <strong>kanopi</strong> yang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 43,
     "title": "Desain Pagar Industri untuk Gudang dan Pabrik",
     "slug": "desain-pagar-industri-untuk-gudang-dan-pabrik",
