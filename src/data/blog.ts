@@ -33,6 +33,177 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 49,
+    "title": "Teralis Jendela dengan Emergency Exit",
+    "slug": "teralis-jendela-dengan-emergency-exit",
+    "excerpt": "Teralis jendela dengan emergency exit, fitur keselamatan penting untuk rumah di perumahan Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-23",
+    "image": "https://images.unsplash.com/photo-1551897922-6a919947ae24?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMGRlbmdhbiUyMGVtZXJnZW5jeSUyMGV4aXR8ZW58MHwwfHx8MTc4NDgwNDQwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Bagi Anda yang tinggal di perumahan Bekasi, keselamatan rumah adalah prioritas utama. <strong>Teralis jendela dengan emergency exit</strong> adalah fitur keselamatan yang sangat penting untuk memastikan keluarga Anda aman dari bahaya kebakaran atau bencana alam. Dalam artikel ini, kita akan membahas tentang pentingnya teralis jendela dengan emergency exit dan bagaimana <strong>Mandiri Steel</strong> dapat membantu Anda memasangnya di rumah Anda.",
+      "keyPoints": [
+        "Teralis jendela dengan emergency exit adalah fitur keselamatan yang penting",
+        "Mandiri Steel menawarkan jasa pemasangan teralis jendela dengan emergency exit",
+        "Pentingnya memilih bahan yang tepat untuk teralis jendela"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Teralis Jendela dengan Emergency Exit",
+          "content": "Teralis jendela dengan emergency exit adalah sistem keamanan yang dirancang untuk memungkinkan penghuni rumah melarikan diri dengan cepat dan aman dalam situasi darurat. <strong>Teralis jendela</strong> ini dilengkapi dengan fitur keselamatan seperti <em>emergency exit</em> yang dapat dibuka dengan mudah dari dalam rumah. Dengan demikian, penghuni rumah dapat melarikan diri dengan cepat dan aman dalam situasi darurat seperti kebakaran atau bencana alam. Contohnya, di perumahan Bekasi, teralis jendela dengan emergency exit sangat penting karena banyak rumah yang terletak di daerah yang rawan kebakaran.",
+          "imageSearchQuery": "teralis jendela dengan emergency exit di perumahan Bekasi"
+        },
+        {
+          "heading": "2. Manfaat Teralis Jendela dengan Emergency Exit",
+          "content": "Teralis jendela dengan emergency exit memiliki beberapa manfaat, antara lain: <ul><li>Meningkatkan keselamatan rumah</li><li>Mengurangi risiko cedera atau kematian dalam situasi darurat</li><li>Membuat penghuni rumah merasa lebih aman dan nyaman</li></ul> Selain itu, teralis jendela dengan emergency exit juga dapat meningkatkan nilai properti rumah Anda. Dengan demikian, jika Anda berencana untuk menjual rumah Anda di masa depan, teralis jendela dengan emergency exit dapat menjadi daya tarik bagi calon pembeli."
+        },
+        {
+          "heading": "3. Tips Memilih Teralis Jendela dengan Emergency Exit",
+          "content": "Dalam memilih teralis jendela dengan emergency exit, ada beberapa hal yang perlu Anda pertimbangkan, antara lain: <ul><li>Bahan yang digunakan</li><li>Desain dan model</li><li>Harga dan biaya pemasangan</li></ul> <strong>Mandiri Steel</strong> menawarkan teralis jendela dengan emergency exit yang terbuat dari bahan <strong>besi</strong> yang kuat dan tahan lama. Dengan demikian, Anda dapat yakin bahwa teralis jendela dengan emergency exit Anda dapat bertahan dalam situasi darurat. Untuk informasi lebih lanjut, silakan hubungi <strong>Mandiri Steel</strong> untuk mendapatkan penawaran terbaik.",
+          "productId": 5
+        },
+        {
+          "heading": "4. Cara Pemasangan Teralis Jendela dengan Emergency Exit",
+          "content": "Pemasangan teralis jendela dengan emergency exit memerlukan keahlian dan peralatan yang tepat. <strong>Mandiri Steel</strong> memiliki tim yang berpengalaman dan terlatih untuk memasang teralis jendela dengan emergency exit di rumah Anda. Dengan demikian, Anda dapat yakin bahwa pemasangan teralis jendela dengan emergency exit Anda dilakukan dengan benar dan aman. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan jasa <strong>free on-site survey</strong> untuk memastikan bahwa pemasangan teralis jendela dengan emergency exit Anda dilakukan dengan tepat."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Teralis Jendela dengan Emergency Exit",
+          "content": "Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam bidang konstruksi dan pemasangan teralis jendela. Dengan demikian, Anda dapat yakin bahwa pemasangan teralis jendela dengan emergency exit Anda dilakukan dengan benar dan aman. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan <strong>garansi struktural</strong> untuk memastikan bahwa teralis jendela dengan emergency exit Anda dapat bertahan dalam situasi darurat. Untuk informasi lebih lanjut, silakan hubungi <strong>Mandiri Steel</strong> untuk mendapatkan penawaran terbaik. <strong>Produk</strong> yang ditawarkan oleh <strong>Mandiri Steel</strong> antara lain: <ul><li><strong>Pintu Pagar Stainless Steel</strong></li><li><strong>Teralis Jendela Minimalis</strong></li></ul>",
+          "productId": 8
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas, termasuk <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan demikian, Anda dapat yakin bahwa pemasangan teralis jendela dengan emergency exit Anda dilakukan dengan benar dan aman, tidak peduli di mana Anda berada. Untuk informasi lebih lanjut, silakan hubungi <strong>Mandiri Steel</strong> untuk mendapatkan penawaran terbaik."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, teralis jendela dengan emergency exit adalah fitur keselamatan yang sangat penting untuk memastikan keluarga Anda aman dari bahaya kebakaran atau bencana alam. Dengan memilih <strong>Mandiri Steel</strong> sebagai mitra Anda, Anda dapat yakin bahwa pemasangan teralis jendela dengan emergency exit Anda dilakukan dengan benar dan aman. Silakan hubungi <strong>Mandiri Steel</strong> untuk mendapatkan penawaran terbaik dan memastikan keselamatan rumah Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 50,
+    "title": "Railing Balkon Modern",
+    "slug": "desain-railing-balkon-modern",
+    "excerpt": "Railing balkon modern untuk apartemen dan rumah 2 lantai di Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-23",
+    "image": "https://images.unsplash.com/photo-1616846831981-365f778feb02?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwYmFsa29uJTIwbW9kZXJufGVufDB8MHx8fDE3ODQ4MDQ0ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Bagi Anda yang memiliki apartemen atau rumah 2 lantai di Bekasi, <strong>railing balkon modern</strong> dapat menjadi salah satu elemen desain yang sangat penting. Railing balkon tidak hanya berfungsi sebagai pengaman, tetapi juga dapat meningkatkan estetika dan nilai properti Anda. Dalam artikel ini, kita akan membahas tentang desain railing balkon modern yang dapat Anda terapkan di rumah atau apartemen Anda di Bekasi.",
+      "keyPoints": [
+        "Railing balkon modern dapat meningkatkan estetika dan nilai properti",
+        "Desain railing balkon harus sesuai dengan konsep rumah atau apartemen",
+        "Material railing balkon harus kuat dan tahan lama"
+      ],
+      "sections": [
+        {
+          "heading": "Konsep Desain Railing Balkon Modern",
+          "content": "Desain railing balkon modern harus sesuai dengan konsep rumah atau apartemen Anda. Jika Anda memiliki rumah dengan gaya modern, maka railing balkon Anda juga harus memiliki desain yang modern. <strong>Material stainless steel</strong> atau <strong>aluminium</strong> dapat menjadi pilihan yang tepat karena kuat dan tahan lama. Selain itu, Anda juga dapat menambahkan <strong>elemen dekorasi</strong> seperti lampu atau tanaman untuk meningkatkan estetika railing balkon.",
+          "imageSearchQuery": "railing balkon modern stainless steel",
+          "image": "https://images.unsplash.com/photo-1754510519667-41b3b2418867?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwYmFsa29uJTIwbW9kZXJuJTIwc3RhaW5sZXNzJTIwc3RlZWx8ZW58MHwwfHx8MTc4NDgwNDQ4Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips Memilih Material Railing Balkon",
+          "content": "Memilih material railing balkon yang tepat sangat penting untuk menjaga keamanan dan estetika. <strong>Material baja</strong> atau <strong>stainless steel</strong> dapat menjadi pilihan yang tepat karena kuat dan tahan lama. Selain itu, Anda juga dapat mempertimbangkan <strong>biaya perawatan</strong> dan <strong>kestabilan material</strong> sebelum membuat keputusan. Berikut beberapa tips memilih material railing balkon: <ul><li>Pilih material yang kuat dan tahan lama</li><li>Pertimbangkan biaya perawatan</li><li>Pertimbangkan kestabilan material</li></ul>",
+          "productId": 6
+        },
+        {
+          "heading": "Desain Railing Balkon untuk Apartemen",
+          "content": "Desain railing balkon untuk apartemen harus sesuai dengan konsep apartemen dan mempertimbangkan keamanan penghuni. <strong>Railing balkon dengan ketinggian yang cukup</strong> dapat membantu mencegah kecelakaan. Selain itu, Anda juga dapat menambahkan <strong>elemen dekorasi</strong> seperti tanaman atau lampu untuk meningkatkan estetika railing balkon. Di Bekasi, Anda dapat menemukan banyak contoh desain railing balkon apartemen yang modern dan estetis."
+        },
+        {
+          "heading": "Desain Railing Balkon untuk Rumah 2 Lantai",
+          "content": "Desain railing balkon untuk rumah 2 lantai harus sesuai dengan konsep rumah dan mempertimbangkan keamanan penghuni. <strong>Railing balkon dengan desain yang unik</strong> dapat membantu meningkatkan estetika rumah. Selain itu, Anda juga dapat menambahkan <strong>elemen dekorasi</strong> seperti lampu atau tanaman untuk meningkatkan estetika railing balkon. Di Cikarang, Anda dapat menemukan banyak contoh desain railing balkon rumah 2 lantai yang modern dan estetis."
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam industri baja dan memiliki reputasi yang baik di Bekasi. Kami menggunakan <strong>material SNI</strong> yang kuat dan tahan lama, serta menawarkan <strong>garansi struktural</strong> untuk semua produk kami. Selain itu, kami juga menawarkan <strong>survei gratis</strong> untuk membantu Anda menentukan kebutuhan railing balkon Anda. Dengan pengalaman dan reputasi yang baik, Mandiri Steel dapat menjadi pilihan yang tepat untuk semua kebutuhan railing balkon Anda.",
+          "productId": 6
+        },
+        {
+          "heading": "Layanan Railing Balkon di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menawarkan layanan railing balkon di Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Kami memiliki tim yang berpengalaman dan siap membantu Anda dalam menentukan kebutuhan railing balkon Anda. Dengan layanan yang baik dan harga yang kompetitif, Mandiri Steel dapat menjadi pilihan yang tepat untuk semua kebutuhan railing balkon Anda."
+        }
+      ],
+      "conclusion": "Dalam memilih desain railing balkon modern, Anda harus mempertimbangkan keamanan, estetika, dan kebutuhan Anda. Dengan memilih material yang tepat dan desain yang sesuai, Anda dapat meningkatkan nilai properti Anda dan menjaga keamanan penghuni. Mandiri Steel dapat menjadi pilihan yang tepat untuk semua kebutuhan railing balkon Anda di Bekasi dan sekitarnya. Hubungi kami sekarang untuk mendapatkan informasi lebih lanjut dan survei gratis!"
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 51,
+    "title": "Melindungi Konstruksi Besi Rumah dari Karat",
+    "slug": "tips-melindungi-konstruksi-besi-rumah-dari-karat",
+    "excerpt": "Tips melindungi konstruksi besi rumah dari karat dan korosi di musim hujan Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-23",
+    "image": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmVzaSUyMHJ1bWFofGVufDB8MHx8fDE3ODQ4MDQ1NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Musim hujan</strong> telah tiba di Bekasi, dan ini berarti bahwa konstruksi besi rumah Anda berisiko mengalami <strong>karat dan korosi</strong>. <strong>Karat</strong> dapat menyebabkan kerusakan serius pada struktur besi, sehingga penting untuk melindunginya. Dalam artikel ini, kita akan membahas <strong>tips</strong> untuk melindungi konstruksi besi rumah dari karat dan korosi di musim hujan Bekasi.",
+      "keyPoints": [
+        "Pahami penyebab karat dan korosi",
+        "Gunakan cat pelindung",
+        "Lakukan perawatan rutin",
+        "Pilih bahan yang tahan korosi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pahami Penyebab Karat dan Korosi",
+          "content": "Karat dan korosi dapat disebabkan oleh beberapa faktor, termasuk <strong>kelembaban</strong>, <strong>oksigen</strong>, dan <strong>garam</strong>. Di musim hujan, kelembaban udara meningkat, sehingga meningkatkan risiko karat dan korosi. <strong>Oksigen</strong> juga dapat mempercepat proses korosi. <br><br>Untuk menghindari karat dan korosi, penting untuk memahami penyebabnya. <strong>Contoh nyata</strong> adalah ketika konstruksi besi rumah Anda terkena air hujan secara langsung, maka risiko karat dan korosi akan meningkat. <br><br>Di daerah seperti <strong>Bekasi</strong>, <strong>Cikarang</strong>, dan <strong>Tambun</strong>, musim hujan dapat berlangsung beberapa bulan, sehingga penting untuk melindungi konstruksi besi rumah Anda.",
+          "imageSearchQuery": "konstruksi besi rumah bekasi",
+          "image": "https://images.unsplash.com/photo-1673835931682-513b185a37e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmVzaSUyMHJ1bWFoJTIwYmVrYXNpfGVufDB8MHx8fDE3ODQ4MDQ1NTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Gunakan Cat Pelindung",
+          "content": "Menggunakan <strong>cat pelindung</strong> dapat membantu melindungi konstruksi besi rumah dari karat dan korosi. <strong> Cat pelindung</strong> dapat mencegah air dan oksigen mengenai permukaan besi, sehingga mengurangi risiko karat dan korosi. <br><br>Pilih <strong>cat pelindung</strong> yang tepat untuk konstruksi besi rumah Anda. <strong>Contoh</strong> adalah cat pelindung yang mengandung <strong>zinc</strong> atau <strong>aluminum</strong>. <br><br>Di <strong>Mandiri Steel</strong>, kami menawarkan berbagai jenis cat pelindung yang dapat membantu melindungi konstruksi besi rumah Anda."
+        },
+        {
+          "heading": "3. Lakukan Perawatan Rutin",
+          "content": "Lakukan <strong>perawatan rutin</strong> untuk memastikan konstruksi besi rumah Anda tetap dalam kondisi baik. <strong>Perawatan rutin</strong> dapat membantu menghindari karat dan korosi. <br><br><strong>Tips</strong> perawatan rutin termasuk: <ul><li>Membersihkan permukaan besi secara teratur</li><li>Menggunakan <strong>minyak</strong> atau <strong>gemuk</strong> untuk melumasi bagian yang bergerak</li><li>Menginspeksi konstruksi besi secara teratur</li></ul><br><br>Di <strong>Mandiri Steel</strong>, kami menawarkan layanan perawatan rutin untuk konstruksi besi rumah Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Pilih Bahan yang Tahan Korosi",
+          "content": "Pilih <strong>bahan</strong> yang tahan korosi untuk konstruksi besi rumah Anda. <strong>Bahan</strong> yang tahan korosi dapat membantu mengurangi risiko karat dan korosi. <br><br><strong>Contoh</strong> bahan yang tahan korosi adalah <strong>stainless steel</strong> atau <strong>aluminum</strong>. <br><br>Di <strong>Mandiri Steel</strong>, kami menawarkan berbagai jenis bahan yang tahan korosi untuk konstruksi besi rumah Anda."
+        },
+        {
+          "heading": "5. Manfaat Menggunakan Jasa Mandiri Steel",
+          "content": "Menggunakan <strong>jasa Mandiri Steel</strong> dapat membantu Anda melindungi konstruksi besi rumah dari karat dan korosi. <strong>Mandiri Steel</strong> memiliki lebih dari 25 tahun pengalaman dalam bidang konstruksi besi, sehingga kami dapat membantu Anda memilih bahan yang tepat dan melakukan perawatan rutin. <br><br><strong>Mandiri Steel</strong> juga menawarkan <strong>garansi struktural</strong> untuk konstruksi besi rumah Anda, sehingga Anda dapat memiliki ketenangan pikiran. <br><br>Di <strong>Mandiri Steel</strong>, kami juga menawarkan layanan <strong>survei gratis</strong> untuk membantu Anda memahami kebutuhan konstruksi besi rumah Anda.",
+          "productId": 2
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki <strong>area layanan</strong> yang luas, termasuk <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br>Di <strong>Mandiri Steel</strong>, kami dapat membantu Anda melindungi konstruksi besi rumah dari karat dan korosi, sehingga Anda dapat memiliki ketenangan pikiran. <br><br>Jika Anda memiliki pertanyaan atau ingin meminta informasi lebih lanjut, silakan <strong>hubungi kami</strong>."
+        }
+      ],
+      "conclusion": "Dalam memelihara konstruksi besi rumah dari karat dan korosi, penting untuk memahami penyebabnya, menggunakan cat pelindung, melakukan perawatan rutin, dan memilih bahan yang tahan korosi. Dengan menggunakan jasa Mandiri Steel, Anda dapat memiliki ketenangan pikiran karena kami memiliki lebih dari 25 tahun pengalaman dalam bidang konstruksi besi. Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau ingin meminta informasi lebih lanjut tentang cara melindungi konstruksi besi rumah Anda dari karat dan korosi."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 46,
     "title": "Panduan Survei Lokasi Sebelum Pasang Kanopi",
     "slug": "panduan-survei-lokasi-sebelum-pasang-kanopi",
