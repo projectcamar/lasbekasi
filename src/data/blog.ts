@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 52,
+    "title": "Pagar Besi Tempa Klasik vs Pagar Minimalis",
+    "slug": "pagar-besi-tempa-klasik-vs-pagar-minimalis",
+    "excerpt": "Pilih pagar yang tepat untuk rumah Anda di Bekasi",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-24",
+    "image": "https://images.unsplash.com/photo-1619322704995-5215d5f47a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpcm9uJTIwZmVuY2UlMjBkZXNpZ258ZW58MHwwfHx8MTc4NDg5MDgxMHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Memilih pagar yang tepat untuk rumah Anda di Bekasi bisa menjadi keputusan yang sulit. Dengan banyaknya pilihan yang tersedia, Anda mungkin bingung antara <strong>pagar besi tempa klasik</strong> dan <strong>pagar minimalis</strong>. Keduanya memiliki kelebihan dan kekurangan masing-masing, dan dalam artikel ini, kita akan membahas lebih lanjut tentang perbedaan antara keduanya. <strong>Pagar besi tempa klasik</strong> dikenal dengan keindahan dan kekuatannya, sementara <strong>pagar minimalis</strong> lebih dikenal dengan kesederhanaannya dan kemudahan perawatannya.",
+      "keyPoints": [
+        "Pagar besi tempa klasik memiliki keindahan dan kekuatan yang unik",
+        "Pagar minimalis lebih mudah dirawat dan memiliki harga yang lebih terjangkau",
+        "Pemilihan pagar yang tepat bergantung pada selera dan kebutuhan Anda"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Pagar Besi Tempa Klasik",
+          "content": "Pagar besi tempa klasik memiliki keindahan yang unik dan kekuatan yang kuat. <strong>Besi tempa</strong> yang digunakan dalam pembuatan pagar ini memiliki kualitas yang tinggi dan dapat bertahan lama. Selain itu, pagar besi tempa klasik juga dapat dibentuk menjadi berbagai macam desain yang indah dan unik, sehingga dapat menambah keindahan rumah Anda. <br><br> Namun, perlu diingat bahwa pagar besi tempa klasik memiliki harga yang lebih mahal dibandingkan dengan pagar minimalis. Selain itu, perawatan pagar besi tempa klasik juga lebih sulit dan memerlukan biaya yang lebih besar. <br><br> Contoh nyata dari kelebihan pagar besi tempa klasik dapat dilihat di rumah-rumah mewah di kawasan <strong>Kota Deltamas</strong> atau <strong>Summarecon Bekasi</strong>. Di sana, Anda dapat melihat pagar besi tempa klasik yang indah dan kuat, yang menambah keindahan rumah-rumah tersebut.",
+          "imageSearchQuery": "iron fence design",
+          "image": "https://images.unsplash.com/photo-1619322704995-5215d5f47a75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpcm9uJTIwZmVuY2UlMjBkZXNpZ258ZW58MHwwfHx8MTc4NDg5MDgxMHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Kelebihan Pagar Minimalis",
+          "content": "Pagar minimalis memiliki kelebihan dalam hal kemudahan perawatan dan harga yang lebih terjangkau. <strong>Pagar minimalis</strong> yang terbuat dari bahan-bahan seperti <strong>alumunium</strong> atau <strong>stainless steel</strong> memiliki kualitas yang baik dan dapat bertahan lama. Selain itu, pagar minimalis juga memiliki desain yang sederhana dan elegan, sehingga dapat menambah keindahan rumah Anda. <br><br> Namun, perlu diingat bahwa pagar minimalis memiliki kekuatan yang lebih rendah dibandingkan dengan pagar besi tempa klasik. Selain itu, pagar minimalis juga memiliki keterbatasan dalam hal desain, sehingga tidak dapat dibentuk menjadi berbagai macam bentuk yang unik. <br><br> Contoh nyata dari kelebihan pagar minimalis dapat dilihat di rumah-rumah di kawasan <strong>Cikarang</strong> atau <strong>Tambun</strong>. Di sana, Anda dapat melihat pagar minimalis yang sederhana dan elegan, yang menambah keindahan rumah-rumah tersebut."
+        },
+        {
+          "heading": "Tips Memilih Pagar yang Tepat",
+          "content": "Dalam memilih pagar yang tepat untuk rumah Anda, ada beberapa hal yang perlu dipertimbangkan. Pertama, Anda perlu mempertimbangkan <strong>selera</strong> dan <strong>kebutuhan</strong> Anda. Jika Anda ingin memiliki pagar yang indah dan unik, maka pagar besi tempa klasik mungkin lebih cocok untuk Anda. Namun, jika Anda ingin memiliki pagar yang sederhana dan mudah dirawat, maka pagar minimalis mungkin lebih cocok untuk Anda. <br><br> Kedua, Anda perlu mempertimbangkan <strong>harga</strong> dan <strong>biaya perawatan</strong>. Jika Anda memiliki budget yang terbatas, maka pagar minimalis mungkin lebih cocok untuk Anda. Namun, jika Anda memiliki budget yang lebih besar, maka pagar besi tempa klasik mungkin lebih cocok untuk Anda. <br><br> Berikut beberapa tips yang dapat Anda gunakan dalam memilih pagar yang tepat: <ul><li>Pertimbangkan selera dan kebutuhan Anda</li><li>Pertimbangkan harga dan biaya perawatan</li><li>Pertimbangkan kualitas dan kekuatan pagar</li><li>Pertimbangkan desain dan keindahan pagar</li></ul>",
+          "productId": 3
+        },
+        {
+          "heading": "Pengalaman Mandiri Steel dalam Pembuatan Pagar",
+          "content": "Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam pembuatan pagar besi tempa klasik dan pagar minimalis. Kami memiliki tim yang berpengalaman dan terampil dalam pembuatan pagar, sehingga dapat memastikan bahwa pagar yang Anda pesan memiliki kualitas yang tinggi dan dapat bertahan lama. <br><br> Selain itu, kami juga menggunakan bahan-bahan yang berkualitas tinggi dan telah memenuhi standar SNI, sehingga dapat memastikan bahwa pagar yang Anda pesan memiliki kekuatan dan keamanan yang tinggi. <br><br> Kami juga menawarkan <strong>jaminan struktural</strong> untuk semua pagar yang kami buat, sehingga Anda dapat memiliki ketenangan pikiran bahwa pagar Anda akan tetap aman dan kuat selama bertahun-tahun.",
+          "productId": 4
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel sebagai Mitra Anda",
+          "content": "Mandiri Steel memiliki beberapa kelebihan yang membuat kami menjadi mitra yang tepat untuk Anda. Pertama, kami memiliki pengalaman yang luas dalam pembuatan pagar besi tempa klasik dan pagar minimalis. Kedua, kami memiliki tim yang berpengalaman dan terampil dalam pembuatan pagar. Ketiga, kami menggunakan bahan-bahan yang berkualitas tinggi dan telah memenuhi standar SNI. <br><br> Selain itu, kami juga menawarkan <strong> survei lapangan gratis</strong> untuk semua pelanggan, sehingga Anda dapat memiliki ketenangan pikiran bahwa pagar yang Anda pesan akan sesuai dengan kebutuhan Anda. <br><br> Berikut beberapa alasan mengapa Anda harus memilih Mandiri Steel sebagai mitra Anda: <ul><li>Pengalaman yang luas dalam pembuatan pagar</li><li>Tim yang berpengalaman dan terampil</li><li>Bahan-bahan yang berkualitas tinggi</li><li>Survei lapangan gratis</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "Layanan Mandiri Steel di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel memiliki layanan yang luas di Bekasi dan Jabodetabek, sehingga Anda dapat memiliki akses yang mudah untuk mendapatkan pagar yang Anda butuhkan. Kami memiliki <strong>cabang di Cikarang</strong> dan <strong>cabang di Tambun</strong>, sehingga Anda dapat memiliki pilihan yang lebih banyak dalam memilih pagar yang sesuai dengan kebutuhan Anda. <br><br> Selain itu, kami juga memiliki <strong>layanan pengiriman</strong> yang cepat dan efisien, sehingga Anda dapat memiliki pagar yang Anda pesan dalam waktu yang singkat. <br><br> Berikut beberapa daerah yang kami layani: <ul><li>Bekasi</li><li>Cikarang</li><li>Tambun</li><li>Cibitung</li><li>Jababeka</li><li>MM2100</li><li>Grand Wisata</li><li>Summarecon Bekasi</li><li>Kota Deltamas</li><li>Lippo Cikarang</li></ul>",
+          "productId": 2
+        }
+      ],
+      "conclusion": "Dalam memilih pagar yang tepat untuk rumah Anda di Bekasi, Anda perlu mempertimbangkan beberapa hal, seperti selera, kebutuhan, harga, dan biaya perawatan. Dengan memilih Mandiri Steel sebagai mitra Anda, Anda dapat memiliki pagar yang berkualitas tinggi dan dapat bertahan lama. Jangan ragu untuk menghubungi kami untuk mendapatkan informasi lebih lanjut tentang pagar besi tempa klasik dan pagar minimalis."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 53,
+    "title": "Railing Tangga Kabel Baja",
+    "slug": "railing-tangga-kabel-baja",
+    "excerpt": "Railing tangga kabel baja, tren industrial modern untuk rumah Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-24",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Rumah di Bekasi yang memiliki desain modern dan industrial semakin diminati oleh masyarakat. Salah satu elemen yang dapat meningkatkan estetika dan keamanan rumah adalah <strong>railing tangga kabel baja</strong>. Dalam beberapa tahun terakhir, <strong>railing tangga kabel baja</strong> telah menjadi tren di kalangan arsitek dan desainer interior. Dalam artikel ini, kita akan membahas lebih lanjut tentang <strong>railing tangga kabel baja</strong> dan bagaimana ia dapat meningkatkan keamanan dan estetika rumah Anda.",
+      "keyPoints": [
+        "Railing tangga kabel baja meningkatkan keamanan",
+        "Railing tangga kabel baja memiliki desain modern dan industrial",
+        "Railing tangga kabel baja dapat dipasang di berbagai jenis tangga"
+      ],
+      "sections": [
+        {
+          "heading": "1. Apa itu Railing Tangga Kabel Baja?",
+          "content": "Railing tangga kabel baja adalah jenis railing yang menggunakan kabel baja sebagai komponen utama. <strong>Kabel baja</strong> ini dipasang secara horizontal atau vertikal di sepanjang tangga, sehingga menciptakan efek estetika yang modern dan industrial. Railing tangga kabel baja dapat dipasang di berbagai jenis tangga, mulai dari tangga lurus hingga tangga spiral. <br> <strong>Kelebihan</strong> dari railing tangga kabel baja adalah bahwa ia dapat meningkatkan keamanan dan estetika rumah Anda. Dengan menggunakan <strong>kabel baja</strong>, railing tangga kabel baja dapat menahan beban yang berat dan tahan lama. <br> Contoh nyata dari railing tangga kabel baja dapat dilihat di rumah-rumah modern di Bekasi, seperti di kawasan <strong>Grand Wisata</strong> atau <strong>Summarecon Bekasi</strong>.",
+          "imageSearchQuery": "cable railing staircase modern",
+          "image": "https://images.unsplash.com/photo-1647644883895-1915dfe56c0b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjYWJsZSUyMHJhaWxpbmclMjBzdGFpcmNhc2UlMjBtb2Rlcm58ZW58MHwwfHx8MTc4NDg5MDg4M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Kelebihan Railing Tangga Kabel Baja",
+          "content": "Railing tangga kabel baja memiliki beberapa <strong>kelebihan</strong> yang membuatnya menjadi pilihan populer di kalangan arsitek dan desainer interior. <strong>Kelebihan</strong> pertama adalah bahwa railing tangga kabel baja dapat meningkatkan keamanan rumah Anda. Dengan menggunakan <strong>kabel baja</strong>, railing tangga kabel baja dapat menahan beban yang berat dan tahan lama. <br> <strong>Kelebihan</strong> kedua adalah bahwa railing tangga kabel baja memiliki desain modern dan industrial. Railing tangga kabel baja dapat dipasang di berbagai jenis tangga, mulai dari tangga lurus hingga tangga spiral. <br> Contoh nyata dari railing tangga kabel baja dapat dilihat di rumah-rumah modern di Bekasi, seperti di kawasan <strong>Kota Deltamas</strong> atau <strong>Lippo Cikarang</strong>.",
+          "productId": 6
+        },
+        {
+          "heading": "3. Tips Memilih Railing Tangga Kabel Baja",
+          "content": "Memilih railing tangga kabel baja yang tepat dapat menjadi tantangan. Berikut beberapa <strong>tips</strong> yang dapat membantu Anda memilih railing tangga kabel baja yang tepat: <ul> <li>Pilih railing tangga kabel baja yang terbuat dari bahan berkualitas</li> <li>Pertimbangkan ukuran dan bentuk tangga Anda</li> <li>Pilih desain yang sesuai dengan gaya rumah Anda</li> </ul> <br> Dengan mempertimbangkan <strong>tips</strong> di atas, Anda dapat memilih railing tangga kabel baja yang tepat untuk rumah Anda.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Cara Memasang Railing Tangga Kabel Baja",
+          "content": "Memasang railing tangga kabel baja dapat menjadi proses yang rumit. Berikut beberapa <strong>langkah</strong> yang dapat membantu Anda memasang railing tangga kabel baja: <ul> <li>Persiapkan bahan dan alat yang dibutuhkan</li> <li>Ukur dan tandai lokasi pemasangan</li> <li>Pasang kabel baja dan komponen lainnya</li> </ul> <br> Dengan mempertimbangkan <strong>langkah</strong> di atas, Anda dapat memasang railing tangga kabel baja dengan benar."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah perusahaan yang berpengalaman dalam produksi dan pemasangan railing tangga kabel baja. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah menjadi salah satu perusahaan terkemuka di bidang ini. <br> <strong>Kelebihan</strong> dari Mandiri Steel adalah bahwa perusahaan ini menggunakan bahan berkualitas dan memiliki tim yang berpengalaman. Mandiri Steel juga menawarkan <strong>garansi struktural</strong> yang dapat memberikan ketenangan pikiran bagi pelanggan. <br> Contoh nyata dari kelebihan Mandiri Steel dapat dilihat di rumah-rumah modern di Bekasi, seperti di kawasan <strong>Grand Wisata</strong> atau <strong>Summarecon Bekasi</strong>.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan pemasangan railing tangga kabel baja di berbagai wilayah di Bekasi dan sekitarnya. Area layanan Mandiri Steel meliputi: <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> Dengan area layanan yang luas, Mandiri Steel dapat membantu Anda memasang railing tangga kabel baja di rumah Anda dengan mudah."
+        }
+      ],
+      "conclusion": "Railing tangga kabel baja adalah pilihan yang tepat untuk rumah modern di Bekasi. Dengan kelebihan yang banyak dan desain yang modern, railing tangga kabel baja dapat meningkatkan keamanan dan estetika rumah Anda. Jika Anda ingin memasang railing tangga kabel baja di rumah Anda, hubungi Mandiri Steel sekarang juga untuk mendapatkan layanan yang berkualitas dan harga yang kompetitif."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 54,
+    "title": "Bengkel Las Terdekat Grand Wisata",
+    "slug": "bengkel-las-terdekat-grand-wisata-tambun",
+    "excerpt": "Mandiri Steel: Bengkel las terdekat dari Grand Wisata Tambun, menyediakan layanan kanopi, pagar, dan teralis berkualitas.",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-24",
+    "image": "https://images.unsplash.com/photo-1610625601863-ea1504fbe7d8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwbW9kZXJufGVufDB8MHx8fDE3ODQ4OTA5NTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Jika Anda sedang mencari <strong>bengkel las terdekat</strong> dari Grand Wisata Tambun untuk memenuhi kebutuhan akan <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong>, Anda telah berada di tempat yang tepat. Mandiri Steel, sebagai salah satu <strong>bengkel las</strong> terpercaya di Bekasi, hadir untuk memberikan solusi terbaik bagi Anda. Dengan pengalaman lebih dari 25 tahun dan komitmen terhadap kualitas, kami siap membantu Anda mewujudkan proyek <strong>konstruksi baja</strong> impian Anda.",
+      "keyPoints": [
+        "Layanan kanopi, pagar, dan teralis berkualitas",
+        "Bengkel las terdekat dari Grand Wisata Tambun",
+        "Pengalaman lebih dari 25 tahun"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Bengkel Las Mandiri Steel",
+          "content": "Mandiri Steel adalah <strong>bengkel las</strong> yang terletak di Setu, Bekasi, dan telah menjadi salah satu pilihan utama bagi masyarakat di sekitar <strong>Grand Wisata Tambun</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, dan <strong>Cibitung</strong> untuk kebutuhan <strong>konstruksi baja</strong>. Dengan <strong>pengalaman lebih dari 25 tahun</strong> dalam industri, kami telah membangun reputasi yang kuat berdasarkan kualitas, kepercayaan, dan pelayanan yang prima. <br><br> Kami menggunakan <strong>bahan-bahan SNI</strong> untuk memastikan bahwa setiap produk yang kami hasilkan tidak hanya memenuhi standar kualitas nasional, tetapi juga memberikan <strong>keamanan dan ketahanan</strong> yang maksimal. Dari <strong>kanopi</strong> yang melindungi rumah Anda dari panas dan hujan, hingga <strong>pagar</strong> yang menjaga keamanan lingkungan, setiap detail kami perhatikan dengan serius.",
+          "imageSearchQuery": "bengkel las bekasi"
+        },
+        {
+          "heading": "2. Layanan Kanopi, Pagar, dan Teralis",
+          "content": "Mandiri Steel menawarkan berbagai layanan untuk memenuhi kebutuhan <strong>konstruksi baja</strong> Anda, termasuk <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong>. <strong>Kanopi</strong> kami dirancang untuk memberikan <strong>perlindungan</strong> dari elemen-elemen alam, sementara <strong>pagar</strong> kami dibuat untuk meningkatkan <strong>keamanan</strong> dan <strong>estetika</strong> properti Anda. <br><br> <strong>Teralis</strong> yang kami buat tidak hanya berfungsi sebagai <strong>pengaman jendela</strong>, tetapi juga sebagai elemen dekoratif yang menambah <strong>keindahan</strong> rumah Anda. Dengan <strong>desain yang variatif</strong> dan <strong>kualitas bahan</strong> yang unggul, kami yakin dapat memenuhi kebutuhan dan preferensi Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Tips Memilih Kanopi yang Tepat",
+          "content": "<ul><li>Pertimbangkan <strong>ukuran dan bentuk</strong> kanopi sesuai dengan kebutuhan dan desain rumah Anda.</li><li>Pilih <strong>bahan</strong> yang tahan lama dan kuat, seperti <strong>baja ringan</strong> atau <strong>aluminum</strong>.</li><li>Perhatikan <strong>desain dan warna</strong> kanopi agar sesuai dengan <strong>estetika</strong> rumah Anda.</li></ul> <br><br> Dengan mempertimbangkan faktor-faktor tersebut, Anda dapat memilih <strong>kanopi</strong> yang tidak hanya fungsional tetapi juga menambah <strong>keindahan</strong> rumah Anda. Mandiri Steel siap membantu Anda dalam memilih dan menginstal <strong>kanopi</strong> yang tepat.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel bukan hanya <strong>bengkel las</strong> biasa; kami adalah <strong>mitra</strong> yang dapat diandalkan untuk semua kebutuhan <strong>konstruksi baja</strong> Anda. Dengan <strong>pengalaman lebih dari 25 tahun</strong>, kami telah membangun <strong>reputasi</strong> yang kuat berdasarkan <strong>kualitas</strong>, <strong>kepercayaan</strong>, dan <strong>pelayanan</strong> yang prima. <br><br> Kami menawarkan <strong>survei on-site gratis</strong> untuk memastikan bahwa setiap proyek kami kerjakan sesuai dengan kebutuhan dan kondisi lapangan. Selain itu, kami juga memberikan <strong>garansi struktural</strong> untuk memastikan bahwa produk kami bertahan lama dan memberikan <strong>keamanan</strong> maksimal.",
+          "productId": 5
+        },
+        {
+          "heading": "5. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel melayani berbagai wilayah di sekitar <strong>Bekasi</strong>, termasuk <strong>Grand Wisata Tambun</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br> Dengan <strong>lokasi strategis</strong> dan <strong>tim yang profesional</strong>, kami dapat menjangkau dan melayani kebutuhan <strong>konstruksi baja</strong> Anda dengan cepat dan efisien. Tidak percaya? <strong>Hubungi kami</strong> sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan dan produk kami.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Kesimpulan",
+          "content": "Mandiri Steel adalah <strong>bengkel las terdekat</strong> dari Grand Wisata Tambun yang dapat Anda percaya untuk semua kebutuhan <strong>konstruksi baja</strong>, termasuk <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong>. Dengan <strong>pengalaman lebih dari 25 tahun</strong>, <strong>kualitas bahan SNI</strong>, dan <strong>pelayanan yang prima</strong>, kami siap membantu Anda mewujudkan proyek impian Anda. <br><br> Jangan ragu untuk <strong>menghubungi kami</strong> sekarang juga untuk mendapatkan informasi lebih lanjut dan memulai proyek Anda dengan <strong>Mandiri Steel</strong>."
+        }
+      ],
+      "conclusion": "Mandiri Steel siap menjadi mitra Anda dalam mewujudkan proyek konstruksi baja impian Anda. Dengan pengalaman lebih dari 25 tahun dan komitmen terhadap kualitas, kami percaya dapat memberikan solusi terbaik bagi kebutuhan Anda. Hubungi kami sekarang juga untuk memulai proyek Anda dengan Mandiri Steel."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 49,
     "title": "Teralis Jendela dengan Emergency Exit",
     "slug": "teralis-jendela-dengan-emergency-exit",
