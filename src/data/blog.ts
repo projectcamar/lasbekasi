@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 55,
+    "title": "Pagar Panel Besi Hollow Murah dan Kokoh",
+    "slug": "pagar-panel-besi-hollow-murah-dan-kokoh",
+    "excerpt": "Pagar panel besi hollow untuk rumah subsidi di Cikarang, bekasi, murah tapi tetap kokoh dan aman",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-25",
+    "image": "https://images.unsplash.com/photo-1743657405622-556b6be5deef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGJlc2klMjBob2xsb3d8ZW58MHwwfHx8MTc4NDk3NzIwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Pagar panel besi hollow</strong> telah menjadi pilihan populer bagi banyak pemilik rumah di Cikarang dan sekitarnya. Hal ini karena <strong>pagar besi hollow</strong> menawarkan kombinasi unik dari kekuatan, keamanan, dan harga yang terjangkau. Dalam artikel ini, kita akan membahas lebih lanjut tentang <strong>kelebihan pagar panel besi hollow</strong> dan bagaimana Anda dapat memilih yang terbaik untuk rumah subsidi Anda di Cikarang.",
+      "keyPoints": [
+        "Pagar panel besi hollow murah dan kokoh",
+        "Besi hollow tahan karat dan rayap",
+        "Pagar besi hollow mudah dipasang dan dirawat"
+      ],
+      "sections": [
+        {
+          "heading": "Apa itu Pagar Panel Besi Hollow?",
+          "content": "<strong>Pagar panel besi hollow</strong> adalah jenis pagar yang terbuat dari besi hollow, yaitu pipa besi yang berongga di dalamnya. <strong>Besi hollow</strong> ini memiliki kekuatan yang tinggi dan tahan karat, sehingga sangat cocok digunakan sebagai bahan pagar. Pagar panel besi hollow juga memiliki desain yang sederhana dan elegan, sehingga dapat meningkatkan nilai estetika rumah Anda. <br><br> Selain itu, <strong>pagar besi hollow</strong> juga memiliki beberapa kelebihan lain, seperti tahan rayap dan tidak mudah terbakar. Hal ini membuat <strong>pagar besi hollow</strong> menjadi pilihan yang sangat populer bagi banyak pemilik rumah di Cikarang dan sekitarnya.",
+          "imageSearchQuery": "pagar besi hollow cikarang"
+        },
+        {
+          "heading": "Kelebihan Pagar Panel Besi Hollow",
+          "content": "<strong>Pagar panel besi hollow</strong> memiliki beberapa kelebihan yang membuatnya menjadi pilihan yang sangat populer. Berikut adalah beberapa kelebihan <strong>pagar besi hollow</strong>: <br><br> <ul><li>Tahan karat dan rayap</li><li>Kokoh dan kuat</li><li>Mudah dipasang dan dirawat</li><li>Harga yang terjangkau</li></ul><br><br> Dengan kelebihan-kelebihan tersebut, <strong>pagar besi hollow</strong> menjadi pilihan yang sangat tepat bagi Anda yang ingin memiliki pagar yang kuat, aman, dan tidak mudah rusak.",
+          "productId": 3
+        },
+        {
+          "heading": "Tips Memilih Pagar Panel Besi Hollow",
+          "content": "<blockquote>Memilih pagar panel besi hollow yang tepat dapat menjadi tugas yang cukup sulit, terutama jika Anda belum pernah membeli pagar sebelumnya. Berikut adalah beberapa tips yang dapat membantu Anda memilih <strong>pagar besi hollow</strong> yang tepat: <br><br> <ul><li>Periksa kualitas bahan</li><li>Periksa desain dan ukuran</li><li>Periksa harga dan garansi</li></ul><br><br> Dengan memperhatikan tips-tips tersebut, Anda dapat memilih <strong>pagar besi hollow</strong> yang sesuai dengan kebutuhan dan budget Anda.</blockquote>",
+          "productId": 3
+        },
+        {
+          "heading": "Cara Merawat Pagar Panel Besi Hollow",
+          "content": "<strong>Pagar besi hollow</strong> memerlukan perawatan yang rutin untuk menjaga kekuatan dan keamanannya. Berikut adalah beberapa cara merawat <strong>pagar besi hollow</strong>: <br><br> <ul><li>Bersihkan pagar secara teratur</li><li>Periksa pagar secara teratur</li><li>Cat pagar jika perlu</li></ul><br><br> Dengan merawat <strong>pagar besi hollow</strong> secara rutin, Anda dapat menjaga kekuatan dan keamanannya, serta membuatnya tetap terlihat baru dan elegan."
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "<strong>Mandiri Steel</strong> telah berpengalaman lebih dari 25 tahun dalam produksi dan pemasangan pagar panel besi hollow. Kami menggunakan bahan-bahan yang berkualitas tinggi dan memiliki tim yang profesional dan berpengalaman. <br><br> Kami juga menawarkan garansi yang komprehensif dan pelayanan purna jual yang sangat baik. Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat yakin bahwa Anda akan mendapatkan pagar panel besi hollow yang berkualitas tinggi dan tahan lama.",
+          "productId": 3
+        },
+        {
+          "heading": "Lokasi Pelayanan Mandiri Steel",
+          "content": "<strong>Mandiri Steel</strong> melayani wilayah Cikarang, Bekasi, dan sekitarnya. Kami juga melayani wilayah Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <br><br> Dengan lokasi pelayanan yang luas, Anda dapat dengan mudah menghubungi kami untuk memesan pagar panel besi hollow yang sesuai dengan kebutuhan Anda."
+        }
+      ],
+      "conclusion": "<strong>Pagar panel besi hollow</strong> adalah pilihan yang sangat tepat bagi Anda yang ingin memiliki pagar yang kuat, aman, dan tidak mudah rusak. Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat yakin bahwa Anda akan mendapatkan pagar panel besi hollow yang berkualitas tinggi dan tahan lama. Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau ingin memesan pagar panel besi hollow yang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 56,
+    "title": "Teralis Pintu Kasa Nyamuk Stainless",
+    "slug": "teralis-pintu-kasa-nyamuk-stainless",
+    "excerpt": "Teralis pintu kasa nyamuk stainless solusi keamanan dan kesehatan untuk rumah di Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-25",
+    "image": "https://images.unsplash.com/photo-1753155212517-a7036c488d75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwcGludHUlMjBrYXNhJTIwbnlhbXVrJTIwc3RhaW5sZXNzfGVufDB8MHx8fDE3ODQ5NzcyODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pada saat ini, <strong>keamanan</strong> dan <strong>kesehatan</strong> merupakan dua hal yang sangat penting untuk diperhatikan dalam membangun sebuah rumah. Salah satu cara untuk meningkatkan keamanan dan kesehatan di rumah adalah dengan menggunakan <strong>teralis pintu kasa nyamuk stainless</strong>. Teralis ini tidak hanya berfungsi sebagai pengaman tetapi juga dapat mencegah masuknya nyamuk dan serangga lainnya ke dalam rumah. Dalam artikel ini, kita akan membahas lebih lanjut tentang <strong>teralis pintu kasa nyamuk stainless</strong> dan bagaimana ia dapat menjadi solusi keamanan plus kesehatan untuk rumah di Bekasi.",
+      "keyPoints": [
+        "Teralis pintu kasa nyamuk stainless sebagai solusi keamanan",
+        "Teralis pintu kasa nyamuk stainless sebagai solusi kesehatan",
+        "Kelebihan teralis pintu kasa nyamuk stainless"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Teralis pintu kasa nyamuk stainless adalah sebuah sistem keamanan yang terdiri dari <strong>kasa nyamuk</strong> yang dipasang pada <strong>pintu</strong> atau <strong>jendela</strong> rumah. Kasa nyamuk ini berfungsi untuk mencegah masuknya nyamuk dan serangga lainnya ke dalam rumah, sehingga dapat mengurangi resiko penyakit yang ditularkan oleh nyamuk. Selain itu, teralis pintu kasa nyamuk stainless juga dapat meningkatkan keamanan rumah dengan mencegah masuknya orang tidak diinginkan. <br> Dalam memilih teralis pintu kasa nyamuk stainless, ada beberapa hal yang perlu diperhatikan, seperti <strong>bahan</strong>, <strong>ukuran</strong>, dan <strong>desain</strong>. Bahan yang digunakan harus kuat dan tahan lama, seperti <strong>stainless steel</strong>. Ukuran teralis harus disesuaikan dengan ukuran pintu atau jendela, dan desain harus sesuai dengan desain rumah.",
+          "imageSearchQuery": "teralis pintu kasa nyamuk stainless bekasi"
+        },
+        {
+          "heading": "2. Kelebihan Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Teralis pintu kasa nyamuk stainless memiliki beberapa kelebihan, seperti <strong>kuat</strong> dan <strong>tahan lama</strong>. Bahan stainless steel yang digunakan membuat teralis ini dapat bertahan dalam kondisi cuaca yang ekstrem. Selain itu, teralis pintu kasa nyamuk stainless juga <strong>mudah dibersihkan</strong> dan <strong>dirawat</strong>. <br> Kelebihan lainnya adalah teralis pintu kasa nyamuk stainless dapat <strong>meningkatkan nilai estetika</strong> rumah. Dengan desain yang modern dan elegan, teralis ini dapat menjadi sebuah elemen dekorasi yang menarik. <ul> <li> Kuat dan tahan lama </li> <li> Mudah dibersihkan dan dirawat </li> <li> Meningkatkan nilai estetika </li> </ul>",
+          "productId": 5
+        },
+        {
+          "heading": "3. Tips Memilih Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Dalam memilih teralis pintu kasa nyamuk stainless, ada beberapa tips yang perlu diperhatikan. Pertama, <strong>perhatikan bahan</strong> yang digunakan. Pastikan bahan yang digunakan adalah <strong>stainless steel</strong> yang kuat dan tahan lama. Kedua, <strong>perhatikan ukuran</strong> teralis. Pastikan ukuran teralis sesuai dengan ukuran pintu atau jendela. Ketiga, <strong>perhatikan desain</strong> teralis. Pastikan desain teralis sesuai dengan desain rumah. <br> Selain itu, juga perlu <strong>memperhatikan harga</strong> teralis. Pastikan harga teralis sesuai dengan budget yang dimiliki. <ul> <li> Perhatikan bahan </li> <li> Perhatikan ukuran </li> <li> Perhatikan desain </li> <li> Perhatikan harga </li> </ul>",
+          "productId": 5
+        },
+        {
+          "heading": "4. Cara Merawat Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Merawat teralis pintu kasa nyamuk stainless sangat penting untuk dilakukan. Dengan perawatan yang tepat, teralis dapat bertahan lebih lama dan tetap dalam kondisi yang baik. <br> Cara merawat teralis pintu kasa nyamuk stainless adalah dengan <strong>membersihkan</strong> teralis secara teratur. Gunakan <strong>air</strong> dan <strong>sabun</strong> untuk membersihkan teralis. Selain itu, juga perlu <strong>memeriksa</strong> teralis secara teratur. Periksa apakah ada <strong>kerusakan</strong> atau <strong>korosi</strong> pada teralis. <br> Jika ditemukan kerusakan atau korosi, segera <strong>perbaiki</strong> atau <strong>ganti</strong> teralis. Dengan demikian, teralis dapat tetap dalam kondisi yang baik dan berfungsi dengan optimal."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Mandiri Steel adalah salah satu <strong>penyedia teralis pintu kasa nyamuk stainless</strong> yang terpercaya di Bekasi. Dengan <strong>pengalaman</strong> lebih dari 25 tahun, Mandiri Steel telah menjadi salah satu <strong>penyedia teralis</strong> yang paling dipercaya di Indonesia. <br> Mandiri Steel menggunakan <strong>bahan-bahan</strong> yang berkualitas tinggi dan <strong>teknologi</strong> yang canggih untuk memproduksi teralis pintu kasa nyamuk stainless. Selain itu, Mandiri Steel juga <strong>menawarkan garansi</strong> untuk semua produknya. <br> Dengan demikian, Anda dapat <strong>mempercayakan</strong> kebutuhan teralis pintu kasa nyamuk stainless Anda kepada Mandiri Steel.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Layanan dan Area Penjualan Mandiri Steel",
+          "content": "Mandiri Steel memiliki <strong>layanan</strong> yang sangat baik dan <strong>area penjualan</strong> yang luas. Mandiri Steel memiliki <strong>kantor</strong> di Bekasi dan <strong>cabang</strong> di beberapa kota lainnya di Indonesia. <br> Dengan demikian, Anda dapat dengan mudah <strong>menghubungi</strong> Mandiri Steel dan <strong>memesan</strong> teralis pintu kasa nyamuk stainless yang Anda butuhkan. <br> Selain itu, Mandiri Steel juga <strong>menawarkan layanan pengiriman</strong> yang cepat dan <strong>tepat</strong>. Dengan demikian, Anda dapat <strong>menerima</strong> teralis pintu kasa nyamuk stainless yang Anda pesan dengan cepat dan tepat."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, teralis pintu kasa nyamuk stainless adalah salah satu <strong>solusi keamanan</strong> dan <strong>kesehatan</strong> yang sangat baik untuk rumah di Bekasi. Dengan <strong>kelebihan</strong> yang dimiliki, teralis pintu kasa nyamuk stainless dapat menjadi <strong>pilihan</strong> yang tepat untuk Anda. <br> Jika Anda membutuhkan teralis pintu kasa nyamuk stainless, Anda dapat <strong>menghubungi</strong> Mandiri Steel. Dengan <strong>pengalaman</strong> dan <strong>keahlian</strong> yang dimiliki, Mandiri Steel dapat <strong>memenuhi</strong> kebutuhan Anda dengan baik."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 57,
+    "title": "Besi SNI vs Non-SNI",
+    "slug": "besi-sni-vs-non-sni-perbedaan-kualitas",
+    "excerpt": "Perbedaan kualitas besi SNI dan non-SNI yang harus diketahui konsumen",
+    "category": "Quality Control",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-25",
+    "image": "https://images.unsplash.com/photo-1697698532634-ea59b636ccea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMHF1YWxpdHklMjBjb21wYXJpc29ufGVufDB8MHx8fDE3ODQ5NzczNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam dunia konstruksi, <strong>kualitas material</strong> merupakan faktor yang sangat penting untuk dipertimbangkan. Salah satu material yang paling umum digunakan dalam konstruksi adalah <strong>besi</strong>. Namun, ada dua jenis besi yang beredar di pasar, yaitu <strong>besi SNI</strong> dan <strong>besi non-SNI</strong>. Pada artikel ini, kita akan membahas perbedaan kualitas antara kedua jenis besi tersebut dan mengapa <strong>besi SNI</strong> merupakan pilihan yang lebih baik.",
+      "keyPoints": [
+        "Perbedaan kualitas antara besi SNI dan non-SNI",
+        "Kelebihan besi SNI",
+        "Tips memilih besi SNI yang berkualitas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Besi SNI dan Non-SNI",
+          "content": "Besi SNI adalah besi yang memenuhi standar nasional Indonesia (SNI) yang ditetapkan oleh pemerintah. <strong>Standar SNI</strong> ini mencakup spesifikasi teknis, seperti komposisi kimia, kekuatan, dan ketahanan korosi. Sementara itu, besi non-SNI adalah besi yang tidak memenuhi standar SNI. <br><br>Contohnya, <strong>besi SNI</strong> memiliki komposisi kimia yang lebih terkontrol, sehingga lebih tahan korosi dan memiliki kekuatan yang lebih tinggi. Di sisi lain, <strong>besi non-SNI</strong> dapat memiliki komposisi kimia yang tidak terkontrol, sehingga lebih rentan terhadap korosi dan memiliki kekuatan yang lebih rendah.",
+          "imageSearchQuery": "steel composition comparison",
+          "image": "https://images.unsplash.com/photo-1697698532602-ccf880036281?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGNvbXBvc2l0aW9uJTIwY29tcGFyaXNvbnxlbnwwfDB8fHwxNzg0OTc3MzU1fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Perbedaan Kualitas antara Besi SNI dan Non-SNI",
+          "content": "Perbedaan kualitas antara besi SNI dan non-SNI dapat dilihat dari beberapa aspek, seperti <strong>kekuatan</strong>, <strong>ketahanan korosi</strong>, dan <strong>kestabilan dimensi</strong>. <strong>Besi SNI</strong> memiliki kekuatan yang lebih tinggi dan lebih tahan korosi dibandingkan dengan <strong>besi non-SNI</strong>. Selain itu, <strong>besi SNI</strong> juga memiliki kestabilan dimensi yang lebih baik, sehingga lebih tidak mudah berubah bentuk atau ukuran. <br><br>Contohnya, jika Anda menggunakan <strong>besi non-SNI</strong> untuk konstruksi bangunan, maka bangunan tersebut lebih rentan terhadap kerusakan akibat korosi atau kekuatan yang tidak cukup. Di sisi lain, jika Anda menggunakan <strong>besi SNI</strong>, maka bangunan tersebut lebih tahan lama dan lebih aman."
+        },
+        {
+          "heading": "3. Kelebihan Besi SNI",
+          "content": "Besi SNI memiliki beberapa kelebihan dibandingkan dengan besi non-SNI. <strong>Kelebihan</strong> tersebut antara lain: <ul><li><strong>Tahan lama</strong>: Besi SNI lebih tahan lama dan lebih tidak mudah rusak dibandingkan dengan besi non-SNI.</li><li><strong>Lebih aman</strong>: Besi SNI lebih aman digunakan karena memiliki kekuatan yang lebih tinggi dan lebih tahan korosi.</li><li><strong>Lebih efisien</strong>: Besi SNI lebih efisien digunakan karena memiliki kestabilan dimensi yang lebih baik, sehingga lebih tidak mudah berubah bentuk atau ukuran.</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "4. Tips Memilih Besi SNI yang Berkualitas",
+          "content": "Untuk memilih besi SNI yang berkualitas, Anda perlu memperhatikan beberapa hal, seperti <strong>sertifikat SNI</strong>, <strong>kualitas bahan</strong>, dan <strong>harga</strong>. <strong>Sertifikat SNI</strong> merupakan bukti bahwa besi tersebut memenuhi standar SNI. <strong>Kualitas bahan</strong> juga perlu diperhatikan, karena besi SNI yang berkualitas memiliki komposisi kimia yang lebih terkontrol dan kekuatan yang lebih tinggi. <br><br>Contohnya, jika Anda ingin membeli besi SNI untuk konstruksi bangunan, maka Anda perlu memperhatikan sertifikat SNI, kualitas bahan, dan harga. Anda juga perlu memastikan bahwa besi tersebut memenuhi standar SNI dan memiliki kualitas yang baik."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu penyedia besi SNI yang terpercaya di Indonesia. <strong>Mandiri Steel</strong> memiliki lebih dari 25 tahun pengalaman dalam menyediakan besi SNI yang berkualitas. <strong>Mandiri Steel</strong> juga memiliki tim yang berpengalaman dan terlatih untuk memastikan bahwa besi SNI yang disediakan memenuhi standar SNI. <br><br>Contohnya, <strong>Mandiri Steel</strong> memiliki <strong>produk Kanopi Minimalis Alderon (Kanopi - Best Seller)</strong> yang terbuat dari besi SNI yang berkualitas. <strong>Produk</strong> ini memiliki kekuatan yang lebih tinggi dan lebih tahan korosi dibandingkan dengan produk lainnya.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan beberapa layanan yang dapat membantu Anda dalam memilih besi SNI yang berkualitas. <strong>Layanan</strong> tersebut antara lain: <ul><li><strong>Free on-site survey</strong>: Mandiri Steel menawarkan layanan free on-site survey untuk memastikan bahwa besi SNI yang disediakan memenuhi standar SNI.</li><li><strong>Structural warranty</strong>: Mandiri Steel menawarkan structural warranty untuk memastikan bahwa besi SNI yang disediakan memiliki kekuatan yang lebih tinggi dan lebih tahan korosi.</li><li><strong>Heavy-duty SNI materials</strong>: Mandiri Steel menawarkan heavy-duty SNI materials yang memiliki kekuatan yang lebih tinggi dan lebih tahan korosi.</li></ul>"
+        },
+        {
+          "heading": "7. Kesimpulan",
+          "content": "Dalam kesimpulan, besi SNI merupakan pilihan yang lebih baik dibandingkan dengan besi non-SNI. <strong>Besi SNI</strong> memiliki kekuatan yang lebih tinggi, lebih tahan korosi, dan lebih stabil dimensi. <strong>Mandiri Steel</strong> merupakan salah satu penyedia besi SNI yang terpercaya di Indonesia, dengan lebih dari 25 tahun pengalaman dalam menyediakan besi SNI yang berkualitas. <br><br>Contohnya, jika Anda ingin membeli besi SNI untuk konstruksi bangunan, maka Anda perlu memperhatikan sertifikat SNI, kualitas bahan, dan harga. Anda juga perlu memastikan bahwa besi tersebut memenuhi standar SNI dan memiliki kualitas yang baik. <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih besi SNI yang berkualitas dan memenuhi standar SNI."
+        }
+      ],
+      "conclusion": "Jika Anda membutuhkan besi SNI yang berkualitas untuk konstruksi bangunan, maka <strong>Mandiri Steel</strong> merupakan pilihan yang tepat. Dengan lebih dari 25 tahun pengalaman dalam menyediakan besi SNI yang berkualitas, <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih besi SNI yang memenuhi standar SNI dan memiliki kualitas yang baik. Silakan hubungi <strong>Mandiri Steel</strong> untuk mendapatkan informasi lebih lanjut tentang besi SNI dan layanan yang ditawarkan."
+    },
+    "tags": [
+      "Quality Control",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 52,
     "title": "Pagar Besi Tempa Klasik vs Pagar Minimalis",
     "slug": "pagar-besi-tempa-klasik-vs-pagar-minimalis",
