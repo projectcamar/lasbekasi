@@ -33,6 +33,189 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 58,
+    "title": "Konstruksi Baja WF untuk Gudang dan Pabrik",
+    "slug": "konstruksi-baja-wf-untuk-gudang-dan-pabrik",
+    "excerpt": "Mandiri Steel, spesialis konstruksi baja WF untuk gudang dan pabrik di Jababeka Cikarang",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-26",
+    "image": "https://images.unsplash.com/photo-1643546580722-31ade89aa6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMHdmJTIwZ3VkYW5nfGVufDB8MHx8fDE3ODUwNjM2NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, <strong>konstruksi baja WF</strong> telah menjadi pilihan utama untuk pembangunan gudang dan pabrik di kawasan industri Jababeka Cikarang. <strong>Mandiri Steel</strong>, sebagai salah satu perusahaan konstruksi baja terkemuka di Indonesia, telah berhasil mengerjakan banyak proyek konstruksi baja WF untuk gudang dan pabrik di wilayah ini. Dalam artikel ini, kita akan membahas tentang <strong>kelebihan konstruksi baja WF</strong> dan <strong>bagaimana Mandiri Steel</strong> dapat membantu Anda dalam membangun gudang dan pabrik yang kuat dan efisien.",
+      "keyPoints": [
+        "Konstruksi baja WF lebih kuat dan tahan lama",
+        "Konstruksi baja WF lebih efisien dan hemat biaya",
+        "Mandiri Steel memiliki pengalaman 25+ tahun dalam konstruksi baja WF"
+      ],
+      "sections": [
+        {
+          "heading": "1. Kelebihan Konstruksi Baja WF",
+          "content": "Konstruksi baja WF memiliki beberapa <strong>kelebihan</strong> yang membuatnya menjadi pilihan utama untuk pembangunan gudang dan pabrik. <strong>Kelebihan</strong> tersebut antara lain: <br> - <strong>Kuat dan tahan lama</strong>: Konstruksi baja WF dapat menahan beban yang berat dan tahan terhadap cuaca ekstrem. <br> - <strong>Efisien dan hemat biaya</strong>: Konstruksi baja WF dapat dibangun dengan cepat dan biaya yang relatif rendah. <br> - <strong>Fleksibel dan dapat disesuaikan</strong>: Konstruksi baja WF dapat disesuaikan dengan kebutuhan dan desain yang diinginkan. <br> Dengan <strong>kelebihan</strong> tersebut, konstruksi baja WF menjadi pilihan yang tepat untuk pembangunan gudang dan pabrik di kawasan industri Jababeka Cikarang.",
+          "imageSearchQuery": "konstruksi baja wf kelebihan",
+          "image": "https://images.unsplash.com/photo-1552666135-049975564f65?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMHdmJTIwa2VsZWJpaGFufGVufDB8MHx8fDE3ODUwNjM2NDN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tips dalam Memilih Konstruksi Baja WF",
+          "content": "Dalam memilih konstruksi baja WF, ada beberapa <strong>tips</strong> yang perlu diperhatikan. Berikut adalah beberapa <strong>tips</strong> tersebut: <br> - <strong>Pilih konstruksi baja WF yang sesuai dengan kebutuhan</strong>: Pastikan Anda memilih konstruksi baja WF yang sesuai dengan kebutuhan dan desain yang diinginkan. <br> - <strong>Perhatikan kualitas bahan</strong>: Pastikan Anda memilih konstruksi baja WF yang menggunakan bahan yang berkualitas tinggi. <br> - <strong>Perhatikan biaya</strong>: Pastikan Anda memilih konstruksi baja WF yang sesuai dengan budget yang Anda miliki. <br> Dengan <strong>tips</strong> tersebut, Anda dapat memilih konstruksi baja WF yang tepat untuk pembangunan gudang dan pabrik di kawasan industri Jababeka Cikarang."
+        },
+        {
+          "heading": "3. Pengalaman Mandiri Steel dalam Konstruksi Baja WF",
+          "content": "Mandiri Steel telah memiliki <strong>pengalaman 25+ tahun</strong> dalam konstruksi baja WF untuk gudang dan pabrik di kawasan industri Jababeka Cikarang. Dengan <strong>pengalaman</strong> tersebut, Mandiri Steel dapat membantu Anda dalam membangun gudang dan pabrik yang kuat dan efisien. <br> Mandiri Steel juga menggunakan <strong>bahan yang berkualitas tinggi</strong> dan <strong>teknologi canggih</strong> untuk memastikan bahwa konstruksi baja WF yang dibangun adalah yang terbaik. <br> Dengan <strong>pengalaman</strong> dan <strong>kemampuan</strong> tersebut, Mandiri Steel menjadi pilihan yang tepat untuk konstruksi baja WF di kawasan industri Jababeka Cikarang.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Manfaat Konstruksi Baja WF untuk Gudang dan Pabrik",
+          "content": "Konstruksi baja WF memiliki beberapa <strong>manfaat</strong> untuk gudang dan pabrik di kawasan industri Jababeka Cikarang. <strong>Manfaat</strong> tersebut antara lain: <br> - <strong>Meningkatkan efisiensi</strong>: Konstruksi baja WF dapat membantu meningkatkan efisiensi dalam operasional gudang dan pabrik. <br> - <strong>Mengurangi biaya</strong>: Konstruksi baja WF dapat membantu mengurangi biaya operasional gudang dan pabrik. <br> - <strong>Meningkatkan keamanan</strong>: Konstruksi baja WF dapat membantu meningkatkan keamanan gudang dan pabrik. <br> Dengan <strong>manfaat</strong> tersebut, konstruksi baja WF menjadi pilihan yang tepat untuk gudang dan pabrik di kawasan industri Jababeka Cikarang."
+        },
+        {
+          "heading": "5. Layanan Konstruksi Baja WF Mandiri Steel",
+          "content": "Mandiri Steel menawarkan <strong>layanan konstruksi baja WF</strong> yang lengkap dan profesional untuk gudang dan pabrik di kawasan industri Jababeka Cikarang. <strong>Layanan</strong> tersebut antara lain: <br> - <strong>Perancangan</strong>: Mandiri Steel dapat membantu Anda dalam merancang konstruksi baja WF yang sesuai dengan kebutuhan dan desain yang diinginkan. <br> - <strong>Pembangunan</strong>: Mandiri Steel dapat membantu Anda dalam membangun konstruksi baja WF yang kuat dan efisien. <br> - <strong>Pemeliharaan</strong>: Mandiri Steel dapat membantu Anda dalam melakukan pemeliharaan konstruksi baja WF untuk memastikan bahwa gudang dan pabrik Anda tetap aman dan efisien. <br> Dengan <strong>layanan</strong> tersebut, Mandiri Steel menjadi pilihan yang tepat untuk konstruksi baja WF di kawasan industri Jababeka Cikarang.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Wilayah Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki <strong>wilayah layanan</strong> yang luas dan mencakup beberapa kawasan industri di Indonesia, termasuk Jababeka Cikarang, Bekasi, Tambun, Cibitung, dan lain-lain. <br> Dengan <strong>wilayah layanan</strong> yang luas, Mandiri Steel dapat membantu Anda dalam membangun gudang dan pabrik yang kuat dan efisien di mana saja Anda berada. <br> Beberapa <strong>kawasan industri</strong> yang dilayani oleh Mandiri Steel antara lain: <br> - <strong>Jababeka Cikarang</strong>: Kawasan industri terbesar di Indonesia yang terletak di Cikarang, Jawa Barat. <br> - <strong>Bekasi</strong>: Kawasan industri yang terletak di Bekasi, Jawa Barat. <br> - <strong>Tambun</strong>: Kawasan industri yang terletak di Tambun, Jawa Barat. <br> Dengan <strong>wilayah layanan</strong> yang luas, Mandiri Steel menjadi pilihan yang tepat untuk konstruksi baja WF di Indonesia."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, konstruksi baja WF adalah pilihan yang tepat untuk gudang dan pabrik di kawasan industri Jababeka Cikarang. Dengan <strong>kelebihan</strong> yang dimiliki oleh konstruksi baja WF, Anda dapat membangun gudang dan pabrik yang kuat dan efisien. <br> Mandiri Steel, sebagai salah satu perusahaan konstruksi baja terkemuka di Indonesia, dapat membantu Anda dalam membangun gudang dan pabrik yang kuat dan efisien. <br> Jangan ragu untuk menghubungi Mandiri Steel jika Anda membutuhkan <strong>layanan konstruksi baja WF</strong> yang lengkap dan profesional."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 59,
+    "title": "Tips Anti Karat Pagar Besi",
+    "slug": "tips-anti-karat-pagar-besi",
+    "excerpt": "Lindungi pagar besi dari karat di daerah pantai dengan tips anti karat yang efektif",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-26",
+    "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGJlc2klMjBhbnRpJTIwa2FyYXR8ZW58MHwwfHx8MTc4NTA2MzcxN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar besi adalah salah satu pilihan yang populer untuk melindungi rumah dan properti. Namun, di daerah dekat pantai seperti Muara Gembong Bekasi, pagar besi dapat dengan mudah terkena karat akibat udara laut yang korosif. <strong>Karat</strong> dapat merusak pagar besi dan membuatnya tidak berfungsi dengan baik. Oleh karena itu, penting untuk memiliki <strong>tips anti karat</strong> yang efektif untuk melindungi pagar besi di daerah dekat pantai.",
+      "keyPoints": [
+        "Menggunakan cat anti karat",
+        "Membersihkan pagar besi secara teratur",
+        "Menggunakan bahan anti karat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Karat dan Dampaknya",
+          "content": "Karat adalah proses korosi yang terjadi pada logam besi atau baja akibat reaksi dengan oksigen dan kelembaban. Karat dapat menyebabkan pagar besi menjadi rapuh, berlubang, dan tidak berfungsi dengan baik. <strong>Dampak karat</strong> dapat sangat signifikan, terutama di daerah dekat pantai seperti Muara Gembong Bekasi, di mana udara laut yang korosif dapat mempercepat proses karat. <br><br>Untuk menghindari dampak karat, penting untuk memiliki <strong>tips anti karat</strong> yang efektif. Salah satu cara untuk mencegah karat adalah dengan menggunakan <strong>cat anti karat</strong>. Cat anti karat dapat membantu melindungi pagar besi dari korosi dan memperpanjang umur pagar.",
+          "imageSearchQuery": "karat pada pagar besi"
+        },
+        {
+          "heading": "2. Tips Anti Karat untuk Pagar Besi",
+          "content": "Berikut adalah beberapa <strong>tips anti karat</strong> yang dapat Anda gunakan untuk melindungi pagar besi di daerah dekat pantai: <ul><li>Menggunakan cat anti karat</li><li>Membersihkan pagar besi secara teratur</li><li>Menggunakan bahan anti karat</li><li>Menghindari kontak dengan tanah atau air</li></ul> <br><br> Selain itu, Anda juga dapat menggunakan <strong>bahan anti karat</strong> seperti stainless steel atau galvanis untuk membuat pagar besi. Bahan-bahan ini dapat membantu melindungi pagar besi dari korosi dan memperpanjang umur pagar."
+        },
+        {
+          "heading": "3. Menggunakan Cat Anti Karat",
+          "content": "Menggunakan cat anti karat adalah salah satu cara yang paling efektif untuk melindungi pagar besi dari karat. <strong>Cat anti karat</strong> dapat membantu melindungi pagar besi dari korosi dan memperpanjang umur pagar. <br><br>Ada beberapa jenis cat anti karat yang tersedia di pasaran, termasuk cat epoxy, cat polyurethane, dan cat acrylic. <strong>Cat epoxy</strong> adalah salah satu jenis cat anti karat yang paling populer, karena memiliki ketahanan yang tinggi terhadap korosi dan dapat membantu melindungi pagar besi selama bertahun-tahun.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Membersihkan Pagar Besi Secara Teratur",
+          "content": "Membersihkan pagar besi secara teratur adalah salah satu cara yang paling efektif untuk mencegah karat. <strong>Membersihkan pagar besi</strong> dapat membantu menghilangkan kotoran dan debu yang dapat menyebabkan karat. <br><br> Anda dapat membersihkan pagar besi dengan menggunakan <strong>air dan sabun</strong>, atau dengan menggunakan <strong>produk pembersih khusus</strong>. Pastikan untuk membersihkan pagar besi secara teratur, terutama di daerah dekat pantai seperti Muara Gembong Bekasi, di mana udara laut yang korosif dapat mempercepat proses karat."
+        },
+        {
+          "heading": "5. Menggunakan Bahan Anti Karat",
+          "content": "Menggunakan bahan anti karat adalah salah satu cara yang paling efektif untuk melindungi pagar besi dari karat. <strong>Bahan anti karat</strong> seperti stainless steel atau galvanis dapat membantu melindungi pagar besi dari korosi dan memperpanjang umur pagar. <br><br> <strong>Stainless steel</strong> adalah salah satu jenis bahan anti karat yang paling populer, karena memiliki ketahanan yang tinggi terhadap korosi dan dapat membantu melindungi pagar besi selama bertahun-tahun. <strong>Galvanis</strong> juga adalah salah satu jenis bahan anti karat yang populer, karena memiliki ketahanan yang tinggi terhadap korosi dan dapat membantu melindungi pagar besi selama bertahun-tahun.",
+          "productId": 4
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang paling berpengalaman dalam bidang pagar besi dan konstruksi baja. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membantu ribuan pelanggan di daerah Bekasi dan sekitarnya. <br><br> Mandiri Steel menggunakan <strong>bahan SNI</strong> yang berkualitas tinggi untuk memastikan bahwa pagar besi yang dibuat dapat bertahan lama dan tahan terhadap korosi. Selain itu, Mandiri Steel juga menawarkan <strong>garansi struktural</strong> yang dapat membantu pelanggan merasa aman dan nyaman dengan pagar besi yang dibuat."
+        }
+      ],
+      "conclusion": "Dengan menggunakan tips anti karat yang efektif, Anda dapat melindungi pagar besi dari karat dan memperpanjang umur pagar. <strong>Mandiri Steel</strong> adalah salah satu perusahaan yang paling berpengalaman dalam bidang pagar besi dan konstruksi baja, dan dapat membantu Anda membuat pagar besi yang kuat dan tahan lama. Jangan ragu untuk menghubungi Mandiri Steel untuk informasi lebih lanjut tentang pagar besi dan konstruksi baja."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 60,
+    "title": "Tips Hemat Biaya Renovasi Pagar Dan Kanopi",
+    "slug": "tips-hemat-biaya-renovasi-pagar-dan-kanopi",
+    "excerpt": "Dapatkan tips hemat biaya renovasi pagar dan kanopi tanpa mengorbankan kualitas dari Mandiri Steel, Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-26",
+    "image": "https://images.unsplash.com/photo-1696332865227-904a004c9c0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyZW5vdmFzaSUyMHBhZ2FyJTIwZGFuJTIwa2Fub3BpfGVufDB8MHx8fDE3ODUwNjM3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Renovasi pagar dan kanopi merupakan salah satu cara untuk meningkatkan keamanan dan estetika rumah. Namun, biaya renovasi yang tinggi seringkali menjadi hambatan bagi banyak orang. <strong>Mandiri Steel</strong> hadir untuk membantu Anda mendapatkan tips hemat biaya renovasi pagar dan kanopi tanpa mengorbankan kualitas. Dalam artikel ini, kita akan membahas beberapa tips yang dapat membantu Anda menghemat biaya renovasi pagar dan kanopi.",
+      "keyPoints": [
+        "Menggunakan bahan-bahan yang tepat",
+        "Merencanakan desain yang efektif",
+        "Menggunakan jasa kontraktor yang berpengalaman"
+      ],
+      "sections": [
+        {
+          "heading": "1. Menggunakan Bahan-Bahan yang Tepat",
+          "content": "Salah satu cara untuk menghemat biaya renovasi pagar dan kanopi adalah dengan menggunakan bahan-bahan yang tepat. <strong>Baja</strong> dan <strong>besi</strong> adalah dua jenis bahan yang paling umum digunakan untuk membuat pagar dan kanopi. Namun, perlu diingat bahwa kualitas bahan-bahan tersebut sangat berpengaruh pada kekuatan dan ketahanan pagar dan kanopi. <br> <br> Mandiri Steel menawarkan berbagai jenis bahan-bahan yang berkualitas tinggi, seperti <strong>Kanopi Minimalis Alderon</strong> (produk ID: 1) dan <strong>Pagar Minimalis Modern</strong> (produk ID: 3). Dengan menggunakan bahan-bahan yang tepat, Anda dapat menghemat biaya renovasi dan memastikan bahwa pagar dan kanopi Anda kuat dan tahan lama.",
+          "imageSearchQuery": "baja dan besi untuk pagar dan kanopi",
+          "image": "https://images.unsplash.com/photo-1779604162112-3fe2fb4af196?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiYWphJTIwZGFuJTIwYmVzaSUyMHVudHVrJTIwcGFnYXIlMjBkYW4lMjBrYW5vcGl8ZW58MHwwfHx8MTc4NTA2Mzc4OXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Merencanakan Desain yang Efektif",
+          "content": "Merencanakan desain yang efektif juga sangat penting untuk menghemat biaya renovasi pagar dan kanopi. Dengan desain yang tepat, Anda dapat meminimalkan penggunaan bahan-bahan dan menghemat biaya. <br> <br> Mandiri Steel memiliki tim desain yang berpengalaman dan dapat membantu Anda merencanakan desain pagar dan kanopi yang sesuai dengan kebutuhan dan budget Anda. Dengan menggunakan <strong>perangkat lunak desain</strong> yang canggih, kita dapat membuat desain yang akurat dan efektif.",
+          "productId": null
+        },
+        {
+          "heading": "3. Menggunakan Jasa Kontraktor yang Berpengalaman",
+          "content": "Menggunakan jasa kontraktor yang berpengalaman juga sangat penting untuk menghemat biaya renovasi pagar dan kanopi. Kontraktor yang berpengalaman dapat membantu Anda menghemat biaya dengan melakukan pekerjaan yang efisien dan efektif. <br> <br> Mandiri Steel memiliki tim kontraktor yang berpengalaman dan dapat membantu Anda melakukan renovasi pagar dan kanopi dengan cepat dan efisien. Dengan menggunakan jasa kontraktor yang berpengalaman, Anda dapat menghemat biaya dan memastikan bahwa pekerjaan renovasi Anda selesai dengan baik.",
+          "productId": null
+        },
+        {
+          "heading": "4. Memilih Waktu yang Tepat untuk Renovasi",
+          "content": "Memilih waktu yang tepat untuk renovasi juga sangat penting untuk menghemat biaya. Renovasi yang dilakukan pada musim hujan dapat menyebabkan biaya yang lebih tinggi karena pekerjaan yang lebih sulit dan memerlukan peralatan yang lebih banyak. <br> <br> Mandiri Steel dapat membantu Anda memilih waktu yang tepat untuk renovasi pagar dan kanopi. Dengan melakukan renovasi pada musim kemarau, Anda dapat menghemat biaya dan memastikan bahwa pekerjaan renovasi Anda selesai dengan baik.",
+          "productId": null
+        },
+        {
+          "heading": "5. Menggunakan Produk yang Tepat",
+          "content": "Menggunakan produk yang tepat juga sangat penting untuk menghemat biaya renovasi pagar dan kanopi. <strong>Pagar Minimalis Modern</strong> (produk ID: 3) dan <strong>Kanopi Minimalis Alderon</strong> (produk ID: 1) adalah dua jenis produk yang paling umum digunakan untuk membuat pagar dan kanopi. <br> <br> Mandiri Steel menawarkan berbagai jenis produk yang berkualitas tinggi dan dapat membantu Anda menghemat biaya renovasi. Dengan menggunakan produk yang tepat, Anda dapat memastikan bahwa pagar dan kanopi Anda kuat dan tahan lama.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam bidang konstruksi baja dan telah menjadi salah satu perusahaan terkemuka di Indonesia. Dengan menggunakan <strong>bahan-bahan yang berkualitas tinggi</strong> dan <strong>teknologi canggih</strong>, kita dapat memastikan bahwa pekerjaan renovasi Anda selesai dengan baik. <br> <br> Mandiri Steel juga menawarkan <strong>garansi struktural</strong> yang dapat membantu Anda merasa aman dan nyaman dengan pekerjaan renovasi Anda. Dengan memilih Mandiri Steel, Anda dapat memastikan bahwa pagar dan kanopi Anda kuat dan tahan lama.",
+          "productId": null
+        },
+        {
+          "heading": "7. Layanan yang Ditawarkan",
+          "content": "Mandiri Steel menawarkan berbagai jenis layanan yang dapat membantu Anda dalam melakukan renovasi pagar dan kanopi. Dari <strong>desain</strong> hingga <strong>konstruksi</strong>, kita dapat membantu Anda melakukan pekerjaan renovasi dengan cepat dan efisien. <br> <br> Mandiri Steel juga memiliki tim yang berpengalaman dan dapat membantu Anda dalam melakukan <strong>survei lapangan</strong> dan <strong>perencanaan</strong> yang akurat. Dengan menggunakan layanan yang ditawarkan oleh Mandiri Steel, Anda dapat memastikan bahwa pekerjaan renovasi Anda selesai dengan baik.",
+          "productId": null
+        },
+        {
+          "heading": "8. Area Layanan",
+          "content": "Mandiri Steel memiliki area layanan yang luas dan dapat membantu Anda dalam melakukan renovasi pagar dan kanopi di berbagai daerah, termasuk <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> <br> Dengan menggunakan layanan yang ditawarkan oleh Mandiri Steel, Anda dapat memastikan bahwa pekerjaan renovasi Anda selesai dengan baik dan sesuai dengan kebutuhan Anda.",
+          "productId": null
+        }
+      ],
+      "conclusion": "Dengan mengikuti tips yang telah disebutkan di atas, Anda dapat menghemat biaya renovasi pagar dan kanopi tanpa mengorbankan kualitas. Mandiri Steel dapat membantu Anda dalam melakukan renovasi pagar dan kanopi dengan cepat dan efisien. Jangan ragu untuk menghubungi kami jika Anda memerlukan bantuan atau informasi lebih lanjut tentang layanan yang kami tawarkan."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 55,
     "title": "Pagar Panel Besi Hollow Murah dan Kokoh",
     "slug": "pagar-panel-besi-hollow-murah-dan-kokoh",
