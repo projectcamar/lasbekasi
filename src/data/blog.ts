@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 61,
+    "title": "Keamanan Rumah Kosong Saat Mudik",
+    "slug": "tips-keamanan-rumah-kosong-saat-mudik",
+    "excerpt": "Tips keamanan rumah kosong saat mudik: peran teralis, CCTV, dan pagar di Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-27",
+    "image": "https://images.unsplash.com/photo-1714621488914-a245a8089213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxydW1haCUyMGtvc29uZyUyMGRlbmdhbiUyMHRlcmFsaXMlMjBkYW4lMjBwYWdhcnxlbnwwfDB8fHwxNzg1MTUwMDA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Saat <strong>mudik</strong>, kita sering meninggalkan rumah dalam keadaan kosong. Namun, hal ini dapat meningkatkan risiko <strong>keamanan rumah</strong> karena tidak ada yang menjaganya. Oleh karena itu, penting untuk mempersiapkan rumah sebelum mudik dengan memasang <strong>teralis</strong>, <strong>CCTV</strong>, dan <strong>pagar</strong> yang kuat. Di <strong>Bekasi</strong>, kita dapat menemukan banyak jasa keamanan rumah yang menyediakan layanan ini.",
+      "keyPoints": [
+        "Teralis sebagai penghalang masuk",
+        "CCTV untuk memantau keamanan",
+        "Pagar sebagai batas wilayah"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pentingnya Keamanan Rumah Saat Mudik",
+          "content": "Saat mudik, kita sering meninggalkan rumah dalam keadaan kosong. Namun, hal ini dapat meningkatkan risiko keamanan rumah karena tidak ada yang menjaganya. Oleh karena itu, penting untuk mempersiapkan rumah sebelum mudik dengan memasang teralis, CCTV, dan pagar yang kuat. Di Bekasi, kita dapat menemukan banyak jasa keamanan rumah yang menyediakan layanan ini. <br> <strong>Teralis</strong> dapat berfungsi sebagai penghalang masuk bagi para pencuri. <strong>CCTV</strong> dapat memantau keamanan rumah secara online. <strong>Pagar</strong> dapat berfungsi sebagai batas wilayah yang jelas.",
+          "imageSearchQuery": "rumah dengan teralis dan pagar",
+          "image": "https://images.unsplash.com/photo-1714621488914-a245a8089213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxydW1haCUyMGRlbmdhbiUyMHRlcmFsaXMlMjBkYW4lMjBwYWdhcnxlbnwwfDB8fHwxNzg1MTUwMDA5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Teralis untuk Keamanan Rumah",
+          "content": "Teralis dapat berfungsi sebagai penghalang masuk bagi para pencuri. Dengan memasang teralis, kita dapat meningkatkan keamanan rumah karena teralis dapat menghalangi akses ke jendela dan pintu. Di Bekasi, kita dapat menemukan banyak jasa pembuatan teralis yang menyediakan layanan ini. <br> Selain itu, teralis juga dapat berfungsi sebagai dekorasi rumah. Dengan memilih desain teralis yang sesuai, kita dapat meningkatkan estetika rumah. <strong>Produk Teralis Jendela Minimalis</strong> (ID: 5) dapat menjadi pilihan yang tepat untuk meningkatkan keamanan dan estetika rumah.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Tips Memilih CCTV untuk Keamanan Rumah",
+          "content": "CCTV dapat memantau keamanan rumah secara online. Dengan memasang CCTV, kita dapat meningkatkan keamanan rumah karena CCTV dapat mendeteksi kejadian yang tidak diinginkan. Di Bekasi, kita dapat menemukan banyak jasa pemasangan CCTV yang menyediakan layanan ini. <br> Saat memilih CCTV, kita harus mempertimbangkan beberapa faktor seperti resolusi kamera, jarak pandang, dan kemampuan merekam. <strong>CCTV dengan resolusi tinggi</strong> dapat memberikan gambar yang jelas dan dapat membantu kita mendeteksi kejadian yang tidak diinginkan.",
+          "productId": 0
+        },
+        {
+          "heading": "4. Manfaat Pagar untuk Keamanan Rumah",
+          "content": "Pagar dapat berfungsi sebagai batas wilayah yang jelas. Dengan memasang pagar, kita dapat meningkatkan keamanan rumah karena pagar dapat menghalangi akses ke rumah. Di Bekasi, kita dapat menemukan banyak jasa pembuatan pagar yang menyediakan layanan ini. <br> Selain itu, pagar juga dapat berfungsi sebagai dekorasi rumah. Dengan memilih desain pagar yang sesuai, kita dapat meningkatkan estetika rumah. <strong>Produk Pagar Minimalis Modern</strong> (ID: 3) dapat menjadi pilihan yang tepat untuk meningkatkan keamanan dan estetika rumah.",
+          "productId": 3
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Keamanan Rumah",
+          "content": "Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam bidang keamanan rumah. Dengan menggunakan bahan-bahan yang kuat dan tahan lama, Mandiri Steel dapat memberikan solusi keamanan rumah yang efektif. <br> Selain itu, Mandiri Steel juga menyediakan layanan survey gratis dan garansi struktural. Dengan demikian, kita dapat merasa aman dan nyaman saat meninggalkan rumah kosong. <strong>Produk Pagar Besi Tempa Klasik</strong> (ID: 4) dapat menjadi pilihan yang tepat untuk meningkatkan keamanan dan estetika rumah.",
+          "productId": 4
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel menyediakan layanan keamanan rumah di banyak area di Bekasi, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan demikian, kita dapat merasa aman dan nyaman saat meninggalkan rumah kosong. <br> Mandiri Steel juga menyediakan layanan pemasangan teralis, CCTV, dan pagar yang kuat dan tahan lama. Dengan menggunakan layanan Mandiri Steel, kita dapat meningkatkan keamanan rumah dan merasa aman saat mudik.",
+          "productId": 0
+        }
+      ],
+      "conclusion": "Dengan mempersiapkan rumah sebelum mudik dengan memasang teralis, CCTV, dan pagar yang kuat, kita dapat meningkatkan keamanan rumah dan merasa aman saat mudik. Mandiri Steel dapat menjadi pilihan yang tepat untuk meningkatkan keamanan rumah dengan menggunakan bahan-bahan yang kuat dan tahan lama. Hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan keamanan rumah di Bekasi."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 62,
+    "title": "Pagar Kombinasi Batu Alam Dan Besi Tempa",
+    "slug": "desain-pagar-kombinasi-batu-alam-dan-besi-tempa",
+    "excerpt": "Desain pagar kombinasi batu alam dan besi tempa untuk rumah di Kemang Pratama Bekasi",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-27",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Pagar kombinasi batu alam dan besi tempa merupakan salah satu desain pagar yang paling populer di kalangan masyarakat Indonesia, terutama di daerah Bekasi. <strong>Pagar ini</strong> menawarkan keamanan dan keindahan yang tak tertandingi. Dengan <strong>perpaduan batu alam</strong> dan <strong>besi tempa</strong>, pagar ini dapat meningkatkan nilai estetika rumah Anda. Pada artikel ini, kita akan membahas tentang desain pagar kombinasi batu alam dan besi tempa, serta tips dan trik untuk memilih dan memasang pagar yang tepat untuk rumah Anda di Kemang Pratama Bekasi.",
+      "keyPoints": [
+        "Pagar kombinasi batu alam dan besi tempa menawarkan keamanan dan keindahan",
+        "Perpaduan batu alam dan besi tempa dapat meningkatkan nilai estetika rumah",
+        "Pagar ini dapat dipasang di rumah dengan gaya modern atau tradisional"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Pagar Kombinasi Batu Alam Dan Besi Tempa",
+          "content": "Pagar kombinasi batu alam dan besi tempa memiliki beberapa kelebihan yang membuatnya menjadi pilihan yang populer di kalangan masyarakat Indonesia. <strong>Keamanan</strong> adalah salah satu kelebihan utama dari pagar ini, karena <strong>batu alam</strong> dan <strong>besi tempa</strong> dapat memberikan perlindungan yang kuat dan tahan lama. Selain itu, pagar ini juga dapat <strong>meningkatkan nilai estetika</strong> rumah, karena perpaduan batu alam dan besi tempa dapat menciptakan desain yang unik dan menarik. <br><br>Beberapa contoh kelebihan lain dari pagar kombinasi batu alam dan besi tempa adalah: <ul><li>Tahan lama dan kuat</li><li>Memiliki desain yang unik dan menarik</li><li>Dapat meningkatkan nilai estetika rumah</li></ul>",
+          "imageSearchQuery": "Pagar kombinasi batu alam dan besi tempa di Bekasi"
+        },
+        {
+          "heading": "Tips Memilih Pagar Kombinasi Batu Alam Dan Besi Tempa",
+          "content": "Memilih pagar kombinasi batu alam dan besi tempa yang tepat untuk rumah Anda dapat menjadi tugas yang sulit, terutama jika Anda belum pernah membeli pagar sebelumnya. <strong>Berikut beberapa tips</strong> yang dapat membantu Anda memilih pagar yang tepat: <ul><li>Pilih pagar yang sesuai dengan gaya rumah Anda</li><li>Perhatikan kualitas bahan yang digunakan</li><li>Pertimbangkan biaya pemasangan dan perawatan</li></ul> <br><br> Selain itu, Anda juga harus mempertimbangkan <strong>lokasi</strong> rumah Anda, karena pagar kombinasi batu alam dan besi tempa dapat dipengaruhi oleh lingkungan sekitar. Misalnya, jika rumah Anda terletak di daerah yang rawan banjir, maka Anda harus memilih pagar yang tahan air dan dapat mengatasi masalah tersebut.",
+          "productId": 4
+        },
+        {
+          "heading": "Cara Memasang Pagar Kombinasi Batu Alam Dan Besi Tempa",
+          "content": "Memasang pagar kombinasi batu alam dan besi tempa memerlukan <strong>perencanaan</strong> dan <strong>persiapan</strong> yang matang. Berikut beberapa langkah yang dapat Anda ikuti untuk memasang pagar yang tepat: <ul><li>Tentukan lokasi pemasangan pagar</li><li>Siapkan bahan-bahan yang diperlukan</li><li>Pasang pagar dengan hati-hati dan teliti</li></ul> <br><br> Selain itu, Anda juga harus mempertimbangkan <strong>biaya</strong> pemasangan pagar, karena biaya ini dapat bervariasi tergantung pada <strong>jenis pagar</strong> dan <strong>ukuran</strong> yang dipilih. Pastikan Anda untuk memilih <strong>kontraktor</strong> yang berpengalaman dan terpercaya untuk memasang pagar Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel Untuk Pagar Kombinasi Batu Alam Dan Besi Tempa",
+          "content": "Mandiri Steel merupakan salah satu <strong>penyedia jasa</strong> pagar kombinasi batu alam dan besi tempa yang terpercaya di Bekasi. Dengan <strong>pengalaman</strong> lebih dari 25 tahun, Mandiri Steel telah membantu banyak pelanggan untuk memilih dan memasang pagar yang tepat untuk rumah mereka. <br><br> Beberapa kelebihan dari Mandiri Steel adalah: <ul><li>Pengalaman lebih dari 25 tahun</li><li>Menyediakan bahan-bahan yang berkualitas</li><li>Menawarkan harga yang kompetitif</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "Layanan Pagar Kombinasi Batu Alam Dan Besi Tempa Di Bekasi",
+          "content": "Mandiri Steel menyediakan <strong>layanan</strong> pagar kombinasi batu alam dan besi tempa di Bekasi, termasuk <strong>pemasangan</strong> dan <strong>perawatan</strong>. Dengan <strong>tim</strong> yang berpengalaman dan <strong>peralatan</strong> yang canggih, Mandiri Steel dapat membantu Anda untuk memilih dan memasang pagar yang tepat untuk rumah Anda. <br><br> Beberapa daerah yang dilayani oleh Mandiri Steel di Bekasi adalah: <ul><li>Kemang Pratama</li><li>Cikarang</li><li>Tambun</li><li>Cibitung</li></ul>",
+          "productId": 2
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Pagar kombinasi batu alam dan besi tempa merupakan salah satu pilihan yang populer untuk rumah di Bekasi. Dengan <strong>kelebihan</strong> yang banyak dan <strong>harga</strong> yang kompetitif, pagar ini dapat menjadi pilihan yang tepat untuk Anda. <br><br> Jika Anda ingin memilih dan memasang pagar kombinasi batu alam dan besi tempa yang tepat untuk rumah Anda, maka Anda dapat menghubungi Mandiri Steel. Dengan <strong>pengalaman</strong> lebih dari 25 tahun dan <strong>tim</strong> yang berpengalaman, Mandiri Steel dapat membantu Anda untuk memilih dan memasang pagar yang tepat untuk rumah Anda."
+        }
+      ],
+      "conclusion": "Jika Anda ingin memilih dan memasang pagar kombinasi batu alam dan besi tempa yang tepat untuk rumah Anda, maka Anda dapat menghubungi Mandiri Steel. Dengan pengalaman lebih dari 25 tahun dan tim yang berpengalaman, Mandiri Steel dapat membantu Anda untuk memilih dan memasang pagar yang tepat untuk rumah Anda."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 63,
+    "title": "Kanopi Minimalis Bekasi",
+    "slug": "kanopi-minimalis-bekasi",
+    "excerpt": "Panduan memilih kanopi minimalis untuk rumah di Bekasi, jenis atap, rangka, dan estimasi harga 2025",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-27",
+    "image": "https://images.unsplash.com/photo-1611048267604-2e59a19a4f97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBtaW5pbWFsaXMlMjBtb2Rlcm58ZW58MHwwfHx8MTc4NTE1MDE1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Kanopi minimalis</strong> menjadi salah satu elemen penting dalam desain rumah modern di Bekasi. Dengan <strong>fungsi</strong> sebagai pelindung dari sinar matahari dan hujan, kanopi juga dapat meningkatkan <strong>estetika</strong> rumah. Namun, memilih kanopi yang tepat tidaklah mudah. Dalam artikel ini, kita akan membahas <strong>panduan lengkap</strong> memilih kanopi minimalis untuk rumah di Bekasi, termasuk jenis atap, rangka, dan estimasi harga 2025.",
+      "keyPoints": [
+        "Memilih jenis atap yang tepat",
+        "Mengenal jenis rangka kanopi",
+        "Estimasi harga kanopi minimalis 2025"
+      ],
+      "sections": [
+        {
+          "heading": "1. Memilih Jenis Atap yang Tepat",
+          "content": "Dalam memilih kanopi minimalis, <strong>jenis atap</strong> menjadi salah satu faktor yang paling penting. Ada beberapa jenis atap yang umum digunakan, seperti <strong>atap polikarbonat</strong>, <strong>atap kaca</strong>, dan <strong>atap genteng</strong>. Masing-masing jenis atap memiliki <strong>kelebihan</strong> dan <strong>kekurangan</strong> yang berbeda. Misalnya, atap polikarbonat memiliki <strong>kelebihan</strong> dalam hal <strong>ringan</strong> dan <strong>mudah dipasang</strong>, namun memiliki <strong>kekurangan</strong> dalam hal <strong>kurang tahan lama</strong>. Sementara itu, atap kaca memiliki <strong>kelebihan</strong> dalam hal <strong>estetika</strong> yang tinggi, namun memiliki <strong>kekurangan</strong> dalam hal <strong>mahal</strong> dan <strong>berat</strong>. <br> Berikut adalah beberapa tips dalam memilih jenis atap yang tepat: <ul> <li>Pertimbangkan <strong>anggaran</strong> Anda</li> <li>Pertimbangkan <strong>kebutuhan</strong> Anda</li> <li>Pertimbangkan <strong>desain</strong> rumah Anda</li> </ul>",
+          "imageSearchQuery": "atap polikarbonat",
+          "image": "https://images.unsplash.com/photo-1699847108993-f2ce3725c492?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxhdGFwJTIwcG9saWthcmJvbmF0fGVufDB8MHx8fDE3ODUxNTAxNTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Mengenal Jenis Rangka Kanopi",
+          "content": "Setelah memilih jenis atap, langkah selanjutnya adalah <strong>mengenal jenis rangka kanopi</strong>. Rangka kanopi memiliki <strong>fungsi</strong> sebagai penopang atap dan <strong>meningkatkan kekuatan</strong> kanopi. Ada beberapa jenis rangka kanopi yang umum digunakan, seperti <strong>rangka kayu</strong>, <strong>rangka besi</strong>, dan <strong>rangka alumunium</strong>. Masing-masing jenis rangka memiliki <strong>kelebihan</strong> dan <strong>kekurangan</strong> yang berbeda. Misalnya, rangka kayu memiliki <strong>kelebihan</strong> dalam hal <strong>estetika</strong> yang tinggi, namun memiliki <strong>kekurangan</strong> dalam hal <strong>kurang tahan lama</strong>. Sementara itu, rangka besi memiliki <strong>kelebihan</strong> dalam hal <strong>kuat</strong> dan <strong>tahan lama</strong>, namun memiliki <strong>kekurangan</strong> dalam hal <strong>berat</strong> dan <strong>mahal</strong>. <br> Berikut adalah beberapa tips dalam memilih jenis rangka kanopi yang tepat: <ul> <li>Pertimbangkan <strong>anggaran</strong> Anda</li> <li>Pertimbangkan <strong>kebutuhan</strong> Anda</li> <li>Pertimbangkan <strong>desain</strong> rumah Anda</li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "3. Estimasi Harga Kanopi Minimalis 2025",
+          "content": "Setelah memilih jenis atap dan rangka kanopi, langkah selanjutnya adalah <strong>estimasi harga</strong>. Harga kanopi minimalis 2025 dapat <strong>berbeda-beda</strong> tergantung pada <strong>jenis atap</strong>, <strong>jenis rangka</strong>, dan <strong>ukuran</strong> kanopi. Berikut adalah beberapa estimasi harga kanopi minimalis 2025: <ul> <li>Kanopi minimalis dengan atap polikarbonat: <strong>RP 500.000 - RP 1.000.000</strong></li> <li>Kanopi minimalis dengan atap kaca: <strong>RP 1.000.000 - RP 2.000.000</strong></li> <li>Kanopi minimalis dengan atap genteng: <strong>RP 2.000.000 - RP 5.000.000</strong></li> </ul> <br> Perlu diingat bahwa harga di atas hanya <strong>estimasi</strong> dan dapat <strong>berbeda-beda</strong> tergantung pada <strong>penyedia jasa</strong> dan <strong>lokasi</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Tips Memasang Kanopi Minimalis",
+          "content": "Setelah memilih jenis atap, rangka kanopi, dan estimasi harga, langkah selanjutnya adalah <strong>memasang kanopi minimalis</strong>. Berikut adalah beberapa tips dalam memasang kanopi minimalis: <ul> <li>Pastikan <strong>lokasi</strong> yang tepat</li> <li>Pastikan <strong>penyedia jasa</strong> yang tepat</li> <li>Pastikan <strong>material</strong> yang tepat</li> </ul> <br> Perlu diingat bahwa memasang kanopi minimalis memerlukan <strong>kehati-hatian</strong> dan <strong>kesabaran</strong>. Pastikan Anda <strong>memilih penyedia jasa</strong> yang tepat dan <strong>memastikan material</strong> yang tepat."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah <strong>penyedia jasa</strong> kanopi minimalis yang memiliki <strong>pengalaman</strong> lebih dari 25 tahun. Kami memiliki <strong>tim</strong> yang <strong>profesional</strong> dan <strong>berpengalaman</strong> dalam memasang kanopi minimalis. Kami juga memiliki <strong>material</strong> yang <strong>terbaik</strong> dan <strong>bergaransi</strong>. <br> Berikut adalah beberapa alasan mengapa Anda harus memilih Mandiri Steel: <ul> <li><strong>Pengalaman</strong> lebih dari 25 tahun</li> <li><strong>Tim</strong> yang profesional dan berpengalaman</li> <li><strong>Material</strong> yang terbaik dan bergaransi</li> </ul>",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan Kanopi Minimalis di Bekasi",
+          "content": "Mandiri Steel menyediakan <strong>layanan kanopi minimalis</strong> di Bekasi dan sekitarnya. Kami memiliki <strong>pengalaman</strong> dalam memasang kanopi minimalis di <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> Berikut adalah beberapa keuntungan memilih Mandiri Steel sebagai penyedia jasa kanopi minimalis di Bekasi: <ul> <li><strong>Pengalaman</strong> dalam memasang kanopi minimalis di Bekasi</li> <li><strong>Tim</strong> yang profesional dan berpengalaman</li> <li><strong>Material</strong> yang terbaik dan bergaransi</li> </ul>"
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi minimalis untuk rumah di Bekasi, perlu mempertimbangkan beberapa faktor seperti jenis atap, rangka kanopi, dan estimasi harga. Mandiri Steel adalah penyedia jasa kanopi minimalis yang memiliki pengalaman lebih dari 25 tahun dan memiliki tim yang profesional dan berpengalaman. Kami juga memiliki material yang terbaik dan bergaransi. Jika Anda ingin memasang kanopi minimalis di Bekasi, hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut dan estimasi harga yang terbaik."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 58,
     "title": "Konstruksi Baja WF untuk Gudang dan Pabrik",
     "slug": "konstruksi-baja-wf-untuk-gudang-dan-pabrik",
