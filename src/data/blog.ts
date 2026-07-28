@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 64,
+    "title": "Merawat Pintu Pagar Besi",
+    "slug": "cara-merawat-pintu-pagar-besi-agar-awet",
+    "excerpt": "Panduan lengkap merawat pintu pagar besi agar awet hingga 20 tahun",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-28",
+    "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwaW50dSUyMHBhZ2FyJTIwYmVzaSUyMG1vZGVybnxlbnwwfDB8fHwxNzg1MjM2NDExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pintu pagar besi merupakan salah satu komponen penting dalam sistem keamanan rumah. <strong>Pintu pagar besi</strong> yang awet dan tahan lama dapat memberikan rasa aman dan nyaman bagi penghuninya. Namun, untuk mencapai hal tersebut, perlu dilakukan perawatan yang tepat dan berkala. Dalam artikel ini, kita akan membahas tentang cara merawat <strong>pintu pagar besi</strong> agar awet hingga 20 tahun.",
+      "keyPoints": [
+        "Pembersihan rutin",
+        "Pengecekan kondisi",
+        "Penggunaan pelumas",
+        "Penggantian komponen yang rusak"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pembersihan Rutin",
+          "content": "Pembersihan rutin merupakan langkah pertama dalam merawat <strong>pintu pagar besi</strong>. Debu, kotoran, dan lumut dapat menumpuk pada permukaan pintu pagar besi dan menyebabkan kerusakan. <br> Untuk membersihkan pintu pagar besi, dapat menggunakan <strong>air</strong> dan <strong>sabun</strong> yang lembut. Hindari menggunakan bahan kimia yang keras karena dapat merusak cat atau lapisan pelindung pada pintu pagar besi. <br> Contoh nyata: Pintu pagar besi di daerah <strong>Cikarang</strong> yang terkena debu dan kotoran dapat dibersihkan dengan air dan sabun yang lembut untuk mengembalikan kilapnya.",
+          "imageSearchQuery": "pembersihan pintu pagar besi",
+          "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwZW1iZXJzaWhhbiUyMHBpbnR1JTIwcGFnYXIlMjBiZXNpfGVufDB8MHx8fDE3ODUyMzY0MTJ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Pengecekan Kondisi",
+          "content": "Pengecekan kondisi merupakan langkah kedua dalam merawat <strong>pintu pagar besi</strong>. Pengecekan kondisi dapat membantu mendeteksi kerusakan atau masalah pada pintu pagar besi sebelum menjadi parah. <br> Beberapa hal yang perlu diperiksa adalah: <ul> <li>Kondisi cat atau lapisan pelindung</li> <li>Kondisi engsel dan pivot</li> <li>Kondisi kunci dan gagang pintu</li> </ul> <br> Contoh nyata: Pintu pagar besi di daerah <strong>Tambun</strong> yang memiliki kondisi cat yang rusak dapat diperbaiki dengan melakukan pengecatan ulang untuk mengembalikan keseluruhan pintu pagar besi.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Penggunaan Pelumas",
+          "content": "Penggunaan pelumas merupakan langkah ketiga dalam merawat <strong>pintu pagar besi</strong>. Pelumas dapat membantu mengurangi gesekan antara komponen pintu pagar besi dan membuatnya bergerak lebih lancar. <br> Beberapa jenis pelumas yang dapat digunakan adalah: <ul> <li>Pelumas oli</li> <li>Pelumas silikon</li> <li>Pelumas lithium</li> </ul> <br> Contoh nyata: Pintu pagar besi di daerah <strong>Cibitung</strong> yang memiliki engsel yang berat dapat dilumasi dengan pelumas oli untuk membuatnya bergerak lebih lancar."
+        },
+        {
+          "heading": "4. Penggantian Komponen yang Rusak",
+          "content": "Penggantian komponen yang rusak merupakan langkah keempat dalam merawat <strong>pintu pagar besi</strong>. Komponen yang rusak dapat menyebabkan pintu pagar besi menjadi tidak berfungsi dengan baik. <br> Beberapa komponen yang perlu diperiksa dan diganti jika rusak adalah: <ul> <li>Engsel</li> <li>Pivot</li> <li>Kunci</li> <li>Gagang pintu</li> </ul> <br> Contoh nyata: Pintu pagar besi di daerah <strong>Jababeka</strong> yang memiliki engsel yang rusak dapat diganti dengan engsel yang baru untuk mengembalikan fungsinya.",
+          "productId": 8
+        },
+        {
+          "heading": "5. Kelebihan Pintu Pagar Besi dari Mandiri Steel",
+          "content": "Mandiri Steel merupakan salah satu produsen <strong>pintu pagar besi</strong> yang terpercaya di Indonesia. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah memproduksi <strong>pintu pagar besi</strong> yang berkualitas tinggi dan tahan lama. <br> Beberapa kelebihan <strong>pintu pagar besi</strong> dari Mandiri Steel adalah: <ul> <li>Bahan yang kuat dan tahan lama</li> <li>Desain yang modern dan elegan</li> <li>Harga yang kompetitif</li> <li>Garansi yang memuaskan</li> </ul> <br> Contoh nyata: Pintu pagar besi dari Mandiri Steel yang dipasang di daerah <strong>MM2100</strong> telah berfungsi dengan baik selama lebih dari 10 tahun.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan Perawatan Pintu Pagar Besi di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel juga menyediakan layanan perawatan <strong>pintu pagar besi</strong> di Bekasi dan Jabodetabek. Layanan perawatan ini dapat membantu Anda memastikan bahwa <strong>pintu pagar besi</strong> Anda berfungsi dengan baik dan tahan lama. <br> Beberapa layanan perawatan yang disediakan oleh Mandiri Steel adalah: <ul> <li>Pembersihan rutin</li> <li>Pengecekan kondisi</li> <li>Penggantian komponen yang rusak</li> </ul> <br> Contoh nyata: Layanan perawatan <strong>pintu pagar besi</strong> dari Mandiri Steel telah membantu banyak pelanggan di daerah <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong> untuk memastikan bahwa <strong>pintu pagar besi</strong> mereka berfungsi dengan baik."
+        }
+      ],
+      "conclusion": "Dengan melakukan perawatan yang tepat dan berkala, Anda dapat memastikan bahwa <strong>pintu pagar besi</strong> Anda awet dan tahan lama. Mandiri Steel merupakan salah satu produsen <strong>pintu pagar besi</strong> yang terpercaya di Indonesia dan menyediakan layanan perawatan yang memuaskan. Jika Anda membutuhkan <strong>pintu pagar besi</strong> yang berkualitas tinggi dan tahan lama, hubungi Mandiri Steel sekarang juga!"
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 65,
+    "title": "Kanopi Alderon Setelah 5 Tahun",
+    "slug": "review-kanopi-alderon-setelah-5-tahun",
+    "excerpt": "Apakah kanopi alderon masih worth it setelah 5 tahun pemakaian di iklim tropis?",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-28",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "<strong>Kanopi Alderon</strong> merupakan salah satu pilihan populer untuk melindungi rumah dari sinar matahari dan hujan. Namun, apakah <strong>kanopi alderon</strong> masih worth it setelah 5 tahun pemakaian di iklim tropis? Pada artikel ini, kita akan membahas <strong>kelebihan dan kekurangan</strong> kanopi alderon setelah 5 tahun pemakaian dan memberikan tips untuk memilih kanopi yang tepat.",
+      "keyPoints": [
+        "Kelebihan kanopi alderon",
+        "Kekurangan kanopi alderon",
+        "Tips memilih kanopi yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept",
+          "content": "Kanopi alderon merupakan salah satu jenis kanopi yang terbuat dari bahan <strong>aluminum</strong> dan <strong>stainless steel</strong>. Kanopi ini dikenal karena <strong>kekuatan</strong> dan <strong>ketahanannya</strong> terhadap korosi. Namun, apakah kanopi alderon masih worth it setelah 5 tahun pemakaian di iklim tropis? Pada section ini, kita akan membahas <strong>kelebihan dan kekurangan</strong> kanopi alderon setelah 5 tahun pemakaian.",
+          "imageSearchQuery": "kanopi alderon"
+        },
+        {
+          "heading": "2. Kelebihan Kanopi Alderon",
+          "content": "<strong>Kanopi alderon</strong> memiliki beberapa kelebihan, seperti <strong>kekuatan</strong> dan <strong>ketahanan</strong> terhadap korosi. Selain itu, kanopi alderon juga <strong>mudah dipasang</strong> dan <strong>mudah dirawat</strong>. Namun, perlu diingat bahwa kanopi alderon juga memiliki beberapa kekurangan, seperti <strong>harganya yang relatif mahal</strong> dan <strong>kurangnya variasi desain</strong>. Pada section ini, kita akan membahas <strong>kelebihan kanopi alderon</strong> secara lebih detail.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Kekurangan Kanopi Alderon",
+          "content": "<strong>Kanopi alderon</strong> memiliki beberapa kekurangan, seperti <strong>harganya yang relatif mahal</strong> dan <strong>kurangnya variasi desain</strong>. Selain itu, kanopi alderon juga <strong>memerlukan perawatan yang rutin</strong> untuk menjaga kekuatan dan ketahanannya. Pada section ini, kita akan membahas <strong>kekurangan kanopi alderon</strong> secara lebih detail dan memberikan tips untuk mengatasi kekurangan tersebut.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Tips Memilih Kanopi yang Tepat",
+          "content": "Memilih kanopi yang tepat sangat penting untuk menjaga kekuatan dan ketahanan rumah. Pada section ini, kita akan membahas <strong>tips memilih kanopi yang tepat</strong>, seperti <strong>memilih bahan yang kuat</strong> dan <strong>memilih desain yang sesuai</strong> dengan rumah. Selain itu, kita juga akan membahas <strong>pentingnya melakukan perawatan yang rutin</strong> untuk menjaga kekuatan dan ketahanan kanopi.",
+          "productId": 1
+        },
+        {
+          "heading": "5. Pengalaman Menggunakan Kanopi Alderon di Bekasi",
+          "content": "Pengalaman menggunakan kanopi alderon di Bekasi sangatlah beragam. Beberapa orang menyatakan bahwa kanopi alderon sangat kuat dan tahan lama, sedangkan yang lain menyatakan bahwa kanopi alderon memerlukan perawatan yang rutin. Pada section ini, kita akan membahas <strong>pengalaman menggunakan kanopi alderon di Bekasi</strong> dan memberikan tips untuk mengatasi masalah yang mungkin timbul.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan yang berpengalaman dalam memproduksi kanopi alderon. Dengan <strong>25 tahun pengalaman</strong> dan <strong>bahan-bahan yang berkualitas</strong>, Mandiri Steel dapat memberikan jaminan bahwa kanopi alderon yang diproduksi sangat kuat dan tahan lama. Pada section ini, kita akan membahas <strong>mengapa memilih Mandiri Steel</strong> dan memberikan informasi tentang <strong>layanan yang ditawarkan</strong>.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Pada akhirnya, kanopi alderon masih worth it setelah 5 tahun pemakaian di iklim tropis. Dengan <strong>kekuatan</strong> dan <strong>ketahanan</strong> yang tinggi, kanopi alderon dapat menjaga rumah dari sinar matahari dan hujan. Namun, perlu diingat bahwa kanopi alderon juga memerlukan perawatan yang rutin untuk menjaga kekuatan dan ketahanannya. Jika Anda ingin memilih kanopi yang tepat, pastikan Anda memilih <strong>Mandiri Steel</strong> sebagai mitra Anda."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 66,
+    "title": "Pagar Minimalis Bekasi",
+    "slug": "pagar-minimalis-bekasi-2025",
+    "excerpt": "Pagar minimalis dengan motif daun dan tanaman: tren nature-inspired di Bekasi 2025",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-28",
+    "image": "https://images.unsplash.com/photo-1656483461011-a20df474deae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZ2FyZGVuJTIwZ2F0ZXxlbnwwfDB8fHwxNzg1MjM2NTcyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pada tahun 2025, tren <strong>desain pagar minimalis</strong> dengan motif daun dan tanaman menjadi sangat populer di <strong>Bekasi</strong> dan sekitarnya. Pagar minimalis ini tidak hanya berfungsi sebagai pengaman rumah, tetapi juga sebagai elemen dekoratif yang meningkatkan estetika rumah. Dalam artikel ini, kita akan membahas tentang tren <strong>nature-inspired</strong> dalam desain pagar minimalis dan bagaimana Anda dapat menerapkannya di rumah Anda.",
+      "keyPoints": [
+        "Pagar minimalis dengan motif daun dan tanaman",
+        "Tren nature-inspired di Bekasi 2025",
+        "Desain pagar yang estetis dan fungsional"
+      ],
+      "sections": [
+        {
+          "heading": "1. Konsep Desain Pagar Minimalis",
+          "content": "Desain pagar minimalis dengan motif daun dan tanaman berdasarkan pada konsep <strong>minimalisme</strong> yang menekankan kesederhanaan dan fungsi. Pagar ini dirancang untuk meningkatkan estetika rumah tanpa mengorbankan keamanan. Dalam desain pagar minimalis, <strong>garis-garis sederhana</strong> dan <strong>bentuk geometris</strong> digunakan untuk menciptakan kesan yang elegan dan modern. <br><br> Contoh nyata dari desain pagar minimalis dapat dilihat di <strong>Cikarang</strong> dan <strong>Tambun</strong>, di mana banyak rumah yang menggunakan pagar minimalis dengan motif daun dan tanaman. <blockquote>Desain pagar minimalis yang baik harus mempertimbangkan faktor keamanan, estetika, dan fungsionalitas.</blockquote>",
+          "imageSearchQuery": "minimalist fence design",
+          "image": "https://images.unsplash.com/photo-1680712738375-50da02a39ce5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwZmVuY2UlMjBkZXNpZ258ZW58MHwwfHx8MTc4NTIzNjU3M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Desain Pagar Minimalis",
+          "content": "Desain pagar minimalis dengan motif daun dan tanaman memiliki beberapa manfaat, antara lain: <ul><li>Meningkatkan estetika rumah</li><li>Menghemat biaya perawatan</li><li>Meningkatkan keamanan rumah</li></ul> Pagar minimalis juga dapat membantu meningkatkan nilai jual rumah Anda. <br><br> Di <strong>Bekasi</strong> dan sekitarnya, banyak pemilik rumah yang memilih desain pagar minimalis karena kelebihannya. <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong> adalah contoh daerah yang banyak menggunakan desain pagar minimalis.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Tips Membuat Desain Pagar Minimalis",
+          "content": "Berikut beberapa tips untuk membuat desain pagar minimalis dengan motif daun dan tanaman: <ul><li>Pilih bahan yang kuat dan tahan lama</li><li>Desain pagar yang sederhana dan elegan</li><li>Tambahkan elemen dekoratif yang sesuai</li></ul> <br><br> Anda juga dapat mempertimbangkan untuk menggunakan <strong>konstruksi baja</strong> sebagai bahan pagar. <strong>Kota Deltamas</strong> dan <strong>Lippo Cikarang</strong> adalah contoh daerah yang banyak menggunakan konstruksi baja untuk pagar.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Perawatan Pagar Minimalis",
+          "content": "Perawatan pagar minimalis dengan motif daun dan tanaman relatif mudah. Anda hanya perlu membersihkan pagar secara teratur dan memeriksa kerusakan. <br><br> Namun, perlu diingat bahwa pagar minimalis masih memerlukan perawatan yang tepat untuk menjaga keamanan dan estetika rumah. <strong>Jababeka</strong> dan <strong>MM2100</strong> adalah contoh daerah yang banyak memiliki rumah dengan pagar minimalis yang dirawat dengan baik."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel",
+          "content": "Mandiri Steel adalah salah satu penyedia jasa pembuatan pagar minimalis dengan motif daun dan tanaman yang terpercaya di <strong>Bekasi</strong> dan sekitarnya. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel menawarkan <strong>jaminan struktural</strong> dan <strong>bahan SNI</strong> yang berkualitas. <br><br> Selain itu, Mandiri Steel juga menawarkan <strong>survei gratis</strong> untuk membantu Anda memilih desain pagar yang tepat untuk rumah Anda. <strong>Cibitung</strong> dan <strong>Tambun</strong> adalah contoh daerah yang banyak menggunakan jasa Mandiri Steel.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel menawarkan layanan pembuatan pagar minimalis dengan motif daun dan tanaman di <strong>Bekasi</strong> dan sekitarnya. Dengan tim yang berpengalaman dan bahan yang berkualitas, Mandiri Steel dapat membantu Anda menciptakan pagar minimalis yang estetis dan fungsional. <br><br> Jika Anda ingin membuat pagar minimalis dengan motif daun dan tanaman, hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan dan harga."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, desain pagar minimalis dengan motif daun dan tanaman adalah tren yang populer di <strong>Bekasi</strong> dan sekitarnya pada tahun 2025. Dengan kelebihannya, desain pagar minimalis dapat meningkatkan estetika rumah dan keamanan. Jika Anda ingin membuat pagar minimalis dengan motif daun dan tanaman, hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan dan harga."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 61,
     "title": "Keamanan Rumah Kosong Saat Mudik",
     "slug": "tips-keamanan-rumah-kosong-saat-mudik",
