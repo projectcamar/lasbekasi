@@ -33,6 +33,178 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 67,
+    "title": "Kanopi Besi Anti Karat",
+    "slug": "cara-merawat-kanopi-besi-tahan-karat",
+    "excerpt": "Tips merawat kanopi besi agar tidak berkarat di iklim tropis Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-29",
+    "image": "https://images.unsplash.com/photo-1645462478540-48da832a8e16?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBiZXNpJTIwdGFoYW4lMjBrYXJhdHxlbnwwfDB8fHwxNzg1MzIyODA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Kanopi besi merupakan salah satu elemen vital dalam bangunan, terutama di daerah tropis seperti Bekasi. <strong>Kanopi besi</strong> dapat melindungi bangunan dari sinar matahari langsung dan hujan. Namun, perawatan yang tidak tepat dapat menyebabkan <strong>karat</strong> pada kanopi besi. Dalam artikel ini, kita akan membahas tentang cara merawat kanopi besi agar tidak berkarat di iklim tropis Bekasi.",
+      "keyPoints": [
+        "Pemilihan bahan yang tepat",
+        "Perawatan rutin",
+        "Penggunaan cat anti karat"
+      ],
+      "sections": [
+        {
+          "heading": "Pemilihan Bahan yang Tepat",
+          "content": "Pemilihan bahan yang tepat sangat penting dalam mencegah karat pada kanopi besi. <strong>Baja</strong> merupakan salah satu bahan yang paling umum digunakan dalam pembuatan kanopi besi. Namun, tidak semua jenis baja sama. <strong>Baja tahan karat</strong> seperti stainless steel dapat membantu mencegah karat. Selain itu, <strong>pelapisan</strong> seperti cat atau galvanis juga dapat membantu melindungi kanopi besi dari karat. <br><br>Di Bekasi, kita dapat menemukan banyak supplier baja yang menawarkan berbagai jenis baja dengan kualitas yang berbeda-beda. Oleh karena itu, penting untuk memilih supplier yang terpercaya dan menawarkan baja dengan kualitas yang baik.",
+          "imageSearchQuery": "baja tahan karat",
+          "image": "https://images.unsplash.com/photo-1641175177514-aa58e2b06d06?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiYWphJTIwdGFoYW4lMjBrYXJhdHxlbnwwfDB8fHwxNzg1MzIyODA5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Perawatan Rutin",
+          "content": "Perawatan rutin sangat penting dalam mencegah karat pada kanopi besi. <strong>Pembersihan</strong> secara teratur dapat membantu menghilangkan kotoran dan debu yang dapat menyebabkan karat. Selain itu, <strong>pengecekan</strong> secara teratur juga dapat membantu mendeteksi kerusakan atau kebocoran yang dapat menyebabkan karat. <br><br>Di daerah seperti Bekasi, Cikarang, dan Tambun, kita harus lebih sering melakukan perawatan rutin karena iklim tropis yang dapat mempercepat proses karat. Oleh karena itu, penting untuk memiliki jadwal perawatan rutin yang teratur dan konsisten.",
+          "productId": 1
+        },
+        {
+          "heading": "Penggunaan Cat Anti Karat",
+          "content": "Penggunaan cat anti karat dapat membantu melindungi kanopi besi dari karat. <strong>Cat anti karat</strong> dapat membantu mencegah karat dengan cara menghalangi kontak antara baja dan lingkungan sekitar. Selain itu, cat anti karat juga dapat membantu memperbaiki tampilan kanopi besi. <br><br>Di Bekasi, kita dapat menemukan banyak jenis cat anti karat yang berbeda-beda. Oleh karena itu, penting untuk memilih cat anti karat yang sesuai dengan kebutuhan dan jenis kanopi besi yang digunakan."
+        },
+        {
+          "heading": "Tips Merawat Kanopi Besi",
+          "content": "<ul><li>Pastikan kanopi besi dibersihkan secara teratur</li><li>Periksa kanopi besi secara teratur untuk mendeteksi kerusakan atau kebocoran</li><li>Gunakan cat anti karat untuk melindungi kanopi besi dari karat</li><li>Pilih supplier baja yang terpercaya dan menawarkan baja dengan kualitas yang baik</li></ul> <br><br>Di daerah seperti Bekasi, Cibitung, dan Jababeka, kita harus lebih sering melakukan perawatan rutin karena iklim tropis yang dapat mempercepat proses karat. Oleh karena itu, penting untuk memiliki jadwal perawatan rutin yang teratur dan konsisten.",
+          "productId": 2
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel",
+          "content": "Mandiri Steel merupakan salah satu supplier baja terpercaya di Bekasi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel menawarkan berbagai jenis baja dengan kualitas yang baik. Selain itu, Mandiri Steel juga menawarkan <strong>garansi struktural</strong> yang dapat membantu memberikan ketenangan pikiran bagi pelanggan. <br><br>Di daerah seperti MM2100, Grand Wisata, dan Summarecon Bekasi, kita dapat menemukan banyak bangunan yang menggunakan baja dari Mandiri Steel. Oleh karena itu, penting untuk memilih supplier baja yang terpercaya dan menawarkan baja dengan kualitas yang baik.",
+          "productId": 7
+        },
+        {
+          "heading": "Layanan dan Area Cakupan",
+          "content": "Mandiri Steel menawarkan berbagai jenis layanan, termasuk <strong>perawatan kanopi besi</strong> dan <strong>pembuatan kanopi besi</strong>. Selain itu, Mandiri Steel juga menawarkan <strong>survei gratis</strong> yang dapat membantu memberikan gambaran yang lebih jelas tentang kebutuhan dan biaya. <br><br>Di daerah seperti Kota Deltamas, Lippo Cikarang, dan Cikarang, kita dapat menemukan banyak pelanggan yang menggunakan jasa Mandiri Steel. Oleh karena itu, penting untuk memilih supplier baja yang terpercaya dan menawarkan layanan yang baik."
+        }
+      ],
+      "conclusion": "Dalam artikel ini, kita telah membahas tentang cara merawat kanopi besi agar tidak berkarat di iklim tropis Bekasi. Dengan memilih bahan yang tepat, melakukan perawatan rutin, dan menggunakan cat anti karat, kita dapat membantu melindungi kanopi besi dari karat. Selain itu, memilih supplier baja yang terpercaya seperti Mandiri Steel juga dapat membantu memberikan ketenangan pikiran bagi pelanggan. Jika Anda memiliki pertanyaan atau ingin melakukan konsultasi, silakan hubungi Mandiri Steel sekarang juga."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 68,
+    "title": "Pagar BRC untuk Keamanan Perumahan Cluster",
+    "slug": "pagar-brc-keamanan-perumahan-cluster",
+    "excerpt": "Pagar BRC untuk keamanan perumahan cluster di Kota Harapan Indah Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-29",
+    "image": "https://images.unsplash.com/photo-1768637757717-3e47abf07422?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGJyYyUyMGtlYW1hbmFuJTIwcGVydW1haGFufGVufDB8MHx8fDE3ODUzMjI4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Pagar BRC</strong> merupakan salah satu pilihan yang tepat untuk meningkatkan keamanan perumahan cluster di Kota Harapan Indah Bekasi. Dengan <strong>kekuatan dan ketahanan</strong> yang tinggi, pagar BRC dapat menjadi solusi untuk mencegah <strong>penjarahan dan kejahatan</strong> lainnya. Pada artikel ini, kita akan membahas lebih lanjut tentang <strong>kelebihan dan manfaat</strong> pagar BRC untuk keamanan perumahan cluster.",
+      "keyPoints": [
+        "Pagar BRC memiliki kekuatan dan ketahanan yang tinggi",
+        "Pagar BRC dapat mencegah penjarahan dan kejahatan lainnya",
+        "Pagar BRC merupakan salah satu pilihan yang tepat untuk meningkatan keamanan perumahan cluster"
+      ],
+      "sections": [
+        {
+          "heading": "1. Konsep dan Manfaat Pagar BRC",
+          "content": "Pagar BRC adalah jenis pagar yang terbuat dari <strong>baja ringan</strong> dengan <strong>desain yang modern</strong> dan <strong>fleksibel</strong>. Pagar ini dapat dipasang dengan <strong>mudah dan cepat</strong>, sehingga sangat cocok untuk perumahan cluster yang memerlukan <strong>keamanan yang tinggi</strong>. <br><br> Beberapa <strong>manfaat</strong> pagar BRC antara lain: <ul><li>Meningkatkan keamanan perumahan cluster</li><li>Mencegah penjarahan dan kejahatan lainnya</li><li>Menghemat biaya perawatan</li></ul>",
+          "imageSearchQuery": "pagar brc modern"
+        },
+        {
+          "heading": "2. Kelebihan Pagar BRC dibandingkan dengan Pagar Lainnya",
+          "content": "Pagar BRC memiliki beberapa <strong>kelebihan</strong> dibandingkan dengan pagar lainnya, seperti: <strong>kuat dan tahan lama</strong>, <strong>mudah dipasang</strong>, dan <strong>harga yang kompetitif</strong>. Selain itu, pagar BRC juga memiliki <strong>desain yang modern</strong> dan <strong>fleksibel</strong>, sehingga dapat disesuaikan dengan <strong>kebutuhan dan selera</strong> masing-masing. <br><br> Contoh nyata, di <strong>Kota Harapan Indah Bekasi</strong>, pagar BRC telah dipasang di beberapa perumahan cluster untuk meningkatkan keamanan dan <strong>kepercayaan diri</strong> penghuninya.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Tips Memilih Pagar BRC yang Tepat",
+          "content": "Dalam memilih pagar BRC, ada beberapa <strong>tips</strong> yang perlu diperhatikan, seperti: <ul><li>Pilih pagar BRC yang <strong>kuat dan tahan lama</strong></li><li>Pilih pagar BRC yang <strong>mudah dipasang</strong></li><li>Pilih pagar BRC yang <strong>harga yang kompetitif</strong></li></ul> <br><br> Selain itu, juga perlu mempertimbangkan <strong>desain</strong> dan <strong>warna</strong> pagar BRC yang sesuai dengan <strong>kebutuhan dan selera</strong> masing-masing.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Perawatan Pagar BRC",
+          "content": "Pagar BRC memerlukan <strong>perawatan</strong> yang rutin untuk menjaga <strong>kekuatan dan ketahanan</strong>-nya. Beberapa <strong>tips</strong> perawatan pagar BRC antara lain: <ul><li>Bersihkan pagar BRC secara teratur</li><li>Periksa pagar BRC secara teratur</li><li>Lakukan <strong>perbaikan</strong> jika diperlukan</li></ul> <br><br> Dengan perawatan yang rutin, pagar BRC dapat <strong>bertahan lama</strong> dan <strong>meningkatkan keamanan</strong> perumahan cluster."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Pagar BRC",
+          "content": "Mandiri Steel merupakan salah satu <strong>penyedia pagar BRC</strong> yang terpercaya dan <strong>berpengalaman</strong> di <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>. Dengan <strong>25+ tahun pengalaman</strong>, Mandiri Steel telah memasang pagar BRC di beberapa perumahan cluster di <strong>Kota Harapan Indah Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Jababeka</strong>. <br><br> Mandiri Steel juga menawarkan <strong>garansi struktural</strong> dan <strong>survey gratis</strong> untuk memastikan <strong>kepuasan</strong> pelanggan.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan dan Servis Area Mandiri Steel",
+          "content": "Mandiri Steel memiliki <strong>layanan dan servis area</strong> yang luas di <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>, termasuk <strong>Kota Harapan Indah Bekasi</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br> Dengan <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang memadai</strong>, Mandiri Steel dapat memastikan <strong>kepuasan</strong> pelanggan dan <strong>meningkatkan keamanan</strong> perumahan cluster."
+        }
+      ],
+      "conclusion": "Dengan demikian, pagar BRC merupakan salah satu pilihan yang tepat untuk meningkatkan keamanan perumahan cluster di Kota Harapan Indah Bekasi. Dengan kekuatan dan ketahanan yang tinggi, pagar BRC dapat menjadi solusi untuk mencegah penjarahan dan kejahatan lainnya. Jika Anda memerlukan pagar BRC yang berkualitas dan terpercaya, silakan hubungi Mandiri Steel untuk informasi lebih lanjut."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 69,
+    "title": "Railing Balkon Rooftop Tahan Cuaca",
+    "slug": "railing-balkon-rooftop-tahan-cuaca",
+    "excerpt": "Railing balkon rooftop yang tahan cuaca untuk rumah di Bekasi dengan material berkualitas",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-29",
+    "image": "https://images.unsplash.com/photo-1621830447166-f2b0f2e20c13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwYmFsa29uJTIwcm9vZnRvcCUyMHN0YWlubGVzcyUyMHN0ZWVsfGVufDB8MHx8fDE3ODUzMjI5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah di Bekasi dengan balkon rooftop yang indah memerlukan <strong>railing balkon rooftop</strong> yang tahan cuaca untuk memastikan keamanan dan kenyamanan. <strong>Mandiri Steel</strong> hadir dengan solusi railing balkon rooftop yang terbuat dari material berkualitas dan tahan cuaca. Dalam artikel ini, kita akan membahas tentang railing balkon rooftop yang tahan cuaca dan tips memilih material yang tepat.",
+      "keyPoints": [
+        "Railing balkon rooftop yang tahan cuaca",
+        "Material berkualitas untuk railing balkon rooftop",
+        "Tips memilih railing balkon rooftop yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pentingnya Railing Balkon Rooftop",
+          "content": "Railing balkon rooftop sangat penting untuk memastikan keamanan dan kenyamanan rumah. <strong>Railing balkon rooftop</strong> yang tahan cuaca dapat membantu mencegah kecelakaan dan kerusakan pada rumah. Selain itu, railing balkon rooftop juga dapat menambahkan nilai estetika pada rumah. Dalam memilih railing balkon rooftop, perlu mempertimbangkan beberapa faktor seperti <strong>material</strong>, <strong>desain</strong>, dan <strong>harga</strong>. <br><br>Di Bekasi, banyak rumah yang memiliki balkon rooftop yang indah. Namun, tidak semua rumah memiliki railing balkon rooftop yang tahan cuaca. Oleh karena itu, penting untuk memilih railing balkon rooftop yang tepat untuk memastikan keamanan dan kenyamanan rumah.",
+          "imageSearchQuery": "railing balkon rooftop di Bekasi",
+          "image": "https://images.unsplash.com/photo-1673835931682-513b185a37e1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwYmFsa29uJTIwcm9vZnRvcCUyMGRpJTIwQmVrYXNpfGVufDB8MHx8fDE3ODUzMjI5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Material Railing Balkon Rooftop yang Tahan Cuaca",
+          "content": "Material railing balkon rooftop yang tahan cuaca sangat penting untuk memastikan keamanan dan kenyamanan rumah. Beberapa <strong>material</strong> yang umum digunakan untuk railing balkon rooftop adalah <strong>stainless steel</strong>, <strong>aluminium</strong>, dan <strong>baja</strong>. <strong>Stainless steel</strong> adalah material yang paling populer karena tahan cuaca dan memiliki nilai estetika yang tinggi. <br><br>Di Mandiri Steel, kami menggunakan material <strong>stainless steel</strong> yang berkualitas untuk membuat railing balkon rooftop yang tahan cuaca. Kami juga menawarkan <strong>garansi</strong> untuk memastikan kepuasan pelanggan."
+        },
+        {
+          "heading": "3. Tips Memilih Railing Balkon Rooftop yang Tepat",
+          "content": "Memilih railing balkon rooftop yang tepat dapat memastikan keamanan dan kenyamanan rumah. Berikut beberapa <strong>tips</strong> untuk memilih railing balkon rooftop yang tepat: <ul><li>Pertimbangkan <strong>material</strong> yang digunakan</li><li>Pilih <strong>desain</strong> yang sesuai dengan rumah</li><li>Pertimbangkan <strong>harga</strong> yang sesuai dengan budget</li></ul> <br><br>Di Mandiri Steel, kami menawarkan railing balkon rooftop dengan <strong>desain</strong> yang modern dan material yang berkualitas. Kami juga menawarkan <strong>harga</strong> yang kompetitif untuk memastikan kepuasan pelanggan.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Kelebihan Railing Balkon Rooftop dari Mandiri Steel",
+          "content": "Railing balkon rooftop dari Mandiri Steel memiliki beberapa <strong>kelebihan</strong> yang membuatnya menjadi pilihan yang tepat untuk rumah di Bekasi. Beberapa kelebihan tersebut adalah: <strong>material berkualitas</strong>, <strong>desain modern</strong>, dan <strong>harga kompetitif</strong>. <br><br>Di Mandiri Steel, kami memiliki <strong>pengalaman</strong> lebih dari 25 tahun dalam membuat railing balkon rooftop yang tahan cuaca. Kami juga menggunakan <strong>material</strong> yang berkualitas dan memiliki <strong>garansi</strong> untuk memastikan kepuasan pelanggan."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Railing Balkon Rooftop?",
+          "content": "Mandiri Steel adalah pilihan yang tepat untuk railing balkon rooftop karena memiliki <strong>pengalaman</strong> lebih dari 25 tahun dalam membuat railing balkon rooftop yang tahan cuaca. Kami juga menggunakan <strong>material</strong> yang berkualitas dan memiliki <strong>garansi</strong> untuk memastikan kepuasan pelanggan. <br><br>Di Mandiri Steel, kami menawarkan <strong>layanan</strong> yang lengkap untuk memastikan kepuasan pelanggan. Kami memiliki <strong>tim</strong> yang profesional dan berpengalaman dalam membuat railing balkon rooftop yang tahan cuaca.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki <strong>area layanan</strong> yang luas di Bekasi dan sekitarnya. Kami menawarkan <strong>layanan</strong> untuk rumah di <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br>Di Mandiri Steel, kami memiliki <strong>komitmen</strong> untuk memastikan kepuasan pelanggan. Kami menawarkan <strong>garansi</strong> untuk memastikan kepuasan pelanggan."
+        }
+      ],
+      "conclusion": "Railing balkon rooftop yang tahan cuaca sangat penting untuk memastikan keamanan dan kenyamanan rumah. Dengan memilih railing balkon rooftop dari Mandiri Steel, Anda dapat memastikan kepuasan dan keamanan rumah. Hubungi kami sekarang untuk mendapatkan informasi lebih lanjut tentang railing balkon rooftop yang tahan cuaca."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 64,
     "title": "Merawat Pintu Pagar Besi",
     "slug": "cara-merawat-pintu-pagar-besi-agar-awet",
