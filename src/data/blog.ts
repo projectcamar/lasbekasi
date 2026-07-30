@@ -33,6 +33,184 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 70,
+    "title": "Layanan Las untuk Perumahan",
+    "slug": "layanan-las-untuk-perumahan",
+    "excerpt": "Layanan las untuk perumahan Summarecon Bekasi, Kemang Pratama, dan Grand Galaxy City",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-30",
+    "image": "https://images.unsplash.com/photo-1598302936625-6075fbd98dd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGZhYnJpY2F0aW9uJTIwc2VydmljZXN8ZW58MHwwfHx8MTc4NTQwOTIxM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Perumahan di daerah Summarecon Bekasi, Kemang Pratama, dan Grand Galaxy City memerlukan layanan las yang berkualitas untuk memenuhi kebutuhan mereka. <strong>Layanan las</strong> yang baik dapat membantu meningkatkan kualitas dan keamanan bangunan. <strong>Mandiri Steel</strong> hadir untuk memenuhi kebutuhan layanan las Anda dengan pengalaman lebih dari 25 tahun dan menggunakan bahan-bahan SNI yang berkualitas.",
+      "keyPoints": [
+        "Layanan las yang berkualitas",
+        "Pengalaman lebih dari 25 tahun",
+        "Bahan-bahan SNI yang berkualitas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Konsep Dasar Layanan Las",
+          "content": "Layanan las adalah proses penyambungan logam dengan menggunakan energi panas. <strong>Proses las</strong> ini dapat dilakukan dengan menggunakan berbagai jenis logam, seperti baja, stainless steel, dan alumunium. <br><br> Untuk perumahan di daerah Summarecon Bekasi, Kemang Pratama, dan Grand Galaxy City, layanan las yang baik dapat membantu meningkatkan kualitas dan keamanan bangunan. <strong>Mandiri Steel</strong> telah memiliki pengalaman lebih dari 25 tahun dalam menyediakan layanan las yang berkualitas. Kami menggunakan bahan-bahan SNI yang berkualitas untuk memastikan bahwa hasil las kami memenuhi standar yang tinggi.",
+          "imageSearchQuery": "steel welding process",
+          "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMHdlbGRpbmclMjBwcm9jZXNzfGVufDB8MHx8fDE3ODU0MDkyMTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Layanan Las",
+          "content": "Layanan las memiliki banyak manfaat, seperti <strong>peningkatan kualitas</strong> dan <strong>keamanan</strong> bangunan. Dengan menggunakan layanan las yang baik, Anda dapat memastikan bahwa bangunan Anda memiliki struktur yang kuat dan tahan lama. <br><br> Selain itu, layanan las juga dapat membantu <strong>menghemat biaya</strong> perawatan dan perbaikan bangunan. Dengan menggunakan bahan-bahan yang berkualitas, Anda dapat mengurangi risiko kerusakan dan perlu perawatan yang lebih sering. <strong>Mandiri Steel</strong> telah memiliki pengalaman dalam menyediakan layanan las yang berkualitas untuk perumahan di daerah Summarecon Bekasi, Kemang Pratama, dan Grand Galaxy City.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Tips Memilih Layanan Las",
+          "content": "Dalam memilih layanan las, ada beberapa hal yang perlu Anda pertimbangkan. <strong>Pertama</strong>, pastikan Anda memilih layanan las yang memiliki pengalaman yang cukup. <strong>Mandiri Steel</strong> telah memiliki pengalaman lebih dari 25 tahun dalam menyediakan layanan las yang berkualitas. <br><br> <strong>Kedua</strong>, pastikan Anda memilih layanan las yang menggunakan bahan-bahan SNI yang berkualitas. <strong>Ketiga</strong>, pastikan Anda memilih layanan las yang memiliki reputasi yang baik. <ul><li>Pastikan Anda memilih layanan las yang memiliki pengalaman yang cukup</li><li>Pastikan Anda memilih layanan las yang menggunakan bahan-bahan SNI yang berkualitas</li><li>Pastikan Anda memilih layanan las yang memiliki reputasi yang baik</li></ul>",
+          "productId": 3
+        },
+        {
+          "heading": "4. Maintaining dan Perawatan",
+          "content": "Setelah Anda menggunakan layanan las, penting untuk melakukan <strong>perawatan</strong> yang rutin untuk memastikan bahwa bangunan Anda tetap dalam kondisi yang baik. <strong>Mandiri Steel</strong> dapat membantu Anda dalam melakukan perawatan dan perbaikan bangunan. <br><br> Kami memiliki tim yang berpengalaman dan menggunakan bahan-bahan SNI yang berkualitas untuk memastikan bahwa hasil perawatan dan perbaikan kami memenuhi standar yang tinggi. <strong>Perawatan</strong> yang rutin dapat membantu menghemat biaya perawatan dan perbaikan bangunan di masa depan."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel",
+          "content": "Mandiri Steel telah memiliki pengalaman lebih dari 25 tahun dalam menyediakan layanan las yang berkualitas. Kami menggunakan bahan-bahan SNI yang berkualitas untuk memastikan bahwa hasil las kami memenuhi standar yang tinggi. <br><br> Selain itu, kami juga memiliki tim yang berpengalaman dan dapat membantu Anda dalam melakukan perawatan dan perbaikan bangunan. <strong>Mandiri Steel</strong> juga menawarkan garansi struktural untuk memastikan bahwa bangunan Anda tetap dalam kondisi yang baik. <strong>Produk</strong> yang kami tawarkan, seperti <strong>Kanopi Minimalis Alderon</strong> dan <strong>Pagar Minimalis Modern</strong>, dapat membantu meningkatkan kualitas dan keamanan bangunan.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Area Layanan",
+          "content": "Mandiri Steel memiliki area layanan yang luas, termasuk Summarecon Bekasi, Kemang Pratama, dan Grand Galaxy City. Kami juga memiliki jaringan yang luas di daerah Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, dan Lippo Cikarang. <br><br> Dengan demikian, Anda dapat dengan mudah mengakses layanan las yang berkualitas dari <strong>Mandiri Steel</strong>. Kami siap membantu Anda dalam meningkatkan kualitas dan keamanan bangunan Anda."
+        }
+      ],
+      "conclusion": "Dalam memilih layanan las, penting untuk mempertimbangkan pengalaman, bahan-bahan yang digunakan, dan reputasi layanan las. <strong>Mandiri Steel</strong> telah memiliki pengalaman lebih dari 25 tahun dalam menyediakan layanan las yang berkualitas. Kami menggunakan bahan-bahan SNI yang berkualitas dan memiliki tim yang berpengalaman. <strong>Hubungi</strong> kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan las yang kami tawarkan."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 71,
+    "title": "Tren Pagar Minimalis Modern 2025",
+    "slug": "tren-pagar-minimalis-modern-2025",
+    "excerpt": "Tren desain pagar minimalis modern 2025 untuk rumah di Bekasi dan Cikarang",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-30",
+    "image": "https://images.unsplash.com/photo-1680712738375-50da02a39ce5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtaW5pbWFsaXN0JTIwZmVuY2UlMjBkZXNpZ258ZW58MHwwfHx8MTc4NTQwOTI4OHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pada tahun 2025, tren desain <strong>pager minimalis modern</strong> menjadi sangat populer di kalangan masyarakat Bekasi dan Cikarang. Desain ini tidak hanya memberikan kesan yang elegan dan modern, tetapi juga memberikan keamanan dan privasi yang maksimal. Dalam artikel ini, kita akan membahas tentang tren desain pager minimalis modern 2025, <strong>tips</strong> dalam memilih desain yang tepat, dan <strong>contoh</strong> nyata dari desain pagar minimalis modern yang dapat Anda terapkan di rumah Anda.",
+      "keyPoints": [
+        "Tren desain pagar minimalis modern 2025",
+        "Tips dalam memilih desain pagar minimalis modern",
+        "Contoh nyata dari desain pagar minimalis modern"
+      ],
+      "sections": [
+        {
+          "heading": "Tren Desain Pagar Minimalis Modern 2025",
+          "content": "Tren desain pagar minimalis modern 2025 di Bekasi dan Cikarang ditandai dengan penggunaan <strong>bahan-bahan modern</strong> seperti stainless steel, alumunium, dan <strong>kaca tempered</strong>. Desain ini juga seringkali dilengkapi dengan <strong>fitur keamanan</strong> seperti kamera pengawas, sensor gerak, dan <strong>sistem alarm</strong>. Selain itu, desain pagar minimalis modern 2025 juga memiliki <strong>kesan yang elegan</strong> dan <strong>modern</strong>, sehingga dapat meningkatkan nilai estetika rumah Anda. <br> Contoh nyata dari desain pagar minimalis modern 2025 dapat dilihat di <strong>perumahan mewah</strong> di daerah <strong>Lippo Cikarang</strong> dan <strong>Summarecon Bekasi</strong>.",
+          "imageSearchQuery": "modern minimalist fence design with glass",
+          "image": "https://images.unsplash.com/photo-1708184292458-ca9d13e7d96f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBtaW5pbWFsaXN0JTIwZmVuY2UlMjBkZXNpZ24lMjB3aXRoJTIwZ2xhc3N8ZW58MHwwfHx8MTc4NTQwOTI4OXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips Dalam Memilih Desain Pagar Minimalis Modern",
+          "content": "Dalam memilih desain pagar minimalis modern, ada beberapa <strong>tips</strong> yang perlu Anda perhatikan. Pertama, <strong>perhatikan bahan</strong> yang digunakan, pastikan bahan tersebut <strong>tahan lama</strong> dan <strong>kuat</strong>. Kedua, <strong>perhatikan desain</strong> yang dipilih, pastikan desain tersebut <strong>sesuai dengan gaya rumah</strong> Anda. Ketiga, <strong>perhatikan fitur keamanan</strong> yang ditawarkan, pastikan fitur tersebut <strong>memadai</strong> untuk kebutuhan Anda. <br> Berikut beberapa <strong>tips</strong> lainnya: <ul> <li>Pastikan pagar minimalis modern yang dipilih <strong>sesuai dengan budget</strong> Anda</li> <li>Pastikan pagar minimalis modern yang dipilih <strong>memiliki garansi</strong> yang memadai</li> <li>Pastikan pagar minimalis modern yang dipilih <strong>dapat dipasang dengan mudah</strong></li> </ul>",
+          "productId": 3
+        },
+        {
+          "heading": "Contoh Nyata Dari Desain Pagar Minimalis Modern",
+          "content": "Berikut beberapa <strong>contoh nyata</strong> dari desain pagar minimalis modern yang dapat Anda terapkan di rumah Anda. <br> Contoh pertama adalah desain pagar minimalis modern dengan <strong>kaca tempered</strong> yang dapat memberikan kesan yang elegan dan modern. Contoh kedua adalah desain pagar minimalis modern dengan <strong>stainless steel</strong> yang dapat memberikan kesan yang kuat dan tahan lama. <br> Contoh nyata dari desain pagar minimalis modern dapat dilihat di <strong>perumahan mewah</strong> di daerah <strong>Kota Deltamas</strong> dan <strong>MM2100</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "Kelebihan Desain Pagar Minimalis Modern",
+          "content": "Desain pagar minimalis modern memiliki beberapa <strong>kelebihan</strong> yang dapat Anda pertimbangkan. Pertama, desain pagar minimalis modern dapat <strong>meningkatkan nilai estetika</strong> rumah Anda. Kedua, desain pagar minimalis modern dapat <strong>memberikan keamanan</strong> yang maksimal. Ketiga, desain pagar minimalis modern dapat <strong>memudahkan</strong> Anda dalam memelihara dan merawat pagar. <br> Berikut beberapa <strong>kelebihan</strong> lainnya: <ul> <li>Desain pagar minimalis modern dapat <strong>meningkatkan privasi</strong> Anda</li> <li>Desain pagar minimalis modern dapat <strong>memudahkan</strong> Anda dalam mengakses rumah Anda</li> <li>Desain pagar minimalis modern dapat <strong>meningkatkan nilai jual</strong> rumah Anda</li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah <strong>perusahaan yang berpengalaman</strong> dalam menyediakan desain pagar minimalis modern yang berkualitas. Kami memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam menyediakan jasa pembuatan pagar minimalis modern. Kami juga memiliki <strong>tim yang profesional</strong> dan <strong>berpengalaman</strong> dalam menyediakan jasa pembuatan pagar minimalis modern. <br> Berikut beberapa <strong>alasan</strong> mengapa Anda harus memilih Mandiri Steel: <ul> <li>Kami memiliki <strong>pengalaman yang luas</strong> dalam menyediakan jasa pembuatan pagar minimalis modern</li> <li>Kami memiliki <strong>tim yang profesional</strong> dan <strong>berpengalaman</strong> dalam menyediakan jasa pembuatan pagar minimalis modern</li> <li>Kami memiliki <strong>garansi</strong> yang memadai untuk jasa pembuatan pagar minimalis modern</li> </ul>",
+          "productId": 4
+        },
+        {
+          "heading": "Layanan Mandiri Steel di Bekasi dan Cikarang",
+          "content": "Mandiri Steel menyediakan <strong>layanan</strong> pembuatan pagar minimalis modern di <strong>Bekasi</strong> dan <strong>Cikarang</strong>. Kami memiliki <strong>tim yang profesional</strong> dan <strong>berpengalaman</strong> dalam menyediakan jasa pembuatan pagar minimalis modern. Kami juga memiliki <strong>garansi</strong> yang memadai untuk jasa pembuatan pagar minimalis modern. <br> Berikut beberapa <strong>layanan</strong> yang kami sediakan: <ul> <li>Pembuatan pagar minimalis modern</li> <li>Pembuatan kanopi minimalis</li> <li>Pembuatan teralis jendela minimalis</li> </ul> <br> Kami melayani <strong>berbagai daerah</strong> di Bekasi dan Cikarang, termasuk <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, dan <strong>Grand Wisata</strong>.",
+          "productId": 5
+        }
+      ],
+      "conclusion": "Dalam memilih desain pagar minimalis modern, ada beberapa <strong>tips</strong> yang perlu Anda perhatikan. Pastikan Anda memilih desain yang <strong>sesuai dengan gaya rumah</strong> Anda dan <strong>memiliki fitur keamanan</strong> yang memadai. Jangan ragu untuk <strong>menghubungi Mandiri Steel</strong> untuk mendapatkan informasi lebih lanjut tentang desain pagar minimalis modern dan layanan yang kami sediakan."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 72,
+    "title": "Struktur Baja untuk Lapangan Futsal dan Badminton Indoor",
+    "slug": "struktur-baja-lapangan-futsal-dan-badminton-indoor",
+    "excerpt": "Membangun lapangan futsal dan badminton indoor dengan struktur baja yang kuat dan tahan lama di Bekasi dan Cikarang",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-30",
+    "image": "https://images.unsplash.com/photo-1572454181157-0b40dd7667fe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpbmRvb3IlMjBzcG9ydHMlMjBoYWxsJTIwd2l0aCUyMHN0ZWVsJTIwc3RydWN0dXJlfGVufDB8MHx8fDE3ODU0MDkzNjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Lapangan futsal dan badminton indoor menjadi salah satu fasilitas olahraga yang paling diminati di Indonesia, terutama di daerah Bekasi dan Cikarang. <strong>Struktur baja</strong> menjadi pilihan utama dalam membangun lapangan indoor karena kekuatan dan ketahanannya. Dalam artikel ini, kita akan membahas tentang pentingnya struktur baja dalam membangun lapangan futsal dan badminton indoor, serta tips dan contoh nyata dalam memilih dan merancang struktur baja yang tepat.",
+      "keyPoints": [
+        "Struktur baja untuk lapangan futsal dan badminton indoor",
+        "Kelebihan struktur baja dalam membangun lapangan indoor",
+        "Tips dalam memilih dan merancang struktur baja yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Struktur Baja untuk Lapangan Futsal dan Badminton Indoor",
+          "content": "Lapangan futsal dan badminton indoor memerlukan struktur yang kuat dan tahan lama untuk menopang atap dan dinding. <strong>Struktur baja</strong> menjadi pilihan utama karena kekuatan dan ketahanannya. Struktur baja dapat dibuat dengan berbagai bentuk dan ukuran, sehingga dapat disesuaikan dengan kebutuhan lapangan. <br> Beberapa kelebihan struktur baja dalam membangun lapangan indoor adalah: <ul> <li>Kuat dan tahan lama</li> <li>Tahan terhadap cuaca dan kelembaban</li> <li>Dapat dibuat dengan berbagai bentuk dan ukuran</li> </ul>",
+          "imageSearchQuery": "steel structure for indoor sports hall",
+          "image": "https://images.unsplash.com/photo-1771909720886-a90afd1b37f5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMHN0cnVjdHVyZSUyMGZvciUyMGluZG9vciUyMHNwb3J0cyUyMGhhbGx8ZW58MHwwfHx8MTc4NTQwOTM2MXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tips dalam Memilih Struktur Baja yang Tepat",
+          "content": "Dalam memilih struktur baja untuk lapangan futsal dan badminton indoor, ada beberapa hal yang perlu dipertimbangkan. <strong>Bahan</strong> menjadi salah satu faktor penting dalam memilih struktur baja. Bahan yang digunakan harus kuat dan tahan lama, seperti baja SNI. <br> Selain itu, perlu mempertimbangkan <strong>ukuran</strong> dan <strong>bentuk</strong> struktur baja. Ukuran dan bentuk struktur baja harus disesuaikan dengan kebutuhan lapangan. <br> Beberapa tips dalam memilih struktur baja yang tepat adalah: <ul> <li>Pilih bahan yang kuat dan tahan lama</li> <li>Pertimbangkan ukuran dan bentuk struktur baja</li> <li>Periksa kualitas struktur baja sebelum membeli</li> </ul>",
+          "productId": 7
+        },
+        {
+          "heading": "3. Contoh Nyata Struktur Baja untuk Lapangan Futsal dan Badminton Indoor",
+          "content": "Berikut adalah contoh nyata struktur baja untuk lapangan futsal dan badminton indoor di Bekasi dan Cikarang. <strong>Lapangan Futsal di Bekasi</strong> menggunakan struktur baja dengan ukuran 20x40 meter. Struktur baja ini dapat menopang atap dan dinding dengan kuat dan tahan lama. <br> <strong>Lapangan Badminton di Cikarang</strong> menggunakan struktur baja dengan ukuran 15x30 meter. Struktur baja ini dapat menopang atap dan dinding dengan kuat dan tahan lama. <br> Kedua contoh nyata di atas menunjukkan bahwa struktur baja dapat dibuat dengan berbagai bentuk dan ukuran, sehingga dapat disesuaikan dengan kebutuhan lapangan.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Perawatan dan Pemeliharaan Struktur Baja",
+          "content": "Struktur baja memerlukan perawatan dan pemeliharaan yang rutin untuk menjaga kekuatan dan ketahanannya. <strong>Pembersihan</strong> menjadi salah satu hal yang perlu dilakukan secara rutin. Pembersihan dapat dilakukan dengan menggunakan air dan sabun. <br> Selain itu, perlu <strong>memeriksa</strong> struktur baja secara rutin untuk mengetahui apakah ada kerusakan atau tidak. Jika ada kerusakan, perlu segera diperbaiki untuk menjaga kekuatan dan ketahanan struktur baja. <br> Beberapa tips dalam perawatan dan pemeliharaan struktur baja adalah: <ul> <li>Lakukan pembersihan secara rutin</li> <li>Periksa struktur baja secara rutin</li> <li>Perbaiki kerusakan segera</li> </ul>",
+          "productId": 6
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Struktur Baja?",
+          "content": "Mandiri Steel menjadi salah satu pilihan utama dalam memilih struktur baja untuk lapangan futsal dan badminton indoor. <strong>Pengalaman</strong> menjadi salah satu faktor penting dalam memilih Mandiri Steel. Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam memproduksi struktur baja. <br> Selain itu, <strong>bahan</strong> yang digunakan oleh Mandiri Steel adalah bahan yang kuat dan tahan lama, seperti baja SNI. <br> Beberapa kelebihan Mandiri Steel adalah: <ul> <li>Pengalaman lebih dari 25 tahun</li> <li>Bahan yang kuat dan tahan lama</li> <li>Garansi struktural</li> </ul>",
+          "productId": 7
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas, termasuk Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <strong>Tim</strong> yang profesional dan berpengalaman menjadi salah satu kelebihan Mandiri Steel. Tim Mandiri Steel dapat membantu Anda dalam memilih dan merancang struktur baja yang tepat untuk lapangan futsal dan badminton indoor. <br> Beberapa kelebihan area layanan Mandiri Steel adalah: <ul> <li>Area layanan yang luas</li> <li>Tim yang profesional dan berpengalaman</li> <li>Garansi struktural</li> </ul>",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dalam membangun lapangan futsal dan badminton indoor, struktur baja menjadi salah satu faktor penting yang perlu dipertimbangkan. Dengan memilih struktur baja yang tepat dan melakukan perawatan dan pemeliharaan yang rutin, Anda dapat memiliki lapangan yang kuat dan tahan lama. Mandiri Steel menjadi salah satu pilihan utama dalam memilih struktur baja untuk lapangan futsal dan badminton indoor. Dengan pengalaman lebih dari 25 tahun dan bahan yang kuat dan tahan lama, Mandiri Steel dapat membantu Anda dalam memilih dan merancang struktur baja yang tepat untuk lapangan futsal dan badminton indoor. Hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang struktur baja untuk lapangan futsal dan badminton indoor."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 67,
     "title": "Kanopi Besi Anti Karat",
     "slug": "cara-merawat-kanopi-besi-tahan-karat",
