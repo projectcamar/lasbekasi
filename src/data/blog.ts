@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 73,
+    "title": "Survei Lokasi Gratis untuk Kanopi dan Pagar di Bekasi",
+    "slug": "survei-lokasi-gratis-untuk-kanopi-dan-pagar-di-bekasi",
+    "excerpt": "Dapatkan survei lokasi gratis untuk kanopi dan pagar di Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria dari Mandiri Steel",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-31",
+    "image": "https://images.unsplash.com/photo-1772787429449-40e8666a571e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGZhYnJpY2F0aW9uJTIwd29ya3Nob3AlMjBpbiUyMEluZG9uZXNpYXxlbnwwfDB8fHwxNzg1NDk1NjA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Mandiri Steel</strong> menyediakan survei lokasi gratis untuk area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria. Kami memahami bahwa setiap lokasi memiliki keunikan dan kebutuhan yang berbeda-beda. Oleh karena itu, kami menawarkan survei lokasi gratis untuk membantu Anda menentukan kebutuhan kanopi dan pagar yang tepat untuk rumah atau bangunan Anda. Dengan lebih dari 25 tahun pengalaman, kami telah melayani berbagai klien di wilayah Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang.",
+      "keyPoints": [
+        "Survei lokasi gratis untuk area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria",
+        "Kanopi dan pagar yang dirancang sesuai dengan kebutuhan dan lokasi",
+        "Bahan-bahan yang digunakan adalah SNI yang memenuhi standar kualitas"
+      ],
+      "sections": [
+        {
+          "heading": "Mengapa Survei Lokasi Gratis Penting?",
+          "content": "Survei lokasi gratis sangat penting karena dapat membantu Anda menentukan kebutuhan kanopi dan pagar yang tepat untuk rumah atau bangunan Anda. Dengan melakukan survei lokasi, kami dapat mengetahui kondisi tanah, cuaca, dan kebutuhan lainnya yang dapat mempengaruhi desain dan konstruksi kanopi dan pagar. Kami juga dapat mengetahui apakah ada batasan atau regulasi yang perlu dipenuhi dalam proses konstruksi. <br> <strong>Mandiri Steel</strong> telah melakukan survei lokasi untuk berbagai klien di wilayah Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Kami memiliki pengalaman yang luas dalam menangani berbagai jenis proyek, dari yang kecil hingga yang besar. <br> Dengan survei lokasi gratis, Anda dapat memiliki gambaran yang lebih jelas tentang kebutuhan kanopi dan pagar Anda, serta biaya yang diperlukan untuk proyek tersebut.",
+          "imageSearchQuery": "steel fabrication process",
+          "image": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGZhYnJpY2F0aW9uJTIwcHJvY2Vzc3xlbnwwfDB8fHwxNzg1NDk1NjA5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Kelebihan Survei Lokasi Gratis dari Mandiri Steel",
+          "content": "Survei lokasi gratis dari <strong>Mandiri Steel</strong> memiliki beberapa kelebihan, antara lain: <ul> <li>Gratis, tanpa biaya tambahan</li> <li>Dilakukan oleh tim yang berpengalaman dan profesional</li> <li>Menggunakan peralatan yang canggih dan akurat</li> <li>Memberikan hasil yang detail dan akurat</li> </ul> Kami juga menawarkan garansi struktural untuk semua proyek yang kami tangani, sehingga Anda dapat memiliki ketenangan pikiran bahwa proyek Anda akan selesai dengan baik dan sesuai dengan standar kualitas yang tinggi.",
+          "productId": 1
+        },
+        {
+          "heading": "Tips dalam Memilih Kanopi dan Pagar yang Tepat",
+          "content": "Dalam memilih kanopi dan pagar yang tepat, ada beberapa hal yang perlu dipertimbangkan, antara lain: <ul> <li>Jenis bahan yang digunakan</li> <li>Desain dan warna</li> <li>Ukuran dan bentuk</li> <li>Biaya dan anggaran</li> </ul> Kami menawarkan berbagai jenis kanopi dan pagar yang dapat disesuaikan dengan kebutuhan dan budget Anda. Dari kanopi minimalis hingga pagar stainless steel, kami memiliki semua yang Anda butuhkan. <br> Dengan <strong>Mandiri Steel</strong>, Anda dapat memiliki kanopi dan pagar yang tidak hanya fungsional, tetapi juga estetis dan memenuhi standar kualitas yang tinggi.",
+          "productId": 3
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "<strong>Mandiri Steel</strong> telah berpengalaman lebih dari 25 tahun dalam industri baja dan konstruksi. Kami telah melayani berbagai klien di wilayah Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Kami memiliki tim yang berpengalaman dan profesional, serta peralatan yang canggih dan akurat. <br> Kami juga menawarkan garansi struktural untuk semua proyek yang kami tangani, sehingga Anda dapat memiliki ketenangan pikiran bahwa proyek Anda akan selesai dengan baik dan sesuai dengan standar kualitas yang tinggi. <br> Dengan <strong>Mandiri Steel</strong>, Anda dapat memiliki kanopi dan pagar yang tidak hanya fungsional, tetapi juga estetis dan memenuhi standar kualitas yang tinggi.",
+          "productId": 7
+        },
+        {
+          "heading": "Area Layanan Mandiri Steel",
+          "content": "Kami melayani berbagai area di wilayah Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Kami juga melayani area lainnya di sekitar Bekasi, seperti Babelan, Tarumajaya, dan Medan Satria. <br> Dengan <strong>Mandiri Steel</strong>, Anda dapat memiliki kanopi dan pagar yang tidak hanya fungsional, tetapi juga estetis dan memenuhi standar kualitas yang tinggi. Kami berkomitmen untuk memberikan pelayanan yang terbaik dan memuaskan kebutuhan Anda.",
+          "productId": 8
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Dengan survei lokasi gratis dari <strong>Mandiri Steel</strong>, Anda dapat memiliki gambaran yang lebih jelas tentang kebutuhan kanopi dan pagar Anda, serta biaya yang diperlukan untuk proyek tersebut. Kami menawarkan berbagai jenis kanopi dan pagar yang dapat disesuaikan dengan kebutuhan dan budget Anda. <br> Jika Anda membutuhkan kanopi dan pagar yang fungsional, estetis, dan memenuhi standar kualitas yang tinggi, maka <strong>Mandiri Steel</strong> adalah pilihan yang tepat. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut dan melakukan survei lokasi gratis."
+        }
+      ],
+      "conclusion": "<strong>Mandiri Steel</strong> adalah pilihan yang tepat untuk semua kebutuhan kanopi dan pagar Anda. Dengan survei lokasi gratis, kami dapat membantu Anda menentukan kebutuhan yang tepat dan memberikan hasil yang memuaskan. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut dan melakukan survei lokasi gratis."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 74,
+    "title": "Teralis Besi untuk Keamanan Rumah",
+    "slug": "teralis-besi-untuk-keamanan-rumah",
+    "excerpt": "Pilih teralis besi yang tepat untuk keamanan rumah Anda di Bekasi dan Jabodetabek",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-31",
+    "image": "https://images.unsplash.com/photo-1669338288125-c3aef5d3996a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwYmVzaSUyMHJ1bWFofGVufDB8MHx8fDE3ODU0OTU2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Keamanan rumah merupakan salah satu hal yang paling penting bagi pemilik rumah. Salah satu cara untuk meningkatkan keamanan rumah adalah dengan memasang teralis besi. <strong>Teralis besi</strong> dapat membantu mencegah pencurian dan vandalisme, serta memberikan rasa aman dan nyaman bagi penghuni rumah. Dalam artikel ini, kita akan membahas perbandingan antara <strong>teralis besi ulir</strong>, <strong>besi behel</strong>, dan <strong>stainless steel</strong> untuk keamanan rumah.",
+      "keyPoints": [
+        "Teralis besi ulir lebih kuat dan tahan lama",
+        "Besi behel lebih fleksibel dan mudah dipasang",
+        "Stainless steel lebih tahan karat dan mudah dibersihkan"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Teralis Besi dan Jenis-Jenisnya",
+          "content": "Teralis besi adalah sebuah struktur yang dipasang di jendela atau pintu rumah untuk meningkatkan keamanan. <strong>Teralis besi</strong> terbuat dari bahan besi yang kuat dan tahan lama, sehingga dapat membantu mencegah pencurian dan vandalisme. Ada beberapa jenis teralis besi yang umum digunakan, yaitu <strong>teralis besi ulir</strong>, <strong>besi behel</strong>, dan <strong>stainless steel</strong>. Masing-masing jenis memiliki kelebihan dan kekurangan yang berbeda-beda. <br> <br> Sebagai contoh, di daerah <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>, banyak rumah yang menggunakan teralis besi ulir karena kekuatannya yang tinggi dan tahan lama. Namun, di daerah yang memiliki tingkat kelembaban yang tinggi, seperti <strong>Cikarang</strong> dan <strong>Tambun</strong>, stainless steel mungkin lebih cocok karena tahan karatnya.",
+          "imageSearchQuery": "teralis besi ulir"
+        },
+        {
+          "heading": "2. Kelebihan dan Kekurangan Teralis Besi Ulir",
+          "content": "Teralis besi ulir memiliki beberapa kelebihan, seperti <strong>kuat dan tahan lama</strong>, <strong>mudah dipasang</strong>, dan <strong>harganya yang relatif murah</strong>. Namun, teralis besi ulir juga memiliki beberapa kekurangan, seperti <strong>beratnya yang cukup besar</strong> dan <strong>perlu perawatan yang rutin</strong>. <br> <br> Berikut beberapa tips untuk memilih teralis besi ulir yang tepat: <ul> <li>Pilih teralis besi ulir yang terbuat dari bahan yang kuat dan tahan lama</li> <li>Perhatikan ukuran dan bentuk teralis besi ulir yang sesuai dengan kebutuhan rumah Anda</li> <li>Pastikan teralis besi ulir dipasang dengan benar dan kuat</li> </ul>",
+          "productId": 5
+        },
+        {
+          "heading": "3. Kelebihan dan Kekurangan Besi Behel",
+          "content": "Besi behel memiliki beberapa kelebihan, seperti <strong>fleksibel dan mudah dipasang</strong>, <strong>ringan dan tidak terlalu berat</strong>, dan <strong>harganya yang relatif murah</strong>. Namun, besi behel juga memiliki beberapa kekurangan, seperti <strong>kurang kuat dan tahan lama</strong> dan <strong>perlu perawatan yang rutin</strong>. <br> <br> Berikut beberapa contoh penggunaan besi behel di daerah <strong>Cibitung</strong> dan <strong>Jababeka</strong>: besi behel dapat digunakan sebagai teralis jendela atau pintu, serta dapat digunakan sebagai dekorasi rumah. Namun, perlu diingat bahwa besi behel tidak sekuat teralis besi ulir, sehingga perlu dipasang dengan benar dan kuat.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Kelebihan dan Kekurangan Stainless Steel",
+          "content": "Stainless steel memiliki beberapa kelebihan, seperti <strong>tahan karat dan mudah dibersihkan</strong>, <strong>kuat dan tahan lama</strong>, dan <strong>harganya yang relatif mahal</strong>. Namun, stainless steel juga memiliki beberapa kekurangan, seperti <strong>harganya yang relatif mahal</strong> dan <strong>perlu perawatan yang rutin</strong>. <br> <br> Berikut beberapa tips untuk memilih stainless steel yang tepat: <ul> <li>Pilih stainless steel yang terbuat dari bahan yang kuat dan tahan lama</li> <li>Perhatikan ukuran dan bentuk stainless steel yang sesuai dengan kebutuhan rumah Anda</li> <li>Pastikan stainless steel dipasang dengan benar dan kuat</li> </ul>",
+          "productId": 8
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Teralis Besi?",
+          "content": "Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam produksi dan pemasangan teralis besi. Kami menggunakan bahan-bahan yang kuat dan tahan lama, serta memiliki tim yang profesional dan berpengalaman. <br> <br> Berikut beberapa kelebihan memilih Mandiri Steel: <ul> <li>Kualitas produk yang tinggi</li> <li>Harga yang kompetitif</li> <li>Pelayanan yang baik dan profesional</li> </ul> <br> <br> Kami juga menawarkan <strong>garansi struktural</strong> untuk semua produk kami, sehingga Anda dapat memiliki ketenangan pikiran dan kepercayaan diri saat memilih Mandiri Steel.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel melayani wilayah <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Kami juga melayani wilayah lain di <strong>Jabodetabek</strong> dan sekitarnya. <br> <br> Jika Anda memiliki pertanyaan atau ingin melakukan pemesanan, silakan hubungi kami melalui telepon atau email. Kami akan dengan senang hati membantu Anda dalam memilih teralis besi yang tepat untuk keamanan rumah Anda."
+        }
+      ],
+      "conclusion": "Dalam memilih teralis besi untuk keamanan rumah, ada beberapa hal yang perlu dipertimbangkan, seperti kekuatan, tahan lama, dan harga. <strong>Teralis besi ulir</strong>, <strong>besi behel</strong>, dan <strong>stainless steel</strong> memiliki kelebihan dan kekurangan yang berbeda-beda. Dengan memilih Mandiri Steel, Anda dapat memiliki ketenangan pikiran dan kepercayaan diri bahwa teralis besi yang Anda pilih adalah yang terbaik untuk keamanan rumah Anda. <br> <br> Jangan ragu untuk menghubungi kami jika Anda memiliki pertanyaan atau ingin melakukan pemesanan. Kami akan dengan senang hati membantu Anda dalam memilih teralis besi yang tepat untuk keamanan rumah Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 75,
+    "title": "Railing Kaca Tempered: Keamanan, Estetika, dan Biaya",
+    "slug": "railing-kaca-tempered-keamanan-estetika-dan-biaya",
+    "excerpt": "Railing kaca tempered untuk tangga modern: keamanan, estetika, dan biaya di Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-07-31",
+    "image": "https://images.unsplash.com/photo-1603324495752-c08519fb18db?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwa2FjYSUyMHRlbXBlcmVkJTIwbW9kZXJufGVufDB8MHx8fDE3ODU0OTU3NTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing kaca tempered telah menjadi pilihan populer untuk tangga modern di Bekasi dan sekitarnya. <strong>Keamanan</strong>, <strong>estetika</strong>, dan <strong>biaya</strong> adalah beberapa faktor yang perlu dipertimbangkan saat memilih railing untuk tangga. Dalam artikel ini, kita akan membahas tentang railing kaca tempered dan bagaimana ia dapat memenuhi kebutuhan Anda.",
+      "keyPoints": [
+        "Railing kaca tempered menawarkan keamanan yang tinggi",
+        "Railing kaca tempered memiliki estetika yang modern dan elegan",
+        "Railing kaca tempered dapat disesuaikan dengan budget"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept: Railing Kaca Tempered",
+          "content": "Railing kaca tempered adalah jenis railing yang terbuat dari kaca tempered yang kuat dan tahan lama. <strong>Kaca tempered</strong> adalah kaca yang telah diproses untuk meningkatkan kekuatannya dan membuatnya lebih tahan terhadap panas dan dingin. Railing kaca tempered dapat digunakan untuk tangga indoor dan outdoor, dan dapat disesuaikan dengan gaya arsitektur yang berbeda-beda. <br><br> Di Bekasi, railing kaca tempered telah menjadi pilihan populer untuk rumah-rumah modern dan gedung-gedung komersial. <strong>Keamanan</strong> dan <strong>estetika</strong> adalah dua faktor yang paling penting dalam memilih railing untuk tangga. Railing kaca tempered dapat memenuhi kebutuhan ini dengan baik.",
+          "imageSearchQuery": "railing kaca tempered indoor",
+          "image": "https://images.unsplash.com/photo-1780369087687-a78822c1632f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwa2FjYSUyMHRlbXBlcmVkJTIwaW5kb29yfGVufDB8MHx8fDE3ODU0OTU3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Benefits: Keamanan dan Estetika",
+          "content": "Railing kaca tempered menawarkan beberapa keuntungan, termasuk <strong>keamanan</strong> yang tinggi dan <strong>estetika</strong> yang modern dan elegan. Railing kaca tempered dapat membantu mencegah kecelakaan dengan menyediakan barrier yang kuat dan tahan lama. Selain itu, railing kaca tempered juga dapat meningkatkan nilai estetika sebuah bangunan dengan memberikan tampilan yang modern dan elegan. <br><br> Di Cikarang, railing kaca tempered telah menjadi pilihan populer untuk rumah-rumah mewah dan gedung-gedung komersial. <strong>Biaya</strong> adalah faktor yang perlu dipertimbangkan saat memilih railing untuk tangga. Railing kaca tempered dapat disesuaikan dengan budget, dan dapat menjadi pilihan yang lebih ekonomis daripada railing lainnya.",
+          "productId": 6
+        },
+        {
+          "heading": "3. Tips/Guides: Memilih Railing Kaca Tempered",
+          "content": "Berikut beberapa tips yang perlu dipertimbangkan saat memilih railing kaca tempered: <ul><li>Pilih railing kaca tempered yang terbuat dari kaca tempered yang berkualitas tinggi</li><li>Pertimbangkan ukuran dan bentuk railing kaca tempered yang sesuai dengan tangga Anda</li><li>Pilih railing kaca tempered yang memiliki desain yang modern dan elegan</li></ul> <br><br> Di Tambun, railing kaca tempered telah menjadi pilihan populer untuk rumah-rumah modern dan gedung-gedung komersial. <strong>Mandiri Steel</strong> adalah salah satu penyedia railing kaca tempered yang terpercaya di Bekasi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel dapat membantu Anda memilih railing kaca tempered yang sesuai dengan kebutuhan Anda.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Maintenance: Perawatan Railing Kaca Tempered",
+          "content": "Railing kaca tempered memerlukan perawatan yang rutin untuk menjaga keamanan dan estetika. Berikut beberapa tips perawatan railing kaca tempered: <ul><li>Bersihkan railing kaca tempered secara teratur dengan air dan sabun</li><li>Periksa railing kaca tempered secara teratur untuk memastikan bahwa tidak ada kerusakan</li><li>Lakukan perawatan yang lebih lanjut jika diperlukan</li></ul> <br><br> Di Cibitung, railing kaca tempered telah menjadi pilihan populer untuk rumah-rumah modern dan gedung-gedung komersial. <strong>Mandiri Steel</strong> dapat membantu Anda dengan perawatan railing kaca tempered dan memberikan garansi struktural yang kuat."
+        },
+        {
+          "heading": "5. Why Choose Mandiri Steel: Pengalaman dan Kualitas",
+          "content": "Mandiri Steel telah menjadi salah satu penyedia railing kaca tempered yang terpercaya di Bekasi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel dapat membantu Anda memilih railing kaca tempered yang sesuai dengan kebutuhan Anda. <strong>Pengalaman</strong> dan <strong>kualitas</strong> adalah dua faktor yang paling penting dalam memilih penyedia railing kaca tempered. Mandiri Steel dapat memberikan garansi struktural yang kuat dan perawatan yang rutin untuk menjaga keamanan dan estetika railing kaca tempered.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Service Areas: Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel dapat melayani kebutuhan railing kaca tempered di Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <strong>Biaya</strong> dan <strong>waktu</strong> adalah dua faktor yang perlu dipertimbangkan saat memilih penyedia railing kaca tempered. Mandiri Steel dapat memberikan penawaran yang kompetitif dan waktu yang cepat untuk memenuhi kebutuhan Anda."
+        }
+      ],
+      "conclusion": "Railing kaca tempered adalah pilihan yang tepat untuk tangga modern di Bekasi dan sekitarnya. Dengan keamanan yang tinggi, estetika yang modern dan elegan, dan biaya yang dapat disesuaikan dengan budget, railing kaca tempered dapat memenuhi kebutuhan Anda. <strong>Mandiri Steel</strong> dapat membantu Anda memilih railing kaca tempered yang sesuai dengan kebutuhan Anda dan memberikan garansi struktural yang kuat. Hubungi Mandiri Steel hari ini untuk mendapatkan penawaran yang kompetitif dan waktu yang cepat."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 70,
     "title": "Layanan Las untuk Perumahan",
     "slug": "layanan-las-untuk-perumahan",
