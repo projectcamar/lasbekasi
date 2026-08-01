@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 76,
+    "title": "Teralis Jendela Rumah Bertingkat",
+    "slug": "teralis-jendela-rumah-bertingkat-keamanan-anak",
+    "excerpt": "Teralis jendela untuk lantai 2 dan 3: pertimbangan keamanan anak di rumah bertingkat",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-01",
+    "image": "https://images.unsplash.com/photo-1774449583908-a1679fcb9f11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpcm9uJTIwd2luZG93JTIwZ3JpbGwlMjBkZXNpZ258ZW58MHwwfHx8MTc4NTU4MjAwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah bertingkat menjadi pilihan banyak orang karena dapat memaksimalkan lahan yang tersedia. Namun, <strong>keamanan anak</strong> di rumah bertingkat harus menjadi prioritas. <strong>Teralis jendela</strong> adalah salah satu komponen penting yang dapat membantu mencegah kecelakaan dan <strong>mengamankan anak-anak</strong> di rumah. Dalam artikel ini, kita akan membahas tentang <strong>pentingnya teralis jendela</strong> di rumah bertingkat dan <strong>tips memilih teralis jendela</strong> yang tepat.",
+      "keyPoints": [
+        "Teralis jendela sebagai komponen keamanan anak di rumah bertingkat",
+        "Pertimbangan dalam memilih teralis jendela yang tepat",
+        "Tips memasang teralis jendela untuk maksimal keamanan"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Teralis Jendela dan Fungsinya",
+          "content": "Teralis jendela adalah struktur yang dipasang di jendela untuk mencegah jatuh atau terjatuh dari ketinggian. <strong>Fungsi utama teralis jendela</strong> adalah untuk <strong>mengamankan anak-anak</strong> dan <strong>mencegah kecelakaan</strong>. Dalam memilih teralis jendela, perlu mempertimbangkan <strong>ukuran jendela</strong>, <strong>bahan</strong>, dan <strong>desain</strong>. <br><br>Di daerah Bekasi, Cikarang, dan Tambun, banyak rumah bertingkat yang memerlukan teralis jendela yang kuat dan tahan lama. <strong>Mandiri Steel</strong> menawarkan berbagai pilihan teralis jendela yang dapat disesuaikan dengan kebutuhan Anda.",
+          "imageSearchQuery": "iron window grill design",
+          "image": "https://images.unsplash.com/photo-1774449583908-a1679fcb9f11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpcm9uJTIwd2luZG93JTIwZ3JpbGwlMjBkZXNpZ258ZW58MHwwfHx8MTc4NTU4MjAwOXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Pertimbangan dalam Memilih Teralis Jendela",
+          "content": "Dalam memilih teralis jendela, perlu mempertimbangkan beberapa faktor, seperti <strong>ukuran jendela</strong>, <strong>bahan</strong>, dan <strong>desain</strong>. <strong>Bahan</strong> yang digunakan harus kuat dan tahan lama, seperti <strong>baja</strong> atau <strong>aluminium</strong>. <strong>Desain</strong> teralis jendela juga harus sesuai dengan <strong>arsitektur rumah</strong> dan <strong>selera</strong> Anda. <br><br>Di area Jababeka, MM2100, dan Grand Wisata, banyak rumah modern yang memerlukan teralis jendela yang minimalis dan elegan. <strong>Mandiri Steel</strong> dapat membantu Anda memilih teralis jendela yang sesuai dengan kebutuhan Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Tips Memasang Teralis Jendela untuk Maksimal Keamanan",
+          "content": "Memasang teralis jendela yang tepat dapat membantu <strong>mengamankan anak-anak</strong> dan <strong>mencegah kecelakaan</strong>. Berikut beberapa <strong>tips memasang teralis jendela</strong>: <ul><li>Pastikan teralis jendela dipasang dengan <strong>kuat</strong> dan <strong>tepat</strong>.</li><li>Pilih <strong>bahan</strong> yang kuat dan tahan lama.</li><li>Periksa <strong>teralis jendela</strong> secara teratur untuk memastikan keamanan.</li></ul> Di area Cibitung, Cikarang, dan Bekasi, <strong>Mandiri Steel</strong> dapat membantu Anda memasang teralis jendela yang tepat dan aman.",
+          "productId": 5
+        },
+        {
+          "heading": "4. Mengapa Memilih Mandiri Steel untuk Teralis Jendela?",
+          "content": "Mandiri Steel telah berpengalaman lebih dari <strong>25 tahun</strong> dalam produksi dan pemasangan teralis jendela. Kami menggunakan <strong>bahan SNI</strong> yang kuat dan tahan lama, serta menawarkan <strong>garansi struktural</strong> untuk memastikan keamanan Anda. <br><br>Di area Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang, <strong>Mandiri Steel</strong> telah membantu banyak pelanggan memilih dan memasang teralis jendela yang tepat. Kami juga menawarkan <strong>survei gratis</strong> untuk memastikan keamanan dan kenyamanan Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "5. Layanan dan Produk Mandiri Steel",
+          "content": "Mandiri Steel menawarkan berbagai <strong>layanan</strong> dan <strong>produk</strong> untuk memenuhi kebutuhan Anda, seperti <strong>teralis jendela</strong>, <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>railing</strong>. Kami juga menawarkan <strong>desain</strong> dan <strong>konstruksi</strong> yang sesuai dengan kebutuhan Anda. <br><br>Di area Bekasi, Cikarang, dan Tambun, <strong>Mandiri Steel</strong> dapat membantu Anda memilih dan memasang produk yang tepat. Kami juga menawarkan <strong>garansi</strong> dan <strong>pelayanan</strong> yang baik untuk memastikan kepuasan Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel melayani berbagai area di Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Kami dapat membantu Anda memilih dan memasang teralis jendela yang tepat dan aman. <br><br>Untuk informasi lebih lanjut, silakan <strong>hubungi</strong> kami. Kami akan dengan senang hati membantu Anda memenuhi kebutuhan Anda.",
+          "productId": 5
+        }
+      ],
+      "conclusion": "Dalam memilih teralis jendela untuk rumah bertingkat, perlu mempertimbangkan beberapa faktor, seperti ukuran jendela, bahan, dan desain. Mandiri Steel dapat membantu Anda memilih dan memasang teralis jendela yang tepat dan aman. Dengan pengalaman lebih dari 25 tahun dan menggunakan bahan SNI, kami dapat memastikan keamanan dan kenyamanan Anda. Silakan hubungi kami untuk informasi lebih lanjut."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 77,
+    "title": "Inspirasi Desain Kanopi Teras Rumah 2025",
+    "slug": "inspirasi-desain-kanopi-teras-rumah-2025",
+    "excerpt": "Desain kanopi teras rumah minimalis, industrial, dan klasik untuk rumah di Bekasi. Dapatkan inspirasi dari Mandiri Steel",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-01",
+    "image": "https://images.unsplash.com/photo-1784900864232-7de1c1525db0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBob3VzZSUyMGNhbm9weSUyMGRlc2lnbnxlbnwwfDB8fHwxNzg1NTgyMDgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pembangunan rumah di Bekasi dan sekitarnya seperti Cikarang, Tambun, dan Cibitung terus meningkat. Salah satu elemen penting dalam desain rumah adalah <strong>kanopi</strong>. Kanopi tidak hanya berfungsi sebagai pelindung dari sinar matahari dan hujan, tetapi juga sebagai elemen estetika yang dapat meningkatkan nilai keindahan rumah. Dalam artikel ini, kita akan membahas tentang inspirasi desain <strong>kanopi teras rumah</strong> 2025, mulai dari gaya <strong>minimalis</strong>, <strong>industrial</strong>, hingga <strong>klasik</strong>.",
+      "keyPoints": [
+        "Inspirasi desain kanopi teras rumah 2025",
+        "Gaya minimalis, industrial, dan klasik",
+        "Materi dan konstruksi yang kuat dan tahan lama"
+      ],
+      "sections": [
+        {
+          "heading": "1. Konsep Desain Kanopi Teras Rumah Minimalis",
+          "content": "Desain <strong>kanopi minimalis</strong> memiliki ciri khas yang sederhana, namun elegan. Gaya ini sangat cocok untuk rumah di Bekasi yang memiliki lahan terbatas. Dengan menggunakan <strong>materi baja ringan</strong> dan <strong>kaca tempered</strong>, kanopi minimalis dapat memberikan kesan yang luas dan modern. Contohnya, Anda dapat menggunakan <strong>Kanopi Minimalis Alderon (Kanopi - Best Seller)</strong> dari Mandiri Steel, yang memiliki desain sederhana namun kuat dan tahan lama. <br> Berikut beberapa tips untuk menerapkan desain kanopi minimalis: <ul> <li> Gunakan warna netral seperti putih, abu-abu, atau hitam </li> <li> Pilih materi yang kuat dan tahan lama </li> <li> Desain yang sederhana dan tidak terlalu banyak hiasan </li> </ul>",
+          "imageSearchQuery": "minimalist house canopy design",
+          "image": "https://images.unsplash.com/photo-1781861414621-843f3e5d7b13?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwaG91c2UlMjBjYW5vcHklMjBkZXNpZ258ZW58MHwwfHx8MTc4NTU4MjA4Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Kelebihan Desain Kanopi Teras Rumah Industrial",
+          "content": "Desain <strong>kanopi industrial</strong> memiliki ciri khas yang keras dan kokoh. Gaya ini sangat cocok untuk rumah di Bekasi yang memiliki tema industrial atau loft. Dengan menggunakan <strong>materi baja</strong> dan <strong>kayu</strong>, kanopi industrial dapat memberikan kesan yang kuat dan tahan lama. Contohnya, Anda dapat menggunakan <strong>Kanopi Kaca Tempered (Kanopi - Premium)</strong> dari Mandiri Steel, yang memiliki desain yang kuat dan tahan lama. <br> Berikut beberapa kelebihan desain kanopi industrial: <ul> <li> Kuat dan tahan lama </li> <li> Dapat memberikan kesan yang luas dan modern </li> <li> Dapat digunakan untuk rumah dengan tema industrial atau loft </li> </ul>",
+          "productId": 2
+        },
+        {
+          "heading": "3. Inspirasi Desain Kanopi Teras Rumah Klasik",
+          "content": "Desain <strong>kanopi klasik</strong> memiliki ciri khas yang elegan dan mewah. Gaya ini sangat cocok untuk rumah di Bekasi yang memiliki tema klasik atau vintage. Dengan menggunakan <strong>materi kayu</strong> dan <strong>ukiran</strong>, kanopi klasik dapat memberikan kesan yang mewah dan elegan. Contohnya, Anda dapat menggunakan <strong>Pagar Minimalis Modern (Pagar - Layanan Utama)</strong> dari Mandiri Steel, yang memiliki desain yang elegan dan mewah. <br> Berikut beberapa inspirasi desain kanopi klasik: <ul> <li> Gunakan materi kayu yang berkualitas </li> <li> Pilih desain yang elegan dan mewah </li> <li> Tambahkan hiasan seperti ukiran atau kaligrafi </li> </ul>",
+          "productId": 3
+        },
+        {
+          "heading": "4. Tips Memilih Materi Kanopi Teras Rumah",
+          "content": "Dalam memilih <strong>materi kanopi</strong>, ada beberapa hal yang perlu dipertimbangkan. Pertama, pastikan materi yang dipilih kuat dan tahan lama. Kedua, pilih materi yang sesuai dengan tema dan desain rumah. Ketiga, pertimbangkan biaya dan budget. <br> Berikut beberapa tips memilih materi kanopi: <ul> <li> Pilih materi yang kuat dan tahan lama </li> <li> Sesuaikan materi dengan tema dan desain rumah </li> <li> Pertimbangkan biaya dan budget </li> </ul>"
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Kanopi Teras Rumah?",
+          "content": "Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam produksi dan pemasangan <strong>kanopi</strong> dan <strong>pagar</strong>. Dengan menggunakan <strong>materi SNI</strong> dan <strong>konstruksi yang kuat</strong>, Mandiri Steel dapat memberikan kesan yang kuat dan tahan lama. Selain itu, Mandiri Steel juga menawarkan <strong>garansi struktural</strong> dan <strong>survey gratis</strong> untuk memastikan kepuasan pelanggan. <br> Berikut beberapa alasan mengapa memilih Mandiri Steel: <ul> <li> Pengalaman lebih dari 25 tahun </li> <li> Materi SNI dan konstruksi yang kuat </li> <li> Garansi struktural dan survey gratis </li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "6. Area Pelayanan Mandiri Steel",
+          "content": "Mandiri Steel melayani pemasangan <strong>kanopi</strong> dan <strong>pagar</strong> di seluruh wilayah Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Dengan tim yang profesional dan berpengalaman, Mandiri Steel dapat memberikan pelayanan yang cepat dan memuaskan. <br> Berikut beberapa wilayah yang dilayani: <ul> <li> Bekasi </li> <li> Cikarang </li> <li> Tambun </li> <li> Cibitung </li> <li> Jababeka </li> <li> MM2100 </li> <li> Grand Wisata </li> <li> Summarecon Bekasi </li> <li> Kota Deltamas </li> <li> Lippo Cikarang </li> </ul>"
+        }
+      ],
+      "conclusion": "Dalam memilih desain kanopi teras rumah, ada beberapa hal yang perlu dipertimbangkan, termasuk tema, materi, dan konstruksi. Dengan memilih Mandiri Steel, Anda dapat mendapatkan kanopi yang kuat, tahan lama, dan sesuai dengan kebutuhan Anda. Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang desain kanopi teras rumah 2025."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 78,
+    "title": "Konstruksi Baja Bekasi",
+    "slug": "konstruksi-baja-bekasi",
+    "excerpt": "Layanan konstruksi baja untuk proyek di koridor Jalan Raya Setu-Cibitung Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-01",
+    "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMGJla2FzaXxlbnwwfDB8fHwxNzg1NTgyMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, koridor Jalan Raya Setu-Cibitung Bekasi telah mengalami pertumbuhan yang pesat dalam hal pembangunan infrastruktur dan proyek konstruksi. <strong>Konstruksi baja</strong> menjadi salah satu pilihan utama bagi pengembang dan kontraktor karena kekuatan, keamanan, dan efisiensi biaya yang ditawarkannya. <strong>Mandiri Steel</strong> sebagai salah satu penyedia layanan konstruksi baja terkemuka di Bekasi, telah berpengalaman lebih dari 25 tahun dalam melayani proyek-proyek di wilayah ini.",
+      "keyPoints": [
+        "Konstruksi baja untuk proyek di koridor Jalan Raya Setu-Cibitung Bekasi",
+        "Layanan yang ditawarkan oleh Mandiri Steel",
+        "Kelebihan konstruksi baja dibandingkan dengan material lain"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Konstruksi Baja",
+          "content": "Konstruksi baja adalah metode pembangunan yang menggunakan baja sebagai material utama. <strong>Baja</strong> dipilih karena kekuatannya yang tinggi, tahan korosi, dan dapat dibentuk sesuai dengan kebutuhan proyek. Dalam konstruksi baja, <strong>struktur</strong> yang dibangun dapat berupa gedung, jembatan, atau bahkan infrastruktur lainnya. <br><br>Di koridor Jalan Raya Setu-Cibitung Bekasi, konstruksi baja banyak digunakan untuk proyek-proyek seperti <strong>perkantoran</strong>, <strong>gudang</strong>, dan <strong>infrastruktur umum</strong>. Hal ini karena konstruksi baja dapat memenuhi kebutuhan akan kekuatan dan keamanan yang tinggi, serta dapat dibangun dengan cepat dan efisien.",
+          "imageSearchQuery": "konstruksi baja bekasi",
+          "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMGJla2FzaXxlbnwwfDB8fHwxNzg1NTgyMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Kelebihan Konstruksi Baja",
+          "content": "Konstruksi baja memiliki beberapa kelebihan dibandingkan dengan material lain. <strong>Keamanan</strong> yang tinggi, <strong>kekuatan</strong> yang tinggi, dan <strong>efisiensi biaya</strong> adalah beberapa kelebihan yang paling signifikan. <br><br>Di samping itu, konstruksi baja juga dapat <strong>meminimalkan dampak lingkungan</strong> karena menggunakan material yang dapat didaur ulang dan tahan lama. <strong>Mandiri Steel</strong> sebagai penyedia layanan konstruksi baja, telah berkomitmen untuk menggunakan material yang ramah lingkungan dan meminimalkan dampak lingkungan dalam setiap proyek yang dilakukan.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Layanan Konstruksi Baja di Bekasi",
+          "content": "Mandiri Steel menawarkan layanan konstruksi baja yang komprehensif untuk proyek di koridor Jalan Raya Setu-Cibitung Bekasi. <strong>Perancangan</strong>, <strong>fabrikasi</strong>, dan <strong>ereksi</strong> adalah beberapa layanan yang ditawarkan. <br><br>Di samping itu, <strong>Mandiri Steel</strong> juga menawarkan <strong>survei gratis</strong> untuk membantu pengembang dan kontraktor dalam menentukan kebutuhan proyek mereka. Dengan lebih dari 25 tahun pengalaman, <strong>Mandiri Steel</strong> telah menjadi salah satu penyedia layanan konstruksi baja terkemuka di Bekasi.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Tips dalam Memilih Penyedia Layanan Konstruksi Baja",
+          "content": "Dalam memilih penyedia layanan konstruksi baja, ada beberapa hal yang perlu dipertimbangkan. <strong>Pengalaman</strong>, <strong>portofolio</strong>, dan <strong>testimoni</strong> adalah beberapa hal yang perlu diperiksa. <br><br>Di samping itu, <strong>harga</strong> dan <strong>garansi</strong> juga perlu dipertimbangkan. <strong>Mandiri Steel</strong> sebagai penyedia layanan konstruksi baja terkemuka di Bekasi, telah menawarkan harga yang kompetitif dan garansi yang memuaskan untuk setiap proyek yang dilakukan."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam melayani proyek-proyek di koridor Jalan Raya Setu-Cibitung Bekasi. <strong>Pengalaman</strong> dan <strong>portofolio</strong> yang luas, serta <strong>testimoni</strong> yang positif dari pengembang dan kontraktor, membuat <strong>Mandiri Steel</strong> menjadi salah satu penyedia layanan konstruksi baja terkemuka di Bekasi. <br><br>Di samping itu, <strong>Mandiri Steel</strong> juga menawarkan <strong>garansi</strong> yang memuaskan untuk setiap proyek yang dilakukan, sehingga pengembang dan kontraktor dapat memiliki ketenangan pikiran dalam melaksanakan proyek mereka.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menawarkan layanan konstruksi baja untuk proyek di koridor Jalan Raya Setu-Cibitung Bekasi, serta area lainnya di Bekasi seperti <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Jababeka</strong>. <br><br>Di samping itu, <strong>Mandiri Steel</strong> juga menawarkan layanan untuk area lainnya di Jabodetabek seperti <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan demikian, pengembang dan kontraktor dapat memiliki akses yang mudah untuk layanan konstruksi baja yang berkualitas."
+        }
+      ],
+      "conclusion": "Dalam memilih penyedia layanan konstruksi baja untuk proyek di koridor Jalan Raya Setu-Cibitung Bekasi, <strong>Mandiri Steel</strong> adalah salah satu pilihan terbaik. Dengan pengalaman lebih dari 25 tahun, portofolio yang luas, dan testimoni yang positif, <strong>Mandiri Steel</strong> dapat membantu pengembang dan kontraktor dalam melaksanakan proyek mereka dengan sukses. Untuk informasi lebih lanjut, silakan hubungi <strong>Mandiri Steel</strong> melalui kontak yang tersedia."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 73,
     "title": "Survei Lokasi Gratis untuk Kanopi dan Pagar di Bekasi",
     "slug": "survei-lokasi-gratis-untuk-kanopi-dan-pagar-di-bekasi",
