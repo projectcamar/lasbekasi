@@ -33,6 +33,190 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 79,
+    "title": "Pagar Stainless Steel Berkualitas",
+    "slug": "pagar-stainless-steel-berkualitas-untuk-rumah-mewah",
+    "excerpt": "Pilih pagar stainless steel yang tepat untuk rumah mewah di Lippo Cikarang dengan tips dan saran dari Mandiri Steel",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-02",
+    "image": "https://images.unsplash.com/photo-1663642134329-faf1a11c2471?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpbmxlc3MlMjBzdGVlbCUyMGZlbmNlfGVufDB8MHx8fDE3ODU2Njg0MDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar stainless steel adalah salah satu pilihan yang populer untuk rumah mewah di Lippo Cikarang karena kekuatan dan ketahanannya. <strong>Pagar stainless steel</strong> dapat menambahkan kesan mewah dan elegan pada rumah Anda, namun memilih yang berkualitas sangat penting. Dalam artikel ini, kita akan membahas tentang cara memilih pagar stainless steel yang berkualitas untuk rumah mewah di Lippo Cikarang.",
+      "keyPoints": [
+        "Kelebihan pagar stainless steel",
+        "Cara memilih pagar stainless steel yang berkualitas",
+        "Tips merawat pagar stainless steel"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Pagar Stainless Steel",
+          "content": "Pagar stainless steel memiliki beberapa kelebihan yang membuatnya menjadi pilihan yang populer untuk rumah mewah. <strong>Kekuatan</strong> dan <strong>ketahanan</strong> pagar stainless steel membuatnya dapat menahan berbagai cuaca dan tidak mudah rusak. Selain itu, pagar stainless steel juga memiliki <strong>kesan mewah</strong> dan elegan yang dapat menambahkan nilai estetika pada rumah Anda. <br><br> Contoh nyata dari kelebihan pagar stainless steel dapat dilihat pada beberapa rumah mewah di Bekasi, seperti di kawasan <strong>Summarecon Bekasi</strong> dan <strong>Kota Deltamas</strong>. Pagar stainless steel yang digunakan pada rumah-rumah tersebut tidak hanya kuat dan tahan lama, tetapi juga menambahkan kesan mewah dan elegan pada rumah.",
+          "imageSearchQuery": "stainless steel fence design",
+          "image": "https://images.unsplash.com/photo-1663642134329-faf1a11c2471?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpbmxlc3MlMjBzdGVlbCUyMGZlbmNlJTIwZGVzaWdufGVufDB8MHx8fDE3ODU2Njg0MTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Cara Memilih Pagar Stainless Steel yang Berkualitas",
+          "content": "Memilih pagar stainless steel yang berkualitas sangat penting untuk memastikan bahwa pagar Anda kuat, tahan lama, dan memiliki kesan mewah yang diinginkan. Berikut beberapa tips untuk memilih pagar stainless steel yang berkualitas: <ul><li>Pilih pagar stainless steel yang terbuat dari bahan <strong>SUS 304</strong> atau <strong>SUS 316</strong> yang kuat dan tahan korosi.</li><li>Periksa <strong>kualitas las</strong> yang digunakan untuk memastikan bahwa pagar Anda kuat dan tidak mudah rusak.</li><li>Pilih pagar stainless steel yang memiliki <strong>finishing</strong> yang baik dan rapi.</li></ul> <br><br> Dengan memilih pagar stainless steel yang berkualitas, Anda dapat memastikan bahwa pagar Anda kuat, tahan lama, dan memiliki kesan mewah yang diinginkan.",
+          "productId": 8
+        },
+        {
+          "heading": "Tips Merawat Pagar Stainless Steel",
+          "content": "Merawat pagar stainless steel sangat penting untuk memastikan bahwa pagar Anda tetap kuat, tahan lama, dan memiliki kesan mewah yang diinginkan. Berikut beberapa tips untuk merawat pagar stainless steel: <ul><li>Bersihkan pagar stainless steel secara teratur dengan <strong>air</strong> dan <strong>sabun</strong> untuk menghilangkan kotoran dan debu.</li><li>Gunakan <strong>minyak</strong> atau <strong>gemuk</strong> untuk melumasi bagian yang bergerak dan mengurangi gesekan.</li><li>Periksa pagar stainless steel secara teratur untuk memastikan bahwa tidak ada kerusakan atau keausan.</li></ul> <br><br> Dengan merawat pagar stainless steel secara teratur, Anda dapat memastikan bahwa pagar Anda tetap kuat, tahan lama, dan memiliki kesan mewah yang diinginkan."
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Pagar Stainless Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang terpercaya dan berpengalaman dalam produksi pagar stainless steel. Dengan lebih dari <strong>25 tahun</strong> pengalaman, Mandiri Steel telah menjadi salah satu pilihan yang populer untuk rumah mewah di Lippo Cikarang. <br><br> Mandiri Steel menggunakan <strong>bahan SNI</strong> yang kuat dan tahan korosi, serta memiliki <strong>strukur warranty</strong> yang memastikan bahwa pagar Anda tetap kuat dan tahan lama. Selain itu, Mandiri Steel juga menawarkan <strong>survei gratis</strong> untuk memastikan bahwa pagar Anda sesuai dengan kebutuhan Anda.",
+          "productId": 8
+        },
+        {
+          "heading": "Layanan Pagar Stainless Steel di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel menawarkan layanan pagar stainless steel di Bekasi dan Jabodetabek, termasuk di kawasan <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Jababeka</strong>. Dengan tim yang berpengalaman dan peralatan yang canggih, Mandiri Steel dapat memastikan bahwa pagar Anda dipasang dengan baik dan sesuai dengan kebutuhan Anda. <br><br> Selain itu, Mandiri Steel juga menawarkan <strong>layanan purna jual</strong> yang memastikan bahwa pagar Anda tetap kuat dan tahan lama."
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Pagar stainless steel adalah salah satu pilihan yang populer untuk rumah mewah di Lippo Cikarang karena kekuatan dan ketahanannya. Dengan memilih pagar stainless steel yang berkualitas dan merawatnya secara teratur, Anda dapat memastikan bahwa pagar Anda tetap kuat, tahan lama, dan memiliki kesan mewah yang diinginkan. <br><br> Jika Anda sedang mencari pagar stainless steel yang berkualitas untuk rumah mewah di Lippo Cikarang, maka Mandiri Steel adalah pilihan yang tepat. Dengan lebih dari 25 tahun pengalaman dan menggunakan bahan SNI yang kuat dan tahan korosi, Mandiri Steel dapat memastikan bahwa pagar Anda sesuai dengan kebutuhan Anda."
+        }
+      ],
+      "conclusion": "Jika Anda ingin memiliki pagar stainless steel yang berkualitas untuk rumah mewah di Lippo Cikarang, maka hubungi Mandiri Steel sekarang juga. Dengan lebih dari 25 tahun pengalaman dan menggunakan bahan SNI yang kuat dan tahan korosi, Mandiri Steel dapat memastikan bahwa pagar Anda sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 80,
+    "title": "Perawatan Railing Stainless",
+    "slug": "perawatan-railing-stainless-agar-tetap-mengkilap",
+    "excerpt": "Tips perawatan railing stainless dari bengkel las profesional Mandiri Steel",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-02",
+    "image": "https://images.unsplash.com/photo-1777013488922-46c767200066?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwc3RhaW5sZXNzJTIwc3RlZWwlMjBvdXRkb29yfGVufDB8MHx8fDE3ODU2Njg0ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing stainless steel adalah salah satu material yang paling populer digunakan dalam konstruksi karena ketahanannya yang tinggi dan tampilan yang elegan. <strong>Railing stainless steel</strong> dapat digunakan dalam berbagai aplikasi, mulai dari tangga, balkon, hingga pagar. Namun, untuk menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama, perlu dilakukan perawatan yang tepat. Dalam artikel ini, kita akan membahas <strong>tips perawatan railing stainless steel</strong> dari bengkel las profesional Mandiri Steel.",
+      "keyPoints": [
+        "Perawatan rutin untuk mencegah kerusakan",
+        "Pembersihan dengan bahan yang tepat",
+        "Penggunaan pelindung untuk mencegah goresan",
+        "Inspeksi berkala untuk mendeteksi kerusakan"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Railing Stainless Steel",
+          "content": "Railing stainless steel adalah material yang terbuat dari baja stainless steel yang memiliki ketahanan yang tinggi terhadap korosi dan kerusakan. <strong>Railing stainless steel</strong> dapat digunakan dalam berbagai aplikasi, mulai dari tangga, balkon, hingga pagar. <br> <strong>Kelebihan railing stainless steel</strong> adalah tahan lama, mudah dibersihkan, dan memiliki tampilan yang elegan. Namun, <strong>railing stainless steel</strong> juga memiliki kekurangan, seperti harga yang relatif mahal dan dapat mengalami goresan jika tidak dirawat dengan baik. <br> Di Mandiri Steel, kami menyediakan <strong>railing stainless steel</strong> dengan kualitas yang tinggi dan harga yang kompetitif. Kami juga menyediakan jasa perawatan dan pemeliharaan <strong>railing stainless steel</strong> untuk memastikan bahwa <strong>railing stainless steel</strong> Anda tetap mengkilap dan tahan lama.",
+          "imageSearchQuery": "railing stainless steel indoor",
+          "image": "https://images.unsplash.com/photo-1558637395-f52d16482e5c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwc3RhaW5sZXNzJTIwc3RlZWwlMjBpbmRvb3J8ZW58MHwwfHx8MTc4NTY2ODQ4Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tips Perawatan Railing Stainless Steel",
+          "content": "Berikut adalah beberapa <strong>tips perawatan railing stainless steel</strong> yang dapat Anda lakukan untuk menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama: <br> <ul> <li> Bersihkan <strong>railing stainless steel</strong> secara rutin dengan air dan sabun yang lembut </li> <li> Gunakan pelindung untuk mencegah goresan pada <strong>railing stainless steel</strong> </li> <li> Inspeksi <strong>railing stainless steel</strong> secara berkala untuk mendeteksi kerusakan </li> <li> Jangan menggunakan bahan kimia yang keras untuk membersihkan <strong>railing stainless steel</strong> </li> </ul> <br> Dengan melakukan perawatan yang tepat, Anda dapat menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama.",
+          "productId": 6
+        },
+        {
+          "heading": "3. Pembersihan Railing Stainless Steel",
+          "content": "Pembersihan <strong>railing stainless steel</strong> adalah salah satu langkah yang paling penting dalam perawatan <strong>railing stainless steel</strong>. <br> Berikut adalah beberapa tips untuk membersihkan <strong>railing stainless steel</strong>: <br> <ul> <li> Gunakan air dan sabun yang lembut untuk membersihkan <strong>railing stainless steel</strong> </li> <li> Jangan menggunakan bahan kimia yang keras untuk membersihkan <strong>railing stainless steel</strong> </li> <li> Gunakan kain yang lembut untuk membersihkan <strong>railing stainless steel</strong> </li> </ul> <br> Dengan melakukan pembersihan yang tepat, Anda dapat menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Penggunaan Pelindung Railing Stainless Steel",
+          "content": "Penggunaan pelindung <strong>railing stainless steel</strong> adalah salah satu langkah yang paling efektif untuk mencegah goresan pada <strong>railing stainless steel</strong>. <br> Berikut adalah beberapa tips untuk menggunakan pelindung <strong>railing stainless steel</strong>: <br> <ul> <li> Gunakan pelindung yang terbuat dari bahan yang tahan lama dan tidak mudah rusak </li> <li> Pasang pelindung <strong>railing stainless steel</strong> dengan benar untuk memastikan bahwa <strong>railing stainless steel</strong> tetap terlindungi </li> <li> Periksa pelindung <strong>railing stainless steel</strong> secara berkala untuk memastikan bahwa <strong>railing stainless steel</strong> tetap terlindungi </li> </ul> <br> Dengan menggunakan pelindung <strong>railing stainless steel</strong>, Anda dapat menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama.",
+          "productId": 6
+        },
+        {
+          "heading": "5. Inspeksi Railing Stainless Steel",
+          "content": "Inspeksi <strong>railing stainless steel</strong> adalah salah satu langkah yang paling penting dalam perawatan <strong>railing stainless steel</strong>. <br> Berikut adalah beberapa tips untuk melakukan inspeksi <strong>railing stainless steel</strong>: <br> <ul> <li> Lakukan inspeksi <strong>railing stainless steel</strong> secara berkala untuk mendeteksi kerusakan </li> <li> Periksa <strong>railing stainless steel</strong> untuk memastikan bahwa <strong>railing stainless steel</strong> tetap kuat dan tahan lama </li> <li> Jangan ragu untuk menghubungi bengkel las profesional jika Anda menemukan kerusakan pada <strong>railing stainless steel</strong> </li> </ul> <br> Dengan melakukan inspeksi <strong>railing stainless steel</strong> secara berkala, Anda dapat menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah bengkel las profesional yang memiliki pengalaman lebih dari 25 tahun dalam menyediakan jasa perawatan dan pemeliharaan <strong>railing stainless steel</strong>. <br> Kami menggunakan bahan yang berkualitas tinggi dan memiliki tim yang terampil dan berpengalaman. <br> Kami juga menyediakan jasa perawatan dan pemeliharaan <strong>railing stainless steel</strong> yang komprehensif, termasuk pembersihan, penggunaan pelindung, dan inspeksi <strong>railing stainless steel</strong>. <br> Dengan memilih Mandiri Steel, Anda dapat menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama.",
+          "productId": 6
+        },
+        {
+          "heading": "7. Layanan Kami di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel menyediakan layanan perawatan dan pemeliharaan <strong>railing stainless steel</strong> di Bekasi dan Jabodetabek. <br> Kami memiliki tim yang terampil dan berpengalaman yang siap membantu Anda dalam perawatan dan pemeliharaan <strong>railing stainless steel</strong>. <br> Kami juga menyediakan jasa perawatan dan pemeliharaan <strong>railing stainless steel</strong> yang komprehensif, termasuk pembersihan, penggunaan pelindung, dan inspeksi <strong>railing stainless steel</strong>. <br> Dengan memilih Mandiri Steel, Anda dapat menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama di Bekasi dan Jabodetabek.",
+          "productId": 6
+        }
+      ],
+      "conclusion": "Dengan memilih Mandiri Steel, Anda dapat menjaga agar <strong>railing stainless steel</strong> tetap mengkilap dan tahan lama. Kami menyediakan jasa perawatan dan pemeliharaan <strong>railing stainless steel</strong> yang komprehensif, termasuk pembersihan, penggunaan pelindung, dan inspeksi <strong>railing stainless steel</strong>. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan kami."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 81,
+    "title": "Kanopi Hollow Galvanis Tahan Lama",
+    "slug": "kanopi-hollow-galvanis-tahan-lama",
+    "excerpt": "Kanopi hollow galvanis lebih tahan lama karena materialnya. Analisis material untuk iklim Bekasi.",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-02",
+    "image": "https://images.unsplash.com/photo-1655268394982-ca9be301ab96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxnYWx2YW5pemVkJTIwc3RlZWwlMjBjYW5vcHl8ZW58MHwwfHx8MTc4NTY2ODU1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Kanopi hollow galvanis telah menjadi pilihan populer bagi banyak pemilik rumah di Bekasi dan sekitarnya. <strong>Kanopi</strong> ini menawarkan kekuatan, ketahanan, dan estetika yang tinggi. Namun, apa yang membuat kanopi hollow galvanis lebih tahan lama? Dalam artikel ini, kita akan melakukan analisis material untuk iklim Bekasi dan membahas tips untuk memilih kanopi yang tepat.",
+      "keyPoints": [
+        "Kanopi hollow galvanis memiliki ketahanan korosi yang tinggi",
+        "Material galvanis memberikan perlindungan ekstra terhadap cuaca",
+        "Pemilihan kanopi yang tepat dapat memperpanjang umur kanopi"
+      ],
+      "sections": [
+        {
+          "heading": "Apa itu Kanopi Hollow Galvanis?",
+          "content": "Kanopi hollow galvanis adalah jenis kanopi yang terbuat dari baja galvanis yang dilapisi dengan lapisan zinc. <strong>Baja galvanis</strong> ini memiliki ketahanan korosi yang tinggi, sehingga dapat bertahan lebih lama dalam berbagai kondisi cuaca. Kanopi hollow galvanis juga memiliki desain yang modern dan minimalis, sehingga dapat mempercantik tampilan rumah. <br> Untuk memilih kanopi yang tepat, perlu mempertimbangkan beberapa faktor, seperti ukuran, bentuk, dan material. <em>Pastikan untuk memilih kanopi yang sesuai dengan kebutuhan dan budget</em>.",
+          "imageSearchQuery": "galvanized steel",
+          "image": "https://images.unsplash.com/photo-1501166222995-ff31c7e93cef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxnYWx2YW5pemVkJTIwc3RlZWx8ZW58MHwwfHx8MTc4NTY2ODU1NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Kelebihan Kanopi Hollow Galvanis",
+          "content": "Kanopi hollow galvanis memiliki beberapa kelebihan yang membuatnya menjadi pilihan populer. <strong>Kelebihan</strong> pertama adalah ketahanan korosi yang tinggi. Baja galvanis yang digunakan memiliki lapisan zinc yang dapat melindungi baja dari korosi. <br> Selain itu, kanopi hollow galvanis juga memiliki kekuatan yang tinggi, sehingga dapat menahan beban yang berat. <em>Pastikan untuk memilih kanopi yang sesuai dengan kebutuhan dan budget</em>. <ul> <li>Kelebihan lainnya adalah perawatan yang mudah</li> <li>Kanopi hollow galvanis juga dapat dipasang dengan mudah</li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "Tips untuk Memilih Kanopi yang Tepat",
+          "content": "Untuk memilih kanopi yang tepat, perlu mempertimbangkan beberapa faktor, seperti ukuran, bentuk, dan material. <strong>Pastikan untuk memilih kanopi yang sesuai dengan kebutuhan dan budget</strong>. <br> Selain itu, perlu mempertimbangkan lokasi dan kondisi cuaca di daerah tersebut. <em>Pastikan untuk memilih kanopi yang tahan lama dan dapat bertahan dalam berbagai kondisi cuaca</em>. <ul> <li>Pertimbangkan ukuran kanopi yang sesuai dengan rumah</li> <li>Pilih material yang tahan lama dan berkualitas</li> </ul>",
+          "productId": 2
+        },
+        {
+          "heading": "Pengalaman Mandiri Steel dalam Produksi Kanopi",
+          "content": "Mandiri Steel telah memiliki pengalaman lebih dari 25 tahun dalam produksi kanopi. <strong>Kami</strong> menggunakan material yang berkualitas dan memiliki ketahanan yang tinggi. <br> Selain itu, kami juga menyediakan layanan pemasangan yang profesional dan cepat. <em>Pastikan untuk memilih Mandiri Steel sebagai mitra dalam produksi kanopi</em>. <blockquote>Mandiri Steel memiliki komitmen untuk memberikan produk yang berkualitas dan memuaskan kebutuhan pelanggan</blockquote>"
+        },
+        {
+          "heading": "Layanan Pemasangan Kanopi di Bekasi",
+          "content": "Mandiri Steel menyediakan layanan pemasangan kanopi di Bekasi dan sekitarnya. <strong>Kami</strong> memiliki tim yang profesional dan berpengalaman dalam pemasangan kanopi. <br> Selain itu, kami juga menyediakan layanan survei gratis untuk memastikan bahwa kanopi yang dipasang sesuai dengan kebutuhan dan budget. <em>Pastikan untuk memilih Mandiri Steel sebagai mitra dalam pemasangan kanopi</em>. <ul> <li>Layanan pemasangan yang cepat dan profesional</li> <li>Layanan survei gratis untuk memastikan kebutuhan</li> </ul>"
+        },
+        {
+          "heading": "Garansi Struktural dan Material",
+          "content": "Mandiri Steel memberikan garansi struktural dan material untuk semua produk kanopi. <strong>Kami</strong> memiliki komitmen untuk memberikan produk yang berkualitas dan memuaskan kebutuhan pelanggan. <br> Selain itu, kami juga menyediakan layanan purna jual yang profesional dan cepat. <em>Pastikan untuk memilih Mandiri Steel sebagai mitra dalam produksi kanopi</em>. <blockquote>Mandiri Steel memiliki komitmen untuk memberikan produk yang berkualitas dan memuaskan kebutuhan pelanggan</blockquote>"
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Kanopi hollow galvanis adalah pilihan yang tepat untuk rumah di Bekasi dan sekitarnya. <strong>Pastikan untuk memilih Mandiri Steel sebagai mitra dalam produksi kanopi</strong>. <br> Dengan pengalaman lebih dari 25 tahun dan komitmen untuk memberikan produk yang berkualitas, Mandiri Steel adalah pilihan yang tepat untuk memenuhi kebutuhan kanopi. <em>Pastikan untuk menghubungi Mandiri Steel untuk informasi lebih lanjut</em>."
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi, pastikan untuk mempertimbangkan beberapa faktor, seperti ukuran, bentuk, dan material. <strong>Pastikan untuk memilih Mandiri Steel sebagai mitra dalam produksi kanopi</strong>. Dengan pengalaman lebih dari 25 tahun dan komitmen untuk memberikan produk yang berkualitas, Mandiri Steel adalah pilihan yang tepat untuk memenuhi kebutuhan kanopi. <em>Pastikan untuk menghubungi Mandiri Steel untuk informasi lebih lanjut</em>."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 76,
     "title": "Teralis Jendela Rumah Bertingkat",
     "slug": "teralis-jendela-rumah-bertingkat-keamanan-anak",
