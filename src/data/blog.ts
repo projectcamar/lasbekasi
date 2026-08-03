@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 82,
+    "title": "Pintu Pagar Otomatis di Bekasi",
+    "slug": "pintu-pagar-otomatis-bekasi",
+    "excerpt": "Pintu pagar otomatis sliding gate: mekanisme, harga, dan pemasangan di perumahan Bekasi",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-03",
+    "image": "https://images.unsplash.com/photo-1645005049035-c35644b627ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzbGlkaW5nJTIwZ2F0ZSUyMGF1dG9tYXRpY3xlbnwwfDB8fHwxNzg1NzU0ODA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pintu pagar otomatis saat ini menjadi salah satu <strong>tren</strong> dalam desain rumah modern, terutama di daerah <strong>Bekasi</strong> dan sekitarnya. Dengan <strong>keamanan</strong> dan <strong>kenyamanan</strong> yang ditawarkan, banyak pemilik rumah yang memilih untuk menginstal <strong>pintu pagar otomatis</strong> di rumah mereka. Namun, sebelum memutuskan untuk memasang <strong>pintu pagar otomatis</strong>, ada beberapa hal yang perlu dipertimbangkan, termasuk <strong>mekanisme</strong>, <strong>harga</strong>, dan <strong>pemasangan</strong> yang tepat.",
+      "keyPoints": [
+        "Mekanisme pintu pagar otomatis",
+        "Harga pintu pagar otomatis",
+        "Pemasangan pintu pagar otomatis di Bekasi"
+      ],
+      "sections": [
+        {
+          "heading": "Mekanisme Pintu Pagar Otomatis",
+          "content": "Pintu pagar otomatis bekerja dengan menggunakan <strong>motor listrik</strong> yang menggerakkan <strong>roda gigi</strong> untuk membuka dan menutup pintu. Sistem ini biasanya dilengkapi dengan <strong>sensor</strong> yang dapat mendeteksi kehadiran kendaraan atau pejalan kaki, sehingga pintu dapat dibuka secara otomatis. Selain itu, beberapa <strong>pintu pagar otomatis</strong> juga dilengkapi dengan <strong>fitur keamanan</strong> seperti <strong>kunci remote</strong> dan <strong>alarm</strong> yang dapat membantu mencegah akses tidak sah. <br><br> Di Bekasi, banyak perumahan yang telah menginstal <strong>pintu pagar otomatis</strong> untuk meningkatkan keamanan dan kenyamanan penghuninya. Misalnya, di perumahan <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong>, <strong>pintu pagar otomatis</strong> telah menjadi standar keamanan yang wajib dipenuhi.",
+          "imageSearchQuery": "automatic sliding gate mechanism",
+          "image": "https://images.unsplash.com/photo-1645005049035-c35644b627ba?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxhdXRvbWF0aWMlMjBzbGlkaW5nJTIwZ2F0ZSUyMG1lY2hhbmlzbXxlbnwwfDB8fHwxNzg1NzU0ODEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Harga Pintu Pagar Otomatis",
+          "content": "Harga <strong>pintu pagar otomatis</strong> dapat bervariasi tergantung pada <strong>jenis</strong> dan <strong>fitur</strong> yang ditawarkan. Pada umumnya, harga <strong>pintu pagar otomatis</strong> dapat berkisar dari <strong>Rp 5 juta</strong> hingga <strong>Rp 50 juta</strong> atau lebih, tergantung pada <strong>kualitas</strong> dan <strong>brand</strong> yang dipilih. <br><br> Di Bekasi, harga <strong>pintu pagar otomatis</strong> juga dapat dipengaruhi oleh <strong>biaya pemasangan</strong> dan <strong>biaya perawatan</strong> yang diperlukan. Oleh karena itu, penting untuk memilih <strong>penyedia jasa</strong> yang tepat dan <strong>produk</strong> yang sesuai dengan kebutuhan dan budget Anda.",
+          "productId": 8
+        },
+        {
+          "heading": "Pemasangan Pintu Pagar Otomatis di Bekasi",
+          "content": "Pemasangan <strong>pintu pagar otomatis</strong> di Bekasi dapat dilakukan oleh <strong>penyedia jasa</strong> yang profesional dan berpengalaman. <strong>Mandiri Steel</strong> adalah salah satu penyedia jasa <strong>pintu pagar otomatis</strong> yang terpercaya di Bekasi, dengan <strong>pengalaman</strong> lebih dari 25 tahun dalam melayani kebutuhan <strong>keamanan</strong> dan <strong>kenyamanan</strong> rumah tangga. <br><br> Dengan <strong>tim yang terlatih</strong> dan <strong>peralatan yang canggih</strong>, <strong>Mandiri Steel</strong> dapat memastikan bahwa <strong>pintu pagar otomatis</strong> Anda dipasang dengan benar dan berfungsi dengan optimal. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan <strong>garansi struktural</strong> dan <strong>pelayanan purna jual</strong> yang memuaskan.",
+          "productId": 8
+        },
+        {
+          "heading": "Tips Memilih Pintu Pagar Otomatis yang Tepat",
+          "content": "Dalam memilih <strong>pintu pagar otomatis</strong>, ada beberapa hal yang perlu dipertimbangkan, seperti <strong>kebutuhan</strong> dan <strong>budget</strong> Anda. Berikut beberapa <strong>tips</strong> yang dapat membantu Anda memilih <strong>pintu pagar otomatis</strong> yang tepat: <ul><li>Pertimbangkan <strong>ukuran</strong> dan <strong>bentuk</strong> pintu yang sesuai dengan kebutuhan Anda.</li><li>Pilih <strong>material</strong> yang kuat dan tahan lama, seperti <strong>stainless steel</strong> atau <strong>aluminium</strong>.</li><li>Perhatikan <strong>fitur keamanan</strong> yang ditawarkan, seperti <strong>kunci remote</strong> dan <strong>alarm</strong>.</li></ul>",
+          "productId": 8
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Pintu Pagar Otomatis?",
+          "content": "Mandiri Steel adalah salah satu <strong>penyedia jasa</strong> <strong>pintu pagar otomatis</strong> yang terpercaya di Bekasi, dengan <strong>pengalaman</strong> lebih dari 25 tahun dalam melayani kebutuhan <strong>keamanan</strong> dan <strong>kenyamanan</strong> rumah tangga. Dengan <strong>tim yang terlatih</strong> dan <strong>peralatan yang canggih</strong>, <strong>Mandiri Steel</strong> dapat memastikan bahwa <strong>pintu pagar otomatis</strong> Anda dipasang dengan benar dan berfungsi dengan optimal. <br><br> Selain itu, <strong>Mandiri Steel</strong> juga menawarkan <strong>garansi struktural</strong> dan <strong>pelayanan purna jual</strong> yang memuaskan, sehingga Anda dapat memiliki <strong>ketenangan</strong> dan <strong>kepercayaan</strong> diri dalam menggunakan <strong>pintu pagar otomatis</strong> Anda.",
+          "productId": 8
+        },
+        {
+          "heading": "Layanan Pintu Pagar Otomatis di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan <strong>layanan pintu pagar otomatis</strong> di Bekasi dan sekitarnya, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, dan <strong>Summarecon Bekasi</strong>. Dengan <strong>penyedia jasa</strong> yang profesional dan <strong>produk</strong> yang berkualitas, <strong>Mandiri Steel</strong> dapat membantu Anda meningkatkan <strong>keamanan</strong> dan <strong>kenyamanan</strong> rumah tangga Anda. <br><br> Jika Anda membutuhkan <strong>layanan pintu pagar otomatis</strong> di Bekasi atau sekitarnya, jangan ragu untuk menghubungi <strong>Mandiri Steel</strong> sekarang juga.",
+          "productId": 8
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>pintu pagar otomatis</strong> untuk rumah Anda, penting untuk mempertimbangkan <strong>kebutuhan</strong> dan <strong>budget</strong> Anda. Dengan <strong>Mandiri Steel</strong> sebagai <strong>penyedia jasa</strong> yang terpercaya, Anda dapat memiliki <strong>ketenangan</strong> dan <strong>kepercayaan</strong> diri dalam menggunakan <strong>pintu pagar otomatis</strong> Anda. Jangan ragu untuk menghubungi <strong>Mandiri Steel</strong> sekarang juga untuk mendapatkan <strong>layanan pintu pagar otomatis</strong> yang berkualitas dan memuaskan."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 83,
+    "title": "Jasa Erection Baja Bekasi",
+    "slug": "jasa-erection-baja-bekasi",
+    "excerpt": "Jasa erection baja di Bekasi, proses pemasangan struktur baja dari A sampai Z",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-03",
+    "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMGJla2FzaXxlbnwwfDB8fHwxNzg1NTgyMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pembangunan infrastruktur di Bekasi dan sekitarnya <strong>semakin pesat</strong>, sehingga kebutuhan akan jasa erection baja yang handal dan terpercaya <strong>semakin meningkat</strong>. <strong>Mandiri Steel</strong> hadir sebagai solusi bagi Anda yang membutuhkan jasa erection baja di Bekasi dan sekitarnya. Dalam artikel ini, kita akan membahas proses pemasangan struktur baja dari A sampai Z, serta tips dan trik yang dapat membantu Anda dalam memilih jasa erection baja yang tepat.",
+      "keyPoints": [
+        "Proses pemasangan struktur baja yang tepat",
+        "Tips memilih jasa erection baja yang handal",
+        "Kelebihan menggunakan jasa erection baja Mandiri Steel"
+      ],
+      "sections": [
+        {
+          "heading": "Pengertian Erection Baja dan Prosesnya",
+          "content": "Erection baja adalah proses pemasangan struktur baja yang meliputi <strong>perencanaan</strong>, <strong>persiapan</strong>, <strong>pemasangan</strong>, dan <strong>pengujian</strong>. Proses ini memerlukan <strong>keahlian</strong> dan <strong>pengalaman</strong> yang cukup, sehingga diperlukan jasa erection baja yang handal dan terpercaya. <br><br> Dalam proses pemasangan struktur baja, <strong>keselamatan</strong> merupakan hal yang paling penting. Oleh karena itu, diperlukan <strong>peralatan keselamatan</strong> yang memadai dan <strong>petugas yang terlatih</strong> untuk melakukan pekerjaan ini. <br><br> Contoh nyata dari proses pemasangan struktur baja adalah pembangunan <strong>gedung perkantoran</strong> di kawasan <strong>MM2100</strong>, Bekasi. Dalam proyek ini, Mandiri Steel telah berhasil memasang struktur baja dengan <strong>tepat waktu</strong> dan <strong>biaya yang efektif</strong>.",
+          "imageSearchQuery": "konstruksi baja mm2100",
+          "image": "https://images.unsplash.com/photo-1643546580722-31ade89aa6e3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMG1tMjEwMHxlbnwwfDB8fHwxNzg1NzU0ODgzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips Memilih Jasa Erection Baja yang Handal",
+          "content": "Dalam memilih jasa erection baja, ada beberapa hal yang perlu dipertimbangkan. <strong>Pertama</strong>, pastikan bahwa jasa erection baja tersebut memiliki <strong>pengalaman</strong> yang cukup dalam melakukan pekerjaan serupa. <strong>Kedua</strong>, periksa <strong>peralatan</strong> dan <strong>teknologi</strong> yang digunakan, apakah sudah <strong>memadai</strong> dan <strong>sesuai</strong> dengan kebutuhan proyek. <strong>Ketiga</strong>, pastikan bahwa jasa erection baja tersebut memiliki <strong>tim yang terlatih</strong> dan <strong>berpengalaman</strong> dalam melakukan pekerjaan ini. <br><br> Berikut beberapa tips yang dapat membantu Anda dalam memilih jasa erection baja yang handal: <ul><li>Pastikan bahwa jasa erection baja tersebut memiliki <strong>izin usaha</strong> yang jelas</li><li>Periksa <strong>portofolio</strong> dan <strong>testimoni</strong> dari klien sebelumnya</li><li>Pastikan bahwa jasa erection baja tersebut memiliki <strong>jaminan</strong> dan <strong>garansi</strong> yang jelas</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "Kelebihan Menggunakan Jasa Erection Baja Mandiri Steel",
+          "content": "Mandiri Steel adalah jasa erection baja yang handal dan terpercaya di Bekasi dan sekitarnya. Dengan <strong>pengalaman lebih dari 25 tahun</strong> dalam melakukan pekerjaan ini, Mandiri Steel telah berhasil membangun <strong>infrastruktur</strong> yang kuat dan <strong>aman</strong> di berbagai wilayah. <br><br> Kelebihan menggunakan jasa erection baja Mandiri Steel adalah <strong>biaya yang efektif</strong>, <strong>waktu yang tepat</strong>, dan <strong>hasil yang memuaskan</strong>. Selain itu, Mandiri Steel juga memiliki <strong>tim yang terlatih</strong> dan <strong>berpengalaman</strong> dalam melakukan pekerjaan ini, sehingga Anda dapat <strong>percaya</strong> bahwa proyek Anda akan <strong>selesai dengan baik</strong>.",
+          "productId": 7
+        },
+        {
+          "heading": "Proses Pemasangan Struktur Baja dari A sampai Z",
+          "content": "Proses pemasangan struktur baja meliputi beberapa tahap, yaitu <strong>perencanaan</strong>, <strong>persiapan</strong>, <strong>pemasangan</strong>, dan <strong>pengujian</strong>. Berikut adalah penjelasan lebih lanjut tentang setiap tahap: <br><br> <strong>Perencanaan</strong>: Pada tahap ini, dilakukan <strong>perencanaan</strong> dan <strong>perancangan</strong> struktur baja yang akan dipasang. <strong>Persiapan</strong>: Pada tahap ini, dilakukan <strong>persiapan</strong> <strong>material</strong> dan <strong>peralatan</strong> yang dibutuhkan. <strong>Pemasangan</strong>: Pada tahap ini, dilakukan <strong>pemasangan</strong> struktur baja yang telah direncanakan. <strong>Pengujian</strong>: Pada tahap ini, dilakukan <strong>pengujian</strong> untuk memastikan bahwa struktur baja yang dipasang <strong>kuat</strong> dan <strong>aman</strong>."
+        },
+        {
+          "heading": "Pengalaman Mandiri Steel dalam Jasa Erection Baja",
+          "content": "Mandiri Steel telah memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam melakukan jasa erection baja. Dalam kurun waktu tersebut, Mandiri Steel telah berhasil membangun <strong>infrastruktur</strong> yang kuat dan <strong>aman</strong> di berbagai wilayah, termasuk <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Jababeka</strong>. <br><br> Dengan pengalaman yang cukup, Mandiri Steel telah menjadi <strong>salah satu jasa erection baja yang paling dipercaya</strong> di Bekasi dan sekitarnya. Oleh karena itu, Anda dapat <strong>percaya</strong> bahwa proyek Anda akan <strong>selesai dengan baik</strong> jika menggunakan jasa erection baja Mandiri Steel."
+        },
+        {
+          "heading": "Jaminan dan Garansi dari Mandiri Steel",
+          "content": "Mandiri Steel memberikan <strong>jaminan</strong> dan <strong>garansi</strong> yang jelas bagi setiap proyek yang dilakukan. Dengan demikian, Anda dapat <strong>percaya</strong> bahwa proyek Anda akan <strong>selesai dengan baik</strong> dan <strong>berkualitas</strong>. <br><br> Jaminan dan garansi yang diberikan oleh Mandiri Steel meliputi <strong>garansi struktur</strong>, <strong>garansi material</strong>, dan <strong>garansi pemasangan</strong>. Dengan demikian, Anda dapat <strong>tenang</strong> dan <strong>percaya</strong> bahwa proyek Anda akan <strong>selesai dengan baik</strong>."
+        }
+      ],
+      "conclusion": "Dalam memilih jasa erection baja, pastikan bahwa Anda memilih jasa yang handal dan terpercaya. Mandiri Steel adalah salah satu jasa erection baja yang paling dipercaya di Bekasi dan sekitarnya, dengan pengalaman lebih dari 25 tahun dalam melakukan pekerjaan ini. Dengan jaminan dan garansi yang jelas, Anda dapat percaya bahwa proyek Anda akan selesai dengan baik dan berkualitas. Oleh karena itu, jangan ragu untuk menghubungi Mandiri Steel untuk memulai proyek Anda hari ini!"
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 84,
+    "title": "Kanopi Minimalis Ruko",
+    "slug": "kanopi-minimalis-ruko-dan-toko-di-cikarang",
+    "excerpt": "Kanopi minimalis untuk ruko dan toko di Cikarang, solusi perlindungan bisnis dari hujan dan panas",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-03",
+    "image": "https://images.unsplash.com/photo-1759302087504-4d92e36617fa?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjYW5vcHklMjBkZXNpZ24lMjBmb3IlMjBjb21tZXJjaWFsJTIwYnVpbGRpbmd8ZW58MHwwfHx8MTc4NTc1NDk1NHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, <strong>kanopi minimalis</strong> telah menjadi salah satu pilihan populer untuk <strong>ruko dan toko</strong> di Cikarang. Dengan desain yang sederhana namun elegan, kanopi minimalis dapat memberikan perlindungan yang efektif dari <strong>hujan dan panas</strong> serta meningkatkan estetika bangunan. Di artikel ini, kita akan membahas lebih lanjut tentang <strong>kelebihan kanopi minimalis</strong> untuk ruko dan toko di Cikarang.",
+      "keyPoints": [
+        "Kanopi minimalis dapat memberikan perlindungan dari hujan dan panas",
+        "Desain minimalis yang elegan dapat meningkatkan estetika bangunan",
+        "Kanopi minimalis dapat dibuat dari berbagai bahan, termasuk <strong>baja ringan</strong> dan <strong>aluminum</strong>"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Kanopi Minimalis",
+          "content": "Kanopi minimalis adalah jenis kanopi yang memiliki desain sederhana namun elegan. Kanopi ini biasanya dibuat dari bahan-bahan yang ringan dan tahan lama, seperti <strong>baja ringan</strong> dan <strong>aluminum</strong>. Dengan desain yang minimalis, kanopi ini dapat memberikan perlindungan yang efektif dari hujan dan panas tanpa mengganggu estetika bangunan. <br> <strong>Kelebihan kanopi minimalis</strong> antara lain: <ul> <li>Desain yang sederhana namun elegan</li> <li>Bahan yang ringan dan tahan lama</li> <li>Perlindungan yang efektif dari hujan dan panas</li> </ul>",
+          "imageSearchQuery": "minimalist canopy design",
+          "image": "https://images.unsplash.com/photo-1766476212840-150546313c28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwY2Fub3B5JTIwZGVzaWdufGVufDB8MHx8fDE3ODU3NTQ5NTV8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Kanopi Minimalis untuk Ruko dan Toko",
+          "content": "Kanopi minimalis dapat memberikan beberapa manfaat untuk <strong>ruko dan toko</strong> di Cikarang. Beberapa manfaat tersebut antara lain: <ul> <li>Perlindungan dari hujan dan panas</li> <li>Meningkatkan estetika bangunan</li> <li>Menghemat biaya perawatan</li> </ul> Dengan demikian, kanopi minimalis dapat menjadi salah satu pilihan yang tepat untuk <strong>ruko dan toko</strong> di Cikarang.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Tips Memilih Kanopi Minimalis yang Tepat",
+          "content": "Dalam memilih <strong>kanopi minimalis</strong> yang tepat, ada beberapa hal yang perlu diperhatikan. Beberapa tips tersebut antara lain: <ul> <li>Pilih bahan yang ringan dan tahan lama</li> <li>Perhatikan desain yang sederhana namun elegan</li> <li>Pastikan kanopi dapat memberikan perlindungan yang efektif dari hujan dan panas</li> </ul> Dengan memperhatikan tips-tips tersebut, Anda dapat memilih <strong>kanopi minimalis</strong> yang tepat untuk <strong>ruko dan toko</strong> Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Cara Merawat Kanopi Minimalis",
+          "content": "Dalam merawat <strong>kanopi minimalis</strong>, ada beberapa hal yang perlu diperhatikan. Beberapa cara tersebut antara lain: <ul> <li>Bersihkan kanopi secara teratur</li> <li>Periksa kerusakan kanopi</li> <li>Lakukan perawatan yang tepat</li> </ul> Dengan demikian, kanopi minimalis dapat tetap berfungsi dengan baik dan tahan lama."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam <strong>fabrikasi baja</strong> dan <strong>konstruksi</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel dapat memberikan solusi yang tepat untuk <strong>kanopi minimalis</strong> Anda. <br> Beberapa kelebihan Mandiri Steel antara lain: <ul> <li>Pengalaman lebih dari 25 tahun</li> <li>Bahan yang berkualitas</li> <li>Desain yang elegan dan fungsional</li> </ul> Dengan demikian, Mandiri Steel dapat menjadi salah satu pilihan yang tepat untuk <strong>kanopi minimalis</strong> Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan yang Ditawarkan Mandiri Steel",
+          "content": "Mandiri Steel menawarkan beberapa layanan yang dapat membantu Anda dalam <strong>fabrikasi baja</strong> dan <strong>konstruksi</strong>. Beberapa layanan tersebut antara lain: <ul> <li>Desain dan fabrikasi kanopi minimalis</li> <li>Pemasangan kanopi minimalis</li> <li>Perawatan dan perbaikan kanopi minimalis</li> </ul> Dengan demikian, Mandiri Steel dapat membantu Anda dalam menciptakan <strong>kanopi minimalis</strong> yang sesuai dengan kebutuhan Anda."
+        }
+      ],
+      "conclusion": "Dalam menciptakan <strong>kanopi minimalis</strong> yang sesuai dengan kebutuhan Anda, perlu memperhatikan beberapa hal seperti desain, bahan, dan perawatan. Dengan memilih <strong>Mandiri Steel</strong> sebagai partner Anda, Anda dapat mendapatkan solusi yang tepat untuk <strong>kanopi minimalis</strong> Anda. <br> Jangan ragu untuk menghubungi Mandiri Steel jika Anda memerlukan informasi lebih lanjut tentang <strong>kanopi minimalis</strong> dan layanan yang ditawarkan."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 79,
     "title": "Pagar Stainless Steel Berkualitas",
     "slug": "pagar-stainless-steel-berkualitas-untuk-rumah-mewah",
