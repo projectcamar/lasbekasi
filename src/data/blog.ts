@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 85,
+    "title": "Kanopi Profesional Bekasi",
+    "slug": "kesalahan-umum-saat-pasang-kanopi-sendiri",
+    "excerpt": "Pasang kanopi sendiri? Berhati-hatilah! Kesalahan umum dan solusi profesional di Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-04",
+    "image": "https://images.unsplash.com/photo-1697604501923-2590ec2d7ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBydW1haCUyMG1pbmltYWxpc3xlbnwwfDB8fHwxNzg1ODQxMjExfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Membangun atau merenovasi rumah memang memerlukan banyak pertimbangan, terutama saat memilih dan memasang kanopi. <strong>Kanopi</strong> yang tepat tidak hanya melindungi dari cuaca, tetapi juga menambah estetika rumah. Namun, banyak orang yang masih melakukan kesalahan umum saat memasang kanopi sendiri. <strong>Pasang kanopi sendiri</strong> tanpa pengalaman yang cukup bisa berakibat fatal, baik dari segi keamanan maupun kualitas hasil. Oleh karena itu, penting untuk mempertimbangkan <strong>jasa profesional</strong> di Bekasi untuk mendapatkan hasil yang optimal.",
+      "keyPoints": [
+        "Kesalahan umum saat pasang kanopi sendiri",
+        "Pentingnya memilih bahan yang tepat",
+        "Manfaat menggunakan jasa profesional"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept: Mengenal Kanopi dan Fungsinya",
+          "content": "Kanopi adalah struktur pelindung yang dipasang di atas jendela, pintu, atau teras untuk melindungi dari sinar matahari langsung dan hujan. <strong>Fungsi kanopi</strong> tidak hanya sebagai pelindung, tetapi juga sebagai elemen dekoratif yang bisa meningkatkan nilai estetika rumah. Dalam memilih kanopi, perlu dipertimbangkan <strong>bahan</strong>, <strong>desain</strong>, dan <strong>kualitas</strong> untuk memastikan bahwa kanopi yang dipilih bisa bertahan lama dan memenuhi kebutuhan. <br><br>Di Bekasi, banyak tersedia <strong>jasa pasang kanopi</strong> yang bisa membantu dalam memilih dan memasang kanopi yang sesuai dengan kebutuhan dan budget. Dengan menggunakan jasa profesional, Anda bisa mendapatkan <strong>kanopi yang kuat</strong>, <strong>tahan lama</strong>, dan <strong>sesuai dengan desain rumah</strong>.",
+          "imageSearchQuery": "kanopi baja ringan"
+        },
+        {
+          "heading": "2. Kesalahan Umum Saat Pasang Kanopi Sendiri",
+          "content": "Banyak orang yang masih melakukan kesalahan umum saat memasang kanopi sendiri, seperti <strong>memilih bahan yang salah</strong>, <strong>desain yang tidak sesuai</strong>, dan <strong>teknik pemasangan yang tidak benar</strong>. <strong>Kesalahan-kesalahan</strong> ini bisa berakibat fatal, seperti kanopi yang <strong>tidak kuat</strong>, <strong>tidak tahan lama</strong>, atau bahkan <strong>menyebabkan kecelakaan</strong>. <br><br>Di daerah Bekasi, seperti Cikarang, Tambun, dan Cibitung, banyak terdapat rumah yang menggunakan kanopi sebagai pelindung dan elemen dekoratif. Namun, tanpa <strong>pengalaman dan pengetahuan</strong> yang cukup, pasang kanopi sendiri bisa menjadi <strong>pengalaman yang mengecewakan</strong>."
+        },
+        {
+          "heading": "3. Pentingnya Memilih Bahan yang Tepat",
+          "content": "Memilih <strong>bahan yang tepat</strong> untuk kanopi adalah sangat penting untuk memastikan bahwa kanopi yang dipilih bisa <strong>kuat</strong>, <strong>tahan lama</strong>, dan <strong>sesuai dengan kebutuhan</strong>. <strong>Bahan-bahan</strong> seperti <strong>baja ringan</strong>, <strong>aluminium</strong>, dan <strong>kayu</strong> adalah beberapa pilihan yang populer untuk kanopi. <br><br>Di Mandiri Steel, kami menyediakan <strong>produk kanopi</strong> dengan <strong>bahan yang berkualitas</strong> dan <strong>desain yang sesuai</strong> dengan kebutuhan Anda. Dengan menggunakan <strong>produk kanopi</strong> dari Mandiri Steel, Anda bisa mendapatkan <strong>kanopi yang kuat</strong>, <strong>tahan lama</strong>, dan <strong>sesuai dengan desain rumah</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Manfaat Menggunakan Jasa Profesional",
+          "content": "Menggunakan <strong>jasa profesional</strong> untuk pasang kanopi memiliki banyak manfaat, seperti <strong>hasil yang berkualitas</strong>, <strong>waktu pemasangan yang lebih cepat</strong>, dan <strong>biaya yang lebih efektif</strong>. <strong>Jasa profesional</strong> juga bisa membantu dalam <strong>memilih bahan yang tepat</strong>, <strong>desain yang sesuai</strong>, dan <strong>teknik pemasangan yang benar</strong>. <br><br>Di Bekasi, banyak tersedia <strong>jasa pasang kanopi</strong> yang bisa membantu dalam memasang kanopi dengan <strong>hasil yang berkualitas</strong> dan <strong>biaya yang efektif</strong>. Dengan menggunakan jasa profesional, Anda bisa mendapatkan <strong>kanopi yang kuat</strong>, <strong>tahan lama</strong>, dan <strong>sesuai dengan desain rumah</strong>."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah <strong>perusahaan yang berpengalaman</strong> dalam menyediakan <strong>produk kanopi</strong> dan <strong>jasa pasang kanopi</strong> yang berkualitas. Dengan <strong>pengalaman lebih dari 25 tahun</strong>, kami memiliki <strong>pengetahuan dan kemampuan</strong> yang cukup untuk memastikan bahwa <strong>produk dan jasa</strong> yang kami tawarkan bisa memenuhi kebutuhan Anda. <br><br>Kami juga menyediakan <strong>garansi struktural</strong> untuk semua <strong>produk kanopi</strong> yang kami jual, sehingga Anda bisa memiliki <strong>ketenangan pikiran</strong> saat menggunakan <strong>produk kanopi</strong> dari Mandiri Steel. Dengan menggunakan <strong>produk kanopi</strong> dari Mandiri Steel, Anda bisa mendapatkan <strong>kanopi yang kuat</strong>, <strong>tahan lama</strong>, dan <strong>sesuai dengan desain rumah</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "6. Service Areas: Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan <strong>jasa pasang kanopi</strong> dan <strong>produk kanopi</strong> untuk wilayah Bekasi dan sekitarnya, seperti Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <br><br>Kami memiliki <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang memadai</strong> untuk memastikan bahwa <strong>jasa dan produk</strong> yang kami tawarkan bisa memenuhi kebutuhan Anda. Dengan menggunakan <strong>jasa dan produk</strong> dari Mandiri Steel, Anda bisa mendapatkan <strong>kanopi yang kuat</strong>, <strong>tahan lama</strong>, dan <strong>sesuai dengan desain rumah</strong>."
+        }
+      ],
+      "conclusion": "Dalam memasang kanopi, penting untuk mempertimbangkan <strong>jasa profesional</strong> untuk mendapatkan hasil yang optimal. Dengan menggunakan <strong>jasa dan produk</strong> dari Mandiri Steel, Anda bisa mendapatkan <strong>kanopi yang kuat</strong>, <strong>tahan lama</strong>, dan <strong>sesuai dengan desain rumah</strong>. Jangan ragu untuk menghubungi kami untuk informasi lebih lanjut tentang <strong>produk kanopi</strong> dan <strong>jasa pasang kanopi</strong> yang kami tawarkan."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 86,
+    "title": "Pagar Besi Galvanis vs Powder Coating",
+    "slug": "pagar-besi-galvanis-vs-powder-coating",
+    "excerpt": "Pagar besi galvanis hot dip vs powder coating, mana yang lebih baik?",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-04",
+    "image": "https://images.unsplash.com/photo-1508263073532-98ed924de82d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxnYWx2YW5pemVkJTIwc3RlZWwlMjBmZW5jaW5nfGVufDB8MHx8fDE3ODU4NDEyODN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Pagar besi</strong> merupakan salah satu elemen penting dalam mempertahankan keamanan dan privasi rumah. Dalam memilih <strong>pagar besi</strong>, ada beberapa hal yang perlu dipertimbangkan, salah satunya adalah lapisan anti karat. Dalam artikel ini, kita akan membahas perbedaan antara <strong>galvanis hot dip</strong> dan <strong>powder coating</strong> sebagai lapisan anti karat pada <strong>pagar besi</strong>. Kita juga akan membahas kelebihan dan kekurangan dari masing-masing jenis lapisan.",
+      "keyPoints": [
+        "Perbedaan antara galvanis hot dip dan powder coating",
+        "Kelebihan dan kekurangan dari masing-masing jenis lapisan",
+        "Tips dalam memilih lapisan anti karat yang tepat untuk pagar besi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Galvanis Hot Dip",
+          "content": "<strong>Galvanis hot dip</strong> adalah proses pelapisan <strong>zinc</strong> pada <strong>baja</strong> dengan cara mencelupkannya ke dalam bak <strong>zinc</strong> yang telah dipanaskan. Proses ini dapat membentuk lapisan <strong>zinc</strong> yang kuat dan tahan lama pada permukaan <strong>baja</strong>. <strong>Galvanis hot dip</strong> banyak digunakan pada <strong>pagar besi</strong> karena dapat memberikan perlindungan yang efektif terhadap karat dan korosi. <br><br>Contoh nyata dari penggunaan <strong>galvanis hot dip</strong> pada <strong>pagar besi</strong> dapat dilihat di daerah <strong>Bekasi</strong>, <strong>Cikarang</strong>, dan <strong>Tambun</strong>, di mana banyak rumah dan gedung yang menggunakan <strong>pagar besi</strong> dengan lapisan <strong>galvanis hot dip</strong>.",
+          "imageSearchQuery": "galvanized steel",
+          "image": "https://images.unsplash.com/photo-1501166222995-ff31c7e93cef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxnYWx2YW5pemVkJTIwc3RlZWx8ZW58MHwwfHx8MTc4NTY2ODU1NHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Pengertian Powder Coating",
+          "content": "<strong>Powder coating</strong> adalah proses pelapisan <strong>cat</strong> pada <strong>baja</strong> dengan cara menyemprotkan <strong>cat</strong> yang telah diubah menjadi <strong>powder</strong> pada permukaan <strong>baja</strong>. <strong>Powder coating</strong> dapat membentuk lapisan <strong>cat</strong> yang kuat dan tahan lama pada permukaan <strong>baja</strong>. <strong>Powder coating</strong> banyak digunakan pada <strong>pagar besi</strong> karena dapat memberikan warna dan desain yang beragam. <br><br>Contoh nyata dari penggunaan <strong>powder coating</strong> pada <strong>pagar besi</strong> dapat dilihat di daerah <strong>Cibitung</strong> dan <strong>Jababeka</strong>, di mana banyak rumah dan gedung yang menggunakan <strong>pagar besi</strong> dengan lapisan <strong>powder coating</strong>.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Perbedaan Antara Galvanis Hot Dip dan Powder Coating",
+          "content": "<strong>Galvanis hot dip</strong> dan <strong>powder coating</strong> memiliki beberapa perbedaan yang signifikan. <strong>Galvanis hot dip</strong> memiliki lapisan <strong>zinc</strong> yang lebih tebal dan kuat daripada <strong>powder coating</strong>. Namun, <strong>powder coating</strong> dapat memberikan warna dan desain yang beragam. <strong>Galvanis hot dip</strong> juga lebih tahan lama daripada <strong>powder coating</strong>, tetapi <strong>powder coating</strong> dapat lebih mudah dalam perawatan dan pemeliharaan. <br><br>Tips dalam memilih lapisan anti karat yang tepat untuk <strong>pagar besi</strong> adalah dengan mempertimbangkan kebutuhan dan preferensi Anda. Jika Anda ingin memiliki <strong>pagar besi</strong> yang kuat dan tahan lama, maka <strong>galvanis hot dip</strong> dapat menjadi pilihan yang tepat. Namun, jika Anda ingin memiliki <strong>pagar besi</strong> dengan warna dan desain yang beragam, maka <strong>powder coating</strong> dapat menjadi pilihan yang tepat.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Kelebihan dan Kekurangan dari Masing-Masing Jenis Lapisan",
+          "content": "<strong>Galvanis hot dip</strong> memiliki beberapa kelebihan, seperti kuat dan tahan lama, serta dapat memberikan perlindungan yang efektif terhadap karat dan korosi. Namun, <strong>galvanis hot dip</strong> juga memiliki beberapa kekurangan, seperti warna yang terbatas dan dapat berubah menjadi kusam jika tidak dirawat dengan baik. <br><br><strong>Powder coating</strong> juga memiliki beberapa kelebihan, seperti dapat memberikan warna dan desain yang beragam, serta lebih mudah dalam perawatan dan pemeliharaan. Namun, <strong>powder coating</strong> juga memiliki beberapa kekurangan, seperti lapisan yang lebih tipis dan kurang kuat daripada <strong>galvanis hot dip</strong>."
+        },
+        {
+          "heading": "5. Tips dalam Memilih Lapisan Anti Karat yang Tepat untuk Pagar Besi",
+          "content": "Tips dalam memilih lapisan anti karat yang tepat untuk <strong>pagar besi</strong> adalah dengan mempertimbangkan kebutuhan dan preferensi Anda. Jika Anda ingin memiliki <strong>pagar besi</strong> yang kuat dan tahan lama, maka <strong>galvanis hot dip</strong> dapat menjadi pilihan yang tepat. Namun, jika Anda ingin memiliki <strong>pagar besi</strong> dengan warna dan desain yang beragam, maka <strong>powder coating</strong> dapat menjadi pilihan yang tepat. <br><br>Contoh nyata dari penggunaan <strong>pagar besi</strong> dengan lapisan anti karat yang tepat dapat dilihat di daerah <strong>MM2100</strong>, <strong>Grand Wisata</strong>, dan <strong>Summarecon Bekasi</strong>, di mana banyak rumah dan gedung yang menggunakan <strong>pagar besi</strong> dengan lapisan anti karat yang tepat.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel untuk Pagar Besi Anda?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan yang berpengalaman dalam produksi <strong>pagar besi</strong> dengan lapisan anti karat yang berkualitas. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah menjadi salah satu perusahaan terkemuka di Indonesia dalam bidang <strong>pagar besi</strong>. <br><br>Mandiri Steel menggunakan bahan-bahan yang berkualitas tinggi, seperti <strong>baja</strong> dengan standar SNI, dan memiliki tim yang berpengalaman dalam produksi <strong>pagar besi</strong>. Mandiri Steel juga menawarkan garansi struktural yang komprehensif untuk semua produk <strong>pagar besi</strong>nya. <br><br>Dengan demikian, Mandiri Steel dapat menjadi pilihan yang tepat untuk Anda yang ingin memiliki <strong>pagar besi</strong> yang kuat, tahan lama, dan berkualitas.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dalam memilih lapisan anti karat yang tepat untuk <strong>pagar besi</strong>, ada beberapa hal yang perlu dipertimbangkan, seperti kebutuhan dan preferensi Anda. Dengan mempertimbangkan kelebihan dan kekurangan dari masing-masing jenis lapisan, Anda dapat membuat keputusan yang tepat untuk <strong>pagar besi</strong> Anda. <br><br>Jika Anda ingin memiliki <strong>pagar besi</strong> yang kuat dan tahan lama, maka <strong>galvanis hot dip</strong> dapat menjadi pilihan yang tepat. Namun, jika Anda ingin memiliki <strong>pagar besi</strong> dengan warna dan desain yang beragam, maka <strong>powder coating</strong> dapat menjadi pilihan yang tepat. <br><br>Untuk informasi lebih lanjut tentang <strong>pagar besi</strong> dengan lapisan anti karat yang berkualitas, silakan hubungi Mandiri Steel. Dengan pengalaman lebih dari 25 tahun, Mandiri Steel dapat membantu Anda membuat keputusan yang tepat untuk <strong>pagar besi</strong> Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 87,
+    "title": "Teralis Besi Awet: Cat Duco vs Powder Coating vs Galvanis",
+    "slug": "teralis-besi-awet-cat-duco-vs-powder-coating-vs-galvanis",
+    "excerpt": "Pilih finishing teralis besi yang tepat untuk rumah Anda. Bandingkan cat duco, powder coating, dan galvanis untuk ketahanan terbaik.",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-04",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "<strong>Teralis besi</strong> merupakan salah satu elemen keamanan rumah yang penting. Dalam memilih <strong>teralis besi</strong>, kita tidak hanya mempertimbangkan desain dan bahan, tetapi juga <strong>finishing</strong> yang digunakan. <strong>Finishing</strong> yang tepat dapat meningkatkan ketahanan dan keamanan <strong>teralis besi</strong>. Dalam artikel ini, kita akan membahas tentang tiga jenis <strong>finishing</strong> yang umum digunakan: <strong>cat duco</strong>, <strong>powder coating</strong>, dan <strong>galvanis</strong>.",
+      "keyPoints": [
+        "Cat duco memiliki kelebihan dalam hal estetika",
+        "Powder coating lebih tahan lama dan ramah lingkungan",
+        "Galvanis menawarkan ketahanan yang sangat baik terhadap korosi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Teralis Besi dan Finishing",
+          "content": "Teralis besi merupakan salah satu elemen keamanan rumah yang penting. Dalam memilih teralis besi, kita tidak hanya mempertimbangkan desain dan bahan, tetapi juga finishing yang digunakan. Finishing yang tepat dapat meningkatkan ketahanan dan keamanan teralis besi. <br> <strong>Finishing</strong> juga dapat mempengaruhi estetika rumah, sehingga pemilihan finishing yang tepat sangat penting. <br> Dalam artikel ini, kita akan membahas tentang tiga jenis finishing yang umum digunakan: cat duco, powder coating, dan galvanis.",
+          "imageSearchQuery": "proses finishing teralis besi"
+        },
+        {
+          "heading": "2. Kelebihan dan Kekurangan Cat Duco",
+          "content": "Cat duco merupakan salah satu jenis finishing yang umum digunakan untuk teralis besi. <strong>Cat duco</strong> memiliki kelebihan dalam hal estetika, karena dapat diwarnai dengan berbagai warna yang menarik. <br> Namun, <strong>cat duco</strong> juga memiliki kekurangan, yaitu kurang tahan lama dan dapat mengelupas jika terkena sinar matahari atau hujan. <br> Oleh karena itu, <strong>cat duco</strong> perlu dilakukan perawatan secara teratur untuk menjaga ketahanannya.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Kelebihan dan Kekurangan Powder Coating",
+          "content": "Powder coating merupakan salah satu jenis finishing yang lebih tahan lama dan ramah lingkungan dibandingkan dengan cat duco. <br> <strong>Powder coating</strong> dapat bertahan lebih lama karena tidak mengandung bahan kimia yang berbahaya. <br> Namun, <strong>powder coating</strong> juga memiliki kekurangan, yaitu lebih mahal dibandingkan dengan cat duco. <br> Oleh karena itu, <strong>powder coating</strong> perlu dipertimbangkan secara matang sebelum digunakan."
+        },
+        {
+          "heading": "4. Kelebihan dan Kekurangan Galvanis",
+          "content": "Galvanis merupakan salah satu jenis finishing yang menawarkan ketahanan yang sangat baik terhadap korosi. <br> <strong>Galvanis</strong> dapat bertahan lebih lama karena memiliki lapisan seng yang melindungi besi dari korosi. <br> Namun, <strong>galvanis</strong> juga memiliki kekurangan, yaitu lebih berat dan lebih mahal dibandingkan dengan cat duco atau powder coating. <br> Oleh karena itu, <strong>galvanis</strong> perlu dipertimbangkan secara matang sebelum digunakan."
+        },
+        {
+          "heading": "5. Tips Memilih Finishing Teralis Besi yang Tepat",
+          "content": "Dalam memilih finishing teralis besi, kita perlu mempertimbangkan beberapa faktor, seperti estetika, ketahanan, dan biaya. <br> Berikut beberapa tips yang dapat membantu Anda memilih finishing teralis besi yang tepat: <ul> <li>Pertimbangkan estetika rumah Anda</li> <li>Pertimbangkan ketahanan finishing</li> <li>Pertimbangkan biaya finishing</li> </ul>",
+          "productId": 5
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel untuk Teralis Besi Anda?",
+          "content": "Mandiri Steel merupakan salah satu penyedia teralis besi yang terpercaya di Bekasi dan sekitarnya. <br> Dengan lebih dari 25 tahun pengalaman, Mandiri Steel menawarkan teralis besi yang berkualitas tinggi dan tahan lama. <br> Mandiri Steel juga menawarkan layanan free on-site survey dan structural warranty untuk memastikan kepuasan pelanggan. <br> Oleh karena itu, Mandiri Steel merupakan pilihan yang tepat untuk teralis besi Anda."
+        },
+        {
+          "heading": "7. Layanan Mandiri Steel di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menawarkan layanan teralis besi di Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <br> Dengan tim yang profesional dan berpengalaman, Mandiri Steel dapat membantu Anda memilih finishing teralis besi yang tepat untuk rumah Anda. <br> Oleh karena itu, jangan ragu untuk menghubungi Mandiri Steel untuk layanan teralis besi yang terpercaya dan berkualitas."
+        }
+      ],
+      "conclusion": "Dalam memilih finishing teralis besi, kita perlu mempertimbangkan beberapa faktor, seperti estetika, ketahanan, dan biaya. <br> Dengan memilih Mandiri Steel sebagai penyedia teralis besi, Anda dapat memastikan bahwa Anda mendapatkan teralis besi yang berkualitas tinggi dan tahan lama. <br> Oleh karena itu, jangan ragu untuk menghubungi Mandiri Steel untuk layanan teralis besi yang terpercaya dan berkualitas."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 82,
     "title": "Pintu Pagar Otomatis di Bekasi",
     "slug": "pintu-pagar-otomatis-bekasi",
