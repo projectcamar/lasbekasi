@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 88,
+    "title": "Railing Tangga Outdoor Bekasi",
+    "slug": "railing-tangga-outdoor-bekasi",
+    "excerpt": "Railing tangga outdoor untuk taman dan halaman rumah di Bekasi, desain minimalis dan klasik",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-05",
+    "image": "https://images.unsplash.com/photo-1779542587817-a42ad7226922?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwc3RhaXJjYXNlJTIwcmFpbGluZ3xlbnwwfDB8fHwxNzg1OTI3NjA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing tangga outdoor adalah salah satu elemen penting dalam desain taman dan halaman rumah di Bekasi. <strong>Railing tangga</strong> tidak hanya berfungsi sebagai pengaman, tetapi juga sebagai elemen dekoratif yang dapat meningkatkan keindahan dan kenyamanan rumah. Dalam artikel ini, kita akan membahas tentang <strong>railing tangga outdoor</strong> untuk taman dan halaman rumah di Bekasi, termasuk desain, bahan, dan tips dalam memilih railing tangga yang tepat.",
+      "keyPoints": [
+        "Railing tangga outdoor sebagai elemen penting dalam desain taman dan halaman rumah",
+        "Desain railing tangga minimalis dan klasik untuk rumah di Bekasi",
+        "Tips dalam memilih railing tangga yang tepat untuk rumah"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Railing Tangga Outdoor",
+          "content": "Railing tangga outdoor adalah struktur yang dipasang di sekitar tangga untuk menghubungkan antara lantai dan tangga. <strong>Railing tangga outdoor</strong> berfungsi sebagai pengaman untuk mencegah terjadinya kecelakaan dan cedera. Selain itu, railing tangga outdoor juga dapat digunakan sebagai elemen dekoratif untuk meningkatkan keindahan dan kenyamanan rumah. Dalam memilih railing tangga outdoor, perlu dipertimbangkan beberapa faktor, seperti <strong>desain</strong>, <strong>bahan</strong>, dan <strong>ukuran</strong>. <br><br>Di Bekasi, railing tangga outdoor dapat dipasang di taman, halaman, atau bahkan di dalam rumah. <strong>Railing tangga outdoor</strong> dapat dibuat dari berbagai bahan, seperti <strong>baja</strong>, <strong>aluminium</strong>, atau <strong>kayu</strong>. Pemilihan bahan yang tepat akan mempengaruhi kekuatan dan keindahan railing tangga outdoor.",
+          "imageSearchQuery": "outdoor staircase railing design",
+          "image": "https://images.unsplash.com/photo-1695742634090-b61ca5c0dbad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwc3RhaXJjYXNlJTIwcmFpbGluZyUyMGRlc2lnbnxlbnwwfDB8fHwxNzg1OTI3NjA5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Desain Railing Tangga Outdoor Minimalis",
+          "content": "Desain railing tangga outdoor minimalis sangat populer di kalangan masyarakat Bekasi. <strong>Desain minimalis</strong> dapat memberikan kesan yang sederhana dan elegan pada rumah. Railing tangga outdoor minimalis dapat dibuat dari bahan <strong>baja</strong> atau <strong>aluminium</strong> dengan desain yang sederhana dan clean. <br><br>Salah satu contoh desain railing tangga outdoor minimalis adalah <strong>railing tangga</strong> dengan desain <strong>garis lurus</strong> dan <strong>simpel</strong>. Desain ini dapat memberikan kesan yang modern dan minimalis pada rumah. Selain itu, railing tangga outdoor minimalis juga dapat dipasang dengan <strong>lampu</strong> untuk memberikan kesan yang lebih elegan dan mewah.",
+          "productId": 6
+        },
+        {
+          "heading": "3. Desain Railing Tangga Outdoor Klasik",
+          "content": "Desain railing tangga outdoor klasik juga sangat populer di kalangan masyarakat Bekasi. <strong>Desain klasik</strong> dapat memberikan kesan yang elegan dan mewah pada rumah. Railing tangga outdoor klasik dapat dibuat dari bahan <strong>kayu</strong> atau <strong>baja</strong> dengan desain yang lebih rumit dan kompleks. <br><br>Salah satu contoh desain railing tangga outdoor klasik adalah <strong>railing tangga</strong> dengan desain <strong>ukiran</strong> dan <strong>ornamen</strong>. Desain ini dapat memberikan kesan yang elegan dan mewah pada rumah. Selain itu, railing tangga outdoor klasik juga dapat dipasang dengan <strong>patung</strong> atau <strong>dekorasi</strong> lainnya untuk memberikan kesan yang lebih mewah dan elegan.",
+          "productId": 4
+        },
+        {
+          "heading": "4. Tips dalam Memilih Railing Tangga Outdoor",
+          "content": "Dalam memilih railing tangga outdoor, perlu dipertimbangkan beberapa faktor, seperti <strong>desain</strong>, <strong>bahan</strong>, dan <strong>ukuran</strong>. Berikut beberapa tips dalam memilih railing tangga outdoor yang tepat untuk rumah: <ul><li>Pertimbangkan desain dan gaya rumah</li><li>Pilih bahan yang kuat dan tahan lama</li><li>Pertimbangkan ukuran dan bentuk tangga</li><li>Pilih railing tangga outdoor yang sesuai dengan budget</li></ul> <br><br>Di Bekasi, railing tangga outdoor dapat dipasang di taman, halaman, atau bahkan di dalam rumah. <strong>Railing tangga outdoor</strong> dapat dibuat dari berbagai bahan, seperti <strong>baja</strong>, <strong>aluminium</strong>, atau <strong>kayu</strong>. Pemilihan bahan yang tepat akan mempengaruhi kekuatan dan keindahan railing tangga outdoor."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Railing Tangga Outdoor?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam produksi railing tangga outdoor di Bekasi. <strong>Mandiri Steel</strong> memiliki lebih dari 25 tahun pengalaman dalam produksi railing tangga outdoor dan telah bekerja sama dengan banyak klien di Bekasi. <br><br><strong>Mandiri Steel</strong> menggunakan bahan-bahan yang berkualitas tinggi dan memiliki tim yang berpengalaman dalam produksi railing tangga outdoor. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan garansi struktural dan pelayanan yang baik untuk klien. <br><br>Di Bekasi, <strong>Mandiri Steel</strong> telah bekerja sama dengan banyak klien di daerah Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Area Pelayanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel memiliki area pelayanan yang luas di Bekasi, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <strong>Mandiri Steel</strong> dapat melayani kebutuhan railing tangga outdoor untuk rumah, apartemen, atau bangunan komersial di daerah tersebut. <br><br>Di Bekasi, <strong>Mandiri Steel</strong> telah bekerja sama dengan banyak klien dan telah membangun reputasi yang baik dalam produksi railing tangga outdoor. <strong>Mandiri Steel</strong> berkomitmen untuk memberikan pelayanan yang baik dan memuaskan kebutuhan klien."
+        }
+      ],
+      "conclusion": "Dalam memilih railing tangga outdoor untuk rumah di Bekasi, perlu dipertimbangkan beberapa faktor, seperti desain, bahan, dan ukuran. <strong>Mandiri Steel</strong> adalah salah satu perusahaan yang berpengalaman dalam produksi railing tangga outdoor di Bekasi dan dapat membantu Anda dalam memilih railing tangga outdoor yang tepat untuk rumah. <br><br>Untuk informasi lebih lanjut tentang railing tangga outdoor dan layanan <strong>Mandiri Steel</strong>, silakan hubungi kami melalui telepon atau email. Kami akan dengan senang hati membantu Anda dalam memilih railing tangga outdoor yang sesuai dengan kebutuhan dan budget Anda."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 89,
+    "title": "Jasa Las Pagar & Kanopi Bekasi",
+    "slug": "jasa-las-pagar-dan-kanopi-bekasi",
+    "excerpt": "Mandiri Steel, spesialis jasa las pagar dan kanopi di Bekasi, menawarkan solusi terbaik untuk keamanan dan estetika rumah Anda",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-05",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Di era modern ini, <strong>keamanan dan estetika rumah</strong> menjadi prioritas utama bagi banyak orang. Salah satu cara untuk meningkatkan keamanan dan estetika rumah adalah dengan memasang <strong>pagar dan kanopi</strong> yang tepat. Di Kota Harapan Indah dan Metland Tambun, <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk jasa las pagar dan kanopi. Dengan pengalaman lebih dari 25 tahun, kami memiliki <strong>komitmen kuat</strong> untuk menyediakan layanan terbaik bagi pelanggan kami.",
+      "keyPoints": [
+        "Jasa las pagar dan kanopi berkualitas tinggi",
+        "Bahan-bahan SNI yang kuat dan tahan lama",
+        "Desain yang fleksibel dan sesuai dengan kebutuhan pelanggan",
+        "Harga yang kompetitif dan layanan yang profesional"
+      ],
+      "sections": [
+        {
+          "heading": "Mengenal Lebih Dalam tentang Jasa Las Pagar",
+          "content": "Jasa las pagar adalah proses <strong>fabrikasi</strong> pagar menggunakan bahan-bahan logam, seperti besi atau stainless steel. <strong>Mandiri Steel</strong> memiliki pengalaman luas dalam melayani jasa las pagar untuk rumah, kantor, dan bangunan lainnya di Bekasi dan sekitarnya. Kami menggunakan <strong>bahan-bahan SNI</strong> yang kuat dan tahan lama, sehingga pagar yang kami buat dapat bertahan dalam jangka waktu lama. <br><br> Selain itu, kami juga menawarkan <strong>desain yang fleksibel</strong> dan sesuai dengan kebutuhan pelanggan. Dari <strong>pagar minimalis modern</strong> hingga <strong>pagar klasik</strong>, kami dapat mengerjakan semua jenis pagar sesuai dengan keinginan Anda. <br><br> Contohnya, di Kota Harapan Indah, kami pernah mengerjakan proyek pagar untuk sebuah rumah mewah dengan desain <strong>minimalis modern</strong>. Pagar tersebut terbuat dari <strong>stainless steel</strong> yang kuat dan tahan korosi, sehingga dapat bertahan dalam jangka waktu lama.",
+          "imageSearchQuery": "steel fence fabrication",
+          "image": "https://images.unsplash.com/photo-1508263073532-98ed924de82d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGZlbmNlJTIwZmFicmljYXRpb258ZW58MHwwfHx8MTc4NTkyNzY4Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Mengenal Lebih Dalam tentang Jasa Las Kanopi",
+          "content": "Jasa las kanopi adalah proses <strong>fabrikasi</strong> kanopi menggunakan bahan-bahan logam, seperti besi atau stainless steel. <strong>Mandiri Steel</strong> memiliki pengalaman luas dalam melayani jasa las kanopi untuk rumah, kantor, dan bangunan lainnya di Bekasi dan sekitarnya. Kami menggunakan <strong>bahan-bahan SNI</strong> yang kuat dan tahan lama, sehingga kanopi yang kami buat dapat bertahan dalam jangka waktu lama. <br><br> Selain itu, kami juga menawarkan <strong>desain yang fleksibel</strong> dan sesuai dengan kebutuhan pelanggan. Dari <strong>kanopi minimalis modern</strong> hingga <strong>kanopi klasik</strong>, kami dapat mengerjakan semua jenis kanopi sesuai dengan keinginan Anda. <br><br> Contohnya, di Metland Tambun, kami pernah mengerjakan proyek kanopi untuk sebuah rumah dengan desain <strong>minimalis modern</strong>. Kanopi tersebut terbuat dari <strong>stainless steel</strong> yang kuat dan tahan korosi, sehingga dapat bertahan dalam jangka waktu lama.",
+          "productId": 1
+        },
+        {
+          "heading": "Tips Memilih Jasa Las Pagar dan Kanopi yang Tepat",
+          "content": "<ul><li>Pastikan Anda memilih jasa las pagar dan kanopi yang memiliki pengalaman luas dan reputasi baik</li><li>Periksa <strong>bahan-bahan</strong> yang digunakan dan pastikan mereka sesuai dengan standar SNI</li><li>Pilih desain yang sesuai dengan kebutuhan dan budget Anda</li><li>Periksa <strong>harga</strong> dan pastikan mereka kompetitif</li></ul> <br><br> Dengan memilih jasa las pagar dan kanopi yang tepat, Anda dapat meningkatkan keamanan dan estetika rumah Anda. <strong>Mandiri Steel</strong> adalah pilihan yang tepat untuk Anda, karena kami memiliki pengalaman luas, bahan-bahan SNI, desain yang fleksibel, dan harga yang kompetitif.",
+          "productId": 3
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Jasa Las Pagar dan Kanopi?",
+          "content": "<strong>Mandiri Steel</strong> memiliki pengalaman lebih dari 25 tahun dalam melayani jasa las pagar dan kanopi. Kami memiliki <strong>komitmen kuat</strong> untuk menyediakan layanan terbaik bagi pelanggan kami. <br><br> Kami menggunakan <strong>bahan-bahan SNI</strong> yang kuat dan tahan lama, sehingga pagar dan kanopi yang kami buat dapat bertahan dalam jangka waktu lama. Selain itu, kami juga menawarkan <strong>desain yang fleksibel</strong> dan sesuai dengan kebutuhan pelanggan. <br><br> Kami juga memiliki <strong>harga yang kompetitif</strong> dan layanan yang profesional. Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat meningkatkan keamanan dan estetika rumah Anda dengan pagar dan kanopi yang berkualitas tinggi.",
+          "productId": 2
+        },
+        {
+          "heading": "Layanan yang Kami Tawarkan",
+          "content": "<strong>Mandiri Steel</strong> menawarkan layanan jasa las pagar dan kanopi yang komprehensif. Kami memiliki <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang canggih</strong>, sehingga kami dapat mengerjakan proyek dengan cepat dan efisien. <br><br> Kami juga menawarkan <strong>free on-site survey</strong> untuk membantu Anda menentukan kebutuhan dan budget yang tepat. Selain itu, kami juga memiliki <strong>structural warranty</strong> yang dapat memberikan Anda ketenangan pikiran. <br><br> Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat meningkatkan keamanan dan estetika rumah Anda dengan pagar dan kanopi yang berkualitas tinggi.",
+          "productId": 5
+        },
+        {
+          "heading": "Area Layanan Kami",
+          "content": "<strong>Mandiri Steel</strong> melayani area Bekasi dan sekitarnya, termasuk Kota Harapan Indah, Metland Tambun, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <br><br> Kami memiliki <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang canggih</strong>, sehingga kami dapat mengerjakan proyek dengan cepat dan efisien. <br><br> Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat meningkatkan keamanan dan estetika rumah Anda dengan pagar dan kanopi yang berkualitas tinggi, tanpa perlu khawatir tentang biaya dan kualitas.",
+          "productId": 6
+        }
+      ],
+      "conclusion": "Dengan demikian, <strong>Mandiri Steel</strong> adalah pilihan yang tepat untuk Anda yang ingin meningkatkan keamanan dan estetika rumah dengan pagar dan kanopi yang berkualitas tinggi. Kami memiliki pengalaman luas, bahan-bahan SNI, desain yang fleksibel, dan harga yang kompetitif. <br><br> Jangan ragu untuk menghubungi kami untuk mendapatkan informasi lebih lanjut tentang jasa las pagar dan kanopi yang kami tawarkan. Kami siap membantu Anda mencapai keamanan dan estetika rumah yang Anda inginkan."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 90,
+    "title": "Kanopi Baja Ringan vs Baja Berat",
+    "slug": "kanopi-baja-ringan-vs-baja-berat",
+    "excerpt": "Pilih kanopi yang tepat untuk rumah 2 lantai di Bekasi dengan membandingkan kelebihan dan kekurangan baja ringan dan baja berat",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-05",
+    "image": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjYW5vcHklMjBzdGVlbCUyMGNvbnN0cnVjdGlvbnxlbnwwfDB8fHwxNzg1OTI3NzU0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pembangunan rumah 2 lantai di Bekasi memerlukan perencanaan yang matang, termasuk pemilihan <strong>kanopi</strong> yang tepat. Dua pilihan yang umum digunakan adalah <strong>baja ringan</strong> dan <strong>baja berat</strong>. Kedua bahan ini memiliki kelebihan dan kekurangan yang perlu dipertimbangkan sebelum membuat keputusan. Dalam artikel ini, kita akan membahas perbedaan antara <strong>kanopi baja ringan</strong> dan <strong>kanopi baja berat</strong>, serta membantu Anda memilih yang paling sesuai untuk rumah 2 lantai di Bekasi.",
+      "keyPoints": [
+        "Kelebihan dan kekurangan baja ringan",
+        "Kelebihan dan kekurangan baja berat",
+        "Pemilihan kanopi yang tepat untuk rumah 2 lantai di Bekasi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Kanopi Baja Ringan",
+          "content": "Kanopi baja ringan adalah <strong>struktur atap</strong> yang terbuat dari <strong>baja ringan</strong> yang memiliki berat lebih ringan dibandingkan dengan baja berat. Baja ringan memiliki kelebihan seperti <strong>kuat</strong>, <strong>tahan lama</strong>, dan <strong>mudah dipasang</strong>. Namun, baja ringan juga memiliki kekurangan seperti <strong>rentan terhadap korosi</strong> dan <strong>tidak tahan api</strong>. <br> Contoh nyata penggunaan kanopi baja ringan adalah pada rumah-rumah di <strong>Perumahan Grand Wisata</strong> di Bekasi, yang menggunakan kanopi baja ringan sebagai atap carport dan teras. <br> Tips: Pastikan Anda memilih <strong>baja ringan yang berkualitas</strong> dan melakukan <strong>perawatan rutin</strong> untuk mencegah korosi.",
+          "imageSearchQuery": "baja ringan construction"
+        },
+        {
+          "heading": "2. Pengenalan Kanopi Baja Berat",
+          "content": "Kanopi baja berat adalah <strong>struktur atap</strong> yang terbuat dari <strong>baja berat</strong> yang memiliki berat lebih berat dibandingkan dengan baja ringan. Baja berat memiliki kelebihan seperti <strong>tahan lama</strong>, <strong>kuat</strong>, dan <strong>tahan api</strong>. Namun, baja berat juga memiliki kekurangan seperti <strong>berat</strong> dan <strong>sulit dipasang</strong>. <br> Contoh nyata penggunaan kanopi baja berat adalah pada <strong>gedung-gedung perkantoran</strong> di <strong>Kota Deltamas</strong>, yang menggunakan kanopi baja berat sebagai atap dan struktur penopang. <br> Tips: Pastikan Anda memilih <strong>baja berat yang berkualitas</strong> dan melakukan <strong>perencanaan yang matang</strong> sebelum memasang kanopi baja berat.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Perbandingan Kanopi Baja Ringan dan Baja Berat",
+          "content": "Dalam membandingkan kanopi baja ringan dan baja berat, perlu dipertimbangkan beberapa faktor seperti <strong>kebutuhan</strong>, <strong>anggaran</strong>, dan <strong>lokasi</strong>. Jika Anda memiliki rumah 2 lantai di Bekasi dan ingin memiliki kanopi yang <strong>kuat</strong> dan <strong>tahan lama</strong>, maka kanopi baja berat bisa menjadi pilihan yang tepat. Namun, jika Anda memiliki anggaran yang terbatas dan ingin memiliki kanopi yang <strong>mudah dipasang</strong> dan <strong>rentan terhadap korosi</strong>, maka kanopi baja ringan bisa menjadi pilihan yang tepat. <br> Tips: Pastikan Anda melakukan <strong>perencanaan yang matang</strong> dan <strong>konsultasi dengan ahli</strong> sebelum membuat keputusan.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Pemilihan Kanopi yang Tepat untuk Rumah 2 Lantai di Bekasi",
+          "content": "Dalam memilih kanopi yang tepat untuk rumah 2 lantai di Bekasi, perlu dipertimbangkan beberapa faktor seperti <strong>kebutuhan</strong>, <strong>anggaran</strong>, dan <strong>lokasi</strong>. Jika Anda memiliki rumah 2 lantai di <strong>Perumahan Summarecon Bekasi</strong> dan ingin memiliki kanopi yang <strong>kuat</strong> dan <strong>tahan lama</strong>, maka kanopi baja berat bisa menjadi pilihan yang tepat. Namun, jika Anda memiliki anggaran yang terbatas dan ingin memiliki kanopi yang <strong>mudah dipasang</strong> dan <strong>rentan terhadap korosi</strong>, maka kanopi baja ringan bisa menjadi pilihan yang tepat. <br> Tips: Pastikan Anda melakukan <strong>perencanaan yang matang</strong> dan <strong>konsultasi dengan ahli</strong> sebelum membuat keputusan."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Kanopi Rumah Anda?",
+          "content": "Mandiri Steel adalah <strong>perusahaan yang berpengalaman</strong> dalam pembuatan kanopi baja ringan dan baja berat. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah menjadi <strong>salah satu perusahaan terkemuka</strong> di Indonesia dalam bidang pembuatan kanopi. <br> Mandiri Steel menggunakan <strong>bahan-bahan yang berkualitas</strong> dan memiliki <strong>tim yang profesional</strong> untuk memastikan bahwa kanopi yang dibuat adalah <strong>kuat</strong> dan <strong>tahan lama</strong>. <br> Tips: Pastikan Anda memilih <strong>perusahaan yang berpengalaman</strong> dan <strong>memiliki reputasi yang baik</strong> untuk memastikan bahwa kanopi yang dibuat adalah <strong>kuat</strong> dan <strong>tahan lama</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "6. Service Area Mandiri Steel",
+          "content": "Mandiri Steel memiliki <strong>service area</strong> yang luas di wilayah <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>. Dengan <strong>lokasi yang strategis</strong>, Mandiri Steel dapat dengan mudah <strong>mengirimkan kanopi</strong> ke berbagai lokasi di wilayah Bekasi dan Jabodetabek. <br> Beberapa <strong>lokasi yang dilayani</strong> oleh Mandiri Steel adalah <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, dan <strong>Grand Wisata</strong>. <br> Tips: Pastikan Anda memilih <strong>perusahaan yang memiliki service area yang luas</strong> untuk memastikan bahwa kanopi yang dibuat dapat dengan mudah dikirim ke lokasi Anda."
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi yang tepat untuk rumah 2 lantai di Bekasi, perlu dipertimbangkan beberapa faktor seperti kebutuhan, anggaran, dan lokasi. Dengan membandingkan kelebihan dan kekurangan baja ringan dan baja berat, Anda dapat membuat keputusan yang tepat untuk memilih kanopi yang sesuai dengan kebutuhan Anda. <br> Jika Anda memiliki pertanyaan atau ingin melakukan konsultasi dengan ahli, silakan <strong>hubungi Mandiri Steel</strong> untuk mendapatkan informasi lebih lanjut tentang kanopi baja ringan dan baja berat."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 85,
     "title": "Kanopi Profesional Bekasi",
     "slug": "kesalahan-umum-saat-pasang-kanopi-sendiri",
