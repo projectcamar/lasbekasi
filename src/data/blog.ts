@@ -33,6 +33,178 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 91,
+    "title": "Teralis Jendela Anti Maling Terbaik",
+    "slug": "teralis-jendela-anti-maling-terbaik-bekasi",
+    "excerpt": "Teralis jendela anti maling terbaik untuk rumah di Bekasi, desain modern tanpa mengorbankan estetika",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1772976884763-4df8ecf8afad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3aW5kb3clMjBncmlsbCUyMGRlc2lnbnxlbnwwfDB8fHwxNzg1OTkyNDA5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Memiliki rumah yang aman dan nyaman adalah impian bagi banyak orang. Salah satu cara untuk meningkatkan keamanan rumah adalah dengan memasang <strong>teralis jendela anti maling</strong>. Teralis jendela anti maling tidak hanya berfungsi sebagai pengaman, tetapi juga dapat meningkatkan estetika rumah. Di Bekasi, banyak rumah yang telah memasang teralis jendela anti maling untuk meningkatkan keamanan dan kenyamanan. Dalam artikel ini, kita akan membahas tentang <strong>teralis jendela anti maling terbaik</strong> untuk rumah di Bekasi, dengan desain modern tanpa mengorbankan estetika.",
+      "keyPoints": [
+        "Teralis jendela anti maling dapat meningkatkan keamanan rumah",
+        "Desain modern tanpa mengorbankan estetika",
+        "Banyak pilihan material dan desain tersedia"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Teralis Jendela Anti Maling",
+          "content": "Teralis jendela anti maling adalah sebuah sistem pengamanan yang dipasang pada jendela untuk mencegah akses tidak sah ke dalam rumah. <strong>Teralis jendela anti maling</strong> biasanya terbuat dari bahan-bahan yang kuat dan tahan lama, seperti besi atau stainless steel. Dengan memasang teralis jendela anti maling, Anda dapat meningkatkan keamanan rumah dan mencegah kejahatan seperti pencurian atau perampokan. Di Bekasi, banyak rumah yang telah memasang teralis jendela anti maling untuk meningkatkan keamanan dan kenyamanan. <br> <br> Selain itu, teralis jendela anti maling juga dapat meningkatkan estetika rumah. Dengan desain yang modern dan elegan, teralis jendela anti maling dapat menjadi sebuah elemen dekoratif yang menarik. <strong>Teralis jendela anti maling</strong> juga dapat dipasang pada jendela yang berbeda-beda, sehingga Anda dapat memilih desain yang sesuai dengan kebutuhan dan selera Anda.",
+          "imageSearchQuery": "window grill design ideas",
+          "image": "https://images.unsplash.com/photo-1759375330524-95fca749bf98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx3aW5kb3clMjBncmlsbCUyMGRlc2lnbiUyMGlkZWFzfGVufDB8MHx8fDE3ODU5OTI0MTB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Teralis Jendela Anti Maling",
+          "content": "Teralis jendela anti maling memiliki beberapa manfaat yang penting. Pertama, <strong>teralis jendela anti maling</strong> dapat meningkatkan keamanan rumah. Dengan memasang teralis jendela anti maling, Anda dapat mencegah akses tidak sah ke dalam rumah dan mencegah kejahatan seperti pencurian atau perampokan. Kedua, teralis jendela anti maling dapat meningkatkan estetika rumah. Dengan desain yang modern dan elegan, teralis jendela anti maling dapat menjadi sebuah elemen dekoratif yang menarik. <br> <br> Ketiga, <strong>teralis jendela anti maling</strong> dapat meningkatkan nilai jual rumah. Dengan memasang teralis jendela anti maling, Anda dapat meningkatkan keamanan dan estetika rumah, sehingga nilai jual rumah dapat meningkat. Di Bekasi, banyak rumah yang telah memasang teralis jendela anti maling untuk meningkatkan keamanan dan kenyamanan. <strong>Teralis jendela anti maling</strong> juga dapat dipasang pada jendela yang berbeda-beda, sehingga Anda dapat memilih desain yang sesuai dengan kebutuhan dan selera Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Tips Memilih Teralis Jendela Anti Maling",
+          "content": "Memilih <strong>teralis jendela anti maling</strong> yang tepat dapat menjadi sebuah keputusan yang sulit. Berikut beberapa tips yang dapat membantu Anda memilih teralis jendela anti maling yang sesuai dengan kebutuhan dan selera Anda. <ul> <li>Pertimbangkan bahan dan kualitas teralis jendela anti maling</li> <li>Pertimbangkan desain dan estetika teralis jendela anti maling</li> <li>Pertimbangkan harga dan biaya pemasangan teralis jendela anti maling</li> </ul> <br> <br> Dengan mempertimbangkan beberapa faktor tersebut, Anda dapat memilih <strong>teralis jendela anti maling</strong> yang sesuai dengan kebutuhan dan selera Anda. Di Bekasi, banyak rumah yang telah memasang teralis jendela anti maling untuk meningkatkan keamanan dan kenyamanan. <strong>Teralis jendela anti maling</strong> juga dapat dipasang pada jendela yang berbeda-beda, sehingga Anda dapat memilih desain yang sesuai dengan kebutuhan dan selera Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "4. Cara Pemasangan Teralis Jendela Anti Maling",
+          "content": "Pemasangan <strong>teralis jendela anti maling</strong> dapat menjadi sebuah proses yang sulit. Berikut beberapa langkah yang dapat membantu Anda memasang teralis jendela anti maling dengan benar. <ol> <li>Persiapkan bahan dan alat yang dibutuhkan</li> <li>Ukur jendela dan tentukan ukuran teralis jendela anti maling</li> <li>Pasang teralis jendela anti maling pada jendela</li> </ol> <br> <br> Dengan memfollow beberapa langkah tersebut, Anda dapat memasang <strong>teralis jendela anti maling</strong> dengan benar dan aman. Di Bekasi, banyak rumah yang telah memasang teralis jendela anti maling untuk meningkatkan keamanan dan kenyamanan. <strong>Teralis jendela anti maling</strong> juga dapat dipasang pada jendela yang berbeda-beda, sehingga Anda dapat memilih desain yang sesuai dengan kebutuhan dan selera Anda."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Teralis Jendela Anti Maling?",
+          "content": "Mandiri Steel adalah sebuah perusahaan yang telah berpengalaman dalam produksi dan pemasangan <strong>teralis jendela anti maling</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah menjadi sebuah nama yang terpercaya dalam industri ini. <br> <br> Mandiri Steel menggunakan bahan-bahan yang berkualitas tinggi dan memiliki desain yang modern dan elegan. Selain itu, Mandiri Steel juga menawarkan harga yang kompetitif dan biaya pemasangan yang terjangkau. <strong>Teralis jendela anti maling</strong> dari Mandiri Steel juga dapat dipasang pada jendela yang berbeda-beda, sehingga Anda dapat memilih desain yang sesuai dengan kebutuhan dan selera Anda. <br> <br> Dengan memilih Mandiri Steel, Anda dapat mendapatkan <strong>teralis jendela anti maling</strong> yang berkualitas tinggi dan sesuai dengan kebutuhan dan selera Anda. Di Bekasi, banyak rumah yang telah memasang teralis jendela anti maling dari Mandiri Steel untuk meningkatkan keamanan dan kenyamanan.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas, termasuk Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Dengan area layanan yang luas, Mandiri Steel dapat memenuhi kebutuhan <strong>teralis jendela anti maling</strong> Anda di mana saja Anda berada. <br> <br> Selain itu, Mandiri Steel juga memiliki tim yang profesional dan berpengalaman dalam produksi dan pemasangan <strong>teralis jendela anti maling</strong>. Dengan tim yang profesional, Mandiri Steel dapat memastikan bahwa <strong>teralis jendela anti maling</strong> Anda dipasang dengan benar dan aman. <br> <br> Dengan memilih Mandiri Steel, Anda dapat mendapatkan <strong>teralis jendela anti maling</strong> yang berkualitas tinggi dan sesuai dengan kebutuhan dan selera Anda. Di Bekasi, banyak rumah yang telah memasang teralis jendela anti maling dari Mandiri Steel untuk meningkatkan keamanan dan kenyamanan."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, <strong>teralis jendela anti maling</strong> adalah sebuah investasi yang penting untuk meningkatkan keamanan dan kenyamanan rumah. Dengan memilih Mandiri Steel, Anda dapat mendapatkan <strong>teralis jendela anti maling</strong> yang berkualitas tinggi dan sesuai dengan kebutuhan dan selera Anda. Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang <strong>teralis jendela anti maling</strong> dan layanan lainnya."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 92,
+    "title": "Renovasi Rumah di Bekasi",
+    "slug": "waktu-terbaik-untuk-renovasi-rumah-di-bekasi",
+    "excerpt": "Temukan waktu terbaik untuk renovasi rumah di Bekasi dan kapan harus pasang kanopi dan pagar",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1613553507747-5f8d62ad5904?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyZW5vdmFzaSUyMHJ1bWFoJTIwbW9kZXJufGVufDB8MHx8fDE3ODU5OTI0ODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Renovasi rumah</strong> adalah proyek yang besar dan memerlukan perencanaan yang matang. Di Bekasi, <strong>waktu terbaik untuk renovasi</strong> rumah adalah saat musim kemarau, karena cuaca yang cerah dan tidak hujan. <strong>Kanopi dan pagar</strong> adalah dua elemen penting yang harus dipertimbangkan dalam renovasi rumah. Dalam artikel ini, kita akan membahas kapan harus pasang kanopi dan pagar, serta tips dan trik untuk renovasi rumah di Bekasi.",
+      "keyPoints": [
+        "Waktu terbaik untuk renovasi rumah di Bekasi",
+        "Kapan harus pasang kanopi",
+        "Kapan harus pasang pagar"
+      ],
+      "sections": [
+        {
+          "heading": "1. Persiapan Renovasi Rumah di Bekasi",
+          "content": "Sebelum memulai renovasi rumah, <strong>perencanaan yang matang</strong> adalah kunci kesuksesan. Di Bekasi, <strong>cuaca</strong> yang cerah dan tidak hujan adalah waktu terbaik untuk renovasi. <strong>Pertimbangan lain</strong> seperti anggaran, desain, dan material juga harus dipertimbangkan. <br><br>Contoh nyata, jika Anda ingin melakukan renovasi rumah di Bekasi, pastikan Anda memiliki <strong>anggaran yang cukup</strong> untuk membiayai proyek tersebut. <strong>Desain</strong> yang sesuai dengan kebutuhan dan selera Anda juga harus dipertimbangkan. <strong>Material</strong> yang berkualitas dan tahan lama juga harus dipilih untuk memastikan bahwa renovasi rumah Anda bertahan lama.",
+          "imageSearchQuery": "renovasi rumah bekasi"
+        },
+        {
+          "heading": "2. Manfaat Kanopi untuk Rumah di Bekasi",
+          "content": "<strong>Kanopi</strong> adalah elemen penting yang harus dipertimbangkan dalam renovasi rumah. <strong>Manfaat</strong> kanopi antara lain melindungi rumah dari <strong>hujan</strong> dan <strong>sinar matahari</strong> langsung. <strong>Kanopi</strong> juga dapat meningkatkan <strong>estetika</strong> rumah dan membuatnya terlihat lebih <strong>modis</strong>. <br><br>Di Bekasi, <strong>kanopi</strong> dapat dipasang di area <strong>teras</strong>, <strong>carport</strong>, atau <strong>halaman belakang</strong>. <strong>Tips</strong> untuk memilih kanopi yang sesuai dengan kebutuhan Anda adalah mempertimbangkan <strong>ukuran</strong>, <strong>bahan</strong>, dan <strong>desain</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Pagar yang Sesuai untuk Rumah di Bekasi",
+          "content": "<strong>Pagar</strong> adalah elemen penting lainnya yang harus dipertimbangkan dalam renovasi rumah. <strong>Pagar</strong> dapat meningkatkan <strong>keamanan</strong> rumah dan membuatnya terlihat lebih <strong>eksklusif</strong>. <strong>Pagar</strong> juga dapat dipilih sesuai dengan <strong>selera</strong> dan <strong>kebutuhan</strong> Anda. <br><br>Di Bekasi, <strong>pagar</strong> dapat dipasang di area <strong>depan</strong> atau <strong>belakang</strong> rumah. <strong>Tips</strong> untuk memilih pagar yang sesuai dengan kebutuhan Anda adalah mempertimbangkan <strong>bahan</strong>, <strong>ukuran</strong>, dan <strong>desain</strong>.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Tips Renovasi Rumah di Bekasi",
+          "content": "<strong>Renovasi rumah</strong> di Bekasi memerlukan <strong>perencanaan yang matang</strong> dan <strong>eksekusi yang tepat</strong>. <strong>Tips</strong> untuk renovasi rumah di Bekasi antara lain mempertimbangkan <strong>anggaran</strong>, <strong>desain</strong>, dan <strong>material</strong>. <strong>Tips</strong> lainnya adalah memilih <strong>kontraktor</strong> yang berpengalaman dan <strong>terpercaya</strong>. <br><br>Contoh nyata, jika Anda ingin melakukan renovasi rumah di Bekasi, pastikan Anda memiliki <strong>anggaran yang cukup</strong> untuk membiayai proyek tersebut. <strong>Desain</strong> yang sesuai dengan kebutuhan dan selera Anda juga harus dipertimbangkan. <strong>Material</strong> yang berkualitas dan tahan lama juga harus dipilih untuk memastikan bahwa renovasi rumah Anda bertahan lama."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Renovasi Rumah di Bekasi",
+          "content": "<strong>Mandiri Steel</strong> adalah perusahaan yang berpengalaman dalam <strong>renovasi rumah</strong> di Bekasi. <strong>Mandiri Steel</strong> memiliki <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang canggih</strong> untuk memastikan bahwa renovasi rumah Anda dilakukan dengan <strong>baik</strong> dan <strong>efisien</strong>. <strong>Mandiri Steel</strong> juga menawarkan <strong>garansi</strong> untuk memastikan bahwa renovasi rumah Anda bertahan lama. <br><br><strong>Mandiri Steel</strong> memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam renovasi rumah di Bekasi. <strong>Mandiri Steel</strong> juga menggunakan <strong>material yang berkualitas</strong> dan <strong>tahan lama</strong> untuk memastikan bahwa renovasi rumah Anda bertahan lama.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Layanan Renovasi Rumah di Bekasi dan Sekitarnya",
+          "content": "<strong>Mandiri Steel</strong> menawarkan <strong>layanan renovasi rumah</strong> di Bekasi dan sekitarnya. <strong>Layanan</strong> yang ditawarkan antara lain <strong>renovasi rumah</strong>, <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>konstruksi</strong>. <strong>Mandiri Steel</strong> juga menawarkan <strong>free on-site survey</strong> untuk memastikan bahwa renovasi rumah Anda dilakukan dengan <strong>baik</strong> dan <strong>efisien</strong>. <br><br><strong>Mandiri Steel</strong> melayani <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>."
+        }
+      ],
+      "conclusion": "Dalam artikel ini, kita telah membahas waktu terbaik untuk renovasi rumah di Bekasi dan kapan harus pasang kanopi dan pagar. <strong>Mandiri Steel</strong> adalah perusahaan yang berpengalaman dalam renovasi rumah di Bekasi dan menawarkan layanan yang lengkap dan berkualitas. Jika Anda ingin melakukan renovasi rumah di Bekasi, pastikan Anda mempertimbangkan <strong>anggaran</strong>, <strong>desain</strong>, dan <strong>material</strong> yang sesuai dengan kebutuhan Anda. <strong>Mandiri Steel</strong> siap membantu Anda dalam renovasi rumah Anda."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 93,
+    "title": "Dak Baja untuk Rumah 2 Lantai di Bekasi",
+    "slug": "dak-baja-untuk-rumah-2-lantai-di-bekasi",
+    "excerpt": "Dak baja untuk rumah 2 lantai di Bekasi lebih hemat dan cepat dari cor beton?",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "<strong>Dak baja</strong> menjadi pilihan populer untuk rumah 2 lantai di Bekasi karena kelebihannya dalam hal kekuatan, keamanan, dan efisiensi biaya. <strong>Bekasi</strong> sebagai salah satu kota besar di Indonesia memiliki kebutuhan akan rumah yang kuat dan tahan lama. Dalam artikel ini, kita akan membahas mengenai <strong>kelebihan dak baja</strong> dan bagaimana <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih <strong>dak baja yang tepat</strong> untuk rumah Anda.",
+      "keyPoints": [
+        "Dak baja lebih hemat biaya",
+        "Dak baja lebih cepat dalam pemasangan",
+        "Dak baja lebih kuat dan tahan lama"
+      ],
+      "sections": [
+        {
+          "heading": "1. Kelebihan Dak Baja",
+          "content": "Dak baja memiliki beberapa kelebihan dibandingkan dengan cor beton. <strong>Kelebihan pertama</strong> adalah dak baja lebih <strong>hemat biaya</strong>. Biaya pemasangan dak baja jauh lebih murah dibandingkan dengan cor beton. Selain itu, <strong>dak baja juga lebih cepat</strong> dalam pemasangan sehingga dapat menghemat waktu dan biaya. <strong>Kelebihan kedua</strong> adalah dak baja lebih <strong>kuat dan tahan lama</strong>. Dak baja dapat menahan beban yang berat dan tahan terhadap cuaca ekstrem. <br><br> Contoh nyata dari kelebihan dak baja dapat dilihat dari proyek-proyek pembangunan rumah di <strong>Cikarang</strong> dan <strong>Tambun</strong>. Banyak pengembang yang memilih dak baja karena kelebihannya dalam hal kekuatan dan efisiensi biaya.",
+          "imageSearchQuery": "dak baja untuk rumah 2 lantai"
+        },
+        {
+          "heading": "2. Tips dalam Memilih Dak Baja",
+          "content": "Dalam memilih dak baja, ada beberapa tips yang perlu diperhatikan. <strong>Pertama</strong>, pastikan Anda memilih <strong>baja yang berkualitas</strong>. Baja yang berkualitas dapat menahan beban yang berat dan tahan terhadap cuaca ekstrem. <strong>Kedua</strong>, pastikan Anda memilih <strong>ukuran yang tepat</strong>. Ukuran dak baja yang tepat dapat memastikan kekuatan dan keamanan rumah Anda. <br><br> Berikut beberapa tips yang dapat diikuti: <ul><li>Pastikan Anda memilih baja yang memiliki <strong>SNI</strong></li><li>Pastikan Anda memilih ukuran yang tepat</li><li>Pastikan Anda memilih <strong>penyedia jasa yang berkualitas</strong></li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "3. Kelebihan Mandiri Steel",
+          "content": "Mandiri Steel adalah salah satu penyedia jasa <strong>dak baja</strong> yang berkualitas di Bekasi. <strong>Kelebihan pertama</strong> adalah Mandiri Steel memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam bidang dak baja. <strong>Kelebihan kedua</strong> adalah Mandiri Steel menggunakan <strong>baja yang berkualitas</strong> dan memiliki <strong>SNI</strong>. <br><br> Selain itu, Mandiri Steel juga memiliki <strong>garansi struktural</strong> yang dapat memastikan kekuatan dan keamanan rumah Anda. <strong>Contoh nyata</strong> dari kelebihan Mandiri Steel dapat dilihat dari proyek-proyek pembangunan rumah di <strong>Jababeka</strong> dan <strong>MM2100</strong>.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Proses Pemasangan Dak Baja",
+          "content": "Proses pemasangan dak baja relatif <strong>cepat dan mudah</strong>. <strong>Pertama</strong>, pastikan Anda memilih <strong>lokasi yang tepat</strong> untuk pemasangan dak baja. <strong>Kedua</strong>, pastikan Anda memilih <strong>ukuran yang tepat</strong> untuk dak baja. <br><br> Berikut beberapa langkah yang dapat diikuti: <ul><li>Pastikan Anda memilih lokasi yang tepat</li><li>Pastikan Anda memilih ukuran yang tepat</li><li>Pastikan Anda memilih <strong>penyedia jasa yang berkualitas</strong></li></ul> <strong>Contoh nyata</strong> dari proses pemasangan dak baja dapat dilihat dari proyek-proyek pembangunan rumah di <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong>."
+        },
+        {
+          "heading": "5. Biaya Pemasangan Dak Baja",
+          "content": "Biaya pemasangan dak baja relatif <strong>hemat biaya</strong> dibandingkan dengan cor beton. <strong>Pertama</strong>, pastikan Anda memilih <strong>baja yang berkualitas</strong>. <strong>Kedua</strong>, pastikan Anda memilih <strong>ukuran yang tepat</strong> untuk dak baja. <br><br> Berikut beberapa tips yang dapat diikuti: <ul><li>Pastikan Anda memilih baja yang berkualitas</li><li>Pastikan Anda memilih ukuran yang tepat</li><li>Pastikan Anda memilih <strong>penyedia jasa yang berkualitas</strong></li></ul> <strong>Contoh nyata</strong> dari biaya pemasangan dak baja dapat dilihat dari proyek-proyek pembangunan rumah di <strong>Kota Deltamas</strong> dan <strong>Lippo Cikarang</strong>.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Kesimpulan",
+          "content": "Dak baja menjadi pilihan populer untuk rumah 2 lantai di Bekasi karena kelebihannya dalam hal kekuatan, keamanan, dan efisiensi biaya. Mandiri Steel adalah salah satu penyedia jasa dak baja yang berkualitas di Bekasi. <strong>Kelebihan pertama</strong> adalah Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam bidang dak baja. <strong>Kelebihan kedua</strong> adalah Mandiri Steel menggunakan baja yang berkualitas dan memiliki SNI. <br><br> Jika Anda ingin memasang dak baja untuk rumah Anda, pastikan Anda memilih penyedia jasa yang berkualitas seperti Mandiri Steel. <strong>Hubungi kami</strong> sekarang juga untuk mendapatkan informasi lebih lanjut tentang dak baja dan jasa pemasangan yang kami tawarkan."
+        }
+      ],
+      "conclusion": "Dak baja menjadi pilihan populer untuk rumah 2 lantai di Bekasi karena kelebihannya dalam hal kekuatan, keamanan, dan efisiensi biaya. Jika Anda ingin memasang dak baja untuk rumah Anda, pastikan Anda memilih penyedia jasa yang berkualitas seperti Mandiri Steel. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang dak baja dan jasa pemasangan yang kami tawarkan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 88,
     "title": "Railing Tangga Outdoor Bekasi",
     "slug": "railing-tangga-outdoor-bekasi",
