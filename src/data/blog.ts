@@ -33,6 +33,185 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 97,
+    "title": "Railing Tangga Kabel Baja",
+    "slug": "railing-tangga-kabel-baja-1786057369036",
+    "excerpt": "Railing tangga kabel baja: tren industrial modern untuk rumah Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1613798399339-a8d57a2e0a95?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjYWJsZSUyMHJhaWxpbmclMjBzdGFpcnN8ZW58MHwwfHx8MTc4NjA1NzIwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah dengan desain industrial modern sedang menjadi tren di kalangan masyarakat Bekasi dan sekitarnya. Salah satu elemen yang paling mencolok dalam desain ini adalah <strong>railing tangga kabel baja</strong>. Railing jenis ini tidak hanya memberikan kesan yang modern dan minimalis, tetapi juga menawarkan keamanan dan kekuatan yang tinggi. Dalam artikel ini, kita akan membahas lebih lanjut tentang <strong>railing tangga kabel baja</strong> dan mengapa ini menjadi pilihan yang tepat untuk rumah Anda di Bekasi.",
+      "keyPoints": [
+        "Railing tangga kabel baja memberikan kesan modern dan minimalis",
+        "Meningkatkan keamanan dan kekuatan pada tangga",
+        "Bisa dipasang pada berbagai jenis tangga"
+      ],
+      "sections": [
+        {
+          "heading": "Apa itu Railing Tangga Kabel Baja?",
+          "content": "Railing tangga kabel baja adalah jenis railing yang menggunakan kabel baja sebagai komponen utamanya. Kabel baja ini dipasang pada tiang-tiang yang kuat dan tahan lama, sehingga memberikan kesan yang modern dan minimalis. <strong>Railing tangga kabel baja</strong> juga sangat mudah dipasang dan dirawat, membuatnya menjadi pilihan yang tepat untuk rumah Anda di Bekasi. Selain itu, railing jenis ini juga bisa dipasang pada berbagai jenis tangga, baik itu tangga lurus maupun tangga spiral.",
+          "imageSearchQuery": "cable railing installation",
+          "image": "https://images.unsplash.com/photo-1667385768744-f772d7fe2a47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjYWJsZSUyMHJhaWxpbmclMjBpbnN0YWxsYXRpb258ZW58MHwwfHx8MTc4NjA1NzIwOXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Kelebihan Railing Tangga Kabel Baja",
+          "content": "Railing tangga kabel baja memiliki beberapa kelebihan yang membuatnya menjadi pilihan yang tepat untuk rumah Anda di Bekasi. <strong>Keamanan yang tinggi</strong> adalah salah satu kelebihan utama dari railing jenis ini. Kabel baja yang digunakan sangat kuat dan tahan lama, sehingga bisa menahan beban yang berat. Selain itu, <strong>railing tangga kabel baja</strong> juga sangat mudah dipasang dan dirawat, membuatnya menjadi pilihan yang tepat untuk rumah Anda di Bekasi. Berikut beberapa kelebihan lain dari railing tangga kabel baja: <ul><li>Mudah dipasang dan dirawat</li><li>Memberikan kesan modern dan minimalis</li><li>Bisa dipasang pada berbagai jenis tangga</li></ul>",
+          "productId": 6
+        },
+        {
+          "heading": "Tips Memilih Railing Tangga Kabel Baja",
+          "content": "Memilih railing tangga kabel baja yang tepat untuk rumah Anda di Bekasi bisa menjadi tugas yang sulit. Berikut beberapa tips yang bisa membantu Anda dalam memilih railing tangga kabel baja yang tepat: <ul><li>Pilih kabel baja yang kuat dan tahan lama</li><li>Pertimbangkan jenis tangga yang Anda miliki</li><li>Pilih warna yang sesuai dengan desain rumah Anda</li></ul> Selain itu, pastikan Anda juga mempertimbangkan budget yang Anda miliki sebelum membeli railing tangga kabel baja.",
+          "productId": 6
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam produksi dan pemasangan railing tangga kabel baja. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah menjadi salah satu perusahaan yang paling dipercaya di Bekasi dan sekitarnya. <strong>Mandiri Steel</strong> menggunakan bahan-bahan yang berkualitas tinggi dan memenuhi standar SNI, sehingga Anda bisa yakin bahwa railing tangga kabel baja yang Anda beli adalah yang terbaik. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan jasa pemasangan yang profesional dan garansi struktural yang membuat Anda bisa tenang dan nyaman.",
+          "productId": 6
+        },
+        {
+          "heading": "Layanan yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan berbagai layanan yang membuat Anda bisa mendapatkan railing tangga kabel baja yang sesuai dengan kebutuhan Anda. <strong>Survei gratis</strong> adalah salah satu layanan yang ditawarkan oleh Mandiri Steel. Dengan survei ini, Anda bisa mendapatkan saran dan rekomendasi dari ahli tentang railing tangga kabel baja yang sesuai dengan rumah Anda. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan <strong>garansi struktural</strong> yang membuat Anda bisa tenang dan nyaman.",
+          "productId": 6
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Railing tangga kabel baja adalah salah satu pilihan yang tepat untuk rumah Anda di Bekasi. Dengan keamanan yang tinggi, kesan modern dan minimalis, serta kemudahan pemasangan dan perawatan, railing tangga kabel baja menjadi pilihan yang tepat untuk rumah Anda. <strong>Mandiri Steel</strong> adalah salah satu perusahaan yang paling dipercaya di Bekasi dan sekitarnya, dengan lebih dari 25 tahun pengalaman dan bahan-bahan yang berkualitas tinggi. Jika Anda ingin mendapatkan railing tangga kabel baja yang sesuai dengan kebutuhan Anda, hubungi <strong>Mandiri Steel</strong> sekarang juga.",
+          "productId": 6
+        }
+      ],
+      "conclusion": "Railing tangga kabel baja adalah salah satu pilihan yang tepat untuk rumah Anda di Bekasi. Dengan keamanan yang tinggi, kesan modern dan minimalis, serta kemudahan pemasangan dan perawatan, railing tangga kabel baja menjadi pilihan yang tepat untuk rumah Anda. Jika Anda ingin mendapatkan railing tangga kabel baja yang sesuai dengan kebutuhan Anda, hubungi Mandiri Steel sekarang juga."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 98,
+    "title": "Jenis Las yang Digunakan Bengkel Profesional",
+    "slug": "jenis-las-yang-digunakan-bengkel-profesional",
+    "excerpt": "Mengenal jenis las yang digunakan bengkel profesional: MIG, TIG, dan SMAW",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx3ZWxkaW5nJTIwcHJvY2Vzc2VzfGVufDB8MHx8fDE3ODYwNTcyODB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam dunia konstruksi baja, <strong>las</strong> merupakan salah satu proses yang paling penting. Bengkel profesional seperti Mandiri Steel menggunakan beberapa jenis las untuk memastikan kualitas dan kekuatan hasil pekerjaan. <strong>MIG</strong>, <strong>TIG</strong>, dan <strong>SMAW</strong> adalah tiga jenis las yang paling umum digunakan. Dalam artikel ini, kita akan membahas perbedaan antara ketiga jenis las tersebut dan bagaimana mereka digunakan dalam proses konstruksi baja di Bekasi dan Jabodetabek.",
+      "keyPoints": [
+        "Mengenal jenis las yang digunakan bengkel profesional",
+        "Perbedaan antara MIG, TIG, dan SMAW",
+        "Penggunaan jenis las dalam konstruksi baja"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Jenis Las",
+          "content": "<strong>MIG</strong> (Metal Inert Gas) adalah jenis las yang menggunakan gas inert untuk melindungi busur las dari udara. <strong>TIG</strong> (Tungsten Inert Gas) menggunakan elektroda tungsten yang tidak dapat larut untuk mengelas logam. <strong>SMAW</strong> (Shielded Metal Arc Welding) menggunakan elektroda yang dilapisi dengan flux untuk melindungi busur las. Ketiga jenis las ini memiliki kelebihan dan kekurangan masing-masing. <br><br>Contoh penggunaan jenis las ini dapat dilihat di proyek-proyek konstruksi baja di Bekasi, seperti pembangunan pabrik di Cikarang atau pembangunan jembatan di Tambun.",
+          "imageSearchQuery": "MIG welding process",
+          "image": "https://images.unsplash.com/photo-1598302936625-6075fbd98dd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxNSUclMjB3ZWxkaW5nJTIwcHJvY2Vzc3xlbnwwfDB8fHwxNzg2MDU3MjgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Perbedaan Antara MIG, TIG, dan SMAW",
+          "content": "<strong>MIG</strong> adalah jenis las yang paling umum digunakan karena kecepatan dan efisiensinya. <strong>TIG</strong> digunakan untuk pekerjaan yang memerlukan presisi tinggi, seperti pengelasan pipa atau tabung. <strong>SMAW</strong> digunakan untuk pekerjaan yang memerlukan kekuatan tinggi, seperti pengelasan konstruksi baja. <br><br>Perbedaan antara ketiga jenis las ini juga dapat dilihat dari biaya dan waktu yang dibutuhkan. <strong>MIG</strong> adalah jenis las yang paling murah dan cepat, sedangkan <strong>TIG</strong> adalah jenis las yang paling mahal dan membutuhkan waktu yang lama. <strong>SMAW</strong> memiliki biaya dan waktu yang moderat.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Penggunaan Jenis Las dalam Konstruksi Baja",
+          "content": "Dalam konstruksi baja, <strong>MIG</strong> digunakan untuk mengelas balok dan kolom, sedangkan <strong>TIG</strong> digunakan untuk mengelas pipa dan tabung. <strong>SMAW</strong> digunakan untuk mengelas konstruksi baja yang memerlukan kekuatan tinggi. <br><br>Contoh penggunaan jenis las ini dapat dilihat di proyek-proyek konstruksi baja di Jabodetabek, seperti pembangunan gedung di Kota Deltamas atau pembangunan jembatan di Lippo Cikarang. <ul><li>Penggunaan <strong>MIG</strong> untuk mengelas balok dan kolom</li><li>Penggunaan <strong>TIG</strong> untuk mengelas pipa dan tabung</li><li>Penggunaan <strong>SMAW</strong> untuk mengelas konstruksi baja yang memerlukan kekuatan tinggi</li></ul>",
+          "productId": 2
+        },
+        {
+          "heading": "4. Tips dan Trik dalam Menggunakan Jenis Las",
+          "content": "Dalam menggunakan jenis las, ada beberapa tips dan trik yang perlu diperhatikan. <strong>MIG</strong> memerlukan gas inert yang cukup untuk melindungi busur las, sedangkan <strong>TIG</strong> memerlukan elektroda tungsten yang tidak dapat larut. <strong>SMAW</strong> memerlukan flux yang cukup untuk melindungi busur las. <br><br>Contoh tips dan trik ini dapat dilihat di proyek-proyek konstruksi baja di Bekasi, seperti pembangunan pabrik di Cikarang atau pembangunan jembatan di Tambun. <blockquote>Gunakan jenis las yang tepat untuk pekerjaan yang memerlukan presisi tinggi</blockquote>",
+          "productId": 3
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam konstruksi baja. Kami menggunakan bahan-bahan yang berkualitas tinggi dan memiliki tim yang terampil dan berpengalaman. <br><br>Kami juga menawarkan jasa survei gratis dan garansi struktural untuk semua pekerjaan kami. <strong>Produk kami</strong> seperti <strong>Kanopi Minimalis Alderon</strong> dan <strong>Pagar Minimalis Modern</strong> telah digunakan di banyak proyek konstruksi baja di Jabodetabek. <ul><li>Pengalaman lebih dari 25 tahun</li><li>Bahan-bahan yang berkualitas tinggi</li><li>Tim yang terampil dan berpengalaman</li></ul>",
+          "productId": 4
+        },
+        {
+          "heading": "6. Service Area Mandiri Steel",
+          "content": "Mandiri Steel melayani wilayah Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Kami memiliki tim yang terampil dan berpengalaman yang siap melayani kebutuhan Anda. <br><br>Contoh proyek konstruksi baja yang telah kami lakukan dapat dilihat di wilayah-wilayah tersebut. <ul><li>Bekasi</li><li>Cikarang</li><li>Tambun</li><li>Cibitung</li><li>Jababeka</li><li>MM2100</li><li>Grand Wisata</li><li>Summarecon Bekasi</li><li>Kota Deltamas</li><li>Lippo Cikarang</li></ul>",
+          "productId": 5
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, jenis las yang digunakan bengkel profesional seperti Mandiri Steel sangat penting dalam menentukan kualitas dan kekuatan hasil pekerjaan. <strong>MIG</strong>, <strong>TIG</strong>, dan <strong>SMAW</strong> adalah tiga jenis las yang paling umum digunakan. Dengan memahami perbedaan antara ketiga jenis las ini dan bagaimana mereka digunakan dalam konstruksi baja, Anda dapat membuat keputusan yang tepat dalam memilih jenis las yang sesuai untuk pekerjaan Anda. <br><br>Hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang jenis las yang kami gunakan dan bagaimana kami dapat membantu Anda dalam proyek konstruksi baja Anda."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 99,
+    "title": "Menghitung Kebutuhan Baja WF dan H-beam",
+    "slug": "cara-menghitung-kebutuhan-baja-wf-dan-h-beam-1786057369036",
+    "excerpt": "Panduan lengkap menghitung kebutuhan baja WF dan H-beam untuk proyek bangunan di Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Dalam proyek bangunan, <strong>menghitung kebutuhan baja</strong> dengan tepat sangat penting untuk menghindari <strong>biaya tambahan</strong> dan <strong>waktu pengerjaan yang lama</strong>. <strong>Baja WF dan H-beam</strong> adalah dua jenis baja yang umum digunakan dalam konstruksi bangunan. Pada artikel ini, kita akan membahas cara menghitung kebutuhan baja WF dan H-beam untuk proyek bangunan di Bekasi.",
+      "keyPoints": [
+        "Menghitung kebutuhan baja WF dan H-beam",
+        "Memahami jenis-jenis baja yang umum digunakan",
+        "Menghindari biaya tambahan dan waktu pengerjaan yang lama"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Jenis-Jenis Baja WF dan H-beam",
+          "content": "Baja WF dan H-beam adalah dua jenis baja yang umum digunakan dalam konstruksi bangunan. <strong>Baja WF</strong> memiliki bentuk seperti huruf W, sedangkan <strong>H-beam</strong> memiliki bentuk seperti huruf H. Keduanya memiliki kekuatan yang tinggi dan tahan terhadap beban berat. <br><br>Untuk proyek bangunan di Bekasi, <strong>baja WF</strong> sering digunakan sebagai balok dan kolom, sedangkan <strong>H-beam</strong> digunakan sebagai balok dan fondasi. <br><br>Contoh penggunaan baja WF dan H-beam dapat dilihat di proyek-proyek bangunan di <strong>Cikarang</strong>, <strong>Tambun</strong>, dan <strong>Cibitung</strong>.",
+          "imageSearchQuery": "baja wf dan h beam untuk konstruksi bangunan"
+        },
+        {
+          "heading": "2. Menghitung Kebutuhan Baja WF",
+          "content": "Untuk menghitung kebutuhan baja WF, perlu dilakukan beberapa langkah. Pertama, <strong>tentukan dimensi bangunan</strong> yang akan dibangun, termasuk panjang, lebar, dan tinggi. Kedua, <strong>tentukan jenis baja WF</strong> yang akan digunakan, termasuk ukuran dan ketebalan. <br><br>Ketiga, <strong>hitung beban yang akan ditanggung</strong> oleh baja WF, termasuk beban berat bangunan, beban angin, dan beban gempa. <br><br>Keempat, <strong>gunakan rumus untuk menghitung kebutuhan baja WF</strong>, yaitu: kebutuhan baja WF (kg) = (panjang x lebar x tinggi) x beban x faktor keamanan. <br><br>Contoh perhitungan kebutuhan baja WF dapat dilihat pada tabel berikut: <ul><li>Dimensi bangunan: 10m x 10m x 5m</li><li>Jenis baja WF: WF 200 x 100 x 5.5mm</li><li>Beban: 500 kg/m2</li><li>Faktor keamanan: 1.5</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "3. Menghitung Kebutuhan H-beam",
+          "content": "Untuk menghitung kebutuhan H-beam, perlu dilakukan beberapa langkah. Pertama, <strong>tentukan dimensi bangunan</strong> yang akan dibangun, termasuk panjang, lebar, dan tinggi. Kedua, <strong>tentukan jenis H-beam</strong> yang akan digunakan, termasuk ukuran dan ketebalan. <br><br>Ketiga, <strong>hitung beban yang akan ditanggung</strong> oleh H-beam, termasuk beban berat bangunan, beban angin, dan beban gempa. <br><br>Keempat, <strong>gunakan rumus untuk menghitung kebutuhan H-beam</strong>, yaitu: kebutuhan H-beam (kg) = (panjang x lebar x tinggi) x beban x faktor keamanan. <br><br>Contoh perhitungan kebutuhan H-beam dapat dilihat pada tabel berikut: <ul><li>Dimensi bangunan: 10m x 10m x 5m</li><li>Jenis H-beam: H-beam 200 x 100 x 5.5mm</li><li>Beban: 500 kg/m2</li><li>Faktor keamanan: 1.5</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "4. Tips dan Trik Menghitung Kebutuhan Baja",
+          "content": "Berikut beberapa tips dan trik untuk menghitung kebutuhan baja WF dan H-beam: <ul><li>Pastikan untuk menggunakan <strong>rumus yang tepat</strong> untuk menghitung kebutuhan baja</li><li>Pastikan untuk <strong>memperhitungkan beban</strong> yang akan ditanggung oleh baja</li><li>Pastikan untuk <strong>memilih jenis baja</strong> yang tepat untuk proyek bangunan</li><li>Pastikan untuk <strong>memeriksa kualitas baja</strong> sebelum membeli</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah <strong>perusahaan baja</strong> yang telah berpengalaman lebih dari 25 tahun dalam menyediakan baja WF dan H-beam untuk proyek-proyek bangunan di Bekasi. <br><br>Kami memiliki <strong>pengalaman yang luas</strong> dalam menghitung kebutuhan baja dan menyediakan baja yang berkualitas. <br><br>Kami juga memiliki <strong>tim yang profesional</strong> yang dapat membantu Anda dalam menghitung kebutuhan baja dan memilih jenis baja yang tepat untuk proyek bangunan Anda. <br><br>Contoh proyek-proyek bangunan yang telah kami kerjakan dapat dilihat di <strong>Jababeka</strong>, <strong>MM2100</strong>, dan <strong>Grand Wisata</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan yang Ditawarkan Mandiri Steel",
+          "content": "Mandiri Steel menawarkan <strong>layanan yang lengkap</strong> untuk proyek-proyek bangunan di Bekasi, termasuk: <ul><li><strong>Survei lapangan</strong> untuk menghitung kebutuhan baja</li><li><strong>Pemilihan jenis baja</strong> yang tepat untuk proyek bangunan</li><li><strong>Pengiriman baja</strong> ke lokasi proyek</li><li><strong>Pemasangan baja</strong> oleh tim yang profesional</li></ul>",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dengan memilih Mandiri Steel, Anda dapat yakin bahwa kebutuhan baja WF dan H-beam Anda akan terpenuhi dengan baik. <strong>Kontak kami</strong> sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan yang kami tawarkan dan untuk mendapatkan <strong>penawaran yang terbaik</strong> untuk proyek bangunan Anda di Bekasi."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 94,
     "title": "Desain Kanopi Carport Modern",
     "slug": "desain-kanopi-carport-modern",
