@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 94,
+    "title": "Desain Kanopi Carport Modern",
+    "slug": "desain-kanopi-carport-modern",
+    "excerpt": "Desain kanopi carport modern untuk perumahan Grand Wisata Tambun dan Summarecon Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1784471691271-90285594dfc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjYXJwb3J0JTIwY2Fub3B5JTIwZGVzaWdufGVufDB8MHx8fDE3ODYwMzU2MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pembangunan perumahan di area Bekasi, seperti Grand Wisata Tambun dan Summarecon Bekasi, meningkat pesat dalam beberapa tahun terakhir. <strong>Desain kanopi carport modern</strong> menjadi salah satu elemen penting dalam mempercantik tampilan rumah. <strong>Kanopi</strong> tidak hanya berfungsi sebagai pelindung dari sinar matahari dan hujan, tetapi juga sebagai elemen estetika yang meningkatkan nilai properti. Dalam artikel ini, kita akan membahas tentang desain kanopi carport modern yang cocok untuk perumahan di area Bekasi.",
+      "keyPoints": [
+        "Desain kanopi carport modern",
+        "Bahan dan material",
+        "Fungsi dan kegunaan",
+        "Tips dan saran"
+      ],
+      "sections": [
+        {
+          "heading": "1. Konsep Desain Kanopi Carport Modern",
+          "content": "Desain kanopi carport modern harus sesuai dengan gaya arsitektur rumah. <strong>Gaya minimalis</strong> dan <strong>modern</strong> menjadi pilihan populer karena memberikan kesan yang sederhana namun elegan. <strong>Kanopi</strong> dapat dibuat dari berbagai bahan, seperti <strong>baja ringan</strong>, <strong>aluminium</strong>, atau <strong>kayu</strong>. Pemilihan bahan harus disesuaikan dengan kebutuhan dan budget. <br> Contoh nyata dari desain kanopi carport modern dapat dilihat di perumahan Grand Wisata Tambun, di mana banyak rumah yang menggunakan <strong>kanopi baja ringan</strong> dengan desain minimalis. <br> Tips: Pastikan desain kanopi carport modern sesuai dengan gaya arsitektur rumah dan mempertimbangkan faktor keamanan dan kenyamanan.",
+          "imageSearchQuery": "modern carport canopy design",
+          "image": "https://images.unsplash.com/photo-1784471691271-90285594dfc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjYXJwb3J0JTIwY2Fub3B5JTIwZGVzaWdufGVufDB8MHx8fDE3ODYwMzU2MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Bahan dan Material Kanopi Carport Modern",
+          "content": "Bahan dan material yang digunakan untuk membuat kanopi carport modern sangat penting. <strong>Baja ringan</strong> menjadi pilihan populer karena ringan, kuat, dan tahan lama. <strong>Aluminium</strong> juga menjadi pilihan yang baik karena ringan dan anti karat. <strong>Kayu</strong> dapat digunakan sebagai alternatif, namun perlu perawatan yang lebih intensif. <br> Pemilihan bahan harus disesuaikan dengan kebutuhan dan budget. <strong>Mandiri Steel</strong> menawarkan berbagai pilihan bahan dan material untuk kanopi carport modern, termasuk <strong>baja ringan</strong> dan <strong>aluminium</strong>. <br> Tips: Pastikan bahan dan material yang digunakan berkualitas dan sesuai dengan kebutuhan.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Fungsi dan Kegunaan Kanopi Carport Modern",
+          "content": "Kanopi carport modern tidak hanya berfungsi sebagai pelindung dari sinar matahari dan hujan, tetapi juga sebagai elemen estetika yang meningkatkan nilai properti. <strong>Kanopi</strong> dapat digunakan sebagai tempat parkir, tempat bersantai, atau bahkan sebagai area outdoor untuk mengadakan acara. <br> Contoh nyata dari fungsi dan kegunaan kanopi carport modern dapat dilihat di perumahan Summarecon Bekasi, di mana banyak rumah yang menggunakan kanopi sebagai tempat parkir dan tempat bersantai. <br> Tips: Pastikan kanopi carport modern dirancang untuk memenuhi kebutuhan dan keinginan Anda.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Tips dan Saran untuk Membuat Kanopi Carport Modern",
+          "content": "Membuat kanopi carport modern memerlukan perencanaan dan perancangan yang matang. <strong>Berikut beberapa tips dan saran</strong>: <ul> <li>Pastikan desain kanopi carport modern sesuai dengan gaya arsitektur rumah</li> <li>Pilih bahan dan material yang berkualitas dan sesuai dengan kebutuhan</li> <li>Pertimbangkan faktor keamanan dan kenyamanan</li> <li>Pastikan kanopi carport modern dirancang untuk memenuhi kebutuhan dan keinginan Anda</li> </ul> <br> Dengan mengikuti tips dan saran di atas, Anda dapat membuat kanopi carport modern yang sesuai dengan kebutuhan dan keinginan Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Kanopi Carport Modern?",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam pembuatan kanopi carport modern. <strong>Kami menawarkan berbagai pilihan bahan dan material</strong>, termasuk <strong>baja ringan</strong> dan <strong>aluminium</strong>. <strong>Kami juga menyediakan layanan survey gratis</strong> untuk membantu Anda menentukan kebutuhan dan keinginan Anda. <br> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa kanopi carport modern Anda akan dibuat dengan kualitas yang tinggi dan sesuai dengan kebutuhan Anda. <br> Tips: Pastikan Anda memilih penyedia jasa yang berpengalaman dan memiliki reputasi yang baik.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan pembuatan kanopi carport modern untuk area Bekasi, termasuk <strong>Grand Wisata Tambun</strong>, <strong>Summarecon Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, dan <strong>Kota Deltamas</strong>. <br> Kami juga menyediakan layanan survey gratis untuk membantu Anda menentukan kebutuhan dan keinginan Anda. <br> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa kanopi carport modern Anda akan dibuat dengan kualitas yang tinggi dan sesuai dengan kebutuhan Anda.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dalam membuat kanopi carport modern, penting untuk mempertimbangkan desain, bahan, dan fungsi. Dengan memilih Mandiri Steel, Anda dapat yakin bahwa kanopi carport modern Anda akan dibuat dengan kualitas yang tinggi dan sesuai dengan kebutuhan Anda. Jangan ragu untuk menghubungi kami untuk mendapatkan informasi lebih lanjut tentang layanan pembuatan kanopi carport modern."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 95,
+    "title": "Teralis Kuat Untuk Rumah Tropis",
+    "slug": "teralis-kuat-untuk-rumah-tropis",
+    "excerpt": "Panduan lengkap memilih teralis kuat yang tidak menghalangi sirkulasi udara di rumah tropis",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1698892472816-9c08eb4b13c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMG1vZGVybnxlbnwwfDB8fHwxNzg2MDM1NjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah tropis memerlukan <strong>desain yang cerdas</strong> untuk memaksimalkan sirkulasi udara dan <strong>keamanan</strong>. Salah satu elemen penting dalam mencapai keseimbangan ini adalah <strong>teralis</strong>. Dalam artikel ini, kita akan membahas cara memilih <strong>teralis yang kuat</strong> tapi tidak menghalangi sirkulasi udara di rumah tropis, serta memberikan tips dan contoh nyata untuk membantu Anda membuat keputusan yang tepat.",
+      "keyPoints": [
+        "Memahami kebutuhan rumah tropis",
+        "Mengenal jenis-jenis teralis",
+        "Tips memilih teralis yang kuat dan fungsional"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Rumah Tropis dan Kebutuhan Sirkulasi Udara",
+          "content": "Rumah tropis dirancang untuk mengakomodasi <strong>iklim tropis</strong> yang panas dan lembab. Salah satu kunci desain rumah tropis adalah <strong>maksimalkan sirkulasi udara</strong> untuk menjaga kenyamanan dan <strong>efisiensi energi</strong>. Sirkulasi udara yang baik tidak hanya membuat rumah terasa lebih sejuk, tapi juga membantu mengurangi kelembaban dan <strong>risiko kerusakan struktural</strong>. <br><br> Dalam konteks ini, <strong>teralis</strong> memainkan peran penting. Teralis tidak hanya berfungsi sebagai <strong>pengaman</strong> tetapi juga harus <strong>memungkinkan sirkulasi udara</strong> yang cukup. Oleh karena itu, memilih teralis yang tepat sangat penting untuk mencapai keseimbangan antara keamanan dan kenyamanan.",
+          "imageSearchQuery": "rumah tropis modern",
+          "image": "https://images.unsplash.com/photo-1559329145-afaf18e3f349?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxydW1haCUyMHRyb3BpcyUyMG1vZGVybnxlbnwwfDB8fHwxNzg2MDM1NjgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Mengenal Jenis-Jenis Teralis",
+          "content": "Terdapat beberapa jenis <strong>teralis</strong> yang bisa dipilih, masing-masing dengan kelebihan dan kekurangannya. <strong>Teralis minimalis</strong>, <strong>teralis klasik</strong>, dan <strong>teralis modern</strong> adalah beberapa contoh. <br><br> <strong>Teralis minimalis</strong> cocok untuk rumah dengan gaya modern dan sederhana, sedangkan <strong>teralis klasik</strong> lebih sesuai untuk rumah dengan desain tradisional. <strong>Teralis modern</strong> menawarkan fleksibilitas dalam hal desain dan bahan, membuatnya bisa disesuaikan dengan berbagai gaya rumah. <br><br> Pemilihan jenis teralis yang tepat harus mempertimbangkan <strong>estetika</strong>, <strong>keamanan</strong>, dan <strong>kebutuhan sirkulasi udara</strong> rumah.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Tips Memilih Teralis yang Kuat dan Fungsional",
+          "content": "Memilih <strong>teralis yang kuat</strong> dan fungsional memerlukan pertimbangan beberapa faktor. <strong>Bahan</strong>, <strong>desain</strong>, dan <strong>konstruksi</strong> adalah aspek-aspek penting yang harus dievaluasi. <br><br> <strong>Bahan</strong> yang digunakan harus <strong>kuat</strong>, <strong>tahan lama</strong>, dan <strong>tidak mudah berkarat</strong>. <strong>Desain</strong> teralis harus memungkinkan <strong>sirkulasi udara</strong> yang cukup dan tidak menghalangi <strong>pencahayaan alami</strong>. <strong>Konstruksi</strong> yang baik harus memastikan teralis <strong>kuat</strong> dan <strong>stabil</strong>. <br><br> Selain itu, pertimbangkan juga <strong>biaya perawatan</strong> dan <strong>garansi</strong> yang ditawarkan oleh produsen atau penjual.",
+          "productId": 5
+        },
+        {
+          "heading": "4. Perawatan Teralis untuk Meningkatkan Umur Pakai",
+          "content": "Perawatan teralis secara teratur sangat penting untuk <strong>meningkatkan umur pakai</strong> dan memastikan <strong>keamanan</strong> yang optimal. <br><br> <ul> <li>Pembersihan teralis secara teratur untuk menghindari <strong>akumulasi debu</strong> dan <strong>karat</strong>.</li> <li>Pengecatan ulang jika <strong>cat mulai memudar</strong> atau <strong>terkelupas</strong>.</li> <li>Pemeriksaan berkala untuk memastikan tidak ada <strong>kerusakan</strong> atau <strong>keausan</strong> pada teralis.</li> </ul> <br><br> Dengan melakukan perawatan yang tepat, Anda bisa memastikan teralis tetap dalam kondisi baik dan berfungsi dengan efektif."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Teralis Anda?",
+          "content": "Mandiri Steel, dengan <strong>pengalaman lebih dari 25 tahun</strong> dalam industri <strong>fabrikasi baja</strong>, menawarkan <strong>teralis berkualitas tinggi</strong> yang dirancang untuk memenuhi kebutuhan rumah tropis. <br><br> Kami menggunakan <strong>bahan SNI</strong> yang kuat dan tahan lama, memastikan teralis Anda <strong>aman</strong> dan <strong>awet</strong>. <strong>Garansi struktural</strong> yang kami tawarkan memberikan Anda ketenangan pikiran, mengetahui bahwa investasi Anda dilindungi. <br><br> Dengan <strong>survei gratis di lokasi</strong>, kami memastikan bahwa teralis yang dipasang sesuai dengan kebutuhan spesifik rumah Anda, memaksimalkan <strong>keamanan</strong> dan <strong>kenyamanan</strong>.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Layanan Mandiri Steel di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel dengan bangga menyediakan layanan <strong>fabrikasi dan pemasangan teralis</strong> di <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br> Kami memahami bahwa setiap rumah memiliki kebutuhan unik, dan dengan <strong>tim yang berpengalaman</strong> dan <strong>peralatan canggih</strong>, kami siap membantu Anda menciptakan teralis yang sesuai dengan gaya dan kebutuhan rumah Anda. <br><br> Hubungi kami hari ini untuk mendapatkan <strong>konsultasi gratis</strong> dan memulai proyek teralis impian Anda."
+        }
+      ],
+      "conclusion": "Dalam mencari <strong>teralis yang kuat</strong> untuk rumah tropis, penting untuk mempertimbangkan <strong>keamanan</strong>, <strong>estetika</strong>, dan <strong>sirkulasi udara</strong>. Dengan memilih Mandiri Steel, Anda tidak hanya mendapatkan <strong>teralis berkualitas tinggi</strong> tetapi juga <strong>layanan yang profesional</strong> dan <strong>garansi yang memuaskan</strong>. Hubungi Mandiri Steel hari ini untuk memulai proyek teralis Anda dan nikmati <strong>keamanan</strong> dan <strong>kenyamanan</strong> yang optimal di rumah tropis Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 96,
+    "title": "Biaya Konstruksi Baja di Bekasi",
+    "slug": "biaya-konstruksi-baja-di-bekasi",
+    "excerpt": "Biaya konstruksi baja per kg di Bekasi 2025: faktor yang mempengaruhi harga",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-06",
+    "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMGJla2FzaXxlbnwwfDB8fHwxNzg2MDM1NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Konstruksi baja merupakan salah satu material yang paling umum digunakan dalam pembangunan infrastruktur di Indonesia, terutama di daerah Bekasi. <strong>Biaya konstruksi baja</strong> per kg di Bekasi 2025 dipengaruhi oleh beberapa faktor, termasuk harga bahan baku, biaya tenaga kerja, dan biaya transportasi. Dalam artikel ini, kita akan membahas lebih lanjut tentang faktor-faktor yang mempengaruhi <strong>harga konstruksi baja</strong> di Bekasi dan bagaimana Anda dapat menghemat biaya dalam proyek konstruksi Anda.",
+      "keyPoints": [
+        "Biaya konstruksi baja per kg di Bekasi 2025",
+        "Faktor yang mempengaruhi harga konstruksi baja",
+        "Tips menghemat biaya konstruksi baja"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Konstruksi Baja",
+          "content": "Konstruksi baja merupakan salah satu jenis konstruksi yang menggunakan material baja sebagai struktur utama. <strong>Baja</strong> sendiri merupakan material yang kuat, tahan lama, dan dapat dibentuk menjadi berbagai bentuk dan ukuran. Dalam konstruksi baja, <strong>baja</strong> digunakan sebagai struktur utama, seperti kolom, balok, dan atap. <br><br>Kelebihan konstruksi baja antara lain: <ul><li>Tahan lama dan kuat</li><li>Dapat dibentuk menjadi berbagai bentuk dan ukuran</li><li>Ringan dan mudah dipasang</li></ul> Namun, konstruksi baja juga memiliki kekurangan, seperti: <ul><li>Harga bahan baku yang relatif mahal</li><li>Memerlukan perawatan yang teratur</li></ul>",
+          "imageSearchQuery": "konstruksi baja bekasi",
+          "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMGJla2FzaXxlbnwwfDB8fHwxNzg2MDM1NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Faktor yang Mempengaruhi Harga Konstruksi Baja",
+          "content": "Harga konstruksi baja dipengaruhi oleh beberapa faktor, termasuk: <ul><li>Harga bahan baku</li><li>Biaya tenaga kerja</li><li>Biaya transportasi</li><li>Biaya perawatan</li></ul> <strong>Harga bahan baku</strong> merupakan faktor yang paling signifikan dalam menentukan harga konstruksi baja. Harga bahan baku dapat dipengaruhi oleh beberapa faktor, seperti: <ul><li>Harga minyak</li><li>Harga batu bara</li><li>Harga bijih besi</li></ul> <br><br>Contoh nyata, pada tahun 2020, harga bijih besi meningkat signifikan, sehingga harga bahan baku baja juga meningkat. Hal ini berdampak pada harga konstruksi baja di Bekasi."
+        },
+        {
+          "heading": "3. Tips Menghemat Biaya Konstruksi Baja",
+          "content": "Berikut beberapa tips yang dapat Anda lakukan untuk menghemat biaya konstruksi baja: <ul><li>Pilih material baja yang tepat</li><li>Gunakan desain yang efisien</li><li>Pilih kontraktor yang tepat</li><li>Lakukan perawatan yang teratur</li></ul> <strong>Pilih material baja yang tepat</strong> dapat membantu Anda menghemat biaya. Material baja yang tepat dapat membantu Anda mengurangi biaya perawatan dan biaya penggantian. <br><br>Contoh nyata, Anda dapat menggunakan <strong>produk 1: Kanopi Minimalis Alderon</strong> sebagai alternatif material baja yang lebih efisien dan hemat biaya.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Biaya Konstruksi Baja per Kg di Bekasi 2025",
+          "content": "Biaya konstruksi baja per kg di Bekasi 2025 dapat bervariasi tergantung pada beberapa faktor, seperti harga bahan baku, biaya tenaga kerja, dan biaya transportasi. Namun, berikut beberapa perkiraan biaya konstruksi baja per kg di Bekasi 2025: <ul><li>Biaya konstruksi baja per kg: Rp 50.000 - Rp 100.000</li><li>Biaya konstruksi baja per meter: Rp 100.000 - Rp 500.000</li></ul> <br><br>Perkiraan biaya di atas dapat berbeda-beda tergantung pada beberapa faktor, seperti lokasi proyek, jenis material baja, dan kontraktor yang dipilih."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan konstruksi baja yang terpercaya di Bekasi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membantu banyak klien dalam mewujudkan proyek konstruksi baja mereka. <strong>Kelebihan Mandiri Steel</strong> antara lain: <ul><li>Pengalaman yang luas</li><li>Material baja yang berkualitas</li><li>Harga yang kompetitif</li></ul> <br><br>Mandiri Steel juga menawarkan <strong>produk 3: Pagar Minimalis Modern</strong> yang dapat membantu Anda menghemat biaya dan waktu dalam proyek konstruksi Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan berbagai layanan konstruksi baja, termasuk: <ul><li>Desain dan perencanaan</li><li>Fabrikasi dan pemasangan</li><li>Perawatan dan pemeliharaan</li></ul> <strong>Desain dan perencanaan</strong> merupakan langkah awal dalam proyek konstruksi baja. Mandiri Steel dapat membantu Anda dalam membuat desain dan perencanaan yang tepat untuk proyek Anda. <br><br>Mandiri Steel juga menawarkan <strong>garansi struktural</strong> yang dapat membantu Anda menghemat biaya perawatan dan penggantian di masa depan."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, biaya konstruksi baja per kg di Bekasi 2025 dapat dipengaruhi oleh beberapa faktor, seperti harga bahan baku, biaya tenaga kerja, dan biaya transportasi. Namun, dengan memilih material baja yang tepat, menggunakan desain yang efisien, dan memilih kontraktor yang tepat, Anda dapat menghemat biaya dalam proyek konstruksi Anda. <strong>Mandiri Steel</strong> merupakan salah satu perusahaan konstruksi baja yang terpercaya di Bekasi yang dapat membantu Anda mewujudkan proyek konstruksi baja Anda. Hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan dan produk yang mereka tawarkan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 91,
     "title": "Teralis Jendela Anti Maling Terbaik",
     "slug": "teralis-jendela-anti-maling-terbaik-bekasi",
