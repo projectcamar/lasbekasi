@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 106,
+    "title": "Teralis Besi Ulir vs Besi Behel vs Stainless",
+    "slug": "teralis-besi-ulir-vs-besi-behel-vs-stainless",
+    "excerpt": "Perbandingan teralis besi ulir, besi behel, dan stainless untuk keamanan rumah",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1508263073532-98ed924de82d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGZlbmNlJTIwZm9yJTIwaG9tZSUyMHNlY3VyaXR5fGVufDB8MHx8fDE3ODYxNDM2MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Penggunaan teralis sebagai salah satu komponen keamanan rumah sudah menjadi hal yang umum. <strong>Teralis</strong> tidak hanya berfungsi sebagai pengaman, tetapi juga sebagai dekorasi yang dapat meningkatkan estetika rumah. Dalam memilih teralis, ada beberapa jenis bahan yang umum digunakan, seperti <strong>besi ulir</strong>, <strong>besi behel</strong>, dan <strong>stainless</strong>. Pada artikel ini, kita akan membahas perbandingan antara ketiga jenis bahan tersebut untuk keamanan rumah.",
+      "keyPoints": [
+        "Perbandingan keamanan antara teralis besi ulir, besi behel, dan stainless",
+        "Kelebihan dan kekurangan masing-masing jenis bahan",
+        "Tips dalam memilih teralis yang sesuai dengan kebutuhan rumah"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Teralis Besi Ulir",
+          "content": "Teralis besi ulir merupakan salah satu jenis teralis yang paling umum digunakan. <strong>Besi ulir</strong> memiliki kekuatan yang tinggi dan tahan terhadap korosi. Selain itu, besi ulir juga memiliki harga yang relatif murah dibandingkan dengan jenis bahan lainnya. Namun, besi ulir juga memiliki kekurangan, yaitu dapat berkarat jika tidak dilapisi dengan cat atau <strong>galvanis</strong>. Dalam memilih teralis besi ulir, pastikan Anda memilih produk yang sudah dilapisi dengan cat atau galvanis untuk meningkatkan ketahanannya. Contoh penggunaan teralis besi ulir dapat ditemukan di <strong>Bekasi</strong> dan <strong>Cikarang</strong>, di mana banyak rumah yang menggunakan teralis besi ulir sebagai pengaman.",
+          "imageSearchQuery": "steel fence ulir",
+          "image": "https://images.unsplash.com/photo-1508263073532-98ed924de82d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGZlbmNlJTIwdWxpcnxlbnwwfDB8fHwxNzg2MTQzNjA5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Pengenalan Teralis Besi Behel",
+          "content": "Teralis besi behel merupakan jenis teralis yang terbuat dari <strong>besi behel</strong>. Besi behel memiliki kekuatan yang tinggi dan tahan terhadap korosi. Selain itu, besi behel juga memiliki fleksibilitas yang tinggi, sehingga dapat dibentuk menjadi berbagai macam bentuk. Namun, besi behel juga memiliki harga yang relatif mahal dibandingkan dengan jenis bahan lainnya. Dalam memilih teralis besi behel, pastikan Anda memilih produk yang sudah dilapisi dengan cat atau <strong>galvanis</strong> untuk meningkatkan ketahanannya. Contoh penggunaan teralis besi behel dapat ditemukan di <strong>Tambun</strong> dan <strong>Cibitung</strong>, di mana banyak rumah yang menggunakan teralis besi behel sebagai dekorasi."
+        },
+        {
+          "heading": "3. Pengenalan Teralis Stainless",
+          "content": "Teralis stainless merupakan jenis teralis yang terbuat dari <strong>stainless steel</strong>. Stainless steel memiliki kekuatan yang tinggi dan tahan terhadap korosi. Selain itu, stainless steel juga memiliki ketahanan yang tinggi terhadap panas dan dingin. Namun, stainless steel juga memiliki harga yang relatif mahal dibandingkan dengan jenis bahan lainnya. Dalam memilih teralis stainless, pastikan Anda memilih produk yang sudah dilapisi dengan cat atau <strong>galvanis</strong> untuk meningkatkan ketahanannya. Contoh penggunaan teralis stainless dapat ditemukan di <strong>Jababeka</strong> dan <strong>MM2100</strong>, di mana banyak rumah yang menggunakan teralis stainless sebagai pengaman. <strong>Produk ID: 5</strong>",
+          "productId": 5
+        },
+        {
+          "heading": "4. Perbandingan Keamanan",
+          "content": "Dalam membandingkan keamanan antara teralis besi ulir, besi behel, dan stainless, kita dapat melihat bahwa ketiga jenis bahan tersebut memiliki kelebihan dan kekurangan masing-masing. Teralis besi ulir memiliki kekuatan yang tinggi, tetapi dapat berkarat jika tidak dilapisi dengan cat atau galvanis. Teralis besi behel memiliki fleksibilitas yang tinggi, tetapi memiliki harga yang relatif mahal. Teralis stainless memiliki ketahanan yang tinggi terhadap panas dan dingin, tetapi memiliki harga yang relatif mahal. Dalam memilih teralis, pastikan Anda mempertimbangkan kebutuhan dan budget Anda."
+        },
+        {
+          "heading": "5. Tips dalam Memilih Teralis",
+          "content": "Dalam memilih teralis, ada beberapa tips yang perlu Anda pertimbangkan. Pertama, pastikan Anda mempertimbangkan kebutuhan dan budget Anda. Kedua, pastikan Anda memilih produk yang sudah dilapisi dengan cat atau galvanis untuk meningkatkan ketahanannya. Ketiga, pastikan Anda memilih produk yang sesuai dengan desain rumah Anda. <strong>Produk ID: 5</strong> dapat menjadi pilihan yang tepat untuk Anda. Dalam memilih teralis, pastikan Anda juga mempertimbangkan faktor keamanan dan kenyamanan.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Pengalaman Mandiri Steel",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam bidang konstruksi dan fabrikasi baja. Kami telah mengerjakan banyak proyek di <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, dan <strong>MM2100</strong>. Kami menggunakan bahan-bahan yang berkualitas tinggi dan memiliki ketahanan yang tinggi. Kami juga menyediakan jasa survei lapangan gratis dan garansi struktural. Dalam memilih teralis, pastikan Anda mempertimbangkan pengalaman dan reputasi perusahaan."
+        }
+      ],
+      "conclusion": "Dalam memilih teralis, pastikan Anda mempertimbangkan kebutuhan dan budget Anda. Teralis besi ulir, besi behel, dan stainless memiliki kelebihan dan kekurangan masing-masing. Pastikan Anda memilih produk yang sesuai dengan desain rumah Anda dan mempertimbangkan faktor keamanan dan kenyamanan. Jika Anda membutuhkan bantuan dalam memilih teralis, silakan hubungi Mandiri Steel. Kami siap membantu Anda dalam memilih teralis yang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 107,
+    "title": "Konstruksi Baja Ringan vs Baja Berat",
+    "slug": "konstruksi-baja-ringan-vs-baja-berat-1786143756065",
+    "excerpt": "Analisis biaya dan ketahanan gempa untuk atap rumah",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Pembangunan rumah yang kuat dan tahan lama merupakan prioritas utama bagi banyak orang. <strong>Konstruksi baja</strong> merupakan salah satu pilihan yang populer karena kekuatan dan ketahanannya. Namun, ada dua jenis baja yang umum digunakan, yaitu <strong>baja ringan</strong> dan <strong>baja berat</strong>. Dalam artikel ini, kita akan membahas perbedaan antara kedua jenis baja tersebut dan membahas analisis biaya serta ketahanan gempa untuk atap rumah.",
+      "keyPoints": [
+        "Perbedaan antara baja ringan dan baja berat",
+        "Analisis biaya untuk atap rumah",
+        "Ketahanan gempa untuk atap rumah"
+      ],
+      "sections": [
+        {
+          "heading": "1. Perbedaan Antara Baja Ringan dan Baja Berat",
+          "content": "Baja ringan dan baja berat memiliki perbedaan yang signifikan dalam hal kekuatan, berat, dan biaya. <strong>Baja ringan</strong> memiliki kekuatan yang lebih rendah dibandingkan dengan baja berat, namun memiliki berat yang lebih ringan dan biaya yang lebih murah. Sementara itu, <strong>baja berat</strong> memiliki kekuatan yang lebih tinggi, namun memiliki berat yang lebih berat dan biaya yang lebih mahal. <br><br>Contoh nyata dari perbedaan ini dapat dilihat pada proyek pembangunan rumah di <strong>Bekasi</strong> dan <strong>Cikarang</strong>, di mana baja ringan lebih umum digunakan karena biaya yang lebih murah dan berat yang lebih ringan. Namun, untuk proyek pembangunan rumah yang lebih besar dan lebih kompleks, seperti di <strong>Jababeka</strong> dan <strong>MM2100</strong>, baja berat lebih umum digunakan karena kekuatan yang lebih tinggi dan ketahanan yang lebih baik.",
+          "imageSearchQuery": "baja ringan vs baja berat"
+        },
+        {
+          "heading": "2. Analisis Biaya untuk Atap Rumah",
+          "content": "Biaya merupakan salah satu faktor yang paling penting dalam pembangunan rumah. <strong>Baja ringan</strong> memiliki biaya yang lebih murah dibandingkan dengan baja berat, namun memiliki kekuatan yang lebih rendah. Sementara itu, <strong>baja berat</strong> memiliki biaya yang lebih mahal, namun memiliki kekuatan yang lebih tinggi dan ketahanan yang lebih baik. <br><br>Contoh nyata dari analisis biaya dapat dilihat pada tabel berikut: <br><ul><li>Baja ringan: Rp 500.000 - Rp 1.000.000 per meter</li><li>Baja berat: Rp 1.500.000 - Rp 3.000.000 per meter</li></ul><br>Sebagai contoh, untuk pembangunan rumah dengan atap seluas 100 meter persegi, biaya yang diperlukan untuk baja ringan adalah sekitar Rp 50.000.000 - Rp 100.000.000, sedangkan untuk baja berat adalah sekitar Rp 150.000.000 - Rp 300.000.000.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Ketahanan Gempa untuk Atap Rumah",
+          "content": "Ketahanan gempa merupakan salah satu faktor yang paling penting dalam pembangunan rumah. <strong>Baja berat</strong> memiliki ketahanan gempa yang lebih baik dibandingkan dengan baja ringan, karena memiliki kekuatan yang lebih tinggi dan berat yang lebih berat. Sementara itu, <strong>baja ringan</strong> memiliki ketahanan gempa yang lebih rendah, namun memiliki berat yang lebih ringan dan biaya yang lebih murah. <br><br>Contoh nyata dari ketahanan gempa dapat dilihat pada proyek pembangunan rumah di <strong>Tambun</strong> dan <strong>Cibitung</strong>, di mana baja berat lebih umum digunakan karena ketahanan gempa yang lebih baik. Namun, untuk proyek pembangunan rumah yang lebih kecil dan lebih sederhana, seperti di <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong>, baja ringan lebih umum digunakan karena biaya yang lebih murah dan berat yang lebih ringan.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Tips dan Saran untuk Pemilihan Baja",
+          "content": "Pemilihan baja yang tepat merupakan salah satu faktor yang paling penting dalam pembangunan rumah. Berikut beberapa tips dan saran untuk pemilihan baja: <br><ul><li>Pertimbangkan kekuatan dan ketahanan yang dibutuhkan</li><li>Pertimbangkan biaya dan anggaran yang tersedia</li><li>Pertimbangkan berat dan ukuran yang dibutuhkan</li><li>Konsultasikan dengan ahli dan kontraktor yang berpengalaman</li></ul><br>Sebagai contoh, untuk pembangunan rumah dengan atap seluas 100 meter persegi, pertimbangkan kekuatan dan ketahanan yang dibutuhkan, serta biaya dan anggaran yang tersedia. Jika kekuatan dan ketahanan yang dibutuhkan lebih tinggi, maka baja berat lebih umum digunakan. Namun, jika biaya dan anggaran yang tersedia lebih rendah, maka baja ringan lebih umum digunakan.",
+          "productId": 2
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan yang paling berpengalaman dan terpercaya dalam bidang konstruksi baja. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel memiliki kemampuan dan keahlian yang tinggi dalam pembangunan rumah dan bangunan lainnya. <br><br>Mandiri Steel juga memiliki <strong>heavy-duty SNI materials</strong> yang memenuhi standar kualitas yang tinggi, serta <strong>free on-site survey</strong> yang memungkinkan pelanggan untuk mendapatkan informasi yang akurat dan terkini tentang proyek pembangunan rumah. Selain itu, Mandiri Steel juga memiliki <strong>structural warranty</strong> yang memungkinkan pelanggan untuk mendapatkan jaminan yang lebih baik tentang kualitas dan ketahanan bangunan.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Layanan dan Area yang Dilayani",
+          "content": "Mandiri Steel memiliki layanan yang luas dan area yang dilayani yang mencakup <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan demikian, pelanggan dapat mendapatkan layanan yang lebih baik dan lebih dekat dengan lokasi mereka. <br><br>Sebagai contoh, untuk pelanggan yang berlokasi di <strong>Bekasi</strong> dan <strong>Cikarang</strong>, Mandiri Steel dapat menyediakan layanan yang lebih cepat dan lebih efisien, karena lokasi yang lebih dekat dengan kantor pusat. Namun, untuk pelanggan yang berlokasi di <strong>Jababeka</strong> dan <strong>MM2100</strong>, Mandiri Steel dapat menyediakan layanan yang lebih luas dan lebih komprehensif, karena lokasi yang lebih strategis dan lebih dekat dengan pusat bisnis.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, pemilihan baja yang tepat merupakan salah satu faktor yang paling penting dalam pembangunan rumah. Dengan mempertimbangkan kekuatan, ketahanan, biaya, dan berat yang dibutuhkan, serta memilih perusahaan yang berpengalaman dan terpercaya seperti Mandiri Steel, pelanggan dapat mendapatkan hasil yang lebih baik dan lebih memuaskan. Jika Anda memiliki pertanyaan atau kebutuhan lebih lanjut, silakan hubungi Mandiri Steel untuk mendapatkan informasi yang lebih akurat dan terkini tentang konstruksi baja dan layanan yang kami tawarkan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 108,
+    "title": "Layanan Las dan Konstruksi Villa",
+    "slug": "layanan-las-dan-konstruksi-villa-1786143756065",
+    "excerpt": "Mandiri Steel, layanan las dan konstruksi terpercaya untuk proyek villa dan resort di Cibarusah dan Serang Baru",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1688653802629-5360086bf632?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwdmlsbGElMjBtZXdhaHxlbnwwfDB8fHwxNzg2MTQzNzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Bagi Anda yang ingin membangun villa atau resort di daerah Cibarusah dan Serang Baru, <strong>Mandiri Steel</strong> hadir sebagai solusi terpercaya untuk semua kebutuhan <strong>las dan konstruksi</strong>. Dengan pengalaman lebih dari 25 tahun, kami telah membuktikan diri sebagai salah satu penyedia jasa konstruksi baja terkemuka di Indonesia. <strong>Kualitas</strong> dan <strong>keamanan</strong> adalah prioritas utama kami dalam setiap proyek yang kami tangani.",
+      "keyPoints": [
+        "Layanan las dan konstruksi untuk proyek villa dan resort",
+        "Pengalaman lebih dari 25 tahun",
+        "Menggunakan bahan-bahan <strong>SNI</strong> untuk memastikan kualitas",
+        "Menawarkan <strong>garansi struktural</strong> untuk setiap proyek"
+      ],
+      "sections": [
+        {
+          "heading": "1. Konsep dan Desain Villa yang Ideal",
+          "content": "Sebelum memulai proyek konstruksi villa, <strong>perencanaan dan desain</strong> yang matang sangatlah penting. Villa yang ideal tidak hanya harus memiliki <strong>estetika</strong> yang menarik, tetapi juga <strong>fungsional</strong> dan <strong>nyaman</strong> untuk ditinggali. <br> <strong>Mandiri Steel</strong> bekerja sama dengan tim desain dan arsitektur untuk menciptakan konsep villa yang sesuai dengan kebutuhan dan preferensi Anda. Dari <strong>desain eksterior</strong> yang mencakup tampilan luar villa, hingga <strong>desain interior</strong> yang memperhatikan kenyamanan dan fungsionalitas ruang, kami memastikan bahwa setiap detail dipertimbangkan dengan cermat. <br> Contoh nyata dari villa yang telah kami bangun di daerah Cibarusah menunjukkan bagaimana <strong>konstruksi baja</strong> dapat digunakan untuk menciptakan struktur yang kuat, tahan lama, dan sangat estetis.",
+          "imageSearchQuery": "desain villa mewah modern",
+          "image": "https://images.unsplash.com/photo-1613490493576-7fde63acd811?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxkZXNhaW4lMjB2aWxsYSUyMG1ld2FoJTIwbW9kZXJufGVufDB8MHx8fDE3ODYxNDM3NTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Menggunakan Konstruksi Baja untuk Villa",
+          "content": "Menggunakan <strong>konstruksi baja</strong> untuk villa memiliki banyak manfaat. <strong>Baja</strong> adalah material yang sangat <strong>kuat</strong> dan <strong>tahan lama</strong>, sehingga dapat memastikan keamanan dan kenyamanan villa Anda. Selain itu, <strong>baja</strong> juga <strong>lebih ramah lingkungan</strong> dibandingkan dengan material lainnya karena dapat <strong>didaur ulang</strong>. <br> Dengan <strong>konstruksi baja</strong>, Anda juga dapat memiliki <strong>desain yang lebih fleksibel</strong>, memungkinkan Anda untuk menciptakan ruang yang unik dan sesuai dengan kebutuhan Anda. <br> <strong>Mandiri Steel</strong> menggunakan <strong>bahan-bahan SNI</strong> untuk memastikan bahwa setiap proyek yang kami kerjakan memiliki <strong>kualitas terbaik</strong>.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips dalam Memilih Layanan Konstruksi yang Tepat",
+          "content": "Memilih <strong>layanan konstruksi</strong> yang tepat untuk proyek villa Anda sangatlah kritis. Berikut beberapa <strong>tips</strong> yang dapat membantu Anda dalam membuat keputusan: <ul> <li>Pastikan layanan konstruksi memiliki <strong>pengalaman</strong> yang cukup dalam menangani proyek serupa.</li> <li>Periksa <strong>portofolio</strong> mereka untuk melihat kualitas pekerjaan yang telah mereka lakukan.</li> <li>Cari <strong>testimoni</strong> dari klien sebelumnya untuk mengetahui tentang <strong>kepuasan klien</strong>.</li> <li>Pastikan mereka menggunakan <strong>bahan-bahan yang berkualitas</strong> dan memiliki <strong>garansi</strong> yang memadai.</li> </ul> <br> <strong>Mandiri Steel</strong> telah membuktikan diri sebagai salah satu layanan konstruksi terpercaya di Indonesia, dengan <strong>pengalaman lebih dari 25 tahun</strong> dan <strong>portofolio</strong> yang impresif.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Proses Konstruksi Villa yang Efisien",
+          "content": "Proses <strong>konstruksi villa</strong> yang efisien sangat penting untuk memastikan bahwa proyek selesai tepat waktu dan sesuai dengan anggaran. <br> <strong>Mandiri Steel</strong> memiliki <strong>tim yang berpengalaman</strong> dan <strong>terlatih</strong> untuk menangani setiap tahap konstruksi, dari <strong>persiapan lahan</strong> hingga <strong>penyelesaian akhir</strong>. Kami juga menggunakan <strong>teknologi terbaru</strong> untuk memastikan bahwa setiap proses konstruksi berjalan dengan efisien dan efektif. <br> Dengan <strong>free on-site survey</strong>, kami dapat memastikan bahwa setiap proyek disesuaikan dengan kebutuhan dan kondisi lapangan yang spesifik."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Proyek Villa Anda?",
+          "content": "Mengapa <strong>Mandiri Steel</strong> harus menjadi pilihan Anda untuk proyek villa? <br> <strong>Kualitas</strong> dan <strong>keamanan</strong> adalah prioritas utama kami. Dengan <strong>pengalaman lebih dari 25 tahun</strong>, kami memiliki <strong>pengetahuan</strong> dan <strong>keahlian</strong> yang mendalam dalam konstruksi baja. <br> Kami menawarkan <strong>garansi struktural</strong> untuk setiap proyek, memastikan bahwa Anda memiliki <strong>perlindungan</strong> dan <strong>keamanan</strong> yang memadai. <br> Dengan <strong>layanan yang ramah</strong> dan <strong>profesional</strong>, kami memastikan bahwa setiap klien merasa <strong>nyaman</strong> dan <strong>puas</strong> dengan layanan kami.",
+          "productId": 2
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan konstruksi baja untuk berbagai daerah, termasuk <strong>Cibarusah</strong>, <strong>Serang Baru</strong>, <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> Kami berkomitmen untuk memberikan <strong>layanan terbaik</strong> dan <strong>memuaskan</strong> kebutuhan konstruksi Anda, tidak peduli di mana lokasi proyek Anda. <br> Dengan <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang memadai</strong>, kami siap untuk menangani proyek konstruksi villa atau resort Anda dengan <strong>efisien</strong> dan <strong>efektif</strong>."
+        }
+      ],
+      "conclusion": "Jika Anda mencari layanan las dan konstruksi yang terpercaya untuk proyek villa atau resort di Cibarusah dan Serang Baru, <strong>Mandiri Steel</strong> adalah pilihan yang tepat. Dengan pengalaman yang luas, kualitas yang tinggi, dan layanan yang profesional, kami siap untuk membantu Anda mewujudkan proyek impian Anda. <strong>Hubungi kami</strong> sekarang juga untuk mendapatkan informasi lebih lanjut dan memulai proyek Anda dengan <strong>Mandiri Steel</strong>."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 103,
     "title": "Kanopi Hollow Galvanis Tahan Lama",
     "slug": "kanopi-hollow-galvanis-tahan-lama-1786122154975",
