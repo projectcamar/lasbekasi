@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 100,
+    "title": "Mezzanine Baja untuk Gudang E-commerce",
+    "slug": "mezzanine-baja-untuk-gudang-e-commerce",
+    "excerpt": "Maksimalkan ruang penyimpanan vertikal dengan mezzanine baja untuk gudang e-commerce di Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1565610222536-ef125c59da2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtZXp6YW5pbmUlMjB3YXJlaG91c2UlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg2MDc4ODA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, industri e-commerce di Indonesia telah mengalami pertumbuhan yang sangat pesat. <strong>Bekasi</strong> sebagai salah satu kota penyangga ibukota memiliki peran penting dalam mendukung pertumbuhan ini. <strong>Gudang e-commerce</strong> yang efisien menjadi kunci untuk meningkatkan produktivitas dan memenuhi kebutuhan pelanggan. Salah satu cara untuk mengoptimalkan ruang penyimpanan adalah dengan menggunakan <strong>mezzanine baja</strong>. Dalam artikel ini, kita akan membahas tentang manfaat dan cara mengimplementasikan mezzanine baja untuk gudang e-commerce di Bekasi.",
+      "keyPoints": [
+        "Mengoptimalkan ruang penyimpanan vertikal",
+        "Meningkatkan efisiensi dan produktivitas",
+        "Mengurangi biaya operasional"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Mezzanine Baja dan Manfaatnya",
+          "content": "Mezzanine baja adalah struktur tambahan yang dibangun di dalam gudang untuk meningkatkan ruang penyimpanan. <strong>Mezzanine</strong> dapat dibuat dari berbagai bahan, namun <strong>baja</strong> adalah pilihan yang paling populer karena kekuatan dan ketahanannya. Dengan menggunakan mezzanine baja, gudang e-commerce dapat meningkatkan kapasitas penyimpanan_without harus memperluas lahan. <br><br>Manfaat lain dari mezzanine baja adalah kemampuan untuk mengoptimalkan ruang penyimpanan vertikal. Dengan demikian, gudang dapat menyimpan lebih banyak barang tanpa harus mengorbankan ruang lantai. <strong>Contoh nyata</strong> dari manfaat ini adalah gudang e-commerce di <strong>Cikarang</strong> yang berhasil meningkatkan kapasitas penyimpanan sebesar 30% setelah menginstal mezzanine baja.",
+          "imageSearchQuery": "mezzanine warehouse interior",
+          "image": "https://images.unsplash.com/photo-1565610222536-ef125c59da2e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtZXp6YW5pbmUlMjB3YXJlaG91c2UlMjBpbnRlcmlvcnxlbnwwfDB8fHwxNzg2MDc4ODA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tips Mengimplementasikan Mezzanine Baja",
+          "content": "Mengimplementasikan mezzanine baja memerlukan perencanaan yang matang. <strong>Berikut beberapa tips</strong> yang dapat membantu: <ul><li>Pastikan ukuran mezzanine sesuai dengan ruang gudang</li><li>Pilih bahan yang kuat dan tahan lama</li><li>Perhatikan faktor keamanan dan keselamatan</li></ul> Dengan memperhatikan faktor-faktor tersebut, gudang e-commerce dapat memastikan bahwa mezzanine baja yang dipasang dapat berfungsi dengan efektif dan efisien. <br><br> Selain itu, <strong>perlu diingat</strong> bahwa mezzanine baja harus dirancang sesuai dengan kebutuhan spesifik gudang. Misalnya, jika gudang memiliki banyak barang berat, maka mezzanine baja harus dirancang untuk menahan beban tersebut.",
+          "productId": null
+        },
+        {
+          "heading": "3. Mengapa Memilih Mandiri Steel untuk Mezzanine Baja?",
+          "content": "Mandiri Steel adalah salah satu penyedia jasa konstruksi baja terkemuka di Indonesia. Dengan <strong>25 tahun pengalaman</strong>, Mandiri Steel telah membantu banyak gudang e-commerce di Bekasi dan sekitarnya untuk mengoptimalkan ruang penyimpanan dengan mezzanine baja. <strong>Produk</strong> yang ditawarkan oleh Mandiri Steel, seperti <strong>Konstruksi Baja WF (ID: 7)</strong>, dapat membantu gudang e-commerce untuk meningkatkan kapasitas penyimpanan dan mengurangi biaya operasional. <br><br> Dengan memilih Mandiri Steel, gudang e-commerce dapat memastikan bahwa mezzanine baja yang dipasang adalah berkualitas tinggi dan dapat berfungsi dengan efektif.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Keamanan dan Keselamatan Mezzanine Baja",
+          "content": "Keamanan dan keselamatan adalah faktor yang sangat penting dalam mengimplementasikan mezzanine baja. <strong>Mandiri Steel</strong> memahami pentingnya faktor ini dan telah mengembangkan sistem keamanan yang komprehensif untuk mezzanine baja. <strong>Sistem</strong> ini meliputi <ul><li>Desain struktur yang kuat dan stabil</li><li>Bahan yang tahan lama dan tidak mudah rusak</li><li>Sistem akses yang aman dan nyaman</li></ul> Dengan demikian, gudang e-commerce dapat memastikan bahwa mezzanine baja yang dipasang dapat berfungsi dengan efektif dan aman.",
+          "productId": null
+        },
+        {
+          "heading": "5. Manfaat Menggunakan Mezzanine Baja untuk Gudang E-commerce di Bekasi",
+          "content": "Menggunakan mezzanine baja untuk gudang e-commerce di Bekasi dapat memberikan banyak manfaat. <strong>Beberapa manfaat</strong> yang dapat diperoleh adalah <ul><li>Meningkatkan kapasitas penyimpanan</li><li>Mengurangi biaya operasional</li><li>Meningkatkan efisiensi dan produktivitas</li></ul> Dengan demikian, gudang e-commerce dapat memenuhi kebutuhan pelanggan dengan lebih baik dan meningkatkan kepuasan pelanggan. <br><br> <strong>Produk</strong> seperti <strong>Pintu Pagar Stainless Steel (ID: 8)</strong> juga dapat membantu gudang e-commerce untuk meningkatkan keamanan dan keselamatan.",
+          "productId": 8
+        },
+        {
+          "heading": "6. Layanan yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan berbagai layanan untuk membantu gudang e-commerce di Bekasi dan sekitarnya untuk mengoptimalkan ruang penyimpanan dengan mezzanine baja. <strong>Layanan</strong> yang ditawarkan meliputi <ul><li>Desain dan konstruksi mezzanine baja</li><li>Pemasangan dan instalasi mezzanine baja</li><li>Pelatihan dan dukungan teknis</li></ul> Dengan demikian, gudang e-commerce dapat memastikan bahwa mezzanine baja yang dipasang dapat berfungsi dengan efektif dan efisien.",
+          "productId": null
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, mezzanine baja adalah salah satu solusi yang efektif untuk mengoptimalkan ruang penyimpanan vertikal di gudang e-commerce. Dengan memilih Mandiri Steel sebagai penyedia jasa konstruksi baja, gudang e-commerce dapat memastikan bahwa mezzanine baja yang dipasang adalah berkualitas tinggi dan dapat berfungsi dengan efektif. Jika Anda memiliki pertanyaan atau ingin meminta informasi lebih lanjut, silakan hubungi Mandiri Steel."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 101,
+    "title": "Mengamankan Rumah Kosong Saat Mudik",
+    "slug": "tips-keamanan-rumah-kosong-saat-mudik-1786078952839",
+    "excerpt": "Tips keamanan rumah kosong saat mudik dengan teralis, CCTV, dan pagar di Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1691940834294-7b07f3b39830?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxydW1haCUyMGtvc29uZyUyMGRlbmdhbiUyMHBhZ2FyJTIwZGFuJTIwY2N0dnxlbnwwfDB8fHwxNzg2MDc4ODgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Saat <strong>mudik</strong>, kita sering meninggalkan rumah kosong tanpa penghuni. Hal ini dapat meningkatkan risiko <strong>keamanan rumah</strong>. Oleh karena itu, penting untuk mengambil langkah-langkah untuk mengamankan rumah kita. <strong>Teralis</strong>, <strong>CCTV</strong>, dan <strong>pager</strong> adalah beberapa komponen yang dapat membantu meningkatkan keamanan rumah kosong saat mudik. Di artikel ini, kita akan membahas tips keamanan rumah kosong saat mudik dengan menggunakan teralis, CCTV, dan pagar di Bekasi.",
+      "keyPoints": [
+        "Menggunakan teralis untuk mengamankan jendela dan pintu",
+        "Menginstal CCTV untuk memantau keamanan rumah",
+        "Menggunakan pagar untuk mengamankan area rumah"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Teralis dan Fungsinya",
+          "content": "Teralis adalah komponen yang sangat penting untuk mengamankan jendela dan pintu rumah. <strong>Teralis</strong> dapat membantu mencegah akses tidak sah ke rumah dan mengurangi risiko <strong>pencurian</strong>. Di Bekasi, teralis dapat dibuat dari bahan <strong>baja</strong> atau <strong>aluminium</strong> yang kuat dan tahan lama. Dengan menggunakan teralis, kita dapat meningkatkan keamanan rumah kosong saat mudik. <br> Contoh nyata, di daerah <strong>Cikarang</strong>, teralis telah menjadi salah satu komponen yang wajib digunakan untuk mengamankan rumah. Hal ini karena teralis dapat membantu mencegah akses tidak sah ke rumah dan mengurangi risiko pencurian.",
+          "imageSearchQuery": "teralis jendela dan pintu",
+          "image": "https://images.unsplash.com/photo-1675522007415-cfc65872778c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMGRhbiUyMHBpbnR1fGVufDB8MHx8fDE3ODYwNzg4ODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Menginstal CCTV untuk Memantau Keamanan Rumah",
+          "content": "CCTV (Closed-Circuit Television) adalah komponen yang sangat penting untuk memantau keamanan rumah. <strong>CCTV</strong> dapat membantu kita memantau keamanan rumah dari jarak jauh dan mengurangi risiko <strong>kejahatan</strong>. Di Bekasi, CCTV dapat dipasang di area <strong>depan rumah</strong> atau <strong>belakang rumah</strong> untuk memantau keamanan rumah. Dengan menggunakan CCTV, kita dapat meningkatkan keamanan rumah kosong saat mudik. <br> Contoh nyata, di daerah <strong>Tambun</strong>, CCTV telah menjadi salah satu komponen yang wajib digunakan untuk memantau keamanan rumah. Hal ini karena CCTV dapat membantu kita memantau keamanan rumah dari jarak jauh dan mengurangi risiko kejahatan."
+        },
+        {
+          "heading": "3. Menggunakan Pagar untuk Mengamankan Area Rumah",
+          "content": "Pagar adalah komponen yang sangat penting untuk mengamankan area rumah. <strong>Pagar</strong> dapat membantu mencegah akses tidak sah ke rumah dan mengurangi risiko <strong>pencurian</strong>. Di Bekasi, pagar dapat dibuat dari bahan <strong>baja</strong> atau <strong>aluminium</strong> yang kuat dan tahan lama. Dengan menggunakan pagar, kita dapat meningkatkan keamanan rumah kosong saat mudik. <br> Contoh nyata, di daerah <strong>Cibitung</strong>, pagar telah menjadi salah satu komponen yang wajib digunakan untuk mengamankan area rumah. Hal ini karena pagar dapat membantu mencegah akses tidak sah ke rumah dan mengurangi risiko pencurian. <strong>Produk pagar</strong> yang kami rekomendasikan adalah <strong>Pagar Minimalis Modern (Pagar - Layanan Utama)</strong> dengan kode produk <strong>3</strong>.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Tips Mengamankan Rumah Kosong Saat Mudik",
+          "content": "Berikut beberapa tips mengamankan rumah kosong saat mudik: <ul> <li>Menggunakan teralis untuk mengamankan jendela dan pintu</li> <li>Menginstal CCTV untuk memantau keamanan rumah</li> <li>Menggunakan pagar untuk mengamankan area rumah</li> <li>Menginformasikan tetangga tentang kepergian kita</li> <li>Menggunakan sistem keamanan rumah yang canggih</li> </ul> Dengan mengikuti tips di atas, kita dapat meningkatkan keamanan rumah kosong saat mudik."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Mengamankan Rumah?",
+          "content": "Mandiri Steel adalah perusahaan yang berpengalaman dalam mengamankan rumah. <strong>Mandiri Steel</strong> memiliki <strong>25 tahun pengalaman</strong> dalam mengamankan rumah dan telah bekerja sama dengan banyak klien di Bekasi. Dengan menggunakan jasa Mandiri Steel, kita dapat meningkatkan keamanan rumah kosong saat mudik. <br> Contoh nyata, di daerah <strong>Jababeka</strong>, Mandiri Steel telah menjadi salah satu perusahaan yang wajib dipilih untuk mengamankan rumah. Hal ini karena Mandiri Steel memiliki <strong>pengalaman yang luas</strong> dalam mengamankan rumah dan <strong>produk yang berkualitas</strong>. <strong>Produk pagar</strong> yang kami rekomendasikan adalah <strong>Pagar Besi Tempa Klasik (Pagar - Premium Klasik)</strong> dengan kode produk <strong>4</strong>.",
+          "productId": 4
+        },
+        {
+          "heading": "6. Area Pelayanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel memiliki area pelayanan yang luas di Bekasi. <strong>Area pelayanan</strong> Mandiri Steel meliputi <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan demikian, kita dapat dengan mudah mengakses jasa Mandiri Steel untuk mengamankan rumah kosong saat mudik."
+        }
+      ],
+      "conclusion": "Dengan mengikuti tips mengamankan rumah kosong saat mudik dan menggunakan jasa Mandiri Steel, kita dapat meningkatkan keamanan rumah kosong saat mudik. Jangan ragu untuk menghubungi Mandiri Steel untuk mengamankan rumah Anda. Kami memiliki <strong>pengalaman yang luas</strong> dalam mengamankan rumah dan <strong>produk yang berkualitas</strong>. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang jasa mengamankan rumah kosong saat mudik."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 102,
+    "title": "Kanopi Kaca Tempered",
+    "slug": "kanopi-kaca-tempered-untuk-teras-belakang-rumah",
+    "excerpt": "Kanopi kaca tempered untuk teras belakang rumah: kelebihan, risiko, dan tips pemasangan di Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Kanopi kaca tempered merupakan salah satu pilihan populer untuk melindungi teras belakang rumah dari elemen-elemen alam. <strong>Kaca tempered</strong> yang digunakan memiliki kekuatan yang lebih tinggi daripada kaca biasa, sehingga dapat menjamin keamanan dan kenyamanan penghuni rumah. Namun, sebelum memutuskan untuk memasang kanopi kaca tempered, ada beberapa hal yang perlu dipertimbangkan, seperti kelebihan, risiko, dan tips pemasangan yang tepat. Dalam artikel ini, kita akan membahas secara detail tentang kanopi kaca tempered untuk teras belakang rumah, terutama di daerah Bekasi.",
+      "keyPoints": [
+        "Kanopi kaca tempered memiliki kekuatan yang lebih tinggi daripada kaca biasa",
+        "Pemasangan kanopi kaca tempered memerlukan perencanaan yang matang",
+        "Kanopi kaca tempered dapat meningkatkan estetika rumah"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Kanopi Kaca Tempered",
+          "content": "Kanopi kaca tempered memiliki beberapa kelebihan yang membuatnya menjadi pilihan populer untuk melindungi teras belakang rumah. <strong>Kaca tempered</strong> yang digunakan memiliki kekuatan yang lebih tinggi daripada kaca biasa, sehingga dapat menjamin keamanan dan kenyamanan penghuni rumah. Selain itu, kanopi kaca tempered juga dapat meningkatkan estetika rumah, karena kaca tempered dapat dibentuk menjadi berbagai bentuk dan desain yang unik. <br><br>Beberapa kelebihan lain dari kanopi kaca tempered adalah: <ul><li>Tahan lama dan tidak mudah pecah</li><li>Memiliki kekuatan yang lebih tinggi daripada kaca biasa</li><li>Dapat meningkatkan estetika rumah</li></ul>",
+          "imageSearchQuery": "kaca tempered untuk kanopi"
+        },
+        {
+          "heading": "Risiko Pemasangan Kanopi Kaca Tempered",
+          "content": "Meskipun kanopi kaca tempered memiliki beberapa kelebihan, namun juga ada beberapa risiko yang perlu dipertimbangkan sebelum memasangnya. <strong>Risiko</strong> yang paling umum adalah kerusakan pada kaca tempered akibat pemasangan yang tidak tepat. Oleh karena itu, penting untuk memilih jasa pemasangan yang profesional dan berpengalaman. <br><br>Beberapa risiko lain dari pemasangan kanopi kaca tempered adalah: <ul><li>Kerusakan pada kaca tempered akibat pemasangan yang tidak tepat</li><li>Biaya pemasangan yang lebih tinggi daripada kanopi biasa</li><li>Perlu perencanaan yang matang sebelum pemasangan</li></ul>",
+          "productId": 2
+        },
+        {
+          "heading": "Tips Pemasangan Kanopi Kaca Tempered",
+          "content": "Untuk memastikan pemasangan kanopi kaca tempered yang tepat, ada beberapa tips yang perlu diikuti. <strong>Tips</strong> pertama adalah memilih jasa pemasangan yang profesional dan berpengalaman. Selain itu, juga penting untuk melakukan perencanaan yang matang sebelum pemasangan, termasuk mempertimbangkan ukuran dan bentuk kanopi yang sesuai dengan teras belakang rumah. <br><br>Beberapa tips lain untuk pemasangan kanopi kaca tempered adalah: <ul><li>Memilih jasa pemasangan yang profesional dan berpengalaman</li><li>Melakukan perencanaan yang matang sebelum pemasangan</li><li>Memastikan ukuran dan bentuk kanopi yang sesuai dengan teras belakang rumah</li></ul>",
+          "productId": 2
+        },
+        {
+          "heading": "Pengalaman Mandiri Steel dalam Pemasangan Kanopi Kaca Tempered",
+          "content": "Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam pemasangan kanopi kaca tempered. <strong>Pengalaman</strong> ini memungkinkan kami untuk memahami kebutuhan dan preferensi pelanggan, serta memastikan pemasangan yang tepat dan aman. Selain itu, kami juga menggunakan bahan-bahan yang berkualitas tinggi, termasuk kaca tempered yang memenuhi standar SNI. <br><br>Beberapa kelebihan dari Mandiri Steel adalah: <ul><li>Pengalaman lebih dari 25 tahun dalam pemasangan kanopi kaca tempered</li><li>Menggunakan bahan-bahan yang berkualitas tinggi</li><li>Memastikan pemasangan yang tepat dan aman</li></ul>",
+          "productId": 2
+        },
+        {
+          "heading": "Layanan Pemasangan Kanopi Kaca Tempered di Bekasi",
+          "content": "Mandiri Steel menyediakan layanan pemasangan kanopi kaca tempered di daerah Bekasi, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <strong>Layanan</strong> kami meliputi perencanaan, pemasangan, dan perawatan kanopi kaca tempered. <br><br>Beberapa kelebihan dari layanan kami adalah: <ul><li>Menyediakan layanan pemasangan kanopi kaca tempered di daerah Bekasi</li><li>Memiliki pengalaman lebih dari 25 tahun dalam pemasangan kanopi kaca tempered</li><li>Menggunakan bahan-bahan yang berkualitas tinggi</li></ul>",
+          "productId": 2
+        },
+        {
+          "heading": "Garansi dan Jaminan Pemasangan Kanopi Kaca Tempered",
+          "content": "Mandiri Steel menyediakan garansi dan jaminan pemasangan kanopi kaca tempered. <strong>Garansi</strong> ini memastikan bahwa pemasangan kanopi kaca tempered yang dilakukan oleh kami aman dan tepat. Selain itu, kami juga menyediakan layanan perawatan dan perbaikan kanopi kaca tempered. <br><br>Beberapa kelebihan dari garansi dan jaminan kami adalah: <ul><li>Memastikan pemasangan kanopi kaca tempered yang aman dan tepat</li><li>Menyediakan layanan perawatan dan perbaikan kanopi kaca tempered</li><li>Memiliki pengalaman lebih dari 25 tahun dalam pemasangan kanopi kaca tempered</li></ul>",
+          "productId": 2
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, kanopi kaca tempered merupakan pilihan yang tepat untuk melindungi teras belakang rumah dari elemen-elemen alam. Dengan kelebihan dan tips pemasangan yang tepat, kanopi kaca tempered dapat meningkatkan estetika rumah dan memastikan keamanan dan kenyamanan penghuni rumah. Untuk memastikan pemasangan kanopi kaca tempered yang tepat, penting untuk memilih jasa pemasangan yang profesional dan berpengalaman, seperti Mandiri Steel. Dengan pengalaman lebih dari 25 tahun dan menggunakan bahan-bahan yang berkualitas tinggi, Mandiri Steel dapat memastikan pemasangan kanopi kaca tempered yang aman dan tepat."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 97,
     "title": "Railing Tangga Kabel Baja",
     "slug": "railing-tangga-kabel-baja-1786057369036",
