@@ -33,6 +33,186 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 103,
+    "title": "Kanopi Hollow Galvanis Tahan Lama",
+    "slug": "kanopi-hollow-galvanis-tahan-lama-1786122154975",
+    "excerpt": "Kanopi hollow galvanis lebih tahan lama karena materialnya yang berkualitas. Berikut analisis material untuk iklim Bekasi.",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1655268394982-ca9be301ab96?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxnYWx2YW5pemVkJTIwc3RlZWwlMjBjYW5vcHl8ZW58MHwwfHx8MTc4NjEyMjAwOXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Kanopi merupakan salah satu komponen penting dalam bangunan, terutama di daerah Bekasi yang memiliki iklim tropis. <strong>Kanopi hollow galvanis</strong> menjadi pilihan banyak orang karena kekuatannya dan ketahanannya. Namun, apa yang membuat kanopi hollow galvanis lebih tahan lama? Pada artikel ini, kita akan membahas analisis material untuk iklim Bekasi dan mengapa kanopi hollow galvanis adalah pilihan yang tepat.",
+      "keyPoints": [
+        "Kanopi hollow galvanis memiliki ketahanan yang tinggi",
+        "Material galvanis memiliki sifat anti-korosi",
+        "Kanopi hollow galvanis dapat menahan beban berat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Kanopi Hollow Galvanis",
+          "content": "Kanopi hollow galvanis adalah jenis kanopi yang terbuat dari material galvanis, yaitu baja yang dilapisi dengan lapisan seng. <strong>Galvanis</strong> memiliki sifat anti-korosi, sehingga dapat menahan kerusakan akibat korosi. Kanopi hollow galvanis memiliki bentuk yang hollow, sehingga lebih ringan dan mudah dipasang. <br> <br> Dalam pembuatan kanopi hollow galvanis, proses galvanisasi sangat penting. Proses ini melibatkan pencelupan material baja ke dalam lapisan seng, sehingga membentuk lapisan yang kuat dan tahan lama. <br> <br> Contoh nyata penggunaan kanopi hollow galvanis dapat dilihat di daerah Bekasi, seperti di <strong>Cikarang</strong> dan <strong>Tambun</strong>. Banyak bangunan yang menggunakan kanopi hollow galvanis sebagai atap atau penutup.",
+          "imageSearchQuery": "galvanized steel production",
+          "image": "https://images.unsplash.com/photo-1496247749665-49cf5b1022e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxnYWx2YW5pemVkJTIwc3RlZWwlMjBwcm9kdWN0aW9ufGVufDB8MHx8fDE3ODYxMjIwMDl8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Kelebihan Kanopi Hollow Galvanis",
+          "content": "Kanopi hollow galvanis memiliki beberapa kelebihan, antara lain: <ul> <li>Tahan lama: Kanopi hollow galvanis dapat menahan kerusakan akibat korosi dan cuaca ekstrem.</li> <li>Kuat: Kanopi hollow galvanis dapat menahan beban berat, sehingga aman digunakan sebagai atap atau penutup.</li> <li>Ringan: Kanopi hollow galvanis memiliki bentuk yang hollow, sehingga lebih ringan dan mudah dipasang.</li> </ul> <br> <br> Selain itu, kanopi hollow galvanis juga memiliki sifat yang ramah lingkungan. Material galvanis dapat didaur ulang, sehingga mengurangi limbah dan polusi. <br> <br> Tips actionable untuk memilih kanopi hollow galvanis yang berkualitas: <ul> <li>Pilih material galvanis yang berkualitas.</li> <li>Periksa ketebalan lapisan galvanis.</li> <li>Pastikan kanopi hollow galvanis dipasang dengan benar.</li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "3. Analisis Material untuk Iklim Bekasi",
+          "content": "Iklim Bekasi yang tropis memerlukan material yang tahan lama dan kuat. Kanopi hollow galvanis merupakan pilihan yang tepat karena memiliki sifat anti-korosi dan kuat. <br> <br> Dalam analisis material, kita harus mempertimbangkan beberapa faktor, antara lain: <ul> <li>Suhu: Iklim Bekasi yang panas memerlukan material yang tahan terhadap suhu tinggi.</li> <li>Kelembaban: Iklim Bekasi yang lembab memerlukan material yang tahan terhadap kelembaban.</li> <li>Angin: Iklim Bekasi yang berangin memerlukan material yang kuat dan tahan terhadap angin.</li> </ul> <br> <br> Berdasarkan analisis material, kanopi hollow galvanis merupakan pilihan yang tepat untuk iklim Bekasi. Material galvanis dapat menahan kerusakan akibat korosi dan cuaca ekstrem, sehingga aman digunakan sebagai atap atau penutup.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Tips Merawat Kanopi Hollow Galvanis",
+          "content": "Merawat kanopi hollow galvanis sangat penting untuk memperpanjang umur dan menjaga kualitas. Berikut beberapa tips merawat kanopi hollow galvanis: <ul> <li>Bersihkan kanopi secara teratur.</li> <li>Periksa kanopi secara teratur.</li> <li>Lakukan perawatan rutin.</li> </ul> <br> <br> Selain itu, kita juga harus mempertimbangkan beberapa hal, antara lain: <ul> <li>Pastikan kanopi dipasang dengan benar.</li> <li>Pastikan kanopi tidak terlalu berat.</li> <li>Pastikan kanopi tidak terlalu panas.</li> </ul> <br> <br> Dengan merawat kanopi hollow galvanis secara teratur, kita dapat memperpanjang umur dan menjaga kualitas. Kanopi hollow galvanis yang terawat dengan baik dapat menahan kerusakan akibat korosi dan cuaca ekstrem, sehingga aman digunakan sebagai atap atau penutup."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan yang berpengalaman dalam produksi kanopi hollow galvanis. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membuktikan kualitas dan ketahanan produknya. <br> <br> Mandiri Steel menggunakan material galvanis yang berkualitas dan memiliki sifat anti-korosi. Selain itu, Mandiri Steel juga memiliki tim yang berpengalaman dalam produksi dan pemasangan kanopi hollow galvanis. <br> <br> Tips actionable untuk memilih Mandiri Steel: <ul> <li>Pastikan perusahaan memiliki pengalaman yang cukup.</li> <li>Pastikan perusahaan menggunakan material yang berkualitas.</li> <li>Pastikan perusahaan memiliki tim yang berpengalaman.</li> </ul> <br> <br> Dengan memilih Mandiri Steel, kita dapat memastikan kualitas dan ketahanan produk. Mandiri Steel telah membuktikan kualitas dan ketahanan produknya, sehingga aman digunakan sebagai atap atau penutup.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Layanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel menyediakan layanan di daerah Bekasi, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> <br> Dengan layanan yang luas, Mandiri Steel dapat memenuhi kebutuhan kanopi hollow galvanis di daerah Bekasi. Selain itu, Mandiri Steel juga menyediakan layanan pemasangan dan perawatan kanopi hollow galvanis. <br> <br> Tips actionable untuk memilih layanan Mandiri Steel: <ul> <li>Pastikan perusahaan memiliki layanan yang luas.</li> <li>Pastikan perusahaan memiliki tim yang berpengalaman.</li> <li>Pastikan perusahaan menggunakan material yang berkualitas.</li> </ul>"
+        }
+      ],
+      "conclusion": "Kanopi hollow galvanis merupakan pilihan yang tepat untuk iklim Bekasi karena memiliki sifat anti-korosi dan kuat. Dengan memilih Mandiri Steel, kita dapat memastikan kualitas dan ketahanan produk. Jika Anda membutuhkan kanopi hollow galvanis, hubungi Mandiri Steel sekarang juga!"
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 104,
+    "title": "Railing Balkon Rooftop Tahan Cuaca",
+    "slug": "railing-balkon-rooftop-tahan-cuaca-1786122154975",
+    "excerpt": "Railing balkon rooftop tahan cuaca untuk rumah di Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1630699376682-84df40131d22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwYmFsa29uJTIwcm9vZnRvcHxlbnwwfDB8fHwxNzg2MTIyMDgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing balkon rooftop merupakan salah satu elemen penting dalam desain rumah modern, terutama di daerah Bekasi yang memiliki cuaca tropis. <strong>Railing</strong> yang tahan cuaca sangat dibutuhkan untuk meningkatkan keamanan dan kenyamanan penghuni rumah. Dalam artikel ini, kita akan membahas tentang <strong>material</strong> yang tepat untuk railing balkon rooftop dan tips dalam memilihnya.",
+      "keyPoints": [
+        "Railing balkon rooftop tahan cuaca",
+        "Material yang tepat untuk railing",
+        "Tips dalam memilih railing"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Konsep Railing Balkon Rooftop",
+          "content": "Railing balkon rooftop adalah salah satu elemen yang paling penting dalam desain rumah modern. <strong>Railing</strong> ini tidak hanya berfungsi sebagai pengaman, tetapi juga sebagai elemen dekoratif yang dapat meningkatkan keindahan rumah. Di daerah Bekasi, <strong>railing</strong> balkon rooftop harus dirancang untuk tahan cuaca, karena cuaca tropis dapat menyebabkan kerusakan pada <strong>material</strong>. <br> Dalam memilih <strong>railing</strong> balkon rooftop, perlu dipertimbangkan beberapa faktor, seperti <strong>material</strong>, desain, dan biaya. <strong>Material</strong> yang tepat dapat meningkatkan keamanan dan kenyamanan penghuni rumah, serta memperpanjang umur <strong>railing</strong>.",
+          "imageSearchQuery": "railing balkon rooftop modern",
+          "image": "https://images.unsplash.com/photo-1657639753220-8d59b05958d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwYmFsa29uJTIwcm9vZnRvcCUyMG1vZGVybnxlbnwwfDB8fHwxNzg2MTIyMDgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Railing Balkon Rooftop Tahan Cuaca",
+          "content": "Railing balkon rooftop tahan cuaca memiliki beberapa manfaat, seperti meningkatkan keamanan penghuni rumah, memperpanjang umur <strong>railing</strong>, dan meningkatkan keindahan rumah. <strong>Railing</strong> yang tahan cuaca dapat mengurangi risiko kecelakaan dan cedera, serta memperpanjang umur <strong>railing</strong> dengan mengurangi kerusakan akibat cuaca. <br> Di daerah Bekasi, <strong>railing</strong> balkon rooftop tahan cuaca sangat dibutuhkan, karena cuaca tropis dapat menyebabkan kerusakan pada <strong>material</strong>. Dengan memilih <strong>material</strong> yang tepat, seperti <strong>stainless steel</strong> atau <strong>aluminum</strong>, dapat meningkatkan keamanan dan kenyamanan penghuni rumah."
+        },
+        {
+          "heading": "3. Tips dalam Memilih Railing Balkon Rooftop",
+          "content": "Dalam memilih <strong>railing</strong> balkon rooftop, perlu dipertimbangkan beberapa faktor, seperti <strong>material</strong>, desain, dan biaya. Berikut beberapa tips dalam memilih <strong>railing</strong> balkon rooftop: <ul> <li>Pilih <strong>material</strong> yang tahan cuaca, seperti <strong>stainless steel</strong> atau <strong>aluminum</strong></li> <li>Pertimbangkan desain <strong>railing</strong> yang sesuai dengan gaya rumah</li> <li>Pertimbangkan biaya <strong>railing</strong> dan biaya perawatan</li> </ul> <br> Dengan mempertimbangkan faktor-faktor tersebut, dapat memilih <strong>railing</strong> balkon rooftop yang tepat untuk rumah di Bekasi.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Perawatan Railing Balkon Rooftop",
+          "content": "Perawatan <strong>railing</strong> balkon rooftop sangat penting untuk memperpanjang umur <strong>railing</strong> dan meningkatkan keamanan penghuni rumah. Berikut beberapa tips dalam perawatan <strong>railing</strong> balkon rooftop: <ul> <li>Bersihkan <strong>railing</strong> secara teratur untuk menghilangkan kotoran dan debu</li> <li>Periksa <strong>railing</strong> secara teratur untuk mengidentifikasi kerusakan</li> <li>Lakukan perawatan <strong>railing</strong> secara teratur untuk memperpanjang umur <strong>railing</strong></li> </ul> <br> Dengan melakukan perawatan <strong>railing</strong> balkon rooftop secara teratur, dapat memperpanjang umur <strong>railing</strong> dan meningkatkan keamanan penghuni rumah."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Railing Balkon Rooftop?",
+          "content": "Mandiri Steel merupakan salah satu penyedia <strong>railing</strong> balkon rooftop terbaik di Bekasi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membuktikan kemampuan dalam menyediakan <strong>railing</strong> balkon rooftop yang tahan cuaca dan memenuhi kebutuhan penghuni rumah. <br> Mandiri Steel menggunakan <strong>material</strong> yang berkualitas, seperti <strong>stainless steel</strong> dan <strong>aluminum</strong>, untuk memastikan bahwa <strong>railing</strong> balkon rooftop dapat bertahan lama. Dengan memilih Mandiri Steel, dapat memperoleh <strong>railing</strong> balkon rooftop yang tepat untuk rumah di Bekasi.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan <strong>railing</strong> balkon rooftop di daerah Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <br> Dengan memiliki pengalaman lebih dari 25 tahun, Mandiri Steel telah membuktikan kemampuan dalam menyediakan <strong>railing</strong> balkon rooftop yang tahan cuaca dan memenuhi kebutuhan penghuni rumah. Dengan memilih Mandiri Steel, dapat memperoleh <strong>railing</strong> balkon rooftop yang tepat untuk rumah di Bekasi."
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>railing</strong> balkon rooftop, perlu dipertimbangkan beberapa faktor, seperti <strong>material</strong>, desain, dan biaya. Dengan memilih Mandiri Steel, dapat memperoleh <strong>railing</strong> balkon rooftop yang tepat untuk rumah di Bekasi. Jangan ragu untuk menghubungi Mandiri Steel untuk memperoleh informasi lebih lanjut tentang <strong>railing</strong> balkon rooftop dan layanan lainnya."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 105,
+    "title": "Besi SNI vs Non-SNI: Apa Bedanya?",
+    "slug": "besi-sni-vs-non-sni",
+    "excerpt": "Pahami perbedaan kualitas besi SNI dan non-SNI untuk konstruksi yang lebih kuat dan tahan lama",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-07",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGNvbnN0cnVjdGlvbiUyMG1hdGVyaWFsc3xlbnwwfDB8fHwxNzg2MTIyMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Besi</strong> adalah salah satu material utama dalam konstruksi bangunan. Namun, banyak konsumen yang belum memahami perbedaan antara <strong>besi SNI</strong> dan <strong>besi non-SNI</strong>. <strong>Besi SNI</strong> adalah besi yang telah memenuhi standar nasional Indonesia, sedangkan <strong>besi non-SNI</strong> belum memenuhi standar tersebut. Dalam artikel ini, kita akan membahas perbedaan kualitas antara <strong>besi SNI</strong> dan <strong>besi non-SNI</strong> serta mengapa <strong>besi SNI</strong> lebih baik untuk konstruksi.",
+      "keyPoints": [
+        "Perbedaan kualitas antara besi SNI dan non-SNI",
+        "Kelebihan besi SNI dalam konstruksi",
+        "Tips memilih besi SNI yang berkualitas"
+      ],
+      "sections": [
+        {
+          "heading": "Apa itu Besi SNI?",
+          "content": "Besi SNI adalah besi yang telah memenuhi standar nasional Indonesia. <strong>Standar Nasional Indonesia (SNI)</strong> adalah standar yang ditetapkan oleh pemerintah Indonesia untuk memastikan kualitas produk yang dihasilkan. <strong>Besi SNI</strong> memiliki kualitas yang lebih tinggi daripada <strong>besi non-SNI</strong> karena telah melalui proses pengujian yang ketat. Dalam proses pengujian, <strong>besi SNI</strong> harus memenuhi beberapa persyaratan, seperti <strong>kekuatan tarik</strong>, <strong>kekuatan tekan</strong>, dan <strong>kekuatan bending</strong>. Dengan demikian, <strong>besi SNI</strong> lebih kuat dan tahan lama daripada <strong>besi non-SNI</strong>.<br><br>Contoh nyata adalah <strong>Konstruksi Baja WF</strong> (productId: 7) yang menggunakan <strong>besi SNI</strong> untuk memastikan kekuatan dan keamanan bangunan.",
+          "imageSearchQuery": "steel construction materials",
+          "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGNvbnN0cnVjdGlvbiUyMG1hdGVyaWFsc3xlbnwwfDB8fHwxNzg2MTIyMTUzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Perbedaan Kualitas antara Besi SNI dan Non-SNI",
+          "content": "Perbedaan kualitas antara <strong>besi SNI</strong> dan <strong>besi non-SNI</strong> sangat signifikan. <strong>Besi SNI</strong> memiliki kualitas yang lebih tinggi karena telah memenuhi standar nasional Indonesia. <strong>Besi non-SNI</strong> belum memenuhi standar tersebut, sehingga kualitasnya lebih rendah. <strong>Besi non-SNI</strong> dapat memiliki kekuatan yang lebih rendah, sehingga lebih rentan terhadap kerusakan. Dalam konstruksi, <strong>besi SNI</strong> lebih baik karena dapat memastikan kekuatan dan keamanan bangunan. <br><br> Tips memilih <strong>besi SNI</strong> yang berkualitas adalah dengan memeriksa sertifikat SNI dan memastikan bahwa produk tersebut telah memenuhi standar nasional Indonesia.",
+          "productId": 1
+        },
+        {
+          "heading": "Kelebihan Besi SNI dalam Konstruksi",
+          "content": "Kelebihan <strong>besi SNI</strong> dalam konstruksi adalah dapat memastikan kekuatan dan keamanan bangunan. <strong>Besi SNI</strong> memiliki kualitas yang lebih tinggi, sehingga dapat menahan beban yang lebih berat. Dalam konstruksi, <strong>besi SNI</strong> dapat digunakan untuk membuat <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong>. <strong>Besi SNI</strong> juga dapat digunakan untuk membuat <strong>konstruksi baja</strong> yang lebih kuat dan tahan lama. <br><br>Contoh nyata adalah <strong>Kanopi Minimalis Alderon</strong> (productId: 1) yang menggunakan <strong>besi SNI</strong> untuk memastikan kekuatan dan keamanan.",
+          "productId": 2
+        },
+        {
+          "heading": "Tips Memilih Besi SNI yang Berkualitas",
+          "content": "Tips memilih <strong>besi SNI</strong> yang berkualitas adalah dengan memeriksa sertifikat SNI dan memastikan bahwa produk tersebut telah memenuhi standar nasional Indonesia. Selain itu, pastikan bahwa produk tersebut memiliki kualitas yang baik dan harga yang kompetitif. <strong>Besi SNI</strong> yang berkualitas dapat memastikan kekuatan dan keamanan bangunan, sehingga sangat penting untuk memilih produk yang tepat. <br><br>Beberapa tips lainnya adalah dengan memeriksa ulasan produk, memastikan bahwa produk tersebut memiliki garansi, dan memeriksa bahwa produk tersebut telah diproduksi oleh perusahaan yang bereputasi baik.",
+          "productId": 3
+        },
+        {
+          "heading": "Mengapa Besi SNI Lebih Baik untuk Konstruksi",
+          "content": "Mengapa <strong>besi SNI</strong> lebih baik untuk konstruksi adalah karena dapat memastikan kekuatan dan keamanan bangunan. <strong>Besi SNI</strong> memiliki kualitas yang lebih tinggi, sehingga dapat menahan beban yang lebih berat. Dalam konstruksi, <strong>besi SNI</strong> dapat digunakan untuk membuat <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong>. <strong>Besi SNI</strong> juga dapat digunakan untuk membuat <strong>konstruksi baja</strong> yang lebih kuat dan tahan lama. <br><br>Contoh nyata adalah <strong>Pagar Minimalis Modern</strong> (productId: 3) yang menggunakan <strong>besi SNI</strong> untuk memastikan kekuatan dan keamanan.",
+          "productId": 4
+        },
+        {
+          "heading": "Pengalaman Mandiri Steel dalam Menggunakan Besi SNI",
+          "content": "Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam menggunakan <strong>besi SNI</strong> untuk konstruksi. Kami telah memproduksi berbagai produk, seperti <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong>, menggunakan <strong>besi SNI</strong> yang berkualitas. Kami juga memiliki tim yang berpengalaman dan peralatan yang canggih untuk memastikan bahwa produk kami memiliki kualitas yang tinggi. <br><br>Kami juga menawarkan <strong>gratis survei lapangan</strong> dan <strong>garansi struktural</strong> untuk memastikan bahwa produk kami dapat memenuhi kebutuhan Anda. Dengan demikian, Anda dapat yakin bahwa produk kami memiliki kualitas yang tinggi dan dapat memastikan kekuatan dan keamanan bangunan.",
+          "productId": 5
+        },
+        {
+          "heading": "Layanan Mandiri Steel di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel memiliki layanan yang luas di Bekasi dan Jabodetabek, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Kami memiliki tim yang berpengalaman dan peralatan yang canggih untuk memastikan bahwa produk kami memiliki kualitas yang tinggi. <br><br>Kami juga menawarkan <strong>gratis survei lapangan</strong> dan <strong>garansi struktural</strong> untuk memastikan bahwa produk kami dapat memenuhi kebutuhan Anda. Dengan demikian, Anda dapat yakin bahwa produk kami memiliki kualitas yang tinggi dan dapat memastikan kekuatan dan keamanan bangunan.",
+          "productId": 6
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, <strong>besi SNI</strong> adalah pilihan yang lebih baik untuk konstruksi karena dapat memastikan kekuatan dan keamanan bangunan. <strong>Besi SNI</strong> memiliki kualitas yang lebih tinggi dan dapat menahan beban yang lebih berat. Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam menggunakan <strong>besi SNI</strong> untuk konstruksi dan menawarkan layanan yang luas di Bekasi dan Jabodetabek. Dengan demikian, Anda dapat yakin bahwa produk kami memiliki kualitas yang tinggi dan dapat memastikan kekuatan dan keamanan bangunan. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang <strong>besi SNI</strong> dan layanan kami."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 100,
     "title": "Mezzanine Baja untuk Gudang E-commerce",
     "slug": "mezzanine-baja-untuk-gudang-e-commerce",
