@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 115,
+    "title": "Pagar Stainless Steel Berkualitas",
+    "slug": "pagar-stainless-steel-berkualitas",
+    "excerpt": "Cara memilih pagar stainless steel yang berkualitas untuk rumah mewah di Lippo Cikarang",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1729680372531-f7e4d18980ab?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpbmxlc3MlMjBzdGVlbCUyMGdhdGUlMjBkZXNpZ258ZW58MHwwfHx8MTc4NjIzMDAwOHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar stainless steel merupakan salah satu pilihan yang populer untuk rumah mewah di <strong>Lippo Cikarang</strong> dan <strong>Bekasi</strong> karena kekuatan dan ketahanannya. Namun, memilih pagar stainless steel yang berkualitas tidaklah mudah. Dalam artikel ini, kita akan membahas cara memilih pagar stainless steel yang berkualitas dan beberapa tips yang perlu dipertimbangkan.",
+      "keyPoints": [
+        "Pagar stainless steel tahan korosi",
+        "Pagar stainless steel kuat dan tahan lama",
+        "Pagar stainless steel mudah dibersihkan"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Pagar Stainless Steel",
+          "content": "Pagar stainless steel memiliki beberapa kelebihan yang membuatnya menjadi pilihan yang populer. <strong>Ketahanan korosi</strong> adalah salah satu kelebihan utama pagar stainless steel. Stainless steel tidak akan berkarat atau mengalami kerusakan akibat paparan air atau udara, sehingga membuatnya sangat cocok untuk digunakan di daerah yang lembab atau basah. Selain itu, pagar stainless steel juga <strong>kuat dan tahan lama</strong>, sehingga dapat menahan beban berat dan tahan terhadap kerusakan. <br><br> Pagar stainless steel juga <strong>mudah dibersihkan</strong> dan dirawat, sehingga membuatnya menjadi pilihan yang praktis untuk rumah mewah di <strong>Lippo Cikarang</strong> dan <strong>Bekasi</strong>. Dengan menggunakan pagar stainless steel, Anda dapat menikmati keamanan dan keindahan yang maksimal.",
+          "imageSearchQuery": "stainless steel gate benefits",
+          "image": "https://images.unsplash.com/photo-1519973759984-cf5a6c557cd8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpbmxlc3MlMjBzdGVlbCUyMGdhdGUlMjBiZW5lZml0c3xlbnwwfDB8fHwxNzg2MjMwMDA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips Memilih Pagar Stainless Steel",
+          "content": "Dalam memilih pagar stainless steel, ada beberapa tips yang perlu dipertimbangkan. Pertama, <strong>pastikan Anda memilih pagar stainless steel yang terbuat dari bahan berkualitas</strong>. Stainless steel yang berkualitas akan memiliki ketahanan korosi yang lebih baik dan lebih tahan lama. Kedua, <strong>perhatikan desain pagar</strong> yang Anda pilih. Pagar stainless steel dapat dibuat dengan berbagai desain yang unik dan menarik, sehingga pastikan Anda memilih desain yang sesuai dengan gaya rumah Anda. <br><br> Ketiga, <strong>pastikan Anda mempertimbangkan kebutuhan keamanan</strong> Anda. Pagar stainless steel dapat dibuat dengan fitur keamanan yang canggih, sehingga pastikan Anda memilih pagar yang sesuai dengan kebutuhan keamanan Anda.",
+          "productId": 8
+        },
+        {
+          "heading": "Manfaat Menggunakan Pagar Stainless Steel",
+          "content": "Menggunakan pagar stainless steel dapat memberikan beberapa manfaat yang signifikan. Pertama, <strong>pagar stainless steel dapat meningkatkan keamanan</strong> rumah Anda. Dengan menggunakan pagar stainless steel, Anda dapat menahan penjahat dan membuat rumah Anda lebih aman. Kedua, <strong>pagar stainless steel dapat meningkatkan nilai rumah</strong> Anda. Pagar stainless steel yang berkualitas dapat meningkatkan nilai rumah Anda dan membuatnya lebih menarik bagi calon pembeli. <br><br> Ketiga, <strong>pagar stainless steel dapat memudahkan perawatan</strong> rumah Anda. Dengan menggunakan pagar stainless steel, Anda tidak perlu khawatir tentang kerusakan atau korosi, sehingga membuatnya lebih mudah untuk merawat rumah Anda."
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu penyedia pagar stainless steel yang berkualitas di <strong>Bekasi</strong> dan <strong>Lippo Cikarang</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membuktikan diri sebagai penyedia pagar stainless steel yang dapat dipercaya. <strong>Kualitas bahan</strong> yang digunakan oleh Mandiri Steel sangat baik, sehingga membuat pagar stainless steel yang mereka buat sangat kuat dan tahan lama. <br><br> Selain itu, <strong>layanan pelanggan</strong> Mandiri Steel juga sangat baik. Mereka memiliki tim yang profesional dan siap membantu Anda dalam memilih pagar stainless steel yang sesuai dengan kebutuhan Anda.",
+          "productId": 8
+        },
+        {
+          "heading": "Pengalaman Mandiri Steel",
+          "content": "Mandiri Steel memiliki pengalaman yang luas dalam menyediakan pagar stainless steel yang berkualitas. Mereka telah bekerja sama dengan banyak klien di <strong>Bekasi</strong> dan <strong>Lippo Cikarang</strong>, dan telah membuktikan diri sebagai penyedia pagar stainless steel yang dapat dipercaya. <strong>Tim yang profesional</strong> dan <strong>pengalaman yang luas</strong> membuat Mandiri Steel menjadi pilihan yang tepat untuk Anda yang mencari pagar stainless steel yang berkualitas."
+        },
+        {
+          "heading": "Layanan dan Garansi",
+          "content": "Mandiri Steel menawarkan layanan dan garansi yang sangat baik. Mereka memiliki <strong>garansi struktural</strong> yang membuat Anda dapat yakin bahwa pagar stainless steel yang Anda beli akan tahan lama dan kuat. Selain itu, <strong>layanan pelanggan</strong> Mandiri Steel juga sangat baik, sehingga Anda dapat dengan mudah menghubungi mereka jika Anda memiliki pertanyaan atau kebutuhan. <br><br> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa Anda akan mendapatkan pagar stainless steel yang berkualitas dan layanan yang sangat baik."
+        }
+      ],
+      "conclusion": "Dalam memilih pagar stainless steel, ada beberapa hal yang perlu dipertimbangkan. Dengan memilih Mandiri Steel, Anda dapat yakin bahwa Anda akan mendapatkan pagar stainless steel yang berkualitas dan layanan yang sangat baik. Jangan ragu untuk menghubungi Mandiri Steel jika Anda memiliki pertanyaan atau kebutuhan. Dengan pengalaman yang luas dan tim yang profesional, Mandiri Steel siap membantu Anda dalam memilih pagar stainless steel yang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 116,
+    "title": "Inspirasi Desain Kanopi Teras Rumah",
+    "slug": "inspirasi-desain-kanopi-teras-rumah",
+    "excerpt": "Temukan inspirasi desain kanopi teras rumah minimalis, industrial, dan klasik untuk rumah di Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1778867363613-5ab2428f8a4a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjYW5vcHklMjBkZXNpZ24lMjBpbnNwaXJhdGlvbnxlbnwwfDB8fHwxNzg2MjMwMDc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pembangunan rumah di Bekasi memerlukan perhatian terhadap detail, termasuk <strong>desain kanopi</strong> yang tepat. <strong>Kanopi</strong> tidak hanya berfungsi sebagai pelindung dari sinar matahari dan hujan, tetapi juga sebagai elemen estetika yang dapat meningkatkan keindahan rumah. Dalam artikel ini, kita akan membahas inspirasi <strong>desain kanopi teras rumah</strong> minimalis, industrial, dan klasik yang dapat Anda terapkan di rumah Anda di Bekasi. Dengan <strong>pengalaman 25 tahun</strong> dalam industri konstruksi, Mandiri Steel hadir untuk membantu Anda menciptakan <strong>kanopi impian</strong>.",
+      "keyPoints": [
+        "Desain kanopi minimalis untuk rumah modern",
+        "Desain kanopi industrial untuk rumah kontemporer",
+        "Desain kanopi klasik untuk rumah tradisional"
+      ],
+      "sections": [
+        {
+          "heading": "1. Desain Kanopi Minimalis untuk Rumah Modern",
+          "content": "Desain kanopi minimalis sangat populer di kalangan pemilik rumah modern di Bekasi. <strong>Kanopi minimalis</strong> memiliki bentuk yang sederhana dan elegan, sehingga sangat cocok untuk rumah dengan gaya arsitektur modern. Salah satu contoh desain kanopi minimalis adalah <strong>kanopi dengan struktur baja ringan</strong> yang dapat dibentuk sesuai dengan keinginan. <br><br>Untuk membuat desain kanopi minimalis, Anda dapat menggunakan bahan-bahan seperti <strong>kaca tempered</strong>, <strong>alumunium</strong>, atau <strong>baja ringan</strong>. Pastikan Anda memilih bahan yang tahan lama dan mudah dibersihkan. <br><br>Contoh nyata dari desain kanopi minimalis dapat dilihat di rumah-rumah di kawasan <strong>Grand Wisata</strong> atau <strong>Summarecon Bekasi</strong>. Di sana, Anda dapat melihat bagaimana kanopi minimalis dapat meningkatkan keindahan rumah dan memberikan kesan yang modern.",
+          "imageSearchQuery": "minimalist canopy design",
+          "image": "https://images.unsplash.com/photo-1766476212840-150546313c28?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtaW5pbWFsaXN0JTIwY2Fub3B5JTIwZGVzaWdufGVufDB8MHx8fDE3ODYyMzAwODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Desain Kanopi Industrial untuk Rumah Kontemporer",
+          "content": "Desain kanopi industrial sangat populer di kalangan pemilik rumah kontemporer di Bekasi. <strong>Kanopi industrial</strong> memiliki bentuk yang unik dan menarik, sehingga sangat cocok untuk rumah dengan gaya arsitektur kontemporer. Salah satu contoh desain kanopi industrial adalah <strong>kanopi dengan struktur baja berat</strong> yang dapat dibentuk sesuai dengan keinginan. <br><br>Untuk membuat desain kanopi industrial, Anda dapat menggunakan bahan-bahan seperti <strong>baja berat</strong>, <strong>kayu</strong>, atau <strong>beton</strong>. Pastikan Anda memilih bahan yang tahan lama dan dapat menahan beban yang berat. <br><br>Contoh nyata dari desain kanopi industrial dapat dilihat di rumah-rumah di kawasan <strong>Jababeka</strong> atau <strong>MM2100</strong>. Di sana, Anda dapat melihat bagaimana kanopi industrial dapat meningkatkan keindahan rumah dan memberikan kesan yang unik.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Desain Kanopi Klasik untuk Rumah Tradisional",
+          "content": "Desain kanopi klasik sangat populer di kalangan pemilik rumah tradisional di Bekasi. <strong>Kanopi klasik</strong> memiliki bentuk yang elegan dan anggun, sehingga sangat cocok untuk rumah dengan gaya arsitektur tradisional. Salah satu contoh desain kanopi klasik adalah <strong>kanopi dengan struktur kayu</strong> yang dapat dibentuk sesuai dengan keinginan. <br><br>Untuk membuat desain kanopi klasik, Anda dapat menggunakan bahan-bahan seperti <strong>kayu</strong>, <strong>baja ringan</strong>, atau <strong>alumunium</strong>. Pastikan Anda memilih bahan yang tahan lama dan mudah dibersihkan. <br><br>Contoh nyata dari desain kanopi klasik dapat dilihat di rumah-rumah di kawasan <strong>Kota Deltamas</strong> atau <strong>Lippo Cikarang</strong>. Di sana, Anda dapat melihat bagaimana kanopi klasik dapat meningkatkan keindahan rumah dan memberikan kesan yang elegan.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Tips Membuat Desain Kanopi yang Tepat",
+          "content": "Untuk membuat desain kanopi yang tepat, Anda perlu mempertimbangkan beberapa faktor seperti <strong>gaya arsitektur rumah</strong>, <strong>ukuran rumah</strong>, dan <strong>anggaran</strong>. Berikut beberapa tips yang dapat Anda gunakan: <ul><li>Pilih bahan yang tahan lama dan mudah dibersihkan</li><li>Pertimbangkan ukuran kanopi yang sesuai dengan ukuran rumah</li><li>Pilih desain kanopi yang sesuai dengan gaya arsitektur rumah</li></ul> <br><br>Contoh nyata dari tips membuat desain kanopi yang tepat dapat dilihat di rumah-rumah di kawasan <strong>Cikarang</strong> atau <strong>Tambun</strong>. Di sana, Anda dapat melihat bagaimana desain kanopi yang tepat dapat meningkatkan keindahan rumah dan memberikan kesan yang modern."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Desain Kanopi?",
+          "content": "Mandiri Steel adalah perusahaan konstruksi yang telah berpengalaman lebih dari <strong>25 tahun</strong> dalam industri konstruksi. Kami memiliki tim yang profesional dan berpengalaman dalam membuat desain kanopi yang tepat untuk rumah Anda. <br><br>Kami menggunakan bahan-bahan yang tahan lama dan berkualitas tinggi, seperti <strong>baja ringan</strong> dan <strong>kaca tempered</strong>. Kami juga menawarkan <strong>garansi struktural</strong> untuk semua produk kami. <br><br>Contoh nyata dari keunggulan Mandiri Steel dapat dilihat di rumah-rumah di kawasan <strong>Bekasi</strong> atau <strong>Cibitung</strong>. Di sana, Anda dapat melihat bagaimana Mandiri Steel dapat membantu Anda menciptakan desain kanopi yang impian.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan dan Service Area Mandiri Steel",
+          "content": "Mandiri Steel memiliki layanan yang lengkap untuk membantu Anda membuat desain kanopi yang tepat. Kami menawarkan <strong>survei gratis</strong> untuk membantu Anda menentukan desain kanopi yang sesuai dengan kebutuhan Anda. <br><br>Kami juga memiliki service area yang luas, meliputi <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br>Contoh nyata dari layanan dan service area Mandiri Steel dapat dilihat di rumah-rumah di kawasan tersebut. Di sana, Anda dapat melihat bagaimana Mandiri Steel dapat membantu Anda menciptakan desain kanopi yang impian."
+        }
+      ],
+      "conclusion": "Dalam menciptakan desain kanopi yang tepat, Anda perlu mempertimbangkan beberapa faktor seperti gaya arsitektur rumah, ukuran rumah, dan anggaran. Dengan memilih Mandiri Steel, Anda dapat memiliki desain kanopi yang impian dan meningkatkan keindahan rumah Anda. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang desain kanopi dan layanan kami."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 117,
+    "title": "Teralis Jendela untuk Lantai 2 dan 3",
+    "slug": "teralis-jendela-untuk-lantai-2-dan-3",
+    "excerpt": "Teralis jendela untuk lantai 2 dan 3, pertimbangan keamanan anak di rumah bertingkat",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1595930013415-ca6958dc8a8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMGFuYWt8ZW58MHwwfHx8MTc4NjIzMDE1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah bertingkat merupakan pilihan banyak orang di daerah perkotaan seperti <strong>Bekasi</strong> dan <strong>Jabodetabek</strong> karena keterbatasan lahan. Namun, rumah bertingkat juga memiliki risiko keamanan yang lebih tinggi, terutama untuk anak-anak. <strong>Teralis jendela</strong> merupakan salah satu solusi untuk meningkatkan keamanan di rumah bertingkat. Dalam artikel ini, kita akan membahas tentang pertimbangan keamanan anak di rumah bertingkat dan bagaimana <strong>teralis jendela</strong> dapat membantu.",
+      "keyPoints": [
+        "Teralis jendela dapat meningkatkan keamanan anak di rumah bertingkat",
+        "Pemilihan desain dan bahan teralis jendela yang tepat sangat penting",
+        "Pemasangan teralis jendela harus dilakukan dengan benar"
+      ],
+      "sections": [
+        {
+          "heading": "Latar Belakang dan Pentingnya Keamanan Anak di Rumah Bertingkat",
+          "content": "Rumah bertingkat memiliki kelebihan dalam hal efisiensi lahan, namun juga memiliki kekurangan dalam hal keamanan. Anak-anak yang bermain di rumah bertingkat memiliki risiko jatuh dari ketinggian yang lebih tinggi. Oleh karena itu, <strong>keamanan anak</strong> di rumah bertingkat harus menjadi prioritas. <strong>Teralis jendela</strong> dapat membantu mencegah anak-anak dari jatuh dan cedera. <br> <br> Menurut data dari <strong>Departemen Kesehatan</strong>, cedera akibat jatuh dari ketinggian merupakan salah satu penyebab cedera anak-anak di Indonesia. Oleh karena itu, <strong>teralis jendela</strong> harus dipasang di semua jendela yang berada di lantai 2 dan 3.",
+          "imageSearchQuery": "rumah bertingkat bekasi",
+          "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxydW1haCUyMGJlcnRpbmdrYXQlMjBiZWthc2l8ZW58MHwwfHx8MTc4NjIzMDE1Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Desain dan Bahan Teralis Jendela yang Tepat",
+          "content": "Desain dan bahan <strong>teralis jendela</strong> yang tepat sangat penting untuk meningkatkan keamanan anak di rumah bertingkat. <strong>Teralis jendela</strong> harus dirancang untuk mencegah anak-anak dari jatuh dan cedera. <br> <br> Beberapa tips dalam memilih desain dan bahan <strong>teralis jendela</strong> yang tepat antara lain: <ul> <li>Pilih bahan yang kuat dan tahan lama, seperti <strong>baja</strong> atau <strong>aluminum</strong></li> <li>Pilih desain yang sederhana dan tidak memiliki sudut tajam</li> <li>Pastikan <strong>teralis jendela</strong> memiliki jarak yang cukup untuk mencegah anak-anak dari jatuh</li> </ul>",
+          "productId": 5
+        },
+        {
+          "heading": "Pemasangan Teralis Jendela yang Benar",
+          "content": "Pemasangan <strong>teralis jendela</strong> yang benar sangat penting untuk meningkatkan keamanan anak di rumah bertingkat. <strong>Teralis jendela</strong> harus dipasang dengan benar untuk mencegah anak-anak dari jatuh dan cedera. <br> <br> Beberapa tips dalam pemasangan <strong>teralis jendela</strong> yang benar antara lain: <ul> <li>Pastikan <strong>teralis jendela</strong> dipasang oleh ahli yang berpengalaman</li> <li>Pastikan <strong>teralis jendela</strong> dipasang dengan benar dan kuat</li> <li>Pastikan <strong>teralis jendela</strong> memiliki jarak yang cukup untuk mencegah anak-anak dari jatuh</li> </ul>",
+          "productId": 5
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Teralis Jendela?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan yang berpengalaman dalam produksi dan pemasangan <strong>teralis jendela</strong> di <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel memiliki kemampuan untuk memproduksi dan memasang <strong>teralis jendela</strong> yang berkualitas tinggi. <br> <br> Mandiri Steel juga memiliki tim ahli yang berpengalaman dalam pemasangan <strong>teralis jendela</strong> dan dapat memberikan jaminan kualitas yang tinggi. Oleh karena itu, <strong>Mandiri Steel</strong> merupakan pilihan yang tepat untuk <strong>teralis jendela</strong> di rumah bertingkat.",
+          "productId": 5
+        },
+        {
+          "heading": "Pengalaman dan Keahlian Mandiri Steel",
+          "content": "Mandiri Steel memiliki pengalaman yang luas dalam produksi dan pemasangan <strong>teralis jendela</strong> di <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah memproduksi dan memasang <strong>teralis jendela</strong> untuk banyak rumah dan gedung di <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>. <br> <br> Mandiri Steel juga memiliki tim ahli yang berpengalaman dalam pemasangan <strong>teralis jendela</strong> dan dapat memberikan jaminan kualitas yang tinggi. Oleh karena itu, <strong>Mandiri Steel</strong> merupakan pilihan yang tepat untuk <strong>teralis jendela</strong> di rumah bertingkat.",
+          "productId": 5
+        },
+        {
+          "heading": "Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas di <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> <br> Dengan area layanan yang luas, Mandiri Steel dapat memberikan layanan yang cepat dan efisien untuk <strong>teralis jendela</strong> di rumah bertingkat.",
+          "productId": 5
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, <strong>teralis jendela</strong> merupakan salah satu solusi untuk meningkatkan keamanan anak di rumah bertingkat. Dengan memilih desain dan bahan yang tepat, serta pemasangan yang benar, <strong>teralis jendela</strong> dapat membantu mencegah anak-anak dari jatuh dan cedera. <strong>Mandiri Steel</strong> merupakan pilihan yang tepat untuk <strong>teralis jendela</strong> di rumah bertingkat karena memiliki pengalaman yang luas dan tim ahli yang berpengalaman. Jika Anda membutuhkan <strong>teralis jendela</strong> untuk rumah bertingkat, hubungi <strong>Mandiri Steel</strong> sekarang juga."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 112,
     "title": "Renovasi Rumah Bekasi",
     "slug": "waktu-terbaik-untuk-renovasi-rumah-di-bekasi-1786208555352",
