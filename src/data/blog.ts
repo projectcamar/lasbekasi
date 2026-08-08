@@ -33,6 +33,184 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 112,
+    "title": "Renovasi Rumah Bekasi",
+    "slug": "waktu-terbaik-untuk-renovasi-rumah-di-bekasi-1786208555352",
+    "excerpt": "Cari tahu waktu terbaik untuk renovasi rumah di Bekasi dan kapan harus pasang kanopi dan pagar",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Membeli atau memiliki rumah di Bekasi, khususnya di daerah seperti Cikarang, Tambun, atau Cibitung, bisa menjadi investasi yang sangat menguntungkan. Namun, seringkali kita membutuhkan <strong>renovasi</strong> untuk meningkatkan kenyamanan dan nilai jual rumah. Salah satu pertanyaan yang paling umum adalah kapan waktu terbaik untuk melakukan renovasi dan <strong>pasang kanopi</strong> serta <strong>pagar</strong> yang tepat. Dalam artikel ini, kita akan membahas secara detail tentang waktu terbaik untuk renovasi rumah di Bekasi dan tips untuk memilih kanopi dan pagar yang sesuai.",
+      "keyPoints": [
+        "Mengenal waktu terbaik untuk renovasi rumah di Bekasi",
+        "Memilih jenis kanopi yang sesuai untuk rumah",
+        "Tips untuk memasang pagar yang aman dan estetis"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Waktu Terbaik untuk Renovasi Rumah di Bekasi",
+          "content": "Sebelum memutuskan untuk melakukan <strong>renovasi rumah</strong>, penting untuk mengetahui waktu terbaik untuk melakukannya. Di Bekasi, musim hujan yang berlangsung dari Oktober hingga Maret bisa menjadi waktu yang tidak ideal karena <strong>curah hujan</strong> yang tinggi dapat menghambat proses renovasi. Oleh karena itu, <strong>musim kemarau</strong> yang berlangsung dari April hingga September adalah waktu terbaik untuk melakukan renovasi. Selain itu, perlu mempertimbangkan <strong>anggaran</strong> dan <strong>tujuan renovasi</strong> sebelum memulai proyek. <br><br> Contohnya, jika Anda tinggal di daerah seperti Grand Wisata atau Summarecon Bekasi, mungkin Anda ingin mempertimbangkan untuk melakukan renovasi yang lebih ekstensif untuk meningkatkan nilai jual rumah. Sementara itu, untuk mereka yang tinggal di daerah seperti Kota Deltamas atau Lippo Cikarang, mungkin lebih fokus pada <strong>renovasi interior</strong> untuk meningkatkan kenyamanan hunian.",
+          "imageSearchQuery": "musim kemarau di bekasi",
+          "image": "https://images.unsplash.com/photo-1655558851182-406a304582ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtdXNpbSUyMGtlbWFyYXUlMjBkaSUyMGJla2FzaXxlbnwwfDB8fHwxNzg2MjA4NDExfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Memilih Jenis Kanopi yang Sesuai untuk Rumah",
+          "content": "Kanopi adalah salah satu elemen penting dalam <strong>desain eksterior</strong> rumah. Dalam memilih <strong>kanopi</strong>, perlu mempertimbangkan <strong>fungsi</strong>, <strong>estetika</strong>, dan <strong>anggaran</strong>. Untuk rumah di Bekasi, <strong>kanopi minimalis</strong> seperti <strong>Kanopi Minimalis Alderon</strong> (produk ID: 1) bisa menjadi pilihan yang tepat karena tidak hanya <strong>fungsi</strong> sebagai pelindung dari sinar matahari dan hujan, tetapi juga <strong>meningkatkan estetika</strong> rumah. <br><br> Selain itu, perlu mempertimbangkan <strong>bahan</strong> yang digunakan untuk kanopi. <strong>Baja ringan</strong> atau <strong>aluminium</strong> bisa menjadi pilihan yang baik karena ringan, kuat, dan tahan lama. Dengan memilih kanopi yang tepat, Anda tidak hanya dapat <strong>melindungi rumah</strong> dari elemen alam, tetapi juga <strong>meningkatkan nilai estetika</strong> rumah."
+        },
+        {
+          "heading": "3. Tips untuk Memasang Pagar yang Aman dan Estetis",
+          "content": "Pagar adalah salah satu komponen penting dalam <strong>keamanan rumah</strong>. Dalam memasang pagar, perlu mempertimbangkan <strong>keamanan</strong>, <strong>estetika</strong>, dan <strong>anggaran</strong>. Untuk rumah di Bekasi, <strong>pagar minimalis modern</strong> seperti <strong>Pagar Minimalis Modern</strong> (produk ID: 3) bisa menjadi pilihan yang tepat karena tidak hanya <strong>fungsi</strong> sebagai pelindung, tetapi juga <strong>meningkatkan estetika</strong> rumah. <br><br> Berikut beberapa tips untuk memasang pagar yang aman dan estetis: <ul><li>Pertimbangkan <strong>bahan</strong> yang digunakan untuk pagar. Bahan seperti <strong>baja</strong> atau <strong>aluminium</strong> bisa menjadi pilihan yang baik karena kuat dan tahan lama.</li><li>Pastikan <strong>tinggi pagar</strong> sesuai dengan kebutuhan. Pagar yang terlalu rendah bisa tidak efektif dalam melindungi rumah, sementara pagar yang terlalu tinggi bisa mengganggu estetika.</li><li>Pertimbangkan <strong>desain pagar</strong>. Pagar dengan desain yang sederhana dan minimalis bisa menjadi pilihan yang baik untuk rumah modern.</li></ul>",
+          "productId": 3
+        },
+        {
+          "heading": "4. Mengapa Memilih Mandiri Steel untuk Renovasi Rumah di Bekasi",
+          "content": "Mandiri Steel adalah salah satu <strong>penyedia jasa renovasi rumah</strong> terpercaya di Bekasi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membantu banyak pemilik rumah di Bekasi untuk <strong>merenovasi rumah</strong> mereka dengan hasil yang memuaskan. <br><br> Berikut beberapa alasan mengapa Anda harus memilih Mandiri Steel untuk renovasi rumah di Bekasi: <ul><li><strong>Pengalaman</strong>: Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam bidang renovasi rumah.</li><li><strong>Bahan</strong>: Mandiri Steel menggunakan <strong>bahan-bahan berkualitas</strong> yang memenuhi standar SNI.</li><li><strong>Garansi</strong>: Mandiri Steel memberikan <strong>garansi struktural</strong> untuk semua pekerjaan renovasi.</li></ul>",
+          "productId": 0
+        },
+        {
+          "heading": "5. Pengalaman dan Keahlian Mandiri Steel dalam Renovasi Rumah",
+          "content": "Mandiri Steel memiliki <strong>pengalaman</strong> yang luas dalam bidang renovasi rumah di Bekasi. Dengan <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang canggih</strong>, Mandiri Steel dapat membantu Anda untuk <strong>merenovasi rumah</strong> dengan hasil yang memuaskan. <br><br> Selain itu, Mandiri Steel juga <strong>menyediakan layanan survei gratis</strong> untuk membantu Anda dalam menentukan kebutuhan renovasi rumah. Dengan demikian, Anda dapat <strong>yakin</strong> bahwa pekerjaan renovasi akan dilakukan dengan <strong>baik</strong> dan <strong>efisien</strong>. <br><br> Untuk rumah yang membutuhkan <strong>kanopi</strong> yang kuat dan tahan lama, Mandiri Steel menawarkan <strong>Kanopi Kaca Tempered</strong> (produk ID: 2) yang tidak hanya <strong>fungsi</strong> sebagai pelindung, tetapi juga <strong>meningkatkan estetika</strong> rumah.",
+          "productId": 2
+        },
+        {
+          "heading": "6. Service Area Mandiri Steel di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan <strong>layanan renovasi rumah</strong> di Bekasi dan sekitarnya, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <br><br> Dengan <strong>lokasi yang strategis</strong>, Mandiri Steel dapat membantu Anda untuk <strong>merenovasi rumah</strong> dengan <strong>cepat</strong> dan <strong>efisien</strong>. Selain itu, Mandiri Steel juga <strong>menyediakan layanan konsultasi</strong> untuk membantu Anda dalam menentukan kebutuhan renovasi rumah. <br><br> Jangan ragu untuk <strong>menghubungi Mandiri Steel</strong> untuk mendapatkan informasi lebih lanjut tentang layanan renovasi rumah di Bekasi dan sekitarnya."
+        }
+      ],
+      "conclusion": "Dalam memilih waktu terbaik untuk renovasi rumah di Bekasi dan memasang kanopi serta pagar yang tepat, perlu mempertimbangkan beberapa faktor seperti musim, anggaran, dan estetika. Dengan memilih Mandiri Steel sebagai penyedia jasa renovasi rumah, Anda dapat yakin bahwa pekerjaan renovasi akan dilakukan dengan baik dan efisien. Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang layanan renovasi rumah di Bekasi dan sekitarnya."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 113,
+    "title": "Bengkel Las Terdekat Grand Wisata",
+    "slug": "bengkel-las-terdekat-grand-wisata-tambun-1786208555352",
+    "excerpt": "Cari bengkel las terdekat dari Grand Wisata Tambun untuk layanan kanopi, pagar, dan teralis? Mandiri Steel hadir dengan 25 tahun pengalaman!",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1675446151211-b527cb361286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwbW9kZXJufGVufDB8MHx8fDE3ODYyMDg0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Bengkel las</strong> terdekat dari Grand Wisata Tambun merupakan pilihan tepat bagi Anda yang membutuhkan layanan <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong> berkualitas. Dengan pengalaman lebih dari 25 tahun, <strong>Mandiri Steel</strong> hadir untuk memenuhi kebutuhan Anda. Kami menyediakan berbagai layanan, dari desain hingga pemasangan, untuk memastikan Anda mendapatkan hasil yang sesuai dengan keinginan.",
+      "keyPoints": [
+        "Bengkel las terdekat dari Grand Wisata Tambun",
+        "Layanan kanopi, pagar, dan teralis berkualitas",
+        "Pengalaman lebih dari 25 tahun"
+      ],
+      "sections": [
+        {
+          "heading": "Keunggulan Bengkel Las Mandiri Steel",
+          "content": "Mandiri Steel memiliki beberapa keunggulan yang membuat kami menjadi pilihan utama bagi masyarakat di sekitar Grand Wisata Tambun. Pertama, kami menggunakan <strong>bahan baku SNI</strong> yang berkualitas tinggi untuk memastikan hasil yang awet dan tahan lama. Kedua, kami memiliki <strong>tim yang berpengalaman</strong> dan terlatih untuk melakukan pekerjaan dengan baik. Ketiga, kami menawarkan <strong>garansi struktural</strong> untuk memberikan Anda ketenangan pikiran. <br><br> Dengan demikian, Anda tidak perlu khawatir tentang kualitas layanan yang kami berikan. Kami juga menyediakan <strong>survei gratis</strong> untuk membantu Anda menentukan kebutuhan yang sesuai dengan budget Anda.",
+          "imageSearchQuery": "bengkel las modern dengan bahan SNI"
+        },
+        {
+          "heading": "Layanan Kanopi yang Kami Tawarkan",
+          "content": "Kanopi merupakan salah satu layanan yang paling populer di Mandiri Steel. Kami menyediakan <strong>kanopi minimalis</strong> hingga <strong>kanopi kaca tempered</strong> untuk memenuhi kebutuhan Anda. Dengan menggunakan <strong>bahan baku yang kuat</strong> dan <strong>desain yang modern</strong>, kami dapat membantu Anda menciptakan suasana yang nyaman dan indah di rumah atau kantor Anda. <br><br> Selain itu, kami juga menyediakan <strong>layanan pemasangan</strong> yang cepat dan efisien untuk memastikan Anda dapat menikmati hasilnya dengan segera.",
+          "productId": 1
+        },
+        {
+          "heading": "Manfaat Menggunakan Pagar yang Berkualitas",
+          "content": "Pagar yang berkualitas tidak hanya berfungsi sebagai pembatas, tetapi juga dapat meningkatkan <strong>keamanan dan kenyamanan</strong> di rumah atau kantor Anda. Dengan menggunakan <strong>pagar minimalis modern</strong> atau <strong>pagar besi tempa klasik</strong>, Anda dapat menciptakan suasana yang aman dan nyaman. <br><br> Selain itu, pagar yang berkualitas juga dapat <strong>meningkatkan nilai properti</strong> Anda, sehingga Anda dapat memperoleh keuntungan jika ingin menjualnya di masa depan.",
+          "productId": 3
+        },
+        {
+          "heading": "Tips Memilih Teralis yang Tepat",
+          "content": "<ul><li>Pilih teralis yang sesuai dengan desain rumah atau kantor Anda</li><li>Perhatikan bahan baku yang digunakan</li><li>Pertimbangkan kebutuhan keamanan Anda</li></ul> Dengan mempertimbangkan hal-hal tersebut, Anda dapat memilih teralis yang tepat untuk memenuhi kebutuhan Anda. Mandiri Steel menyediakan <strong>teralis jendela minimalis</strong> yang berkualitas untuk membantu Anda menciptakan suasana yang aman dan nyaman.",
+          "productId": 5
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam menyediakan layanan <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong> berkualitas. Kami memiliki <strong>tim yang berpengalaman</strong> dan terlatih untuk melakukan pekerjaan dengan baik. Selain itu, kami juga menyediakan <strong>garansi struktural</strong> untuk memberikan Anda ketenangan pikiran. <br><br> Dengan demikian, Anda dapat mempercayakan kebutuhan Anda kepada kami. Kami juga menyediakan <strong>survei gratis</strong> untuk membantu Anda menentukan kebutuhan yang sesuai dengan budget Anda.",
+          "productId": 7
+        },
+        {
+          "heading": "Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan untuk masyarakat di sekitar <strong>Grand Wisata Tambun</strong>, <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Kami berkomitmen untuk memberikan layanan yang berkualitas dan memuaskan untuk memenuhi kebutuhan Anda. <br><br> Jika Anda memiliki pertanyaan atau ingin melakukan pemesanan, silakan hubungi kami untuk informasi lebih lanjut."
+        }
+      ],
+      "conclusion": "Mandiri Steel hadir untuk memenuhi kebutuhan Anda akan layanan <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong> berkualitas. Dengan pengalaman lebih dari 25 tahun dan tim yang berpengalaman, kami dapat membantu Anda menciptakan suasana yang aman dan nyaman di rumah atau kantor Anda. Jika Anda memiliki pertanyaan atau ingin melakukan pemesanan, silakan hubungi kami untuk informasi lebih lanjut. Kami berkomitmen untuk memberikan layanan yang berkualitas dan memuaskan untuk memenuhi kebutuhan Anda."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 114,
+    "title": "Kanopi Minimalis Bekasi",
+    "slug": "kanopi-minimalis-bekasi-1786208555352",
+    "excerpt": "Panduan lengkap memilih kanopi minimalis untuk rumah di Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1611048267604-2e59a19a4f97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBtaW5pbWFsaXMlMjBtb2Rlcm58ZW58MHwwfHx8MTc4NjIwODU1M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Di era modern ini, <strong>kanopi minimalis</strong> telah menjadi salah satu elemen penting dalam desain rumah. Bekasi, sebagai salah satu kota besar di Indonesia, juga mengalami tren ini. <strong>Kanopi minimalis</strong> tidak hanya berfungsi sebagai pelindung dari sinar matahari dan hujan, tetapi juga sebagai elemen estetika yang dapat meningkatkan keindahan rumah. Dalam artikel ini, kita akan membahas tentang <strong>jenis atap</strong>, <strong>rangka</strong>, dan <strong>estimasi harga</strong> kanopi minimalis di Bekasi tahun 2025.",
+      "keyPoints": [
+        "Jenis atap kanopi minimalis",
+        "Rangka kanopi minimalis",
+        "Estimasi harga kanopi minimalis di Bekasi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian dan Fungsi Kanopi Minimalis",
+          "content": "Kanopi minimalis adalah struktur atap yang dirancang untuk melindungi area luar rumah dari sinar matahari dan hujan. <strong>Fungsi</strong> kanopi minimalis tidak hanya sebagai pelindung, tetapi juga sebagai elemen estetika yang dapat meningkatkan keindahan rumah. Dalam memilih kanopi minimalis, perlu mempertimbangkan <strong>jenis atap</strong>, <strong>rangka</strong>, dan <strong>desain</strong> yang sesuai dengan gaya rumah. Contohnya, <strong>kanopi minimalis</strong> dengan <strong>atap datar</strong> dapat memberikan kesan modern dan sederhana, sedangkan <strong>kanopi minimalis</strong> dengan <strong>atap miring</strong> dapat memberikan kesan lebih tradisional.",
+          "imageSearchQuery": "kanopi minimalis modern",
+          "image": "https://images.unsplash.com/photo-1611048267604-2e59a19a4f97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBtaW5pbWFsaXMlMjBtb2Rlcm58ZW58MHwwfHx8MTc4NjIwODU1M3ww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Jenis Atap Kanopi Minimalis",
+          "content": "Terdapat beberapa <strong>jenis atap</strong> kanopi minimalis yang dapat dipilih, seperti <strong>atap datar</strong>, <strong>atap miring</strong>, dan <strong>atap melengkung</strong>. <strong>Atap datar</strong> dapat memberikan kesan modern dan sederhana, sedangkan <strong>atap miring</strong> dapat memberikan kesan lebih tradisional. <strong>Atap melengkung</strong> dapat memberikan kesan lebih elegan dan dapat digunakan untuk rumah dengan gaya arsitektur modern. Dalam memilih <strong>jenis atap</strong>, perlu mempertimbangkan <strong>kebutuhan</strong> dan <strong>preferensi</strong> pemilik rumah.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Rangka Kanopi Minimalis",
+          "content": "Rangka kanopi minimalis dapat dibuat dari <strong>bahan</strong> seperti <strong>besi</strong>, <strong>aluminium</strong>, dan <strong>kayu</strong>. <strong>Besi</strong> dapat memberikan kesan kuat dan kokoh, sedangkan <strong>aluminium</strong> dapat memberikan kesan ringan dan modern. <strong>Kayu</strong> dapat memberikan kesan alami dan dapat digunakan untuk rumah dengan gaya arsitektur tradisional. Dalam memilih <strong>rangka</strong>, perlu mempertimbangkan <strong>kebutuhan</strong> dan <strong>preferensi</strong> pemilik rumah.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Estimasi Harga Kanopi Minimalis di Bekasi",
+          "content": "Estimasi harga kanopi minimalis di Bekasi tahun 2025 dapat bervariasi tergantung pada <strong>jenis atap</strong>, <strong>rangka</strong>, dan <strong>desain</strong>. <strong>Harga</strong> kanopi minimalis dapat berkisar dari <strong>Rp 5.000.000</strong> hingga <strong>Rp 20.000.000</strong> atau lebih. Dalam memilih kanopi minimalis, perlu mempertimbangkan <strong>anggaran</strong> dan <strong>kebutuhan</strong> pemilik rumah. Contohnya, <strong>kanopi minimalis</strong> dengan <strong>atap datar</strong> dan <strong>rangka besi</strong> dapat memiliki harga yang lebih terjangkau dibandingkan dengan <strong>kanopi minimalis</strong> dengan <strong>atap miring</strong> dan <strong>rangka aluminium</strong>."
+        },
+        {
+          "heading": "5. Tips Memilih Kanopi Minimalis yang Tepat",
+          "content": "Dalam memilih kanopi minimalis, perlu mempertimbangkan beberapa <strong>tips</strong> berikut: <ul><li>Pilih <strong>jenis atap</strong> yang sesuai dengan gaya rumah</li><li>Pilih <strong>rangka</strong> yang kuat dan kokoh</li><li>Pertimbangkan <strong>desain</strong> yang sesuai dengan kebutuhan</li><li>Pertimbangkan <strong>anggaran</strong> dan <strong>kebutuhan</strong></li></ul> Dengan mempertimbangkan <strong>tips</strong> di atas, pemilik rumah dapat memilih kanopi minimalis yang tepat dan sesuai dengan kebutuhan.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel untuk Kanopi Minimalis?",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam produksi dan pemasangan kanopi minimalis. <strong>Kualitas</strong> produk dan <strong>pelayanan</strong> yang baik membuat Mandiri Steel menjadi pilihan yang tepat untuk kanopi minimalis. <strong>Bahan</strong> yang digunakan adalah <strong>bahan SNI</strong> yang kuat dan kokoh, sehingga kanopi minimalis dapat bertahan lama. Dengan <strong>garansi struktural</strong> yang diberikan, pemilik rumah dapat merasa aman dan nyaman dengan kanopi minimalis yang dipilih."
+        },
+        {
+          "heading": "7. Area Layanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel memiliki area layanan yang luas di Bekasi, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan area layanan yang luas, Mandiri Steel dapat memenuhi kebutuhan kanopi minimalis di seluruh Bekasi."
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi minimalis, perlu mempertimbangkan beberapa faktor seperti <strong>jenis atap</strong>, <strong>rangka</strong>, dan <strong>desain</strong>. Dengan mempertimbangkan <strong>tips</strong> di atas dan memilih Mandiri Steel sebagai penyedia kanopi minimalis, pemilik rumah dapat memiliki kanopi minimalis yang sesuai dengan kebutuhan dan dapat meningkatkan keindahan rumah. Jangan ragu untuk menghubungi Mandiri Steel untuk informasi lebih lanjut tentang kanopi minimalis dan layanan yang ditawarkan."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 109,
     "title": "Pagar Laser Cutting Motif Custom",
     "slug": "pagar-laser-cutting-motif-custom",
