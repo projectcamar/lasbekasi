@@ -33,6 +33,183 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 109,
+    "title": "Pagar Laser Cutting Motif Custom",
+    "slug": "pagar-laser-cutting-motif-custom",
+    "excerpt": "Pagar laser cutting motif custom untuk rumah di Bekasi dengan proses pembuatan dan inspirasi desain unik",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1761815140370-7a3155de6a34?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxsYXNlciUyMGN1dCUyMG1ldGFsJTIwZ2F0ZXxlbnwwfDB8fHwxNzg2MTY1MjA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar laser cutting motif custom merupakan salah satu pilihan yang populer untuk rumah di Bekasi karena <strong>keunikan dan kemampuan untuk menyesuaikan desain</strong> dengan gaya arsitektur rumah. Dalam artikel ini, kita akan membahas proses pembuatan pagar laser cutting motif custom dan inspirasi desain yang dapat Anda terapkan untuk rumah Anda di Bekasi. <strong>Pagar laser cutting</strong> dapat meningkatkan keamanan dan estetika rumah Anda, sehingga penting untuk memilih desain yang tepat.",
+      "keyPoints": [
+        "Pagar laser cutting motif custom dapat meningkatkan keamanan rumah",
+        "Desain pagar laser cutting dapat disesuaikan dengan gaya arsitektur rumah",
+        "Pagar laser cutting dapat dibuat dari berbagai jenis material, termasuk besi dan stainless steel"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Pagar Laser Cutting Motif Custom",
+          "content": "Pagar laser cutting motif custom adalah jenis pagar yang dibuat menggunakan teknologi laser cutting untuk memotong dan membentuk motif yang diinginkan. <strong>Proses pembuatan pagar laser cutting</strong> melibatkan beberapa tahap, termasuk desain, pemotongan, dan perakitan. Pagar laser cutting dapat dibuat dari berbagai jenis material, termasuk <strong>besi, stainless steel, dan aluminium</strong>. <br><br>Di Bekasi, pagar laser cutting motif custom sangat populer karena dapat meningkatkan keamanan dan estetika rumah. Banyak rumah di Bekasi yang menggunakan pagar laser cutting sebagai alternatif dari pagar tradisional. <br><br>Beberapa contoh motif pagar laser cutting yang populer di Bekasi adalah motif bunga, motif geometris, dan motif abstrak. <strong>Motif-motif ini dapat disesuaikan dengan gaya arsitektur rumah</strong> dan preferensi pemilik rumah.",
+          "imageSearchQuery": "laser cut metal gate design",
+          "image": "https://images.unsplash.com/photo-1757212838365-1e84bcbda010?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxsYXNlciUyMGN1dCUyMG1ldGFsJTIwZ2F0ZSUyMGRlc2lnbnxlbnwwfDB8fHwxNzg2MTY1MjA5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Proses Pembuatan Pagar Laser Cutting Motif Custom",
+          "content": "Proses pembuatan pagar laser cutting motif custom melibatkan beberapa tahap, termasuk desain, pemotongan, dan perakitan. <strong>Tahap desain</strong> melibatkan pembuatan desain pagar menggunakan software khusus. Desain ini kemudian dikirim ke mesin laser cutting untuk dipotong. <br><br><strong>Tahap pemotongan</strong> melibatkan pemotongan material menggunakan mesin laser cutting. Mesin laser cutting dapat memotong material dengan presisi tinggi dan kecepatan yang cepat. <br><br><strong>Tahap perakitan</strong> melibatkan perakitan komponen-komponen pagar yang telah dipotong. Perakitan ini dilakukan dengan menggunakan teknik las dan pengencangan yang tepat. <br><br>Di Mandiri Steel, kami memiliki pengalaman lebih dari 25 tahun dalam pembuatan pagar laser cutting motif custom. Kami menggunakan material yang berkualitas tinggi dan teknologi laser cutting yang canggih untuk memastikan bahwa pagar yang kami buat memiliki kualitas yang tinggi dan tahan lama.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Inspirasi Desain Pagar Laser Cutting Motif Custom",
+          "content": "Berikut beberapa inspirasi desain pagar laser cutting motif custom yang dapat Anda terapkan untuk rumah Anda di Bekasi: <ul><li>Motif bunga: Motif bunga adalah salah satu motif yang paling populer untuk pagar laser cutting. Motif ini dapat dibuat dengan menggunakan berbagai jenis bunga, termasuk bunga mawar, bunga lily, dan bunga tulip.</li><li>Motif geometris: Motif geometris adalah motif yang dibuat menggunakan bentuk-bentuk geometris, termasuk lingkaran, persegi, dan segitiga.</li><li>Motif abstrak: Motif abstrak adalah motif yang dibuat menggunakan bentuk-bentuk abstrak, termasuk garis-garis dan bentuk-bentuk yang tidak beraturan.</li></ul> <br><br>Anda dapat memilih motif yang sesuai dengan gaya arsitektur rumah Anda dan preferensi Anda. Pastikan untuk mempertimbangkan faktor keamanan dan estetika saat memilih desain pagar.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Tips Membeli Pagar Laser Cutting Motif Custom",
+          "content": "Berikut beberapa tips yang dapat Anda gunakan saat membeli pagar laser cutting motif custom: <ul><li>Pastikan untuk memilih penjual yang bereputasi baik dan memiliki pengalaman dalam pembuatan pagar laser cutting.</li><li>Pertimbangkan faktor keamanan dan estetika saat memilih desain pagar.</li><li>Pastikan untuk memeriksa kualitas material yang digunakan dan memastikan bahwa pagar yang Anda beli memiliki garansi yang memadai.</li></ul> <br><br>Di Mandiri Steel, kami menawarkan pagar laser cutting motif custom yang berkualitas tinggi dan tahan lama. Kami juga menawarkan garansi yang memadai dan pelayanan yang baik.",
+          "productId": 3
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang bereputasi baik dalam pembuatan pagar laser cutting motif custom di Bekasi. Kami memiliki pengalaman lebih dari 25 tahun dalam pembuatan pagar laser cutting dan telah melayani banyak klien yang puas dengan hasilnya. <br><br>Kami menggunakan material yang berkualitas tinggi dan teknologi laser cutting yang canggih untuk memastikan bahwa pagar yang kami buat memiliki kualitas yang tinggi dan tahan lama. <br><br>Kami juga menawarkan garansi yang memadai dan pelayanan yang baik. Jika Anda ingin membeli pagar laser cutting motif custom, pastikan untuk mempertimbangkan Mandiri Steel sebagai pilihan Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel melayani banyak area di Bekasi, termasuk Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. <br><br>Kami juga melayani area lain di sekitar Bekasi, termasuk Jakarta dan Tangerang. <br><br>Jika Anda ingin membeli pagar laser cutting motif custom, pastikan untuk menghubungi kami untuk meminta informasi lebih lanjut tentang area layanan kami.",
+          "productId": 3
+        }
+      ],
+      "conclusion": "Pagar laser cutting motif custom adalah pilihan yang tepat untuk rumah di Bekasi karena dapat meningkatkan keamanan dan estetika rumah. Dengan mempertimbangkan faktor keamanan dan estetika, Anda dapat memilih desain pagar yang sesuai dengan gaya arsitektur rumah Anda. <strong>Pastikan untuk memilih penjual yang bereputasi baik dan memiliki pengalaman dalam pembuatan pagar laser cutting</strong>. Di Mandiri Steel, kami menawarkan pagar laser cutting motif custom yang berkualitas tinggi dan tahan lama. Jika Anda ingin membeli pagar laser cutting motif custom, pastikan untuk menghubungi kami untuk meminta informasi lebih lanjut."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 110,
+    "title": "Kanopi Minimalis Ruko",
+    "slug": "kanopi-minimalis-ruko-dan-toko-di-cikarang-1786165355209",
+    "excerpt": "Kanopi minimalis untuk ruko dan toko di Cikarang: solusi perlindungan bisnis dari hujan dan panas",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1613127935408-bb27a0e0b82d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjYW5vcHklMjBkZXNpZ24lMjBmb3IlMjBjb21tZXJjaWFsJTIwYnVpbGRpbmdzfGVufDB8MHx8fDE3ODYxNjUyODF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, <strong>kanopi minimalis</strong> telah menjadi salah satu pilihan populer untuk <strong>ruko dan toko</strong> di <strong>Cikarang</strong> dan sekitarnya. Desain yang sederhana namun elegan membuat kanopi minimalis menjadi solusi yang ideal untuk melindungi bisnis Anda dari <strong>hujan</strong> dan <strong>panas</strong>. Dalam artikel ini, kita akan membahas lebih lanjut tentang manfaat dan tips dalam memilih kanopi minimalis untuk ruko dan toko di Cikarang.",
+      "keyPoints": [
+        "Kanopi minimalis sebagai solusi perlindungan bisnis dari hujan dan panas",
+        "Tips dalam memilih kanopi minimalis untuk ruko dan toko",
+        "Manfaat menggunakan kanopi minimalis untuk bisnis Anda"
+      ],
+      "sections": [
+        {
+          "heading": "Manfaat Kanopi Minimalis untuk Ruko dan Toko",
+          "content": "Kanopi minimalis memiliki beberapa manfaat yang signifikan untuk <strong>ruko dan toko</strong> di Cikarang. Pertama, kanopi minimalis dapat <strong>melindungi</strong> bisnis Anda dari <strong>hujan</strong> dan <strong>panas</strong>, sehingga memastikan bahwa pelanggan dan karyawan tetap nyaman dan aman. Kedua, kanopi minimalis dapat <strong>meningkatkan estetika</strong> bangunan, membuatnya terlihat lebih <strong>moderen</strong> dan <strong>menarik</strong>. Ketiga, kanopi minimalis dapat <strong>menghemat biaya</strong> perawatan dan perbaikan, karena desainnya yang sederhana dan <strong>tahan lama</strong>. <br><br>Contoh nyata dari manfaat kanopi minimalis dapat dilihat di <strong>Cikarang</strong>, di mana banyak ruko dan toko yang telah menginstal kanopi minimalis untuk melindungi bisnis mereka dari hujan dan panas. Dengan demikian, kanopi minimalis telah menjadi salah satu investasi yang paling populer untuk bisnis di Cikarang.",
+          "imageSearchQuery": "canopy installation in commercial area",
+          "image": "https://images.unsplash.com/photo-1725781535657-29d825bc7824?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjYW5vcHklMjBpbnN0YWxsYXRpb24lMjBpbiUyMGNvbW1lcmNpYWwlMjBhcmVhfGVufDB8MHx8fDE3ODYxNjUyODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips dalam Memilih Kanopi Minimalis",
+          "content": "Dalam memilih kanopi minimalis untuk ruko dan toko di Cikarang, ada beberapa tips yang perlu dipertimbangkan. Pertama, <strong>pilih desain</strong> yang sesuai dengan gaya bangunan Anda. Kedua, <strong>perhatikan bahan</strong> yang digunakan, pastikan bahwa bahan yang dipilih <strong>tahan lama</strong> dan <strong>kuat</strong>. Ketiga, <strong>perhatikan ukuran</strong> kanopi, pastikan bahwa ukuran kanopi sesuai dengan kebutuhan bisnis Anda. <br><br>Beberapa contoh desain kanopi minimalis yang populer untuk ruko dan toko di Cikarang antara lain: <ul><li>Desain kanopi minimalis dengan <strong>atap datar</strong></li><li>Desain kanopi minimalis dengan <strong>atap miring</strong></li><li>Desain kanopi minimalis dengan <strong>kolom</strong></li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "Manfaat Menggunakan Kanopi Minimalis",
+          "content": "Menggunakan kanopi minimalis untuk ruko dan toko di Cikarang memiliki beberapa manfaat yang signifikan. Pertama, kanopi minimalis dapat <strong>meningkatkan nilai</strong> properti, membuatnya lebih <strong>menarik</strong> bagi pelanggan dan <strong>investor</strong>. Kedua, kanopi minimalis dapat <strong>menghemat biaya</strong> perawatan dan perbaikan, karena desainnya yang sederhana dan <strong>tahan lama</strong>. Ketiga, kanopi minimalis dapat <strong>melindungi</strong> bisnis Anda dari <strong>hujan</strong> dan <strong>panas</strong>, sehingga memastikan bahwa pelanggan dan karyawan tetap nyaman dan aman. <br><br>Contoh nyata dari manfaat menggunakan kanopi minimalis dapat dilihat di <strong>Bekasi</strong>, di mana banyak ruko dan toko yang telah menginstal kanopi minimalis untuk melindungi bisnis mereka dari hujan dan panas.",
+          "productId": 2
+        },
+        {
+          "heading": "Pengalaman Mandiri Steel dalam Menginstal Kanopi Minimalis",
+          "content": "Mandiri Steel telah memiliki pengalaman lebih dari <strong>25 tahun</strong> dalam menginstal kanopi minimalis untuk ruko dan toko di Cikarang dan sekitarnya. Dengan tim yang <strong>berpengalaman</strong> dan <strong>terlatih</strong>, Mandiri Steel dapat memastikan bahwa kanopi minimalis yang dipasang <strong>tahan lama</strong> dan <strong>kuat</strong>. <br><br>Mandiri Steel juga menggunakan <strong>bahan</strong> yang <strong>berkualitas</strong> dan <strong>memenuhi standar</strong> SNI, sehingga memastikan bahwa kanopi minimalis yang dipasang <strong>aman</strong> dan <strong>nyaman</strong> untuk digunakan. Dengan demikian, Mandiri Steel telah menjadi salah satu pilihan terbaik untuk menginstal kanopi minimalis di Cikarang.",
+          "productId": 1
+        },
+        {
+          "heading": "Layanan yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan beberapa layanan yang berkaitan dengan kanopi minimalis, antara lain: <ul><li><strong>Desain</strong> kanopi minimalis yang sesuai dengan kebutuhan bisnis Anda</li><li><strong>Instalasi</strong> kanopi minimalis yang cepat dan efisien</li><li><strong>Perawatan</strong> dan <strong>perbaikan</strong> kanopi minimalis yang rutin dan terjadwal</li></ul> <br><br>Dengan layanan yang lengkap dan <strong>berkualitas</strong>, Mandiri Steel telah menjadi salah satu pilihan terbaik untuk bisnis di Cikarang yang membutuhkan kanopi minimalis.",
+          "productId": 1
+        },
+        {
+          "heading": "Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan untuk berbagai area di Cikarang dan sekitarnya, antara lain: <strong>Cikarang</strong>, <strong>Bekasi</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, <strong>Lippo Cikarang</strong>. <br><br>Dengan area layanan yang luas dan <strong>berkualitas</strong>, Mandiri Steel telah menjadi salah satu pilihan terbaik untuk bisnis di Cikarang yang membutuhkan kanopi minimalis.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, kanopi minimalis telah menjadi salah satu pilihan populer untuk ruko dan toko di Cikarang dan sekitarnya. Dengan manfaat yang signifikan, seperti melindungi bisnis dari hujan dan panas, meningkatkan estetika, dan menghemat biaya perawatan dan perbaikan, kanopi minimalis telah menjadi investasi yang paling populer untuk bisnis di Cikarang. Jika Anda membutuhkan kanopi minimalis untuk ruko atau toko Anda, silakan hubungi Mandiri Steel untuk mendapatkan layanan yang berkualitas dan harga yang kompetitif."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 111,
+    "title": "Jasa Las untuk Perumahan Baru",
+    "slug": "jasa-las-untuk-perumahan-baru",
+    "excerpt": "Mandiri Steel: Jasa las terpercaya untuk perumahan baru di Kota Deltamas, Lippo Cikarang, dan Meikarta",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-08",
+    "image": "https://images.unsplash.com/photo-1701589212799-40ad3a2610a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMHVudHVrJTIwcGVydW1haGFufGVufDB8MHx8fDE3ODYxNjUzNTN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Bagi Anda yang sedang membangun perumahan baru di Kota Deltamas, Lippo Cikarang, atau Meikarta, <strong>jasa las</strong> yang tepat sangat penting untuk memastikan struktur bangunan yang kuat dan tahan lama. <strong>Mandiri Steel</strong> hadir sebagai salah satu penyedia jasa las terpercaya di Bekasi, dengan pengalaman lebih dari 25 tahun dalam melayani kebutuhan konstruksi baja untuk berbagai proyek. Dalam artikel ini, kita akan membahas tentang pentingnya jasa las untuk perumahan baru dan bagaimana <strong>Mandiri Steel</strong> dapat membantu Anda mencapai bangunan impian.",
+      "keyPoints": [
+        "Jasa las yang tepat untuk perumahan baru",
+        "Pentingnya konstruksi baja yang kuat",
+        "Mandiri Steel: Penyedia jasa las terpercaya di Bekasi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pentingnya Jasa Las untuk Perumahan Baru",
+          "content": "Dalam membangun perumahan baru, <strong>jasa las</strong> menjadi salah satu faktor kunci yang menentukan kekuatan dan keamanan bangunan. <strong>Las</strong> yang dilakukan dengan benar dapat memastikan bahwa struktur bangunan dapat menahan beban dan tekanan tanpa mengalami kerusakan. Di Kota Deltamas, Lippo Cikarang, dan Meikarta, banyak proyek perumahan baru yang memerlukan <strong>jasa las</strong> yang handal untuk memastikan kualitas bangunan. <br><br> Selain itu, <strong>jasa las</strong> juga dapat membantu dalam meningkatkan estetika bangunan. Dengan desain yang tepat dan <strong>las</strong> yang rapi, bangunan dapat terlihat lebih modern dan menarik. <br><br> Dalam memilih <strong>jasa las</strong>, penting untuk mempertimbangkan pengalaman dan reputasi penyedia jasa. <strong>Mandiri Steel</strong> telah berpengalaman lebih dari 25 tahun dalam melayani kebutuhan konstruksi baja untuk berbagai proyek, termasuk perumahan baru di Bekasi.",
+          "imageSearchQuery": "konstruksi baja untuk perumahan baru"
+        },
+        {
+          "heading": "2. Kelebihan Menggunakan Jasa Las dari Mandiri Steel",
+          "content": "Menggunakan <strong>jasa las</strong> dari <strong>Mandiri Steel</strong> memiliki beberapa kelebihan. Pertama, <strong>Mandiri Steel</strong> menggunakan <strong>bahan baku</strong> yang berkualitas tinggi dan memenuhi standar SNI, sehingga dapat memastikan kekuatan dan ketahanan bangunan. Kedua, <strong>Mandiri Steel</strong> memiliki tim yang berpengalaman dan terlatih dalam melakukan <strong>las</strong> dengan benar, sehingga dapat meminimalkan risiko kesalahan. <br><br> Ketiga, <strong>Mandiri Steel</strong> menawarkan <strong>garansi struktural</strong> yang memastikan bahwa bangunan dapat bertahan lama tanpa mengalami kerusakan. Keempat, <strong>Mandiri Steel</strong> juga menawarkan <strong>survei gratis</strong> untuk memastikan bahwa proyek dapat dilaksanakan dengan benar dan sesuai dengan kebutuhan. <br><br> Dengan demikian, <strong>Mandiri Steel</strong> menjadi pilihan yang tepat bagi Anda yang sedang membangun perumahan baru di Kota Deltamas, Lippo Cikarang, atau Meikarta.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips dalam Memilih Jasa Las yang Tepat",
+          "content": "Dalam memilih <strong>jasa las</strong> yang tepat, ada beberapa tips yang perlu dipertimbangkan. Pertama, pastikan bahwa penyedia <strong>jasa las</strong> memiliki pengalaman yang cukup dalam melayani kebutuhan konstruksi baja. Kedua, periksa apakah penyedia <strong>jasa las</strong> menggunakan <strong>bahan baku</strong> yang berkualitas tinggi dan memenuhi standar SNI. <br><br> Ketiga, pastikan bahwa penyedia <strong>jasa las</strong> memiliki tim yang berpengalaman dan terlatih dalam melakukan <strong>las</strong> dengan benar. Keempat, periksa apakah penyedia <strong>jasa las</strong> menawarkan <strong>garansi struktural</strong> yang memastikan bahwa bangunan dapat bertahan lama tanpa mengalami kerusakan. <br><br> Dengan mempertimbangkan tips tersebut, Anda dapat memilih <strong>jasa las</strong> yang tepat untuk perumahan baru Anda di Kota Deltamas, Lippo Cikarang, atau Meikarta.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Manfaat Menggunakan Konstruksi Baja untuk Perumahan Baru",
+          "content": "Menggunakan <strong>konstruksi baja</strong> untuk perumahan baru memiliki beberapa manfaat. Pertama, <strong>konstruksi baja</strong> dapat memastikan kekuatan dan ketahanan bangunan, sehingga dapat meminimalkan risiko kerusakan. Kedua, <strong>konstruksi baja</strong> dapat membantu dalam meningkatkan estetika bangunan, sehingga dapat membuat bangunan terlihat lebih modern dan menarik. <br><br> Ketiga, <strong>konstruksi baja</strong> dapat membantu dalam mempercepat proses pembangunan, sehingga dapat menghemat waktu dan biaya. Keempat, <strong>konstruksi baja</strong> dapat membantu dalam mengurangi dampak lingkungan, sehingga dapat membuat proses pembangunan lebih ramah lingkungan. <br><br> Dengan demikian, <strong>konstruksi baja</strong> menjadi pilihan yang tepat bagi Anda yang sedang membangun perumahan baru di Kota Deltamas, Lippo Cikarang, atau Meikarta."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel sebagai Penyedia Jasa Las?",
+          "content": "Mengapa memilih <strong>Mandiri Steel</strong> sebagai penyedia <strong>jasa las</strong> untuk perumahan baru Anda di Kota Deltamas, Lippo Cikarang, atau Meikarta? Pertama, <strong>Mandiri Steel</strong> memiliki pengalaman yang cukup dalam melayani kebutuhan konstruksi baja untuk berbagai proyek. Kedua, <strong>Mandiri Steel</strong> menggunakan <strong>bahan baku</strong> yang berkualitas tinggi dan memenuhi standar SNI, sehingga dapat memastikan kekuatan dan ketahanan bangunan. <br><br> Ketiga, <strong>Mandiri Steel</strong> memiliki tim yang berpengalaman dan terlatih dalam melakukan <strong>las</strong> dengan benar, sehingga dapat meminimalkan risiko kesalahan. Keempat, <strong>Mandiri Steel</strong> menawarkan <strong>garansi struktural</strong> yang memastikan bahwa bangunan dapat bertahan lama tanpa mengalami kerusakan. <br><br> Dengan demikian, <strong>Mandiri Steel</strong> menjadi pilihan yang tepat bagi Anda yang sedang membangun perumahan baru di Kota Deltamas, Lippo Cikarang, atau Meikarta.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan <strong>jasa las</strong> untuk perumahan baru di berbagai daerah, termasuk Kota Deltamas, Lippo Cikarang, Meikarta, Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, dan Summarecon Bekasi. <br><br> Dengan pengalaman yang cukup dan tim yang berpengalaman, <strong>Mandiri Steel</strong> dapat membantu Anda mencapai bangunan impian dengan <strong>jasa las</strong> yang tepat. <br><br> Jika Anda sedang membangun perumahan baru di salah satu daerah tersebut, jangan ragu untuk menghubungi <strong>Mandiri Steel</strong> untuk mendapatkan <strong>jasa las</strong> yang berkualitas."
+        }
+      ],
+      "conclusion": "Dalam membangun perumahan baru, <strong>jasa las</strong> yang tepat sangat penting untuk memastikan struktur bangunan yang kuat dan tahan lama. <strong>Mandiri Steel</strong> hadir sebagai salah satu penyedia <strong>jasa las</strong> terpercaya di Bekasi, dengan pengalaman lebih dari 25 tahun dalam melayani kebutuhan konstruksi baja untuk berbagai proyek. <br><br> Dengan menggunakan <strong>jasa las</strong> dari <strong>Mandiri Steel</strong>, Anda dapat memastikan bahwa bangunan Anda dapat bertahan lama tanpa mengalami kerusakan. Jangan ragu untuk menghubungi <strong>Mandiri Steel</strong> untuk mendapatkan <strong>jasa las</strong> yang berkualitas dan memenuhi kebutuhan Anda."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 106,
     "title": "Teralis Besi Ulir vs Besi Behel vs Stainless",
     "slug": "teralis-besi-ulir-vs-besi-behel-vs-stainless",
