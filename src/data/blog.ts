@@ -33,6 +33,178 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 118,
+    "title": "Mandiri Steel: Bengkel Las Terpercaya di Bekasi",
+    "slug": "mandiri-steel-bengkel-las-terpercaya-di-bekasi-1786251752612",
+    "excerpt": "Mandiri Steel, bengkel las terpercaya di Bekasi, menyediakan layanan custom steel fabrication, canopy, gate, trellis, railing, dan konstruksi baja",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/photo-1675446151211-b527cb361286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwbW9kZXJufGVufDB8MHx8fDE3ODYyMDg0ODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Mandiri Steel adalah bengkel las yang terletak di Setu, Bekasi, dengan akses mudah dari Tol Cibitung, Tol Cikarang Barat, dan Tol Grand Wisata. <strong>Kami memiliki pengalaman lebih dari 25 tahun</strong> dalam menyediakan layanan custom steel fabrication, canopy, gate, trellis, railing, dan konstruksi baja untuk kebutuhan industri, komersial, dan residensial. <strong>Dengan menggunakan bahan-bahan SNI</strong> dan memiliki tim yang berpengalaman, kami dapat memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama.",
+      "keyPoints": [
+        "Layanan custom steel fabrication",
+        "Produk canopy, gate, trellis, railing, dan konstruksi baja",
+        "Bahan-bahan SNI dan tim yang berpengalaman"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Menggunakan Jasa Bengkel Las Mandiri",
+          "content": "Menggunakan jasa bengkel las Mandiri memiliki beberapa kelebihan, antara lain: <br> <strong>Kualitas produk yang tinggi</strong>, karena kami menggunakan bahan-bahan SNI dan memiliki tim yang berpengalaman. <strong>Harga yang kompetitif</strong>, karena kami memiliki pengalaman yang lama dan dapat memastikan bahwa produk kami memiliki kualitas yang tinggi dengan harga yang terjangkau. <strong>Layanan yang cepat dan efisien</strong>, karena kami memiliki akses mudah dari Tol Cibitung, Tol Cikarang Barat, dan Tol Grand Wisata, sehingga dapat memastikan bahwa produk kami dapat dikirimkan dengan cepat dan efisien.",
+          "imageSearchQuery": "bengkel las bekasi"
+        },
+        {
+          "heading": "Tips Memilih Jasa Bengkel Las yang Tepat",
+          "content": "Memilih jasa bengkel las yang tepat sangat penting untuk memastikan bahwa produk yang dihasilkan memiliki kualitas yang tinggi dan tahan lama. Berikut beberapa tips yang dapat digunakan: <ul> <li>Pilih bengkel las yang memiliki pengalaman yang lama dan memiliki tim yang berpengalaman</li> <li>Pilih bengkel las yang menggunakan bahan-bahan SNI</li> <li>Pilih bengkel las yang memiliki harga yang kompetitif</li> </ul> Dengan menggunakan tips di atas, Anda dapat memastikan bahwa Anda memilih jasa bengkel las yang tepat untuk kebutuhan Anda."
+        },
+        {
+          "heading": "Produk dan Layanan Mandiri Steel",
+          "content": "Mandiri Steel menyediakan berbagai macam produk dan layanan, antara lain: <strong>Canopy</strong>, <strong>Gate</strong>, <strong>Trellis</strong>, <strong>Railing</strong>, dan <strong>Konstruksi Baja</strong>. Kami juga menyediakan layanan custom steel fabrication untuk kebutuhan industri, komersial, dan residensial. Dengan menggunakan bahan-bahan SNI dan memiliki tim yang berpengalaman, kami dapat memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama.",
+          "productId": 1
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel memiliki beberapa kelebihan yang membuat kami menjadi pilihan yang tepat untuk kebutuhan Anda, antara lain: <strong>Pengalaman yang lama</strong>, karena kami memiliki pengalaman lebih dari 25 tahun dalam menyediakan layanan custom steel fabrication, canopy, gate, trellis, railing, dan konstruksi baja. <strong>Bahan-bahan SNI</strong>, karena kami menggunakan bahan-bahan SNI untuk memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama. <strong>Tim yang berpengalaman</strong>, karena kami memiliki tim yang berpengalaman dan dapat memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama.",
+          "productId": 2
+        },
+        {
+          "heading": "Lokasi dan Akses Mandiri Steel",
+          "content": "Mandiri Steel terletak di Setu, Bekasi, dengan akses mudah dari Tol Cibitung, Tol Cikarang Barat, dan Tol Grand Wisata. <strong>Kami juga memiliki akses yang mudah dari kota-kota lain di Jabodetabek</strong>, seperti Jakarta, Depok, Tangerang, dan Bogor. Dengan akses yang mudah, kami dapat memastikan bahwa produk kami dapat dikirimkan dengan cepat dan efisien."
+        },
+        {
+          "heading": "Garansi dan Pelayanan Purna Jual Mandiri Steel",
+          "content": "Mandiri Steel menyediakan garansi dan pelayanan purna jual untuk memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama. <strong>Kami menyediakan garansi struktural</strong> untuk memastikan bahwa produk kami dapat bertahan lama dan tahan terhadap berbagai kondisi lingkungan. <strong>Kami juga menyediakan pelayanan purna jual</strong> untuk memastikan bahwa produk kami dapat dipasang dan dipelihara dengan benar."
+        }
+      ],
+      "conclusion": "Mandiri Steel adalah bengkel las yang terpercaya di Bekasi, dengan pengalaman lebih dari 25 tahun dalam menyediakan layanan custom steel fabrication, canopy, gate, trellis, railing, dan konstruksi baja. Dengan menggunakan bahan-bahan SNI dan memiliki tim yang berpengalaman, kami dapat memastikan bahwa produk kami memiliki kualitas yang tinggi dan tahan lama. <strong>Hubungi kami sekarang juga</strong> untuk mendapatkan informasi lebih lanjut tentang produk dan layanan kami."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 119,
+    "title": "Konstruksi Baja WF untuk Gudang dan Pabrik",
+    "slug": "konstruksi-baja-wf-untuk-gudang-dan-pabrik-1786251752612",
+    "excerpt": "Konstruksi baja WF untuk gudang dan pabrik di kawasan industri Jababeka Cikarang",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "<strong>Konstruksi baja WF</strong> adalah salah satu pilihan yang paling populer untuk membangun gudang dan pabrik di kawasan industri. Dengan kekuatan dan keamanan yang tinggi, baja WF menjadi pilihan utama bagi banyak perusahaan yang membutuhkan struktur yang kuat dan tahan lama. <strong>Mandiri Steel</strong> dengan pengalaman lebih dari 25 tahun dalam industri konstruksi baja, menawarkan solusi konstruksi baja WF yang sesuai dengan kebutuhan Anda. Di kawasan industri Jababeka Cikarang, konstruksi baja WF menjadi sangat penting karena membutuhkan struktur yang kuat dan tahan lama untuk menampung berbagai jenis barang dan peralatan.",
+      "keyPoints": [
+        "Konstruksi baja WF untuk gudang dan pabrik",
+        "Kelebihan konstruksi baja WF",
+        "Tips dalam memilih konstruksi baja WF"
+      ],
+      "sections": [
+        {
+          "heading": "Konstruksi Baja WF: Apa itu dan Mengapa Digunakan?",
+          "content": "<strong>Konstruksi baja WF</strong> adalah sebuah struktur yang terbuat dari baja yang digunakan sebagai kerangka bangunan. Baja WF memiliki kekuatan yang tinggi dan tahan lama, sehingga sangat cocok untuk digunakan sebagai struktur gudang dan pabrik. <strong>Kelebihan konstruksi baja WF</strong> antara lain: <ul><li>Tahan lama dan kuat</li><li>Mudah dipasang dan dibongkar</li><li>Hemat biaya</li></ul> Dalam beberapa tahun terakhir, konstruksi baja WF telah menjadi sangat populer di kawasan industri Jababeka Cikarang karena kelebihan-kelebihan tersebut.",
+          "imageSearchQuery": "konstruksi baja wf gudang"
+        },
+        {
+          "heading": "Tips dalam Memilih Konstruksi Baja WF",
+          "content": "Dalam memilih konstruksi baja WF, ada beberapa hal yang perlu dipertimbangkan. <strong>Pertama</strong>, pastikan Anda memilih baja yang berkualitas tinggi dan sesuai dengan standar SNI. <strong>Kedua</strong>, pertimbangkan ukuran dan bentuk gudang atau pabrik yang akan dibangun. <strong>Ketiga</strong>, pastikan Anda memilih kontraktor yang berpengalaman dan memiliki reputasi baik. <strong>Beberapa tips lainnya</strong> antara lain: <ul><li>Pastikan Anda memiliki anggaran yang cukup</li><li>Pertimbangkan biaya perawatan dan pemeliharaan</li><li>Pastikan Anda memiliki izin dan dokumen yang lengkap</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "Kelebihan Konstruksi Baja WF dibandingkan dengan Bahan Lain",
+          "content": "<strong>Konstruksi baja WF</strong> memiliki beberapa kelebihan dibandingkan dengan bahan lain. <strong>Pertama</strong>, baja WF lebih kuat dan tahan lama dibandingkan dengan bahan lain seperti kayu atau beton. <strong>Kedua</strong>, baja WF lebih mudah dipasang dan dibongkar dibandingkan dengan bahan lain. <strong>Ketiga</strong>, baja WF lebih hemat biaya dibandingkan dengan bahan lain. <strong>Beberapa contoh nyata</strong> antara lain: <ul><li>Gudang di kawasan industri Jababeka Cikarang yang menggunakan konstruksi baja WF</li><li>Pabrik di kawasan industri Cikarang yang menggunakan konstruksi baja WF</li></ul>"
+        },
+        {
+          "heading": "Mandiri Steel: Solusi Konstruksi Baja WF yang Tepat",
+          "content": "<strong>Mandiri Steel</strong> adalah salah satu perusahaan yang berpengalaman dalam industri konstruksi baja. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel menawarkan solusi konstruksi baja WF yang sesuai dengan kebutuhan Anda. <strong>Kelebihan Mandiri Steel</strong> antara lain: <ul><li>Pengalaman lebih dari 25 tahun</li><li>Baja yang berkualitas tinggi dan sesuai dengan standar SNI</li><li>Harga yang kompetitif</li></ul> <strong>Mandiri Steel</strong> juga menawarkan layanan survei gratis dan garansi struktur yang membuat Anda tenang dan percaya diri dalam memilih konstruksi baja WF.",
+          "productId": 7
+        },
+        {
+          "heading": "Layanan Konstruksi Baja WF di Kawasan Industri Jababeka Cikarang",
+          "content": "<strong>Mandiri Steel</strong> menawarkan layanan konstruksi baja WF di kawasan industri Jababeka Cikarang. Dengan tim yang berpengalaman dan peralatan yang canggih, Mandiri Steel dapat memenuhi kebutuhan Anda dengan cepat dan efisien. <strong>Beberapa layanan yang ditawarkan</strong> antara lain: <ul><li>Survei gratis</li><li>Desain dan perencanaan</li><li>Pembangunan dan pemasangan</li></ul> <strong>Mandiri Steel</strong> juga menawarkan garansi struktur yang membuat Anda tenang dan percaya diri dalam memilih konstruksi baja WF."
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "<strong>Konstruksi baja WF</strong> adalah salah satu pilihan yang paling populer untuk membangun gudang dan pabrik di kawasan industri. Dengan kekuatan dan keamanan yang tinggi, baja WF menjadi pilihan utama bagi banyak perusahaan yang membutuhkan struktur yang kuat dan tahan lama. <strong>Mandiri Steel</strong> dengan pengalaman lebih dari 25 tahun dalam industri konstruksi baja, menawarkan solusi konstruksi baja WF yang sesuai dengan kebutuhan Anda. Jika Anda membutuhkan informasi lebih lanjut, silakan hubungi <strong>Mandiri Steel</strong> untuk mendapatkan penawaran yang terbaik."
+        }
+      ],
+      "conclusion": "<strong>Mandiri Steel</strong> adalah solusi konstruksi baja WF yang tepat untuk Anda. Dengan pengalaman lebih dari 25 tahun dan baja yang berkualitas tinggi, Mandiri Steel dapat memenuhi kebutuhan Anda dengan cepat dan efisien. Jika Anda membutuhkan informasi lebih lanjut, silakan hubungi <strong>Mandiri Steel</strong> untuk mendapatkan penawaran yang terbaik."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 120,
+    "title": "Musim Hujan Bekasi: Lindungi Konstruksi Besi",
+    "slug": "musim-hujan-bekasi-lindungi-konstruksi-besi",
+    "excerpt": "Tips melindungi konstruksi besi rumah dari karat dan korosi musim hujan di Bekasi",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmVzaSUyMHJ1bWFoJTIwaHVqYW58ZW58MHwwfHx8MTc4NjI1MTc1MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Musim hujan di <strong>Bekasi</strong> sudah tiba, dan ini berarti bahwa konstruksi besi rumah Anda rentan terhadap <strong>karat dan korosi</strong>. <strong>Karat</strong> dapat merusak struktur besi dan memperlemah kekuatannya, sehingga sangat penting untuk melindunginya. Dalam artikel ini, kita akan membahas beberapa <strong>tips</strong> untuk melindungi konstruksi besi rumah Anda dari karat dan korosi musim hujan di <strong>Bekasi</strong>.",
+      "keyPoints": [
+        "Pahami penyebab karat dan korosi",
+        "Gunakan cat pelindung",
+        "Lakukan perawatan rutin",
+        "Pilih bahan besi berkualitas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pahami Penyebab Karat dan Korosi",
+          "content": "Karat dan korosi adalah reaksi kimia yang terjadi ketika besi bereaksi dengan <strong>oksigen</strong> dan <strong>kelembaban</strong>. Musim hujan di <strong>Bekasi</strong> meningkatkan kelembaban udara, sehingga konstruksi besi rumah Anda lebih rentan terhadap karat dan korosi. <strong>Contoh nyata</strong> adalah ketika pagar besi di depan rumah Anda mulai berkarat setelah beberapa minggu musim hujan. <br> Untuk mencegah hal ini, Anda perlu memahami <strong>penyebab</strong> karat dan korosi dan mengambil tindakan pencegahan. <ul> <li> Oksigen </li> <li> Kelembaban </li> <li> Garam </li> </ul>",
+          "imageSearchQuery": "karat besi"
+        },
+        {
+          "heading": "2. Gunakan Cat Pelindung",
+          "content": "Menggunakan <strong>cat pelindung</strong> adalah salah satu cara terbaik untuk melindungi konstruksi besi rumah Anda dari karat dan korosi. <strong>Cat pelindung</strong> dapat mencegah oksigen dan kelembaban mencapai permukaan besi, sehingga mengurangi risiko karat dan korosi. <br> Pastikan Anda memilih <strong>cat pelindung</strong> yang sesuai dengan jenis besi yang digunakan dan ikuti instruksi penerapan yang benar. <blockquote> Cat pelindung harus diterapkan sebelum musim hujan untuk memastikan perlindungan maksimal. </blockquote>",
+          "productId": 1
+        },
+        {
+          "heading": "3. Lakukan Perawatan Rutin",
+          "content": "Perawatan rutin adalah kunci untuk menjaga konstruksi besi rumah Anda tetap aman dan terlindung dari karat dan korosi. <br> <strong>Tips</strong> perawatan rutin: <ul> <li> Periksa konstruksi besi secara teratur </li> <li> Bersihkan debu dan kotoran </li> <li> Oleskan minyak pelindung </li> </ul> <br> Dengan melakukan perawatan rutin, Anda dapat mendeteksi masalah sejak dini dan mengambil tindakan pencegahan sebelum kerusakan menjadi parah.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Pilih Bahan Besi Berkualitas",
+          "content": "Pilih <strong>bahan besi berkualitas</strong> untuk konstruksi rumah Anda. <strong>Bahan besi</strong> yang berkualitas dapat menahan karat dan korosi lebih baik daripada bahan besi yang berkualitas rendah. <br> Pastikan Anda memilih <strong>bahan besi</strong> yang sesuai dengan kebutuhan Anda dan ikuti standar <strong>SNI</strong> untuk memastikan kualitas. <strong>Contoh</strong> bahan besi berkualitas adalah <strong>besi WF</strong> yang digunakan dalam konstruksi bangunan.",
+          "productId": 7
+        },
+        {
+          "heading": "5. Manfaatkan Pengalaman Mandiri Steel",
+          "content": "Mandiri Steel telah memiliki pengalaman lebih dari <strong>25 tahun</strong> dalam industri konstruksi besi. <br> Dengan pengalaman yang luas, kami dapat membantu Anda melindungi konstruksi besi rumah Anda dari karat dan korosi. <br> Kami menggunakan <strong>bahan besi</strong> yang berkualitas dan memenuhi standar <strong>SNI</strong>, serta menawarkan <strong>garansi struktural</strong> untuk memastikan keamanan dan kualitas konstruksi. <br> Jangan ragu untuk menghubungi kami untuk konsultasi dan penawaran terbaik.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan layanan konstruksi besi di <strong>Bekasi</strong> dan sekitarnya, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> Kami siap membantu Anda melindungi konstruksi besi rumah Anda dari karat dan korosi, serta memberikan konsultasi dan penawaran terbaik untuk kebutuhan konstruksi besi Anda.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dengan mengikuti <strong>tips</strong> di atas dan memanfaatkan pengalaman Mandiri Steel, Anda dapat melindungi konstruksi besi rumah Anda dari karat dan korosi musim hujan di <strong>Bekasi</strong>. <br> Jangan ragu untuk menghubungi kami untuk konsultasi dan penawaran terbaik. <strong>Mandiri Steel</strong> siap membantu Anda membentuk konstruksi besi yang aman dan tahan lama."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 115,
     "title": "Pagar Stainless Steel Berkualitas",
     "slug": "pagar-stainless-steel-berkualitas",
