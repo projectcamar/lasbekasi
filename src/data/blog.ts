@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 121,
+    "title": "Tips Memilih Warna Kanopi",
+    "slug": "tips-memilih-warna-kanopi-yang-cocok-dengan-cat-rumah-1786294953944",
+    "excerpt": "Panduan memilih warna kanopi yang sesuai dengan cat rumah untuk harmoni desain eksterior",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "<strong>Memilih warna kanopi</strong> yang tepat sangat penting untuk menciptakan kesan yang harmonis dan indah pada eksterior rumah. <strong>Kanopi</strong> tidak hanya berfungsi sebagai pelindung dari sinar matahari dan hujan, tetapi juga sebagai elemen dekoratif yang dapat meningkatkan nilai estetika rumah. Dalam artikel ini, kita akan membahas <strong>tips memilih warna kanopi</strong> yang cocok dengan cat rumah dan beberapa contoh nyata untuk inspirasi.",
+      "keyPoints": [
+        "Memilih warna kanopi yang sesuai dengan cat rumah",
+        "Mempertimbangkan gaya arsitektur rumah",
+        "Menggunakan teori warna untuk menciptakan harmoni"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengenal Teori Warna untuk Kanopi",
+          "content": "Sebelum memilih warna kanopi, penting untuk memahami dasar-dasar teori warna. <strong>Teori warna</strong> menjelaskan bagaimana warna dapat berinteraksi dan mempengaruhi satu sama lain. Dalam konteks kanopi, teori warna dapat membantu kita memilih warna yang sesuai dengan cat rumah dan lingkungan sekitar. <br><br>Contohnya, jika rumah Anda memiliki cat dinding berwarna pastel, maka <strong>kanopi berwarna netral</strong> seperti abu-abu atau krem dapat menjadi pilihan yang tepat. Sementara itu, jika rumah Anda memiliki gaya arsitektur modern, maka <strong>kanopi berwarna bold</strong> seperti merah atau biru dapat menjadi pilihan yang menarik.",
+          "imageSearchQuery": "teori warna kanopi",
+          "image": "https://images.unsplash.com/photo-1532055829393-57f89d372f5a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZW9yaSUyMHdhcm5hJTIwa2Fub3BpfGVufDB8MHx8fDE3ODYyOTQ4MDh8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Mempertimbangkan Gaya Arsitektur Rumah",
+          "content": "Gaya arsitektur rumah juga sangat penting dalam memilih warna kanopi. <strong>Rumah minimalis</strong> biasanya memiliki kanopi yang sederhana dan netral, sementara <strong>ruman klasik</strong> dapat memiliki kanopi yang lebih ornamental dan berwarna. <br><br>Di Bekasi, banyak rumah yang memiliki gaya arsitektur modern dan minimalis. Untuk rumah seperti ini, <strong>kanopi minimalis</strong> seperti <strong>kanopi Alderon</strong> dari Mandiri Steel dapat menjadi pilihan yang tepat. Sementara itu, di Cikarang, banyak rumah yang memiliki gaya arsitektur klasik dan tradisional. Untuk rumah seperti ini, <strong>kanopi klasik</strong> seperti <strong>kanopi kaca tempered</strong> dapat menjadi pilihan yang menarik.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Tips Memilih Warna Kanopi yang Cocok",
+          "content": "<ul><li>Pilih warna kanopi yang sesuai dengan cat rumah</li><li>Pertimbangkan gaya arsitektur rumah</li><li>Gunakan teori warna untuk menciptakan harmoni</li><li>Pertimbangkan lingkungan sekitar</li></ul><br><br>Di Jababeka, banyak rumah yang memiliki warna kanopi yang sesuai dengan cat rumah. Contohnya, rumah dengan cat dinding berwarna pastel dapat memiliki kanopi berwarna netral seperti abu-abu atau krem. Sementara itu, rumah dengan cat dinding berwarna bold dapat memiliki kanopi berwarna bold seperti merah atau biru.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Contoh Nyata Warna Kanopi yang Cocok",
+          "content": "Berikut beberapa contoh nyata warna kanopi yang cocok dengan cat rumah: <br><br><strong>Rumah minimalis</strong> di Bekasi dengan cat dinding berwarna putih dapat memiliki kanopi berwarna abu-abu atau krem. <strong>Rumah klasik</strong> di Cikarang dengan cat dinding berwarna coklat dapat memiliki kanopi berwarna coklat atau kayu. <br><br>Di MM2100, banyak rumah yang memiliki warna kanopi yang sesuai dengan cat rumah. Contohnya, rumah dengan cat dinding berwarna hijau dapat memiliki kanopi berwarna hijau atau netral."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Kanopi?",
+          "content": "Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam produksi kanopi dan pagar. <strong>Kanopi Mandiri Steel</strong> dibuat dari bahan SNI yang kuat dan tahan lama. <br><br>Mandiri Steel juga menyediakan layanan survei gratis dan garansi struktural untuk semua produknya. Dengan demikian, Anda dapat memiliki kanopi yang tidak hanya sesuai dengan cat rumah, tetapi juga aman dan tahan lama.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan dan Garansi Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan survei gratis untuk semua klien. <strong>Survei gratis</strong> ini dapat membantu Anda memilih warna kanopi yang sesuai dengan cat rumah dan lingkungan sekitar. <br><br>Mandiri Steel juga menyediakan garansi struktural untuk semua produknya. <strong>Garansi struktural</strong> ini dapat memberikan Anda ketenangan pikiran dan kepercayaan diri bahwa kanopi Anda akan tahan lama dan aman."
+        }
+      ],
+      "conclusion": "Dengan memilih warna kanopi yang sesuai dengan cat rumah, Anda dapat menciptakan kesan yang harmonis dan indah pada eksterior rumah. <strong>Mandiri Steel</strong> dapat membantu Anda memilih warna kanopi yang tepat dan menyediakan layanan survei gratis serta garansi struktural. Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang kanopi dan pagar."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 122,
+    "title": "Anti Karat Pagar Besi",
+    "slug": "tips-anti-karat-untuk-pagar-besi-di-bekasi",
+    "excerpt": "Pagar besi anti karat untuk daerah pantai Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGJlc2klMjBhbnRpJTIwa2FyYXR8ZW58MHwwfHx8MTc4NjI5NDg3OXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar besi merupakan salah satu pilihan yang populer untuk melindungi rumah dan bangunan di daerah dekat pantai, seperti Muara Gembong Bekasi. <strong>Pagar besi</strong> memiliki kelebihan seperti kuat, tahan lama, dan mudah dibentuk sesuai dengan kebutuhan. Namun, <strong>karat</strong> merupakan musuh utama pagar besi, terutama di daerah yang memiliki tingkat kelembaban tinggi seperti pantai. Dalam artikel ini, kita akan membahas <strong>tips anti karat</strong> untuk pagar besi di daerah dekat pantai Muara Gembong Bekasi.",
+      "keyPoints": [
+        "Pemilihan bahan pagar besi yang tepat",
+        "Penggunaan cat pelindung",
+        "Pembersihan rutin",
+        "Penggunaan teknologi anti karat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pemilihan Bahan Pagar Besi yang Tepat",
+          "content": "Pemilihan bahan pagar besi yang tepat sangat penting untuk mencegah karat. <strong>Bahan pagar besi</strong> yang memiliki kualitas tinggi dan tahan karat seperti <strong>besi galvanis</strong> atau <strong>stainless steel</strong> dapat membantu mencegah karat. Selain itu, <strong>pemilihan ukuran pagar besi</strong> yang sesuai dengan kebutuhan juga sangat penting. Pagar besi yang terlalu tipis dapat lebih rentan terhadap karat dibandingkan dengan pagar besi yang lebih tebal. Di daerah dekat pantai seperti Muara Gembong Bekasi, <strong>pemilihan bahan pagar besi</strong> yang tahan karat sangat penting karena tingkat kelembaban yang tinggi.",
+          "imageSearchQuery": "besi galvanis"
+        },
+        {
+          "heading": "2. Penggunaan Cat Pelindung",
+          "content": "Penggunaan cat pelindung dapat membantu mencegah karat pada pagar besi. <strong>Cat pelindung</strong> dapat membantu melindungi pagar besi dari kelembaban dan korosi. <strong>Cat epoxy</strong> atau <strong>cat polyurethane</strong> dapat digunakan sebagai cat pelindung untuk pagar besi. Selain itu, <strong>penggunaan cat pelindung</strong> yang sesuai dengan warna pagar besi juga dapat membantu meningkatkan estetika pagar besi. Di daerah dekat pantai seperti Muara Gembong Bekasi, <strong>penggunaan cat pelindung</strong> yang tahan lama dan kuat sangat penting karena tingkat kelembaban yang tinggi.",
+          "productId": 3
+        },
+        {
+          "heading": "3. Pembersihan Rutin",
+          "content": "Pembersihan rutin sangat penting untuk mencegah karat pada pagar besi. <strong>Pembersihan rutin</strong> dapat membantu menghilangkan kotoran dan debu yang dapat menyebabkan karat. <strong>Penggunaan air dan sabun</strong> dapat digunakan untuk membersihkan pagar besi. Selain itu, <strong>penggunaan sikat</strong> dapat membantu menghilangkan kotoran yang sulit dijangkau. Di daerah dekat pantai seperti Muara Gembong Bekasi, <strong>pembersihan rutin</strong> sangat penting karena tingkat kelembaban yang tinggi."
+        },
+        {
+          "heading": "4. Penggunaan Teknologi Anti Karat",
+          "content": "Penggunaan teknologi anti karat dapat membantu mencegah karat pada pagar besi. <strong>Teknologi anti karat</strong> seperti <strong>galvanisasi</strong> atau <strong>electroplating</strong> dapat membantu melindungi pagar besi dari korosi. <strong>Penggunaan teknologi anti karat</strong> dapat membantu meningkatkan umur pagar besi dan mengurangi biaya perawatan. Di daerah dekat pantai seperti Muara Gembong Bekasi, <strong>penggunaan teknologi anti karat</strong> sangat penting karena tingkat kelembaban yang tinggi.",
+          "productId": 4
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan yang memiliki pengalaman lebih dari 25 tahun dalam bidang konstruksi baja. <strong>Mandiri Steel</strong> memiliki tim yang profesional dan berpengalaman dalam bidang konstruksi baja. <strong>Mandiri Steel</strong> juga menggunakan bahan-bahan yang berkualitas tinggi dan tahan lama. Di daerah dekat pantai seperti Muara Gembong Bekasi, <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih pagar besi yang tepat dan tahan karat.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan yang Ditawarkan",
+          "content": "Mandiri Steel menawarkan layanan yang lengkap dan profesional dalam bidang konstruksi baja. <strong>Layanan</strong> yang ditawarkan oleh Mandiri Steel termasuk <strong>desain</strong>, <strong>fabrikasi</strong>, <strong>instalasi</strong>, dan <strong>perawatan</strong>. Di daerah dekat pantai seperti Muara Gembong Bekasi, <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih layanan yang tepat untuk kebutuhan Anda."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, <strong>pemilihan pagar besi yang tepat</strong> dan <strong>penggunaan teknologi anti karat</strong> dapat membantu mencegah karat pada pagar besi di daerah dekat pantai Muara Gembong Bekasi. <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih pagar besi yang tepat dan tahan karat. Jika Anda memiliki pertanyaan atau ingin meminta informasi lebih lanjut, silakan hubungi Mandiri Steel."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 123,
+    "title": "Teralis Invisible vs Konvensional",
+    "slug": "teralis-invisible-vs-konvensional-1786294953944",
+    "excerpt": "Teralis invisible (kawat baja) vs teralis konvensional: tren keamanan rumah modern di Bekasi dan Jabodetabek",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, <strong>keamanan rumah</strong> menjadi prioritas utama bagi banyak orang. Salah satu aspek penting dalam keamanan rumah adalah <strong>teralis</strong>, yang berfungsi sebagai penghalang fisik untuk mencegah akses tidak sah ke rumah. Saat ini, ada dua jenis teralis yang populer, yaitu <strong>teralis invisible (kawat baja)</strong> dan <strong>teralis konvensional</strong>. Dalam artikel ini, kita akan membahas perbedaan antara kedua jenis teralis ini dan tren keamanan rumah modern di Bekasi dan Jabodetabek.",
+      "keyPoints": [
+        "Teralis invisible (kawat baja) lebih fleksibel dan tidak menghalangi pemandangan",
+        "Teralis konvensional lebih kuat dan tahan lama",
+        "Pemilihan teralis yang tepat bergantung pada kebutuhan dan budget Anda"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Teralis Invisible (Kawat Baja)",
+          "content": "Teralis invisible (kawat baja) adalah jenis teralis yang terbuat dari kawat baja yang tipis dan fleksibel. <strong>Teralis ini</strong> dirancang untuk tidak menghalangi pemandangan dan memberikan kesan yang lebih modern dan minimalis. <strong>Kawat baja</strong> yang digunakan biasanya memiliki diameter yang sangat kecil, sehingga tidak terlihat dari jarak jauh. <strong>Teralis invisible</strong> sangat populer di kalangan pemilik rumah yang ingin memiliki keamanan yang tinggi tanpa mengorbankan estetika rumah mereka. <br><br> Contoh nyata dari penggunaan teralis invisible (kawat baja) dapat dilihat di beberapa perumahan mewah di <strong>Bekasi</strong> dan <strong>Cikarang</strong>, di mana teralis ini digunakan untuk mengamankan rumah-rumah yang berada di daerah yang strategis.",
+          "imageSearchQuery": "teralis invisible kawat baja"
+        },
+        {
+          "heading": "2. Pengertian Teralis Konvensional",
+          "content": "Teralis konvensional adalah jenis teralis yang terbuat dari bahan-bahan seperti <strong>baja</strong>, <strong>aluminium</strong>, atau <strong>kayu</strong>. <strong>Teralis ini</strong> dirancang untuk memberikan keamanan yang tinggi dan tahan lama. <strong>Teralis konvensional</strong> biasanya memiliki desain yang lebih tradisional dan dapat dipasang di berbagai jenis rumah, dari rumah sederhana hingga rumah mewah. <br><br> <strong>Teralis konvensional</strong> sangat populer di kalangan pemilik rumah yang ingin memiliki keamanan yang tinggi dan tidak terlalu memperhatikan estetika rumah mereka. Contoh nyata dari penggunaan teralis konvensional dapat dilihat di beberapa perumahan di <strong>Tambun</strong> dan <strong>Cibitung</strong>, di mana teralis ini digunakan untuk mengamankan rumah-rumah yang berada di daerah yang kurang strategis.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Perbedaan Antara Teralis Invisible (Kawat Baja) dan Teralis Konvensional",
+          "content": "Perbedaan utama antara <strong>teralis invisible (kawat baja)</strong> dan <strong>teralis konvensional</strong> adalah desain dan bahan yang digunakan. <strong>Teralis invisible</strong> memiliki desain yang lebih modern dan minimalis, sedangkan <strong>teralis konvensional</strong> memiliki desain yang lebih tradisional. <br><br> Selain itu, <strong>teralis invisible</strong> lebih fleksibel dan tidak menghalangi pemandangan, sedangkan <strong>teralis konvensional</strong> lebih kuat dan tahan lama. <strong>Pemilihan teralis yang tepat</strong> bergantung pada kebutuhan dan budget Anda. Jika Anda ingin memiliki keamanan yang tinggi tanpa mengorbankan estetika rumah Anda, maka <strong>teralis invisible (kawat baja)</strong> dapat menjadi pilihan yang tepat. Namun, jika Anda ingin memiliki keamanan yang tinggi dan tidak terlalu memperhatikan estetika rumah Anda, maka <strong>teralis konvensional</strong> dapat menjadi pilihan yang tepat.",
+          "productId": 5
+        },
+        {
+          "heading": "4. Tips Memilih Teralis yang Tepat",
+          "content": "Berikut beberapa tips yang dapat membantu Anda memilih <strong>teralis yang tepat</strong> untuk rumah Anda: <ul><li>Pertimbangkan kebutuhan keamanan Anda</li><li>Pertimbangkan budget Anda</li><li>Pertimbangkan desain dan estetika rumah Anda</li><li>Pertimbangkan bahan dan kualitas teralis</li></ul> <br><br> Dengan mempertimbangkan faktor-faktor tersebut, Anda dapat memilih <strong>teralis yang tepat</strong> untuk rumah Anda dan memiliki keamanan yang tinggi tanpa mengorbankan estetika rumah Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Teralis Anda?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam produksi dan pemasangan <strong>teralis</strong> di Bekasi dan Jabodetabek. <strong>Mandiri Steel</strong> memiliki lebih dari 25 tahun pengalaman dalam industri ini dan telah bekerja sama dengan banyak pemilik rumah dan pengembang properti. <br><br> <strong>Mandiri Steel</strong> menggunakan bahan-bahan yang berkualitas tinggi dan memiliki tim yang terampil dan berpengalaman dalam pemasangan <strong>teralis</strong>. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan garansi struktural yang komprehensif dan survei on-site yang gratis. Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat memiliki keamanan yang tinggi dan estetika rumah yang indah tanpa harus mengeluarkan biaya yang besar.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas di Bekasi dan Jabodetabek, termasuk <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br> Dengan area layanan yang luas, <strong>Mandiri Steel</strong> dapat membantu Anda memenuhi kebutuhan <strong>teralis</strong> Anda di mana saja Anda berada di Bekasi dan Jabodetabek.",
+          "productId": 5
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>teralis</strong> untuk rumah Anda, penting untuk mempertimbangkan kebutuhan keamanan, budget, desain, dan estetika rumah Anda. Dengan memilih <strong>Mandiri Steel</strong>, Anda dapat memiliki keamanan yang tinggi dan estetika rumah yang indah tanpa harus mengeluarkan biaya yang besar. Jangan ragu untuk menghubungi <strong>Mandiri Steel</strong> untuk mendapatkan informasi lebih lanjut tentang <strong>teralis</strong> dan layanan lainnya."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 118,
     "title": "Mandiri Steel: Bengkel Las Terpercaya di Bekasi",
     "slug": "mandiri-steel-bengkel-las-terpercaya-di-bekasi-1786251752612",
