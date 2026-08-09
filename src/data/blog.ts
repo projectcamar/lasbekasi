@@ -33,6 +33,185 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 124,
+    "title": "Konstruksi Carport Baja untuk Rumah di Bekasi",
+    "slug": "konstruksi-carport-baja-untuk-rumah-di-bekasi",
+    "excerpt": "Membangun carport baja untuk rumah di Bekasi dengan 2-3 mobil. Solusi konstruksi baja yang kuat dan tahan lama.",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Membangun carport baja untuk rumah di Bekasi adalah salah satu cara untuk melindungi mobil dari sinar matahari dan hujan. <strong>Konstruksi baja</strong> menjadi pilihan yang populer karena kekuatan dan ketahanannya. Dalam artikel ini, kita akan membahas tentang konstruksi carport baja untuk rumah dengan 2-3 mobil di perumahan Bekasi. <strong>Mandiri Steel</strong> akan membantu Anda memahami proses pembangunan carport baja yang kuat dan tahan lama.",
+      "keyPoints": [
+        "Konstruksi carport baja yang kuat dan tahan lama",
+        "Desain carport yang sesuai dengan kebutuhan rumah",
+        "Pemilihan bahan baja yang berkualitas"
+      ],
+      "sections": [
+        {
+          "heading": "Manfaat Konstruksi Carport Baja",
+          "content": "Konstruksi carport baja memiliki beberapa manfaat, seperti <strong>kekuatan</strong> dan <strong>ketahanan</strong> yang tinggi. Carport baja juga dapat <strong>menghemat biaya</strong> perawatan dan <strong>mengurangi risiko</strong> kerusakan. Selain itu, carport baja juga dapat <strong>meningkatkan nilai</strong> properti rumah. Dalam memilih konstruksi carport baja, perlu mempertimbangkan beberapa faktor, seperti <strong>ukuran</strong> carport, <strong>desain</strong> carport, dan <strong>bahan</strong> yang digunakan. <br><br>Contoh nyata dari konstruksi carport baja yang sukses dapat dilihat di perumahan Bekasi, seperti di <strong>Cikarang</strong> dan <strong>Tambun</strong>. Di daerah ini, banyak rumah yang menggunakan konstruksi carport baja untuk melindungi mobil dari sinar matahari dan hujan.",
+          "imageSearchQuery": "carport baja di cikarang"
+        },
+        {
+          "heading": "Desain Carport Baja yang Sesuai dengan Kebutuhan Rumah",
+          "content": "Desain carport baja yang sesuai dengan kebutuhan rumah sangat penting untuk memastikan bahwa carport dapat <strong>melindungi</strong> mobil dengan efektif. Beberapa faktor yang perlu dipertimbangkan dalam desain carport baja adalah <strong>ukuran</strong> carport, <strong>bentuk</strong> carport, dan <strong>material</strong> yang digunakan. <br><br>Untuk rumah dengan 2-3 mobil, desain carport baja yang sesuai adalah desain yang <strong>lebar</strong> dan <strong>tinggi</strong> untuk memastikan bahwa semua mobil dapat <strong>masuk</strong> dengan nyaman. Selain itu, desain carport baja juga harus <strong>sesuai</strong> dengan arsitektur rumah untuk memastikan bahwa carport <strong>terlihat</strong> harmonis dengan rumah.",
+          "productId": 1
+        },
+        {
+          "heading": "Pemilihan Bahan Baja yang Berkualitas",
+          "content": "Pemilihan bahan baja yang berkualitas sangat penting untuk memastikan bahwa konstruksi carport baja <strong>kuat</strong> dan <strong>tahan lama</strong>. Beberapa faktor yang perlu dipertimbangkan dalam pemilihan bahan baja adalah <strong>jenis</strong> baja, <strong>kualitas</strong> baja, dan <strong>harga</strong> baja. <br><br>Untuk konstruksi carport baja, <strong>baja WF</strong> adalah pilihan yang populer karena <strong>kekuatan</strong> dan <strong>ketahanannya</strong>. Selain itu, baja WF juga <strong>lebih murah</strong> daripada baja lainnya, sehingga dapat <strong>menghemat biaya</strong> konstruksi.",
+          "productId": 7
+        },
+        {
+          "heading": "Tips Membangun Carport Baja yang Kuat dan Tahan Lama",
+          "content": "Membangun carport baja yang kuat dan tahan lama memerlukan beberapa tips, seperti <strong>menggunakan bahan</strong> yang berkualitas, <strong>merancang desain</strong> yang sesuai, dan <strong>menggunakan teknik</strong> konstruksi yang tepat. <br><br>Beberapa tips lainnya adalah <strong>menggunakan pondasi</strong> yang kuat, <strong>menggunakan rangka</strong> yang kuat, dan <strong>menggunakan atap</strong> yang tahan lama. Selain itu, juga perlu <strong>menggunakan cat</strong> yang berkualitas untuk melindungi carport dari <strong>karat</strong> dan <strong>kerusakan</strong> lainnya.",
+          "productId": 1
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Konstruksi Carport Baja?",
+          "content": "Mandiri Steel adalah salah satu perusahaan konstruksi baja yang <strong>terpercaya</strong> dan <strong>berpengalaman</strong> di Bekasi. Dengan lebih dari <strong>25 tahun</strong> pengalaman, Mandiri Steel telah membantu banyak klien <strong>membangun carport baja</strong> yang kuat dan tahan lama. <br><br>Mandiri Steel juga <strong>menawarkan</strong> layanan <strong>survei gratis</strong> untuk membantu klien <strong>menentukan</strong> kebutuhan konstruksi carport baja. Selain itu, Mandiri Steel juga <strong>menawarkan garansi struktural</strong> untuk memastikan bahwa konstruksi carport baja <strong>kuat</strong> dan <strong>tahan lama</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "Layanan Konstruksi Carport Baja di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menawarkan layanan konstruksi carport baja di Bekasi dan sekitarnya, seperti <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Jababeka</strong>. Dengan <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang canggih</strong>, Mandiri Steel dapat <strong>membangun carport baja</strong> yang kuat dan tahan lama dengan <strong>cepat</strong> dan <strong>efisien</strong>. <br><br>Untuk klien yang berada di <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, dan <strong>Kota Deltamas</strong>, Mandiri Steel juga menawarkan layanan <strong>konstruksi carport baja</strong> yang sesuai dengan kebutuhan Anda.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dalam membangun carport baja untuk rumah di Bekasi, perlu mempertimbangkan beberapa faktor, seperti desain, bahan, dan konstruksi. Dengan memilih Mandiri Steel sebagai mitra konstruksi, Anda dapat <strong>membangun carport baja</strong> yang kuat dan tahan lama dengan <strong>cepat</strong> dan <strong>efisien</strong>. Hubungi Mandiri Steel sekarang juga untuk <strong>mengetahui lebih lanjut</strong> tentang layanan konstruksi carport baja yang kami tawarkan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 125,
+    "title": "Mandiri Steel: Bengkel Las Terpercaya di Bekasi",
+    "slug": "mandiri-steel-bengkel-las-terpercaya-di-bekasi-1786316554707",
+    "excerpt": "Mandiri Steel, bengkel las terpercaya di Bekasi, menawarkan jasa pembuatan kanopi, pagar, trellis, dan railing dengan bahan baja berkualitas",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/photo-1655558850639-9285bbd1987e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwZGklMjBiZWthc2l8ZW58MHwwfHx8MTc4NjMxNjQ4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Mandiri Steel adalah salah satu bengkel las terpercaya di Bekasi yang telah berpengalaman lebih dari 25 tahun dalam melayani kebutuhan masyarakat akan jasa pembuatan kanopi, pagar, trellis, dan railing. Dengan menggunakan bahan baja berkualitas dan teknologi canggih, Mandiri Steel dapat memproduksi produk yang kuat, tahan lama, dan estetis. <strong>Kanopi, pagar, trellis, dan railing</strong> yang dibuat oleh Mandiri Steel dapat meningkatkan keamanan dan keindahan rumah atau bangunan Anda.",
+      "keyPoints": [
+        "Mandiri Steel memiliki pengalaman lebih dari 25 tahun",
+        "Menggunakan bahan baja berkualitas",
+        "Teknologi canggih untuk produksi yang presisi",
+        "Produk yang kuat, tahan lama, dan estetis"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Menggunakan Jasa Bengkel Las Mandiri Steel",
+          "content": "Menggunakan jasa bengkel las Mandiri Steel memiliki beberapa kelebihan, seperti <strong>harga yang kompetitif</strong>, <strong>produk yang berkualitas</strong>, dan <strong>layanan yang memuaskan</strong>. Selain itu, Mandiri Steel juga menawarkan <strong>garansi struktural</strong> untuk semua produknya, sehingga Anda dapat memiliki ketenangan pikiran saat menggunakan produk kami. <br> Dalam proses pembuatan, Mandiri Steel menggunakan <strong>bahan baja SNI</strong> yang kuat dan tahan lama, sehingga produk yang dihasilkan dapat bertahan dalam jangka waktu lama. <br> Contoh nyata dari kelebihan Mandiri Steel adalah pembuatan <strong>kanopi minimalis</strong> untuk rumah di Bekasi Timur, yang tidak hanya meningkatkan keindahan rumah tetapi juga memberikan perlindungan dari sinar matahari dan hujan.",
+          "imageSearchQuery": "kanopi minimalis di bekasi",
+          "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBtaW5pbWFsaXMlMjBkaSUyMGJla2FzaXxlbnwwfDB8fHwxNzg2MzE2NDgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips Memilih Bengkel Las yang Tepat",
+          "content": "Dalam memilih bengkel las, ada beberapa tips yang perlu Anda perhatikan, seperti <strong>pengalaman bengkel</strong>, <strong>portofolio</strong>, dan <strong>testimoni dari pelanggan</strong>. <br> Selain itu, Anda juga perlu mempertimbangkan <strong>harga</strong> dan <strong>layanan</strong> yang ditawarkan oleh bengkel las. <br> Berikut beberapa tips yang dapat Anda lakukan: <ul> <li>Pertimbangkan pengalaman bengkel las</li> <li>Periksa portofolio dan testimoni dari pelanggan</li> <li>Bandlingkan harga dan layanan yang ditawarkan</li> </ul> Dengan melakukan tips di atas, Anda dapat memilih bengkel las yang tepat untuk kebutuhan Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel memiliki beberapa kelebihan yang membuatnya menjadi pilihan utama bagi masyarakat Bekasi, seperti <strong>pengalaman lebih dari 25 tahun</strong>, <strong>menggunakan bahan baja SNI</strong>, dan <strong>menawarkan garansi struktural</strong>. <br> Selain itu, Mandiri Steel juga memiliki <strong>layanan yang memuaskan</strong> dan <strong>harga yang kompetitif</strong>, sehingga Anda dapat memiliki ketenangan pikiran saat menggunakan produk kami. <br> Dalam proses pembuatan, Mandiri Steel menggunakan <strong>teknologi canggih</strong> untuk memproduksi produk yang presisi dan berkualitas. <br> Contoh nyata dari kelebihan Mandiri Steel adalah pembuatan <strong>pagar minimalis modern</strong> untuk rumah di Tambun, yang tidak hanya meningkatkan keindahan rumah tetapi juga memberikan perlindungan dari lingkungan sekitar.",
+          "productId": 3
+        },
+        {
+          "heading": "Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas, meliputi <strong>Bekasi Timur</strong>, <strong>Bekasi Barat</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>sekitarnya</strong>. <br> Dengan demikian, Anda dapat memiliki ketenangan pikiran saat menggunakan produk kami, karena Mandiri Steel dapat melayani kebutuhan Anda dengan cepat dan efisien. <br> Contoh nyata dari area layanan Mandiri Steel adalah pembuatan <strong>kanopi kaca tempered</strong> untuk rumah di Bekasi Timur, yang tidak hanya meningkatkan keindahan rumah tetapi juga memberikan perlindungan dari sinar matahari dan hujan."
+        },
+        {
+          "heading": "Pengalaman Mandiri Steel dalam Melayani Kebutuhan Masyarakat",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam melayani kebutuhan masyarakat akan jasa pembuatan kanopi, pagar, trellis, dan railing. <br> Dalam proses pembuatan, Mandiri Steel menggunakan <strong>bahan baja SNI</strong> yang kuat dan tahan lama, sehingga produk yang dihasilkan dapat bertahan dalam jangka waktu lama. <br> Contoh nyata dari pengalaman Mandiri Steel adalah pembuatan <strong>teralis jendela minimalis</strong> untuk rumah di Cibitung, yang tidak hanya meningkatkan keindahan rumah tetapi juga memberikan perlindungan dari lingkungan sekitar.",
+          "productId": 5
+        },
+        {
+          "heading": "Garansi Struktural dan Layanan Purna Jual Mandiri Steel",
+          "content": "Mandiri Steel menawarkan <strong>garansi struktural</strong> untuk semua produknya, sehingga Anda dapat memiliki ketenangan pikiran saat menggunakan produk kami. <br> Selain itu, Mandiri Steel juga memiliki <strong>layanan purna jual</strong> yang memuaskan, sehingga Anda dapat memiliki ketenangan pikiran saat menggunakan produk kami. <br> Dalam proses pembuatan, Mandiri Steel menggunakan <strong>teknologi canggih</strong> untuk memproduksi produk yang presisi dan berkualitas. <br> Contoh nyata dari garansi struktural dan layanan purna jual Mandiri Steel adalah pembuatan <strong>railing tangga minimalis</strong> untuk rumah di Tambun, yang tidak hanya meningkatkan keindahan rumah tetapi juga memberikan perlindungan dari lingkungan sekitar.",
+          "productId": 6
+        }
+      ],
+      "conclusion": "Mandiri Steel adalah salah satu bengkel las terpercaya di Bekasi yang telah berpengalaman lebih dari 25 tahun dalam melayani kebutuhan masyarakat akan jasa pembuatan kanopi, pagar, trellis, dan railing. Dengan menggunakan bahan baja berkualitas dan teknologi canggih, Mandiri Steel dapat memproduksi produk yang kuat, tahan lama, dan estetis. Jika Anda membutuhkan jasa pembuatan kanopi, pagar, trellis, atau railing, maka Mandiri Steel adalah pilihan yang tepat untuk Anda. <strong>Hubungi Mandiri Steel</strong> sekarang juga untuk mendapatkan informasi lebih lanjut tentang produk dan layanan kami."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 126,
+    "title": "Harga Railing Tangga Stainless Steel Bekasi 2025",
+    "slug": "harga-railing-tangga-stainless-steel-bekasi-2025",
+    "excerpt": "Harga railing tangga stainless steel di Bekasi 2025, mulai dari Rp 1.500.000 per meter. Dapatkan informasi lengkap tentang harga, manfaat, dan tips memilih railing tangga yang sesuai",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-09",
+    "image": "https://images.unsplash.com/photo-1587173616214-b1b6df584362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwdGFuZ2dhJTIwc3RhaW5sZXNzJTIwc3RlZWwlMjBtb2Rlcm58ZW58MHwwfHx8MTc4NjMxNjU1Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing tangga stainless steel adalah salah satu pilihan yang populer untuk meningkatkan keamanan dan estetika rumah. <strong>Bekasi</strong> sebagai salah satu kota besar di Indonesia, memiliki banyak pilihan railing tangga stainless steel dengan harga yang kompetitif. Dalam artikel ini, kita akan membahas tentang harga railing tangga stainless steel di Bekasi 2025, serta tips memilih railing tangga yang sesuai untuk rumah Anda.",
+      "keyPoints": [
+        "Harga railing tangga stainless steel di Bekasi 2025",
+        "Manfaat menggunakan railing tangga stainless steel",
+        "Tips memilih railing tangga yang sesuai"
+      ],
+      "sections": [
+        {
+          "heading": "Harga Railing Tangga Stainless Steel di Bekasi 2025",
+          "content": "Harga railing tangga stainless steel di Bekasi 2025 bervariasi tergantung pada jenis, ukuran, dan material yang digunakan. <strong>Railing tangga stainless steel</strong> dapat dibeli dengan harga mulai dari Rp 1.500.000 per meter. Namun, harga ini dapat berbeda-beda tergantung pada penjual dan kualitas material yang digunakan. Berikut adalah beberapa contoh harga railing tangga stainless steel di Bekasi 2025:<br><br><ul><li>Railing tangga stainless steel sederhana: Rp 1.500.000 - Rp 2.500.000 per meter</li><li>Railing tangga stainless steel modern: Rp 2.500.000 - Rp 4.000.000 per meter</li><li>Railing tangga stainless steel premium: Rp 4.000.000 - Rp 6.000.000 per meter</li></ul><br><br>Perlu diingat bahwa harga di atas hanya sebagai acuan dan dapat berbeda-beda tergantung pada kebutuhan dan preferensi Anda.",
+          "imageSearchQuery": "harga railing tangga stainless steel",
+          "image": "https://images.unsplash.com/photo-1572805190796-25c1c2667741?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxoYXJnYSUyMHJhaWxpbmclMjB0YW5nZ2ElMjBzdGFpbmxlc3MlMjBzdGVlbHxlbnwwfDB8fHwxNzg2MzE2NTUyfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Manfaat Menggunakan Railing Tangga Stainless Steel",
+          "content": "Railing tangga stainless steel memiliki banyak manfaat, termasuk:<br><br><ul><li><strong>Keamanan</strong>: Railing tangga stainless steel dapat membantu mencegah kecelakaan dan cedera dengan menyediakan pegangan yang kuat dan stabil.</li><li><strong>Estetika</strong>: Railing tangga stainless steel dapat meningkatkan estetika rumah dengan desain yang modern dan elegan.</li><li><strong>Kualitas</strong>: Railing tangga stainless steel terbuat dari material yang kuat dan tahan lama, sehingga dapat bertahan dalam jangka waktu lama.</li></ul><br><br> Selain itu, railing tangga stainless steel juga mudah dibersihkan dan dirawat, sehingga dapat menjadi pilihan yang praktis untuk rumah Anda.",
+          "productId": 6
+        },
+        {
+          "heading": "Tips Memilih Railing Tangga yang Sesuai",
+          "content": "Dalam memilih railing tangga, ada beberapa hal yang perlu dipertimbangkan, termasuk:<br><br><ul><li><strong>Jenis material</strong>: Pilih material yang kuat dan tahan lama, seperti stainless steel atau besi.</li><li><strong>Ukuran</strong>: Pilih ukuran yang sesuai dengan kebutuhan Anda, terutama jika Anda memiliki anak kecil atau hewan peliharaan.</li><li><strong>Desain</strong>: Pilih desain yang sesuai dengan estetika rumah Anda, terutama jika Anda memiliki gaya arsitektur yang modern atau klasik.</li></ul><br><br>Perlu diingat bahwa railing tangga yang sesuai dapat membantu meningkatkan keamanan dan estetika rumah Anda.",
+          "productId": 6
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu penyedia railing tangga stainless steel terbaik di Bekasi. Dengan lebih dari 25 tahun pengalaman, kami telah membantu banyak pelanggan dalam memilih dan memasang railing tangga yang sesuai. <strong>Kualitas</strong> dan <strong>keamanan</strong> adalah prioritas utama kami, sehingga kami hanya menggunakan material yang terbaik dan memiliki standar keamanan yang tinggi. Selain itu, kami juga menawarkan <strong>garansi struktural</strong> dan <strong>survey gratis</strong> untuk memastikan bahwa railing tangga Anda dipasang dengan benar dan aman.",
+          "productId": 6
+        },
+        {
+          "heading": "Layanan dan Garansi",
+          "content": "Mandiri Steel menawarkan layanan dan garansi yang komprehensif, termasuk:<br><br><ul><li><strong>Garansi struktural</strong>: Kami menawarkan garansi struktural untuk memastikan bahwa railing tangga Anda dipasang dengan benar dan aman.</li><li><strong>Survey gratis</strong>: Kami menawarkan survey gratis untuk memastikan bahwa railing tangga Anda dipasang dengan benar dan aman.</li><li><strong>Layanan purna jual</strong>: Kami menawarkan layanan purna jual untuk memastikan bahwa Anda puas dengan railing tangga Anda.</li></ul><br><br>Perlu diingat bahwa layanan dan garansi kami dirancang untuk memastikan bahwa Anda puas dengan railing tangga Anda dan dapat menikmati keamanan dan estetika yang optimal.",
+          "productId": 6
+        },
+        {
+          "heading": "Kota Bekasi dan Sekitarnya",
+          "content": "Kota Bekasi dan sekitarnya, seperti Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang, memiliki banyak pilihan railing tangga stainless steel. <strong>Mandiri Steel</strong> telah membantu banyak pelanggan di kota-kota tersebut dalam memilih dan memasang railing tangga yang sesuai. Dengan lebih dari 25 tahun pengalaman, kami telah membantu banyak pelanggan dalam memilih dan memasang railing tangga yang sesuai, sehingga Anda dapat yakin bahwa Anda akan mendapatkan layanan yang terbaik.",
+          "productId": 6
+        }
+      ],
+      "conclusion": "Dalam memilih railing tangga stainless steel, ada beberapa hal yang perlu dipertimbangkan, termasuk jenis material, ukuran, dan desain. <strong>Mandiri Steel</strong> adalah salah satu penyedia railing tangga stainless steel terbaik di Bekasi, dengan lebih dari 25 tahun pengalaman dan kualitas yang terbaik. Jika Anda membutuhkan railing tangga stainless steel, hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut dan penawaran yang terbaik."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 121,
     "title": "Tips Memilih Warna Kanopi",
     "slug": "tips-memilih-warna-kanopi-yang-cocok-dengan-cat-rumah-1786294953944",
