@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 133,
+    "title": "Tips Hemat Biaya Renovasi Pagar Dan Kanopi",
+    "slug": "tips-hemat-biaya-renovasi-pagar-dan-kanopi-1786402952043",
+    "excerpt": "Renovasi pagar dan kanopi tanpa mengorbankan kualitas dengan tips hemat biaya dari Mandiri Steel",
+    "category": "Tips and Trick",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1696332865227-904a004c9c0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyZW5vdmFzaSUyMHBhZ2FyJTIwZGFuJTIwa2Fub3BpfGVufDB8MHx8fDE3ODY0MDI4MDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Renovasi <strong>pagar</strong> dan <strong>kanopi</strong> merupakan salah satu cara untuk meningkatkan keamanan dan estetika rumah. Namun, biaya renovasi yang tinggi seringkali menjadi hambatan. <strong>Mandiri Steel</strong> hadir untuk membantu Anda melakukan renovasi pagar dan kanopi dengan <strong>hemat biaya</strong> tanpa mengorbankan kualitas. Dalam artikel ini, kita akan membahas beberapa tips untuk melakukan renovasi pagar dan kanopi dengan biaya yang efektif.",
+      "keyPoints": [
+        "Tips hemat biaya renovasi pagar dan kanopi",
+        "Pilih bahan yang tepat",
+        "Desain yang sederhana",
+        "Pilih jasa renovasi yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept: Mengenal Pagar Dan Kanopi",
+          "content": "Pagar dan kanopi merupakan dua elemen yang sangat penting dalam sebuah rumah. <strong>Pagar</strong> berfungsi sebagai penjaga keamanan rumah, sedangkan <strong>kanopi</strong> berfungsi sebagai pelindung dari sinar matahari dan hujan. Dalam memilih <strong>pagar</strong> dan <strong>kanopi</strong>, kita harus mempertimbangkan beberapa faktor, seperti bahan, desain, dan biaya. <br> <strong>Mandiri Steel</strong> menawarkan berbagai jenis <strong>pagar</strong> dan <strong>kanopi</strong> yang terbuat dari bahan <strong>baja</strong> yang kuat dan tahan lama. Dengan <strong>pengalaman lebih dari 25 tahun</strong> dalam industri <strong>konstruksi baja</strong>, <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih <strong>pagar</strong> dan <strong>kanopi</strong> yang tepat untuk rumah Anda.",
+          "imageSearchQuery": "pagar dan kanopi baja",
+          "image": "https://images.unsplash.com/photo-1696332865227-904a004c9c0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGRhbiUyMGthbm9waSUyMGJhamF8ZW58MHwwfHx8MTc4NjQwMjgwOHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tips Memilih Bahan Yang Tepat",
+          "content": "Dalam memilih bahan untuk <strong>pagar</strong> dan <strong>kanopi</strong>, kita harus mempertimbangkan beberapa faktor, seperti kekuatan, ketahanan, dan biaya. <strong>Baja</strong> merupakan salah satu bahan yang paling populer digunakan untuk <strong>pagar</strong> dan <strong>kanopi</strong> karena kekuatan dan ketahanannya. <br> <strong>Mandiri Steel</strong> menawarkan berbagai jenis <strong>baja</strong> yang dapat digunakan untuk <strong>pagar</strong> dan <strong>kanopi</strong>, seperti <strong>baja WF</strong> dan <strong>baja hollow</strong>. Dengan menggunakan <strong>baja</strong> sebagai bahan, kita dapat menghemat biaya dan meningkatkan keamanan rumah.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Desain Yang Sederhana Namun Elegan",
+          "content": "Desain <strong>pagar</strong> dan <strong>kanopi</strong> yang sederhana namun elegan dapat membantu meningkatkan estetika rumah. <strong>Mandiri Steel</strong> menawarkan berbagai jenis desain <strong>pagar</strong> dan <strong>kanopi</strong> yang dapat disesuaikan dengan kebutuhan dan selera Anda. <br> Dengan menggunakan desain yang sederhana, kita dapat menghemat biaya dan waktu dalam proses renovasi. Selain itu, desain yang sederhana juga dapat membuat <strong>pagar</strong> dan <strong>kanopi</strong> lebih mudah untuk dirawat dan dipelihara.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Tips Merawat Pagar Dan Kanopi",
+          "content": "Merawat <strong>pagar</strong> dan <strong>kanopi</strong> merupakan salah satu cara untuk meningkatkan umur dan keamanan rumah. <strong>Mandiri Steel</strong> menawarkan beberapa tips untuk merawat <strong>pagar</strong> dan <strong>kanopi</strong>, seperti membersihkan secara teratur dan memeriksa kerusakan. <br> Dengan merawat <strong>pagar</strong> dan <strong>kanopi</strong> secara teratur, kita dapat menghemat biaya perawatan dan meningkatkan keamanan rumah. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan jasa perawatan <strong>pagar</strong> dan <strong>kanopi</strong> yang dapat membantu Anda dalam merawat <strong>pagar</strong> dan <strong>kanopi</strong> dengan lebih efektif."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan <strong>konstruksi baja</strong> yang terpercaya dan berpengalaman di Indonesia. Dengan <strong>pengalaman lebih dari 25 tahun</strong> dalam industri <strong>konstruksi baja</strong>, <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih <strong>pagar</strong> dan <strong>kanopi</strong> yang tepat untuk rumah Anda. <br> <strong>Mandiri Steel</strong> menawarkan berbagai jenis <strong>pagar</strong> dan <strong>kanopi</strong> yang terbuat dari bahan <strong>baja</strong> yang kuat dan tahan lama. Dengan menggunakan <strong>baja</strong> sebagai bahan, kita dapat menghemat biaya dan meningkatkan keamanan rumah. <strong>Mandiri Steel</strong> juga menawarkan jasa perawatan <strong>pagar</strong> dan <strong>kanopi</strong> yang dapat membantu Anda dalam merawat <strong>pagar</strong> dan <strong>kanopi</strong> dengan lebih efektif.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel merupakan perusahaan <strong>konstruksi baja</strong> yang beroperasi di wilayah <strong>Bekasi</strong> dan <strong>Jabodetabek</strong>. <strong>Mandiri Steel</strong> menawarkan jasa renovasi <strong>pagar</strong> dan <strong>kanopi</strong> yang dapat membantu Anda dalam meningkatkan keamanan dan estetika rumah. <br> Dengan menggunakan jasa <strong>Mandiri Steel</strong>, kita dapat menghemat biaya dan waktu dalam proses renovasi. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan garansi struktural yang dapat membantu Anda dalam merawat <strong>pagar</strong> dan <strong>kanopi</strong> dengan lebih efektif. <strong>Mandiri Steel</strong> melayani wilayah <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>."
+        }
+      ],
+      "conclusion": "Dalam melakukan renovasi <strong>pagar</strong> dan <strong>kanopi</strong>, kita harus mempertimbangkan beberapa faktor, seperti bahan, desain, dan biaya. <strong>Mandiri Steel</strong> dapat membantu Anda dalam memilih <strong>pagar</strong> dan <strong>kanopi</strong> yang tepat untuk rumah Anda. Dengan menggunakan jasa <strong>Mandiri Steel</strong>, kita dapat menghemat biaya dan waktu dalam proses renovasi. Selain itu, <strong>Mandiri Steel</strong> juga menawarkan garansi struktural yang dapat membantu Anda dalam merawat <strong>pagar</strong> dan <strong>kanopi</strong> dengan lebih efektif. Hubungi <strong>Mandiri Steel</strong> sekarang juga untuk melakukan renovasi <strong>pagar</strong> dan <strong>kanopi</strong> dengan lebih efektif dan efisien."
+    },
+    "tags": [
+      "Tips and Trick",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 134,
+    "title": "Keamanan Rumah di Bekasi",
+    "slug": "keamanan-rumah-di-bekasi-1786402952043",
+    "excerpt": "Meningkatkan keamanan rumah di perumahan Grand Galaxy City Bekasi dengan solusi teralis dan pagar terbaik",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Keamanan rumah adalah salah satu hal yang paling penting dalam memilih tempat tinggal. <strong>Perumahan Grand Galaxy City Bekasi</strong> adalah salah satu area yang paling diminati di Bekasi, namun keamanan tetap menjadi prioritas utama. Dalam artikel ini, kita akan membahas tentang solusi <strong>teralis dan pagar</strong> terbaik untuk meningkatkan keamanan rumah di perumahan Grand Galaxy City Bekasi. <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda.",
+      "keyPoints": [
+        "Teralis dan pagar sebagai solusi keamanan rumah",
+        "Tips memilih teralis dan pagar yang tepat",
+        "Kelebihan menggunakan jasa Mandiri Steel"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pentingnya Keamanan Rumah di Perumahan Grand Galaxy City Bekasi",
+          "content": "Perumahan Grand Galaxy City Bekasi adalah salah satu area yang paling diminati di Bekasi. <strong>Keamanan rumah</strong> adalah salah satu hal yang paling penting dalam memilih tempat tinggal. Dengan meningkatnya kasus kejahatan di Bekasi, keamanan rumah menjadi prioritas utama. <strong>Teralis dan pagar</strong> adalah salah satu solusi terbaik untuk meningkatkan keamanan rumah di perumahan Grand Galaxy City Bekasi. <br><br> Dalam memilih teralis dan pagar, ada beberapa hal yang perlu diperhatikan, seperti <strong>jenis bahan</strong>, <strong>desain</strong>, dan <strong>harga</strong>. <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda.",
+          "imageSearchQuery": "perumahan grand galaxy city bekasi"
+        },
+        {
+          "heading": "2. Tips Memilih Teralis dan Pagar yang Tepat",
+          "content": "Dalam memilih teralis dan pagar, ada beberapa hal yang perlu diperhatikan. <strong>Jenis bahan</strong> adalah salah satu hal yang paling penting. <strong>Baja</strong> dan <strong>aluminium</strong> adalah dua jenis bahan yang paling umum digunakan. <strong>Desain</strong> juga sangat penting, karena dapat mempengaruhi keamanan dan estetika rumah. <br><br> Berikut beberapa tips memilih teralis dan pagar yang tepat: <ul><li>Pilih jenis bahan yang sesuai dengan kebutuhan Anda</li><li>Pilih desain yang sesuai dengan gaya rumah Anda</li><li>Pertimbangkan harga dan kualitas</li></ul> <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Kelebihan Menggunakan Jasa Mandiri Steel",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang paling berpengalaman di bidang keamanan rumah. <strong>25 tahun pengalaman</strong> dan <strong>penggunaan bahan SNI</strong> membuat Mandiri Steel menjadi pilihan terbaik untuk kebutuhan keamanan rumah Anda. <br><br> Berikut beberapa kelebihan menggunakan jasa Mandiri Steel: <ul><li>Pengalaman 25 tahun di bidang keamanan rumah</li><li>Penggunaan bahan SNI</li><li>Garansi struktural</li></ul> <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Cara Memasang Teralis dan Pagar yang Benar",
+          "content": "Memasang teralis dan pagar yang benar sangat penting untuk meningkatkan keamanan rumah. <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda. <br><br> Berikut beberapa cara memasang teralis dan pagar yang benar: <ul><li>Pastikan ukuran teralis dan pagar sesuai dengan kebutuhan Anda</li><li>Pastikan pemasangan teralis dan pagar dilakukan oleh ahli</li><li>Pastikan teralis dan pagar dipasang dengan benar dan kuat</li></ul> <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda.",
+          "productId": 6
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel sebagai Solusi Keamanan Rumah?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang paling berpengalaman di bidang keamanan rumah. <strong>25 tahun pengalaman</strong> dan <strong>penggunaan bahan SNI</strong> membuat Mandiri Steel menjadi pilihan terbaik untuk kebutuhan keamanan rumah Anda. <br><br> Berikut beberapa alasan mengapa memilih Mandiri Steel sebagai solusi keamanan rumah: <ul><li>Pengalaman 25 tahun di bidang keamanan rumah</li><li>Penggunaan bahan SNI</li><li>Garansi struktural</li></ul> <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda.",
+          "productId": 3
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel memiliki area layanan yang luas di Bekasi, termasuk <strong>Grand Galaxy City</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br> Dengan area layanan yang luas, Mandiri Steel dapat memenuhi kebutuhan keamanan rumah Anda di mana saja di Bekasi. <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda."
+        }
+      ],
+      "conclusion": "Dalam meningkatkan keamanan rumah di perumahan Grand Galaxy City Bekasi, teralis dan pagar adalah salah satu solusi terbaik. <strong>Mandiri Steel</strong> hadir sebagai solusi terbaik untuk kebutuhan keamanan rumah Anda. Dengan pengalaman 25 tahun dan penggunaan bahan SNI, Mandiri Steel menjadi pilihan terbaik untuk kebutuhan keamanan rumah Anda. Hubungi Mandiri Steel sekarang juga untuk mendapatkan solusi keamanan rumah yang terbaik."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 135,
+    "title": "Bengkel Las Mandiri",
+    "slug": "bengkel-las-mandiri-setu-bekasi",
+    "excerpt": "Bengkel las di Setu Bekasi yang melayani Cikarang, Cibitung, dan Karangbahagia",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1655558850639-9285bbd1987e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwZGklMjBiZWthc2l8ZW58MHwwfHx8MTc4NjMxNjQ4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Bengkel las</strong> menjadi salah satu kebutuhan penting dalam dunia konstruksi dan manufaktur. Di daerah Setu, Bekasi, <strong>Mandiri Steel</strong> hadir sebagai <strong>bengkel las</strong> yang terpercaya dan berpengalaman. Dengan lebih dari 25 tahun pengalaman, kami telah melayani berbagai kebutuhan las di daerah Cikarang, Cibitung, Karangbahagia, dan sekitarnya. Dalam artikel ini, kita akan membahas lebih lanjut tentang <strong>bengkel las</strong> dan layanan yang kami tawarkan.",
+      "keyPoints": [
+        "Bengkel las di Setu Bekasi",
+        "Melayani Cikarang, Cibitung, dan Karangbahagia",
+        "Lebih dari 25 tahun pengalaman"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Bengkel Las Mandiri",
+          "content": "<strong>Bengkel las Mandiri</strong> didirikan dengan visi untuk menjadi <strong>bengkel las</strong> terpercaya di daerah Bekasi. Kami memiliki tim yang berpengalaman dan terampil dalam menangani berbagai kebutuhan las, dari konstruksi bangunan hingga manufaktur mesin. Dengan menggunakan <strong>bahan-bahan yang berkualitas</strong> dan <strong>teknologi canggih</strong>, kami dapat menjamin kualitas hasil las yang tinggi. <br> <strong>Bengkel las Mandiri</strong> juga memiliki <strong>fasilitas yang memadai</strong>, termasuk mesin las yang canggih dan peralatan keselamatan yang lengkap. Kami juga memiliki <strong>tim yang responsif</strong> dan <strong>siap membantu</strong> Anda dalam menangani kebutuhan las Anda.",
+          "imageSearchQuery": "bengkel las di bekasi",
+          "image": "https://images.unsplash.com/photo-1655558850639-9285bbd1987e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwZGklMjBiZWthc2l8ZW58MHwwfHx8MTc4NjMxNjQ4MHww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Layanan Bengkel Las Mandiri",
+          "content": "<strong>Bengkel las Mandiri</strong> menawarkan berbagai layanan las, termasuk <strong>konstruksi bangunan</strong>, <strong>manufaktur mesin</strong>, dan <strong>perbaikan</strong>. Kami juga memiliki <strong>tim yang berpengalaman</strong> dalam menangani berbagai jenis bahan, termasuk <strong>baja</strong>, <strong>stainless steel</strong>, dan <strong>aluminium</strong>. <br> <strong>Bengkel las Mandiri</strong> juga memiliki <strong>fasilitas yang memadai</strong> untuk menangani proyek-proyek besar, termasuk <strong>gudang yang luas</strong> dan <strong>peralatan yang canggih</strong>. Kami juga memiliki <strong>tim yang responsif</strong> dan <strong>siap membantu</strong> Anda dalam menangani kebutuhan las Anda. <ul> <li> Konstruksi bangunan </li> <li> Manufaktur mesin </li> <li> Perbaikan </li> </ul>",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips dalam Memilih Bengkel Las",
+          "content": "Dalam memilih <strong>bengkel las</strong>, ada beberapa hal yang perlu Anda pertimbangkan. <strong>Pertama</strong>, pastikan <strong>bengkel las</strong> tersebut memiliki <strong>pengalaman yang cukup</strong> dalam menangani kebutuhan las Anda. <strong>Kedua</strong>, pastikan <strong>bengkel las</strong> tersebut memiliki <strong>fasilitas yang memadai</strong> untuk menangani proyek-proyek besar. <strong>Ketiga</strong>, pastikan <strong>bengkel las</strong> tersebut memiliki <strong>tim yang berpengalaman</strong> dan <strong>terampil</strong> dalam menangani berbagai jenis bahan. <br> <strong>Bengkel las Mandiri</strong> memiliki semua kriteria tersebut, dan kami siap membantu Anda dalam menangani kebutuhan las Anda. <ul> <li> Pengalaman yang cukup </li> <li> Fasilitas yang memadai </li> <li> Tim yang berpengalaman dan terampil </li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "4. Kelebihan Menggunakan Jasa Bengkel Las Mandiri",
+          "content": "<strong>Bengkel las Mandiri</strong> memiliki beberapa kelebihan yang membuat kami menjadi pilihan terbaik untuk kebutuhan las Anda. <strong>Pertama</strong>, kami memiliki <strong>pengalaman yang cukup</strong> dalam menangani berbagai kebutuhan las. <strong>Kedua</strong>, kami memiliki <strong>fasilitas yang memadai</strong> untuk menangani proyek-proyek besar. <strong>Ketiga</strong>, kami memiliki <strong>tim yang berpengalaman</strong> dan <strong>terampil</strong> dalam menangani berbagai jenis bahan. <br> <strong>Bengkel las Mandiri</strong> juga memiliki <strong>harga yang kompetitif</strong> dan <strong>layanan yang responsif</strong>. Kami siap membantu Anda dalam menangani kebutuhan las Anda, dan kami berkomitmen untuk memberikan hasil yang terbaik."
+        },
+        {
+          "heading": "5. Mengapa Memilih Bengkel Las Mandiri?",
+          "content": "<strong>Bengkel las Mandiri</strong> memiliki beberapa alasan yang membuat kami menjadi pilihan terbaik untuk kebutuhan las Anda. <strong>Pertama</strong>, kami memiliki <strong>pengalaman yang cukup</strong> dalam menangani berbagai kebutuhan las. <strong>Kedua</strong>, kami memiliki <strong>fasilitas yang memadai</strong> untuk menangani proyek-proyek besar. <strong>Ketiga</strong>, kami memiliki <strong>tim yang berpengalaman</strong> dan <strong>terampil</strong> dalam menangani berbagai jenis bahan. <br> <strong>Bengkel las Mandiri</strong> juga memiliki <strong>harga yang kompetitif</strong> dan <strong>layanan yang responsif</strong>. Kami siap membantu Anda dalam menangani kebutuhan las Anda, dan kami berkomitmen untuk memberikan hasil yang terbaik. <strong>Produk yang kami tawarkan</strong> termasuk <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong>. <strong>Produk</strong> yang kami tawarkan memiliki <strong>kualitas yang tinggi</strong> dan <strong>harga yang kompetitif</strong>. <ul> <li> Pengalaman yang cukup </li> <li> Fasilitas yang memadai </li> <li> Tim yang berpengalaman dan terampil </li> </ul>",
+          "productId": 3
+        },
+        {
+          "heading": "6. Area Layanan Bengkel Las Mandiri",
+          "content": "<strong>Bengkel las Mandiri</strong> melayani berbagai daerah di Bekasi, termasuk <strong>Cikarang</strong>, <strong>Cibitung</strong>, dan <strong>Karangbahagia</strong>. Kami juga melayani daerah-daerah lain di sekitar Bekasi, termasuk <strong>Tambun</strong>, <strong>Cikarang Barat</strong>, dan <strong>Cikarang Utara</strong>. <br> <strong>Bengkel las Mandiri</strong> memiliki <strong>tim yang responsif</strong> dan <strong>siap membantu</strong> Anda dalam menangani kebutuhan las Anda. Kami siap membantu Anda dalam menangani kebutuhan las Anda, dan kami berkomitmen untuk memberikan hasil yang terbaik. <ul> <li> Cikarang </li> <li> Cibitung </li> <li> Karangbahagia </li> </ul>"
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>bengkel las</strong>, pastikan Anda memilih <strong>bengkel las</strong> yang memiliki <strong>pengalaman yang cukup</strong>, <strong>fasilitas yang memadai</strong>, dan <strong>tim yang berpengalaman</strong> dan <strong>terampil</strong>. <strong>Bengkel las Mandiri</strong> memiliki semua kriteria tersebut, dan kami siap membantu Anda dalam menangani kebutuhan las Anda. <strong>Hubungi kami</strong> sekarang juga untuk mendapatkan informasi lebih lanjut tentang <strong>bengkel las</strong> dan layanan yang kami tawarkan."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 130,
     "title": "Pagar BRC untuk Keamanan Perumahan Cluster",
     "slug": "pagar-brc-untuk-keamanan-perumahan-cluster",
