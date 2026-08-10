@@ -33,6 +33,188 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 127,
+    "title": "Railing Tangga Outdoor Bekasi",
+    "slug": "railing-tangga-outdoor-bekasi-1786338154260",
+    "excerpt": "Railing tangga outdoor untuk taman dan halaman rumah di Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1665545910976-9d54db85c362?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwc3RhaXIlMjByYWlsaW5nJTIwZGVzaWdufGVufDB8MHx8fDE3ODYzMzgwMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing tangga outdoor menjadi salah satu elemen yang sangat penting dalam mendesain taman atau halaman rumah di Bekasi. <strong>Railing</strong> yang baik tidak hanya berfungsi sebagai pengaman, tetapi juga dapat meningkatkan estetika dan <strong>keindahan</strong> rumah. Dalam artikel ini, kita akan membahas tentang railing tangga outdoor, <strong>manfaatnya</strong>, dan <strong>tips</strong> dalam memilih yang tepat untuk rumah Anda.",
+      "keyPoints": [
+        "Railing tangga outdoor meningkatkan keamanan",
+        "Railing tangga outdoor meningkatkan estetika rumah",
+        "Pemilihan material yang tepat sangat penting"
+      ],
+      "sections": [
+        {
+          "heading": "Konsep Dasar Railing Tangga Outdoor",
+          "content": "Railing tangga outdoor adalah struktur yang dirancang untuk melindungi dan mengamankan tangga di luar ruangan. <strong>Railing</strong> ini biasanya dipasang di sekitar tangga untuk mencegah terjatuh atau cedera. Dalam memilih railing tangga outdoor, perlu mempertimbangkan beberapa faktor seperti <strong>keamanan</strong>, <strong>estetika</strong>, dan <strong>fungsi</strong>. Railing yang baik harus dapat memberikan rasa aman dan nyaman bagi penggunanya. <br><br>Contoh nyata dari railing tangga outdoor yang efektif dapat dilihat di beberapa rumah di Bekasi, seperti di kawasan <strong>Grand Wisata</strong> atau <strong>Summarecon Bekasi</strong>. Di sana, railing tangga outdoor tidak hanya berfungsi sebagai pengaman, tetapi juga sebagai elemen dekoratif yang meningkatkan keindahan rumah.",
+          "imageSearchQuery": "outdoor stair railing examples",
+          "image": "https://images.unsplash.com/photo-1699367796811-8834d59f64ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxvdXRkb29yJTIwc3RhaXIlMjByYWlsaW5nJTIwZXhhbXBsZXN8ZW58MHwwfHx8MTc4NjMzODAwOXww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Manfaat Railing Tangga Outdoor",
+          "content": "Railing tangga outdoor memiliki beberapa manfaat yang sangat penting. Pertama, <strong>keamanan</strong> yang diberikan oleh railing tangga outdoor tidak dapat disangkal. Dengan adanya railing, risiko terjatuh atau cedera dapat diminimalkan. Kedua, railing tangga outdoor juga dapat <strong>meningkatkan estetika</strong> rumah. Dengan desain yang tepat, railing tangga outdoor dapat menjadi elemen dekoratif yang sangat cantik. Ketiga, railing tangga outdoor juga dapat <strong>meningkatkan nilai</strong> rumah. Dengan adanya railing yang baik, rumah menjadi lebih menarik dan bernilai. <br><br>Beberapa contoh manfaat railing tangga outdoor dapat dilihat di beberapa proyek rumah di Bekasi, seperti di kawasan <strong>Kota Deltamas</strong> atau <strong>Lippo Cikarang</strong>. Di sana, railing tangga outdoor menjadi salah satu elemen yang sangat penting dalam mendesain rumah.",
+          "productId": 6
+        },
+        {
+          "heading": "Tips Memilih Railing Tangga Outdoor",
+          "content": "Dalam memilih railing tangga outdoor, perlu mempertimbangkan beberapa faktor seperti <strong>material</strong>, <strong>desain</strong>, dan <strong>biaya</strong>. Pertama, <strong>material</strong> yang digunakan harus kuat dan tahan lama. Beberapa material yang umum digunakan untuk railing tangga outdoor adalah <strong>baja</strong>, <strong>aluminium</strong>, dan <strong>kayu</strong>. Kedua, <strong>desain</strong> railing tangga outdoor harus sesuai dengan gaya rumah. Beberapa desain yang umum digunakan adalah <strong>minimalis</strong>, <strong>modern</strong>, dan <strong>klasik</strong>. Ketiga, <strong>biaya</strong> yang diperlukan untuk memasang railing tangga outdoor harus sesuai dengan budget. <br><br>Beberapa tips yang dapat digunakan dalam memilih railing tangga outdoor adalah: <ul><li>Pilih material yang kuat dan tahan lama</li><li>Pilih desain yang sesuai dengan gaya rumah</li><li>Pertimbangkan biaya yang diperlukan</li></ul>",
+          "productId": 6
+        },
+        {
+          "heading": "Pemeliharaan Railing Tangga Outdoor",
+          "content": "Pemeliharaan railing tangga outdoor sangat penting untuk menjaga keamanan dan estetika rumah. Beberapa tips yang dapat digunakan dalam memelihara railing tangga outdoor adalah: <ul><li>Membersihkan railing secara teratur</li><li>Memeriksa railing secara teratur</li><li>Mengganti railing yang rusak</li></ul> Dengan memelihara railing tangga outdoor, risiko terjatuh atau cedera dapat diminimalkan dan estetika rumah dapat dipertahankan."
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam memproduksi dan memasang railing tangga outdoor. Dengan lebih dari <strong>25 tahun</strong> pengalaman, Mandiri Steel telah menjadi salah satu perusahaan yang terpercaya di Bekasi. <strong>Material</strong> yang digunakan oleh Mandiri Steel adalah material yang kuat dan tahan lama, sehingga dapat menjaga keamanan dan estetika rumah. <strong>Desain</strong> yang ditawarkan oleh Mandiri Steel juga sangat beragam, sehingga dapat sesuai dengan gaya rumah. <br><br>Mandiri Steel juga menawarkan <strong>garansi struktural</strong> yang dapat memberikan ketenangan bagi penggunanya. Dengan garansi struktural, pengguna dapat yakin bahwa railing tangga outdoor yang dipasang oleh Mandiri Steel dapat bertahan lama dan aman.",
+          "productId": 6
+        },
+        {
+          "heading": "Layanan Area Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menyediakan layanan untuk area Bekasi dan sekitarnya, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Dengan layanan yang luas, Mandiri Steel dapat membantu Anda dalam memenuhi kebutuhan railing tangga outdoor untuk rumah Anda."
+        }
+      ],
+      "conclusion": "Dalam memilih railing tangga outdoor, perlu mempertimbangkan beberapa faktor seperti keamanan, estetika, dan biaya. Dengan memilih railing tangga outdoor yang tepat, Anda dapat meningkatkan keamanan dan estetika rumah. Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam memproduksi dan memasang railing tangga outdoor. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel dapat membantu Anda dalam memenuhi kebutuhan railing tangga outdoor untuk rumah Anda. Hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang railing tangga outdoor dan layanan yang tersedia."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 128,
+    "title": "Biaya Konstruksi Baja di Bekasi",
+    "slug": "biaya-konstruksi-baja-per-kg-di-bekasi",
+    "excerpt": "Biaya konstruksi baja per kg di Bekasi 2025: faktor yang mempengaruhi harga",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMGJla2FzaXxlbnwwfDB8fHwxNzg2MzM4MDc5fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Konstruksi baja merupakan salah satu material yang paling umum digunakan dalam pembangunan infrastruktur di Indonesia, terutama di daerah Bekasi. <strong>Baja</strong> memiliki kelebihan seperti kekuatan yang tinggi, tahan lama, dan dapat digunakan dalam berbagai jenis konstruksi. Namun, biaya konstruksi baja per kg di Bekasi dapat bervariasi tergantung pada beberapa faktor. Dalam artikel ini, kita akan membahas faktor-faktor yang mempengaruhi biaya konstruksi baja per kg di Bekasi dan memberikan tips untuk menghemat biaya.",
+      "keyPoints": [
+        "Biaya konstruksi baja per kg di Bekasi dipengaruhi oleh jenis baja",
+        "Kualitas baja mempengaruhi biaya konstruksi",
+        "Desain konstruksi yang kompleks dapat meningkatkan biaya"
+      ],
+      "sections": [
+        {
+          "heading": "Faktor yang Mempengaruhi Biaya Konstruksi Baja",
+          "content": "Biaya konstruksi baja per kg di Bekasi dipengaruhi oleh beberapa faktor, seperti <strong>jenis baja</strong>, <strong>kualitas baja</strong>, dan <strong>desain konstruksi</strong>. Jenis baja yang digunakan dapat mempengaruhi biaya konstruksi, karena baja dengan kualitas yang lebih tinggi memiliki harga yang lebih mahal. Kualitas baja juga mempengaruhi biaya konstruksi, karena baja dengan kualitas yang lebih tinggi memiliki kekuatan yang lebih tinggi dan dapat digunakan dalam jangka waktu yang lebih lama. Desain konstruksi yang kompleks juga dapat meningkatkan biaya konstruksi, karena memerlukan lebih banyak material dan tenaga kerja.",
+          "imageSearchQuery": "konstruksi baja bekasi",
+          "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMGJla2FzaXxlbnwwfDB8fHwxNzg2MzM4MDc5fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Jenis Baja yang Digunakan",
+          "content": "Jenis baja yang digunakan dapat mempengaruhi biaya konstruksi baja per kg di Bekasi. <strong>Baja karbon</strong> merupakan jenis baja yang paling umum digunakan, karena memiliki kekuatan yang tinggi dan harga yang relatif murah. <strong>Baja stainless</strong> juga digunakan, karena memiliki kekuatan yang tinggi dan tahan terhadap korosi. Namun, baja stainless memiliki harga yang lebih mahal daripada baja karbon.",
+          "productId": 7
+        },
+        {
+          "heading": "Kualitas Baja",
+          "content": "Kualitas baja mempengaruhi biaya konstruksi baja per kg di Bekasi. <strong>Baja dengan kualitas yang lebih tinggi</strong> memiliki kekuatan yang lebih tinggi dan dapat digunakan dalam jangka waktu yang lebih lama. Namun, baja dengan kualitas yang lebih tinggi memiliki harga yang lebih mahal. <strong>Baja dengan kualitas yang lebih rendah</strong> memiliki harga yang lebih murah, namun memiliki kekuatan yang lebih rendah dan dapat rusak lebih cepat.",
+          "productId": 7
+        },
+        {
+          "heading": "Desain Konstruksi",
+          "content": "Desain konstruksi yang kompleks dapat meningkatkan biaya konstruksi baja per kg di Bekasi. <strong>Desain konstruksi yang sederhana</strong> memiliki biaya yang lebih rendah, karena memerlukan lebih sedikit material dan tenaga kerja. Namun, desain konstruksi yang sederhana mungkin tidak dapat memenuhi kebutuhan yang lebih kompleks. <strong>Desain konstruksi yang kompleks</strong> memiliki biaya yang lebih tinggi, karena memerlukan lebih banyak material dan tenaga kerja.",
+          "productId": 7
+        },
+        {
+          "heading": "Tips untuk Menghemat Biaya",
+          "content": "Berikut beberapa tips untuk menghemat biaya konstruksi baja per kg di Bekasi: <ul><li>Pilih jenis baja yang sesuai dengan kebutuhan</li><li>Pilih kualitas baja yang sesuai dengan kebutuhan</li><li>Desain konstruksi yang sederhana</li><li>Pilih kontraktor yang berpengalaman</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel",
+          "content": "Mandiri Steel merupakan salah satu perusahaan konstruksi baja yang berpengalaman di Bekasi. Kami memiliki <strong>pengalaman lebih dari 25 tahun</strong> dalam konstruksi baja dan telah menyelesaikan banyak proyek di daerah Bekasi. Kami menggunakan <strong>bahan-bahan yang berkualitas tinggi</strong> dan memiliki <strong>garansi struktural</strong> untuk memastikan keamanan dan kekuatan konstruksi. Kami juga menawarkan <strong>survei gratis</strong> untuk membantu Anda menentukan biaya konstruksi baja per kg di Bekasi.",
+          "productId": 7
+        },
+        {
+          "heading": "Layanan Konstruksi Baja di Bekasi",
+          "content": "Mandiri Steel menawarkan layanan konstruksi baja di daerah Bekasi, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Kami memiliki tim yang berpengalaman dan peralatan yang canggih untuk memastikan konstruksi baja yang berkualitas tinggi.",
+          "productId": 7
+        }
+      ],
+      "conclusion": "Biaya konstruksi baja per kg di Bekasi dapat bervariasi tergantung pada beberapa faktor, seperti jenis baja, kualitas baja, dan desain konstruksi. Dengan memilih jenis baja yang sesuai, kualitas baja yang sesuai, dan desain konstruksi yang sederhana, Anda dapat menghemat biaya konstruksi baja per kg di Bekasi. Mandiri Steel merupakan salah satu perusahaan konstruksi baja yang berpengalaman di Bekasi dan menawarkan layanan konstruksi baja yang berkualitas tinggi. Hubungi kami sekarang untuk mendapatkan informasi lebih lanjut tentang biaya konstruksi baja per kg di Bekasi."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 129,
+    "title": "Kanopi Lipat dan Retractable",
+    "slug": "kanopi-lipat-dan-retractable-solusi-modern-untuk-teras",
+    "excerpt": "Kanopi lipat dan retractable, solusi modern untuk teras multifungsi di perumahan Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1739172064113-0e8c54fe9d6c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBsaXBhdCUyMG1vZGVybnxlbnwwfDB8fHwxNzg2MzM4MTUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Penggunaan <strong>kanopi lipat</strong> dan <strong>retractable</strong> telah menjadi tren dalam desain teras rumah di perumahan Bekasi. Dengan kemampuan untuk melipat dan mengembangkan kanopi, Anda dapat menikmati suasana luar ruangan dengan lebih fleksibel. <strong>Kanopi lipat</strong> dan <strong>retractable</strong> juga dapat meningkatkan estetika rumah Anda, membuatnya lebih modern dan menarik. Dalam artikel ini, kita akan membahas tentang kelebihan dan kekurangan <strong>kanopi lipat</strong> dan <strong>retractable</strong>, serta tips dalam memilih dan memasangnya.",
+      "keyPoints": [
+        "Kanopi lipat dan retractable dapat meningkatkan fleksibilitas penggunaan teras",
+        "Kanopi lipat dan retractable dapat meningkatkan estetika rumah",
+        "Pemilihan bahan dan desain yang tepat sangat penting untuk kanopi lipat dan retractable"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Kanopi Lipat dan Retractable",
+          "content": "Kanopi lipat dan retractable memiliki beberapa kelebihan yang membuatnya populer di kalangan pemilik rumah. <strong>Fleksibilitas</strong> adalah salah satu kelebihan utama, karena Anda dapat melipat dan mengembangkan kanopi sesuai dengan kebutuhan. <br> Selain itu, <strong>kanopi lipat</strong> dan <strong>retractable</strong> juga dapat <strong>meningkatkan estetika</strong> rumah Anda, membuatnya lebih modern dan menarik. <ul><li>Desain yang minimalis dan elegan</li><li>Bahan yang kuat dan tahan lama</li><li>Kemampuan untuk disesuaikan dengan kebutuhan</li></ul> Dalam memilih <strong>kanopi lipat</strong> dan <strong>retractable</strong>, penting untuk mempertimbangkan <strong>bahan</strong> dan <strong>desain</strong> yang tepat untuk rumah Anda.",
+          "imageSearchQuery": "kanopi lipat modern di perumahan Bekasi"
+        },
+        {
+          "heading": "Kekurangan Kanopi Lipat dan Retractable",
+          "content": "Meskipun <strong>kanopi lipat</strong> dan <strong>retractable</strong> memiliki beberapa kelebihan, ada juga beberapa kekurangan yang perlu dipertimbangkan. <strong>Harga</strong> yang lebih tinggi daripada kanopi konvensional adalah salah satu kekurangan utama. <br> Selain itu, <strong>perawatan</strong> yang lebih rumit juga dapat menjadi kekurangan. <ul><li>Perlu dilumasi secara teratur</li><li>Perlu dibersihkan secara teratur</li><li>Perlu diperiksa secara teratur untuk memastikan keamanan</li></ul> Namun, dengan <strong>perawatan</strong> yang tepat, <strong>kanopi lipat</strong> dan <strong>retractable</strong> dapat bertahan lama dan tetap berfungsi dengan baik.",
+          "productId": 1
+        },
+        {
+          "heading": "Tips Memilih Kanopi Lipat dan Retractable",
+          "content": "Dalam memilih <strong>kanopi lipat</strong> dan <strong>retractable</strong>, ada beberapa tips yang perlu dipertimbangkan. <strong>Pertimbangkan bahan</strong> yang digunakan, karena bahan yang kuat dan tahan lama dapat meningkatkan keamanan dan ketahanan kanopi. <br> Selain itu, <strong>pertimbangkan desain</strong> yang sesuai dengan rumah Anda, karena desain yang minimalis dan elegan dapat meningkatkan estetika rumah. <ul><li>Pilih bahan yang kuat dan tahan lama</li><li>Pilih desain yang minimalis dan elegan</li><li>Pertimbangkan kebutuhan dan budget</li></ul> Dengan mempertimbangkan tips di atas, Anda dapat memilih <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang tepat untuk rumah Anda.",
+          "productId": 2
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Kanopi Lipat dan Retractable?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam produksi <strong>kanopi lipat</strong> dan <strong>retractable</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah menjadi salah satu perusahaan terkemuka di Indonesia. <br> Selain itu, Mandiri Steel juga menggunakan <strong>bahan SNI</strong> yang kuat dan tahan lama, sehingga kanopi lipat dan retractable yang dihasilkan dapat bertahan lama dan tetap berfungsi dengan baik. <ul><li>Lebih dari 25 tahun pengalaman</li><li>Bahan SNI yang kuat dan tahan lama</li><li>Garansi struktural yang memuaskan</li></ul> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang Anda pilih adalah yang terbaik.",
+          "productId": 1
+        },
+        {
+          "heading": "Layanan dan Garansi Mandiri Steel",
+          "content": "Mandiri Steel menawarkan <strong>layanan</strong> yang lengkap dan <strong>garansi</strong> yang memuaskan untuk <strong>kanopi lipat</strong> dan <strong>retractable</strong>. Dengan <strong>survei gratis</strong> dan <strong>pengukuran</strong> yang akurat, Mandiri Steel dapat memastikan bahwa <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang dipasang sesuai dengan kebutuhan Anda. <br> Selain itu, Mandiri Steel juga menawarkan <strong>garansi struktural</strong> yang memuaskan, sehingga Anda dapat yakin bahwa <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang Anda pilih dapat bertahan lama dan tetap berfungsi dengan baik. <ul><li>Survei gratis dan pengukuran yang akurat</li><li>Garansi struktural yang memuaskan</li><li>Layanan yang lengkap dan profesional</li></ul> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang Anda pilih adalah yang terbaik.",
+          "productId": 1
+        },
+        {
+          "heading": "Kota dan Wilayah yang Dilayani Mandiri Steel",
+          "content": "Mandiri Steel menawarkan <strong>layanan</strong> yang lengkap untuk <strong>kanopi lipat</strong> dan <strong>retractable</strong> di berbagai kota dan wilayah di Indonesia, termasuk <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br> Dengan <strong>pengalaman</strong> yang luas dan <strong>tim yang profesional</strong>, Mandiri Steel dapat memastikan bahwa <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang dipasang sesuai dengan kebutuhan Anda. <ul><li>Bekasi</li><li>Cikarang</li><li>Tambun</li><li>Cibitung</li><li>Jababeka</li><li>MM2100</li><li>Grand Wisata</li><li>Summarecon Bekasi</li><li>Kota Deltamas</li><li>Lippo Cikarang</li></ul> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang Anda pilih adalah yang terbaik.",
+          "productId": 1
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>kanopi lipat</strong> dan <strong>retractable</strong>, penting untuk mempertimbangkan <strong>bahan</strong> dan <strong>desain</strong> yang tepat untuk rumah Anda. Dengan memilih Mandiri Steel, Anda dapat yakin bahwa <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang Anda pilih adalah yang terbaik. Jangan ragu untuk menghubungi Mandiri Steel untuk <strong>survei gratis</strong> dan <strong>pengukuran</strong> yang akurat. Dengan <strong>garansi struktural</strong> yang memuaskan dan <strong>layanan</strong> yang lengkap, Mandiri Steel dapat memastikan bahwa <strong>kanopi lipat</strong> dan <strong>retractable</strong> yang dipasang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 124,
     "title": "Konstruksi Carport Baja untuk Rumah di Bekasi",
     "slug": "konstruksi-carport-baja-untuk-rumah-di-bekasi",
