@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 130,
+    "title": "Pagar BRC untuk Keamanan Perumahan Cluster",
+    "slug": "pagar-brc-untuk-keamanan-perumahan-cluster",
+    "excerpt": "Meningkatkan keamanan perumahan cluster dengan pagar BRC",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1701589212546-d08d478831bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGJyYyUyMHVudHVrJTIwcGVydW1haGFufGVufDB8MHx8fDE3ODYzODEyMDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar BRC adalah salah satu pilihan terbaik untuk meningkatkan keamanan perumahan cluster di Kota Harapan Indah Bekasi. Dengan <strong>kekuatan dan ketahanan</strong> yang tinggi, pagar BRC dapat membantu mencegah akses tidak sah dan menjaga keselamatan penghuni. <strong>Pagar BRC</strong> juga dapat meningkatkan estetika perumahan dengan desain yang modern dan elegan.",
+      "keyPoints": [
+        "Pagar BRC dapat meningkatkan keamanan perumahan cluster",
+        "Pagar BRC memiliki kekuatan dan ketahanan yang tinggi",
+        "Pagar BRC dapat meningkatkan estetika perumahan"
+      ],
+      "sections": [
+        {
+          "heading": "Manfaat Pagar BRC untuk Keamanan Perumahan Cluster",
+          "content": "Pagar BRC memiliki beberapa manfaat untuk keamanan perumahan cluster, antara lain: <br> <strong>Mencegah akses tidak sah</strong>, <strong>Mengurangi risiko kejahatan</strong>, <strong>Meningkatkan kesadaran lingkungan</strong>. Dengan pagar BRC, penghuni dapat merasa lebih aman dan nyaman di rumah mereka. <ul><li>Pagar BRC dapat dipasang dengan mudah dan cepat</li><li>Pagar BRC memiliki harga yang kompetitif</li><li>Pagar BRC dapat disesuaikan dengan desain perumahan</li></ul> Contoh nyata dari manfaat pagar BRC dapat dilihat di perumahan cluster di Kota Deltamas, Bekasi, yang telah memasang pagar BRC untuk meningkatkan keamanan dan estetika perumahan.",
+          "imageSearchQuery": "pagar brc untuk perumahan cluster",
+          "image": "https://images.unsplash.com/photo-1701589212546-d08d478831bb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGJyYyUyMHVudHVrJTIwcGVydW1haGFuJTIwY2x1c3RlcnxlbnwwfDB8fHwxNzg2MzgxMjA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips Memilih Pagar BRC yang Tepat",
+          "content": "Dalam memilih pagar BRC, ada beberapa hal yang perlu dipertimbangkan, antara lain: <br> <strong>Kualitas bahan</strong>, <strong>Desain dan estetika</strong>, <strong>Harga dan biaya pemasangan</strong>. Berikut beberapa tips untuk memilih pagar BRC yang tepat: <ul><li>Pilih pagar BRC dengan bahan yang kuat dan tahan lama</li><li>Pilih pagar BRC dengan desain yang sesuai dengan perumahan</li><li>Pertimbangkan harga dan biaya pemasangan</li></ul> Dengan memilih pagar BRC yang tepat, penghuni dapat meningkatkan keamanan dan estetika perumahan cluster.",
+          "productId": null
+        },
+        {
+          "heading": "Pagar BRC untuk Perumahan Cluster di Bekasi",
+          "content": "Bekasi adalah salah satu kota yang paling cepat berkembang di Indonesia, dengan banyak perumahan cluster yang dibangun di daerah ini. Pagar BRC dapat menjadi pilihan yang tepat untuk meningkatkan keamanan dan estetika perumahan cluster di Bekasi. <strong>Mandiri Steel</strong> adalah salah satu perusahaan yang menyediakan pagar BRC dengan kualitas yang tinggi dan harga yang kompetitif. Dengan pengalaman lebih dari 25 tahun, Mandiri Steel dapat membantu penghuni memilih pagar BRC yang tepat untuk perumahan cluster mereka.",
+          "productId": null
+        },
+        {
+          "heading": "Kelebihan Pagar BRC dibandingkan dengan Pagar Lain",
+          "content": "Pagar BRC memiliki beberapa kelebihan dibandingkan dengan pagar lain, antara lain: <br> <strong>Kekuatan dan ketahanan yang tinggi</strong>, <strong>Estetika yang modern dan elegan</strong>, <strong>Harga yang kompetitif</strong>. Berikut beberapa kelebihan pagar BRC dibandingkan dengan pagar lain: <ul><li>Pagar BRC dapat tahan lama dan tidak mudah rusak</li><li>Pagar BRC memiliki desain yang modern dan elegan</li><li>Pagar BRC memiliki harga yang kompetitif</li></ul> Dengan kelebihan tersebut, pagar BRC dapat menjadi pilihan yang tepat untuk meningkatkan keamanan dan estetika perumahan cluster.",
+          "productId": null
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Pagar BRC",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang paling berpengalaman dan terpercaya di Indonesia, dengan pengalaman lebih dari 25 tahun. <strong>Mandiri Steel</strong> dapat membantu penghuni memilih pagar BRC yang tepat untuk perumahan cluster mereka, dengan <strong>kualitas bahan yang tinggi</strong> dan <strong>harga yang kompetitif</strong>. Berikut beberapa alasan mengapa memilih Mandiri Steel untuk pagar BRC: <ul><li>Mandiri Steel memiliki pengalaman lebih dari 25 tahun</li><li>Mandiri Steel memiliki kualitas bahan yang tinggi</li><li>Mandiri Steel memiliki harga yang kompetitif</li></ul> Dengan memilih Mandiri Steel, penghuni dapat meningkatkan keamanan dan estetika perumahan cluster dengan pagar BRC yang tepat.",
+          "productId": 3
+        },
+        {
+          "heading": "Layanan dan Garansi dari Mandiri Steel",
+          "content": "Mandiri Steel menyediakan layanan dan garansi yang komprehensif untuk pagar BRC, antara lain: <br> <strong>Garansi struktural</strong>, <strong>Layanan pemasangan</strong>, <strong>Layanan perawatan</strong>. Dengan garansi dan layanan tersebut, penghuni dapat merasa aman dan nyaman dengan pagar BRC yang dipasang. Berikut beberapa layanan dan garansi yang disediakan oleh Mandiri Steel: <ul><li>Garansi struktural selama 10 tahun</li><li>Layanan pemasangan yang cepat dan efisien</li><li>Layanan perawatan yang rutin</li></ul> Dengan layanan dan garansi tersebut, Mandiri Steel dapat membantu penghuni mempertahankan keamanan dan estetika perumahan cluster.",
+          "productId": null
+        }
+      ],
+      "conclusion": "Dalam meningkatkan keamanan dan estetika perumahan cluster, pagar BRC dapat menjadi pilihan yang tepat. Dengan kekuatan dan ketahanan yang tinggi, pagar BRC dapat membantu mencegah akses tidak sah dan menjaga keselamatan penghuni. Mandiri Steel dapat membantu penghuni memilih pagar BRC yang tepat untuk perumahan cluster mereka, dengan kualitas bahan yang tinggi dan harga yang kompetitif. Jika Anda membutuhkan pagar BRC untuk perumahan cluster, silakan hubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 131,
+    "title": "Standar Railing Tangga",
+    "slug": "standar-tinggi-railing-tangga",
+    "excerpt": "Standar tinggi railing tangga untuk keselamatan bangunan di Indonesia",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1523789248610-bb592e870951?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwdGFuZ2dhJTIwbW9kZXJufGVufDB8MHx8fDE3ODYzODEyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing tangga merupakan salah satu komponen penting dalam bangunan, terutama untuk <strong>keselamatan</strong> dan <strong>kenyamanan</strong> penghuni. Di Indonesia, terdapat standar-standar yang harus dipenuhi dalam pembuatan railing tangga, sesuai dengan regulasi keselamatan bangunan. Dalam artikel ini, kita akan membahas tentang <strong>standar tinggi railing tangga</strong> dan <strong>tips</strong> dalam memilih railing tangga yang sesuai untuk bangunan Anda.",
+      "keyPoints": [
+        "Standar tinggi railing tangga",
+        "Bahan dan desain railing tangga",
+        "Tips memilih railing tangga"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Railing Tangga",
+          "content": "Railing tangga adalah struktur yang terletak di sepanjang tangga, berfungsi sebagai <strong>penopang</strong> dan <strong>pengaman</strong> bagi pengguna tangga. Railing tangga harus dirancang dan dibuat dengan <strong>memperhatikan keselamatan</strong> dan <strong>kualitas</strong> bahan. Di Indonesia, railing tangga harus memenuhi standar-standar yang telah ditetapkan oleh pemerintah, seperti <strong>SNI 1726:2012</strong> tentang Tangga dan Railing.",
+          "imageSearchQuery": "railing tangga sederhana",
+          "image": "https://images.unsplash.com/photo-1651218236755-fbd5520a2542?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyYWlsaW5nJTIwdGFuZ2dhJTIwc2VkZXJoYW5hfGVufDB8MHx8fDE3ODYzODEyODB8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Standar Tinggi Railing Tangga",
+          "content": "Standar tinggi railing tangga di Indonesia ditetapkan oleh <strong>Peraturan Pemerintah No. 36 Tahun 2005</strong> tentang Keselamatan dan Kesehatan Kerja. Menurut peraturan tersebut, tinggi railing tangga harus minimal <strong>90 cm</strong> dari permukaan tangga. Namun, untuk bangunan yang memiliki <strong>ketinggian</strong> lebih dari <strong>10 meter</strong>, maka tinggi railing tangga harus minimal <strong>110 cm</strong>. Selain itu, railing tangga juga harus memiliki <strong>lebar</strong> minimal <strong>30 cm</strong> dan <strong>kedalaman</strong> minimal <strong>10 cm</strong>."
+        },
+        {
+          "heading": "3. Bahan dan Desain Railing Tangga",
+          "content": "Bahan dan desain railing tangga sangat penting dalam menentukan <strong>keselamatan</strong> dan <strong>kualitas</strong> railing tangga. Beberapa bahan yang umum digunakan untuk membuat railing tangga adalah <strong>baja</strong>, <strong>aluminium</strong>, dan <strong>kayu</strong>. Desain railing tangga juga harus memperhatikan <strong>estetika</strong> dan <strong>fungsi</strong>, seperti <strong>kemudahan</strong> dalam membersihkan dan <strong>kekuatan</strong> dalam menopang beban. Salah satu produk railing tangga yang populer adalah <strong>productId: 6</strong>, Railing Tangga Minimalis, yang terbuat dari bahan <strong>baja</strong> dan memiliki desain yang <strong>minimalis</strong> dan <strong>modern</strong>.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Tips Memilih Railing Tangga",
+          "content": "Dalam memilih railing tangga, ada beberapa hal yang perlu diperhatikan, seperti <strong>keselamatan</strong>, <strong>kualitas</strong> bahan, dan <strong>estetika</strong>. Berikut beberapa <strong>tips</strong> dalam memilih railing tangga: <ul><li>Pilih bahan yang <strong>kuat</strong> dan <strong>tahan lama</strong></li><li>Perhatikan <strong>desain</strong> dan <strong>estetika</strong></li><li>Pastikan railing tangga memiliki <strong>sertifikat</strong> keselamatan</li><li>Pilih railing tangga yang <strong>mudah</strong> dalam membersihkan</li></ul>"
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah perusahaan yang telah berpengalaman lebih dari <strong>25 tahun</strong> dalam pembuatan railing tangga dan produk-produk baja lainnya. Kami menggunakan <strong>bahan</strong> yang <strong>berkualitas</strong> dan memiliki <strong>sertifikat</strong> keselamatan. Selain itu, kami juga menyediakan <strong>gratis</strong> on-site survey dan <strong>garansi</strong> struktural. Salah satu produk railing tangga yang populer dari Mandiri Steel adalah <strong>productId: 6</strong>, Railing Tangga Minimalis, yang terbuat dari bahan <strong>baja</strong> dan memiliki desain yang <strong>minimalis</strong> dan <strong>modern</strong>.",
+          "productId": 6
+        },
+        {
+          "heading": "6. Layanan dan Area Kerja",
+          "content": "Mandiri Steel melayani pembuatan railing tangga dan produk-produk baja lainnya di <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Kami juga memiliki <strong>tim</strong> yang <strong>berpengalaman</strong> dan <strong>terlatih</strong> dalam pembuatan railing tangga dan produk-produk baja lainnya."
+        }
+      ],
+      "conclusion": "Dalam memilih railing tangga, keselamatan dan kualitas bahan sangat penting. Mandiri Steel adalah perusahaan yang telah berpengalaman lebih dari 25 tahun dalam pembuatan railing tangga dan produk-produk baja lainnya. Kami menggunakan bahan yang berkualitas dan memiliki sertifikat keselamatan. Jika Anda membutuhkan railing tangga yang sesuai dengan standar keselamatan bangunan di Indonesia, maka Mandiri Steel adalah pilihan yang tepat. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang railing tangga dan produk-produk baja lainnya."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 132,
+    "title": "Teralis Jendela Minimalis Bekasi",
+    "slug": "teralis-jendela-minimalis-bekasi",
+    "excerpt": "Desain teralis jendela minimalis dengan plat cutting laser untuk rumah modern Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-10",
+    "image": "https://images.unsplash.com/photo-1772976884763-4df8ecf8afad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3aW5kb3clMjBncmlsbCUyMGRlc2lnbnxlbnwwfDB8fHwxNzg2MzgxMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Teralis jendela minimalis</strong> menjadi salah satu elemen penting dalam desain rumah modern, terutama di kota-kota besar seperti <strong>Bekasi</strong>. Dengan menggunakan <strong>plat cutting laser</strong>, Anda dapat menciptakan desain yang unik dan fungsional. Dalam artikel ini, kita akan membahas tentang inspirasi desain teralis jendela minimalis untuk rumah modern Bekasi.",
+      "keyPoints": [
+        "Desain teralis jendela minimalis dengan plat cutting laser",
+        "Keamanan dan fungsionalitas teralis jendela",
+        "Inspirasi desain teralis jendela untuk rumah modern Bekasi"
+      ],
+      "sections": [
+        {
+          "heading": "Konsep Desain Teralis Jendela Minimalis",
+          "content": "Desain teralis jendela minimalis ditujukan untuk menciptakan kesan yang sederhana dan modern. Dengan menggunakan <strong>plat cutting laser</strong>, Anda dapat menciptakan pola dan bentuk yang unik dan presisi. Teralis jendela minimalis juga dapat dibuat dengan menggunakan bahan-bahan seperti <strong>baja</strong> atau <strong>aluminium</strong>, yang kuat dan tahan lama. Dalam desain teralis jendela minimalis, <strong>keamanan</strong> juga menjadi salah satu pertimbangan yang penting. Dengan menggunakan teralis jendela yang kuat dan tahan lama, Anda dapat melindungi rumah Anda dari ancaman keamanan.",
+          "imageSearchQuery": "modern window grill design",
+          "image": "https://images.unsplash.com/photo-1772976884763-4df8ecf8afad?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjB3aW5kb3clMjBncmlsbCUyMGRlc2lnbnxlbnwwfDB8fHwxNzg2MzgxMzUxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Manfaat Teralis Jendela Minimalis",
+          "content": "Teralis jendela minimalis memiliki beberapa manfaat, antara lain: <strong>keamanan</strong>, <strong>estetika</strong>, dan <strong>fungsionalitas</strong>. Dengan menggunakan teralis jendela minimalis, Anda dapat melindungi rumah Anda dari ancaman keamanan, serta menciptakan kesan yang modern dan sederhana. Teralis jendela minimalis juga dapat dibuat dengan menggunakan bahan-bahan yang kuat dan tahan lama, sehingga dapat bertahan lama dan tidak memerlukan perawatan yang banyak. Di <strong>Bekasi</strong>, teralis jendela minimalis menjadi salah satu pilihan yang populer untuk rumah modern, terutama di daerah <strong>Cikarang</strong> dan <strong>Tambun</strong>.",
+          "productId": 5
+        },
+        {
+          "heading": "Tips Membuat Teralis Jendela Minimalis",
+          "content": "Berikut beberapa tips untuk membuat teralis jendela minimalis: <ul><li>Pilih bahan yang kuat dan tahan lama, seperti <strong>baja</strong> atau <strong>aluminium</strong></li><li>Desain teralis jendela yang sederhana dan modern</li><li>Pertimbangkan keamanan dan fungsionalitas teralis jendela</li></ul> Dengan menggunakan tips di atas, Anda dapat membuat teralis jendela minimalis yang unik dan fungsional. Di <strong>Bekasi</strong>, Anda dapat menemukan banyak contoh teralis jendela minimalis yang modern dan sederhana, terutama di daerah <strong>Cibitung</strong> dan <strong>Jababeka</strong>.",
+          "productId": 5
+        },
+        {
+          "heading": "Perawatan Teralis Jendela Minimalis",
+          "content": "Perawatan teralis jendela minimalis relatif mudah, karena bahan-bahan yang digunakan kuat dan tahan lama. Namun, Anda masih perlu melakukan perawatan rutin untuk menjaga kebersihan dan kekuatan teralis jendela. Berikut beberapa tips untuk perawatan teralis jendela minimalis: <ul><li>Bersihkan teralis jendela secara rutin dengan menggunakan air dan sabun</li><li>Periksa teralis jendela secara rutin untuk memastikan bahwa tidak ada kerusakan atau keausan</li><li>Lakukan perawatan yang lebih lanjut jika diperlukan, seperti <strong>pengecatan</strong> atau <strong>penggantian</strong> komponen yang rusak</li></ul> Dengan melakukan perawatan rutin, Anda dapat menjaga kebersihan dan kekuatan teralis jendela minimalis, serta memastikan bahwa teralis jendela tetap fungsional dan aman."
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan yang berpengalaman dalam membuat teralis jendela minimalis, terutama di <strong>Bekasi</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah memenuhi kebutuhan banyak pelanggan yang ingin membuat teralis jendela minimalis yang modern dan sederhana. Mandiri Steel menggunakan bahan-bahan yang kuat dan tahan lama, serta memiliki tim yang berpengalaman dalam desain dan pembuatan teralis jendela. Dengan memilih Mandiri Steel, Anda dapat yakin bahwa teralis jendela minimalis yang Anda buat akan kuat, tahan lama, dan fungsional. Mandiri Steel juga menawarkan <strong>garansi struktural</strong> dan <strong>survei gratis</strong> untuk memastikan bahwa teralis jendela minimalis yang Anda buat sesuai dengan kebutuhan Anda.",
+          "productId": 5
+        },
+        {
+          "heading": "Layanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel memiliki layanan yang luas di <strong>Bekasi</strong>, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, dan <strong>MM2100</strong>. Dengan memiliki tim yang berpengalaman dan bahan-bahan yang kuat dan tahan lama, Mandiri Steel dapat memenuhi kebutuhan Anda untuk membuat teralis jendela minimalis yang modern dan sederhana. Mandiri Steel juga menawarkan <strong>layanan survei gratis</strong> untuk memastikan bahwa teralis jendela minimalis yang Anda buat sesuai dengan kebutuhan Anda. Jika Anda ingin membuat teralis jendela minimalis yang unik dan fungsional, Anda dapat menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut."
+        }
+      ],
+      "conclusion": "Dalam artikel ini, kita telah membahas tentang desain teralis jendela minimalis dengan plat cutting laser untuk rumah modern Bekasi. Dengan menggunakan tips dan inspirasi yang telah kita bahas, Anda dapat membuat teralis jendela minimalis yang unik dan fungsional. Jika Anda ingin membuat teralis jendela minimalis yang modern dan sederhana, Anda dapat menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut. Dengan lebih dari 25 tahun pengalaman dan bahan-bahan yang kuat dan tahan lama, Mandiri Steel dapat memenuhi kebutuhan Anda untuk membuat teralis jendela minimalis yang kuat, tahan lama, dan fungsional."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 127,
     "title": "Railing Tangga Outdoor Bekasi",
     "slug": "railing-tangga-outdoor-bekasi-1786338154260",
