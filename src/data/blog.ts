@@ -33,6 +33,178 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 142,
+    "title": "Struktur Baja untuk Lapangan Futsal dan Badminton Indoor",
+    "slug": "struktur-baja-lapangan-futsal-dan-badminton-indoor-1786489353968",
+    "excerpt": "Dapatkan informasi tentang struktur baja untuk lapangan futsal dan badminton indoor di Bekasi dan Cikarang",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/photo-1695950695168-f4038b55a9ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxsYXBhbmdhbiUyMGZ1dHNhbCUyMGluZG9vcnxlbnwwfDB8fHwxNzg2NDg5MjA3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa tahun terakhir, olahraga futsal dan badminton telah menjadi sangat populer di Indonesia, terutama di daerah Bekasi dan Cikarang. <strong>Struktur baja</strong> telah menjadi pilihan utama untuk membangun lapangan futsal dan badminton indoor karena kekuatan dan keawetannya. Dalam artikel ini, kita akan membahas tentang <strong>struktur baja</strong> untuk lapangan futsal dan badminton indoor, serta beberapa tips dan contoh nyata.",
+      "keyPoints": [
+        "Struktur baja untuk lapangan futsal dan badminton indoor",
+        "Kelebihan struktur baja",
+        "Tips memilih struktur baja yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Struktur Baja",
+          "content": "Struktur baja adalah struktur yang terbuat dari baja yang digunakan sebagai penopang utama untuk bangunan. <strong>Struktur baja</strong> memiliki beberapa kelebihan, seperti kekuatan yang tinggi, keawetan yang lama, dan kemudahan dalam pemasangan. Di daerah Bekasi dan Cikarang, struktur baja telah menjadi pilihan utama untuk membangun lapangan futsal dan badminton indoor karena biaya yang relatif murah dan waktu pemasangan yang singkat. <br><br> Contoh nyata dari penggunaan struktur baja untuk lapangan futsal dan badminton indoor adalah Lapangan Futsal di Grand Wisata, Bekasi. Lapangan ini menggunakan struktur baja sebagai penopang utama dan telah menjadi salah satu lapangan futsal terbaik di daerah Bekasi.",
+          "imageSearchQuery": "struktur baja lapangan futsal",
+          "image": "https://images.unsplash.com/photo-1695950695168-f4038b55a9ca?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdHJ1a3R1ciUyMGJhamElMjBsYXBhbmdhbiUyMGZ1dHNhbHxlbnwwfDB8fHwxNzg2NDg5MjA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Kelebihan Struktur Baja",
+          "content": "Struktur baja memiliki beberapa kelebihan yang membuatnya menjadi pilihan utama untuk membangun lapangan futsal dan badminton indoor. <strong>Kelebihan</strong> utama dari struktur baja adalah kekuatan yang tinggi dan keawetan yang lama. Struktur baja juga memiliki kemudahan dalam pemasangan, sehingga waktu pemasangan menjadi lebih singkat. <br><br> Selain itu, struktur baja juga memiliki biaya yang relatif murah dibandingkan dengan struktur lainnya. Di daerah Bekasi dan Cikarang, biaya struktur baja untuk lapangan futsal dan badminton indoor dapat berkisar antara 500 juta hingga 1 miliar rupiah, tergantung pada ukuran dan kompleksitas struktur.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips Memilih Struktur Baja yang Tepat",
+          "content": "Dalam memilih struktur baja untuk lapangan futsal dan badminton indoor, ada beberapa tips yang perlu diperhatikan. <strong>Pertama</strong>, pastikan struktur baja yang dipilih memiliki kekuatan yang tinggi dan keawetan yang lama. <strong>Kedua</strong>, perhatikan kemudahan dalam pemasangan dan biaya yang relatif murah. <br><br> Berikut beberapa tips yang dapat digunakan dalam memilih struktur baja yang tepat: <ul><li>Pastikan struktur baja yang dipilih memiliki sertifikat SNI</li><li>Perhatikan kemudahan dalam pemasangan dan biaya yang relatif murah</li><li>Pastikan struktur baja yang dipilih memiliki kekuatan yang tinggi dan keawetan yang lama</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "4. Contoh Nyata dari Penggunaan Struktur Baja",
+          "content": "Di daerah Bekasi dan Cikarang, terdapat beberapa contoh nyata dari penggunaan struktur baja untuk lapangan futsal dan badminton indoor. <strong>Contoh</strong> nyata yang paling terkenal adalah Lapangan Futsal di Summarecon Bekasi. Lapangan ini menggunakan struktur baja sebagai penopang utama dan telah menjadi salah satu lapangan futsal terbaik di daerah Bekasi. <br><br> Selain itu, terdapat juga Lapangan Badminton di Kota Deltamas yang menggunakan struktur baja sebagai penopang utama. Lapangan ini telah menjadi salah satu lapangan badminton terbaik di daerah Cikarang."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang bergerak di bidang struktur baja dan telah memiliki pengalaman lebih dari 25 tahun. <strong>Mandiri Steel</strong> memiliki tim yang profesional dan berpengalaman dalam membangun struktur baja untuk lapangan futsal dan badminton indoor. <br><br> Selain itu, Mandiri Steel juga memiliki biaya yang relatif murah dan waktu pemasangan yang singkat. Dengan menggunakan Mandiri Steel, Anda dapat memiliki struktur baja yang kuat dan awet untuk lapangan futsal dan badminton indoor.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Layanan yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan beberapa layanan yang dapat membantu Anda dalam membangun struktur baja untuk lapangan futsal dan badminton indoor. <strong>Layanan</strong> yang ditawarkan oleh Mandiri Steel antara lain: <ul><li>Desain struktur baja</li><li>Pembangunan struktur baja</li><li>Pemasangan struktur baja</li><li>Perawatan struktur baja</li></ul> <br><br> Dengan menggunakan layanan yang ditawarkan oleh Mandiri Steel, Anda dapat memiliki struktur baja yang kuat dan awet untuk lapangan futsal dan badminton indoor."
+        }
+      ],
+      "conclusion": "Dalam membangun struktur baja untuk lapangan futsal dan badminton indoor, ada beberapa hal yang perlu diperhatikan. <strong>Pertama</strong>, pastikan struktur baja yang dipilih memiliki kekuatan yang tinggi dan keawetan yang lama. <strong>Kedua</strong>, perhatikan kemudahan dalam pemasangan dan biaya yang relatif murah. Dengan menggunakan Mandiri Steel, Anda dapat memiliki struktur baja yang kuat dan awet untuk lapangan futsal dan badminton indoor. Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang struktur baja untuk lapangan futsal dan badminton indoor."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 143,
+    "title": "Merawat Kanopi Besi",
+    "slug": "cara-merawat-kanopi-besi-bekasi",
+    "excerpt": "Tips merawat kanopi besi di Bekasi dari tukang las profesional",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/photo-1669338288125-c3aef5d3996a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBiZXNpJTIwbW9kZXJufGVufDB8MHx8fDE3ODY0ODkyNzl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Kanopi besi merupakan salah satu <strong>elemen dekorasi</strong> yang populer digunakan di Indonesia, terutama di daerah Bekasi. Namun, <strong>iklim tropis</strong> di Indonesia dapat menyebabkan kanopi besi menjadi <strong>berkarat</strong> jika tidak dirawat dengan baik. Dalam artikel ini, kami akan membahas tips merawat kanopi besi agar tidak berkarat di iklim tropis Bekasi dari <strong>tukang las profesional</strong>.",
+      "keyPoints": [
+        "Pemilihan bahan yang tepat",
+        "Pengecatan yang tepat",
+        "Perawatan rutin"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pemilihan Bahan yang Tepat",
+          "content": "Pemilihan bahan yang tepat sangat penting dalam <strong>mencegah karat</strong> pada kanopi besi. <strong>Besi</strong> yang digunakan harus memiliki <strong>kualitas yang baik</strong> dan <strong>tahan karat</strong>. Salah satu pilihan yang tepat adalah <strong>besi galvanis</strong> yang telah dilapisi dengan <strong>zinc</strong> untuk mencegah karat. Selain itu, <strong>penggunaan cat</strong> yang tepat juga dapat membantu mencegah karat. <strong>Cat epoxy</strong> atau <strong>cat polyurethane</strong> dapat digunakan untuk melindungi kanopi besi dari <strong>kerusakan</strong>.",
+          "imageSearchQuery": "besi galvanis"
+        },
+        {
+          "heading": "2. Pengecatan yang Tepat",
+          "content": "Pengecatan yang tepat juga sangat penting dalam <strong>mencegah karat</strong> pada kanopi besi. <strong>Proses pengecatan</strong> yang tepat dapat membantu <strong>mencegah karat</strong> dan <strong>memperpanjang umur</strong> kanopi besi. <strong>Pembersihan</strong> permukaan kanopi besi sebelum pengecatan juga sangat penting untuk <strong>menghilangkan kotoran</strong> dan <strong>minyak</strong> yang dapat mengganggu proses pengecatan. Selain itu, <strong>penggunaan cat</strong> yang tepat juga dapat membantu <strong>mencegah karat</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Perawatan Rutin",
+          "content": "Perawatan rutin juga sangat penting dalam <strong>mencegah karat</strong> pada kanopi besi. <strong>Pemeriksaan</strong> rutin kanopi besi dapat membantu <strong>mengidentifikasi kerusakan</strong> yang dapat menyebabkan karat. <strong>Pembersihan</strong> permukaan kanopi besi secara teratur juga dapat membantu <strong>menghilangkan kotoran</strong> dan <strong>minyak</strong> yang dapat mengganggu proses pengecatan. Selain itu, <strong>penggunaan cat</strong> yang tepat juga dapat membantu <strong>mencegah karat</strong>.",
+          "productId": 2
+        },
+        {
+          "heading": "4. Tips Merawat Kanopi Besi di Bekasi",
+          "content": "Berikut beberapa tips merawat kanopi besi di Bekasi: <ul><li>Pastikan kanopi besi <strong>bersih</strong> dan <strong>bebas dari kotoran</strong></li><li><strong>Periksa</strong> kanopi besi secara teratur untuk <strong>mengidentifikasi kerusakan</strong></li><li><strong>Gunakan cat</strong> yang tepat untuk <strong>mencegah karat</strong></li><li><strong>Perawatan rutin</strong> kanopi besi untuk <strong>mencegah karat</strong></li></ul> Dengan mengikuti tips di atas, Anda dapat membantu <strong>mencegah karat</strong> pada kanopi besi di Bekasi."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel merupakan salah satu <strong>penyedia jasa</strong> kanopi besi yang terpercaya di Bekasi. Dengan <strong>pengalaman lebih dari 25 tahun</strong>, Mandiri Steel telah membantu banyak pelanggan dalam <strong>membuat kanopi besi</strong> yang kuat dan tahan lama. <strong>Bahan-bahan yang digunakan</strong> oleh Mandiri Steel juga merupakan <strong>bahan-bahan yang berkualitas</strong> dan <strong>tahan karat</strong>. Selain itu, Mandiri Steel juga <strong>menawarkan garansi struktural</strong> yang dapat membantu Anda merasa <strong>tenang</strong> dan <strong>percaya diri</strong> dengan kanopi besi yang Anda miliki.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan Wilayah Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel juga <strong>menawarkan layanan</strong> kanopi besi di wilayah Bekasi dan Jabodetabek. Dengan <strong>lokasi yang strategis</strong>, Mandiri Steel dapat membantu Anda dalam <strong>membuat kanopi besi</strong> yang kuat dan tahan lama di wilayah Bekasi dan Jabodetabek. <strong>Wilayah layanan</strong> Mandiri Steel meliputi <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>."
+        }
+      ],
+      "conclusion": "Dengan mengikuti tips merawat kanopi besi di atas, Anda dapat membantu <strong>mencegah karat</strong> pada kanopi besi di Bekasi. Jika Anda membutuhkan <strong>bantuan</strong> dalam membuat kanopi besi yang kuat dan tahan lama, <strong>hubungi Mandiri Steel</strong> sekarang juga. Dengan pengalaman lebih dari 25 tahun, Mandiri Steel dapat membantu Anda dalam <strong>membuat kanopi besi</strong> yang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 144,
+    "title": "Estimasi Biaya Pasang Pagar Besi Minimalis",
+    "slug": "estimasi-biaya-pasang-pagar-besi-minimalis-1786489353968",
+    "excerpt": "Temukan estimasi biaya pasang pagar besi minimalis per meter di Bekasi 2025 dan tips memilih jasa profesional.",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwZW1idWF0YW4lMjBwYWdhciUyMGJlc2klMjBtaW5pbWFsaXN8ZW58MHwwfHx8MTc4NjQ4OTM1MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "<strong>Pagar besi minimalis</strong> menjadi pilihan populer untuk rumah-rumah di Bekasi karena keindahan dan fungsinya. Namun, sebelum memutuskan untuk memasang, <strong>estimasi biaya</strong> yang akurat sangat penting. Dalam artikel ini, kita akan membahas <strong>biaya pasang pagar besi minimalis per meter</strong> di Bekasi 2025, serta memberikan tips untuk memilih jasa profesional.",
+      "keyPoints": [
+        "Estimasi biaya pasang pagar besi minimalis per meter",
+        "Tips memilih jasa profesional",
+        "Pertimbangan desain dan bahan"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Pagar Besi Minimalis",
+          "content": "Pagar besi minimalis adalah salah satu jenis pagar yang paling populer di kalangan masyarakat Bekasi. <strong>Keindahan</strong> dan <strong>kekuatan</strong> menjadi dua alasan utama mengapa banyak orang memilih pagar jenis ini. Dengan desain yang sederhana namun elegan, pagar besi minimalis dapat meningkatkan nilai estetika rumah Anda. Selain itu, bahan besi yang kuat membuat pagar ini <strong>tahan lama</strong> dan <strong>aman</strong>.<br><br>Sebelum memutuskan untuk memasang pagar besi minimalis, penting untuk mempertimbangkan <strong>biaya</strong> yang diperlukan. Biaya pasang pagar besi minimalis per meter di Bekasi 2025 dapat bervariasi tergantung pada beberapa faktor, seperti <strong>jenis bahan</strong>, <strong>desain</strong>, dan <strong>jasa pemasangan</strong>.",
+          "imageSearchQuery": "contoh pagar besi minimalis",
+          "image": "https://images.unsplash.com/photo-1669338288125-c3aef5d3996a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxjb250b2glMjBwYWdhciUyMGJlc2klMjBtaW5pbWFsaXN8ZW58MHwwfHx8MTc4NjQ4OTM1Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Faktor yang Mempengaruhi Biaya Pasang Pagar Besi Minimalis",
+          "content": "Biaya pasang pagar besi minimalis per meter di Bekasi 2025 dipengaruhi oleh beberapa faktor, antara lain <strong>jenis bahan</strong>, <strong>desain</strong>, dan <strong>jasa pemasangan</strong>. <strong>Jenis bahan</strong> yang digunakan dapat mempengaruhi biaya secara signifikan. Bahan besi dengan kualitas tinggi dan tahan karat tentu lebih mahal daripada bahan besi standar. <br><br>Selain itu, <strong>desain</strong> pagar juga mempengaruhi biaya. Desain yang kompleks dan memerlukan lebih banyak bahan serta waktu pengerjaan akan lebih mahal. <strong>Jasa pemasangan</strong> juga menjadi faktor penting. Jasa profesional dengan pengalaman dan reputasi baik biasanya akan mengenakan biaya yang lebih tinggi."
+        },
+        {
+          "heading": "3. Estimasi Biaya Pasang Pagar Besi Minimalis per Meter",
+          "content": "Estimasi biaya pasang pagar besi minimalis per meter di Bekasi 2025 dapat bervariasi antara Rp 500.000 hingga Rp 2.000.000 per meter, tergantung pada faktor-faktor yang telah disebutkan sebelumnya. Untuk mendapatkan estimasi biaya yang akurat, disarankan untuk <strong>konsultasi</strong> dengan jasa profesional. Mereka dapat memberikan penawaran yang lebih detail berdasarkan kebutuhan dan preferensi Anda.<br><br>Contohnya, jika Anda memilih <strong>produk Pagar Minimalis Modern (Pagar - Layanan Utama) dengan ID 3</strong>, biaya yang diperlukan mungkin akan berbeda dibandingkan dengan produk lainnya.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Tips Memilih Jasa Profesional",
+          "content": "Memilih jasa profesional sangat penting untuk mendapatkan hasil yang memuaskan. Berikut beberapa tips untuk memilih jasa pemasangan pagar besi minimalis yang tepat:<br><ul><li>Pertimbangkan <strong>pengalaman</strong> dan <strong>reputasi</strong> jasa tersebut.</li><li><strong>Portofolio</strong> mereka dapat memberikan gambaran tentang kualitas pekerjaan mereka.</li><li>Jangan ragu untuk <strong>minta referensi</strong> dari teman atau keluarga yang telah menggunakan jasa serupa.</li><li><strong>Bandingkan</strong> penawaran dari beberapa jasa untuk mendapatkan yang terbaik.</li></ul>"
+        },
+        {
+          "heading": "5. Pertimbangan Desain dan Bahan",
+          "content": "Desain dan bahan yang dipilih juga sangat penting. <strong>Desain</strong> yang sesuai dengan gaya rumah Anda akan meningkatkan nilai estetika. Sementara itu, <strong>bahan</strong> yang berkualitas tinggi akan memastikan pagar Anda <strong>tahan lama</strong>.<br><br>Contohnya, <strong>produk Pagar Besi Tempa Klasik (Pagar - Premium Klasik) dengan ID 4</strong> menawarkan kesan klasik dan elegan yang dapat meningkatkan keindahan rumah Anda.",
+          "productId": 4
+        },
+        {
+          "heading": "6. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel, dengan lebih dari 25 tahun pengalaman, menawarkan <strong>solusi pagar besi minimalis</strong> yang berkualitas dan sesuai dengan kebutuhan Anda. Kami menggunakan <strong>bahan SNI</strong> yang memenuhi standar nasional, memastikan kekuatan dan ketahanan pagar Anda. Selain itu, kami menawarkan <strong>survei gratis</strong> dan <strong>garansi struktural</strong> untuk memberikan Anda ketenangan pikiran.<br><br>Kami melayani wilayah Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, Lippo Cikarang, dan sekitarnya. Dengan komitmen kami terhadap kualitas dan kepuasan pelanggan, Mandiri Steel adalah pilihan terbaik untuk proyek pagar besi minimalis Anda."
+        }
+      ],
+      "conclusion": "Dalam memutuskan untuk memasang pagar besi minimalis, penting untuk memiliki estimasi biaya yang akurat dan mempertimbangkan faktor-faktor yang mempengaruhi biaya. Dengan memilih jasa profesional seperti Mandiri Steel, Anda dapat yakin bahwa proyek pagar besi minimalis Anda akan selesai dengan kualitas tinggi dan sesuai dengan kebutuhan Anda. Jangan ragu untuk <strong>konsultasi</strong> dengan kami untuk mendapatkan penawaran yang terbaik dan memulai proyek pagar impian Anda."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 139,
     "title": "Konstruksi Baja untuk Pabrik",
     "slug": "konstruksi-baja-untuk-pabrik",
