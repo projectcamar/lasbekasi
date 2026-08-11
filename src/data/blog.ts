@@ -33,6 +33,181 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 136,
+    "title": "Teralis Pintu Kasa Nyamuk Stainless",
+    "slug": "teralis-pintu-kasa-nyamuk-stainless-1786424556912",
+    "excerpt": "Solusi keamanan plus kesehatan untuk rumah di Bekasi dengan teralis pintu kasa nyamuk stainless",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/photo-1756578525918-9d60f7f76a6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpbmxlc3MlMjBzdGVlbCUyMHdpbmRvdyUyMGdyaWxsfGVufDB8MHx8fDE3ODY0MjQ0MTB8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah yang aman dan sehat adalah impian bagi banyak orang. <strong>Teralis pintu kasa nyamuk stainless</strong> merupakan salah satu solusi yang efektif untuk mencegah masuknya nyamuk dan serangga lainnya ke dalam rumah. Dengan menggunakan <strong>teralis pintu kasa nyamuk stainless</strong>, Anda dapat melindungi keluarga Anda dari berbagai penyakit yang disebabkan oleh nyamuk. Di Bekasi, <strong>Mandiri Steel</strong> menawarkan solusi terbaik untuk keamanan dan kesehatan rumah Anda.",
+      "keyPoints": [
+        "Mencegah masuknya nyamuk dan serangga lainnya",
+        "Melindungi keluarga dari penyakit yang disebabkan oleh nyamuk",
+        "Meningkatkan keamanan dan kesehatan rumah"
+      ],
+      "sections": [
+        {
+          "heading": "1. Manfaat Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Teralis pintu kasa nyamuk stainless memiliki banyak manfaat bagi rumah Anda. <strong>Keamanan</strong> dan <strong>kesehatan</strong> adalah prioritas utama dalam memilih teralis pintu kasa nyamuk. Dengan menggunakan <strong>teralis pintu kasa nyamuk stainless</strong>, Anda dapat mencegah masuknya nyamuk dan serangga lainnya ke dalam rumah. Selain itu, <strong>teralis pintu kasa nyamuk stainless</strong> juga dapat meningkatkan estetika rumah Anda. <br><br>Di Bekasi, <strong>Mandiri Steel</strong> menawarkan <strong>teralis pintu kasa nyamuk stainless</strong> yang berkualitas tinggi dan tahan lama. Kami menggunakan bahan-bahan yang terbaik dan teknologi canggih untuk memproduksi <strong>teralis pintu kasa nyamuk stainless</strong> yang memenuhi standar keamanan dan kesehatan. <br><br>Contoh nyata dari manfaat <strong>teralis pintu kasa nyamuk stainless</strong> dapat dilihat dari kasus-kasus yang terjadi di Bekasi. Banyak rumah yang telah menggunakan <strong>teralis pintu kasa nyamuk stainless</strong> dan merasakan manfaatnya. Mereka dapat melindungi keluarga mereka dari penyakit yang disebabkan oleh nyamuk dan meningkatkan keamanan rumah mereka.",
+          "imageSearchQuery": "stainless steel window grill installation",
+          "image": "https://images.unsplash.com/photo-1756578525918-9d60f7f76a6b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpbmxlc3MlMjBzdGVlbCUyMHdpbmRvdyUyMGdyaWxsJTIwaW5zdGFsbGF0aW9ufGVufDB8MHx8fDE3ODY0MjQ0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tips Memilih Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Memilih <strong>teralis pintu kasa nyamuk stainless</strong> yang tepat dapat menjadi tantangan. Berikut beberapa tips yang dapat Anda gunakan untuk memilih <strong>teralis pintu kasa nyamuk stainless</strong> yang sesuai dengan kebutuhan Anda: <ul><li>Pilih bahan yang tahan lama dan berkualitas tinggi</li><li>Perhatikan ukuran dan desain yang sesuai dengan rumah Anda</li><li>Pertimbangkan biaya dan anggaran Anda</li></ul> <br><br>Di Bekasi, <strong>Mandiri Steel</strong> menawarkan <strong>teralis pintu kasa nyamuk stainless</strong> yang sesuai dengan kebutuhan Anda. Kami memiliki berbagai pilihan desain dan ukuran yang dapat Anda pilih. Selain itu, kami juga menawarkan harga yang kompetitif dan layanan yang profesional. <br><br>Contoh nyata dari tips memilih <strong>teralis pintu kasa nyamuk stainless</strong> dapat dilihat dari kasus-kasus yang terjadi di Bekasi. Banyak rumah yang telah menggunakan <strong>teralis pintu kasa nyamuk stainless</strong> dan merasakan manfaatnya. Mereka dapat melindungi keluarga mereka dari penyakit yang disebabkan oleh nyamuk dan meningkatkan keamanan rumah mereka.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Cara Merawat Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Merawat <strong>teralis pintu kasa nyamuk stainless</strong> dapat menjadi penting untuk memastikan bahwa <strong>teralis pintu kasa nyamuk stainless</strong> Anda tetap dalam kondisi baik. Berikut beberapa tips yang dapat Anda gunakan untuk merawat <strong>teralis pintu kasa nyamuk stainless</strong>: <ul><li>Bersihkan <strong>teralis pintu kasa nyamuk stainless</strong> secara teratur</li><li>Periksa <strong>teralis pintu kasa nyamuk stainless</strong> secara teratur untuk memastikan bahwa tidak ada kerusakan</li><li>Lakukan perawatan yang rutin untuk memastikan bahwa <strong>teralis pintu kasa nyamuk stainless</strong> tetap dalam kondisi baik</li></ul> <br><br>Di Bekasi, <strong>Mandiri Steel</strong> menawarkan layanan perawatan <strong>teralis pintu kasa nyamuk stainless</strong> yang profesional. Kami memiliki tim yang berpengalaman dan terlatih untuk melakukan perawatan <strong>teralis pintu kasa nyamuk stainless</strong> Anda. <br><br>Contoh nyata dari cara merawat <strong>teralis pintu kasa nyamuk stainless</strong> dapat dilihat dari kasus-kasus yang terjadi di Bekasi. Banyak rumah yang telah menggunakan <strong>teralis pintu kasa nyamuk stainless</strong> dan merasakan manfaatnya. Mereka dapat melindungi keluarga mereka dari penyakit yang disebabkan oleh nyamuk dan meningkatkan keamanan rumah mereka.",
+          "productId": 5
+        },
+        {
+          "heading": "4. Mengapa Memilih Mandiri Steel untuk Teralis Pintu Kasa Nyamuk Stainless",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang terkemuka di Bekasi dalam bidang <strong>teralis pintu kasa nyamuk stainless</strong>. Kami memiliki pengalaman lebih dari 25 tahun dalam memproduksi dan memasang <strong>teralis pintu kasa nyamuk stainless</strong>. Kami menggunakan bahan-bahan yang terbaik dan teknologi canggih untuk memproduksi <strong>teralis pintu kasa nyamuk stainless</strong> yang memenuhi standar keamanan dan kesehatan. <br><br>Kami juga menawarkan layanan yang profesional dan harga yang kompetitif. Kami memiliki tim yang berpengalaman dan terlatih untuk melakukan pemasangan dan perawatan <strong>teralis pintu kasa nyamuk stainless</strong>. <br><br>Contoh nyata dari mengapa memilih <strong>Mandiri Steel</strong> untuk <strong>teralis pintu kasa nyamuk stainless</strong> dapat dilihat dari kasus-kasus yang terjadi di Bekasi. Banyak rumah yang telah menggunakan <strong>teralis pintu kasa nyamuk stainless</strong> dari <strong>Mandiri Steel</strong> dan merasakan manfaatnya. Mereka dapat melindungi keluarga mereka dari penyakit yang disebabkan oleh nyamuk dan meningkatkan keamanan rumah mereka.",
+          "productId": 5
+        },
+        {
+          "heading": "5. Layanan yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan berbagai layanan untuk <strong>teralis pintu kasa nyamuk stainless</strong>, termasuk: <ul><li>Pemasangan <strong>teralis pintu kasa nyamuk stainless</strong></li><li>Perawatan <strong>teralis pintu kasa nyamuk stainless</strong></li><li>Desain dan produksi <strong>teralis pintu kasa nyamuk stainless</strong> yang sesuai dengan kebutuhan Anda</li></ul> <br><br>Kami memiliki tim yang berpengalaman dan terlatih untuk melakukan pemasangan dan perawatan <strong>teralis pintu kasa nyamuk stainless</strong>. Kami juga menggunakan bahan-bahan yang terbaik dan teknologi canggih untuk memproduksi <strong>teralis pintu kasa nyamuk stainless</strong> yang memenuhi standar keamanan dan kesehatan. <br><br>Contoh nyata dari layanan yang ditawarkan oleh <strong>Mandiri Steel</strong> dapat dilihat dari kasus-kasus yang terjadi di Bekasi. Banyak rumah yang telah menggunakan <strong>teralis pintu kasa nyamuk stainless</strong> dari <strong>Mandiri Steel</strong> dan merasakan manfaatnya. Mereka dapat melindungi keluarga mereka dari penyakit yang disebabkan oleh nyamuk dan meningkatkan keamanan rumah mereka.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas di Bekasi dan sekitarnya, termasuk: <ul><li>Bekasi</li><li>Cikarang</li><li>Tambun</li><li>Cibitung</li><li>Jababeka</li><li>MM2100</li><li>Grand Wisata</li><li>Summarecon Bekasi</li><li>Kota Deltamas</li><li>Lippo Cikarang</li></ul> <br><br>Kami memiliki tim yang berpengalaman dan terlatih untuk melakukan pemasangan dan perawatan <strong>teralis pintu kasa nyamuk stainless</strong> di area layanan kami. Kami juga menggunakan bahan-bahan yang terbaik dan teknologi canggih untuk memproduksi <strong>teralis pintu kasa nyamuk stainless</strong> yang memenuhi standar keamanan dan kesehatan. <br><br>Contoh nyata dari area layanan <strong>Mandiri Steel</strong> dapat dilihat dari kasus-kasus yang terjadi di Bekasi. Banyak rumah yang telah menggunakan <strong>teralis pintu kasa nyamuk stainless</strong> dari <strong>Mandiri Steel</strong> dan merasakan manfaatnya. Mereka dapat melindungi keluarga mereka dari penyakit yang disebabkan oleh nyamuk dan meningkatkan keamanan rumah mereka.",
+          "productId": 5
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, <strong>teralis pintu kasa nyamuk stainless</strong> adalah salah satu solusi yang efektif untuk mencegah masuknya nyamuk dan serangga lainnya ke dalam rumah. Dengan menggunakan <strong>teralis pintu kasa nyamuk stainless</strong>, Anda dapat melindungi keluarga Anda dari penyakit yang disebabkan oleh nyamuk dan meningkatkan keamanan rumah Anda. <strong>Mandiri Steel</strong> adalah salah satu perusahaan yang terkemuka di Bekasi dalam bidang <strong>teralis pintu kasa nyamuk stainless</strong>. Kami memiliki pengalaman lebih dari 25 tahun dalam memproduksi dan memasang <strong>teralis pintu kasa nyamuk stainless</strong>. Kami menawarkan layanan yang profesional dan harga yang kompetitif. Jika Anda membutuhkan <strong>teralis pintu kasa nyamuk stainless</strong> untuk rumah Anda, silakan hubungi <strong>Mandiri Steel</strong> untuk informasi lebih lanjut."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 137,
+    "title": "Railing Stainless Mengkilap",
+    "slug": "cara-merawat-railing-stainless-agar-tetap-mengkilap",
+    "excerpt": "Tips merawat railing stainless steel dari Mandiri Steel, Bekasi",
+    "category": "Stair and Railing",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/photo-1663642134329-faf1a11c2471?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpbmxlc3MlMjBzdGVlbCUyMHJhaWxpbmclMjBtYWludGVuYW5jZXxlbnwwfDB8fHwxNzg2NDI0NDgzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Railing stainless steel merupakan salah satu pilihan populer untuk digunakan di berbagai jenis bangunan, baik itu rumah tinggal, kantor, maupun gedung komersial. <strong>Kelebihan</strong> dari railing stainless steel adalah <strong>tahan korosi</strong> dan <strong>mudah dibersihkan</strong>. Namun, untuk menjaga agar railing stainless steel tetap mengkilap, diperlukan <strong>perawatan yang rutin</strong> dan <strong>tepat</strong>. Dalam artikel ini, kita akan membahas beberapa tips untuk merawat railing stainless steel agar tetap mengkilap.",
+      "keyPoints": [
+        "Pembersihan rutin",
+        "Penggunaan bahan pembersih yang tepat",
+        "Penggunaan pelindung anti korosi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pembersihan Rutin",
+          "content": "Pembersihan rutin adalah salah satu cara untuk menjaga agar railing stainless steel tetap mengkilap. <strong>Debu dan kotoran</strong> yang menempel pada railing dapat menyebabkan <strong>korosi</strong> dan <strong>kerusakan</strong> pada material. Oleh karena itu, pastikan Anda membersihkan railing stainless steel secara rutin, minimal <strong>seminggu sekali</strong>. Gunakan <strong>lap basah</strong> atau <strong>spons</strong> untuk membersihkan railing, dan pastikan untuk <strong>mengeringkannya</strong> setelah selesai membersihkan. <br> <br> Contoh nyata dari pembersihan rutin dapat dilihat pada proyek yang pernah dilakukan oleh Mandiri Steel di <strong>Kota Deltamas</strong>, Bekasi. Pada proyek tersebut, railing stainless steel yang digunakan dipastikan untuk dibersihkan secara rutin oleh tim perawatan, sehingga tetap terlihat mengkilap dan tahan lama.",
+          "imageSearchQuery": "stainless steel railing cleaning",
+          "image": "https://images.unsplash.com/photo-1601160463734-d4006a0960e0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGFpbmxlc3MlMjBzdGVlbCUyMHJhaWxpbmclMjBjbGVhbmluZ3xlbnwwfDB8fHwxNzg2NDI0NDg0fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Penggunaan Bahan Pembersih yang Tepat",
+          "content": "Penggunaan bahan pembersih yang tepat juga sangat penting untuk menjaga agar railing stainless steel tetap mengkilap. <strong>Bahan pembersih</strong> yang terlalu <strong>abrasif</strong> dapat menyebabkan <strong>goresan</strong> pada railing, sehingga merusak tampilannya. Oleh karena itu, pastikan Anda menggunakan bahan pembersih yang <strong>lembut</strong> dan <strong>aman</strong> untuk digunakan pada stainless steel. <br> <br> Beberapa contoh bahan pembersih yang dapat digunakan adalah <strong>sabun cair</strong>, <strong>air</strong>, dan <strong>minyak</strong>. Hindari menggunakan bahan pembersih yang mengandung <strong>asam</strong> atau <strong>alkali</strong>, karena dapat menyebabkan korosi pada stainless steel. <br> <br> Tips yang dapat digunakan adalah dengan mencampurkan <strong>sabun cair</strong> dengan <strong>air</strong> untuk membuat larutan pembersih yang lembut dan aman untuk digunakan pada stainless steel.",
+          "productId": 6
+        },
+        {
+          "heading": "3. Penggunaan Pelindung Anti Korosi",
+          "content": "Penggunaan pelindung anti korosi juga sangat penting untuk menjaga agar railing stainless steel tetap mengkilap. <strong>Pelindung anti korosi</strong> dapat membantu <strong>mencegah</strong> korosi dan <strong>kerusakan</strong> pada material. Oleh karena itu, pastikan Anda menggunakan pelindung anti korosi pada railing stainless steel, terutama jika railing tersebut terletak di area yang <strong>lembab</strong> atau <strong>basah</strong>. <br> <br> Beberapa contoh pelindung anti korosi yang dapat digunakan adalah <strong>wax</strong>, <strong>minyak</strong>, dan <strong>pelindung anti korosi kimia</strong>. Pastikan Anda memilih pelindung anti korosi yang <strong>tepat</strong> untuk digunakan pada stainless steel, dan ikuti instruksi penggunaan yang diberikan oleh pabrikan.",
+          "productId": 8
+        },
+        {
+          "heading": "4. Tips Merawat Railing Stainless Steel",
+          "content": "Berikut beberapa tips merawat railing stainless steel agar tetap mengkilap: <ul> <li>Pastikan untuk membersihkan railing secara rutin</li> <li>Gunakan bahan pembersih yang lembut dan aman untuk digunakan pada stainless steel</li> <li>Pastikan untuk mengeringkan railing setelah selesai membersihkan</li> <li>Gunakan pelindung anti korosi untuk mencegah korosi dan kerusakan pada material</li> </ul> Dengan mengikuti tips di atas, Anda dapat menjaga agar railing stainless steel tetap mengkilap dan tahan lama."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam produksi dan pemasangan railing stainless steel. Dengan <strong>25 tahun pengalaman</strong> dalam industri, Mandiri Steel telah membuktikan diri sebagai salah satu perusahaan terbaik di Indonesia. <br> <br> Mandiri Steel menggunakan <strong>bahan baku yang berkualitas</strong> dan <strong>memiliki fasilitas produksi yang canggih</strong>, sehingga dapat memproduksi railing stainless steel yang <strong>berkualitas tinggi</strong> dan <strong>tahan lama</strong>. <br> <br> Selain itu, Mandiri Steel juga menawarkan <strong>garansi struktural</strong> untuk semua produknya, sehingga Anda dapat memiliki ketenangan pikiran ketika memilih Mandiri Steel sebagai mitra Anda.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas, meliputi <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, dan <strong>Kota Deltamas</strong>. Dengan demikian, Anda dapat dengan mudah menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang produk dan layanan yang ditawarkan. <br> <br> Jangan ragu untuk menghubungi Mandiri Steel jika Anda memiliki pertanyaan atau memerlukan bantuan dalam memilih railing stainless steel yang tepat untuk kebutuhan Anda."
+        }
+      ],
+      "conclusion": "Dengan mengikuti tips di atas, Anda dapat menjaga agar railing stainless steel tetap mengkilap dan tahan lama. Jangan ragu untuk menghubungi Mandiri Steel jika Anda memiliki pertanyaan atau memerlukan bantuan dalam memilih railing stainless steel yang tepat untuk kebutuhan Anda. <strong>Mandiri Steel</strong> siap membantu Anda dalam menciptakan railing stainless steel yang <strong>berkualitas tinggi</strong> dan <strong>tahan lama</strong>."
+    },
+    "tags": [
+      "Stair and Railing",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 138,
+    "title": "Kanopi Alderon Waterproof",
+    "slug": "kanopi-alderon-waterproof-untuk-kolam-renang",
+    "excerpt": "Panduan lengkap kanopi atap alderon waterproof dan anti UV untuk area kolam renang di Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Kanopi atap alderon telah menjadi pilihan populer untuk melindungi area kolam renang dari sinar UV dan hujan. <strong>Kanopi Alderon</strong> yang dirancang dengan baik dapat meningkatkan kenyamanan dan keamanan pengguna kolam renang. Di Bekasi, banyak pemilik rumah yang memilih kanopi alderon untuk melindungi area kolam renang mereka. Dalam artikel ini, kita akan membahas tentang panduan lengkap kanopi atap alderon waterproof dan anti UV untuk area kolam renang di Bekasi.",
+      "keyPoints": [
+        "Kanopi alderon waterproof dan anti UV",
+        "Panduan pemasangan kanopi alderon",
+        "Tips merawat kanopi alderon"
+      ],
+      "sections": [
+        {
+          "heading": "Kelebihan Kanopi Alderon untuk Kolam Renang",
+          "content": "Kanopi alderon memiliki beberapa kelebihan yang membuatnya menjadi pilihan populer untuk melindungi area kolam renang. <strong>Kanopi Alderon</strong> dapat melindungi dari sinar UV yang berlebihan, sehingga mengurangi risiko kerusakan kulit dan mata. Selain itu, kanopi alderon juga dapat melindungi dari hujan dan angin, sehingga membuat area kolam renang lebih nyaman dan aman. Di Bekasi, banyak pemilik rumah yang memilih kanopi alderon karena kelebihan-kelebihan ini. <br> <br> Contoh nyata dari kelebihan kanopi alderon dapat dilihat di beberapa perumahan mewah di Bekasi, seperti Grand Wisata dan Summarecon Bekasi. Di sana, kanopi alderon digunakan untuk melindungi area kolam renang dan membuatnya lebih nyaman dan aman.",
+          "imageSearchQuery": "kanopi alderon kolam renang"
+        },
+        {
+          "heading": "Panduan Pemasangan Kanopi Alderon",
+          "content": "Pemasangan kanopi alderon memerlukan perencanaan dan pelaksanaan yang tepat. <strong>Pertama-tama</strong>, Anda perlu memilih lokasi yang tepat untuk pemasangan kanopi alderon. Pastikan lokasi tersebut memiliki akses yang mudah dan aman. <br> <br> <strong>Kedua</strong>, Anda perlu memilih jenis kanopi alderon yang tepat. Ada beberapa jenis kanopi alderon yang tersedia, seperti kanopi alderon dengan atap datar atau kanopi alderon dengan atap miring. Pilihlah jenis kanopi alderon yang sesuai dengan kebutuhan dan budget Anda. <br> <br> <strong>Ketiga</strong>, Anda perlu mempersiapkan material dan peralatan yang dibutuhkan. Pastikan Anda memiliki semua material dan peralatan yang dibutuhkan sebelum memulai pemasangan kanopi alderon.",
+          "productId": 1
+        },
+        {
+          "heading": "Tips Merawat Kanopi Alderon",
+          "content": "Merawat kanopi alderon sangat penting untuk memastikan bahwa kanopi alderon Anda tetap dalam kondisi yang baik. <strong>Pertama-tama</strong>, Anda perlu membersihkan kanopi alderon secara teratur. Gunakan air dan sabun untuk membersihkan kanopi alderon, dan pastikan Anda mengeringkannya secara menyeluruh setelah selesai. <br> <br> <strong>Kedua</strong>, Anda perlu memeriksa kanopi alderon secara teratur. Periksa apakah ada kerusakan atau kebocoran pada kanopi alderon, dan pastikan Anda memperbaikinya segera jika Anda menemukan kerusakan. <br> <br> <strong>Ketiga</strong>, Anda perlu melindungi kanopi alderon dari sinar UV. Gunakan pelindung UV untuk melindungi kanopi alderon dari sinar UV yang berlebihan.",
+          "productId": 2
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Kanopi Alderon?",
+          "content": "Mandiri Steel telah menjadi salah satu penyedia kanopi alderon terbaik di Bekasi. <strong>Kami memiliki</strong> lebih dari 25 tahun pengalaman dalam menyediakan kanopi alderon yang berkualitas tinggi. <br> <br> <strong>Kami menggunakan</strong> material SNI yang berkualitas tinggi untuk memastikan bahwa kanopi alderon kami tetap dalam kondisi yang baik. <br> <br> <strong>Kami juga menawarkan</strong> garansi struktural untuk memastikan bahwa kanopi alderon kami tetap dalam kondisi yang baik selama bertahun-tahun.",
+          "productId": 1
+        },
+        {
+          "heading": "Layanan Kanopi Alderon di Bekasi",
+          "content": "Mandiri Steel menyediakan layanan kanopi alderon di Bekasi dan sekitarnya. <strong>Kami memiliki</strong> tim yang berpengalaman dan terlatih untuk memastikan bahwa kanopi alderon Anda dipasang dengan baik. <br> <br> <strong>Kami juga menawarkan</strong> survei gratis untuk memastikan bahwa kanopi alderon Anda dipasang dengan tepat. <br> <br> <strong>Kontak kami</strong> sekarang untuk mendapatkan informasi lebih lanjut tentang layanan kanopi alderon kami."
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Kanopi alderon waterproof dan anti UV sangat penting untuk melindungi area kolam renang dari sinar UV dan hujan. <strong>Mandiri Steel</strong> telah menjadi salah satu penyedia kanopi alderon terbaik di Bekasi, dengan lebih dari 25 tahun pengalaman dalam menyediakan kanopi alderon yang berkualitas tinggi. <br> <br> <strong>Kontak kami</strong> sekarang untuk mendapatkan informasi lebih lanjut tentang kanopi alderon waterproof dan anti UV untuk area kolam renang di Bekasi."
+        }
+      ],
+      "conclusion": "Kanopi alderon waterproof dan anti UV sangat penting untuk melindungi area kolam renang dari sinar UV dan hujan. Mandiri Steel telah menjadi salah satu penyedia kanopi alderon terbaik di Bekasi, dengan lebih dari 25 tahun pengalaman dalam menyediakan kanopi alderon yang berkualitas tinggi. Kontak kami sekarang untuk mendapatkan informasi lebih lanjut tentang kanopi alderon waterproof dan anti UV untuk area kolam renang di Bekasi."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 133,
     "title": "Tips Hemat Biaya Renovasi Pagar Dan Kanopi",
     "slug": "tips-hemat-biaya-renovasi-pagar-dan-kanopi-1786402952043",
