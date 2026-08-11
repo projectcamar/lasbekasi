@@ -33,6 +33,182 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 139,
+    "title": "Konstruksi Baja untuk Pabrik",
+    "slug": "konstruksi-baja-untuk-pabrik",
+    "excerpt": "Perencanaan konstruksi baja untuk perluasan pabrik di EJIP dan Delta Silicon Cikarang",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/uploads/14123892966835548e7bd/14369636?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMHBhYnJpa3xlbnwwfDB8fHwxNzg2NDY3NjA4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam beberapa dekade terakhir, <strong>konstruksi baja</strong> telah menjadi pilihan utama untuk pembangunan pabrik dan fasilitas industri lainnya di Indonesia. <strong>Baja</strong> menawarkan kekuatan, fleksibilitas, dan efisiensi yang tinggi, sehingga sangat cocok untuk proyek-proyek skala besar seperti perluasan pabrik di <strong>EJIP</strong> dan <strong>Delta Silicon Cikarang</strong>. Pada artikel ini, kita akan membahas tentang perencanaan konstruksi baja untuk perluasan pabrik dan mengapa <strong>Mandiri Steel</strong> adalah pilihan yang tepat untuk proyek Anda.",
+      "keyPoints": [
+        "Konstruksi baja menawarkan kekuatan dan fleksibilitas yang tinggi",
+        "Perencanaan yang teliti diperlukan untuk konstruksi baja yang efektif",
+        "Mandiri Steel menawarkan pengalaman lebih dari 25 tahun dalam konstruksi baja"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengantar Konstruksi Baja",
+          "content": "Konstruksi baja telah menjadi bagian penting dari pembangunan pabrik dan fasilitas industri lainnya di Indonesia. <strong>Baja</strong> menawarkan kekuatan, fleksibilitas, dan efisiensi yang tinggi, sehingga sangat cocok untuk proyek-proyek skala besar. Dalam beberapa dekade terakhir, konstruksi baja telah berkembang pesat dan menjadi pilihan utama untuk banyak proyek konstruksi. <br><br>Salah satu contoh nyata dari konstruksi baja yang sukses adalah proyek perluasan pabrik di <strong>EJIP</strong> dan <strong>Delta Silicon Cikarang</strong>. Proyek ini membutuhkan perencanaan yang teliti dan eksekusi yang tepat untuk memastikan bahwa struktur baja yang dibangun dapat menahan beban yang berat dan tahan lama. <br><br>Untuk itu, <strong>Mandiri Steel</strong> hadir untuk membantu Anda dalam perencanaan dan eksekusi konstruksi baja yang efektif dan efisien. Dengan pengalaman lebih dari 25 tahun dalam konstruksi baja, kita dapat membantu Anda mencapai tujuan proyek Anda dengan sukses.",
+          "imageSearchQuery": "konstruksi baja modern",
+          "image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMG1vZGVybnxlbnwwfDB8fHwxNzg2NDY3NjA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Konstruksi Baja",
+          "content": "Konstruksi baja menawarkan banyak manfaat bagi proyek-proyek konstruksi. <strong>Baja</strong> memiliki kekuatan yang tinggi, sehingga dapat menahan beban yang berat dan tahan lama. Selain itu, baja juga fleksibel dan dapat dibentuk menjadi berbagai bentuk dan desain. <br><br>Manfaat lain dari konstruksi baja adalah efisiensi waktu dan biaya. Konstruksi baja dapat diselesaikan lebih cepat daripada konstruksi beton, sehingga dapat menghemat waktu dan biaya. Selain itu, baja juga dapat digunakan kembali, sehingga dapat mengurangi biaya perawatan dan perbaikan. <br><br>Berikut adalah beberapa manfaat konstruksi baja: <ul><li>Menghemat waktu dan biaya</li><li>Mengurangi biaya perawatan dan perbaikan</li><li>Fleksibel dan dapat dibentuk menjadi berbagai bentuk dan desain</li><li>Tahan lama dan dapat menahan beban yang berat</li></ul>",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips Perencanaan Konstruksi Baja",
+          "content": "Perencanaan yang teliti diperlukan untuk konstruksi baja yang efektif. Berikut adalah beberapa tips perencanaan konstruksi baja: <ul><li>Tentukan tujuan proyek dan kebutuhan struktur</li><li>Pilih jenis baja yang tepat untuk proyek</li><li>Desain struktur baja yang efektif dan efisien</li><li>Perhitungkan beban dan gaya yang akan bekerja pada struktur</li></ul> <br><br>Untuk itu, <strong>Mandiri Steel</strong> hadir untuk membantu Anda dalam perencanaan konstruksi baja yang efektif dan efisien. Dengan pengalaman lebih dari 25 tahun dalam konstruksi baja, kita dapat membantu Anda mencapai tujuan proyek Anda dengan sukses.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Pengalaman Mandiri Steel",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam konstruksi baja. Kita telah menangani banyak proyek konstruksi baja di Indonesia, termasuk proyek perluasan pabrik di <strong>EJIP</strong> dan <strong>Delta Silicon Cikarang</strong>. <br><br>Salah satu kelebihan Mandiri Steel adalah kemampuan kita untuk menyediakan <strong>baja SNI</strong> yang berkualitas tinggi. Kita juga menawarkan garansi struktural yang dapat memberikan ketenangan pikiran bagi Anda. <br><br>Untuk itu, <strong>Mandiri Steel</strong> hadir untuk membantu Anda dalam perencanaan dan eksekusi konstruksi baja yang efektif dan efisien. Dengan pengalaman lebih dari 25 tahun dalam konstruksi baja, kita dapat membantu Anda mencapai tujuan proyek Anda dengan sukses."
+        },
+        {
+          "heading": "5. Layanan Mandiri Steel",
+          "content": "Mandiri Steel menawarkan berbagai layanan untuk membantu Anda dalam perencanaan dan eksekusi konstruksi baja. Kita menawarkan <strong>survei gratis</strong> untuk membantu Anda menentukan kebutuhan proyek Anda. <br><br>Kita juga menawarkan <strong>garansi struktural</strong> yang dapat memberikan ketenangan pikiran bagi Anda. Selain itu, kita juga menawarkan <strong>baja SNI</strong> yang berkualitas tinggi untuk memastikan bahwa struktur baja yang dibangun dapat menahan beban yang berat dan tahan lama. <br><br>Untuk itu, <strong>Mandiri Steel</strong> hadir untuk membantu Anda dalam perencanaan dan eksekusi konstruksi baja yang efektif dan efisien. Dengan pengalaman lebih dari 25 tahun dalam konstruksi baja, kita dapat membantu Anda mencapai tujuan proyek Anda dengan sukses.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Wilayah Layanan Mandiri Steel",
+          "content": "Mandiri Steel menawarkan layanan konstruksi baja di wilayah <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. <br><br>Kita dapat membantu Anda dalam perencanaan dan eksekusi konstruksi baja yang efektif dan efisien, sehingga Anda dapat mencapai tujuan proyek Anda dengan sukses. <br><br>Untuk itu, <strong>Mandiri Steel</strong> hadir untuk membantu Anda dalam perencanaan dan eksekusi konstruksi baja yang efektif dan efisien. Dengan pengalaman lebih dari 25 tahun dalam konstruksi baja, kita dapat membantu Anda mencapai tujuan proyek Anda dengan sukses."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, konstruksi baja adalah pilihan yang tepat untuk perluasan pabrik di EJIP dan Delta Silicon Cikarang. Dengan perencanaan yang teliti dan eksekusi yang tepat, struktur baja dapat dibangun untuk menahan beban yang berat dan tahan lama. <strong>Mandiri Steel</strong> hadir untuk membantu Anda dalam perencanaan dan eksekusi konstruksi baja yang efektif dan efisien. Dengan pengalaman lebih dari 25 tahun dalam konstruksi baja, kita dapat membantu Anda mencapai tujuan proyek Anda dengan sukses. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan konstruksi baja kami."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 140,
+    "title": "Merawat Pintu Pagar Besi",
+    "slug": "cara-merawat-pintu-pagar-besi-agar-awet-20-tahun",
+    "excerpt": "Panduan merawat pintu pagar besi agar awet 20 tahun, dengan tips dan contoh nyata.",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/photo-1666359330862-a50766f6ee84?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwaW50dSUyMHBhZ2FyJTIwYmVzaSUyMG1vZGVybnxlbnwwfDB8fHwxNzg2NDY3NjgxfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pintu pagar besi adalah salah satu komponen yang sangat penting dalam menjaga keamanan dan kenyamanan rumah. <strong>Pintu pagar besi yang awet</strong> dapat membantu melindungi rumah dari ancaman keamanan dan juga memberikan kesan yang elegan dan modern. Namun, untuk membuat pintu pagar besi awet, perlu dilakukan perawatan yang tepat dan berkala. Dalam artikel ini, kita akan membahas tentang cara merawat pintu pagar besi agar awet 20 tahun, dengan <strong>tips dan contoh nyata</strong> yang dapat membantu Anda dalam merawat pintu pagar besi.",
+      "keyPoints": [
+        "Pahami jenis material pintu pagar besi",
+        "Lakukan perawatan berkala",
+        "Periksa dan perbaiki kerusakan",
+        "Gunakan produk perawatan yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pahami Jenis Material Pintu Pagar Besi",
+          "content": "Pintu pagar besi dapat dibuat dari berbagai jenis material, seperti <strong>baja, besi, dan stainless steel</strong>. Setiap jenis material memiliki kelebihan dan kekurangan yang berbeda-beda. Baja dan besi adalah pilihan yang populer karena harganya yang relatif murah dan kuat, namun dapat berkarat jika tidak dirawat dengan baik. Stainless steel, di sisi lain, lebih tahan karat dan mudah dibersihkan, namun harganya lebih mahal. <br> <br> Untuk memilih jenis material yang tepat, perlu mempertimbangkan faktor-faktor seperti budget, kebutuhan, dan lingkungan. Jika Anda tinggal di daerah yang lembab atau berdebu, maka stainless steel mungkin adalah pilihan yang lebih baik. <br> <br> Selain itu, perlu memperhatikan <strong>kualitas material</strong> yang digunakan. Pastikan bahwa material yang digunakan adalah material yang berkualitas tinggi dan memenuhi standar keamanan.",
+          "imageSearchQuery": "baja dan besi",
+          "image": "https://images.unsplash.com/photo-1772787429449-40e8666a571e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiYWphJTIwZGFuJTIwYmVzaXxlbnwwfDB8fHwxNzg2NDY3NjgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Lakukan Perawatan Berkala",
+          "content": "Perawatan berkala adalah kunci untuk membuat pintu pagar besi awet. <strong>Perawatan yang rutin</strong> dapat membantu mencegah kerusakan dan memperpanjang umur pintu pagar besi. Beberapa hal yang perlu dilakukan dalam perawatan berkala adalah: <ul> <li>Membersihkan pintu pagar besi secara teratur</li> <li>Memeriksa dan mengganti komponen yang rusak</li> <li>Menggunakan produk perawatan yang tepat</li> </ul> <br> <br> Selain itu, perlu memperhatikan <strong>lingkungan</strong> di sekitar pintu pagar besi. Jika pintu pagar besi terletak di daerah yang lembab atau berdebu, maka perlu dilakukan perawatan yang lebih sering.",
+          "productId": 8
+        },
+        {
+          "heading": "3. Periksa dan Perbaiki Kerusakan",
+          "content": "Kerusakan pada pintu pagar besi dapat terjadi karena berbagai faktor, seperti <strong>keausan, korosi, atau kerusakan akibat bencana alam</strong>. Jika kerusakan tidak segera diperbaiki, maka dapat menyebabkan pintu pagar besi menjadi tidak berfungsi dengan baik. <br> <br> Untuk memeriksa kerusakan, perlu dilakukan <strong>inspeksi yang teliti</strong>. Periksa semua komponen pintu pagar besi, termasuk <strong>engsel, kunci, dan rantai</strong>. Jika ditemukan kerusakan, maka perlu segera diperbaiki atau diganti. <br> <br> Selain itu, perlu memperhatikan <strong>biaya perawatan</strong>. Pastikan bahwa biaya perawatan tidak melebihi biaya penggantian pintu pagar besi yang baru.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Gunakan Produk Perawatan yang Tepat",
+          "content": "Produk perawatan yang tepat dapat membantu membuat pintu pagar besi awet. <strong>Produk perawatan</strong> yang digunakan harus sesuai dengan jenis material pintu pagar besi. <br> <br> Beberapa contoh produk perawatan yang dapat digunakan adalah: <ul> <li>Minyak untuk menghilangkan karat</li> <li>Wax untuk melindungi permukaan</li> <li>Produk pembersih untuk membersihkan kotoran</li> </ul> <br> <br> Selain itu, perlu memperhatikan <strong>petunjuk penggunaan</strong> produk perawatan. Pastikan bahwa produk perawatan digunakan sesuai dengan petunjuk penggunaan yang disediakan."
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam <strong>produksi dan perawatan pintu pagar besi</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah menjadi salah satu perusahaan yang dipercaya oleh banyak pelanggan. <br> <br> Mandiri Steel menggunakan <strong>material yang berkualitas tinggi</strong> dan memenuhi standar keamanan. Selain itu, Mandiri Steel juga menyediakan <strong>layanan perawatan</strong> yang berkualitas untuk membantu memperpanjang umur pintu pagar besi. <br> <br> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa pintu pagar besi Anda akan awet dan berfungsi dengan baik.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Layanan Perawatan di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel menyediakan <strong>layanan perawatan</strong> di Bekasi dan Jabodetabek. Dengan <strong>tim yang berpengalaman</strong> dan <strong>peralatan yang canggih</strong>, Mandiri Steel dapat membantu memperbaiki dan merawat pintu pagar besi dengan cepat dan efisien. <br> <br> Selain itu, Mandiri Steel juga menyediakan <strong>layanan konsultasi</strong> untuk membantu Anda dalam memilih jenis material dan desain pintu pagar besi yang sesuai dengan kebutuhan Anda. <br> <br> Dengan memilih Mandiri Steel, Anda dapat yakin bahwa pintu pagar besi Anda akan awet dan berfungsi dengan baik."
+        }
+      ],
+      "conclusion": "Dalam kesimpulan, merawat pintu pagar besi agar awet 20 tahun memerlukan perawatan yang tepat dan berkala. Dengan memahami jenis material, melakukan perawatan berkala, memeriksa dan memperbaiki kerusakan, serta menggunakan produk perawatan yang tepat, Anda dapat membantu memperpanjang umur pintu pagar besi. Mandiri Steel adalah salah satu perusahaan yang berpengalaman dalam produksi dan perawatan pintu pagar besi, dan dapat membantu Anda dalam memilih jenis material dan desain yang sesuai dengan kebutuhan Anda. Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang layanan perawatan pintu pagar besi."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 141,
+    "title": "Harga Pasang Teralis Jendela Bekasi 2025",
+    "slug": "harga-pasang-teralis-jendela-bekasi-2025-1786467755445",
+    "excerpt": "Harga teralis jendela per meter di Bekasi 2025, panduan lengkap biaya",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-11",
+    "image": "https://images.unsplash.com/photo-1698892472816-9c08eb4b13c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMG1pbmltYWxpc3xlbnwwfDB8fHwxNzg2NDY3NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pemasangan <strong>teralis jendela</strong> merupakan salah satu cara efektif untuk meningkatkan keamanan rumah. Di Bekasi, harga pasang teralis jendela per meter dapat bervariasi tergantung pada beberapa faktor. Dalam artikel ini, kita akan membahas <strong>harga pasang teralis jendela</strong> di Bekasi 2025 dan memberikan panduan lengkap tentang biaya yang terkait.",
+      "keyPoints": [
+        "Harga teralis jendela per meter di Bekasi 2025",
+        "Faktor yang mempengaruhi harga pasang teralis jendela",
+        "Tips memilih teralis jendela yang tepat"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengertian Teralis Jendela dan Fungsi",
+          "content": "Teralis jendela adalah struktur yang dipasang di jendela untuk meningkatkan keamanan dan mencegah akses tidak sah. <strong>Teralis jendela</strong> dapat dibuat dari berbagai bahan, seperti besi, stainless steel, atau alumunium. Fungsi utama teralis jendela adalah untuk mencegah orang tidak berwenang memasuki rumah melalui jendela. Selain itu, teralis jendela juga dapat meningkatkan estetika rumah dengan desain yang elegan dan modern. Di Bekasi, banyak rumah yang menggunakan teralis jendela sebagai bagian dari sistem keamanan rumah. <br> Contoh nyata dari penggunaan teralis jendela di Bekasi adalah di kawasan perumahan <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong>. Di sini, banyak rumah yang dipasang teralis jendela untuk meningkatkan keamanan dan kenyamanan penghuni.",
+          "imageSearchQuery": "teralis jendela modern",
+          "image": "https://images.unsplash.com/photo-1698892472816-9c08eb4b13c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMG1vZGVybnxlbnwwfDB8fHwxNzg2NDY3NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Harga Pasang Teralis Jendela per Meter di Bekasi 2025",
+          "content": "Harga pasang teralis jendela per meter di Bekasi 2025 dapat bervariasi tergantung pada beberapa faktor, seperti bahan, desain, dan ukuran. Berikut adalah beberapa contoh harga pasang teralis jendela per meter di Bekasi 2025: <br> - Teralis jendela besi: Rp 500.000 - Rp 1.000.000 per meter <br> - Teralis jendela stainless steel: Rp 800.000 - Rp 1.500.000 per meter <br> - Teralis jendela alumunium: Rp 600.000 - Rp 1.200.000 per meter. <blockquote>Perlu diingat bahwa harga di atas hanya sebagai acuan dan dapat berbeda-beda tergantung pada kebutuhan dan spesifikasi proyek.</blockquote>",
+          "productId": 5
+        },
+        {
+          "heading": "3. Faktor yang Mempengaruhi Harga Pasang Teralis Jendela",
+          "content": "Harga pasang teralis jendela dapat dipengaruhi oleh beberapa faktor, seperti: <ul> <li>Bahan yang digunakan</li> <li>Desain dan ukuran</li> <li>Jumlah jendela yang dipasang</li> <li>Lokasi pemasangan</li> </ul> Di Bekasi, harga pasang teralis jendela juga dapat dipengaruhi oleh biaya transportasi dan biaya tenaga kerja. Oleh karena itu, penting untuk memilih kontraktor yang berpengalaman dan memiliki reputasi baik untuk memasang teralis jendela.",
+          "productId": 5
+        },
+        {
+          "heading": "4. Tips Memilih Teralis Jendela yang Tepat",
+          "content": "Memilih teralis jendela yang tepat dapat meningkatkan keamanan dan estetika rumah. Berikut adalah beberapa tips memilih teralis jendela yang tepat: <ul> <li>Pilih bahan yang kuat dan tahan lama</li> <li>Pilih desain yang sesuai dengan gaya rumah</li> <li>Pertimbangkan ukuran jendela dan jumlah jendela yang dipasang</li> <li>Pilih kontraktor yang berpengalaman dan memiliki reputasi baik</li> </ul> Di Bekasi, banyak kontraktor yang menawarkan jasa pemasangan teralis jendela dengan harga yang kompetitif. <br> Contoh nyata dari tips memilih teralis jendela yang tepat adalah dengan mempertimbangkan <strong>keamanan</strong> dan <strong>estetika</strong> rumah.",
+          "productId": 5
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Pemasangan Teralis Jendela?",
+          "content": "Mandiri Steel adalah kontraktor yang berpengalaman dalam pemasangan teralis jendela di Bekasi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel memiliki reputasi baik dalam memberikan layanan yang berkualitas dan harga yang kompetitif. <strong>Mandiri Steel</strong> juga menggunakan bahan-bahan yang berkualitas dan tahan lama, sehingga teralis jendela yang dipasang dapat bertahan lama. Di Bekasi, <strong>Mandiri Steel</strong> telah memasang teralis jendela di banyak rumah dan gedung, termasuk di kawasan <strong>Kota Deltamas</strong> dan <strong>Lippo Cikarang</strong>.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Layanan Pemasangan Teralis Jendela di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menawarkan layanan pemasangan teralis jendela di Bekasi dan sekitarnya, termasuk di <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Jababeka</strong>. Dengan tim yang berpengalaman dan peralatan yang modern, Mandiri Steel dapat memberikan layanan yang cepat dan berkualitas. <br> Jika Anda membutuhkan layanan pemasangan teralis jendela di Bekasi atau sekitarnya, silakan hubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang harga dan layanan yang tersedia."
+        }
+      ],
+      "conclusion": "Dalam artikel ini, kita telah membahas harga pasang teralis jendela per meter di Bekasi 2025 dan memberikan panduan lengkap tentang biaya yang terkait. Jika Anda membutuhkan layanan pemasangan teralis jendela di Bekasi atau sekitarnya, silakan hubungi Mandiri Steel untuk mendapatkan informasi lebih lanjut tentang harga dan layanan yang tersedia. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel dapat memberikan layanan yang berkualitas dan harga yang kompetitif untuk kebutuhan teralis jendela Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 136,
     "title": "Teralis Pintu Kasa Nyamuk Stainless",
     "slug": "teralis-pintu-kasa-nyamuk-stainless-1786424556912",
