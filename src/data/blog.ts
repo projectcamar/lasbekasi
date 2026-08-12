@@ -33,6 +33,183 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 151,
+    "title": "Konstruksi Baja Bekasi",
+    "slug": "konstruksi-baja-bekasi-1786575755851",
+    "excerpt": "Layanan konstruksi baja terbaik di Bekasi untuk proyek Anda",
+    "category": "Steel Construction",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMGJla2FzaXxlbnwwfDB8fHwxNzg2NTc1NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Bekasi sebagai salah satu kota industri terbesar di Indonesia memerlukan layanan <strong>konstruksi baja</strong> yang berkualitas. <strong>Mandiri Steel</strong> hadir sebagai penyedia jasa konstruksi baja terbaik di koridor Jalan Raya Setu-Cibitung Bekasi. Dengan pengalaman lebih dari 25 tahun, kami telah membantu banyak pelanggan dalam mewujudkan proyek-proyek mereka.",
+      "keyPoints": [
+        "Konstruksi baja berkualitas",
+        "Layanan terbaik di Bekasi",
+        "Pengalaman lebih dari 25 tahun"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept Konstruksi Baja",
+          "content": "Konstruksi baja adalah proses pembangunan struktur menggunakan bahan baja sebagai komponen utama. <strong>Baja</strong> dipilih karena kekuatannya yang tinggi, tahan lama, dan dapat didesain sesuai kebutuhan. Di Bekasi, konstruksi baja banyak digunakan untuk <strong>gedung industri</strong>, <strong>gudang</strong>, dan <strong>infrastruktur</strong> lainnya. <br><br>Sebagai contoh, di kawasan <strong>MM2100</strong> dan <strong>Jababeka</strong>, banyak perusahaan yang menggunakan konstruksi baja untuk bangunan mereka. Hal ini karena konstruksi baja dapat membantu meningkatkan efisiensi dan memangkas biaya pembangunan.",
+          "imageSearchQuery": "konstruksi baja mm2100",
+          "image": "https://images.unsplash.com/photo-1590912710660-aa43935cd36a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrb25zdHJ1a3NpJTIwYmFqYSUyMG1tMjEwMHxlbnwwfDB8fHwxNzg2NTc1NjEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Konstruksi Baja",
+          "content": "Konstruksi baja memiliki beberapa manfaat, antara lain: <ul><li>Meningkatkan kekuatan struktur</li><li>Mengurangi biaya pembangunan</li><li>Mempercepat proses pembangunan</li></ul> Selain itu, konstruksi baja juga dapat membantu mengurangi dampak lingkungan karena bahan baja dapat didaur ulang. <br><br>Di <strong>Grand Wisata</strong> dan <strong>Summarecon Bekasi</strong>, konstruksi baja telah digunakan untuk beberapa proyek, seperti <strong>mal</strong> dan <strong>apartemen</strong>. Hal ini menunjukkan bahwa konstruksi baja dapat menjadi pilihan yang tepat untuk berbagai jenis proyek.",
+          "productId": 7
+        },
+        {
+          "heading": "3. Tips Memilih Jasa Konstruksi Baja",
+          "content": "Dalam memilih jasa konstruksi baja, ada beberapa tips yang perlu diperhatikan: <ul><li>Pilih penyedia jasa yang berpengalaman</li><li>Pilih penyedia jasa yang menggunakan bahan berkualitas</li><li>Pilih penyedia jasa yang menawarkan harga kompetitif</li></ul> <br><br>Di <strong>Kota Deltamas</strong> dan <strong>Lippo Cikarang</strong>, banyak perusahaan yang menawarkan jasa konstruksi baja. Namun, perlu diingat bahwa kualitas dan harga tidak selalu sebanding. Oleh karena itu, perlu melakukan penelitian dan membandingkan beberapa penyedia jasa sebelum membuat keputusan.",
+          "productId": 7
+        },
+        {
+          "heading": "4. Layanan Konstruksi Baja Mandiri Steel",
+          "content": "Mandiri Steel menawarkan layanan konstruksi baja yang berkualitas dan terpercaya. Dengan pengalaman lebih dari 25 tahun, kami telah membantu banyak pelanggan dalam mewujudkan proyek-proyek mereka. <br><br>Kami menggunakan bahan <strong>baja SNI</strong> yang berkualitas tinggi dan memiliki tim yang berpengalaman dalam melakukan pekerjaan konstruksi baja. Selain itu, kami juga menawarkan <strong>survei gratis</strong> dan <strong>garansi struktural</strong> untuk memberikan ketenangan kepada pelanggan.",
+          "productId": 7
+        },
+        {
+          "heading": "5. Pengalaman Mandiri Steel",
+          "content": "Mandiri Steel telah berpengalaman lebih dari 25 tahun dalam melakukan pekerjaan konstruksi baja. Kami telah bekerja sama dengan banyak perusahaan dan telah menyelesaikan beberapa proyek besar. <br><br>Salah satu contoh proyek yang telah kami selesaikan adalah konstruksi baja untuk <strong>gedung industri</strong> di <strong>Cikarang</strong>. Proyek ini memerlukan ketelitian dan keahlian yang tinggi, namun kami berhasil menyelesaikannya dengan baik.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Layanan Konstruksi Baja di Bekasi",
+          "content": "Mandiri Steel menawarkan layanan konstruksi baja di Bekasi dan sekitarnya. Kami memiliki tim yang berpengalaman dan peralatan yang memadai untuk melakukan pekerjaan konstruksi baja. <br><br>Kami melayani beberapa daerah, termasuk <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Setu</strong>. Jika Anda memerlukan layanan konstruksi baja, jangan ragu untuk menghubungi kami."
+        }
+      ],
+      "conclusion": "Jika Anda memerlukan layanan konstruksi baja yang berkualitas dan terpercaya, Mandiri Steel adalah pilihan yang tepat. Dengan pengalaman lebih dari 25 tahun dan tim yang berpengalaman, kami dapat membantu Anda mewujudkan proyek-proyek Anda. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang layanan konstruksi baja kami."
+    },
+    "tags": [
+      "Steel Construction",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 152,
+    "title": "Kanopi Baja Ringan vs Baja Berat",
+    "slug": "kanopi-baja-ringan-vs-baja-berat-1786575755851",
+    "excerpt": "Pilih kanopi baja ringan atau baja berat untuk rumah 2 lantai di Bekasi?",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80",
+    "content": {
+      "introduction": "Jika Anda sedang mempertimbangkan untuk memasang kanopi di rumah 2 lantai di Bekasi, maka Anda mungkin bertanya-tanya tentang perbedaan antara <strong>kanopi baja ringan</strong> dan <strong>kanopi baja berat</strong>. Keduanya memiliki kelebihan dan kekurangan masing-masing, dan memilih yang tepat dapat mempengaruhi <strong>keamanan</strong>, <strong>kestabilan</strong>, dan <strong>estetika</strong> rumah Anda.",
+      "keyPoints": [
+        "Kanopi baja ringan lebih ringan dan fleksibel",
+        "Kanopi baja berat lebih kuat dan tahan lama",
+        "Pemilihan kanopi yang tepat tergantung pada kebutuhan dan budget"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Kanopi Baja Ringan",
+          "content": "Kanopi baja ringan adalah salah satu jenis kanopi yang paling populer digunakan di Indonesia, terutama di daerah <strong>Bekasi</strong> dan <strong>Cikarang</strong>. Baja ringan memiliki <strong>kelebihan</strong> seperti ringan, fleksibel, dan mudah dipasang. Namun, kanopi baja ringan juga memiliki <strong>kekurangan</strong> seperti kurang kuat dan tidak tahan lama. <br> Contoh nyata penggunaan kanopi baja ringan adalah di rumah-rumah di <strong>Perumahan Grand Wisata</strong> dan <strong>Kota Deltamas</strong>. <br> Tips: Pastikan Anda memilih kanopi baja ringan yang berkualitas dan sesuai dengan kebutuhan rumah Anda.",
+          "imageSearchQuery": "kanopi baja ringan"
+        },
+        {
+          "heading": "2. Pengenalan Kanopi Baja Berat",
+          "content": "Kanopi baja berat adalah jenis kanopi yang lebih kuat dan tahan lama dibandingkan dengan kanopi baja ringan. Baja berat memiliki <strong>kelebihan</strong> seperti kuat, tahan lama, dan dapat menahan beban yang berat. Namun, kanopi baja berat juga memiliki <strong>kekurangan</strong> seperti berat, sulit dipasang, dan lebih mahal. <br> Contoh nyata penggunaan kanopi baja berat adalah di rumah-rumah di <strong>MM2100</strong> dan <strong>Jababeka</strong>. <br> Tips: Pastikan Anda memilih kanopi baja berat yang berkualitas dan sesuai dengan kebutuhan rumah Anda.",
+          "productId": 2
+        },
+        {
+          "heading": "3. Perbedaan Antara Kanopi Baja Ringan dan Baja Berat",
+          "content": "Perbedaan antara kanopi baja ringan dan baja berat dapat dilihat dari <strong>kekuatan</strong>, <strong>ketahanan</strong>, dan <strong>harga</strong>. Kanopi baja ringan lebih ringan dan fleksibel, namun kurang kuat dan tidak tahan lama. Kanopi baja berat lebih kuat dan tahan lama, namun berat dan lebih mahal. <br> Tips: Pastikan Anda mempertimbangkan kebutuhan dan budget Anda sebelum memilih kanopi. <br> <ul> <li>Pertimbangkan kekuatan dan ketahanan kanopi</li> <li>Pertimbangkan harga dan budget</li> <li>Pertimbangkan estetika dan desain kanopi</li> </ul>",
+          "productId": 1
+        },
+        {
+          "heading": "4. Tips Memilih Kanopi yang Tepat",
+          "content": "Memilih kanopi yang tepat dapat mempengaruhi keamanan, kestabilan, dan estetika rumah Anda. Berikut beberapa tips untuk memilih kanopi yang tepat: <br> <ul> <li>Pertimbangkan kebutuhan dan budget Anda</li> <li>Pertimbangkan kekuatan dan ketahanan kanopi</li> <li>Pertimbangkan estetika dan desain kanopi</li> <li>Pastikan Anda memilih kanopi yang berkualitas dan sesuai dengan kebutuhan rumah Anda</li> </ul> <br> Contoh nyata penggunaan kanopi yang tepat adalah di rumah-rumah di <strong>Summarecon Bekasi</strong> dan <strong>Lippo Cikarang</strong>.",
+          "productId": 5
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang berpengalaman lebih dari 25 tahun di bidang kanopi dan konstruksi baja. Kami menggunakan <strong>baja SNI</strong> yang berkualitas dan memiliki <strong>garansi struktural</strong> yang memuaskan. Kami juga menawarkan <strong>survei gratis</strong> untuk membantu Anda memilih kanopi yang tepat. <br> Tips: Pastikan Anda memilih perusahaan yang berpengalaman dan berkualitas untuk memastikan keamanan dan kestabilan rumah Anda.",
+          "productId": 7
+        },
+        {
+          "heading": "6. Layanan Area di Bekasi dan Jabodetabek",
+          "content": "Mandiri Steel menyediakan layanan kanopi dan konstruksi baja di <strong>Bekasi</strong>, <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, <strong>Jababeka</strong>, <strong>MM2100</strong>, <strong>Grand Wisata</strong>, <strong>Summarecon Bekasi</strong>, <strong>Kota Deltamas</strong>, dan <strong>Lippo Cikarang</strong>. Kami siap membantu Anda memilih kanopi yang tepat dan memastikan keamanan dan kestabilan rumah Anda. <br> Tips: Pastikan Anda mempertimbangkan layanan area yang luas dan berkualitas untuk memastikan kepuasan Anda."
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi yang tepat, pastikan Anda mempertimbangkan kebutuhan dan budget Anda, serta memilih perusahaan yang berpengalaman dan berkualitas. Mandiri Steel siap membantu Anda memilih kanopi yang tepat dan memastikan keamanan dan kestabilan rumah Anda. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang kanopi baja ringan dan baja berat, serta layanan area di Bekasi dan Jabodetabek."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 153,
+    "title": "Membaca Quotation Bengkel Las",
+    "slug": "cara-membaca-penawaran-harga-quotation-dari-bengkel-las",
+    "excerpt": "Membaca penawaran harga quotation dari bengkel las dengan benar untuk proyek Anda",
+    "category": "Tips and Trick",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1739644676578-eb4942d6aea0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwcXVvdGF0aW9ufGVufDB8MHx8fDE3ODY1NzU3NTJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam melakukan proyek konstruksi, <strong>membaca penawaran harga</strong> atau quotation dari bengkel las adalah hal yang sangat penting. Quotation yang jelas dan detail dapat membantu Anda dalam <strong>mengelola biaya</strong> dan <strong>waktu</strong> proyek. Namun, banyak orang yang masih kesulitan dalam <strong>membaca dan memahami</strong> quotation dari bengkel las. Dalam artikel ini, kita akan membahas tentang <strong>cara membaca penawaran harga</strong> dari bengkel las dengan benar.",
+      "keyPoints": [
+        "Mengerti komponen-komponen quotation",
+        "Menganalisis harga dan biaya",
+        "Memahami syarat dan ketentuan",
+        "Menghubungi bengkel las untuk klarifikasi"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mengerti Komponen-Komponen Quotation",
+          "content": "Quotation dari bengkel las biasanya terdiri dari beberapa komponen, seperti <strong>deskripsi pekerjaan</strong>, <strong>harga material</strong>, <strong>biaya tenaga kerja</strong>, dan <strong>syarat dan ketentuan</strong>. Penting untuk memahami setiap komponen ini agar Anda dapat <strong>mengelola proyek</strong> dengan lebih efektif. Sebagai contoh, quotation untuk proyek kanopi minimalis Alderon (produk kami dengan kode <strong>1</strong>) harus mencakup detail seperti jenis material, ukuran, dan finishing yang digunakan.",
+          "imageSearchQuery": "contoh quotation bengkel las"
+        },
+        {
+          "heading": "2. Menganalisis Harga dan Biaya",
+          "content": "Setelah memahami komponen-komponen quotation, langkah selanjutnya adalah <strong>menganalisis harga dan biaya</strong> yang tercantum. Pastikan Anda memahami <strong>apa yang sudah termasuk</strong> dan <strong>apa yang belum termasuk</strong> dalam harga yang ditawarkan. Jangan ragu untuk <strong>menghubungi bengkel las</strong> jika Anda memiliki pertanyaan atau keraguan. Di Mandiri Steel, kami menawarkan <strong>free on-site survey</strong> untuk membantu Anda dalam menganalisis kebutuhan proyek Anda dengan lebih akurat.",
+          "productId": null
+        },
+        {
+          "heading": "3. Memahami Syarat dan Ketentuan",
+          "content": "Syarat dan ketentuan dalam quotation sangat penting untuk dipahami. Ini mencakup <strong>garansi</strong>, <strong>waktu penyelesaian</strong>, dan <strong>prosedur pembayaran</strong>. Pastikan Anda memahami <strong>apa yang diharapkan dari Anda</strong> sebagai klien dan <strong>apa yang diharapkan dari bengkel las</strong>. Kami di Mandiri Steel menawarkan <strong>structural warranty</strong> untuk memberikan Anda ketenangan dalam proyek Anda.",
+          "productId": null
+        },
+        {
+          "heading": "4. Menghubungi Bengkel Las untuk Klarifikasi",
+          "content": "Jika Anda memiliki pertanyaan atau keraguan tentang quotation, jangan ragu untuk <strong>menghubungi bengkel las</strong>. Mereka harus dapat memberikan <strong>penjelasan yang jelas</strong> tentang setiap komponen quotation. Di Mandiri Steel, kami memiliki tim yang siap membantu Anda dalam setiap langkah proyek Anda, termasuk area <strong>Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, Lippo Cikarang</strong>.",
+          "productId": null
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Dengan lebih dari <strong>25 tahun pengalaman</strong> dalam industri konstruksi, Mandiri Steel adalah pilihan yang tepat untuk proyek Anda. Kami menggunakan <strong>material SNI</strong> untuk memastikan kualitas yang tinggi. Kami juga menawarkan <strong>free on-site survey</strong> untuk membantu Anda dalam menganalisis kebutuhan proyek Anda. Produk kami, seperti <strong>Kanopi Minimalis Alderon (kode 1)</strong> dan <strong>Pagar Minimalis Modern (kode 3)</strong>, dirancang untuk memenuhi kebutuhan Anda dengan baik.",
+          "productId": "1"
+        },
+        {
+          "heading": "6. Layanan dan Area Cakupan",
+          "content": "Mandiri Steel melayani berbagai kebutuhan konstruksi, termasuk <strong>kanopi, pagar, trelis, dan railing</strong>. Kami juga menyediakan layanan untuk <strong>konstruksi baja WF</strong> untuk industri dan gudang. Dengan <strong>lokasi di Setu, Bekasi</strong>, kami dapat dengan mudah melayani area <strong>Jabodetabek</strong>, termasuk <strong>Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, Lippo Cikarang</strong>. Jangan ragu untuk menghubungi kami untuk proyek Anda.",
+          "productId": null
+        }
+      ],
+      "conclusion": "Membaca penawaran harga dari bengkel las dengan benar adalah kunci untuk kesuksesan proyek Anda. Dengan memahami komponen-komponen quotation, menganalisis harga dan biaya, memahami syarat dan ketentuan, dan menghubungi bengkel las untuk klarifikasi, Anda dapat membuat keputusan yang tepat untuk proyek Anda. Mandiri Steel dengan pengalaman lebih dari 25 tahun dan komitmen pada kualitas, siap membantu Anda dalam setiap langkah proyek. Hubungi kami hari ini juga untuk mendapatkan penawaran harga yang kompetitif dan layanan yang profesional."
+    },
+    "tags": [
+      "Tips and Trick",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 148,
     "title": "Cara Memilih Bengkel Las Terpercaya",
     "slug": "cara-memilih-bengkel-las-terpercaya-di-bekasi-1786554155402",
