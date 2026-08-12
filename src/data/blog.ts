@@ -33,6 +33,185 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 145,
+    "title": "Layanan Las untuk Perumahan di Bekasi",
+    "slug": "layanan-las-untuk-perumahan-bekasi",
+    "excerpt": "Mandiri Steel menyediakan layanan las untuk perumahan di Bekasi, termasuk Summarecon Bekasi, Kemang Pratama, dan Grand Galaxy City",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1599477691241-6c27815449fb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwZXJ1bWFoYW4lMjBtZXdhaCUyMGRpJTIwYmVrYXNpfGVufDB8MHx8fDE3ODY1MTA4MDd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Bekasi adalah salah satu kota di Jawa Barat yang berkembang pesat dalam beberapa tahun terakhir. <strong>Pertumbuhan ekonomi</strong> dan <strong>peningkatan infrastruktur</strong> membuat Bekasi menjadi salah satu tujuan investasi properti yang menjanjikan. <strong>Mandiri Steel</strong> hadir untuk memenuhi kebutuhan layanan las untuk perumahan di Bekasi, termasuk <strong>Summarecon Bekasi</strong>, <strong>Kemang Pratama</strong>, dan <strong>Grand Galaxy City</strong>.",
+      "keyPoints": [
+        "Layanan las untuk perumahan di Bekasi",
+        "Menggunakan bahan-bahan SNI",
+        "Gratis survei lapangan",
+        "Garansi struktural"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Layanan Las Mandiri Steel",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang menyediakan layanan las untuk perumahan di Bekasi. <strong>Kami memiliki pengalaman lebih dari 25 tahun</strong> dalam menyediakan layanan las untuk berbagai jenis proyek, mulai dari perumahan, gedung komersial, hingga industri. <strong>Kami menggunakan bahan-bahan SNI</strong> yang memenuhi standar kualitas dan keamanan. <strong>Tim kami yang berpengalaman</strong> akan memastikan bahwa setiap proyek diselesaikan dengan baik dan sesuai dengan kebutuhan pelanggan.",
+          "imageSearchQuery": "las untuk perumahan",
+          "image": "https://images.unsplash.com/photo-1701589212546-2a1bcd94c5af?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxsYXMlMjB1bnR1ayUyMHBlcnVtYWhhbnxlbnwwfDB8fHwxNzg2NTEwODA4fDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Menggunakan Layanan Las Mandiri Steel",
+          "content": "Menggunakan layanan las Mandiri Steel memiliki beberapa manfaat, antara lain: <ul><li><strong>Menghemat biaya</strong>: Kami menggunakan bahan-bahan yang berkualitas dan memenuhi standar SNI, sehingga Anda tidak perlu khawatir tentang biaya perawatan dan perbaikan di kemudian hari.</li><li><strong>Meningkatkan keamanan</strong>: Kami menggunakan teknologi las yang canggih dan memenuhi standar keamanan, sehingga Anda dapat yakin bahwa struktur bangunan Anda aman dan tahan lama.</li><li><strong>Meningkatkan estetika</strong>: Kami memiliki tim desainer yang berpengalaman dan dapat membantu Anda merancang struktur bangunan yang sesuai dengan kebutuhan dan selera Anda.</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "3. Tips Merawat Struktur Bangunan di Perumahan",
+          "content": "Merawat struktur bangunan di perumahan sangat penting untuk memastikan bahwa bangunan tersebut tetap aman dan tahan lama. Berikut beberapa tips yang dapat Anda lakukan: <ul><li><strong>Periksa struktur bangunan secara teratur</strong>: Pastikan Anda memeriksa struktur bangunan secara teratur untuk memastikan bahwa tidak ada kerusakan atau kebocoran.</li><li><strong>Bersihkan struktur bangunan secara teratur</strong>: Pastikan Anda membersihkan struktur bangunan secara teratur untuk memastikan bahwa tidak ada kotoran atau debu yang dapat merusak struktur bangunan.</li><li><strong>Lakukan perawatan secara teratur</strong>: Pastikan Anda melakukan perawatan secara teratur untuk memastikan bahwa struktur bangunan tetap dalam kondisi baik.</li></ul>",
+          "productId": 5
+        },
+        {
+          "heading": "4. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang menyediakan layanan las untuk perumahan di Bekasi. <strong>Kami memiliki pengalaman lebih dari 25 tahun</strong> dalam menyediakan layanan las untuk berbagai jenis proyek. <strong>Kami menggunakan bahan-bahan SNI</strong> yang memenuhi standar kualitas dan keamanan. <strong>Tim kami yang berpengalaman</strong> akan memastikan bahwa setiap proyek diselesaikan dengan baik dan sesuai dengan kebutuhan pelanggan. <strong>Kami juga menyediakan garansi struktural</strong> untuk memastikan bahwa struktur bangunan Anda aman dan tahan lama.",
+          "productId": 7
+        },
+        {
+          "heading": "5. Layanan Mandiri Steel di Bekasi",
+          "content": "Mandiri Steel menyediakan layanan las untuk perumahan di Bekasi, termasuk <strong>Summarecon Bekasi</strong>, <strong>Kemang Pratama</strong>, dan <strong>Grand Galaxy City</strong>. <strong>Kami juga menyediakan layanan untuk daerah lain di Bekasi</strong>, seperti Cikarang, Tambun, Cibitung, Jababeka, MM2100, dan Kota Deltamas. <strong>Kami memiliki tim yang berpengalaman</strong> dan dapat membantu Anda merancang dan membangun struktur bangunan yang sesuai dengan kebutuhan dan selera Anda.",
+          "productId": 8
+        },
+        {
+          "heading": "6. Kesimpulan",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang menyediakan layanan las untuk perumahan di Bekasi. <strong>Kami memiliki pengalaman lebih dari 25 tahun</strong> dalam menyediakan layanan las untuk berbagai jenis proyek. <strong>Kami menggunakan bahan-bahan SNI</strong> yang memenuhi standar kualitas dan keamanan. <strong>Tim kami yang berpengalaman</strong> akan memastikan bahwa setiap proyek diselesaikan dengan baik dan sesuai dengan kebutuhan pelanggan. Jika Anda membutuhkan layanan las untuk perumahan di Bekasi, <strong>hubungi Mandiri Steel</strong> sekarang juga untuk mendapatkan informasi lebih lanjut dan penawaran yang menarik."
+        }
+      ],
+      "conclusion": "Mandiri Steel adalah salah satu perusahaan yang menyediakan layanan las untuk perumahan di Bekasi. Dengan pengalaman lebih dari 25 tahun, bahan-bahan SNI, dan tim yang berpengalaman, kami dapat membantu Anda merancang dan membangun struktur bangunan yang sesuai dengan kebutuhan dan selera Anda. Jika Anda membutuhkan layanan las untuk perumahan di Bekasi, hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut dan penawaran yang menarik."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 146,
+    "title": "Persiapan Renovasi Pagar dan Kanopi",
+    "slug": "persiapan-renovasi-pagar-dan-kanopi",
+    "excerpt": "Checklist lengkap untuk renovasi pagar dan kanopi rumah di Bekasi dan Jabodetabek",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1714621488914-a245a8089213?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyZW5vdmFzaSUyMHBhZ2FyJTIwcnVtYWh8ZW58MHwwfHx8MTc4NjUxMDg4MHww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Sebelum melakukan <strong>renovasi pagar dan kanopi rumah</strong>, ada beberapa hal yang perlu dipersiapkan dengan baik. <strong>Rencana matang</strong> dan <strong>anggaran yang tepat</strong> dapat membantu Anda menghindari kesalahan yang tidak diinginkan. Di artikel ini, kita akan membahas tentang <strong>checklist lengkap</strong> untuk renovasi pagar dan kanopi rumah di Bekasi dan Jabodetabek.",
+      "keyPoints": [
+        "Mempersiapkan rencana dan anggaran",
+        "Memilih bahan dan desain yang tepat",
+        "Menggunakan jasa renovasi yang berkualitas"
+      ],
+      "sections": [
+        {
+          "heading": "1. Mempersiapkan Rencana dan Anggaran",
+          "content": "Sebelum melakukan renovasi, <strong>persiapan rencana dan anggaran</strong> yang matang sangat penting. Anda perlu menentukan <strong>tujuan renovasi</strong>, <strong>anggaran yang tersedia</strong>, dan <strong>waktu yang dibutuhkan</strong> untuk menyelesaikan proyek. Contohnya, jika Anda ingin melakukan renovasi pagar rumah di Bekasi, Anda perlu mempertimbangkan <strong>biaya bahan</strong>, <strong>biaya jasa</strong>, dan <strong>biaya lain-lain</strong> seperti biaya pengaturan izin dan biaya pengawasan. <br><br> Berikut adalah contoh <strong>checklist rencana dan anggaran</strong> yang dapat Anda gunakan: <ul><li>Tentukan tujuan renovasi</li><li>Tentukan anggaran yang tersedia</li><li>Tentukan waktu yang dibutuhkan</li><li>Identifikasi biaya bahan dan jasa</li><li>Identifikasi biaya lain-lain</li></ul>",
+          "imageSearchQuery": "rencana renovasi rumah",
+          "image": "https://images.unsplash.com/photo-1595814432314-90095f342694?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxyZW5jYW5hJTIwcmVub3Zhc2klMjBydW1haHxlbnwwfDB8fHwxNzg2NTEwODgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Memilih Bahan dan Desain yang Tepat",
+          "content": "Memilih <strong>bahan dan desain yang tepat</strong> sangat penting untuk mendapatkan hasil renovasi yang diinginkan. Anda perlu mempertimbangkan <strong>kebutuhan dan preferensi</strong> Anda, serta <strong>kondisi lingkungan</strong> di sekitar rumah. Contohnya, jika Anda ingin melakukan renovasi kanopi rumah di Cikarang, Anda perlu mempertimbangkan <strong>bahan yang tahan lama</strong> dan <strong>desain yang sesuai dengan gaya rumah</strong>. <br><br> Berikut adalah contoh <strong>tips memilih bahan dan desain</strong> yang dapat Anda gunakan: <ul><li>Pertimbangkan kebutuhan dan preferensi Anda</li><li>Pertimbangkan kondisi lingkungan di sekitar rumah</li><li>Pilih bahan yang tahan lama dan berkualitas</li><li>Pilih desain yang sesuai dengan gaya rumah</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "3. Menggunakan Jasa Renovasi yang Berkualitas",
+          "content": "Menggunakan <strong>jasa renovasi yang berkualitas</strong> sangat penting untuk mendapatkan hasil renovasi yang diinginkan. Anda perlu mempertimbangkan <strong>pengalaman dan reputasi</strong> kontraktor, serta <strong>portofolio dan referensi</strong> yang mereka miliki. Contohnya, jika Anda ingin melakukan renovasi pagar rumah di Tambun, Anda perlu mempertimbangkan <strong>kontraktor yang memiliki pengalaman luas</strong> dan <strong>reputasi yang baik</strong> di bidang renovasi pagar. <br><br> Berikut adalah contoh <strong>tips memilih jasa renovasi</strong> yang dapat Anda gunakan: <ul><li>Pertimbangkan pengalaman dan reputasi kontraktor</li><li>Pertimbangkan portofolio dan referensi kontraktor</li><li>Pilih kontraktor yang memiliki pengalaman luas dan reputasi baik</li><li>Pilih kontraktor yang memiliki harga yang kompetitif</li></ul>",
+          "productId": 3
+        },
+        {
+          "heading": "4. Manfaat Menggunakan Jasa Mandiri Steel",
+          "content": "Menggunakan <strong>jasa Mandiri Steel</strong> dapat memberikan banyak manfaat bagi Anda. <strong>Pengalaman lebih dari 25 tahun</strong> dan <strong>bahan SNI yang berkualitas</strong> dapat membantu Anda mendapatkan hasil renovasi yang diinginkan. Contohnya, jika Anda ingin melakukan renovasi kanopi rumah di Bekasi, Anda dapat menggunakan jasa Mandiri Steel untuk mendapatkan <strong>desain yang sesuai dengan gaya rumah</strong> dan <strong>bahan yang tahan lama</strong>. <br><br> Berikut adalah contoh <strong>manfaat menggunakan jasa Mandiri Steel</strong> yang dapat Anda gunakan: <ul><li>Pengalaman lebih dari 25 tahun</li><li>Bahan SNI yang berkualitas</li><li>Desain yang sesuai dengan gaya rumah</li><li>Bahan yang tahan lama</li></ul>",
+          "productId": 2
+        },
+        {
+          "heading": "5. Proses Renovasi yang Efektif",
+          "content": "Proses <strong>renovasi yang efektif</strong> sangat penting untuk mendapatkan hasil renovasi yang diinginkan. Anda perlu mempertimbangkan <strong>perencanaan yang matang</strong>, <strong>eksekusi yang tepat</strong>, dan <strong>pengawasan yang ketat</strong> untuk mendapatkan hasil yang diinginkan. Contohnya, jika Anda ingin melakukan renovasi pagar rumah di Cibitung, Anda perlu mempertimbangkan <strong>perencanaan yang matang</strong> untuk mendapatkan <strong>desain yang sesuai dengan gaya rumah</strong> dan <strong>bahan yang tahan lama</strong>. <br><br> Berikut adalah contoh <strong>tips proses renovasi yang efektif</strong> yang dapat Anda gunakan: <ul><li>Pertimbangkan perencanaan yang matang</li><li>Pertimbangkan eksekusi yang tepat</li><li>Pertimbangkan pengawasan yang ketat</li><li>Pilih kontraktor yang memiliki pengalaman luas dan reputasi baik</li></ul>",
+          "productId": 4
+        },
+        {
+          "heading": "6. Layanan Renovasi di Bekasi dan Jabodetabek",
+          "content": "Layanan <strong>renovasi di Bekasi dan Jabodetabek</strong> sangat penting untuk mendapatkan hasil renovasi yang diinginkan. Anda perlu mempertimbangkan <strong>lokasi yang strategis</strong>, <strong>kontraktor yang berkualitas</strong>, dan <strong>harga yang kompetitif</strong> untuk mendapatkan hasil yang diinginkan. Contohnya, jika Anda ingin melakukan renovasi kanopi rumah di Jababeka, Anda perlu mempertimbangkan <strong>lokasi yang strategis</strong> untuk mendapatkan <strong>desain yang sesuai dengan gaya rumah</strong> dan <strong>bahan yang tahan lama</strong>. <br><br> Berikut adalah contoh <strong>layanan renovasi di Bekasi dan Jabodetabek</strong> yang dapat Anda gunakan: <ul><li>Lokasi yang strategis</li><li>Kontraktor yang berkualitas</li><li>Harga yang kompetitif</li><li>Desain yang sesuai dengan gaya rumah</li></ul>"
+        }
+      ],
+      "conclusion": "Dengan menggunakan <strong>checklist lengkap</strong> dan <strong>tips yang efektif</strong>, Anda dapat mendapatkan hasil renovasi pagar dan kanopi rumah yang diinginkan. Jangan ragu untuk menghubungi Mandiri Steel untuk mendapatkan <strong>layanan renovasi yang berkualitas</strong> dan <strong>harga yang kompetitif</strong> di Bekasi dan Jabodetabek."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 147,
+    "title": "Teralis Jendela Berkualitas",
+    "slug": "teralis-jendela-berkualitas-untuk-rumah",
+    "excerpt": "Teralis jendela dengan emergency exit, fitur keselamatan penting untuk rumah di perumahan Bekasi",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1698892472816-9c08eb4b13c1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMG1pbmltYWxpc3xlbnwwfDB8fHwxNzg2NDY3NzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Rumah yang aman dan nyaman merupakan keinginan semua orang. <strong>Teralis jendela</strong> dengan emergency exit merupakan salah satu fitur keselamatan yang sangat penting untuk rumah di perumahan <strong>Bekasi</strong>. Dengan adanya fitur ini, Anda dapat meningkatkan keselamatan dan kenyamanan rumah Anda. <strong>Teralis jendela</strong> juga dapat membantu mencegah kecelakaan dan memberikan rasa aman bagi penghuni rumah.",
+      "keyPoints": [
+        "Teralis jendela dengan emergency exit",
+        "Fitur keselamatan penting untuk rumah",
+        "Meningkatkan keselamatan dan kenyamanan rumah"
+      ],
+      "sections": [
+        {
+          "heading": "Manfaat Teralis Jendela dengan Emergency Exit",
+          "content": "Teralis jendela dengan emergency exit memiliki banyak manfaat bagi rumah Anda. <strong>Manfaat</strong> pertama adalah meningkatkan keselamatan rumah. Dengan adanya fitur emergency exit, Anda dapat dengan mudah keluar dari rumah dalam keadaan darurat. <strong>Manfaat</strong> kedua adalah memberikan rasa aman bagi penghuni rumah. Teralis jendela dengan emergency exit juga dapat membantu mencegah kecelakaan dan memberikan rasa aman bagi penghuni rumah. <br><br> Contoh nyata dari manfaat teralis jendela dengan emergency exit adalah pada saat terjadi kebakaran. Dengan adanya fitur emergency exit, Anda dapat dengan mudah keluar dari rumah dan menyelamatkan diri. <strong>Teralis jendela</strong> dengan emergency exit juga dapat membantu mencegah kecelakaan dan memberikan rasa aman bagi penghuni rumah.",
+          "imageSearchQuery": "teralis jendela dengan emergency exit",
+          "image": "https://images.unsplash.com/photo-1780918843807-9ac6e68557f6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHx0ZXJhbGlzJTIwamVuZGVsYSUyMGRlbmdhbiUyMGVtZXJnZW5jeSUyMGV4aXR8ZW58MHwwfHx8MTc4NjUxMDk1Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Tips Memilih Teralis Jendela yang Tepat",
+          "content": "Memilih <strong>teralis jendela</strong> yang tepat sangat penting untuk meningkatkan keselamatan dan kenyamanan rumah. Berikut beberapa tips memilih teralis jendela yang tepat: <ul><li>Pilih teralis jendela yang terbuat dari bahan yang kuat dan tahan lama</li><li>Pilih teralis jendela yang memiliki fitur emergency exit</li><li>Pilih teralis jendela yang sesuai dengan desain rumah Anda</li></ul> <br><br> Dengan memilih teralis jendela yang tepat, Anda dapat meningkatkan keselamatan dan kenyamanan rumah. <strong>Teralis jendela</strong> juga dapat membantu mencegah kecelakaan dan memberikan rasa aman bagi penghuni rumah.",
+          "productId": 5
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel untuk Teralis Jendela?",
+          "content": "Mandiri Steel merupakan salah satu perusahaan yang terpercaya dan berpengalaman dalam produksi <strong>teralis jendela</strong>. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah membantu banyak orang untuk meningkatkan keselamatan dan kenyamanan rumah. <br><br> Mandiri Steel menggunakan bahan yang kuat dan tahan lama untuk produksi teralis jendela. Selain itu, Mandiri Steel juga menawarkan fitur emergency exit yang sangat penting untuk keselamatan rumah. <strong>Mandiri Steel</strong> juga memiliki tim yang profesional dan berpengalaman dalam pemasangan teralis jendela.",
+          "productId": 5
+        },
+        {
+          "heading": "Kelebihan Teralis Jendela Mandiri Steel",
+          "content": "Teralis jendela Mandiri Steel memiliki banyak kelebihan dibandingkan dengan produk lain. <strong>Kelebihan</strong> pertama adalah menggunakan bahan yang kuat dan tahan lama. <strong>Kelebihan</strong> kedua adalah memiliki fitur emergency exit yang sangat penting untuk keselamatan rumah. <strong>Kelebihan</strong> ketiga adalah memiliki tim yang profesional dan berpengalaman dalam pemasangan teralis jendela. <br><br> Dengan memilih teralis jendela Mandiri Steel, Anda dapat meningkatkan keselamatan dan kenyamanan rumah. <strong>Teralis jendela</strong> Mandiri Steel juga dapat membantu mencegah kecelakaan dan memberikan rasa aman bagi penghuni rumah.",
+          "productId": 5
+        },
+        {
+          "heading": "Layanan Pemasangan Teralis Jendela di Bekasi",
+          "content": "Mandiri Steel menawarkan layanan pemasangan <strong>teralis jendela</strong> di Bekasi dan sekitarnya. Dengan tim yang profesional dan berpengalaman, Mandiri Steel dapat membantu Anda untuk memasang teralis jendela dengan cepat dan efektif. <br><br> Layanan pemasangan teralis jendela Mandiri Steel juga mencakup <strong>free on-site survey</strong> untuk memastikan bahwa teralis jendela yang dipasang sesuai dengan kebutuhan Anda. Selain itu, Mandiri Steel juga menawarkan <strong>structural warranty</strong> untuk memastikan bahwa teralis jendela yang dipasang tahan lama dan kuat.",
+          "productId": 5
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Teralis jendela dengan emergency exit merupakan salah satu fitur keselamatan yang sangat penting untuk rumah di perumahan Bekasi. Dengan memilih teralis jendela yang tepat, Anda dapat meningkatkan keselamatan dan kenyamanan rumah. <strong>Mandiri Steel</strong> merupakan salah satu perusahaan yang terpercaya dan berpengalaman dalam produksi teralis jendela. <br><br> Jika Anda ingin meningkatkan keselamatan dan kenyamanan rumah, hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang teralis jendela dengan emergency exit. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel dapat membantu Anda untuk mencapai rumah yang aman dan nyaman.",
+          "productId": 5
+        }
+      ],
+      "conclusion": "Dengan demikian, teralis jendela dengan emergency exit merupakan salah satu fitur keselamatan yang sangat penting untuk rumah di perumahan Bekasi. Jika Anda ingin meningkatkan keselamatan dan kenyamanan rumah, hubungi Mandiri Steel sekarang juga untuk mendapatkan informasi lebih lanjut tentang teralis jendela dengan emergency exit."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 142,
     "title": "Struktur Baja untuk Lapangan Futsal dan Badminton Indoor",
     "slug": "struktur-baja-lapangan-futsal-dan-badminton-indoor-1786489353968",
