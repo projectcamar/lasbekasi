@@ -33,6 +33,189 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 148,
+    "title": "Cara Memilih Bengkel Las Terpercaya",
+    "slug": "cara-memilih-bengkel-las-terpercaya-di-bekasi-1786554155402",
+    "excerpt": "7 Ciri Bengkel Las Profesional di Bekasi",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1675446151211-b527cb361286?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxiZW5na2VsJTIwbGFzJTIwbW9kZXJufGVufDB8MHx8fDE3ODY1NTQwMDl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Mencari <strong>bengkel las</strong> yang terpercaya di Bekasi tidaklah mudah. Dengan banyaknya pilihan, kita harus <strong>berhati-hati</strong> dalam memilih bengkel las yang sesuai dengan kebutuhan kita. <strong>Bengkel las</strong> yang baik harus memiliki <strong>pengalaman</strong> yang luas, <strong>peralatan</strong> yang memadai, dan <strong>staf</strong> yang terlatih. Di artikel ini, kita akan membahas 7 ciri <strong>bengkel las profesional</strong> di Bekasi yang harus kita cari.",
+      "keyPoints": [
+        "Pengalaman yang luas",
+        "Peralatan yang memadai",
+        "Staf yang terlatih",
+        "Bahan yang berkualitas",
+        "Harga yang kompetitif",
+        "Lokasi yang strategis",
+        "Garansi yang memuaskan"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengalaman yang Luas",
+          "content": "Pengalaman yang luas adalah <strong>kunci</strong> untuk memilih bengkel las yang terpercaya. <strong>Bengkel las</strong> yang telah beroperasi selama bertahun-tahun memiliki <strong>pengetahuan</strong> dan <strong>keterampilan</strong> yang lebih baik dalam menangani berbagai jenis pekerjaan las. Mereka juga memiliki <strong>rekam jejak</strong> yang baik dan dapat memberikan <strong>referensi</strong> yang memuaskan. Contohnya, <strong>Mandiri Steel</strong> yang telah beroperasi selama lebih dari 25 tahun di Bekasi dan memiliki <strong>pengalaman</strong> yang luas dalam menangani berbagai jenis pekerjaan las, termasuk <strong>kanopi</strong>, <strong>pagar</strong>, dan <strong>teralis</strong>.",
+          "imageSearchQuery": "bengkel las bekasi"
+        },
+        {
+          "heading": "2. Peralatan yang Memadai",
+          "content": "Peralatan yang memadai adalah <strong>syarat</strong> untuk memilih bengkel las yang terpercaya. <strong>Bengkel las</strong> yang memiliki <strong>peralatan</strong> yang memadai dapat menangani berbagai jenis pekerjaan las dengan <strong>efisien</strong> dan <strong>efektif</strong>. Mereka juga dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong>. Contohnya, <strong>bengkel las</strong> yang memiliki <strong>mesin las</strong> yang canggih dan <strong>peralatan</strong> yang lengkap dapat menangani pekerjaan las dengan <strong>cepat</strong> dan <strong>akurat</strong>.",
+          "productId": 1
+        },
+        {
+          "heading": "3. Staf yang Terlatih",
+          "content": "Staf yang terlatih adalah <strong>syarat</strong> untuk memilih bengkel las yang terpercaya. <strong>Bengkel las</strong> yang memiliki <strong>staf</strong> yang terlatih dapat menangani berbagai jenis pekerjaan las dengan <strong>efisien</strong> dan <strong>efektif</strong>. Mereka juga dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong>. Contohnya, <strong>staf</strong> yang terlatih dapat menangani pekerjaan las dengan <strong>cepat</strong> dan <strong>akurat</strong>, serta dapat memberikan <strong>saran</strong> yang memuaskan.",
+          "productId": 3
+        },
+        {
+          "heading": "4. Bahan yang Berkualitas",
+          "content": "Bahan yang berkualitas adalah <strong>syarat</strong> untuk memilih bengkel las yang terpercaya. <strong>Bengkel las</strong> yang menggunakan <strong>bahan</strong> yang berkualitas dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong>. Mereka juga dapat memberikan <strong>garansi</strong> yang memuaskan. Contohnya, <strong>bengkel las</strong> yang menggunakan <strong>baja</strong> yang berkualitas dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong>."
+        },
+        {
+          "heading": "5. Harga yang Kompetitif",
+          "content": "Harga yang kompetitif adalah <strong>syarat</strong> untuk memilih bengkel las yang terpercaya. <strong>Bengkel las</strong> yang memiliki <strong>harga</strong> yang kompetitif dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong> dengan <strong>biaya</strong> yang lebih rendah. Contohnya, <strong>bengkel las</strong> yang memiliki <strong>harga</strong> yang kompetitif dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong> dengan <strong>biaya</strong> yang lebih rendah.",
+          "productId": 5
+        },
+        {
+          "heading": "6. Lokasi yang Strategis",
+          "content": "Lokasi yang strategis adalah <strong>syarat</strong> untuk memilih bengkel las yang terpercaya. <strong>Bengkel las</strong> yang memiliki <strong>lokasi</strong> yang strategis dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong> dengan <strong>akses</strong> yang lebih mudah. Contohnya, <strong>bengkel las</strong> yang terletak di <strong>Bekasi</strong> dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong> dengan <strong>akses</strong> yang lebih mudah ke <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Jababeka</strong>."
+        },
+        {
+          "heading": "7. Garansi yang Memuaskan",
+          "content": "Garansi yang memuaskan adalah <strong>syarat</strong> untuk memilih bengkel las yang terpercaya. <strong>Bengkel las</strong> yang memiliki <strong>garansi</strong> yang memuaskan dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong> dengan <strong>kepercayaan</strong> yang lebih tinggi. Contohnya, <strong>bengkel las</strong> yang memiliki <strong>garansi</strong> yang memuaskan dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong> dengan <strong>kepercayaan</strong> yang lebih tinggi.",
+          "productId": 7
+        }
+      ],
+      "conclusion": "Dalam memilih bengkel las yang terpercaya di Bekasi, kita harus <strong>berhati-hati</strong> dan <strong>teliti</strong> dalam mencari <strong>bengkel las</strong> yang sesuai dengan kebutuhan kita. Dengan memperhatikan 7 ciri <strong>bengkel las profesional</strong> di atas, kita dapat menemukan <strong>bengkel las</strong> yang terpercaya dan dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong>. Jika Anda sedang mencari <strong>bengkel las</strong> yang terpercaya di Bekasi, <strong>Mandiri Steel</strong> adalah <strong>pilihan</strong> yang tepat. Dengan <strong>pengalaman</strong> yang luas, <strong>peralatan</strong> yang memadai, dan <strong>staf</strong> yang terlatih, <strong>Mandiri Steel</strong> dapat memberikan <strong>hasil</strong> yang lebih baik dan <strong>tahan lama</strong> dengan <strong>biaya</strong> yang lebih rendah. Hubungi <strong>Mandiri Steel</strong> sekarang juga untuk mendapatkan <strong>informasi</strong> lebih lanjut tentang <strong>bengkel las</strong> yang terpercaya di Bekasi."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 149,
+    "title": "Kanopi Carport Modern",
+    "slug": "kanopi-carport-modern-grand-wisata-tambun-summarecon-bekasi",
+    "excerpt": "Desain kanopi carport modern untuk perumahan Grand Wisata Tambun dan Summarecon Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1784471691271-90285594dfc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjYXJwb3J0JTIwY2Fub3B5JTIwZGVzaWdufGVufDB8MHx8fDE3ODY1NTQwODJ8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pemilik rumah di Grand Wisata Tambun dan Summarecon Bekasi memerlukan <strong>kanopi carport</strong> yang tidak hanya <strong>fungsional</strong>, tetapi juga <strong>estetis</strong>. Sebuah <strong>kanopi carport modern</strong> dapat meningkatkan nilai estetika rumah Anda dan memberikan perlindungan yang memadai dari <strong>hujan</strong> dan <strong>panas</strong>. Dalam artikel ini, kita akan membahas tentang desain kanopi carport modern yang sesuai untuk perumahan di daerah Bekasi.",
+      "keyPoints": [
+        "Desain kanopi carport modern untuk perumahan Grand Wisata Tambun dan Summarecon Bekasi",
+        "Tips memilih bahan dan model kanopi carport yang sesuai",
+        "Kelebihan dan kekurangan kanopi carport modern"
+      ],
+      "sections": [
+        {
+          "heading": "1. Introduction Concept: Mengenal Kanopi Carport Modern",
+          "content": "Kanopi carport modern adalah struktur pelindung yang dirancang untuk melindungi <strong>mobil</strong> dan <strong>area parkir</strong> dari <strong>hujan</strong> dan <strong>panas</strong>. Kanopi carport modern biasanya terbuat dari <strong>baja ringan</strong>, <strong>aluminum</strong>, atau <strong>kayu</strong> yang kuat dan tahan lama. Dalam memilih desain kanopi carport modern, perlu mempertimbangkan <strong>ukuran</strong>, <strong>bentuk</strong>, dan <strong>bahan</strong> yang sesuai dengan kebutuhan dan budget Anda. <br><br> Contoh nyata dari kanopi carport modern dapat dilihat di perumahan Grand Wisata Tambun, di mana banyak rumah yang menggunakan kanopi carport dengan desain modern dan minimalis. <br><br> Tips memilih desain kanopi carport modern: <ul><li>Pertimbangkan ukuran area parkir dan mobil Anda</li><li>Pilih bahan yang kuat dan tahan lama</li><li>Pertimbangkan budget dan kebutuhan Anda</li></ul>",
+          "imageSearchQuery": "modern carport canopy design ideas",
+          "image": "https://images.unsplash.com/photo-1777119846549-70d4e2143cec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBjYXJwb3J0JTIwY2Fub3B5JTIwZGVzaWduJTIwaWRlYXN8ZW58MHwwfHx8MTc4NjU1NDA4Mnww&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Tips Memilih Bahan dan Model Kanopi Carport yang Sesuai",
+          "content": "Dalam memilih bahan dan model kanopi carport, perlu mempertimbangkan beberapa faktor seperti <strong>kuat</strong>, <strong>tahan lama</strong>, dan <strong>estetika</strong>. Bahan yang umum digunakan untuk kanopi carport modern adalah <strong>baja ringan</strong>, <strong>aluminum</strong>, dan <strong>kayu</strong>. <br><br> Model kanopi carport modern juga bervariasi, mulai dari <strong>desain minimalis</strong> hingga <strong>desain modern</strong> dengan <strong>ornamen</strong> yang kompleks. <br><br> Contoh nyata dari kanopi carport modern dengan desain minimalis dapat dilihat di perumahan Summarecon Bekasi, di mana banyak rumah yang menggunakan kanopi carport dengan desain sederhana dan elegan. <br><br> Tips memilih bahan dan model kanopi carport: <ul><li>Pertimbangkan kekuatan dan ketahanan bahan</li><li>Pilih model yang sesuai dengan desain rumah Anda</li><li>Pertimbangkan budget dan kebutuhan Anda</li></ul>",
+          "productId": 1
+        },
+        {
+          "heading": "3. Kelebihan dan Kekurangan Kanopi Carport Modern",
+          "content": "Kanopi carport modern memiliki beberapa kelebihan, seperti <strong>melindungi mobil dari hujan dan panas</strong>, <strong>meningkatkan nilai estetika rumah</strong>, dan <strong>mudah dipasang dan dibongkar</strong>. Namun, kanopi carport modern juga memiliki beberapa kekurangan, seperti <strong>biaya yang relatif mahal</strong>, <strong>perlu perawatan yang teratur</strong>, dan <strong>dapat rusak jika tidak dipasang dengan benar</strong>. <br><br> Dalam memilih kanopi carport modern, perlu mempertimbangkan kelebihan dan kekurangan tersebut untuk mendapatkan kanopi carport yang sesuai dengan kebutuhan Anda. <br><br> Tips memilih kanopi carport modern: <ul><li>Pertimbangkan kelebihan dan kekurangan kanopi carport modern</li><li>Pilih kanopi carport yang sesuai dengan budget dan kebutuhan Anda</li><li>Pertimbangkan perawatan dan perbaikan yang diperlukan</li></ul>",
+          "productId": 2
+        },
+        {
+          "heading": "4. Perawatan dan Perbaikan Kanopi Carport Modern",
+          "content": "Kanopi carport modern perlu perawatan yang teratur untuk menjaga kekuatan dan ketahanannya. Perawatan yang umum dilakukan adalah <strong>membersihkan kanopi carport dari kotoran dan debu</strong>, <strong>memeriksa dan mengganti bahan yang rusak</strong>, dan <strong>mengaplikasikan <strong>coating</strong> atau <strong>cat</strong> untuk melindungi dari korosi</strong>. <br><br> Dalam melakukan perawatan dan perbaikan, perlu mempertimbangkan beberapa faktor seperti <strong>biaya</strong>, <strong>waktu</strong>, dan <strong>keahlian</strong>. <br><br> Tips perawatan dan perbaikan kanopi carport modern: <ul><li>Pertimbangkan biaya dan waktu perawatan</li><li>Pilih bahan yang sesuai untuk perawatan dan perbaikan</li><li>Pertimbangkan keahlian dan pengalaman dalam melakukan perawatan dan perbaikan</li></ul>"
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Kanopi Carport Modern?",
+          "content": "Mandiri Steel adalah salah satu penyedia kanopi carport modern yang terpercaya dan berpengalaman di Bekasi. Dengan <strong>25+ tahun pengalaman</strong> dalam industri konstruksi, Mandiri Steel menawarkan <strong>kanopi carport modern</strong> yang kuat, tahan lama, dan estetis. <br><br> Mandiri Steel juga menawarkan <strong>gratis survei lapangan</strong> dan <strong>garansi struktural</strong> untuk memastikan kepuasan pelanggan. <br><br> Dalam memilih penyedia kanopi carport modern, perlu mempertimbangkan beberapa faktor seperti <strong>pengalaman</strong>, <strong>keahlian</strong>, dan <strong>reputasi</strong>. <br><br> Tips memilih penyedia kanopi carport modern: <ul><li>Pertimbangkan pengalaman dan keahlian penyedia</li><li>Pilih penyedia yang menawarkan garansi dan survei lapangan</li><li>Pertimbangkan reputasi dan kepuasan pelanggan</li></ul>",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan Kanopi Carport Modern di Bekasi dan Sekitarnya",
+          "content": "Mandiri Steel menawarkan layanan kanopi carport modern di Bekasi dan sekitarnya, termasuk <strong>Cikarang</strong>, <strong>Tambun</strong>, <strong>Cibitung</strong>, dan <strong>Jababeka</strong>. Dengan <strong>lokasi strategis</strong> dan <strong>tim yang berpengalaman</strong>, Mandiri Steel dapat memenuhi kebutuhan kanopi carport modern Anda dengan cepat dan efisien. <br><br> Dalam memilih layanan kanopi carport modern, perlu mempertimbangkan beberapa faktor seperti <strong>lokasi</strong>, <strong>waktu</strong>, dan <strong>biaya</strong>. <br><br> Tips memilih layanan kanopi carport modern: <ul><li>Pertimbangkan lokasi dan waktu layanan</li><li>Pilih layanan yang menawarkan biaya yang kompetitif</li><li>Pertimbangkan keahlian dan pengalaman tim</li></ul>"
+        }
+      ],
+      "conclusion": "Dalam mencari kanopi carport modern untuk perumahan Grand Wisata Tambun dan Summarecon Bekasi, perlu mempertimbangkan beberapa faktor seperti desain, bahan, dan biaya. Dengan memilih Mandiri Steel sebagai penyedia kanopi carport modern, Anda dapat mendapatkan kanopi carport yang kuat, tahan lama, dan estetis. Jangan ragu untuk menghubungi Mandiri Steel untuk informasi lebih lanjut tentang layanan kanopi carport modern di Bekasi dan sekitarnya."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 150,
+    "title": "Teralis Besi Awet",
+    "slug": "teralis-besi-awet-cat-duco-powder-coating-galvanis",
+    "excerpt": "Pilih finishing teralis besi yang awet: cat duco, powder coating, atau galvanis?",
+    "category": "Home Security",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-12",
+    "image": "https://images.unsplash.com/photo-1707056683255-1ec0180cf5ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpcm9uJTIwdHJlbGxpcyUyMHdpdGglMjBwb3dkZXIlMjBjb2F0aW5nfGVufDB8MHx8fDE3ODY1NTQxNTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Teralis besi merupakan salah satu elemen penting dalam meningkatkan keamanan dan estetika rumah. <strong>Finishing</strong> yang tepat dapat memperpanjang umur dan meningkatkan kualitas teralis besi. Dalam artikel ini, kita akan membahas tentang tiga jenis <strong>finishing</strong> yang populer: cat duco, powder coating, dan galvanis. <strong>Mana</strong> yang paling awet dan sesuai dengan kebutuhan Anda?",
+      "keyPoints": [
+        "Cat duco: mudah dan murah, tapi kurang awet",
+        "Powder coating: lebih awet dan tahan lama, tapi lebih mahal",
+        "Galvanis: paling awet dan tahan korosi, tapi paling mahal"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Teralis Besi",
+          "content": "Teralis besi adalah struktur yang terbuat dari besi yang digunakan untuk meningkatkan keamanan dan estetika rumah. <strong>Teralis besi</strong> dapat dipasang di jendela, pintu, atau bahkan sebagai pembatas antara ruangan. Dalam memilih <strong>teralis besi</strong>, ada beberapa faktor yang perlu dipertimbangkan, seperti bahan, desain, dan <strong>finishing</strong>. <br><br>Di Bekasi, Cikarang, dan Tambun, <strong>teralis besi</strong> menjadi salah satu pilihan populer untuk meningkatkan keamanan rumah. Dengan <strong>teralis besi</strong>, Anda dapat meningkatkan keamanan dan juga estetika rumah.",
+          "imageSearchQuery": "iron trellis with powder coating",
+          "image": "https://images.unsplash.com/photo-1707056683255-1ec0180cf5ac?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxpcm9uJTIwdHJlbGxpcyUyMHdpdGglMjBwb3dkZXIlMjBjb2F0aW5nfGVufDB8MHx8fDE3ODY1NTQxNTR8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Cat Duco: Finishing yang Mudah dan Murah",
+          "content": "Cat duco adalah salah satu jenis <strong>finishing</strong> yang paling populer untuk <strong>teralis besi</strong>. <strong>Cat duco</strong> mudah diterapkan dan relatif murah. Namun, <strong>cat duco</strong> juga memiliki kelemahan, seperti mudah terkelupas dan tidak tahan lama. <br><br>Di Cibitung dan Jababeka, <strong>cat duco</strong> masih menjadi pilihan populer untuk <strong>teralis besi</strong> karena harganya yang relatif murah. Namun, perlu diingat bahwa <strong>cat duco</strong> tidaklah awet dan memerlukan perawatan yang lebih sering.",
+          "productId": 5
+        },
+        {
+          "heading": "3. Powder Coating: Finishing yang Lebih Awet",
+          "content": "Powder coating adalah jenis <strong>finishing</strong> yang lebih awet dan tahan lama dibandingkan dengan <strong>cat duco</strong>. <strong>Powder coating</strong> menggunakan bubuk yang dipanaskan untuk membentuk lapisan yang kuat dan tahan korosi. <br><br>Di MM2100 dan Grand Wisata, <strong>powder coating</strong> menjadi pilihan populer untuk <strong>teralis besi</strong> karena keawetannya. Dengan <strong>powder coating</strong>, Anda dapat meningkatkan umur <strong>teralis besi</strong> dan mengurangi perawatan.",
+          "productId": 6
+        },
+        {
+          "heading": "4. Galvanis: Finishing yang Paling Awet",
+          "content": "Galvanis adalah jenis <strong>finishing</strong> yang paling awet dan tahan korosi. <strong>Galvanis</strong> menggunakan proses pelapisan seng untuk membentuk lapisan yang kuat dan tahan lama. <br><br>Di Summarecon Bekasi dan Kota Deltamas, <strong>galvanis</strong> menjadi pilihan populer untuk <strong>teralis besi</strong> karena keawetannya yang tinggi. Dengan <strong>galvanis</strong>, Anda dapat meningkatkan umur <strong>teralis besi</strong> dan mengurangi perawatan.",
+          "productId": 7
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel memiliki lebih dari 25 tahun pengalaman dalam produksi <strong>teralis besi</strong> dan <strong>finishing</strong>. Kami menggunakan bahan SNI yang berkualitas tinggi dan memiliki tim yang berpengalaman dalam produksi dan pemasangan <strong>teralis besi</strong>. <br><br>Kami juga menawarkan survei gratis dan garansi struktural untuk memastikan kepuasan Anda. Dengan Mandiri Steel, Anda dapat meningkatkan keamanan dan estetika rumah dengan <strong>teralis besi</strong> yang berkualitas tinggi.",
+          "productId": 1
+        },
+        {
+          "heading": "6. Service Area Mandiri Steel",
+          "content": "Mandiri Steel melayani berbagai daerah di Bekasi, Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, dan Kota Deltamas. Kami memiliki tim yang berpengalaman dan siap untuk membantu Anda dalam produksi dan pemasangan <strong>teralis besi</strong>. <br><br>Dengan Mandiri Steel, Anda dapat meningkatkan keamanan dan estetika rumah dengan <strong>teralis besi</strong> yang berkualitas tinggi. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang <strong>teralis besi</strong> dan <strong>finishing</strong> yang sesuai dengan kebutuhan Anda."
+        }
+      ],
+      "conclusion": "Dalam memilih <strong>finishing</strong> untuk <strong>teralis besi</strong>, perlu dipertimbangkan keawetan, biaya, dan estetika. Dengan Mandiri Steel, Anda dapat meningkatkan keamanan dan estetika rumah dengan <strong>teralis besi</strong> yang berkualitas tinggi. Hubungi kami sekarang juga untuk mendapatkan informasi lebih lanjut tentang <strong>teralis besi</strong> dan <strong>finishing</strong> yang sesuai dengan kebutuhan Anda."
+    },
+    "tags": [
+      "Home Security",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 145,
     "title": "Layanan Las untuk Perumahan di Bekasi",
     "slug": "layanan-las-untuk-perumahan-bekasi",
