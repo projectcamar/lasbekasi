@@ -33,6 +33,187 @@ export interface BlogPost {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    "id": 154,
+    "title": "Pagar Besi Galvanis vs Powder Coating",
+    "slug": "pagar-besi-galvanis-vs-powder-coating-1786597355679",
+    "excerpt": "Pagar besi galvanis hot dip vs powder coating: mana lapisan anti karat terbaik?",
+    "category": "Gate Designs",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-13",
+    "image": "https://images.unsplash.com/photo-1623626492818-5bf3e893649f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxnYWx2YW5pcyUyMHZzJTIwcG93ZGVyJTIwY29hdGluZ3xlbnwwfDB8fHwxNzg2NTk3MjEwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Pagar besi adalah salah satu elemen penting dalam sebuah rumah atau bangunan, karena dapat memberikan keamanan dan estetika. <strong>Pagar besi galvanis hot dip</strong> dan <strong>powder coating</strong> adalah dua jenis lapisan anti karat yang paling umum digunakan. Namun, mana yang lebih baik? Dalam artikel ini, kita akan membahas perbedaan antara pagar besi galvanis hot dip dan powder coating, serta kelebihan dan kekurangan masing-masing.",
+      "keyPoints": [
+        "Pagar besi galvanis hot dip memiliki lapisan anti karat yang lebih tebal",
+        "Powder coating memiliki variasi warna yang lebih luas",
+        "Pagar besi galvanis hot dip lebih tahan lama",
+        "Powder coating lebih mudah dalam proses pembersihan"
+      ],
+      "sections": [
+        {
+          "heading": "Pengertian Pagar Besi Galvanis Hot Dip",
+          "content": "Pagar besi galvanis hot dip adalah proses pelapisan besi dengan zinc (seng) untuk mencegah korosi. Proses ini dilakukan dengan cara mencelupkan besi ke dalam bak seng yang telah dipanaskan, sehingga seng menempel pada permukaan besi. <strong>Pagar besi galvanis hot dip</strong> memiliki lapisan anti karat yang sangat tebal, sehingga dapat tahan lama dan tidak mudah berkarat. Selain itu, pagar besi galvanis hot dip juga memiliki kekuatan yang tinggi dan dapat menahan beban yang berat. <br> Contoh nyata dari penggunaan pagar besi galvanis hot dip adalah di daerah <strong>Bekasi</strong> dan <strong>Cikarang</strong>, dimana pagar besi galvanis hot dip digunakan sebagai pagar rumah dan bangunan. <ul><li>Kelebihan pagar besi galvanis hot dip:</li><li>Tahan lama dan tidak mudah berkarat</li><li>Tingkat kekuatan yang tinggi</li><li>Dapat menahan beban yang berat</li></ul>",
+          "imageSearchQuery": "pagar besi galvanis hot dip",
+          "image": "https://images.unsplash.com/photo-1575445803229-0d8e51c273b2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxwYWdhciUyMGJlc2klMjBnYWx2YW5pcyUyMGhvdCUyMGRpcHxlbnwwfDB8fHwxNzg2NTk3MjEwfDA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "Pengertian Powder Coating",
+          "content": "Powder coating adalah proses pelapisan besi dengan cat bubuk yang telah dipanaskan, sehingga cat menempel pada permukaan besi. <strong>Powder coating</strong> memiliki variasi warna yang sangat luas, sehingga dapat disesuaikan dengan keinginan dan selera. Selain itu, powder coating juga memiliki kelebihan dalam hal ketahanan dan kekuatan, karena dapat menahan beban yang berat dan tidak mudah berkarat. <br> Contoh nyata dari penggunaan powder coating adalah di daerah <strong>Tambun</strong> dan <strong>Cibitung</strong>, dimana powder coating digunakan sebagai pelapis pagar besi dan bangunan. <ul><li>Kelebihan powder coating:</li><li>Variasi warna yang luas</li><li>Tingkat kekuatan yang tinggi</li><li>Dapat menahan beban yang berat</li></ul>",
+          "productId": 3
+        },
+        {
+          "heading": "Perbedaan Antara Pagar Besi Galvanis Hot Dip dan Powder Coating",
+          "content": "Perbedaan antara pagar besi galvanis hot dip dan powder coating terletak pada proses pelapisan dan bahan yang digunakan. Pagar besi galvanis hot dip menggunakan proses pelapisan dengan seng, sedangkan powder coating menggunakan proses pelapisan dengan cat bubuk. Selain itu, pagar besi galvanis hot dip memiliki lapisan anti karat yang lebih tebal, sedangkan powder coating memiliki variasi warna yang lebih luas. <br> Dalam memilih antara pagar besi galvanis hot dip dan powder coating, perlu dipertimbangkan kebutuhan dan keinginan. Jika Anda ingin memiliki pagar besi yang tahan lama dan tidak mudah berkarat, maka pagar besi galvanis hot dip adalah pilihan yang tepat. Namun, jika Anda ingin memiliki pagar besi dengan variasi warna yang luas, maka powder coating adalah pilihan yang tepat.",
+          "productId": 4
+        },
+        {
+          "heading": "Tips dalam Memilih Pagar Besi",
+          "content": "Dalam memilih pagar besi, perlu dipertimbangkan beberapa hal, seperti kebutuhan, keinginan, dan budget. Berikut beberapa tips dalam memilih pagar besi: <ul><li>Pilih pagar besi yang sesuai dengan kebutuhan dan keinginan</li><li>Pertimbangkan budget dan biaya</li><li>Pilih pagar besi yang memiliki kualitas yang baik</li><li>Pertimbangkan kekuatan dan ketahanan pagar besi</li></ul> Selain itu, perlu juga dipertimbangkan penggunaan pagar besi di daerah <strong>Jababeka</strong> dan <strong>MM2100</strong>, dimana pagar besi digunakan sebagai pagar rumah dan bangunan.",
+          "productId": 1
+        },
+        {
+          "heading": "Mengapa Memilih Mandiri Steel?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang bergerak dalam bidang pagar besi dan konstruksi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel telah menjadi salah satu perusahaan yang terpercaya dan memiliki kualitas yang baik. <strong>Mandiri Steel</strong> menggunakan bahan-bahan yang berkualitas dan memiliki kekuatan yang tinggi, sehingga dapat menahan beban yang berat. Selain itu, Mandiri Steel juga memiliki tim yang profesional dan berpengalaman, sehingga dapat memberikan pelayanan yang baik dan memuaskan. <br> Dalam memilih perusahaan pagar besi, perlu dipertimbangkan beberapa hal, seperti pengalaman, kualitas, dan pelayanan. Dengan memilih Mandiri Steel, Anda dapat memiliki pagar besi yang berkualitas dan tahan lama, serta memiliki pelayanan yang baik dan memuaskan.",
+          "productId": 7
+        },
+        {
+          "heading": "Layanan dan Produk Mandiri Steel",
+          "content": "Mandiri Steel memiliki beberapa layanan dan produk, seperti pagar besi, konstruksi, dan lain-lain. <strong>Mandiri Steel</strong> juga memiliki beberapa produk yang berkualitas, seperti pagar besi galvanis hot dip dan powder coating. Dengan menggunakan produk dan layanan Mandiri Steel, Anda dapat memiliki pagar besi yang tahan lama dan tidak mudah berkarat, serta memiliki kekuatan yang tinggi. <br> Selain itu, Mandiri Steel juga memiliki layanan yang baik dan memuaskan, seperti free on-site survey dan structural warranty. Dengan memilih Mandiri Steel, Anda dapat memiliki pagar besi yang berkualitas dan tahan lama, serta memiliki pelayanan yang baik dan memuaskan.",
+          "productId": 8
+        },
+        {
+          "heading": "Kesimpulan",
+          "content": "Dalam memilih pagar besi, perlu dipertimbangkan beberapa hal, seperti kebutuhan, keinginan, dan budget. Pagar besi galvanis hot dip dan powder coating adalah dua jenis lapisan anti karat yang paling umum digunakan. Dengan memilih Mandiri Steel, Anda dapat memiliki pagar besi yang berkualitas dan tahan lama, serta memiliki pelayanan yang baik dan memuaskan. <br> Jika Anda ingin memiliki pagar besi yang tahan lama dan tidak mudah berkarat, maka pagar besi galvanis hot dip adalah pilihan yang tepat. Namun, jika Anda ingin memiliki pagar besi dengan variasi warna yang luas, maka powder coating adalah pilihan yang tepat. Dengan mempertimbangkan beberapa hal tersebut, Anda dapat memiliki pagar besi yang sesuai dengan kebutuhan dan keinginan."
+        }
+      ],
+      "conclusion": "Dalam memilih pagar besi, perlu dipertimbangkan beberapa hal, seperti kebutuhan, keinginan, dan budget. Dengan memilih Mandiri Steel, Anda dapat memiliki pagar besi yang berkualitas dan tahan lama, serta memiliki pelayanan yang baik dan memuaskan. Jika Anda memiliki pertanyaan atau ingin memiliki pagar besi yang sesuai dengan kebutuhan dan keinginan, silakan hubungi Mandiri Steel."
+    },
+    "tags": [
+      "Gate Designs",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 155,
+    "title": "Survei Lokasi Gratis",
+    "slug": "survei-lokasi-gratis-bekasi",
+    "excerpt": "Mandiri Steel menawarkan survei lokasi gratis untuk area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria",
+    "category": "Local Area Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-13",
+    "image": "https://images.unsplash.com/photo-1738162837340-da3e7a323a09?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzdGVlbCUyMGZhYnJpY2F0aW9uJTIwd29ya3Nob3B8ZW58MHwwfHx8MTc4NjU5NzI4MXww&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Mandiri Steel, sebagai salah satu workshop fabrikasi baja terkemuka di Indonesia, memahami pentingnya survei lokasi yang akurat dan komprehensif dalam proyek konstruksi. <strong>Survei lokasi</strong> yang tepat dapat membantu mengidentifikasi potensi masalah dan mengoptimalkan desain proyek. Oleh karena itu, kami menawarkan <strong>survei lokasi gratis</strong> untuk area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria. Dalam artikel ini, kita akan membahas pentingnya survei lokasi dan bagaimana Mandiri Steel dapat membantu Anda dalam proyek konstruksi.",
+      "keyPoints": [
+        "Survei lokasi gratis untuk area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria",
+        "Mengidentifikasi potensi masalah dan mengoptimalkan desain proyek",
+        "Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam fabrikasi baja"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pentingnya Survei Lokasi dalam Proyek Konstruksi",
+          "content": "Survei lokasi adalah tahap awal yang sangat penting dalam proyek konstruksi. <strong>Survei lokasi</strong> membantu mengidentifikasi kondisi tanah, topografi, dan lingkungan sekitar, yang dapat mempengaruhi desain dan biaya proyek. Dengan melakukan survei lokasi yang akurat, Anda dapat <em>menghindari kesalahan</em> yang dapat menyebabkan penundaan dan biaya tambahan. Mandiri Steel memiliki tim ahli yang berpengalaman dalam melakukan survei lokasi dan dapat membantu Anda dalam mengidentifikasi potensi masalah dan mengoptimalkan desain proyek.",
+          "imageSearchQuery": "site survey",
+          "image": "https://images.unsplash.com/photo-1628158088791-89567a8e84ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxzaXRlJTIwc3VydmV5fGVufDB8MHx8fDE3ODY1OTcyODF8MA&ixlib=rb-4.1.0&q=80&w=1080"
+        },
+        {
+          "heading": "2. Manfaat Survei Lokasi Gratis dari Mandiri Steel",
+          "content": "Mandiri Steel menawarkan survei lokasi gratis untuk area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria. <strong>Survei lokasi gratis</strong> ini dapat membantu Anda dalam mengidentifikasi potensi masalah dan mengoptimalkan desain proyek. Dengan melakukan survei lokasi yang akurat, Anda dapat <em>menghemat biaya</em> dan <em>menghindari kesalahan</em> yang dapat menyebabkan penundaan. Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam fabrikasi baja dan dapat membantu Anda dalam mengidentifikasi potensi masalah dan mengoptimalkan desain proyek.",
+          "productId": "1"
+        },
+        {
+          "heading": "3. Tips dalam Memilih Jasa Survei Lokasi",
+          "content": "<ul><li>Pilih jasa survei lokasi yang berpengalaman dan memiliki tim ahli yang kompeten</li><li>Pastikan jasa survei lokasi memiliki peralatan yang memadai dan teknologi yang terkini</li><li>Pilih jasa survei lokasi yang menawarkan harga yang kompetitif dan layanan yang baik</li></ul> Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam fabrikasi baja dan dapat membantu Anda dalam mengidentifikasi potensi masalah dan mengoptimalkan desain proyek.",
+          "productId": "2"
+        },
+        {
+          "heading": "4. Pengalaman Mandiri Steel dalam Fabrikasi Baja",
+          "content": "Mandiri Steel memiliki pengalaman lebih dari 25 tahun dalam fabrikasi baja. <strong>Kami</strong> telah bekerja sama dengan banyak klien di area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria. <em>Kami</em> memiliki tim ahli yang berpengalaman dan peralatan yang memadai untuk menghasilkan produk baja yang berkualitas tinggi. Dengan pengalaman dan kemampuan kami, <strong>kami</strong> dapat membantu Anda dalam mengidentifikasi potensi masalah dan mengoptimalkan desain proyek.",
+          "productId": "7"
+        },
+        {
+          "heading": "5. Layanan Survei Lokasi dari Mandiri Steel",
+          "content": "Mandiri Steel menawarkan layanan survei lokasi yang komprehensif dan akurat. <strong>Kami</strong> memiliki tim ahli yang berpengalaman dan peralatan yang memadai untuk menghasilkan hasil survei lokasi yang akurat. <em>Kami</em> juga menawarkan survei lokasi gratis untuk area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria. Dengan layanan survei lokasi dari Mandiri Steel, Anda dapat <em>menghemat biaya</em> dan <em>menghindari kesalahan</em> yang dapat menyebabkan penundaan.",
+          "productId": "1"
+        },
+        {
+          "heading": "6. Area Layanan Mandiri Steel",
+          "content": "Mandiri Steel memiliki area layanan yang luas, termasuk Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria. <strong>Kami</strong> juga melayani area lain di sekitar Bekasi, seperti Cikarang, Tambun, Cibitung, Jababeka, MM2100, Grand Wisata, Summarecon Bekasi, Kota Deltamas, dan Lippo Cikarang. Dengan area layanan yang luas, <em>kami</em> dapat membantu Anda dalam mengidentifikasi potensi masalah dan mengoptimalkan desain proyek, tidak peduli di mana Anda berada.",
+          "productId": "8"
+        }
+      ],
+      "conclusion": "Mandiri Steel menawarkan survei lokasi gratis untuk area Bekasi Utara, Babelan, Tarumajaya, dan Medan Satria. Dengan pengalaman lebih dari 25 tahun dalam fabrikasi baja dan tim ahli yang berpengalaman, <strong>kami</strong> dapat membantu Anda dalam mengidentifikasi potensi masalah dan mengoptimalkan desain proyek. Hubungi kami sekarang juga untuk mendapatkan survei lokasi gratis dan layanan yang baik."
+    },
+    "tags": [
+      "Local Area Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
+    "id": 156,
+    "title": "Kanopi Alderon vs Polycarbonate vs Spandek",
+    "slug": "kanopi-alderon-vs-polycarbonate-vs-spandek",
+    "excerpt": "Perbandingan ketahanan, harga, dan estetika untuk rumah tropis Bekasi",
+    "category": "Canopy Guide",
+    "language": "id",
+    "author": "Angga",
+    "date": "2026-08-13",
+    "image": "https://images.unsplash.com/photo-1697604501923-2590ec2d7ca9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NzU2ODd8MHwxfHNlYXJjaHwxfHxrYW5vcGklMjBydW1haCUyMG1pbmltYWxpc3xlbnwwfDB8fHwxNzg2NTk3MzUzfDA&ixlib=rb-4.1.0&q=80&w=1080",
+    "content": {
+      "introduction": "Dalam memilih <strong>kanopi</strong> untuk rumah, ada beberapa pilihan yang tersedia di pasaran, seperti <strong>Kanopi Alderon</strong>, <strong>Polycarbonate</strong>, dan <strong>Spandek</strong>. Masing-masing memiliki kelebihan dan kekurangan, terutama dalam hal <strong>ketahanan</strong>, <strong>harga</strong>, dan <strong>estetika</strong>. Pada artikel ini, kita akan membahas perbandingan antara ketiga jenis kanopi tersebut, khususnya untuk rumah tropis di Bekasi.",
+      "keyPoints": [
+        "Kanopi Alderon memiliki ketahanan yang tinggi dan estetika yang modern",
+        "Polycarbonate memiliki harga yang lebih terjangkau dan ringan",
+        "Spandek memiliki kelebihan dalam hal ketahanan terhadap cuaca ekstrem"
+      ],
+      "sections": [
+        {
+          "heading": "1. Pengenalan Kanopi Alderon, Polycarbonate, dan Spandek",
+          "content": "Kanopi Alderon, Polycarbonate, dan Spandek adalah tiga jenis kanopi yang populer digunakan di Indonesia. <strong>Kanopi Alderon</strong> dikenal dengan ketahanannya yang tinggi dan estetika yang modern, membuatnya menjadi pilihan favorit bagi banyak pemilik rumah. <strong>Polycarbonate</strong> memiliki harga yang lebih terjangkau dan ringan, sehingga mudah dipasang dan dirawat. <strong>Spandek</strong> memiliki kelebihan dalam hal ketahanan terhadap cuaca ekstrem, seperti hujan dan panas. <br> Dalam memilih kanopi, penting untuk mempertimbangkan faktor-faktor seperti <strong>biaya</strong>, <strong>kebutuhan</strong>, dan <strong>estetika</strong>. Berikut adalah beberapa tips untuk membantu Anda memilih kanopi yang tepat: <ul> <li>Pertimbangkan budget Anda</li> <li>Tentukan kebutuhan Anda</li> <li>Pilih kanopi yang sesuai dengan estetika rumah Anda</li> </ul>",
+          "imageSearchQuery": "kanopi alderon"
+        },
+        {
+          "heading": "2. Perbandingan Ketahanan Kanopi Alderon, Polycarbonate, dan Spandek",
+          "content": "Ketahanan kanopi sangat penting untuk dipertimbangkan, terutama di daerah dengan cuaca ekstrem seperti Bekasi. <strong>Kanopi Alderon</strong> memiliki ketahanan yang tinggi karena terbuat dari bahan yang kuat dan tahan lama. <strong>Polycarbonate</strong> juga memiliki ketahanan yang baik, tetapi dapat mengalami kerusakan jika terkena sinar UV secara langsung. <strong>Spandek</strong> memiliki kelebihan dalam hal ketahanan terhadap cuaca ekstrem, seperti hujan dan panas. <br> Berikut adalah beberapa data yang menunjukkan perbandingan ketahanan kanopi: <blockquote> Kanopi Alderon: 10-15 tahun <br> Polycarbonate: 5-10 tahun <br> Spandek: 15-20 tahun </blockquote> Dalam memilih kanopi, penting untuk mempertimbangkan faktor ketahanan ini."
+        },
+        {
+          "heading": "3. Perbandingan Harga Kanopi Alderon, Polycarbonate, dan Spandek",
+          "content": "Harga kanopi sangat penting untuk dipertimbangkan, terutama bagi mereka yang memiliki budget terbatas. <strong>Polycarbonate</strong> memiliki harga yang lebih terjangkau dibandingkan dengan <strong>Kanopi Alderon</strong> dan <strong>Spandek</strong>. <strong>Kanopi Alderon</strong> memiliki harga yang lebih tinggi karena terbuat dari bahan yang kuat dan tahan lama. <strong>Spandek</strong> memiliki harga yang lebih tinggi karena memiliki kelebihan dalam hal ketahanan terhadap cuaca ekstrem. <br> Berikut adalah beberapa contoh harga kanopi: <ul> <li>Polycarbonate: Rp 500.000 - Rp 1.000.000</li> <li>Kanopi Alderon: Rp 1.000.000 - Rp 2.000.000</li> <li>Spandek: Rp 1.500.000 - Rp 3.000.000</li> </ul> Dalam memilih kanopi, penting untuk mempertimbangkan faktor harga ini.",
+          "productId": 1
+        },
+        {
+          "heading": "4. Perbandingan Estetika Kanopi Alderon, Polycarbonate, dan Spandek",
+          "content": "Estetika kanopi sangat penting untuk dipertimbangkan, terutama bagi mereka yang ingin memiliki rumah yang indah dan modern. <strong>Kanopi Alderon</strong> memiliki estetika yang modern dan elegan, membuatnya menjadi pilihan favorit bagi banyak pemilik rumah. <strong>Polycarbonate</strong> memiliki estetika yang sederhana dan minimalis, sehingga cocok untuk rumah yang memiliki desain minimalis. <strong>Spandek</strong> memiliki estetika yang kuat dan tahan lama, sehingga cocok untuk rumah yang memiliki desain industrial. <br> Berikut adalah beberapa tips untuk memilih kanopi yang sesuai dengan estetika rumah Anda: <ul> <li>Pilih kanopi yang sesuai dengan warna dan gaya rumah Anda</li> <li>Pertimbangkan bentuk dan ukuran kanopi</li> <li>Pilih kanopi yang memiliki desain yang modern dan elegan</li> </ul>"
+        },
+        {
+          "heading": "5. Mengapa Memilih Mandiri Steel untuk Kanopi Anda?",
+          "content": "Mandiri Steel adalah salah satu perusahaan yang terpercaya dan berpengalaman dalam produksi kanopi. Dengan lebih dari 25 tahun pengalaman, Mandiri Steel memiliki kemampuan untuk memproduksi kanopi yang berkualitas tinggi dan sesuai dengan kebutuhan Anda. <strong>Produk kami</strong> seperti <strong>Kanopi Alderon</strong> (productId: 1) dan <strong>Pagar Minimalis Modern</strong> (productId: 3) telah terbukti memiliki ketahanan yang tinggi dan estetika yang modern. <br> Berikut adalah beberapa alasan mengapa Anda harus memilih Mandiri Steel untuk kanopi Anda: <ul> <li>Kualitas yang tinggi</li> <li>Pengalaman yang luas</li> <li>Harga yang kompetitif</li> </ul>",
+          "productId": 3
+        },
+        {
+          "heading": "6. Layanan dan Garansi yang Ditawarkan oleh Mandiri Steel",
+          "content": "Mandiri Steel menawarkan layanan dan garansi yang komprehensif untuk kanopi Anda. Dengan <strong>garansi struktural</strong> yang kami tawarkan, Anda dapat memiliki ketenangan pikiran bahwa kanopi Anda akan tahan lama dan aman. <strong>Layanan on-site survey</strong> kami juga memastikan bahwa kanopi Anda dipasang dengan benar dan sesuai dengan kebutuhan Anda. <br> Berikut adalah beberapa layanan dan garansi yang kami tawarkan: <ul> <li>Garansi struktural</li> <li>Layanan on-site survey</li> <li>Pengiriman dan pemasangan yang cepat</li> </ul>"
+        }
+      ],
+      "conclusion": "Dalam memilih kanopi untuk rumah tropis di Bekasi, penting untuk mempertimbangkan faktor-faktor seperti ketahanan, harga, dan estetika. Dengan memilih Mandiri Steel sebagai mitra Anda, Anda dapat memiliki kanopi yang berkualitas tinggi dan sesuai dengan kebutuhan Anda. Jangan ragu untuk menghubungi kami untuk mendapatkan informasi lebih lanjut tentang kanopi dan layanan yang kami tawarkan."
+    },
+    "tags": [
+      "Canopy Guide",
+      "bengkel las bekasi",
+      "mandiri steel"
+    ],
+    "published": true,
+    "featured": false
+  },
+  {
     "id": 151,
     "title": "Konstruksi Baja Bekasi",
     "slug": "konstruksi-baja-bekasi-1786575755851",
